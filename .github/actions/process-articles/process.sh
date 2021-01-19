@@ -1,6 +1,7 @@
 #!/bin/bash
 
-FILES=$(echo $CHANGED_FILES | grep "sources/*.docx")
+echo "FILES: $CHANGED_FILES"
+FILES=$(echo $CHANGED_FILES | grep "*.docx")
 echo "Processing...\n$FILES"
 
 for f in $FILES
