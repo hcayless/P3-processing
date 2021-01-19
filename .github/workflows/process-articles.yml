@@ -1,0 +1,22 @@
+name: "Pre-process master file for publication with CETEIcean"
+on: 
+  push:
+    branches:
+      - master
+    paths:
+      # this specifies the path of the file(s) that have to have been pushed
+      # for triggering this action
+      - sources/*.docx
+
+jobs:    
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # This step checks out a copy of your repository.
+      - uses: actions/checkout@v2
+      - run: echo "CHANGED_FILES=$(git diff --name-only ${{ github.event.before }}..${{ github.event.after }})" >> $GITHUB_ENV
+      - uses: ./.github/actions/process-articles
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Converted Word file to TEI
+ 
