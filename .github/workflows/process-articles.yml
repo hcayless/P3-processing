@@ -2,7 +2,7 @@ name: "Convert Word articles to TEI"
 on: 
   push:
     branches:
-      - master
+      - main
     paths:
       # this specifies the path of the file(s) that have to have been pushed
       # for triggering this action
