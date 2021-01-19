@@ -1,4 +1,4 @@
-name: "Pre-process master file for publication with CETEIcean"
+name: "Convert Word articles to TEI"
 on: 
   push:
     branches:
