@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Working in `pwd`"
 if [ -f "$1" ]
 then
   for f in `ls $1/*.lplus` 
