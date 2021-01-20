@@ -2,8 +2,7 @@
 
 echo "BEFORE: $BEFORE"
 echo "AFTER: $AFTER"
-echo "FILES: $CHANGED_FILES"
-FILES=$(echo $CHANGED_FILES | grep "*.docx")
+FILES=$(git diff --name-only `$BEFORE`..`$AFTER`) | grep "*.docx")
 echo "Processing...\n$FILES"
 
 for f in $FILES
