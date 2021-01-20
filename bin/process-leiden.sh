@@ -1,12 +1,9 @@
 #!/bin/bash
 
-echo "articles: `ls articles`"
-echo "$1: ls $1"
 if [ -d "$1" ]
 then
   for f in `ls $1/*.lplus` 
   do
-  echo "Converting $f"
   curl --data-urlencode content@$f \
     -d 'type=epidoc' -d 'direction=nonxml2xml' \
     https://libdc3-dev-03.oit.duke.edu/xsugar/ \
