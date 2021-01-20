@@ -7,6 +7,7 @@ RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   wget \
   curl \
   zip \
+  jq \
   gnupg
 RUN wget https://packages.tei-c.org/deb/tei-c.pub.key.asc 
 RUN apt-key add tei-c.pub.key.asc
