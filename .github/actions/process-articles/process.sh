@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "BEFORE: $BEFORE"
+echo "AFTER: $AFTER"
 echo "FILES: $CHANGED_FILES"
 FILES=$(echo $CHANGED_FILES | grep "*.docx")
 echo "Processing...\n$FILES"
