@@ -153,6 +153,7 @@
   <xsl:template match="t:p[@type='#commentary']" mode="epidoc">
     <xsl:param name="epidoc"/>
     <div type='commentary'>
+      <p><xsl:apply-templates select="node()" mode="comment"/></p>
       <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] = current()][not(@type)]">
         <p><xsl:apply-templates select="node()" mode="comment"/></p>
       </xsl:for-each>
