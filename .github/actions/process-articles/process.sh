@@ -8,7 +8,7 @@ echo "Processing...\n$FILES"
 
 for f in $FILES
 do
-  OUT = $(echo $f | sed 's/\/sources\//\/articles\//' | sed 's/.docx/.xml/')
+  OUT=$(echo $f | sed 's/\/sources\//\/articles\//' | sed 's/.docx/.xml/')
   echo "Converting $f to $OUT-1" 
   docxtotei "$f" "$OUT-1"
   echo "Converting $OUT-1 to $OUT-2"
