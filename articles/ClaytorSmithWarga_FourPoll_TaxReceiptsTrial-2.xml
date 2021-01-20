@@ -30,7 +30,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-01-20T17:44:50Z</date>
+               <date>2021-01-20T18:54:57Z</date>
                <name/>
             </change>
          </listChange>
@@ -65,6 +65,10 @@
                </note>
             </p>
             <table>
+               <head>Table 1. Poll Tax Receipts on Papyrus, 30 BCE – 37 CE<note place="foot" xml:id="ftn10" n="10">
+                     <p> The two orders to issue poll-tax receipts, recently (re)edited by Hagedorn, should be considered together with these receipts: Hagedorn 2013 (n. 7).</p>
+                  </note>
+               </head>
                <row>
                   <cell>No.</cell>
                   <cell>Text</cell>
@@ -156,10 +160,6 @@
                   <cell>Soterichos (χειριστής)</cell>
                   <cell>not mentioned</cell>
                </row>
-               <head>Table 1. Poll Tax Receipts on Papyrus, 30 BCE - 37 CE<note place="foot" xml:id="ftn10" n="10">
-                     <p> The two orders to issue poll-tax receipts, recently (re)edited by Hagedorn, should be considered together with these receipts: Hagedorn 2013 (n. 7).</p>
-                  </note>
-               </head>
             </table>
             <div type="epidoc">
                <head>1. Receipt for Syntaxis<note place="foot" xml:id="ftn11" n="11">
@@ -397,21 +397,41 @@ Year 37 of Caesar, Phaophi 30. Anchorinphis, son of Ischis, paid to Heraklas, th
                   </note>
                </p>
                <figure>
+                  <graphic n="1001"
+                           width="15.239647222222223cm"
+                           height="1.5466694444444444cm"
+                           url="media/image1.jpeg"/>
                   <head>Fig. 1. P.Mil. 12.9, line 3. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.</head>
                </figure>
                <figure>
+                  <graphic n="1002"
+                           width="10.157558333333334cm"
+                           height="1.8944166666666666cm"
+                           url="media/image2.jpeg"/>
                   <head>Fig. 2. Text 3, end of line 3: Συρίωνο(ς) δημ(οσίου) τρα(πεζίτου) Ἀρσι(νοίτου).</head>
                </figure>
                <p style="text-decoration: underline; ">	Before this title, we are left with what should be Alexandros’ father’s name, because the reading υἱοῦ is clear. The editor read this name as Ψω( ),<note place="foot" xml:id="ftn32" n="32">
                      <p> The first edition of P.Mil. 9 has χ(ιριστοῦ) in this position. </p>
                   </note> and we must also reckon with the following letters, because ἀρ(γυρίου) (δρ.) is precluded by the new reading of what follows. In text 2 above, there are two further examples of this name, followed by δημ(οσίου) τρ(απεζίτου). Figures 3-5 allow comparison of all three examples.</p>
                <figure>
+                  <graphic n="1003"
+                           width="7.487708333333333cm"
+                           height="1.8287944444444444cm"
+                           url="media/image3.jpeg"/>
                   <head>Fig. 3. Text 2, line 3.</head>
                </figure>
                <figure>
+                  <graphic n="1004"
+                           width="7.487708333333333cm"
+                           height="2.1082805555555555cm"
+                           url="media/image4.jpeg"/>
                   <head>Fig. 4. Text 2, line 11. The line ends δημ(οσίου); the kappa is raised in abbreviation in the next line’s τριακ(οστοῦ).</head>
                </figure>
                <figure>
+                  <graphic n="1005"
+                           width="8.281458333333333cm"
+                           height="2.1470416666666665cm"
+                           url="media/image5.jpeg"/>
                   <head>Fig. 5. P.Mil. 12.9, line 3 detail. Image published courtesy of the Direzione della Biblioteca di Ateneo dell'Università Cattolica del Sacro Cuore di Milano.</head>
                </figure>
                <p style="text-decoration: underline; ">	The editor’s ἀρ(γυρίου) (δρ.) can be read as αρ( ) or αρα( ), depending on whether the hook is taken as an analphabetic abbreviation or a haken-alpha, as it can be in Ἀλεξά(νδρου) earlier in the line of the Milan papyrus (the editor printed Ἀλεξ(άνδρου)). In either case, this hook is clearly marking an abbreviation, since it is raised in both examples from text 2.  </p>
