@@ -16,6 +16,6 @@ do
   echo "Processing Leiden"
   bin/process-leiden.sh xslt/epidoc
   echo "Converting $OUT-2 to $OUT"
-  saxon -s:"$OUT-2" -xsl:xslt/process-tei-2.xsl -o:"$OUT"
+  saxon -s:"$OUT-2" -xsl:xslt/process-tei-2.xsl -o:"$OUT" "cwd=`pwd`"
   rm "$OUT-1" "$OUT-2"
 done
