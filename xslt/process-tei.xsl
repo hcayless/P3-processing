@@ -124,6 +124,7 @@
   
   <xsl:template match="t:p[@type='#introduction']" mode="epidoc">
     <div type="introduction">
+      <p><xsl:apply-templates/></p>
       <xsl:for-each select="following-sibling::*[preceding-sibling::t:p[@type][1] = current()][not(@type)]">
         <xsl:apply-templates select="."/>
       </xsl:for-each>
