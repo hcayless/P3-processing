@@ -3,6 +3,7 @@ FROM debian:buster-slim
 RUN mkdir /usr/share/man/man1/ 
 RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   apt-transport-https \
+  libsaxonhe-java \
   rename \
   wget \
   curl \
@@ -16,6 +17,9 @@ RUN echo "deb https://packages.tei-c.org/deb/binary ./" >> /etc/apt/sources.list
 RUN apt-get update && apt-get -y install \
   tei-xsl \
   git
+RUN echo "#! /bin/bash" > /usr/local/bin/saxon \
+    && echo "java -jar /usr/share/java/Saxon-HE.jar \$*" >> /usr/local/bin/saxon \
+    && chmod 755 /usr/local/bin/saxon
 RUN mkdir /opt/actions
 COPY process.sh /opt/actions/process.sh
 ENTRYPOINT ["/opt/actions/process.sh"]
