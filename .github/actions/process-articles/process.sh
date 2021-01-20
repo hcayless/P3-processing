@@ -14,9 +14,9 @@ do
   echo "Converting $OUT-1 to $OUT-2"
   saxon -s:"$OUT-1" -xsl:xslt/process-tei.xsl -o:"$OUT-2"
   echo "Processing Leiden"
-  bin/process-leiden.sh xslt/epidoc
+  bin/process-leiden.sh articles/epidoc
   echo "Converting $OUT-2 to $OUT"
   saxon -s:"$OUT-2" -xsl:xslt/process-tei-2.xsl -o:"$OUT" "cwd=`pwd`"
   rm "$OUT-1" "$OUT-2"
-  rm -rf sources/epidoc
+  rm -rf articles/epidoc
 done
