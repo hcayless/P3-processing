@@ -4,6 +4,7 @@ RUN mkdir /usr/share/man/man1/
 RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   apt-transport-https \
   libsaxonhe-java \
+  ant \
   rename \
   wget \
   curl \
