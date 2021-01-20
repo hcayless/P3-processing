@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo "BEFORE=${{ github.event.before }}" >> $GITHUB_ENV
       - run: echo "AFTER=${{ github.event.after }}" >> $GITHUB_ENV
-      - uses: .github/actions/process-articles
+      - uses: ./.github/actions/process-articles
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Converted Word file to TEI
