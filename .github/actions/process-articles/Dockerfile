@@ -22,6 +22,6 @@ RUN echo "#! /bin/bash" > /usr/local/bin/saxon \
     && chmod 755 /usr/local/bin/saxon
 RUN mkdir /opt/actions
 RUN git clone https://github.com/TEIC/Stylesheets.git /opt/Stylesheets
-RUN git --git-dir=/opt/Stylesheets checkout hcayless_P3
+RUN git --git-dir=/opt/Stylesheets/.git --work-dir=/opt/Stylesheets checkout hcayless_P3
 COPY process.sh /opt/actions/process.sh
 ENTRYPOINT ["/opt/actions/process.sh"]
