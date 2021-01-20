@@ -8,7 +8,7 @@ echo "Processing...\n$FILES"
 
 for f in $FILES
 do
-  OUT=$(echo $f | sed 's/\/sources\//\/articles\//' | sed 's/.docx/.xml/')
+  OUT=$(echo $f | sed 's/sources\//articles\//' | sed 's/.docx/.xml/')
   echo "Converting $f to $OUT-1" 
   docxtotei "$f" "$OUT-1"
   echo "Converting $OUT-1 to $OUT-2"
@@ -18,4 +18,5 @@ do
   echo "Converting $OUT-2 to $OUT"
   saxon -s:"$OUT-2" -xsl:xslt/process-tei-2.xsl -o:"$OUT" "cwd=`pwd`"
   rm "$OUT-1" "$OUT-2"
+  rm -rf sources/epidoc
 done

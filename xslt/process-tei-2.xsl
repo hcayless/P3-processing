@@ -33,7 +33,7 @@
           </teiHeader>
           <text>
             <body>
-              <xsl:apply-templates select="doc(concat($cwd,'/xslt/epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
+              <xsl:apply-templates select="doc(concat($cwd,'/sources/epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
             </body>
           </text>
         </TEI>
