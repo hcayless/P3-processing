@@ -12,16 +12,19 @@ do
     exit 1
   fi
   saxon -s:"$OUT-1" -xsl:xslt/process-tei.xsl -o:"$OUT-2"
+  if [ $? -ne 0 ]
   then
     echo "Failure in first post-processing step of $f."
     exit 1
   fi
   bin/process-leiden.sh "`pwd`/articles/epidoc"
+  if [ $? -ne 0 ]
   then
     echo "Leiden+ conversion failed for $f."
     exit 1
   fi
   saxon -s:"$OUT-2" -xsl:xslt/process-tei-2.xsl -o:"$OUT" "cwd=`pwd`"
+  if [ $? -ne 0 ]
   then
     echo "Failed in last processing step of $f."
     exit 1
