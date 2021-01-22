@@ -8,7 +8,7 @@ then
       -d 'type=epidoc' -d 'direction=nonxml2xml' \
       https://libdc3-dev-03.oit.duke.edu/xsugar/ \
       | jq -r .content > $(echo $f | sed 's/.lplus/.xml/')
-    if [ $? -eq 0 ]
+    if [ $? -ne 0 ]
     then
       exit 1
     fi
