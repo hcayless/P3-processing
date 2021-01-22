@@ -30,7 +30,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-01-22T17:00:37Z</date>
+               <date>2021-01-22T17:08:59Z</date>
                <name/>
             </change>
          </listChange>
@@ -65,7 +65,7 @@
                </note>
             </p>
             <table>
-               <head>Table 1. Poll Tax Receipts on Papyrus, 30 BCE - 37 CE<note place="foot" xml:id="ftn10" n="9">
+               <head>Table 1. Poll Tax Receipts on Papyrus, 30 BCE – 37 CE<note place="foot" xml:id="ftn10" n="9">
                      <p> The two orders to issue poll-tax receipts, recently (re)edited by Hagedorn, should be considered together with these receipts: Hagedorn 2013 (n. 7).</p>
                   </note>
                </head>
@@ -529,4 +529,4 @@ Year 37 of Caesar, Phaophi 30. Anchorinphis, son of Ischis, paid to Heraklas, th
     <lb n="8" rend="indent"/><expan>Φα<unclear>μ</unclear><ex>ενὼθ</ex></expan> <num value="26">κ<hi rend="supraline">ϛ</hi></num> <expan><ex cert="low">δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
     <lb n="9"/><expan>Παχ<ex>ὼν</ex></expan> <num value="10"><hi rend="supraline"><unclear>ι</unclear></hi></num> <expan>Φαρμ<ex>οῦθι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="4">δ</num>, <handShift new="m2"/>Παχὼν <gap reason="lost" atLeast="1" atMost="2" unit="character"/>
     <lb n="10"/><expan><unclear>δι</unclear><ex>α</ex>γεγράφηκεν</expan> <unclear>Ἁ</unclear>ρθώτ<unclear>η</unclear><supplied reason="lost">ς</supplied>
-    <lb n="11"/><unclear>εἰς</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <choice><reg><app type="alternative"><lem>σύνταξιν</lem><rdg>συντάξε
+    <lb n="11"/><unclear>εἰς</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <choice><reg><app type="alternative"><lem>σύνταξιν</lem><rdg>συντάξ
