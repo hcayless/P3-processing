@@ -30,7 +30,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-01-22T17:08:59Z</date>
+               <date>2021-01-22T17:26:06Z</date>
                <name/>
             </change>
          </listChange>
@@ -529,4 +529,417 @@ Year 37 of Caesar, Phaophi 30. Anchorinphis, son of Ischis, paid to Heraklas, th
     <lb n="8" rend="indent"/><expan>Φα<unclear>μ</unclear><ex>ενὼθ</ex></expan> <num value="26">κ<hi rend="supraline">ϛ</hi></num> <expan><ex cert="low">δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
     <lb n="9"/><expan>Παχ<ex>ὼν</ex></expan> <num value="10"><hi rend="supraline"><unclear>ι</unclear></hi></num> <expan>Φαρμ<ex>οῦθι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="4">δ</num>, <handShift new="m2"/>Παχὼν <gap reason="lost" atLeast="1" atMost="2" unit="character"/>
     <lb n="10"/><expan><unclear>δι</unclear><ex>α</ex>γεγράφηκεν</expan> <unclear>Ἁ</unclear>ρθώτ<unclear>η</unclear><supplied reason="lost">ς</supplied>
-    <lb n="11"/><unclear>εἰς</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <choice><reg><app type="alternative"><lem>σύνταξιν</lem><rdg>συντάξ
+    <lb n="11"/><unclear>εἰς</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <choice><reg><app type="alternative"><lem>σύνταξιν</lem><rdg>συντάξεις</rdg></app></reg><orig><unclear>σ</unclear>υνταξις</orig></choice> <expan><ex>δραχμὰς</ex></expan> <choice><reg><expan>τέσ<supplied reason="lost">σαρα<ex>ς</ex></supplied></expan></reg><orig><expan>τέ<unclear>σ</unclear><supplied reason="lost">αρε<ex>ς</ex></supplied></expan></orig></choice>
+    <lb n="12"/><supplied reason="lost"><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>,</supplied> <gap reason="lost" extent="unknown" unit="character"/><hi rend="supraline"><gap reason="illegible" quantity="2" unit="character"/></hi> Παῦνι <num value="14">ι<hi rend="supraline">δ</hi></num>
+    <lb n="13"/><supplied reason="lost"><handShift new="m1" cert="low"/><expan>δραχμ<ex>ὰς</ex></expan></supplied> <choice><reg><expan><supplied reason="lost">τέ</supplied>σσαρα<ex>ς</ex></expan></reg><orig><expan><supplied reason="lost">τέ</supplied><unclear>σ</unclear>αρ<unclear>ε</unclear><ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num> <gap reason="lost" extent="unknown" unit="character"/>
+    <lb n="14"/><supplied reason="lost">Ἐπεὶφ</supplied><num atLeast="1" atMost="30"><gap reason="lost" atLeast="1" atMost="2" unit="character"/></num> <expan><ex cert="low">δραχμὰς</ex></expan> <choice><reg><expan>τέσσαρα<ex>ς</ex></expan></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4"><supplied reason="lost">δ</supplied></num>
+    <lb n="15"/><supplied reason="lost">Μεσορὴ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied><unclear>έ</unclear><supplied reason="lost">σ</supplied><unclear>αρας</unclear>, <expan><ex>γίνονται</ex></expan> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num></supplied>
+    <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+    <lb n="16"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div> 
+<div n="v" type="textpart"><ab> 
+    <lb n="17"/><gap reason="lost" quantity="3" unit="character"/> 
+    <lb n="17"/><space extent="unknown" unit="character"/>  
+    <lb n="18"/><abbr><unclear>η</unclear>ια</abbr> π δια<gap reason="illegible" quantity="1" unit="character"/>α 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <ab/>
+            </publicationStmt>
+            <sourceDesc>
+               <ab/>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/><unclear>ἔτους</unclear> <num value="36"><unclear>λϛ</unclear></num> Καίσαρος <expan>Μεχε<ex>ὶρ</ex></expan> <num value="2"><hi rend="supraline">β</hi></num> <expan>δ<ex>ιέ</ex>γρ<ex>αψεν</ex></expan>
+    <lb n="2"/><supplied reason="lost">Ἀν</supplied>χ<unclear>όρινφις</unclear> Ἰσχῖτος <expan>Ἡρακ<ex>λᾷ</ex></expan> τῶι
+    <lb n="3"/><supplied reason="lost">πα</supplied><unclear>ρὰ</unclear> <expan><ex cert="low">Πτολεμαί</ex>ο<ex>υ</ex></expan> <abbr>Αρ<unclear>α</unclear></abbr> <expan><unclear>δημ</unclear><ex>οσίου</ex></expan> <expan>τρ<ex>απεζίτου</ex></expan> εἰς <expan>συντάξ<ex>ιμον</ex></expan> τοῦ <expan>α<ex>ὐτοῦ</ex></expan> <expan><ex>ἔτους</ex></expan>
+    <lb n="4"/><unclear>Ἀ</unclear><supplied reason="lost">π</supplied>ιάδ<unclear>ο</unclear>ς <expan>ἀργ<ex>υρίου</ex></expan> <expan><ex>δραχμὰς</ex></expan> <choice><reg><num value="8">ὀκτώ</num></reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> καὶ <expan>τῆ<ex>ι</ex></expan>
+    <lb n="5"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/> <unclear>τ</unclear>οῦ <expan>Φαρ<ex>μοῦθι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>
+    <lb n="6"/>κ<unclear>αὶ</unclear> <expan>τῆ<ex>ι</ex></expan> <num value="23"><hi rend="supraline">κ<unclear>γ</unclear></hi></num> τοῦ <expan>Πα<ex>ῦνι</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>
+    <lb n="7"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num> κ<unclear>α</unclear>ὶ <expan>τῆ<ex>ι</ex></expan> <num><hi rend="supraline">α</hi></num> τοῦ Μεσορ<unclear>ὴ</unclear> <expan><ex>δραχμὰς</ex></expan> <choice><reg><num value="8">ὀκτώ</num></reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice>,
+    <lb n="8"/><expan><ex>γίνονται</ex></expan> <supplied reason="lost"><expan><ex>δραχμαὶ</ex></expan></supplied> <num value="8"><supplied reason="lost">η</supplied></num>
+    <lb n="9"/>ἔτους <num value="37">λ<unclear>ζ</unclear></num> <expan>Καίσ<ex>αρος</ex></expan> <expan>Φαῶ<ex>φι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>δ<ex>ι</ex>έγρ<ex>αψεν</ex></expan>
+    <lb n="10"/>Ἀ<unclear>ν</unclear>χόρινφις <subst><add place="inline">Ἰσχῖτος</add><del rend="corrected">Ἰσχυτος</del></subst>
+    <lb n="11"/>Ἡρ<unclear>ακλᾷ</unclear> <unclear>τῶι</unclear> <unclear>παρὰ</unclear> <expan><ex cert="low">Πτολεμαί</ex>ο<ex>υ</ex></expan> <abbr>Αρ<unclear>α</unclear></abbr> <expan>δημ<ex>οσίου</ex></expan>
+    <lb n="12"/><expan>τ<unclear>ρ</unclear><ex>απεζίτου</ex></expan> <supplied reason="lost">εἰ<supplied reason="omitted">ς</supplied></supplied> <expan><supplied reason="lost">σ</supplied><unclear>υντ</unclear>ά<ex>ξιμον</ex></expan> τοῦ ἕκτου καὶ <subst><add place="inline"><expan>τριακ<ex>οστοῦ</ex></expan></add><del rend="corrected"><expan><gap reason="illegible" quantity="2" unit="character"/>ιακ<ex>οστοῦ</ex></expan></del></subst>
+    <lb n="13"/><expan><ex>ἔτους</ex></expan> <unclear>α</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <expan><ex cert="low">δραχμὰς</ex></expan> <num value="4"><expan>τέσσερα<ex>ς</ex></expan></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <ab/>
+            </publicationStmt>
+            <sourceDesc>
+               <ab/>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/>ἔτους <num value="40">μ</num> Καίσαρος, <expan>Χοι<ex>ὰκ</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>δ<ex>ι</ex>έγρ<ex>αψεν</ex></expan>
+    <lb n="2"/>Μαρσίσουχος Μαρρείους Ἡρακλᾷ
+    <lb n="3"/>τῶι παρὰ <expan>Συρίωνο<ex>ς</ex></expan> <expan>δημ<ex>οσίου</ex></expan> <expan>τρα<ex>πεζίτου</ex></expan> <expan>Ἀρσι<ex>νοίτου</ex></expan>
+    <lb n="4"/>εἰ<supplied reason="omitted">ς</supplied> <expan><unclear>σ</unclear>υ<unclear>ντά</unclear><ex>ξιμον</ex></expan> <unclear>τοῦ</unclear> <expan><unclear>α</unclear><ex>ὐτοῦ</ex></expan> <expan><ex>ἔτους</ex></expan> <expan>Θεαδελ<ex>φείας</ex></expan> <expan>ἀργυ<ex>ρίου</ex></expan> <expan>ῥ<unclear>υπ</unclear><ex>αροῦ</ex></expan>
+    <lb n="5"/><choice><reg><supplied reason="lost">ὀ</supplied>κτώ</reg><orig><expan><supplied reason="lost">ὀ</supplied>κτώ<ex>ι</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> καὶ τῆι <num value="10"><hi rend="supraline"><unclear>ι</unclear></hi></num> τοῦ <expan>Τ<ex>ῦ</ex>β<ex>ι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>,
+    <lb n="6"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num> καὶ <expan>τῆ<ex>ι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> <expan>το<ex>ῦ</ex></expan> <expan>Τ<ex>ῦ</ex>β<ex>ι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+    <lb n="7"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num value="29">κ<unclear>θ</unclear></num> τοῦ <expan>Φαρμοῦ<ex>θι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+    <lb n="8"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num value="30"><hi rend="supraline">λ</hi></num> τοῦ <expan>Φαρμοῦ<ex>θι</ex></expan> <choice><reg><num value="4"><expan>τέσσαρα<ex>ς</ex></expan></num></reg><orig><expan>τέσαρε<ex>ς</ex></expan></orig></choice>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>
+    <lb n="9"/>καὶ <expan>τῆ<ex>ι</ex></expan> <num atLeast="21" atMost="29"><unclear>κ</unclear><gap reason="illegible" quantity="1" unit="character"/></num> τοῦ <expan>Πα<ex>ῦνι</ex></expan> <num value="12">δεκαδύο</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>
+    <lb n="10"/><supplied reason="lost">καὶ</supplied> <expan>τῆ<ex>ι</ex></expan> <num value="28">κ<hi rend="supraline">η</hi></num> τοῦ Ἐπεὶφ <expan><ex>δραχμὰς</ex></expan> <choice><reg>ὀκτώ</reg><orig><expan>ὀκτώ<ex>ι</ex></expan></orig></choice> <num value="1/2">𐅵</num> <num value="2"><expan><ex>δίχαλκον</ex></expan></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="8">η</num> <num value="1/2">𐅵</num> <num value="2"><expan><ex>δίχαλκον</ex></expan></num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <ab/>
+            </publicationStmt>
+            <sourceDesc>
+               <ab/>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+    <lb n="1"/>ἔτους <num value="11">ια</num> Tιβερίου Kαίσαρος
+    <lb n="2"/>Σεβαστοῦ μηνὸς Ν<supplied reason="lost">έ</supplied>oυ Σεβαστοῦ <num value="30"><hi rend="supraline"><unclear>λ</unclear></hi></num>
+    <lb n="3"/><expan>δι<unclear>έ</unclear>γρα<ex>ψεν</ex></expan> Ἡρα<unclear>κλ</unclear>ᾷ <expan>χ<unclear>ει</unclear><ex>ριστῇ</ex></expan> Ἁρθώτης
+    <lb n="4"/>Μαρρ<unclear>ε</unclear><supplied reason="lost">ίο</supplied><unclear>υς</unclear> <expan><unclear>συ</unclear>ντα<ex>ξίμου</ex></expan> τοῦ δεκάτου
+    <lb n="5"/>ἔτους <expan>Θεαδελφ<ex>είας</ex></expan> <expan>ἀργ<ex>υρίου</ex></expan> <expan><unclear>ῥ</unclear>υ<ex>παροῦ</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="20">εἴκοσι</num>,
+    <lb n="6"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="20">κ</num>, Μεχ<unclear>ε</unclear><supplied reason="lost">ὶρ</supplied> <hi rend="supraline"><gap reason="illegible" quantity="1" unit="character"/></hi> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>,
+    <lb n="7"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>, Φαρμ<unclear>ο</unclear><supplied reason="lost">ῦ</supplied><unclear>θι</unclear> <hi rend="supraline">κδ</hi> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέσσαρας</num>,
+    <lb n="8"/><expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>, <num value="30"><hi rend="supraline">λ</hi></num> <expan>μετ<ex>ὰ</ex></expan> <expan>λ<ex>όγον</ex></expan> <num value="8"><hi rend="supraline">η</hi></num> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέσσαρας</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>,
+    <lb n="9"/>Παῦνι <num value="9"><hi rend="supraline">θ</hi></num> <expan><ex>δραχμὰς</ex></expan> <num value="4">τέ<supplied reason="lost">σσ</supplied>αρα<supplied reason="lost">ς</supplied></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="4">δ</num>.
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI type="HGV">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaxis</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">703274</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P. Heid. inv. G 1026</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">13.5</measure>
+                              <measure type="width" unit="cm">10</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>Nov., 16 - Aug., 15 BCE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName n="1">Theadelpheia</placeName>
+                        </p>
+                     </provenance>
+                     <provenance type="acquired">
+                        <p>
+                           <date>1959</date>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="figure">
+               <p>
+                  <figure n="1">
+                     <graphic url="https://digi.ub.uni-heidelberg.de/diglit/p_g_1026"/>
+                  </figure>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI type="HGV">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">703275</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P. Mich inv. 1986</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">19</measure>
+                              <measure type="width" unit="cm">10.25</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>27 Jan. - 28 Oct., 7 CE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName n="1">Apias</placeName>
+                        </p>
+                     </provenance>
+                     <provenance type="acquired">
+                        <p>
+                           <date>1924</date>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI type="HGV">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">703276</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Mich. inv. 4187</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">27</measure>
+                              <measure type="width" unit="cm">10.7</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>26 Dec., 10 - 22 Jul., 11 CE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName n="1">Theadelpheia</placeName>
+                        </p>
+                     </provenance>
+                     <provenance type="acquired">
+                        <p>
+                           <date>1959</date>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI type="HGV">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for Syntaximon</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">703277</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.CtYBR inv. 340</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">9.4</measure>
+                              <measure type="width" unit="cm">14.7</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>27 Oct., 24 - 3 Jun., 25 CE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p>
+                           <placeName n="1">Theadelpheia</placeName>
+                        </p>
+                     </provenance>
+                     <provenance type="acquired">
+                        <p>
+                           <date>1931</date>
+                        </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+                  <term n="3">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+</TEI>
