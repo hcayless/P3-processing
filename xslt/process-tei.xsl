@@ -17,6 +17,11 @@
     
   <xsl:template match="t:body">
     <xsl:variable name="pass1"><xsl:apply-templates select="t:p|t:table|t:list|t:figure" mode="pass1"/></xsl:variable>
+    <xsl:result-document href="pass1.xml">
+      <div>
+        <xsl:copy-of select="$pass1"/>
+      </div>
+    </xsl:result-document>
     <xsl:copy>
       <xsl:apply-templates select="$pass1/*[@type][1]" mode="pass2"/>
     </xsl:copy>
@@ -59,7 +64,7 @@
   <xsl:template match="t:p[@type = '#articleTitle']" mode="pass2">
     <div type="article">
       <head><xsl:apply-templates select="node()"/></head>
-      <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] = current()]">
+      <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] is current()]">
         <xsl:copy>
           <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
@@ -125,7 +130,7 @@
   <xsl:template match="t:p[@type='#introduction']" mode="epidoc">
     <div type="introduction">
       <p><xsl:apply-templates/></p>
-      <xsl:for-each select="following-sibling::*[preceding-sibling::t:p[@type][1] = current()][not(@type)]">
+      <xsl:for-each select="following-sibling::*[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
         <xsl:apply-templates select="."/>
       </xsl:for-each>
     </div>
@@ -133,9 +138,8 @@
   </xsl:template>
   
   <xsl:template match="t:p[@type='#text']" mode="epidoc">
-    <xsl:param name="epidoc"/>
     <div type='edition'>
-      <xsl:variable name="content"><xsl:value-of select="normalize-space(.)"/><xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] = current()][not(@type)]"><xsl:text>
+      <xsl:variable name="content"><xsl:value-of select="normalize-space(.)"/><xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]"><xsl:text>
 </xsl:text><xsl:value-of select="."/></xsl:for-each></xsl:variable>
       <xsl:result-document href="epidoc/{count(preceding-sibling::t:p[@type='#text'])}.lplus" method="text"><xsl:copy-of select="$content"/></xsl:result-document>
     </div>
@@ -143,19 +147,17 @@
   </xsl:template>
   
   <xsl:template match="t:p[@type='#translation']" mode="epidoc">
-    <xsl:param name="epidoc"/>
     <div type='translation'>
-      <ab><xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] = current()][not(@type)]"><xsl:text>
+      <ab><xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]"><xsl:text>
 </xsl:text><xsl:value-of select="."/></xsl:for-each></ab>
     </div>
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#commentary']" mode="epidoc">
-    <xsl:param name="epidoc"/>
     <div type='commentary'>
       <p><xsl:apply-templates select="node()" mode="comment"/></p>
-      <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] = current()][not(@type)]">
+      <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
         <p><xsl:apply-templates select="node()" mode="comment"/></p>
       </xsl:for-each>
     </div>
@@ -173,18 +175,5 @@
   </xsl:template>
   
   <xsl:template match="@rend"/>
-  
-  <!--<xsl:template match="t:body">
-    <xsl:for-each select="t:sectionHeadings(.)">
-      <xsl:choose>
-        <xsl:when test="map:keys(.) = '#articleTitle'">
-          <div type="article">
-            <head><xsl:apply-templates select="map:get(., '#articleTitle')/following-sibling::t:p[1]/node()"/></head>
-            
-          </div>
-        </xsl:when>
-      </xsl:choose>
-    </xsl:for-each>
-  </xsl:template>-->
   
 </xsl:stylesheet>
