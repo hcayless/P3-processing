@@ -14,12 +14,17 @@
   <xsl:template match="/">
     <xsl:apply-templates/>
   </xsl:template>
-    
+      
   <xsl:template match="t:body">
     <xsl:variable name="pass1"><xsl:apply-templates select="t:p|t:table|t:list|t:figure" mode="pass1"/></xsl:variable>
-    <xsl:copy>
+    <front>
+      <docTitle>
+        <titlePart type="MainTitle"><xsl:apply-templates select="$pass1//t:p[@type='#articleTitle']/node()"/></titlePart>
+      </docTitle>
+    </front>
+    <body>
       <xsl:apply-templates select="$pass1/*[@type][1]" mode="pass2"/>
-    </xsl:copy>
+    </body>
   </xsl:template>
   
   <xsl:template match="t:seg" mode="#all">
@@ -58,7 +63,6 @@
   
   <xsl:template match="t:p[@type = '#articleTitle']" mode="pass2">
     <div type="article">
-      <head><xsl:apply-templates select="node()"/></head>
       <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] is current()]">
         <xsl:copy>
           <xsl:apply-templates select="node()|@*"/>

@@ -11,9 +11,17 @@
   <xsl:output indent="yes"/>
   <xsl:param name="cwd"/>
   
+  <xsl:template match="t:fileDesc/t:titleStmt/t:title">
+    <xsl:copy>
+      <xsl:apply-templates select="//t:front/t:docTitle/t:titlePart[@type='MainTitle']/text()"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="t:TEI">
-    <xsl:processing-instruction name="xml-model">href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
-    <xsl:processing-instruction name="xml-model">href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction>
+    <xsl:processing-instruction name="xml-model">href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction><xsl:text>
+</xsl:text>
+    <xsl:processing-instruction name="xml-model">href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction><xsl:text>
+</xsl:text>
     <xsl:copy>
       <xsl:apply-templates/>
       <xsl:for-each select="//t:div[@type='edition']">
@@ -21,7 +29,7 @@
           <teiHeader>
             <fileDesc>
               <titleStmt>
-                <title></title>
+                <title/>
               </titleStmt>
               <publicationStmt>
                 <ab/>
