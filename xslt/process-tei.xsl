@@ -161,8 +161,15 @@
   </xsl:template>
   
   <xsl:template match="t:p[@type='#text']" mode="epidoc">
+    <xsl:variable name="start" select="if (starts-with(.,'&lt;S=')) then . else following-sibling::t:p[starts-with(.,'&lt;S=')][1]"/>
     <div type='edition'>
-      <xsl:variable name="content"><xsl:value-of select="normalize-space(.)"/><xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]"><xsl:text>
+      <xsl:if test=". ne $start">
+        <head>
+          <xsl:copy-of select="node()"/>
+          <xsl:for-each select="following-sibling::t:p[following-sibling::t:p = $start]"><xsl:copy-of select="node()"/></xsl:for-each>
+        </head>
+      </xsl:if>
+      <xsl:variable name="content"><xsl:value-of select="normalize-space($start)"/><xsl:for-each select="$start/following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]"><xsl:text>
 </xsl:text><xsl:value-of select="."/></xsl:for-each></xsl:variable>
       <xsl:result-document href="epidoc/{count(preceding-sibling::t:p[@type='#text'])}.lplus" method="text"><xsl:copy-of select="$content"/></xsl:result-document>
     </div>

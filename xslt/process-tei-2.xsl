@@ -375,6 +375,7 @@
   
   <xsl:template match="div[@type='edition']" mode="import">
     <xsl:param name="id" tunnel="yes"/>
+    <xsl:copy-of select="t:head"/>
     <xsl:element name="{local-name(.)}" namespace="http://www.tei-c.org/ns/1.0">
       <xsl:attribute name="xml:id" select="$id"></xsl:attribute>
       <xsl:copy-of select="@*"/>
