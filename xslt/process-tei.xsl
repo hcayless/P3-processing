@@ -9,7 +9,7 @@
   <xsl:mode on-no-match="shallow-copy"/>
   <xsl:output indent="yes"/>
   
-  <xsl:variable name="sectionHeadingTypes" select="('#articleTitle','#articleParagraphs','#articleHeader','#edition','#editionHeader','#metadata','#introduction','#text','#translation','#commentary','#corrections')"/>
+  <xsl:variable name="sectionHeadingTypes" select="('#affiliation','#articleTitle','#articleHeader','#author','#commentary','#corrections','#edition','#email','#introduction','#metadata','#text','#textHeader','#translation')"/>
   
   <xsl:template match="/">
     <xsl:apply-templates/>
@@ -17,13 +17,16 @@
       
   <xsl:template match="t:body">
     <xsl:variable name="pass1"><xsl:apply-templates select="t:p|t:table|t:list|t:figure" mode="pass1"/></xsl:variable>
+    <!--<xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>-->
     <front>
       <docTitle>
         <titlePart type="MainTitle"><xsl:apply-templates select="$pass1//t:p[@type='#articleTitle']/node()"/></titlePart>
       </docTitle>
     </front>
     <body>
-      <xsl:apply-templates select="$pass1/*[@type][1]" mode="pass2"/>
+      <div type="article">
+        <xsl:apply-templates select="$pass1/*[@type][1]" mode="pass2"/>
+      </div>
     </body>
   </xsl:template>
   
@@ -35,10 +38,17 @@
     <xsl:apply-templates/>
   </xsl:template>
   
+  <xsl:template match="t:not[@place]">
+    <xsl:copy>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="t:p|t:table" mode="pass1">
+    <xsl:variable name="text" select="normalize-space(string-join(.//text()))"/>
     <xsl:choose>
-      <xsl:when test="normalize-space(string-join(.//text())) = '#edition'"><p type="edition"/></xsl:when>
-      <xsl:when test="normalize-space(string-join(.//text())) = $sectionHeadingTypes"/>
+      <xsl:when test="starts-with($text,'#edition') and not(ends-with($text, 'Header'))"><p type="edition" subtype="{substring-after($text, 'edition')}"/></xsl:when>
+      <xsl:when test="$text = $sectionHeadingTypes"/>
       <xsl:when test="preceding-sibling::*[1]/normalize-space(string-join(.//text())) = $sectionHeadingTypes">
         <xsl:copy>
           <xsl:apply-templates select="@*"/>
@@ -61,17 +71,15 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="t:p[@type = '#articleTitle']" mode="pass2">
-    <div type="article">
-      <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] is current()]">
-        <xsl:copy>
-          <xsl:apply-templates select="node()|@*"/>
-        </xsl:copy>
-      </xsl:for-each>
-      <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
-    </div>
+  <xsl:template match="t:p[@type='#affiliation']" mode="pass2">
+    <affiliation><xsl:apply-templates/></affiliation>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
   </xsl:template>
   
+  <xsl:template match="t:p[@type = '#articleTitle']" mode="pass2">
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
+  </xsl:template>
+    
   <xsl:template match="t:p[@type='#articleHeader']" mode="pass2">
     <div type="section">
       <head><xsl:apply-templates select="node()"/></head>
@@ -85,7 +93,12 @@
     <xsl:apply-templates select="following-sibling::t:table[@type='#corrections'][1]" mode="pass2"/>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#editionHeader']" mode="pass2">
+  <xsl:template match="t:p[@type='#author']" mode="pass2">
+    <author><xsl:apply-templates/></author>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
+  </xsl:template>
+  
+  <xsl:template match="t:p[@type='#articleHeader']" mode="pass2">
     <div type="section">
       <head><xsl:apply-templates select="node()"/></head>
       <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] = current()]">
@@ -101,10 +114,15 @@
   </xsl:template>
   
   <xsl:template match="t:p[@type='edition']" mode="pass2">
-    <div type="epidoc">
+    <div type="epidoc" subtype="{@subtype}">
       <xsl:apply-templates select="following-sibling::*[@type = '#metadata'][1]" mode="epidoc"/>
     </div>
-    <xsl:apply-templates select="following-sibling::*[@type = ('edition','#editionHeader')][1]" mode="pass2"/>
+    <xsl:apply-templates select="following-sibling::*[@type = ('edition','#articleHeader')][1]" mode="pass2"/>
+  </xsl:template>
+  
+  <xsl:template match="t:p[@type='#email']" mode="pass2">
+    <email><xsl:apply-templates/></email>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="t:table[@type='#corrections']" mode="pass2">
@@ -119,10 +137,16 @@
     <xsl:copy>
       <xsl:apply-templates/>
     </xsl:copy>
-    <head>
-      <xsl:apply-templates select="following-sibling::t:p[string-length(normalize-space(.)) gt 0][1]/node()"/>
-      <xsl:apply-templates select="following-sibling::t:table[1]"/>
-    </head>
+    <xsl:for-each select="following-sibling::*[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
+      <xsl:choose>
+        <xsl:when test="self::t:p[string-length(normalize-space(.)) gt 0]">
+          <head><xsl:apply-templates/></head>
+        </xsl:when>
+        <xsl:when test="self::t:table">
+          <head><xsl:apply-templates/></head>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:for-each>
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
   </xsl:template>
   
@@ -147,8 +171,9 @@
   
   <xsl:template match="t:p[@type='#translation']" mode="epidoc">
     <div type='translation'>
-      <ab><xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]"><xsl:text>
-</xsl:text><xsl:value-of select="."/></xsl:for-each></ab>
+      <xsl:variable name="content"><xsl:value-of select="normalize-space(.)"/><xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]"><xsl:text>
+</xsl:text><xsl:value-of select="."/></xsl:for-each></xsl:variable>
+      <xsl:result-document href="translations/{count(preceding-sibling::t:p[@type='#translation'])}.lplus" method="text"><xsl:copy-of select="$content"/></xsl:result-document>
     </div>
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
   </xsl:template>

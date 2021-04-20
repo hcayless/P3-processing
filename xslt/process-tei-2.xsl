@@ -11,9 +11,20 @@
   <xsl:output indent="yes"/>
   <xsl:param name="cwd"/>
   
-  <xsl:template match="t:fileDesc/t:titleStmt/t:title">
+  <xsl:template match="t:fileDesc/t:titleStmt">
     <xsl:copy>
-      <xsl:apply-templates select="//t:front/t:docTitle/t:titlePart[@type='MainTitle']/text()"/>
+      <title><xsl:apply-templates select="//t:front/t:docTitle/t:titlePart[@type='MainTitle']/text()"/></title>
+      <xsl:for-each select="//t:author">
+        <author>
+          <name><xsl:apply-templates/></name>
+          <xsl:for-each select="following-sibling::t:affiliation[preceding-sibling::t:author[1] is current()]">
+            <xsl:copy-of select="."/>
+          </xsl:for-each>
+          <xsl:for-each select="following-sibling::t:email[preceding-sibling::t:author[1] is current()]">
+            <xsl:copy-of select="."/>
+          </xsl:for-each>
+        </author>
+      </xsl:for-each>
     </xsl:copy>
   </xsl:template>
   
@@ -24,145 +35,336 @@
 </xsl:text>
     <xsl:copy>
       <xsl:apply-templates/>
-      <xsl:for-each select="//t:div[@type='edition']">
-        <TEI>
-          <teiHeader>
-            <fileDesc>
-              <titleStmt>
-                <title/>
-              </titleStmt>
-              <publicationStmt>
-                <ab/>
-              </publicationStmt>
-              <sourceDesc>
-                <ab/>
-              </sourceDesc>
-            </fileDesc>
-          </teiHeader>
-          <text>
-            <body>
-              <xsl:apply-templates select="doc(concat($cwd,'/articles/epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
-            </body>
-          </text>
-        </TEI>
-      </xsl:for-each>
-      <xsl:for-each select="//t:div[@type='epidoc']/t:table[1]">
-        <TEI type="HGV">
-          <teiHeader>
-            <fileDesc>
-              <titleStmt>
-                <title><xsl:value-of select="fn:get-value(.,'Descriptive title')"/></title>
-              </titleStmt>
-              <publicationStmt>
-                <authority>Papyri.info</authority>
-                <idno type="TM"><xsl:value-of select="fn:get-value(.,'TM number')"/></idno>
-              </publicationStmt>
-              <sourceDesc>
-                <msDesc>
-                  <msIdentifier>
-                    <repository/>
-                    <idno type="invNo"><xsl:value-of select="fn:get-value(.,'Inventory no.')"/></idno>
-                  </msIdentifier>
-                  <xsl:if test="fn:has-value(.,'Material')"><physDesc>
-                    <objectDesc>
-                      <supportDesc>
-                        <support>
-                          <material>Papyrus</material>
-                          <xsl:if test="fn:has-value(.,'Dimensions: height')">
-                            <measure type="height" unit="cm"><xsl:value-of select="fn:get-value(.,'Dimensions: height')"/></measure>
-                          </xsl:if>
-                          <xsl:if test="fn:has-value(.,'Dimensions: width')">
-                            <measure type="width" unit="cm"><xsl:value-of select="fn:get-value(.,'Dimensions: width')"/></measure>
-                          </xsl:if>
-                        </support>
-                      </supportDesc>
-                    </objectDesc>
-                  </physDesc></xsl:if>
-                  <history>
-                    <xsl:if test="fn:has-value(.,'Date of text')"><origin>
-                      <origDate><xsl:value-of select="fn:get-value(.,'Date of text')"/></origDate>
-                    </origin></xsl:if>
-                    <xsl:if test="fn:has-value(.,'Provenance')"><provenance type="located">
-                      <p>
-                        <xsl:for-each select="tokenize(fn:get-value(.,'Provenance'),', ')">
-                          <placeName n="{position()}"><xsl:value-of select="."/></placeName>
-                        </xsl:for-each>
-                      </p>
-                    </provenance></xsl:if>
-                    <xsl:if test="fn:has-value(.,'Acquisition: Date') or fn:has-value(.,'Acquisition: Place')">
-                      <provenance type="acquired">
-                        <p>
-                          <xsl:for-each select="tokenize(fn:get-value(.,'Acquisition: Place'),', ')">
-                            <placeName n="{position()}"><xsl:value-of select="."/></placeName>
-                          </xsl:for-each>
-                          <xsl:if test="fn:has-value(.,'Acquisition: Date')">
-                            <date><xsl:value-of select="fn:get-value(.,'Acquisition: Date')"/></date>
-                          </xsl:if>
-                        </p>
-                      </provenance>
-                    </xsl:if>
-                  </history>
-                </msDesc>
-              </sourceDesc>
-            </fileDesc>
-            <encodingDesc>
-              <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
-            </encodingDesc>
-            <profileDesc>
-              <langUsage>
-                <language ident="fr">Französisch</language>
-                <language ident="en">Englisch</language>
-                <language ident="de">Deutsch</language>
-                <language ident="it">Italienisch</language>
-                <language ident="es">Spanisch</language>
-                <language ident="la">Latein</language>
-                <language ident="el">Griechisch</language>
-              </langUsage>
-              <xsl:if test="fn:has-value(.,'Keywords')"><textClass>
-                <keywords scheme="hgv">
-                  <xsl:for-each select="tokenize(fn:get-value(.,'Keywords'),', ')">
-                    <term n="{position()}"><xsl:value-of select="."/></term>
-                  </xsl:for-each>
-                </keywords>
-              </textClass></xsl:if>
-            </profileDesc>
-          </teiHeader>
-          <text>
-            <body>
-              <div type="bibliography" subtype="principalEdition">
-                
-              </div>
-              <xsl:if test="fn:has-value(.,'Previous editions')"><div type="bibliography" subtype="otherPublications">
-                <head>Andere Publikation</head>
-                <listBibl>
-                  <xsl:for-each select="tokenize(fn:get-value(.,'Previous editions'),'\n')">
-                    <bibl type="publication" subtype="other"><xsl:value-of select="."/></bibl>
-                  </xsl:for-each>
-                </listBibl>
-              </div></xsl:if>
-              <xsl:if test="fn:has-value(.,'Images')"><div type="figure">
-                <p>
-                  <xsl:for-each select="tokenize(fn:get-value(.,'Images'),'\n')">
-                    <figure n="{position()}">
-                      <graphic url="{.}"/>
-                    </figure>
-                  </xsl:for-each>
-                </p>
-              </div></xsl:if>
-            </body>
-          </text>
-          
-        </TEI>
+      <xsl:for-each select="//t:div[@type='epidoc']">
+        <xsl:choose>
+          <xsl:when test="@subtype='DDB'">
+            <xsl:call-template name="HGV"/>
+            <xsl:call-template name="DDB"/>
+            <xsl:if test="t:div[@type='translation']">
+              <xsl:variable name="metadata" select="t:table[1]"/>
+              <xsl:for-each select="t:div[@type='translation']">
+                <xsl:call-template name="translation">
+                  <xsl:with-param name="metadata" select="$metadata"/>
+                  <xsl:with-param name="type">DDB</xsl:with-param>
+                </xsl:call-template>
+              </xsl:for-each>
+            </xsl:if>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="DCLP"/>
+            <xsl:if test="t:div[@type='translation']">
+              <xsl:variable name="metadata" select="t:table[1]"/>
+              <xsl:for-each select="t:div[@type='translation']">
+                <xsl:call-template name="translation">
+                  <xsl:with-param name="metadata" select="$metadata"/>
+                  <xsl:with-param name="type">DCLP</xsl:with-param>
+                </xsl:call-template>
+              </xsl:for-each>
+            </xsl:if>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:for-each>
     </xsl:copy>
-        
+  </xsl:template>
+  
+  <xsl:template name="DDB">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+      <teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title><xsl:value-of select="fn:get-value(t:table[1],'Descriptive title')"/></title>
+          </titleStmt>
+          <publicationStmt>
+            <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+            <idno type="filename"><xsl:value-of select="fn:get-value(t:table[1],'ddb-filename')"/></idno>
+            <idno type="ddb-hybrid"><xsl:value-of select="fn:get-value(t:table[1],'ddb-hybrid')"/></idno>
+            <idno type="HGV"><xsl:value-of select="fn:HGV(t:table[1])"/></idno>
+            <idno type="TM"><xsl:value-of select="fn:get-value(t:table[1],'TM number')"/></idno>
+            <availability>
+              <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+          </publicationStmt>
+          <sourceDesc>
+            <p/>
+          </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+          <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+            <language ident="la">Latin</language>
+          </langUsage>
+        </profileDesc>
+      </teiHeader>
+      <text>
+        <body>
+          <head xml:lang="en"><xsl:value-of select="fn:get-value(t:table[1],'Descriptive title')"/></head>
+          <xsl:apply-templates select="doc(concat($cwd,'/articles/epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
+        </body>
+      </text>
+    </TEI>
+    
+  </xsl:template>
+  
+  <xsl:template name="DCLP">
+    <TEI xml:lang="en">
+      <teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title><xsl:value-of select="fn:get-value(t:table[1],'Descriptive title')"/></title>
+          </titleStmt>
+          <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="filename"><xsl:value-of select="fn:get-value(t:table[1],'TM number')"/></idno>
+            <idno type="dclp"><xsl:value-of select="fn:get-value(t:table[1],'TM number')"/></idno>
+            <xsl:if test="fn:has-value(t:table[1],'dclp-hybrid')">
+              <idno type="dclp-hybrid"><xsl:value-of select="fn:get-value(t:table[1],'dclp-hybrid')"/></idno>
+            </xsl:if>
+            <idno type="TM"><xsl:value-of select="fn:get-value(t:table[1],'TM number')"/></idno>
+            <availability>
+              <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+          </publicationStmt>
+          <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                <xsl:choose>
+                  <xsl:when test="fn:has-value(t:table[1],'Inventory no.')">
+                    <idno type="invNo"><xsl:value-of select="fn:get-value(t:table[1],'Inventory no.')"/></idno>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <placeName>
+                      <settlement><xsl:value-of select="fn:get-value(t:table[1],'Provenance')"/></settlement>
+                    </placeName>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </msIdentifier>
+              <xsl:if test="fn:has-value(t:table[1],'Material')">
+                <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <material>Papyrus</material>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+              </physDesc>
+              </xsl:if>
+              <history>
+                <origin>
+                  <origPlace><xsl:choose>
+                    <xsl:when test="fn:has-value(t:table[1],'Provenance')">
+                      <xsl:value-of select="fn:get-value(t:table[1],'Provenance')"/>
+                    </xsl:when>
+                    <xsl:otherwise>unbekannt</xsl:otherwise></xsl:choose></origPlace>
+                  <origDate><xsl:choose>
+                    <xsl:when test="fn:has-value(t:table[1],'Date of text')">
+                      <xsl:value-of select="fn:get-value(t:table[1],'Date of text')"/>
+                    </xsl:when>
+                    <xsl:otherwise>unbekannt</xsl:otherwise>
+                  </xsl:choose></origDate>
+                </origin>
+              </history>
+            </msDesc>
+          </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+          <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+          </p>
+        </encodingDesc>
+        <profileDesc>
+          <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+          </langUsage>
+        </profileDesc>
+      </teiHeader>
+      <text>
+        <body>
+          <head xml:lang="en"><xsl:value-of select="fn:get-value(t:table[1],'Descriptive title')"/></head>
+          <xsl:apply-templates select="doc(concat($cwd,'/articles/epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
+        </body>
+      </text>
+    </TEI>
+  </xsl:template>
+  
+  <xsl:template name="HGV">
+    <TEI>
+      <teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title><xsl:value-of select="fn:get-value(t:table[1],'Descriptive title')"/></title>
+          </titleStmt>
+          <publicationStmt>
+            <authority>Papyri.info</authority>
+            <idno type="TM"><xsl:value-of select="fn:get-value(t:table[1],'TM number')"/></idno>
+            <xsl:if test="fn:has-value(t:table[1],'ddb-hybrid')">
+              <idno type="ddb-hybrid"><xsl:value-of select="fn:get-value(t:table[1],'ddb-hybrid')"/></idno>
+            </xsl:if>
+          </publicationStmt>
+          <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                <repository/>
+                <idno type="invNo"><xsl:value-of select="fn:get-value(t:table[1],'Inventory no.')"/></idno>
+              </msIdentifier>
+              <xsl:if test="fn:has-value(t:table[1],'Material')"><physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <material>Papyrus</material>
+                      <xsl:if test="fn:has-value(t:table[1],'Dimensions: height')">
+                        <measure type="height" unit="cm"><xsl:value-of select="fn:get-value(.,'Dimensions: height')"/></measure>
+                      </xsl:if>
+                      <xsl:if test="fn:has-value(t:table[1],'Dimensions: width')">
+                        <measure type="width" unit="cm"><xsl:value-of select="fn:get-value(.,'Dimensions: width')"/></measure>
+                      </xsl:if>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+              </physDesc></xsl:if>
+              <history>
+                <xsl:if test="fn:has-value(t:table[1],'Date of text')"><origin>
+                  <origDate><xsl:value-of select="fn:get-value(t:table[1],'Date of text')"/></origDate>
+                </origin></xsl:if>
+                <xsl:if test="fn:has-value(t:table[1],'Provenance')"><provenance type="located">
+                  <p>
+                    <xsl:for-each select="tokenize(fn:get-value(t:table[1],'Provenance'),', ')">
+                      <placeName n="{position()}"><xsl:value-of select="."/></placeName>
+                    </xsl:for-each>
+                  </p>
+                </provenance></xsl:if>
+                <xsl:if test="fn:has-value(t:table[1],'Acquisition: Date') or fn:has-value(t:table[1],'Acquisition: Place')">
+                  <provenance type="acquired">
+                    <p>
+                      <xsl:for-each select="tokenize(fn:get-value(t:table[1],'Acquisition: Place'),', ')">
+                        <placeName n="{position()}"><xsl:value-of select="."/></placeName>
+                      </xsl:for-each>
+                      <xsl:if test="fn:has-value(t:table[1],'Acquisition: Date')">
+                        <date><xsl:value-of select="fn:get-value(.,'Acquisition: Date')"/></date>
+                      </xsl:if>
+                    </p>
+                  </provenance>
+                </xsl:if>
+              </history>
+            </msDesc>
+          </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+          <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+        </encodingDesc>
+        <profileDesc>
+          <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+          </langUsage>
+          <xsl:if test="fn:has-value(t:table[1],'Keywords')"><textClass>
+            <keywords scheme="hgv">
+              <xsl:for-each select="tokenize(fn:get-value(t:table[1],'Keywords'),', ')">
+                <term n="{position()}"><xsl:value-of select="."/></term>
+              </xsl:for-each>
+            </keywords>
+          </textClass></xsl:if>
+        </profileDesc>
+      </teiHeader>
+      <text>
+        <body>
+          <div type="bibliography" subtype="principalEdition">
+          </div>
+          <xsl:if test="fn:has-value(t:table[1],'Previous editions')"><div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+              <xsl:for-each select="tokenize(fn:get-value(t:table[1],'Previous editions'),'\n')">
+                <bibl type="publication" subtype="other"><xsl:value-of select="."/></bibl>
+              </xsl:for-each>
+            </listBibl>
+          </div></xsl:if>
+          <xsl:if test="fn:has-value(t:table[1],'Images')"><div type="figure">
+            <p>
+              <xsl:for-each select="tokenize(fn:get-value(t:table[1],'Images'),'\n')">
+                <figure n="{position()}">
+                  <graphic url="{.}"/>
+                </figure>
+              </xsl:for-each>
+            </p>
+          </div></xsl:if>
+        </body>
+      </text>
+    </TEI>
+  </xsl:template>
+  
+  <xsl:template name="translation">
+    <xsl:param name="metadata"/>
+    <xsl:param name="type">DDB</xsl:param>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+      <teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title type="main"><xsl:value-of select="fn:get-value($metadata,'Descriptive title')"/></title>
+          </titleStmt>
+          <publicationStmt>
+            <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+            <idno type="filename"><xsl:value-of select="fn:HGV($metadata)"/></idno>
+            <idno type="TM"><xsl:value-of select="fn:get-value($metadata,'TM number')"/></idno>
+            <xsl:if test="$type eq 'DDB'">
+              <idno type="HGV"><xsl:value-of select="fn:HGV($metadata)"/></idno>
+            </xsl:if>
+            <xsl:if test="fn:has-value($metadata,'ddb-hybrid')">
+              <idno type="ddb-hybrid"><xsl:value-of select="fn:get-value($metadata,'TM number')"/></idno>
+            </xsl:if>
+            <availability>
+              <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+          </publicationStmt>
+          <sourceDesc>
+            <p>The contents of this document are generated from SOSOL.</p>
+          </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+          <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+            <language ident="ar">Arabisch</language>
+          </langUsage>
+        </profileDesc>
+      </teiHeader>
+      <text>
+        <xsl:apply-templates select="doc(concat($cwd,'/articles/translations/',count(preceding::t:div[@type='translation']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('trans',count(preceding::t:div[@type='translation']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
+      </text>
+    </TEI>
+    
   </xsl:template>
   
   <xsl:template match="t:div[@type='edition']">
     <div copyOf="#ed{count(preceding::t:div[@type='edition']) + 1}"/>
   </xsl:template>
   
+  <xsl:template match="t:div[@type='translation']">
+    <div copyOf="#trans{count(preceding::t:div[@type='translation']) + 1}"/>
+  </xsl:template>
+  
   <xsl:template match="t:div[@type='epidoc']/t:table[1]"/>
+  
+  <xsl:template match="t:author"/>
+  <xsl:template match="t:affiliation"/>
+  <xsl:template match="t:email"/>
   
   <xsl:template match="*" mode="import">
     <xsl:element name="{local-name(.)}" namespace="http://www.tei-c.org/ns/1.0">
@@ -179,17 +381,38 @@
       <xsl:apply-templates select="node()" mode="import"/>
     </xsl:element>
   </xsl:template>
+
+  <xsl:template match="div[@type='translation']" mode="import">
+    <xsl:param name="id" tunnel="yes"/>
+    <xsl:element name="{local-name(.)}" namespace="http://www.tei-c.org/ns/1.0">
+      <xsl:attribute name="xml:id" select="$id"></xsl:attribute>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates select="node()" mode="import"/>
+    </xsl:element>
+  </xsl:template>
   
   <xsl:function name="fn:has-value" as="xs:boolean">
     <xsl:param name="table"/>
     <xsl:param name="key"/>
-    <xsl:sequence select="$table/t:row[t:cell[1]/normalize-space() eq $key]/t:cell[2]/normalize-space() ne ''"/>
+    <xsl:sequence select="exists($table/t:row[t:cell[1]/normalize-space() eq $key]) and $table/t:row[t:cell[1]/normalize-space() eq $key]/t:cell[2]/normalize-space() ne ''"/>
   </xsl:function>
   
   <xsl:function name="fn:get-value">
     <xsl:param name="table"/>
     <xsl:param name="key"/>
     <xsl:value-of select="$table/t:row[t:cell[1]/normalize-space() eq $key]/t:cell[2]"/>
+  </xsl:function>
+  
+  <xsl:function name="fn:HGV">
+    <xsl:param name="table"/>
+    <xsl:choose>
+      <xsl:when test="$table/t:row[t:cell[1]/normalize-space() eq 'HGV number']/t:cell">
+        <xsl:value-of select="$table/t:row[t:cell[1]/normalize-space() eq 'HGV number']/t:cell[2]"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$table/t:row[t:cell[1]/normalize-space() eq 'TM number']/t:cell[2]"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
   
 </xsl:stylesheet>

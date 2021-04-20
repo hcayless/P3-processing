@@ -5,7 +5,7 @@ FILES=$(git diff --name-only $BEFORE..$AFTER | grep ".docx")
 for f in $FILES
 do
   OUT=$(echo $f | sed 's/sources\//articles\//' | sed 's/.docx/.xml/')
-  /opt/Stylesheets/bin/docxtotei "$f" "$OUT-1"
+  docxtotei "$f" "$OUT-1"
   if [ $? -ne 0 ]
   then
     echo "Failed to convert $f to TEI."
@@ -17,7 +17,13 @@ do
     echo "Failure in first post-processing step of $f."
     exit 1
   fi
-  bin/process-leiden.sh "`pwd`/articles/epidoc"
+  bin/process-leiden.sh "`pwd`/articles/epidoc" epidoc
+  if [ $? -ne 0 ]
+  then
+    echo "Leiden+ conversion failed for $f."
+    exit 1
+  fi
+  bin/process-leiden.sh "`pwd`/articles/translations" translation_epidoc
   if [ $? -ne 0 ]
   then
     echo "Leiden+ conversion failed for $f."
