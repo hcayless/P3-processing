@@ -17,7 +17,7 @@
       
   <xsl:template match="t:body">
     <xsl:variable name="pass1"><xsl:apply-templates select="t:p|t:table|t:list|t:figure" mode="pass1"/></xsl:variable>
-    <xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>
+    <!--<xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>-->
     <front>
       <docTitle>
         <titlePart type="MainTitle"><xsl:apply-templates select="$pass1//t:p[@type='#articleTitle']/node()"/></titlePart>
