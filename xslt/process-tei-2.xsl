@@ -101,6 +101,7 @@
       <text>
         <body>
           <head xml:lang="en"><xsl:value-of select="fn:get-value(t:table[1],'Descriptive title')"/></head>
+          <xsl:copy-of select="t:div[@type='edition']/t:head"/>
           <xsl:apply-templates select="doc(concat($cwd,'/articles/epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
         </body>
       </text>
@@ -204,6 +205,7 @@
           <publicationStmt>
             <authority>Papyri.info</authority>
             <idno type="TM"><xsl:value-of select="fn:get-value(t:table[1],'TM number')"/></idno>
+            <idno type="HGV"><xsl:value-of select="fn:HGV(t:table[1])"/></idno>
             <xsl:if test="fn:has-value(t:table[1],'ddb-hybrid')">
               <idno type="ddb-hybrid"><xsl:value-of select="fn:get-value(t:table[1],'ddb-hybrid')"/></idno>
             </xsl:if>
@@ -375,7 +377,6 @@
   
   <xsl:template match="div[@type='edition']" mode="import">
     <xsl:param name="id" tunnel="yes"/>
-    <xsl:copy-of select="t:head"/>
     <xsl:element name="{local-name(.)}" namespace="http://www.tei-c.org/ns/1.0">
       <xsl:attribute name="xml:id" select="$id"></xsl:attribute>
       <xsl:copy-of select="@*"/>
