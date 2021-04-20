@@ -37,4 +37,5 @@ do
   fi
   rm "$OUT-1" "$OUT-2"
   rm -rf articles/epidoc
+  rm -rf articles/translations
 done
