@@ -37,7 +37,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-04-20T20:23:00Z</date>
+               <date>2021-04-20T20:42:26Z</date>
                <name/>
             </change>
          </listChange>
@@ -60,7 +60,7 @@
                   <p> See http://www.bl.uk/manuscripts/Viewer.aspx?ref=papyrus_763_f001r for an image. </p>
                </note> On the other hand, the other slave included in that papyrus is said to be 30, which only increases one’s suspicions about accuracy. The same is true of <ref target="http://papyri.info/ddbdp/p.thmouis;1;1">P.Thmouis 1 113.18</ref>, the 50-year-old slave, another round number but unimpeachable reading.<note place="foot" xml:id="ftn5" n="4">
                   <p> See http://www.psi-online.it/images/orig/PSI%20I%20107.jpg?1184955346 for an image.</p>
-               </note> The reading in the case of the last of these, however, is far from secure. </p>
+               </note> The reading in the case of the last of these, however, is far from secure.  </p>
             <p>This was published by Carl Wessely in SPP 22, and dated to the second-third century. Apart from one minor note rejecting Wessely’s correction of [ὠ]νουμένη in l. 7 (BL 3.238, Lewald), no critical attention was paid to it until P. J. Sijpesteijn devoted a few lines of a brief note on “Nachlese zu Wiener Texten” to it (<ref target="HYPERLINK">Sijpesteijn 1983</ref>: 134; BL 8.483), providing a corrected text of ll. 8-10, with small corrections to ll. 1 and 13-14. He did not, however, call into question the supposed age 51 in l. 13. Both digits are dotted in Wessely’s text, however, and it seemed worth checking the correctness of this reading. In the process, a few other points proved to need correcting.</p>
             <div type="epidoc" subtype="DDB">
                <div copyOf="#ed1"/>
@@ -91,6 +91,7 @@
             <publicationStmt>
                <authority>Papyri.info</authority>
                <idno type="TM">27638</idno>
+               <idno type="HGV">27638</idno>
                <idno type="ddb-hybrid">pylon;1;1</idno>
             </publicationStmt>
             <sourceDesc>
@@ -163,6 +164,8 @@
       <text>
          <body>
             <head xml:lang="en">SPP 22.60 Revisited</head>
+            <head>updates <ref target="https://papyri.info/ddbdp/stud.pal;22;60">stud.pal;22;60</ref>
+            </head>
             <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
 <ab>
 <lb n="1"/>Παμμενει <expan>στρ<ex>ατηγῷ</ex></expan> <expan>Ἀθριβ<ex>ίτου</ex></expan>
