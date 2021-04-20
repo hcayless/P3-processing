@@ -17,7 +17,7 @@
       
   <xsl:template match="t:body">
     <xsl:variable name="pass1"><xsl:apply-templates select="t:p|t:table|t:list|t:figure" mode="pass1"/></xsl:variable>
-    <!--<xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>-->
+    <xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>
     <front>
       <docTitle>
         <titlePart type="MainTitle"><xsl:apply-templates select="$pass1//t:p[@type='#articleTitle']/node()"/></titlePart>
@@ -25,7 +25,7 @@
     </front>
     <body>
       <div type="article">
-        <xsl:apply-templates select="$pass1/*[@type][1]" mode="pass2"/>
+        <xsl:apply-templates select="$pass1/*[@type = '#articleTitle']" mode="pass2"/>
       </div>
     </body>
   </xsl:template>
@@ -73,11 +73,18 @@
   
   <xsl:template match="t:p[@type='#affiliation']" mode="pass2">
     <affiliation><xsl:apply-templates/></affiliation>
-    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type = '#articleTitle']" mode="pass2">
-    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
+    <xsl:for-each select="following-sibling::t:p[@type = ('#author','#affiliation','#email')]">
+      <xsl:apply-templates select="." mode="pass2"/>
+    </xsl:for-each>
+    <xsl:for-each select="following-sibling::t:p[not(@type)][following-sibling::*[@type][1] = current()/following-sibling::*[@type][not(@type = ('#author','#affiliation','#email'))][1]]">
+      <xsl:copy>
+        <xsl:apply-templates select="node()|@*"/>
+      </xsl:copy>
+    </xsl:for-each>
+    <xsl:apply-templates select="following-sibling::*[@type][not(@type = ('#author','#affiliation','#email'))][1]" mode="pass2"/>
   </xsl:template>
     
   <xsl:template match="t:p[@type='#articleHeader']" mode="pass2">
@@ -95,7 +102,6 @@
   
   <xsl:template match="t:p[@type='#author']" mode="pass2">
     <author><xsl:apply-templates/></author>
-    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#articleHeader']" mode="pass2">
@@ -122,7 +128,6 @@
   
   <xsl:template match="t:p[@type='#email']" mode="pass2">
     <email><xsl:apply-templates/></email>
-    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="t:table[@type='#corrections']" mode="pass2">
