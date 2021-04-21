@@ -9,7 +9,7 @@
   <xsl:mode on-no-match="shallow-copy"/>
   <xsl:output indent="yes"/>
   
-  <xsl:variable name="sectionHeadingTypes" select="('#affiliation','#articleTitle','#articleHeader','#author','#commentary','#corrections','#edition','#email','#introduction','#metadata','#text','#textHeader','#translation')"/>
+  <xsl:variable name="sectionHeadingTypes" select="('#affiliation','#articleTitle','#articleHeader','#author','#bibliography','#commentary','#corrections','#edition','#email','#introduction','#metadata','#text','#textHeader','#translation')"/>
   
   <xsl:template match="/">
     <xsl:apply-templates/>
@@ -192,20 +192,31 @@
   
   <xsl:template match="t:p[@type='#commentary']" mode="epidoc">
     <div type='commentary'>
-      <p><xsl:apply-templates select="node()" mode="comment"/></p>
+      <p><xsl:apply-templates select="text()[1]" mode="comment"/><xsl:apply-templates select="text()[1]/following-sibling::node()"/></p>
       <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
-        <p><xsl:apply-templates select="node()" mode="comment"/></p>
+        <p><xsl:apply-templates select="text()[1]" mode="comment"/><xsl:apply-templates select="text()[1]/following-sibling::node()"/></p>
       </xsl:for-each>
     </div>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
   </xsl:template>
   
-  <xsl:template match="*[not(@type = ('#metadata','#text','#introduction','#translation','#commentary'))]" mode="epidoc"/>
+  <xsl:template match="t:p[@type='#bibliography']" mode="epidoc">
+    <div type='bibliography'>
+      <p><xsl:apply-templates select="node()"/></p>
+      <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
+        <p><xsl:apply-templates select="node()"/></p>
+      </xsl:for-each>
+    </div>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
+  </xsl:template>
+  
+  <xsl:template match="*[not(@type = ('#metadata','#text','#introduction','#translation','#commentary','#bibliography'))]" mode="epidoc"/>
   
   <xsl:template match="t:p" mode="pass2"/>
   
   <xsl:template match="text()" mode="comment">
     <xsl:choose>
-      <xsl:when test="matches(.,'^\d+\t')"><ref><xsl:value-of select="substring-before(.,'&#x09;')"/></ref><xsl:value-of select="substring-after(.,'&#x09;')"/></xsl:when>
+      <xsl:when test="matches(.,'^\t?\d+[-–0-9]*\s+')"><ref><xsl:value-of select="replace(.,'^\t?(\d+[-–0-9]*)\s.*','$1')"/></ref><xsl:value-of select="replace(.,'^\t?\d+[-–0-9]*\s+(.*)$','$1')"/></xsl:when>
       <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
