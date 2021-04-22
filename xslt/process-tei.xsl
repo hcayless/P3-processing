@@ -9,7 +9,9 @@
   <xsl:mode on-no-match="shallow-copy"/>
   <xsl:output indent="yes" suppress-indentation="p ref"/>
   
-  <xsl:variable name="sectionHeadingTypes" select="('#affiliation','#articleTitle','#articleHeader','#author','#bibliography','#commentary','#corrections','#edition','#email','#introduction','#metadata','#text','#textHeader','#translation')"/>
+  <xsl:variable name="sectionHeadingTypes" select="('#acknowledgment','#affiliation','#articleTitle','#articleHeader',
+    '#author','#bibliography','#commentary','#corrections','#edition','#email','#introduction','#metadata','#text',
+    '#translation')"/>
   
   <xsl:template match="/">
     <xsl:apply-templates/>
