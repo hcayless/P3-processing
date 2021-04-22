@@ -255,10 +255,10 @@
                     <support>
                       <material>Papyrus</material>
                       <xsl:if test="fn:has-value(t:table[1],'Dimensions: height')">
-                        <measure type="height" unit="cm"><xsl:value-of select="fn:get-value(.,'Dimensions: height')"/></measure>
+                        <measure type="height" unit="cm"><xsl:value-of select="fn:get-value(t:table[1],'Dimensions: height')"/></measure>
                       </xsl:if>
                       <xsl:if test="fn:has-value(t:table[1],'Dimensions: width')">
-                        <measure type="width" unit="cm"><xsl:value-of select="fn:get-value(.,'Dimensions: width')"/></measure>
+                        <measure type="width" unit="cm"><xsl:value-of select="fn:get-value(t:table[1],'Dimensions: width')"/></measure>
                       </xsl:if>
                     </support>
                   </supportDesc>
