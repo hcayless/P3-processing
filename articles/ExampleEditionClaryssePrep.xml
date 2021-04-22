@@ -32,7 +32,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-04-20T20:22:54Z</date>
+               <date>2021-04-20T20:42:20Z</date>
                <name/>
             </change>
          </listChange>
@@ -74,6 +74,7 @@
             <publicationStmt>
                <authority>Papyri.info</authority>
                <idno type="TM">874372</idno>
+               <idno type="HGV">874372</idno>
                <idno type="ddb-hybrid">pylon;1;2</idno>
             </publicationStmt>
             <sourceDesc>
