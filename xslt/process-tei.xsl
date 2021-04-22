@@ -7,7 +7,7 @@
   version="3.0">
   
   <xsl:mode on-no-match="shallow-copy"/>
-  <xsl:output indent="yes"/>
+  <xsl:output indent="yes" suppress-indentation="p ref"/>
   
   <xsl:variable name="sectionHeadingTypes" select="('#affiliation','#articleTitle','#articleHeader','#author','#bibliography','#commentary','#corrections','#edition','#email','#introduction','#metadata','#text','#textHeader','#translation')"/>
   
@@ -202,9 +202,11 @@
   
   <xsl:template match="t:p[@type='#bibliography']" mode="epidoc">
     <div type='bibliography'>
-      <p><xsl:apply-templates select="node()"/></p>
+      <listBibl>
+        <bibl><xsl:apply-templates select="node()"/></bibl>
+      </listBibl>
       <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
-        <p><xsl:apply-templates select="node()"/></p>
+        <bibl><xsl:apply-templates select="node()"/></bibl>
       </xsl:for-each>
     </div>
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
@@ -214,12 +216,10 @@
   
   <xsl:template match="t:p" mode="pass2"/>
   
-  <xsl:template match="text()" mode="comment">
-    <xsl:choose>
-      <xsl:when test="matches(.,'^\t?\d+[-–0-9]*\s+')"><ref><xsl:value-of select="replace(.,'^\t?(\d+[-–0-9]*)\s.*','$1')"/></ref><xsl:value-of select="replace(.,'^\t?\d+[-–0-9]*\s+(.*)$','$1')"/></xsl:when>
+  <xsl:template match="text()" mode="comment" xml:space="preserve"><xsl:choose>
+      <xsl:when test="matches(.,'^\t?\d+[-–.0-9]*\s+')"><ref><xsl:value-of select="replace(.,'^\t?(\d+[-–.0-9]*)\s.*','$1')"/></ref> <xsl:value-of select="replace(.,'^\t?\d+[-–.0-9]*\s+(.*)$','$1')"/></xsl:when>
       <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
+    </xsl:choose></xsl:template>
   
   <xsl:template match="@rend"/>
   
