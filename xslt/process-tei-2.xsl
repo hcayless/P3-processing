@@ -206,6 +206,9 @@
             <authority>Papyri.info</authority>
             <idno type="TM"><xsl:value-of select="fn:get-value(t:table[1],'TM number')"/></idno>
             <idno type="HGV"><xsl:value-of select="fn:HGV(t:table[1])"/></idno>
+            <xsl:if test="fn:has-value(t:table[1],'ddb-filename')">
+              <idno type="ddb-filename"><xsl:value-of select="fn:get-value(t:table[1],'ddb-filename')"/></idno>
+            </xsl:if>
             <xsl:if test="fn:has-value(t:table[1],'ddb-hybrid')">
               <idno type="ddb-hybrid"><xsl:value-of select="fn:get-value(t:table[1],'ddb-hybrid')"/></idno>
             </xsl:if>
