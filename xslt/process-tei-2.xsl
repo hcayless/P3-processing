@@ -8,7 +8,7 @@
   version="3.0">
   
   <xsl:mode on-no-match="shallow-copy"/>
-  <xsl:output indent="yes"/>
+  <xsl:output indent="yes" suppress-indentation="p"/>
   <xsl:param name="cwd"/>
   
   <xsl:template match="t:fileDesc/t:titleStmt">
