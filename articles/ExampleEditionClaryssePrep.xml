@@ -9,6 +9,11 @@
             <author>
                <name/>
             </author>
+            <author>
+               <name>Clarysse, Willy</name>
+               <affiliation>Katholieke Universiteit Leuven, Oude Markt 13, 3000 Leuven</affiliation>
+               <email>willy.clarysse@kuleuven.be</email>
+            </author>
          </titleStmt>
          <editionStmt>
             <edition>
@@ -32,7 +37,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-04-22T14:40:57Z</date>
+               <date>2021-04-22T15:14:09Z</date>
                <name/>
             </change>
          </listChange>
