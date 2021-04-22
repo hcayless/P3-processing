@@ -144,17 +144,21 @@
                   </xsl:otherwise>
                 </xsl:choose>
               </msIdentifier>
-              <xsl:if test="fn:has-value(t:table[1],'Material')">
-                <physDesc>
+              <xsl:if test="fn:has-value(t:table[1],'Material')"><physDesc>
                 <objectDesc>
                   <supportDesc>
                     <support>
                       <material>Papyrus</material>
+                      <xsl:if test="fn:has-value(t:table[1],'Dimensions: height')">
+                        <measure type="height" unit="cm"><xsl:value-of select="fn:get-value(.,'Dimensions: height')"/></measure>
+                      </xsl:if>
+                      <xsl:if test="fn:has-value(t:table[1],'Dimensions: width')">
+                        <measure type="width" unit="cm"><xsl:value-of select="fn:get-value(.,'Dimensions: width')"/></measure>
+                      </xsl:if>
                     </support>
                   </supportDesc>
                 </objectDesc>
-              </physDesc>
-              </xsl:if>
+              </physDesc></xsl:if>
               <history>
                 <origin>
                   <origPlace><xsl:choose>
@@ -169,6 +173,25 @@
                     <xsl:otherwise>unbekannt</xsl:otherwise>
                   </xsl:choose></origDate>
                 </origin>
+                <xsl:if test="fn:has-value(t:table[1],'Provenance')"><provenance type="located">
+                  <p>
+                    <xsl:for-each select="tokenize(fn:get-value(t:table[1],'Provenance'),', ')">
+                      <placeName n="{position()}"><xsl:value-of select="."/></placeName>
+                    </xsl:for-each>
+                  </p>
+                </provenance></xsl:if>
+                <xsl:if test="fn:has-value(t:table[1],'Acquisition: Date') or fn:has-value(t:table[1],'Acquisition: Place')">
+                  <provenance type="acquired">
+                    <p>
+                      <xsl:for-each select="tokenize(fn:get-value(t:table[1],'Acquisition: Place'),', ')">
+                        <placeName n="{position()}"><xsl:value-of select="."/></placeName><xsl:if test="position() ne last()">, </xsl:if>
+                      </xsl:for-each>
+                      <xsl:if test="fn:has-value(.,'Acquisition: Date')">
+                        <date><xsl:value-of select="fn:get-value(t:table[1],'Acquisition: Date')"/></date>
+                      </xsl:if>
+                    </p>
+                  </provenance>
+                </xsl:if>
               </history>
             </msDesc>
           </sourceDesc>
@@ -184,6 +207,13 @@
             <language ident="en">English</language>
             <language ident="grc">Greek</language>
           </langUsage>
+          <xsl:if test="fn:has-value(t:table[1],'Keywords')"><textClass>
+            <keywords scheme="hgv">
+              <xsl:for-each select="tokenize(fn:get-value(.,'Keywords'),', ')">
+                <term n="{position()}"><xsl:value-of select="."/></term>
+              </xsl:for-each>
+            </keywords>
+          </textClass></xsl:if>
         </profileDesc>
       </teiHeader>
       <text>
