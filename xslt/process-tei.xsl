@@ -102,6 +102,11 @@
     <xsl:apply-templates select="following-sibling::t:table[@type='#corrections'][1]" mode="pass2"/>
   </xsl:template>
   
+  <xsl:template match="t:p[@type='#acknowledgement']" mode="pass2">
+    <note type="acknowledgements"><xsl:apply-templates select="following-sibling::t:p[1]"></xsl:apply-templates>    </note>
+    <xsl:apply-templates select="following-sibling::t:p[2]" mode="pass2"/>
+  </xsl:template>
+  
   <xsl:template match="t:p[@type='#author']" mode="pass2">
     <author><xsl:apply-templates/></author>
   </xsl:template>

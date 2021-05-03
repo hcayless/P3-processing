@@ -67,6 +67,13 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="t:p[not(ancestor::t:note)]">
+    <xsl:copy>
+      <xsl:attribute name="xml:id">p<xsl:value-of select="count(preceding::t:p[not(ancestor::t:note)]) + 1"/></xsl:attribute>
+      <xsl:apply-templates select="node()|@*"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template name="DDB">
     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
       <teiHeader>
