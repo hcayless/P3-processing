@@ -106,21 +106,6 @@
     <author><xsl:apply-templates/></author>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#articleHeader']" mode="pass2">
-    <div type="section">
-      <head><xsl:apply-templates select="node()"/></head>
-      <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] = current()]">
-        <xsl:copy>
-          <xsl:apply-templates select="node()|@*"/>
-        </xsl:copy>
-      </xsl:for-each>
-      <xsl:if test="following-sibling::*[@type][1]/@type = 'edition'">
-        <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
-      </xsl:if>
-    </div>
-    <xsl:apply-templates select="following-sibling::t:p[@type='#articleHeader'][1]" mode="pass2"/>
-  </xsl:template>
-  
   <xsl:template match="t:p[@type='edition']" mode="pass2">
     <div type="epidoc" subtype="{@subtype}">
       <xsl:apply-templates select="following-sibling::*[@type = '#metadata'][1]" mode="epidoc"/>

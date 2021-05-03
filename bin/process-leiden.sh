@@ -8,7 +8,7 @@ then
       -d "type=$2" -d 'direction=nonxml2xml' \
       https://libdc3-dev-03.oit.duke.edu/xsugar/ \
       > $1/result.json
-      if [ `jq 'has("exception")' $1/result.json` == "true" ]
+      if [ "`jq 'has("exception")' $1/result.json`" == "true" ]
       then
         echo "XSugar conversion error converting:"
         echo "`cat $f`"
