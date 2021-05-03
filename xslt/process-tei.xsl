@@ -97,6 +97,7 @@
           <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
       </xsl:for-each>
+      <xsl:apply-templates select="following-sibling::t:p[@type][1]" mode="pass2"/>
     </div>
     <xsl:apply-templates select="following-sibling::t:p[@type='#articleHeader'][1]" mode="pass2"/>
     <xsl:apply-templates select="following-sibling::t:table[@type='#corrections'][1]" mode="pass2"/>
@@ -158,7 +159,7 @@
   </xsl:template>
   
   <xsl:template match="t:p[@type='#text']" mode="epidoc">
-    <xsl:variable name="start" select="if (starts-with(.,'&lt;S=')) then . else following-sibling::t:p[starts-with(.,'&lt;S=')][1]"/>
+    <xsl:variable name="start" select="if (starts-with(normalize-space(.),'&lt;S=')) then . else following-sibling::t:p[starts-with(.,'&lt;S=')][1]"/>
     <div type='edition'>
       <xsl:if test=". ne $start">
         <head>
