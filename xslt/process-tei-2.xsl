@@ -9,7 +9,6 @@
   
   <xsl:mode on-no-match="shallow-copy"/>
   <xsl:output indent="yes" suppress-indentation="p"/>
-  <xsl:param name="cwd"/>
   
   <xsl:template match="t:fileDesc/t:titleStmt">
     <xsl:copy>
@@ -112,7 +111,7 @@
         <body>
           <head xml:lang="en"><xsl:value-of select="fn:get-value(t:table[1],'Descriptive title')"/></head>
           <xsl:copy-of select="t:div[@type='edition']/t:head"/>
-          <xsl:apply-templates select="doc(concat($cwd,'/articles/epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
+          <xsl:apply-templates select="doc(concat('epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
         </body>
       </text>
     </TEI>
@@ -228,7 +227,7 @@
       <text>
         <body>
           <head xml:lang="en"><xsl:value-of select="fn:get-value(t:table[1],'Descriptive title')"/></head>
-          <xsl:apply-templates select="doc(concat($cwd,'/articles/epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
+          <xsl:apply-templates select="doc(concat('epidoc/',count(preceding::t:div[@type='edition']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('ed',count(preceding::t:div[@type='edition']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
         </body>
       </text>
     </TEI>
@@ -390,7 +389,7 @@
         </profileDesc>
       </teiHeader>
       <text>
-        <xsl:apply-templates select="doc(concat($cwd,'/articles/translations/',count(preceding::t:div[@type='translation']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('trans',count(preceding::t:div[@type='translation']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
+        <xsl:apply-templates select="doc(concat('translations/',count(preceding::t:div[@type='translation']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('trans',count(preceding::t:div[@type='translation']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
       </text>
     </TEI>
   </xsl:template>

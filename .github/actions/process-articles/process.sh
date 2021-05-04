@@ -30,7 +30,7 @@ do
     echo "Leiden+ conversion failed for $f."
     exit 1
   fi
-  saxon -s:"$OUT-2" -xsl:xslt/process-tei-2.xsl -o:"$OUT" "cwd=`pwd`"
+  saxon -s:"$OUT-2" -xsl:xslt/process-tei-2.xsl -o:"$OUT"
   if [ $? -ne 0 ]
   then
     echo "Failed in last processing step of $f."
