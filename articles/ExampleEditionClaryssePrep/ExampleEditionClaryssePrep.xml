@@ -24,7 +24,7 @@
             <p xml:id="p1">unknown</p>
          </publicationStmt>
          <sourceDesc>
-            <p xml:id="p2">Converted from a Word document</p>
+            <p xml:id="p1">Converted from a Word document</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -37,7 +37,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-05-04T19:27:24Z</date>
+               <date>2021-05-04T19:47:22Z</date>
                <name/>
             </change>
          </listChange>
@@ -53,17 +53,17 @@
          <div type="article">
             <div type="epidoc" subtype="DDB">
                <div type="introduction">
-                  <p xml:id="p3">Pinkish clay with yellow wash and grey inside. The text is broken off at the top, but complete at bottom.</p>
+                  <p xml:id="p1">Pinkish clay with yellow wash and grey inside. The text is broken off at the top, but complete at bottom.</p>
                </div>
                <div copyOf="#ed1"/>
                <div copyOf="#trans1"/>
                <div type="commentary">
-                  <p xml:id="p4"><ref>3.</ref> Sekonias seems to be a new name, perhaps linked with Shekhaniah (<ref target="https://papyri.info/biblio/95744">T. Ilan, Lexicon of Jewish names in late Antiquity, Tübingen, 2002-2011</ref>; I, p. 214).</p>
-                  <p xml:id="p5"><ref>4.</ref> Somoelos is a variant of Samuel (more often Samoelos), a common name in Palestine (26 examples in <ref target="https://papyri.info/biblio/95744">Ilan</ref>, Lexicon cit. in comm. on l. 3, I, pp. 215-216 and several in Egypt before the Christian period). The variant is used for two translators of the LXX, in CIJ <ref target="https://epigraphy.packhum.org/text/227826">1451</ref> and <ref target="https://epigraphy.packhum.org/text/227844">1469</ref> (Leontopolis; <ref target="https://papyri.info/biblio/95744">Ilan</ref>, Lexicon cit. in comm. on l. 3, III, p. 162), in <ref target="http://papyri.info/ddbdp/p.cair.zen;3;59509">P.Cair.Zen. 3 59509.1</ref> and <ref target="https://www.papyri.info/ddbdp/bgu;9;1893">BGU 9 1893.297</ref>.</p>
-                  <p xml:id="p6">Σαλαμα( ), clearly marked as an abbreviation, is probably to be expanded into Σαλαμά(νιος). For this Aramaic name (<ref target="http://www.trismegistos.org/name/11903">TM Nam 11903</ref>), attested in <ref target="http://papyri.info/ddbdp/sb;6;9610">SB 6 9610</ref> (II CE) and <ref target="http://papyri.info/ddbdp/sb;22;15481">SB 22 15481</ref> (III-IV CE), see <ref target="https://papyri.info/biblio/72793">S. Honigman, ZPE 146 (2004), p. 284</ref>.</p>
-                  <p xml:id="p7"><ref>5.</ref> The traditional Greek name Aristomenes is found several times in a Jewish context: Aristomenes son of Iosepis in (<ref target="http://papyri.info/ddbdp/sb;20;14976">SB 20 14976</ref> and <ref target="http://papyri.info/ddbdp/o.stras;1;10">O.Stras. 1 10</ref>; Thebes, 161 BCE), Aristomenes son of Sambathion (<ref target="HYPERLINK">O.Berl. 69</ref>; Edfou) and Aristomenes son of Thedetos in <ref target="http://dx.doi.org/10.1163/1874-6772_seg_a48_2028_2029">SEG 48 2028</ref>.</p>
-                  <p xml:id="p8"><ref>6.</ref> Theodosios is a monotheistic name and therefore fitting in a Jewish context. It is frequent in Palestine (three homonymous translators of the LXX; four others in Ilan, Lexicon cit. in comm. on l. 3, I, p. 285). In the pre-Christian period most bearers of the name are Jews, see e.g. <ref target="http://papyri.info/ddbdp/p.zen.pestm;;21">P.Zen.Pestm. 21</ref>, with the discussion of Muszynski on p.108.</p>
-                  <p xml:id="p9"><ref>7.</ref> There is no Sosos among the names of <ref target="https://papyri.info/biblio/95744">Ilan</ref>, Lexicon cit. in comm. on l. 3, voll. I and III, though names with Sos- are common. Sambathaios is the usual form in the Ptolemaic period; the abbreviated form Sambas is not found before the first cent.  CE.</p>
+                  <p xml:id="p2"><ref>3.</ref> Sekonias seems to be a new name, perhaps linked with Shekhaniah (<ref target="https://papyri.info/biblio/95744">T. Ilan, Lexicon of Jewish names in late Antiquity, Tübingen, 2002-2011</ref>; I, p. 214).</p>
+                  <p xml:id="p3"><ref>4.</ref> Somoelos is a variant of Samuel (more often Samoelos), a common name in Palestine (26 examples in <ref target="https://papyri.info/biblio/95744">Ilan</ref>, Lexicon cit. in comm. on l. 3, I, pp. 215-216 and several in Egypt before the Christian period). The variant is used for two translators of the LXX, in CIJ <ref target="https://epigraphy.packhum.org/text/227826">1451</ref> and <ref target="https://epigraphy.packhum.org/text/227844">1469</ref> (Leontopolis; <ref target="https://papyri.info/biblio/95744">Ilan</ref>, Lexicon cit. in comm. on l. 3, III, p. 162), in <ref target="http://papyri.info/ddbdp/p.cair.zen;3;59509">P.Cair.Zen. 3 59509.1</ref> and <ref target="https://www.papyri.info/ddbdp/bgu;9;1893">BGU 9 1893.297</ref>.</p>
+                  <p xml:id="p4">Σαλαμα( ), clearly marked as an abbreviation, is probably to be expanded into Σαλαμά(νιος). For this Aramaic name (<ref target="http://www.trismegistos.org/name/11903">TM Nam 11903</ref>), attested in <ref target="http://papyri.info/ddbdp/sb;6;9610">SB 6 9610</ref> (II CE) and <ref target="http://papyri.info/ddbdp/sb;22;15481">SB 22 15481</ref> (III-IV CE), see <ref target="https://papyri.info/biblio/72793">S. Honigman, ZPE 146 (2004), p. 284</ref>.</p>
+                  <p xml:id="p5"><ref>5.</ref> The traditional Greek name Aristomenes is found several times in a Jewish context: Aristomenes son of Iosepis in (<ref target="http://papyri.info/ddbdp/sb;20;14976">SB 20 14976</ref> and <ref target="http://papyri.info/ddbdp/o.stras;1;10">O.Stras. 1 10</ref>; Thebes, 161 BCE), Aristomenes son of Sambathion (<ref target="HYPERLINK">O.Berl. 69</ref>; Edfou) and Aristomenes son of Thedetos in <ref target="http://dx.doi.org/10.1163/1874-6772_seg_a48_2028_2029">SEG 48 2028</ref>.</p>
+                  <p xml:id="p6"><ref>6.</ref> Theodosios is a monotheistic name and therefore fitting in a Jewish context. It is frequent in Palestine (three homonymous translators of the LXX; four others in Ilan, Lexicon cit. in comm. on l. 3, I, p. 285). In the pre-Christian period most bearers of the name are Jews, see e.g. <ref target="http://papyri.info/ddbdp/p.zen.pestm;;21">P.Zen.Pestm. 21</ref>, with the discussion of Muszynski on p.108. </p>
+                  <p xml:id="p7"><ref>7.</ref> There is no Sosos among the names of <ref target="https://papyri.info/biblio/95744">Ilan</ref>, Lexicon cit. in comm. on l. 3, voll. I and III, though names with Sos- are common. Sambathaios is the usual form in the Ptolemaic period; the abbreviated form Sambas is not found before the first cent.  CE.</p>
                </div>
             </div>
          </div>
