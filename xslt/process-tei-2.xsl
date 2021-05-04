@@ -73,7 +73,7 @@
   
   <xsl:template match="t:p[not(ancestor::t:note)]">
     <xsl:copy>
-      <xsl:attribute name="xml:id">p<xsl:value-of select="count(preceding::t:p[not(ancestor::t:note)]) + 1"/></xsl:attribute>
+      <xsl:attribute name="xml:id">p<xsl:value-of select="count(preceding::t:p[not(ancestor::t:note) and not(ancestor::t:teiHeader)]) + 1"/></xsl:attribute>
       <xsl:apply-templates select="node()|@*"/>
     </xsl:copy>
   </xsl:template>
