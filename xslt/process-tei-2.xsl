@@ -17,7 +17,7 @@
       <xsl:for-each select="//t:author">
         <author>
           <name>
-            <forename><xsl:value-of select="substring-after(.,',')"/></forename>
+            <forename><xsl:value-of select="normalize-space(substring-after(.,','))"/></forename>
             <surname><xsl:value-of select="substring-before(.,',')"/></surname>
           </name>
           <xsl:for-each select="following-sibling::t:affiliation[preceding-sibling::t:author[1] is current()]">
