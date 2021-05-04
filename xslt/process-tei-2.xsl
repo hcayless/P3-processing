@@ -196,7 +196,7 @@
                       <xsl:for-each select="tokenize(fn:get-value(t:table[1],'Acquisition: Place'),', ')">
                         <placeName n="{position()}"><xsl:value-of select="."/></placeName><xsl:if test="position() ne last()">, </xsl:if>
                       </xsl:for-each>
-                      <xsl:if test="fn:has-value(.,'Acquisition: Date')">
+                      <xsl:if test="fn:has-value(t:table[1],'Acquisition: Date')">
                         <date><xsl:value-of select="fn:get-value(t:table[1],'Acquisition: Date')"/></date>
                       </xsl:if>
                     </p>
@@ -292,7 +292,7 @@
                         <placeName n="{position()}"><xsl:value-of select="."/></placeName>
                       </xsl:for-each>
                       <xsl:if test="fn:has-value(t:table[1],'Acquisition: Date')">
-                        <date><xsl:value-of select="fn:get-value(.,'Acquisition: Date')"/></date>
+                        <date><xsl:value-of select="fn:get-value(t:table[1],'Acquisition: Date')"/></date>
                       </xsl:if>
                     </p>
                   </provenance>
