@@ -16,7 +16,10 @@
       <title><xsl:apply-templates select="//t:front/t:docTitle/t:titlePart[@type='MainTitle']/text()"/></title>
       <xsl:for-each select="//t:author">
         <author>
-          <name><xsl:apply-templates/></name>
+          <name>
+            <forename><xsl:value-of select="substring-after(.,',')"/></forename>
+            <surname><xsl:value-of select="substring-before(.,',')"/></surname>
+          </name>
           <xsl:for-each select="following-sibling::t:affiliation[preceding-sibling::t:author[1] is current()]">
             <xsl:copy-of select="."/>
           </xsl:for-each>
@@ -113,7 +116,6 @@
         </body>
       </text>
     </TEI>
-    
   </xsl:template>
   
   <xsl:template name="DCLP">
@@ -391,7 +393,6 @@
         <xsl:apply-templates select="doc(concat($cwd,'/articles/translations/',count(preceding::t:div[@type='translation']), '.xml'))" mode="import"><xsl:with-param name="id" select="concat('trans',count(preceding::t:div[@type='translation']) + 1)" tunnel="yes"></xsl:with-param></xsl:apply-templates>
       </text>
     </TEI>
-    
   </xsl:template>
   
   <xsl:template match="t:div[@type='edition']">
@@ -402,8 +403,15 @@
     <div copyOf="#trans{count(preceding::t:div[@type='translation']) + 1}"/>
   </xsl:template>
   
+  <!-- Remove metadata tables -->
   <xsl:template match="t:div[@type='epidoc']/t:table[1]"/>
   
+  <!-- Remove any accidentally nested sections -->
+  <xsl:template match="t:div[@type='section'][ancestor::t:div[@type='section']]"/>
+  <xsl:template match="t:div[@type='corrections'][ancestor::t:div[@type='section']]"/>
+  
+  
+  <!-- Remove author, affiliation, and email from body -->
   <xsl:template match="t:author"/>
   <xsl:template match="t:affiliation"/>
   <xsl:template match="t:email"/>

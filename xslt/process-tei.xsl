@@ -9,7 +9,7 @@
   <xsl:mode on-no-match="shallow-copy"/>
   <xsl:output indent="yes" suppress-indentation="p ref"/>
   
-  <xsl:variable name="sectionHeadingTypes" select="('#acknowledgment','#affiliation','#articleTitle','#articleHeader',
+  <xsl:variable name="sectionHeadingTypes" select="('#acknowledgement','#affiliation','#articleTitle','#articleHeader',
     '#author','#bibliography','#commentary','#corrections','#edition','#email','#introduction','#metadata','#text',
     '#translation')"/>
   
@@ -97,15 +97,16 @@
           <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
       </xsl:for-each>
-      <xsl:apply-templates select="following-sibling::t:p[@type][1]" mode="pass2"/>
+      <xsl:apply-templates select="following-sibling::t:p[@type][not(@type = ('#articleHeader','#corrections'))][1]" mode="pass2"/>
     </div>
     <xsl:apply-templates select="following-sibling::t:p[@type='#articleHeader'][1]" mode="pass2"/>
     <xsl:apply-templates select="following-sibling::t:table[@type='#corrections'][1]" mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#acknowledgement']" mode="pass2">
-    <note type="acknowledgements"><xsl:apply-templates select="following-sibling::t:p[1]"></xsl:apply-templates>    </note>
-    <xsl:apply-templates select="following-sibling::t:p[2]" mode="pass2"/>
+    <note type="acknowledgement"><xsl:apply-templates/></note>
+    <xsl:apply-templates select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] = current()]"/>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#author']" mode="pass2">
