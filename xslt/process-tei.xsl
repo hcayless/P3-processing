@@ -99,8 +99,7 @@
       </xsl:for-each>
       <xsl:apply-templates select="following-sibling::t:p[@type][not(@type = ('#articleHeader','#corrections'))][1]" mode="pass2"/>
     </div>
-    <xsl:apply-templates select="following-sibling::t:p[@type='#articleHeader'][1]" mode="pass2"/>
-    <xsl:apply-templates select="following-sibling::t:table[@type='#corrections'][1]" mode="pass2"/>
+    <xsl:apply-templates select="following-sibling::t:*[@type=('#articleHeader','#corrections')][1]" mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#acknowledgement']" mode="pass2">
