@@ -4,7 +4,8 @@ FILES=$(git diff --name-only $BEFORE..$AFTER | grep ".docx")
 
 for f in $FILES
 do
-  OUT=$(echo $f | sed 's/sources\//articles\//' | sed 's/.docx/.xml/')
+  NAME=$(echo $f | sed 's/.*\/\([^\/]*\).docx/\1/')
+  OUT="$(echo $f | sed 's/sources\//articles\//' | sed 's/.docx/\//')/$NAME.xml"
   docxtotei "$f" "$OUT-1"
   if [ $? -ne 0 ]
   then
@@ -17,13 +18,13 @@ do
     echo "Failure in first post-processing step of $f."
     exit 1
   fi
-  bin/process-leiden.sh "`pwd`/articles/epidoc" epidoc
+  bin/process-leiden.sh "`pwd`/articles/$NAME/epidoc" epidoc
   if [ $? -ne 0 ]
   then
     echo "Leiden+ conversion failed for $f."
     exit 1
   fi
-  bin/process-leiden.sh "`pwd`/articles/translations" translation_epidoc
+  bin/process-leiden.sh "`pwd`/articles/$NAME/translations" translation_epidoc
   if [ $? -ne 0 ]
   then
     echo "Leiden+ conversion failed for $f."
@@ -36,6 +37,6 @@ do
     exit 1
   fi
   rm "$OUT-1" "$OUT-2"
-  rm -rf articles/epidoc
-  rm -rf articles/translations
+  rm -rf "articles/$NAME/epidoc"
+  rm -rf "articles/$NAME/translations"
 done
