@@ -15,7 +15,7 @@
   <xsl:template match="t:fileDesc/t:titleStmt">
     <xsl:copy>
       <title><xsl:apply-templates select="//t:front/t:docTitle/t:titlePart[@type='MainTitle']/text()"/></title>
-      <xsl:for-each select="//t:author">
+      <xsl:for-each select="//t:body//t:author">
         <author>
           <name>
             <forename><xsl:value-of select="normalize-space(substring-after(.,','))"/></forename>
