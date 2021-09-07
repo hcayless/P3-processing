@@ -1,6 +1,4 @@
 FROM debian:buster-slim
-# Hack to prevent openjdk-11 install failing
-RUN mkdir /usr/share/man/man1/ 
 RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
   apt-transport-https \
   libsaxonhe-java \
