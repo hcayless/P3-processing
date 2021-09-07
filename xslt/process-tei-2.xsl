@@ -404,8 +404,11 @@
     <div copyOf="#trans{count(preceding::t:div[@type='translation']) + 1}"/>
   </xsl:template>
   
-  <!-- Remove metadata tables -->
-  <xsl:template match="t:div[@type='epidoc']/t:table[1]"/>
+  <xsl:template match="t:div[@type='epidoc']/t:table[1]">
+    <table type="papyrological_header">
+      <xsl:apply-templates/>
+    </table>
+  </xsl:template>
   
   <!-- Remove any accidentally nested sections -->
   <xsl:template match="t:div[@type='section'][ancestor::t:div[@type='section']]"/>
