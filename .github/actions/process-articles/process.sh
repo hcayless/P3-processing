@@ -6,7 +6,8 @@ for f in $FILES
 do
   NAME=$(echo $f | sed 's/.*\/\([^\/]*\).docx/\1/')
   OUT="$(echo $f | sed 's/sources\//articles\//' | sed 's/.docx/\//')/$NAME.xml"
-  docxtotei "$f" "$OUT-1"
+  # docxtotei "$f" "$OUT-1"
+  /opt/actions/Stylesheets/bin/docxtotei "$f" "$OUT-1"
   if [ $? -ne 0 ]
   then
     echo "Failed to convert $f to TEI."

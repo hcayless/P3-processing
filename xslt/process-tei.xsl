@@ -9,9 +9,9 @@
   <xsl:mode on-no-match="shallow-copy"/>
   <xsl:output indent="yes" suppress-indentation="p ref"/>
   
-  <xsl:variable name="sectionHeadingTypes" select="('#acknowledgement','#affiliation','#articleTitle','#articleHeader',
-    '#author','#bibliography','#commentary','#corrections','#edition','#email','#introduction','#metadata','#text',
-    '#translation')"/>
+  <xsl:variable name="sectionHeadingTypes" select="for-each(('#acknowledgement','#affiliation','#articleTitle',
+    '#articleHeader','#author','#bibliography','#blockQuote','#commentary','#corrections','#edition',
+    '#endBlockQuote','#email','#introduction','#metadata','#text','#translation'), lower-case#1)"/>
   
   <xsl:template match="/">
     <xsl:apply-templates/>
@@ -22,12 +22,12 @@
     <!--<xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>-->
     <front>
       <docTitle>
-        <titlePart type="MainTitle"><xsl:apply-templates select="$pass1//t:p[@type='#articleTitle']/node()"/></titlePart>
+        <titlePart type="MainTitle"><xsl:apply-templates select="$pass1//t:p[lower-case(@type)='#articletitle']/node()"/></titlePart>
       </docTitle>
     </front>
     <body>
       <div type="article">
-        <xsl:apply-templates select="$pass1/*[@type = '#articleTitle']" mode="pass2"/>
+        <xsl:apply-templates select="$pass1/*[lower-case(@type) = '#articletitle']" mode="pass2"/>
       </div>
     </body>
   </xsl:template>
@@ -49,9 +49,9 @@
   <xsl:template match="t:p|t:table" mode="pass1">
     <xsl:variable name="text" select="normalize-space(string-join(.//text()))"/>
     <xsl:choose>
-      <xsl:when test="starts-with($text,'#edition') and not(ends-with($text, 'Header'))"><p type="edition" subtype="{substring-after($text, 'edition')}"/></xsl:when>
-      <xsl:when test="$text = $sectionHeadingTypes"/>
-      <xsl:when test="preceding-sibling::*[1]/normalize-space(string-join(.//text())) = $sectionHeadingTypes">
+      <xsl:when test="starts-with($text,'#edition') and not(ends-with($text, 'Header'))"><p type="edition" subtype="{substring-after($text, '#edition')}"/></xsl:when>
+      <xsl:when test="lower-case($text) = $sectionHeadingTypes"/>
+      <xsl:when test="preceding-sibling::*[1]/lower-case(normalize-space(string-join(.//text()))) = $sectionHeadingTypes">
         <xsl:copy>
           <xsl:apply-templates select="@*"/>
           <xsl:attribute name="type" select="preceding-sibling::*[1]/normalize-space(string-join(.//text()))"/>
@@ -77,7 +77,7 @@
     <affiliation><xsl:apply-templates/></affiliation>
   </xsl:template>
   
-  <xsl:template match="t:p[@type = '#articleTitle']" mode="pass2">
+  <xsl:template match="t:p[lower-case(@type) = '#articletitle']" mode="pass2">
     <xsl:for-each select="following-sibling::t:p[@type = ('#author','#affiliation','#email')]">
       <xsl:apply-templates select="." mode="pass2"/>
     </xsl:for-each>
@@ -89,7 +89,7 @@
     <xsl:apply-templates select="following-sibling::*[@type][not(@type = ('#author','#affiliation','#email'))][1]" mode="pass2"/>
   </xsl:template>
     
-  <xsl:template match="t:p[@type='#articleHeader']" mode="pass2">
+  <xsl:template match="t:p[lower-case(@type)='#articleheader']" mode="pass2">
     <div type="section">
       <head><xsl:apply-templates select="node()"/></head>
       <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] = current()]">
@@ -116,7 +116,7 @@
     <div type="epidoc" subtype="{@subtype}">
       <xsl:apply-templates select="following-sibling::*[@type = '#metadata'][1]" mode="epidoc"/>
     </div>
-    <xsl:apply-templates select="following-sibling::*[@type = ('edition','#articleHeader')][1]" mode="pass2"/>
+    <xsl:apply-templates select="following-sibling::*[lower-case(@type) = ('edition','#articleheader')][1]" mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#email']" mode="pass2">
@@ -203,6 +203,29 @@
       </xsl:for-each>
     </div>
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
+  </xsl:template>
+  
+  <xsl:template match="t:p[lower-case(@type)='#blockquote']" mode="epidoc pass2">
+    <quote>
+      <lb/><xsl:apply-templates mode="#current"/><xsl:text>
+</xsl:text>
+      <xsl:iterate select="following-sibling::t:p">
+        <xsl:choose>
+          <xsl:when test="not(lower-case(@type)='#endblockquote')">
+            <lb/><xsl:apply-templates mode="#current"/><xsl:text>
+</xsl:text>
+            <xsl:next-iteration/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:break/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:iterate>
+    </quote>
+    <xsl:variable name="endbq" select="./following-sibling::t:p[lower-case(@type) = '#endblockquote'][1]"/>
+    <xsl:for-each select="$endbq/following-sibling::t:*[preceding-sibling::t:p[@type][1] is $endbq][not(@type)]">
+      <xsl:copy-of select="."/>
+    </xsl:for-each>
   </xsl:template>
   
   <xsl:template match="*[not(@type = ('#metadata','#text','#introduction','#translation','#commentary','#bibliography'))]" mode="epidoc"/>
