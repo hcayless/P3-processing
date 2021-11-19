@@ -9,9 +9,9 @@
   <xsl:mode on-no-match="shallow-copy"/>
   <xsl:output indent="yes" suppress-indentation="p ref"/>
   
-  <xsl:variable name="sectionHeadingTypes" select="for-each(('#acknowledgement','#affiliation','#articleTitle',
+  <xsl:variable name="sectionHeadingTypes" select="t:lc-seq(('#acknowledgement','#affiliation','#articleTitle',
     '#articleHeader','#author','#bibliography','#blockQuote','#commentary','#corrections','#edition',
-    '#endBlockQuote','#email','#introduction','#metadata','#text','#translation'), lower-case#1)"/>
+    '#endBlockQuote','#email','#introduction','#metadata','#text','#translation'))"/>
   
   <xsl:template match="/">
     <xsl:apply-templates/>
@@ -90,16 +90,26 @@
   </xsl:template>
     
   <xsl:template match="t:p[lower-case(@type)='#articleheader']" mode="pass2">
-    <div type="section">
-      <head><xsl:apply-templates select="node()"/></head>
-      <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] = current()]">
-        <xsl:copy>
-          <xsl:apply-templates select="node()|@*"/>
-        </xsl:copy>
-      </xsl:for-each>
-      <xsl:apply-templates select="following-sibling::t:p[@type][not(@type = ('#articleHeader','#corrections'))][1]" mode="pass2"/>
-    </div>
-    <xsl:apply-templates select="following-sibling::t:*[@type=('#articleHeader','#corrections')][1]" mode="pass2"/>
+    <xsl:param name="inSubSection" select="false()"/>
+    <xsl:choose>
+      <xsl:when test="$inSubSection"/>
+      <xsl:otherwise>
+        <div type="section">
+          <head><xsl:apply-templates select="node()"/></head>
+          <xsl:for-each select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] = current()]">
+            <xsl:copy>
+              <xsl:apply-templates select="node()|@*"/>
+            </xsl:copy>
+          </xsl:for-each>
+          <xsl:apply-templates select="following-sibling::t:p[@type][preceding-sibling::t:p[@type='#articleHeader'][1] is current()][not(@type = ('#articleHeader','#corrections'))][1]" mode="pass2">
+            <xsl:with-param name="inSubSection" select="true()"/>
+          </xsl:apply-templates>
+        </div>
+        <xsl:apply-templates select="following-sibling::t:*[@type=('#articleHeader','#corrections')][1]" mode="pass2">
+          <xsl:with-param name="inSubSection" select="$inSubSection"/>
+        </xsl:apply-templates>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#acknowledgement']" mode="pass2">
@@ -113,10 +123,13 @@
   </xsl:template>
   
   <xsl:template match="t:p[@type='edition']" mode="pass2">
+    <xsl:param name="inSubSection" select="false()"/>
     <div type="epidoc" subtype="{@subtype}">
       <xsl:apply-templates select="following-sibling::*[@type = '#metadata'][1]" mode="epidoc"/>
     </div>
-    <xsl:apply-templates select="following-sibling::*[lower-case(@type) = ('edition','#articleheader')][1]" mode="pass2"/>
+    <xsl:apply-templates select="following-sibling::*[lower-case(@type) = ('edition','#articleheader')][1]" mode="pass2">
+      <xsl:with-param name="inSubSection" select="$inSubSection"/>
+    </xsl:apply-templates>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#email']" mode="pass2">
@@ -124,11 +137,17 @@
   </xsl:template>
   
   <xsl:template match="t:table[@type='#corrections']" mode="pass2">
-    <div type="corrections">
-      <xsl:copy>
-        <xsl:apply-templates select="*|@*"/>
-      </xsl:copy>
-    </div>
+    <xsl:param name="inSubSection" select="false()"/>
+    <xsl:choose>
+      <xsl:when test="$inSubSection"/>
+      <xsl:otherwise>
+        <div type="corrections">
+          <xsl:copy>
+            <xsl:apply-templates select="*|@*"/>
+          </xsl:copy>
+        </div>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="t:table[@type='#metadata']" mode="epidoc">
@@ -238,5 +257,12 @@
     </xsl:choose></xsl:template>
   
   <xsl:template match="@rend"/>
+  
+  <xsl:function name="t:lc-seq">
+    <xsl:param name="seq"/>
+    <xsl:for-each select="$seq">
+      <xsl:value-of select="lower-case(.)"/>
+    </xsl:for-each>
+  </xsl:function>
   
 </xsl:stylesheet>
