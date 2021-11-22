@@ -53,7 +53,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-11-22T12:52:11Z</date>
+               <date>2021-11-22T13:02:44Z</date>
                <name/>
             </change>
          </listChange>
@@ -171,7 +171,7 @@
                </row>
             </table>
             <div type="epidoc" subtype="DDB">
-               <table type="papyrological_header">
+               <table>
                   <row>
                      <cell style="text-align: left;">Material</cell>
                      <cell style="text-align: left;">Papyrus</cell>
@@ -221,18 +221,16 @@
                      <p> Claytor wishes to thank Andrea Jördens for permission to publish this papyrus and Roger Bagnall for commenting on a draft transcription.</p>
                   </note>
                </head>
-               <head>
-                  <row>
-                     <cell style="text-align: left;">P.Heid.inv. G 1026</cell>
-                     <cell style="text-align: center;">13.5 x 10 cm</cell>
-                     <cell style="text-align: right;">  Theadelphia,</cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Acquired in 1959</cell>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: right;">Nov., 16 – Aug., 15 BCE</cell>
-                  </row>
-               </head>
+               <row>
+                  <cell style="text-align: left;">P.Heid.inv. G 1026</cell>
+                  <cell style="text-align: center;">13.5 x 10 cm</cell>
+                  <cell style="text-align: right;">  Theadelphia,</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">Acquired in 1959</cell>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: right;">Nov., 16 – Aug., 15 BCE</cell>
+               </row>
                <div type="introduction">
                   <p xml:id="p8">The papyrus is well preserved at the top but becomes increasingly fragmentary towards the bottom. The first eight lines have a generous left margin of 2.25 cm, while the variable right margin is 0.75 cm in ll. 1-3 and 2 cm in ll. 4-5. A space of 1.5-1.75 cm is left at the top. The receipt is written in at least two hands, whose rather clumsy appearance would be at home among the late Ptolemaic and Augustan receipts on ostraka from Karanis (published in O.Mich. 1-4; see now Monson [n. 3]) and can be compared with hand 1 of the poll-tax receipt BGU 13 2991 (Soknopaiou Nesos, 6-5 BCE) and the tax list BGU 16.2577 (Herakleopolite, 30 BCE-14 CE). The verso contains a notation of uncertain purpose. It is written upside down relative to the recto, 2 cm from the bottom edge of the sheet. Well above this notation are a few characters that have been erased. </p>
                   <p xml:id="p9">	This receipt records a series of payments for the σύνταξις beginning with a four-drachma installment in Hathyr of Augustus’ 15th year (28 Oct. – 26 Nov., 16 BCE) and continuing, it seems, with installments of four drachmas each month for the rest of the year. This would total 40 dr., the figure that we know from later documents was due annually for the poll tax on the non-privileged villager class of the Arsinoite nome. <note place="foot" xml:id="ftn11" n="10"><p> For the rates of various nomes, see Heilporn (n. 2) 80-81.</p></note> A trace in the last preserved line may hint at further charges, such as those that are later bundled together with the poll tax,<note place="foot" xml:id="ftn12" n="11"><p> See Wallace (n. 2) 123 and for examples of this extra charge see 2 and 3 below.</p></note> or another receipt lost at the bottom.</p>
@@ -254,7 +252,7 @@
                </div>
             </div>
             <div type="epidoc" subtype="DDB">
-               <table type="papyrological_header">
+               <table>
                   <row>
                      <cell style="text-align: left;">Material</cell>
                      <cell style="text-align: left;">Papyrus</cell>
@@ -301,18 +299,16 @@
                   </row>
                </table>
                <head>2. Receipt for Syntaximon</head>
-               <head>
-                  <row>
-                     <cell style="text-align: left;">P.Mich. inv. 1986</cell>
-                     <cell style="text-align: center;">19 x 10.25 cm</cell>
-                     <cell style="text-align: right;">  Apias</cell>
-                  </row>
-                  <row>
-                     <cell style="text-align: left;">Acquired in 1924</cell>
-                     <cell style="text-align: left;"/>
-                     <cell style="text-align: right;">27 Jan. – 28 Oct., 7 CE</cell>
-                  </row>
-               </head>
+               <row>
+                  <cell style="text-align: left;">P.Mich. inv. 1986</cell>
+                  <cell style="text-align: center;">19 x 10.25 cm</cell>
+                  <cell style="text-align: right;">  Apias</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">Acquired in 1924</cell>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: right;">27 Jan. – 28 Oct., 7 CE</cell>
+               </row>
                <div type="introduction">
                   <p xml:id="p21">Medium-brown papyrus with a clear kollesis extending 4 cm from the left edge of the sheet. The papyrus has sustained damage along horizontal fold lines, particularly at the bottom, which is partially broken away. The generous margins measure 3 cm on top, 2-2.5 cm on the left, and 5.75 cm on the bottom. A variable right margin of about 1 cm was originally present, but is now damaged. The same hand is found in other tax receipts issued by the same collector (see l. 2 n.). The back is blank save for a trace of ink in the top-left corner. It is unclear if this is stray ink or was originally a short notation of some sort. </p>
                   <p xml:id="p22">	This sheet contains two poll-tax receipts issued to Anchorinphis, son of Ischis, by Heraklas, an agent of a public banker in the Arsinoite nome. The first receipt records Anchorinphis’ payment of 40 drachmas over the course of Augustus’ 36th year, leaving 4 dr. in arrears, while the second records payment of the balance in the next year. <note place="foot" xml:id="ftn15" n="14"><p> These 4 dr. represent the extra charge (normally 4 dr., 6 ch.) that is often bundled together with the poll tax (see n. 15).</p></note> The taxpayer is not mentioned elsewhere, but the collector Heraklas is known from at least three other poll-tax receipts written in the same hand, including 3. Although here working in Apias, he later served as tax collector in Theadelphia from at least 10 to 14 CE and possibly as late as 24-25 CE (see further l. 2 n. and text 4).</p>
@@ -336,7 +332,7 @@
             <div type="section">
                <head>3-4. Poll Tax Receipts from the Harthotes Archive</head>
                <div type="epidoc" subtype="DDB">
-                  <table type="papyrological_header">
+                  <table>
                      <row>
                         <cell style="text-align: left;">Material</cell>
                         <cell style="text-align: left;">Papyrus</cell>
@@ -383,18 +379,16 @@
                      </row>
                   </table>
                   <head>3. Receipt for Syntaximon</head>
-                  <head>
-                     <row>
-                        <cell style="text-align: left;">P.Mich. inv. 4187</cell>
-                        <cell style="text-align: center;">27 x 10.7 cm</cell>
-                        <cell style="text-align: right;">  Theadelphia,</cell>
-                     </row>
-                     <row>
-                        <cell style="text-align: left;">Acquired in 1924</cell>
-                        <cell style="text-align: left;"/>
-                        <cell style="text-align: right;">26 Dec., 10 – 22 Jul., 11 CE</cell>
-                     </row>
-                  </head>
+                  <row>
+                     <cell style="text-align: left;">P.Mich. inv. 4187</cell>
+                     <cell style="text-align: center;">27 x 10.7 cm</cell>
+                     <cell style="text-align: right;">  Theadelphia,</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Acquired in 1924</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">26 Dec., 10 – 22 Jul., 11 CE</cell>
+                  </row>
                   <div type="introduction">
                      <p xml:id="p34">All four margins of this light brown papyrus are extant, with the top being very large (4.8 cm), the bottom even larger (14.5 cm), the left approximately 3.0 cm, and the right variable, in the case of line 2 extending to the very edge. The first line, as usual, extends a little to the left with the epsilon of ἔτους enlarged. There appear to be three vertical fold lines which do not seem to have been made sequentially from left to right. Perhaps the central fold was made first and then the papyrus was folded again. Numerous horizontal folds indicate the papyrus was tightly folded up for safekeeping. There is considerable damage on the left side about the middle of the papyrus, but it does not result in any loss of text. The writing runs with the fibers and the back is blank.  </p>
                      <p xml:id="p35">	This document is a receipt for syntaximon issued to Marsisouchos, son of Marres, from the village of Theadelphia, for the year 10-11 CE. Marsisouchos, a public farmer, is the brother of Harthotes and this is a new document stemming from the Harthotes archive.<note place="foot" xml:id="ftn16" n="15"><p>19 The archive itself extends over an 80 year period beginning in 20/19 BCE, and documents Harthotes, his brother Marsisouchos, and their descendants in a variety of contracts, petitions, and receipts. For a fuller treatment of this archive, see the contribution of Claytor, Litinas, and Nabney in this issue.</p></note> The payments are made in installments and total 44 drachmas, 6 chalkoi, the normal rate for the Arsinoite nome. <note place="foot" xml:id="ftn17" n="16"><p> See n. 15.</p></note></p>
@@ -414,7 +408,7 @@
                   </div>
                </div>
                <div type="epidoc" subtype="DDB">
-                  <table type="papyrological_header">
+                  <table>
                      <row>
                         <cell style="text-align: left;">Material</cell>
                         <cell style="text-align: left;">Papyrus</cell>
@@ -461,18 +455,16 @@
                      </row>
                   </table>
                   <head>4. Receipt for Syntaximon</head>
-                  <head>
-                     <row>
-                        <cell style="text-align: left;">P.CtYBR inv. 340</cell>
-                        <cell style="text-align: center;">14.7 x 9.4 cm</cell>
-                        <cell style="text-align: right;">  Theadelphia,</cell>
-                     </row>
-                     <row>
-                        <cell style="text-align: left;">Acquired in 1931</cell>
-                        <cell style="text-align: left;"/>
-                        <cell style="text-align: right;">27 Oct., 24 – 3 Jun., 25 CE</cell>
-                     </row>
-                  </head>
+                  <row>
+                     <cell style="text-align: left;">P.CtYBR inv. 340</cell>
+                     <cell style="text-align: center;">14.7 x 9.4 cm</cell>
+                     <cell style="text-align: right;">  Theadelphia,</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Acquired in 1931</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">27 Oct., 24 – 3 Jun., 25 CE</cell>
+                  </row>
                   <div type="introduction">
                      <p xml:id="p45">The light brown papyrus contains nine lines of Greek written with the fibers (→) in black ink. The lines are written in a fairly quick cursive hand, rising slightly to the right. The left margin is a full 2 cm at line 1, but by line 9 has become 0.8 cm. The topmost margin is 2.4 cm while the bottom margin is 3.1 cm before the papyrus breaks off. The right margin varies between no margin whatsoever (as in line 4 where the curve of the upsilon goes right to the edge) and a 1.7 cm margin in line 9. The papyrus itself appears to have been folded twice vertically at one time and these two fold lines accounts for the weakening and most of the damage to the papyrus, which involves several holes of irregular sizes mostly in the middle of the papyrus.<note place="foot" xml:id="ftn18" n="17"><p> Ann Hanson, noting the odd fold lines, suggested that perhaps the papyrus was at one time draped over a bar, perhaps to dry. A vertical fiber to the right of the center fold extends the entire length of the papyrus, sometimes creating the illusion of ink especially in lines 6, 8, and 9. </p></note> There is also a slight trace of two or three letters written across the fibers (↓). They may simply reflect ink transfer from another document.</p>
                      <p xml:id="p46">This papyrus records payments in various months for the syntaximon or poll tax paid by Harthotes, son of Marres, to an agent named Heraklas.<note place="foot" xml:id="ftn19" n="18"><p> The Harthotes archive extends over an 80 year period beginning in 20/19 BCE, referencing Harthotes, his brother Marsisouchos, and their descendants in a variety of contracts, petitions, and receipts. For a fuller treatment of this archive, see further Claytor, Litinas, and Nabney in this issue.</p></note> In Roman Egypt, the poll-tax appears officially to have been levied only on adult Egyptian males aged 14-62.<note place="foot" xml:id="ftn20" n="19"><p> Cf. L. Capponi, Augustan Egypt: The Creation of a Roman Province (New York 2005), 138; Rathbone (n. 2) 87.</p></note> These limits are often cited as common knowledge, yet we should perhaps be less sanguine about how strictly this range (and particularly the upper limit) was observed in the early first century CE.<note place="foot" xml:id="ftn21" n="20"><p> The evidence for 62 as the age of exemption from the poll-tax comes from a variety of tax lists in the 1st and 2nd centuries. To take a few examples, in P.Sijp. 26, the tax synopsis of Philadephia prepared by Nemesion in 51 CE, there are several references to villagers who are “overage” (ὑπερετής) in year 11, being 61 years (line 87; cf. lines 21 and 127). As Ann Hanson, the editor of P.Sijp. 26 explains, the taxpayers in question are in their final year of liability for the laographia, and have reached the category of ὑπερετής for the first time in their 61st year. This is analogous to the initial category of 14 year olds whose first year of liability is marked as ἀφήλικες. From the same archive, cf. P.Coll.Youtie 1.20, lines 5 and 8, as well as the later first century P.Lond. 2.259.63-65 (p. 36).</p><p>The age of 65 is also sometimes cited as the age of exemption from the poll-tax. Thus, Rathbone (n. 2) 87, and Capponi (n. 26) 138. This apparently stems from arguments in O.Wilck., p. 242. Wilcken, however, based this sweeping claim on Ulpian of Tyre, writing in the early third century that the age of liability for taxation in Syria ends at 65 (preserved in Dig. 50.15.3). While SB 20.14710, a tax list from Hermopolis, attests to this upper limit in place in the 3rd century CE, all indications from the first century are for the lower age of 62. A fuller treatment of the age of exemption from the poll-tax in Roman Egypt is still needed. </p></note> Indeed, we should expect that officials were often more judicious in imposing a taxpayer’s initial liability than in ensuring that they were removed from the rolls when they had reached the age of exemption. Attesting to the flexibility of these limits, the present receipt, recording a total payment of 44 drachmas for the poll-tax of the previous year, shows Harthotes still paying his poll-tax into his 66th year. </p>
@@ -500,7 +492,7 @@
                </div>
             </div>
             <div type="section">
-               <head>Appendix: Rereading P.Mil. 12.9 (Claytor) </head>
+               <head>Appendix: Rereading P.Mil. 12.9 (Claytor)</head>
                <p xml:id="p63">	The editor of P.Mil. 12.9 gives the following for ll. 2-4 (see Fig. 1 for line 3):</p>
                <quote>
                   <lb/>			… Ἡρακλᾷ τῶι παρὰ 
