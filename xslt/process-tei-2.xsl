@@ -404,6 +404,9 @@
     <div copyOf="#trans{count(preceding::t:div[@type='translation']) + 1}" type="translation"/>
   </xsl:template>
   
+  <xsl:template match="t:div[@type='epidoc']/t:table[1]"/>
+  
+  
   <xsl:template match="t:div[@type='epidoc']/t:table[2]">
     <table type="papyrological_header">
       <xsl:apply-templates/>
