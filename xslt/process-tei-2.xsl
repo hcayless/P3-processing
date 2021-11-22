@@ -397,11 +397,11 @@
   </xsl:template>
   
   <xsl:template match="t:div[@type='edition']">
-    <div copyOf="#ed{count(preceding::t:div[@type='edition']) + 1}"/>
+    <div copyOf="#ed{count(preceding::t:div[@type='edition']) + 1}" type="edition"/>
   </xsl:template>
   
   <xsl:template match="t:div[@type='translation']">
-    <div copyOf="#trans{count(preceding::t:div[@type='translation']) + 1}"/>
+    <div copyOf="#trans{count(preceding::t:div[@type='translation']) + 1}" type="translation"/>
   </xsl:template>
   
   <xsl:template match="t:div[@type='epidoc']/t:table[1]">
