@@ -154,7 +154,7 @@
     <xsl:copy>
       <xsl:apply-templates/>
     </xsl:copy>
-    <xsl:for-each select="following-sibling::*[preceding-sibling::t:table[@type][1] is current()][not(@type)]">
+    <xsl:for-each select="following-sibling::*[preceding-sibling::t:*[@type][1] is current()][not(@type)]">
       <xsl:choose>
         <xsl:when test="self::t:p[string-length(normalize-space(.)) gt 0]">
           <head><xsl:apply-templates/></head>
