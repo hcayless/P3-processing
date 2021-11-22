@@ -160,7 +160,7 @@
           <head><xsl:apply-templates/></head>
         </xsl:when>
         <xsl:when test="self::t:table">
-          <head><xsl:apply-templates/></head>
+          <xsl:apply-templates/>
         </xsl:when>
       </xsl:choose>
     </xsl:for-each>
