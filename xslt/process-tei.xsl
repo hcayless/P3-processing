@@ -206,12 +206,29 @@
   
   <xsl:template match="t:p[@type='#commentary']" mode="epidoc">
     <div type='commentary'>
-      <p><xsl:apply-templates select="text()[1]" mode="comment"/><xsl:apply-templates select="text()[1]/following-sibling::node()"/></p>
-      <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
+      <note>
         <p><xsl:apply-templates select="text()[1]" mode="comment"/><xsl:apply-templates select="text()[1]/following-sibling::node()"/></p>
+        <xsl:if test="following-sibling::*[1]/self::t:p[not(@type) and not(matches(., '^(\d|-)'))]">
+          <xsl:apply-templates select="following-sibling::*[1]" mode="note"/>
+        </xsl:if>
+      </note>
+      <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)][matches(., '^(\d|-)')]">
+        <note>
+          <p><xsl:apply-templates select="text()[1]" mode="comment"/><xsl:apply-templates select="text()[1]/following-sibling::node()"/></p>
+          <xsl:if test="following-sibling::*[1]/self::t:p[not(@type) and not(matches(., '^(\d|-)'))]">
+            <xsl:apply-templates select="following-sibling::*[1]" mode="note"/>
+          </xsl:if>
+        </note>
       </xsl:for-each>
     </div>
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
+  </xsl:template>
+  
+  <xsl:template match="t:p[not(matches(., '^(\d|-)'))]" mode="note">
+    <p><xsl:apply-templates/></p>
+    <xsl:if test="following-sibling::*[1]/self::t:p[not(@type) and not(matches(., '^(\d|-)'))]">
+      <xsl:apply-templates select="following-sibling::*[1]" mode="note"/>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#bibliography']" mode="epidoc">
@@ -254,7 +271,7 @@
   <xsl:template match="t:p" mode="pass2"/>
   
   <xsl:template match="text()" mode="comment" xml:space="preserve"><xsl:choose>
-      <xsl:when test="matches(.,'^\t?\d+[-–.0-9]*\s+')"><ref><xsl:value-of select="replace(.,'^\t?(\d+[-–.0-9]*)\s.*','$1')"/></ref> <xsl:value-of select="replace(.,'^\t?\d+[-–.0-9]*\s+(.*)$','$1')"/></xsl:when>
+      <xsl:when test="matches(.,'^\t?(-|\d+[-–.0-9]*)\s+')"><ref><xsl:value-of select="replace(.,'^\t?((-|\d+[-–.0-9]*))\s.*','$1')"/></ref> <xsl:value-of select="replace(.,'^\t?(-|\d+[-–.0-9]*)\s+(.*)$','$2')"/></xsl:when>
       <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
     </xsl:choose></xsl:template>
   
