@@ -10,7 +10,8 @@ do
   /opt/actions/Stylesheets/bin/docxtotei "`pwd`/$f" "$OUT-1"
   if [ $? -ne 0 ]
   then
-    echo "Failed to convert $f to TEI."
+    echo "Failed to convert "$f" to TEI."
+    echo "/opt/actions/Stylesheets/bin/docxtotei \"`pwd`/$f\" \"$OUT-1\""
     exit 1
   fi
   saxon -s:"$OUT-1" -xsl:xslt/process-tei.xsl -o:"$OUT-2"
