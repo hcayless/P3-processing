@@ -449,7 +449,7 @@
   </xsl:template>
   
   <xsl:template match="t:seg[@rend]" mode="#all">
-    <xsl:variable name="style" select="fn:rend-style(@r)"/>
+    <xsl:variable name="style" select="fn:rend-style(@rend)"/>
     <xsl:choose>
       <xsl:when test="not(empty($style))">
         <seg style="{$style}"><xsl:apply-templates/></seg>
@@ -461,7 +461,7 @@
   </xsl:template>
   
   <xsl:template match="t:hi[@rend]" mode="#all">
-    <xsl:variable name="style" select="fn:rend-style(@r)"/>
+    <xsl:variable name="style" select="fn:rend-style(@rend)"/>
     <xsl:choose>
       <xsl:when test="not(empty($style))">
         <seg style="{$style}"><xsl:apply-templates/></seg>
