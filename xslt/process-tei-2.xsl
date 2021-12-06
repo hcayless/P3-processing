@@ -37,6 +37,9 @@
 </xsl:text>
     <xsl:processing-instruction name="xml-model">href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction><xsl:text>
 </xsl:text>
+    <xsl:variable name="body">
+      <xsl:apply-templates/>
+    </xsl:variable>
     <xsl:copy>
       <xsl:apply-templates/>
       <xsl:for-each select="//t:div[@type='epidoc']">
@@ -70,6 +73,14 @@
       </xsl:for-each>
     </xsl:copy>
   </xsl:template>
+  
+  <xsl:template match="t:seg[following-sibling::node()[1][self::t:seg and @rend = current()/@rend]]">
+    <seg><xsl:copy-of select="@*"/><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:seg and @rend = current()/@rend]" mode="unify"/></seg>
+  </xsl:template>
+  
+  <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg and @rend = current()/@rend]]" mode="unify"><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:seg and @rend = current()/@rend]"/></xsl:template>
+  
+  <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg and @rend = current()/@rend]]"/>
   
   <xsl:template match="t:p[not(ancestor::t:note) and not(ancestor::t:teiHeader) and not(ancestor::t:table)]">
     <xsl:copy>
