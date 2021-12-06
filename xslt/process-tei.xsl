@@ -7,7 +7,7 @@
   version="3.0">
   
   <xsl:mode on-no-match="shallow-copy"/>
-  <xsl:output indent="yes" suppress-indentation="p ref"/>
+  <xsl:output indent="no" suppress-indentation="p ref"/>
   
   <xsl:variable name="sectionHeadingTypes" select="t:lc-seq(('#acknowledgement','#affiliation','#articleTitle',
     '#articleHeader','#author','#bibliography','#blockQuote','#commentary','#corrections','#edition',
