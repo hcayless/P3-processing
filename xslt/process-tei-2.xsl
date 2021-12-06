@@ -448,6 +448,30 @@
     </xsl:element>
   </xsl:template>
   
+  <xsl:template match="t:seg[@rend]" mode="#all">
+    <xsl:variable name="style" select="fn:rend-style(@r)"/>
+    <xsl:choose>
+      <xsl:when test="not(empty($style))">
+        <seg style="{$style}"><xsl:apply-templates/></seg>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="t:hi[@rend]" mode="#all">
+    <xsl:variable name="style" select="fn:rend-style(@r)"/>
+    <xsl:choose>
+      <xsl:when test="not(empty($style))">
+        <seg style="{$style}"><xsl:apply-templates/></seg>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <xsl:function name="fn:has-value" as="xs:boolean">
     <xsl:param name="table"/>
     <xsl:param name="key"/>
@@ -470,6 +494,23 @@
         <xsl:value-of select="$table/t:row[t:cell[1]/normalize-space() eq 'TM number']/t:cell[2]"/>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:function>
+  
+  <xsl:function name="fn:rend-style">
+    <xsl:param name="rend"/>
+    <xsl:for-each select="tokenize($rend, ' ')">
+      <xsl:choose>
+        <xsl:when test=". = 'bold'">
+          <xsl:text>font-weight: bold;</xsl:text>
+        </xsl:when>
+        <xsl:when test=". = 'italic'">
+          <xsl:text>font-style: italic;</xsl:text>
+        </xsl:when>
+        <xsl:when test=". = 'underline'">
+          <xsl:text>text-decoration: underline;</xsl:text>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:for-each>
   </xsl:function>
   
 </xsl:stylesheet>

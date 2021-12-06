@@ -36,18 +36,18 @@
     <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="t:seg[@rend = ('bold','italic')]">
+  <xsl:template match="t:seg[tokenize(@rend, ' ') = ('bold','italic','underline')]" mode="#all">
     <seg rend="{@rend}"><xsl:apply-templates/></seg>
   </xsl:template>
-  
+    
   <xsl:template match="t:hi" mode="#all">
     <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="t:hi[@rend = ('bold','italic')]">
+  <xsl:template match="t:hi[tokenize(@rend, ' ') = ('bold','italic','underline')]" mode="#all">
     <hi rend="{@rend}"><xsl:apply-templates/></hi>
   </xsl:template>
-  
+    
   <xsl:template match="t:not[@place]">
     <xsl:copy>
       <xsl:apply-templates/>
