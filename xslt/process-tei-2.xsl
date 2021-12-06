@@ -8,6 +8,7 @@
   version="3.0">
   
   <xsl:mode on-no-match="shallow-copy"/>
+  <xsl:mode on-no-match="shallow-copy" name="unify"/>
   <xsl:output indent="yes" suppress-indentation="p"/>
   <xsl:param name="cwd"/>
   <xsl:param name="name"/>
