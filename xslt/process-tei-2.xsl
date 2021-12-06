@@ -83,6 +83,14 @@
   
   <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg[@style = current()/@style]]]" mode="unify"/>
   
+  <xsl:template match="t:hi[following-sibling::node()[1][self::t:hi[@style = current()/@style]]]" mode="unify">
+    <hi><xsl:copy-of select="@*"/><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:hi[@style = current()/@style]]" mode="unify-next"/></hi>
+  </xsl:template>
+  
+  <xsl:template match="t:hi[preceding-sibling::node()[1][self::t:hi[@style = current()/@style]]]" mode="unify-next"><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:hi[@style = current()/@style]]"/></xsl:template>
+  
+  <xsl:template match="t:hi[preceding-sibling::node()[1][self::t:hi[@style = current()/@style]]]" mode="unify"/>
+  
   <xsl:template match="t:p[not(ancestor::t:note) and not(ancestor::t:teiHeader) and not(ancestor::t:table)]">
     <xsl:copy>
       <xsl:attribute name="xml:id">p<xsl:value-of select="count(preceding::t:p[not(ancestor::t:note) and not(ancestor::t:teiHeader)]) + 1"/></xsl:attribute>
