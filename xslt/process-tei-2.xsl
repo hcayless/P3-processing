@@ -41,7 +41,7 @@
       <xsl:apply-templates/>
     </xsl:variable>
     <xsl:copy>
-      <xsl:apply-templates/>
+      <xsl:apply-templates select="$body" mode="unify"/>
       <xsl:for-each select="//t:div[@type='epidoc']">
         <xsl:choose>
           <xsl:when test="@subtype='DDB'">
@@ -74,13 +74,13 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="t:seg[following-sibling::node()[1][self::t:seg[@style = current()/@style]]]">
+  <xsl:template match="t:seg[following-sibling::node()[1][self::t:seg[@style = current()/@style]]]" mode="unify">
     <seg><xsl:copy-of select="@*"/><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:seg and @style = current()/@style]" mode="unify"/></seg>
   </xsl:template>
   
   <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg[@style = current()/@style]]]" mode="unify"><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:seg and @style = current()/@style]"/></xsl:template>
   
-  <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg[@style = current()/@style]]]"/>
+  <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg[@style = current()/@style]]]" mode="unify"/>
   
   <xsl:template match="t:p[not(ancestor::t:note) and not(ancestor::t:teiHeader) and not(ancestor::t:table)]">
     <xsl:copy>
