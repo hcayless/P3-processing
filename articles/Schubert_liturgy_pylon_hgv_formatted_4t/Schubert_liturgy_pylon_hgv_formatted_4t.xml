@@ -29,7 +29,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2021-12-06T14:37:37Z</date>
+               <date>2021-12-06T15:08:10Z</date>
                <name/>
             </change>
          </listChange>
@@ -54,18 +54,15 @@
             </div>
             <div type="section">
                <head>
-                  <seg style="font-style: italic;">The corpus of approvals of nomination to liturgy (π</seg>
-                  <seg style="font-style: italic;">ρογρ</seg>ά<seg style="font-style: italic;">μμ</seg>
-                  <seg style="font-style: italic;">ατα)</seg>
+                  <seg style="font-style: italic;">The corpus of approvals of nomination to liturgy (π</seg>ά<seg style="font-style: italic;">μμ</seg>
                </head>
                <p xml:id="p4">The corpus assembled by Stroppa consists of a series of items dating from 135 to 265 CE (<seg style="font-weight: bold;">1</seg>-<seg style="font-weight: bold;">17</seg>), and of an addition from 247 (<seg style="font-weight: bold;">18</seg> = <ref target="http://papyri.info/hgv/9114">BGU 1 7</ref>), the inclusion of which in the corpus remains debatable.<note place="foot" xml:id="ftn10" n="9"><p> All dates, unless otherwise stated, are CE. For the sake of convenience, Stroppa’s numbering, in bold characters, will be used here, together with the standard reference to each papyrus when appropriate. On <seg style="font-weight: bold;">18</seg>, see Stroppa 2017: 117-118: the <seg style="font-style: italic;">strategos</seg> publicly endorses a nomination, made by δεκάπρωτοι, of farmers who are to undertake the cultivation of a piece of land. The δεκάπρωτοι are not directly involved in nominations to liturgy, but only take part in the collection of taxes.</p></note> It seems that most of the papyri are either copies of approvals that were kept among official records, or abstracts made from those records for the use of individuals. Thus, the preserved documents were actually not posted publicly, with one possible exception: the unusual format of <seg style="font-weight: bold;">8</seg> (= <ref target="http://papyri.info/hgv/11612">P.Leit. 11</ref>), written across the fibres, and perhaps originally squarish in shape, may suggest that this approval was posted publicly; but Stroppa refrains – wisely – from drawing a firm conclusion on the matter.<note place="foot" xml:id="ftn11" n="10"><p> Stroppa 2017: 11-12.</p></note></p>
-               <p xml:id="p5">The following table conflates the data provided by Stroppa in two different lists, thus making it possible to view at once the nome of provenance of each item.<note place="foot" xml:id="ftn12" n="11"><p> Stroppa 2017: 3-7 and 9.</p></note> This will prove useful because, among the parameters to be considered, provenance does not seem to play a significant role in Stroppa’s overview.</p>
+               <p xml:id="p5">The following table conflates the data provided by Stroppa in two different lists, thus making it possible to view at once the nome of provenance of each item.<note place="foot" xml:id="ftn12" n="11"><p> Stroppa 2017: 3-7 and 9.</p></note> This will prove useful because, among the parameters to be considered, provenance does not seem to play a significant role in Stroppa’s overview. </p>
                <p xml:id="p6">Table 1: list of approvals of nomination to liturgy</p>
                <table>
                   <row>
                      <cell style="text-align: left;">
                         <seg style="font-style: italic;">Stroppa’s</seg>
-                        <seg style="font-style: italic;"> numbering</seg>
                      </cell>
                      <cell style="text-align: left;">
                         <seg style="font-style: italic;">reference</seg>
@@ -75,7 +72,6 @@
                      </cell>
                      <cell style="text-align: center;">
                         <seg style="font-style: italic;">nome</seg>
-                        <seg style="font-style: italic;"> of provenance</seg>
                      </cell>
                      <cell style="text-align: left;">
                         <seg style="font-style: italic;">content</seg>
@@ -308,7 +304,6 @@
             <div type="section">
                <head>
                   <seg style="font-style: italic;">Format: demotic style vs. </seg>
-                  <seg style="font-style: italic;">pagina</seg>
                </head>
                <p xml:id="p20">The format of the documents mentioned above is conspicuous: they were nearly all produced by cutting a long and narrow vertical strip (ca. 30 x 10 cm) from a tall papyrus roll. The height of columns in the roll from the Hermopolite nome (<seg style="font-weight: bold;">11</seg>-<seg style="font-weight: bold;">17</seg>) is shorter (25 cm), but the width of columns is narrower, thus keeping a general shape comparable to that of the other documents. This corresponds to the so-called “demotic style” format, to recall the terminology used by Antonia Sarri to describe the format of private letters in the Ptolemaic period.<note place="foot" xml:id="ftn16" n="15"><p> Sarri 2018: 91-107.</p></note> She identifies two other formats: the <seg style="font-style: italic;">transuersa</seg> <seg style="font-style: italic;">charta</seg> format (which we may leave aside in the present context) and the <seg style="font-style: italic;">pagina</seg>. The latter will become nearly universal for letter-writing in the Roman period, and will also be widely used for administrative purposes, especially in the Arsinoite nome. A distinction between demotic style and <seg style="font-style: italic;">pagina</seg> format should be made here because, as we shall see, the <seg style="font-style: italic;">pagina</seg> format is a specific feature of documents relating to liturgy in the Arsinoite nome, as opposed to other locations, where the demotic style format seems to have prevailed.</p>
                <p xml:id="p21">Fig. 2: demotic format vs. <seg style="font-style: italic;">pagina</seg> format.</p>
@@ -317,9 +312,7 @@
             <div type="section">
                <head>
                   <seg style="font-style: italic;">The </seg>
-                  <seg style="font-style: italic;">Arsinoite</seg>
                   <seg style="font-style: italic;">nome</seg>
-                  <seg style="font-style: italic;">: a special case?</seg>
                </head>
                <p xml:id="p23">We must now turn to material relating to liturgy in the Arsinoite nome, where both format and layout differ markedly from the descriptions made above. It should be noted, however, that a comparison of the Arsinoite material with documents from other areas of Egypt is hampered by a double discrepancy – of place and time – regarding the available data: in the second century CE, the evidence comes mainly from the Arsinoite nome (and most of it from the Petaus archive); in the third century, documents from the Arsinoite relating to liturgy become scarce and fragmentary, but other nomes are better represented.</p>
                <p xml:id="p24">Moreover, some of the evidence from the Arsinoite nome relating to approvals of nomination consists of copies or abstracts from records, which have not retained the format and layout of the original documents (see esp. <seg style="font-weight: bold;">1</seg>-<seg style="font-weight: bold;">5</seg>, ranging from 135 till 173). The raw text could be inserted in the body of another document, as in <seg style="font-weight: bold;">3a</seg> (= P.Mil.Vogl. inv. 777) and <seg style="font-weight: bold;">3b</seg> (<ref target="http://papyri.info/hgv/11615">P.Leit. 5 = SB 8 10196 = Pap. Choix 11</ref>): the first is the copy of an approval of nomination, presumably an abstract from the <seg style="font-style: italic;">strategos</seg>’ records; and the second is a petition that quotes the approval in exactly the same words. Neither in <seg style="font-weight: bold;">3a</seg> nor in <seg style="font-weight: bold;">3b</seg> did the format or layout of the original approval matter to the scribe who prepared the documents.</p>
@@ -330,9 +323,7 @@
             </div>
             <div type="section">
                <head>
-                  <seg style="font-style: italic;">Data pertaining to nominations, </seg>
-                  <seg style="font-style: italic;">approvals</seg>
-                  <seg style="font-style: italic;"> and oaths (second – third centuries CE)</seg>
+                  <seg style="font-style: italic;">Data pertaining to nominations, approvals and oaths (second – third centuries CE)</seg>
                </head>
                <p xml:id="p29">Table 2: nominations to liturgy, approvals of liturgy, and liturgical oaths (2nd – 3rd c. CE)</p>
                <list>
@@ -350,12 +341,10 @@
                         <seg style="font-style: italic;">date</seg>
                      </cell>
                      <cell style="text-align: center;">
-                        <seg style="font-style: italic;">pagina</seg>
-                        <seg style="font-style: italic;"> format</seg>
+                        <seg style="font-style: italic;">pagina format</seg>
                      </cell>
                      <cell style="text-align: center;">
                         <seg style="font-style: italic;">demotic</seg>
-                        <seg style="font-style: italic;"> style format</seg>
                      </cell>
                      <cell style="text-align: center;">
                         <seg style="font-style: italic;">nomination</seg>
@@ -829,7 +818,6 @@
                      <cell style="text-align: left;"/>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Cynop</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                   </row>
@@ -972,7 +960,6 @@
                      <cell style="text-align: center;">X</cell>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Heracl</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                      <cell style="text-align: left;"/>
@@ -986,7 +973,6 @@
                      <cell style="text-align: center;">X</cell>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Oxy</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                      <cell style="text-align: left;"/>
@@ -1001,7 +987,6 @@
                      <cell style="text-align: left;"/>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Cynop</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                   </row>
@@ -1026,7 +1011,6 @@
                      <cell style="text-align: left;"/>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Herm</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                   </row>
@@ -1044,7 +1028,6 @@
                      <cell style="text-align: left;"/>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Herm</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                   </row>
@@ -1058,7 +1041,6 @@
                      <cell style="text-align: left;"/>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Herm</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                   </row>
@@ -1072,7 +1054,6 @@
                      <cell style="text-align: left;"/>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Herm</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                   </row>
@@ -1101,7 +1082,6 @@
                      <cell style="text-align: left;"/>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Herm</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                   </row>
@@ -1115,7 +1095,6 @@
                      <cell style="text-align: left;"/>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Herm</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                   </row>
@@ -1139,7 +1118,6 @@
                      <cell style="text-align: center;">X</cell>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Oxy</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                      <cell style="text-align: left;"/>
@@ -1153,7 +1131,6 @@
                      <cell style="text-align: center;">X</cell>
                      <cell style="text-align: center;">
                         <seg style="font-weight: bold;">Oxy</seg>
-                        <seg style="font-weight: bold;">.</seg>
                      </cell>
                      <cell style="text-align: left;"/>
                      <cell style="text-align: left;"/>
