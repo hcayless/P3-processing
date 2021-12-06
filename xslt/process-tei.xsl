@@ -36,8 +36,16 @@
     <xsl:apply-templates/>
   </xsl:template>
   
+  <xsl:template match="t:seg[@rend = ('bold','italic')]">
+    <seg rend="{@rend}"><xsl:apply-templates/></seg>
+  </xsl:template>
+  
   <xsl:template match="t:hi" mode="#all">
     <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="t:hi[@rend = ('bold','italic')]">
+    <hi rend="{@rend}"><xsl:apply-templates/></hi>
   </xsl:template>
   
   <xsl:template match="t:not[@place]">
