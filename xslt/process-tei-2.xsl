@@ -76,10 +76,10 @@
   </xsl:template>
   
   <xsl:template match="t:seg[following-sibling::node()[1][self::t:seg[@style = current()/@style]]]" mode="unify">
-    <seg><xsl:copy-of select="@*"/><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:seg and @style = current()/@style]" mode="unify"/></seg>
+    <seg><xsl:copy-of select="@*"/><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:seg[@style = current()/@style]]" mode="unify"/></seg>
   </xsl:template>
   
-  <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg[@style = current()/@style]]]" mode="unify"><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:seg and @style = current()/@style]"/></xsl:template>
+  <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg[@style = current()/@style]]]" mode="unify"><xsl:apply-templates/><xsl:apply-templates select="following-sibling::node()[1][self::t:seg[@style = current()/@style]]"/></xsl:template>
   
   <xsl:template match="t:seg[preceding-sibling::node()[1][self::t:seg[@style = current()/@style]]]" mode="unify"/>
   
