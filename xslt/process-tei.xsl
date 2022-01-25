@@ -243,10 +243,10 @@
     <div type='bibliography'>
       <listBibl>
         <bibl><xsl:apply-templates select="node()"/></bibl>
+        <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
+          <bibl><xsl:apply-templates select="node()"/></bibl>
+        </xsl:for-each>
       </listBibl>
-      <xsl:for-each select="following-sibling::t:p[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
-        <bibl><xsl:apply-templates select="node()"/></bibl>
-      </xsl:for-each>
     </div>
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
   </xsl:template>
