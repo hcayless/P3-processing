@@ -36,7 +36,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2022-01-25T20:39:55Z</date>
+               <date>2022-01-25T21:01:48Z</date>
                <name/>
             </change>
          </listChange>
@@ -46,7 +46,8 @@
       <front>
          <docTitle>
             <titlePart type="MainTitle">
-               <seg style="font-weight: bold;">Ricevuta di pagamento del πελωχικ</seg>ό<seg style="font-weight: bold;">ν</seg>
+               <seg style="font-weight: bold;">Ricevuta di pagamento del π<seg style="font-weight: bold;">ελωχικ</seg>
+               </seg>ό<seg style="font-weight: bold;">ν</seg>
             </titlePart>
          </docTitle>
       </front>
@@ -72,19 +73,19 @@
                   <p xml:id="p4" style="text-align: justify;">Si tratta di una ricevuta emessa da due consiglieri di Arsinoe investiti della carica di meridarca a favore di Panephremmis, figlio di Stotoetis, abitante di Soknopaiu Nesos.</p>
                   <p xml:id="p5" style="text-align: justify;">Questo documento è di estremo interesse in quanto costituisce la quarta attestazione del pagamento del <seg style="font-style: italic;">pelochikon</seg>: si aggiunge a <ref target="http://www.papyri.info/ddbdp/bgu;3;771">BGU 3 771</ref> (Karanis, ca. 221/2)<note place="foot" xml:id="ftn2" n="1"><p style="text-align: justify;"> In BL 3 14 è riportato che lo scioglimento dell'abbreviazione πελ(ωχικοῦ) μηχ(ανῆς) si trova in <ref target="http://papyri.info/biblio/3811">Wallace 1938</ref>: 355. </p></note> P.Rain.Cent. 60 (Arsinoites, 164) e a <ref target="http://papyri.info/hgv/11837">P.Louvre 1 25</ref> (Soknopaiu Nesos, 113) ripubblicato da <ref target="http://papyri.info/biblio/18268">Reiter 2004</ref>: 304-306 = <ref target="http://www.papyri.info/ddbdp/sb;28;17055">SB 28 17055</ref>. Questi documenti non sono strutturalmente sovrapponibili poiché ciascuno di essi presenta una fisionomia documentale peculiare. </p>
                   <p xml:id="p6" style="text-align: justify;">Il più antico, P.Louvre 1 25, riedito e divenuto <ref target="http://www.papyri.info/ddbdp/sb;28;17055">SB 28 17055</ref>, è un attestato bancario: la banca, a favore e per conto di un collegio di esattori, attesta che i sacerdoti hanno pagato la tassa su un mulino che sappiamo appartenesse al dio Soknopaios.</p>
-                  <p xml:id="p7" style="text-align: justify;"><ref target="https://www.papyri.info/ddbdp/p.rain.cent;;60">P.Rain.Cent. 60</ref>, indirizzato al nomarca, non è precisabile da un punto di vista documentale a causa dei danni occorsi nella prima metà del r. 7 che conteneva il verbo tecnico rivelatore della natura dell'atto; si legge, comunque, che la proprietaria di un mulino si impegna a pagare 18 dracme di <seg style="font-style: italic;">pelochikon </seg>all'anno e nessun altro onere; in proposito l'editore, J.D. Thomas, osserva: «It is quite certain that our text has nothing to do with the collection of this tax». Dunque il documento vale come ulteriore attestazione del fatto che il proprietario di un mulino era tenuto a pagare il <seg style="font-style: italic;">pelochikon. </seg> </p>
+                  <p xml:id="p7" style="text-align: justify;"><ref target="https://www.papyri.info/ddbdp/p.rain.cent;;60">P.Rain.Cent. 60</ref>, indirizzato al nomarca, non è precisabile da un punto di vista documentale a causa dei danni occorsi nella prima metà del r. 7 che conteneva il verbo tecnico rivelatore della natura dell'atto; si legge, comunque, che la proprietaria di un mulino si impegna a pagare 18 dracme di <seg style="font-style: italic;">pelochikon</seg> all'anno e nessun altro onere; in proposito l'editore, J.D. Thomas, osserva: «It is quite certain that our text has nothing to do with the collection of this tax». Dunque il documento vale come ulteriore attestazione del fatto che il proprietario di un mulino era tenuto a pagare il <seg style="font-style: italic;">pelochikon. </seg> </p>
                   <p xml:id="p8" style="text-align: justify;"><ref target="http://www.papyri.info/ddbdp/bgu;3;771">BGU 3 771</ref>, già sopra citato per il formato del foglio, e cronologicamente vicinissimo al papiro londinese che ora qui si pubblica, è anch'esso un attestato bancario che certifica il versamento di 56 dracme e 8 oboli<note place="foot" xml:id="ftn3" n="2"><p style="text-align: justify;"> Gli oboli, nella misura di 8, ci sono solo nell'ultimo pagamento, quello di Mesore; mi chiedo se non siano il pagamento complessivo del γραμματικόν, cioè del contributo richiesto per l'opera del <seg style="font-style: italic;">grammateus</seg>, una sorta di 'diritti di segreteria'.</p></note> che sono il pagamento complessivo annuale della tassa del <seg style="font-style: italic;">pelochikon</seg> effettuato da un certo Giulio Apollinare, il quale, nel corso dell'anno, ha pagato 7 rate da 8 dracme; il denaro è stato versato da uno dei meridarchi che hanno ricevuto il pagamento da Giulio Apollinare ed è stato accreditato sul conto bancario della <seg style="font-style: italic;">boule</seg> di Arsinoe. </p>
                   <p xml:id="p9" style="text-align: justify;">Il presente <ref target="https://papyri.info/hgv/11645">P.Lond. 2 182a</ref> è, invece, una ricevuta rilasciata al contribuente dal collegio dei meridarchi. </p>
-                  <p xml:id="p10" style="text-align: justify;">Il <seg style="font-style: italic;">pelochikon </seg>(parola di etimo sconosciuto, rivelata dai papiri) è una tassa pagata dai mugnai (vd. <ref target="http://papyri.info/biblio/3811">Wallace 1938</ref>: 222; <ref target="http://papyri.info/biblio/18268">Reiter 2004</ref>: 166: «Es handelt sich um eine in Zusammenhang mit Mühlen zu entrichtende Abgabe, wahrscheinlich eine Art Lizenzsteuer zum Betrieb einer Mühle»). I meridarchi sono funzionari liturgici, costituiti in collegio, scelti dalla <seg style="font-style: italic;">boule </seg>nel proprio seno, i quali riscuotono parte delle tasse nomarchiche che confluiscono nel λόγος νομαρχίας oppure nel λόγος τῆς βουλῆς (vd. <ref target="http://papyri.info/biblio/18268">Reiter 2004</ref>: 90, 301-302).</p>
+                  <p xml:id="p10" style="text-align: justify;">Il <seg style="font-style: italic;">pelochikon</seg> (parola di etimo sconosciuto, rivelata dai papiri) è una tassa pagata dai mugnai (vd. <ref target="http://papyri.info/biblio/3811">Wallace 1938</ref>: 222; <ref target="http://papyri.info/biblio/18268">Reiter 2004</ref>: 166: «Es handelt sich um eine in Zusammenhang mit Mühlen zu entrichtende Abgabe, wahrscheinlich eine Art Lizenzsteuer zum Betrieb einer Mühle»). I meridarchi sono funzionari liturgici, costituiti in collegio, scelti dalla <seg style="font-style: italic;">boule </seg>nel proprio seno, i quali riscuotono parte delle tasse nomarchiche che confluiscono nel λόγος νομαρχίας oppure nel λόγος τῆς βουλῆς (vd. <ref target="http://papyri.info/biblio/18268">Reiter 2004</ref>: 90, 301-302).</p>
                </div>
                <div copyOf="#ed1" type="edition"/>
                <div copyOf="#trans1" type="translation"/>
                <div type="commentary">
                   <note>
-                     <p><ref>2-4.</ref> Questa attestazione del secondo anno di Elagabalo è già utilizzata da P. Bureth, <seg style="font-style: italic;">Les Titulatures impé<seg style="font-style: italic;">riales dans les papyrus, les ostraca et les inscriptions d'</seg></seg>, Bruxelles 1964 (biblio id 6514), 106.</p>
+                     <p><ref>2-4.</ref> Questa attestazione del secondo anno di Elagabalo è già utilizzata da P. Bureth, <seg style="font-style: italic;">Les Titulatures imp<seg style="font-style: italic;">é</seg></seg> <seg style="font-style: italic;">Bruxellensia. 2.]</seg>, Bruxelles 1964 (biblio id 6514), 106.</p>
                   </note>
                   <note>
-                     <p><ref>6-7.</ref> I due consiglieri di Arsinoe, con una carriera magistratuale alle spalle, non sono noti: ho consultato le tavole prosopografiche in <ref target="http://papyri.info/biblio/95933">Colella 2018</ref>. Ci si potrebbe chiedere se Afrodisio venga citato per primo in virtù del fatto che essere stato <seg style="font-style: italic;">archiereus</seg> gli conferiva un prestigio maggiore rispetto a Mysthes che era stato <seg style="font-style: italic;">agoranomos</seg>: ma a tutt'oggi bisogna riconoscere che, a causa della natura variabile e scarsa della documentazione, non ci si può esprimere con certezza circa la gerarchia fra le magistrature civiche al di là della sequenza <seg style="font-style: italic;">gymnasiarchia – <seg style="font-style: italic;">exegeteia</seg></seg>stabilita da <ref target="https://papyri.info/biblio/95918">Preisigke 1903</ref>: 27-42) e che ancora regge alla prova dell'accresciuta documentazione. Si veda in proposito <ref target="http://papyri.info/biblio/16013">Habermann 2000</ref>: 124-126, 284-285; Id., P.Heid. X 450, pp. 375-377 (biblio id 95278); <ref target="http://www.fedoa.unina.it/id/eprint/12624">L.C. Colella, La boule di Arsinoe</ref>, op. cit. e L.C. Colella, <seg style="font-style: italic;">Una gerarchia delle magistrature civiche in Egitto? Tipologie di fonti e criteri di analisi</seg>, in corso di stampa negli <seg style="font-style: italic;">Atti del XXIX Congresso Inte<seg style="font-style: italic;">rnazionale di Papirologia</seg></seg> </p>
+                     <p><ref>6-7.</ref> I due consiglieri di Arsinoe, con una carriera magistratuale alle spalle, non sono noti: ho consultato le tavole prosopografiche in <ref target="http://papyri.info/biblio/95933">Colella 2018</ref>. Ci si potrebbe chiedere se Afrodisio venga citato per primo in virtù del fatto che essere stato <seg style="font-style: italic;">archiereus</seg> gli conferiva un prestigio maggiore rispetto a Mysthes che era stato <seg style="font-style: italic;">agoranomos</seg>: ma a tutt'oggi bisogna riconoscere che, a causa della natura variabile e scarsa della documentazione, non ci si può esprimere con certezza circa la gerarchia fra le magistrature civiche al di là della sequenza <seg style="font-style: italic;">gymnasiarchia</seg> <seg style="font-style: italic;">– exegeteia<seg style="font-style: italic;"> – </seg></seg> stabilita da <ref target="https://papyri.info/biblio/95918">Preisigke 1903</ref>: 27-42) e che ancora regge alla prova dell'accresciuta documentazione. Si veda in proposito <ref target="http://papyri.info/biblio/16013">Habermann 2000</ref>: 124-126, 284-285; Id., P.Heid. X 450, pp. 375-377 (biblio id 95278); <ref target="http://www.fedoa.unina.it/id/eprint/12624">L.C. Colella, La boule di Arsinoe</ref>, op. cit. e L.C. Colella, <seg style="font-style: italic;">Una gerarchia delle magistrature civiche in Egitto? Tipologie di fonti e criteri di analisi</seg>, in corso di stampa negli <seg style="font-style: italic;">Atti del XXIX Congresso Int<seg style="font-style: italic;">e</seg></seg> </p>
                   </note>
                   <note>
                      <p><ref>8</ref> Attestazioni di meridarca in età romana: <ref target="http://www.papyri.info/ddbdp/bgu;3;771">BGU 3 771</ref>, 5 (ca. 221/2, Karanis); <ref target="https://papyri.info/ddbdp/p.louvre;1;38">P.Louvre 1 38</ref>, 5 (216/7, Soknopaiu Nesos); <ref target="https://papyri.info/ddbdp/p.flor;1;76">P.Flor. 1 76 <seg style="font-style: italic;">v</seg>.</ref>, 1, 16 (266, Theadelphia); <ref target="https://papyri.info/ddbdp/p.flor;2;278">P.Flor. 2 278</ref>, 14 (203, Theadelphia); ben attestate, in ricevute di età romana pubblicate in <ref target="https://papyri.info/search?STRING=(%25CE%25BC%25CE%25B5%25CF%2581%25CE%25B9%25CE%25B4%25CE%25B1%25CF%2581%25CF%2587)&amp;no_caps=on&amp;no_marks=on&amp;target=text&amp;DATE_MODE=LOOSE&amp;VOLUME=5&amp;DOCS_PER_PAGE=15&amp;SERIES=P.Strasb.">P.Stras. V</ref>, le tasse meridarchiche.</p>
@@ -104,19 +105,19 @@
                   <listBibl>
                      <bibl>
                         <ref target="https://papyri.info/biblio/6514">Bureth, P. (1964)</ref> Les Titulatures impériales dans les papyrus, les ostraca et les inscriptions d'Égypte (30 a.C. - 284 p.C.). [Papyrologica Bruxellensia. 2.]. Bruxelles.</bibl>
+                     <bibl>
+                        <ref target="http://papyri.info/biblio/95933">Colella, L.C. (2018)</ref> La boule di Arsinoe nel III secolo d.C. Napoli.</bibl>
+                     <bibl>
+                        <ref target="http://papyri.info/biblio/16013">Habermann, W. (2000)</ref> Zur Wasserversorgung einer Metropole im kaiserzeitlichen Ägypten. München.</bibl>
+                     <bibl>
+                        <ref target="http://papyri.info/biblio/14864">Lewis, N. (1997)</ref> The Compulsory Public Services of Roman Egypt (Second Edition). (Papyrologica Florentina. XXVIII.). Firenze.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95918">Preisigke (1903)</ref> Städtisches Beamtenwesen im römischen Ägypten<seg style="font-style: italic;">. </seg>Halle (Saale).</bibl>
+                     <bibl>
+                        <ref target="http://papyri.info/biblio/18268">Reiter, F. (2004)</ref> Die Nomarchen des Arsinoites. Ein Beitrag zum Steuerwesen im römischen Ägypten, Paderborn München. Wien Zürich.</bibl>
+                     <bibl>
+                        <ref target="http://papyri.info/biblio/3811">Wallace, Sh.L. (1938)</ref> Taxation in Egypt from Augustus to Diocletian. Princeton.</bibl>
                   </listBibl>
-                  <bibl>
-                     <ref target="http://papyri.info/biblio/95933">Colella, L.C. (2018)</ref> La boule di Arsinoe nel III secolo d.C. Napoli.</bibl>
-                  <bibl>
-                     <ref target="http://papyri.info/biblio/16013">Habermann, W. (2000)</ref> Zur Wasserversorgung einer Metropole im kaiserzeitlichen Ägypten. München.</bibl>
-                  <bibl>
-                     <ref target="http://papyri.info/biblio/14864">Lewis, N. (1997)</ref> The Compulsory Public Services of Roman Egypt (Second Edition). (Papyrologica Florentina. XXVIII.). Firenze.</bibl>
-                  <bibl>
-                     <ref target="https://papyri.info/biblio/95918">Preisigke (1903)</ref> Städtisches Beamtenwesen im römischen Ägypten<seg style="font-style: italic;">. </seg>Halle (Saale).</bibl>
-                  <bibl>
-                     <ref target="http://papyri.info/biblio/18268">Reiter, F. (2004)</ref> Die Nomarchen des Arsinoites. Ein Beitrag zum Steuerwesen im römischen Ägypten, Paderborn München. Wien Zürich.</bibl>
-                  <bibl>
-                     <ref target="http://papyri.info/biblio/3811">Wallace, Sh.L. (1938)</ref> Taxation in Egypt from Augustus to Diocletian. Princeton.</bibl>
                </div>
             </div>
          </div>
