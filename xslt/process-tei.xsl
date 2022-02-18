@@ -239,7 +239,7 @@
     </xsl:if>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#bibliography']" mode="pass2">
+  <xsl:template match="t:p[@type='#bibliography']" mode="epidoc pass2">
     <div type='bibliography'>
       <listBibl>
         <bibl><xsl:apply-templates select="node()"/></bibl>
@@ -248,7 +248,7 @@
         </xsl:for-each>
       </listBibl>
     </div>
-    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="#current"/>
   </xsl:template>
   
   <xsl:template match="t:p[lower-case(@type)='#blockquote']" mode="epidoc pass2">
