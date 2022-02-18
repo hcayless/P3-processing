@@ -109,11 +109,11 @@
               <xsl:apply-templates select="node()|@*"/>
             </xsl:copy>
           </xsl:for-each>
-          <xsl:apply-templates select="following-sibling::t:p[@type][preceding-sibling::t:p[@type='#articleHeader'][1] is current()][not(@type = ('#articleHeader','#corrections'))][1]" mode="pass2">
+          <xsl:apply-templates select="following-sibling::t:p[@type][preceding-sibling::t:p[@type='#articleHeader'][1] is current()][not(@type = ('#articleHeader','#bibliography','#corrections'))][1]" mode="pass2">
             <xsl:with-param name="inSubSection" select="true()"/>
           </xsl:apply-templates>
         </div>
-        <xsl:apply-templates select="following-sibling::t:*[@type=('#articleHeader','#corrections')][1]" mode="pass2">
+        <xsl:apply-templates select="following-sibling::t:*[@type=('#articleHeader','#bibliography','#corrections')][1]" mode="pass2">
           <xsl:with-param name="inSubSection" select="$inSubSection"/>
         </xsl:apply-templates>
       </xsl:otherwise>
