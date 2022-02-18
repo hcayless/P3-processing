@@ -33,6 +33,12 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="t:encodingDesc">
+    <encodingDesc>
+      <ab>Converted from a Word document for Pylon.</ab>
+    </encodingDesc>
+  </xsl:template>
+  
   <xsl:template match="t:TEI">
     <xsl:processing-instruction name="xml-model">href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction><xsl:text>
 </xsl:text>

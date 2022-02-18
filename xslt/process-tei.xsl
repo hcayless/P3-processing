@@ -239,7 +239,7 @@
     </xsl:if>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#bibliography']" mode="epidoc">
+  <xsl:template match="t:p[@type='#bibliography']" mode="pass2">
     <div type='bibliography'>
       <listBibl>
         <bibl><xsl:apply-templates select="node()"/></bibl>
