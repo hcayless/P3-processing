@@ -20,16 +20,17 @@
   <xsl:template match="t:body">
     <xsl:variable name="pass1"><xsl:apply-templates select="t:p|t:table|t:list|t:figure" mode="pass1"/></xsl:variable>
     <!--<xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>-->
+    <xsl:variable name="pass2"><xsl:apply-templates select="$pass1/*" mode="pass2"/></xsl:variable>
     <front>
       <docTitle>
-        <titlePart type="MainTitle"><xsl:apply-templates select="$pass1//t:p[lower-case(@type)='#articletitle']/node()"/></titlePart>
+        <titlePart type="MainTitle"><xsl:apply-templates select="$pass2//t:p[lower-case(@type)='#articletitle']/node()"/></titlePart>
       </docTitle>
     </front>
     <body>
       <div type="article">
-        <xsl:apply-templates select="$pass1/*[lower-case(@type) = '#articletitle']" mode="pass2"/>
+        <xsl:apply-templates select="$pass2/*[lower-case(@type) = '#articletitle']" mode="pass3"/>
       </div>
-    </body>
+    </body>    
   </xsl:template>
   
   <xsl:template match="t:seg" mode="#all">
@@ -60,9 +61,17 @@
       <xsl:when test="starts-with($text,'#edition') and not(ends-with($text, 'Header'))"><p type="edition" subtype="{substring-after($text, '#edition')}"/></xsl:when>
       <xsl:when test="lower-case($text) = $sectionHeadingTypes"/>
       <xsl:when test="preceding-sibling::*[1]/lower-case(normalize-space(string-join(.//text()))) = $sectionHeadingTypes">
+        <xsl:variable name="type" select="preceding-sibling::*[1]/normalize-space(string-join(.//text()))"/>
         <xsl:copy>
           <xsl:apply-templates select="@*"/>
-          <xsl:attribute name="type" select="preceding-sibling::*[1]/normalize-space(string-join(.//text()))"/>
+          <xsl:choose>
+            <xsl:when test="lower-case($type) = ('#blockquote','#endblockquote')">
+              <xsl:attribute name="n" select="$type"></xsl:attribute>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:attribute name="type" select="$type"/>
+            </xsl:otherwise>
+          </xsl:choose>
           <xsl:apply-templates/>
         </xsl:copy>
       </xsl:when>
@@ -81,23 +90,23 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#affiliation']" mode="pass2">
+  <xsl:template match="t:p[@type='#affiliation']" mode="pass3">
     <affiliation><xsl:apply-templates/></affiliation>
   </xsl:template>
   
-  <xsl:template match="t:p[lower-case(@type) = '#articletitle']" mode="pass2">
+  <xsl:template match="t:p[lower-case(@type) = '#articletitle']" mode="pass3">
     <xsl:for-each select="following-sibling::t:p[@type = ('#author','#affiliation','#email')]">
-      <xsl:apply-templates select="." mode="pass2"/>
+      <xsl:apply-templates select="." mode="pass3"/>
     </xsl:for-each>
     <xsl:for-each select="following-sibling::t:p[not(@type)][following-sibling::*[@type][1] = current()/following-sibling::*[@type][not(@type = ('#author','#affiliation','#email'))][1]]">
       <xsl:copy>
         <xsl:apply-templates select="node()|@*"/>
       </xsl:copy>
     </xsl:for-each>
-    <xsl:apply-templates select="following-sibling::*[@type][not(@type = ('#author','#affiliation','#email'))][1]" mode="pass2"/>
+    <xsl:apply-templates select="following-sibling::*[@type][not(@type = ('#author','#affiliation','#email'))][1]" mode="pass3"/>
   </xsl:template>
     
-  <xsl:template match="t:p[lower-case(@type)='#articleheader']" mode="pass2">
+  <xsl:template match="t:p[lower-case(@type)='#articleheader']" mode="pass3">
     <xsl:param name="inSubSection" select="false()"/>
     <xsl:choose>
       <xsl:when test="$inSubSection"/>
@@ -109,42 +118,42 @@
               <xsl:apply-templates select="node()|@*"/>
             </xsl:copy>
           </xsl:for-each>
-          <xsl:apply-templates select="following-sibling::t:p[@type][preceding-sibling::t:p[@type='#articleHeader'][1] is current()][not(@type = ('#articleHeader','#bibliography','#corrections'))][1]" mode="pass2">
+          <xsl:apply-templates select="following-sibling::t:p[@type][preceding-sibling::t:p[@type='#articleHeader'][1] is current()][not(@type = ('#articleHeader','#bibliography','#corrections'))][1]" mode="pass3">
             <xsl:with-param name="inSubSection" select="true()"/>
           </xsl:apply-templates>
         </div>
-        <xsl:apply-templates select="following-sibling::t:*[@type=('#articleHeader','#bibliography','#corrections')][1]" mode="pass2">
+        <xsl:apply-templates select="following-sibling::t:*[@type=('#articleHeader','#bibliography','#corrections')][1]" mode="pass3">
           <xsl:with-param name="inSubSection" select="$inSubSection"/>
         </xsl:apply-templates>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#acknowledgement']" mode="pass2">
+  <xsl:template match="t:p[@type='#acknowledgement']" mode="pass3">
     <note type="acknowledgement"><xsl:apply-templates/></note>
     <xsl:apply-templates select="following-sibling::*[not(@type)][preceding-sibling::t:p[@type][1] = current()]"/>
-    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass2"/>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="pass3"/>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#author']" mode="pass2">
+  <xsl:template match="t:p[@type='#author']" mode="pass3">
     <author><xsl:apply-templates/></author>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='edition']" mode="pass2">
+  <xsl:template match="t:p[@type='edition']" mode="pass3">
     <xsl:param name="inSubSection" select="false()"/>
     <div type="epidoc" subtype="{@subtype}">
-      <xsl:apply-templates select="following-sibling::*[@type = '#metadata'][1]" mode="epidoc"/>
+      <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
     </div>
-    <xsl:apply-templates select="following-sibling::*[lower-case(@type) = ('edition','#articleheader')][1]" mode="pass2">
+    <xsl:apply-templates select="following-sibling::*[lower-case(@type) = ('edition','#articleheader')][1]" mode="pass3">
       <xsl:with-param name="inSubSection" select="$inSubSection"/>
     </xsl:apply-templates>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#email']" mode="pass2">
+  <xsl:template match="t:p[@type='#email']" mode="pass3">
     <email><xsl:apply-templates/></email>
   </xsl:template>
   
-  <xsl:template match="t:table[@type='#corrections']" mode="pass2">
+  <xsl:template match="t:table[@type='#corrections']" mode="pass3">
     <xsl:param name="inSubSection" select="false()"/>
     <xsl:choose>
       <xsl:when test="$inSubSection"/>
@@ -177,14 +186,14 @@
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#introduction']" mode="epidoc">
+  <xsl:template match="t:p[@type='#introduction']" mode="epidoc pass3">
     <div type="introduction">
       <p><xsl:apply-templates/></p>
       <xsl:for-each select="following-sibling::*[preceding-sibling::t:p[@type][1] is current()][not(@type)]">
         <xsl:apply-templates select="."/>
       </xsl:for-each>
     </div>
-    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
+    <xsl:apply-templates select="following-sibling::*[@type][1]" mode="#current"/>
   </xsl:template>
   
   <xsl:template match="t:p[@type='#text']" mode="epidoc">
@@ -239,7 +248,7 @@
     </xsl:if>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#bibliography']" mode="epidoc pass2">
+  <xsl:template match="t:p[@type='#bibliography']" mode="epidoc pass3">
     <div type='bibliography'>
       <listBibl>
         <bibl><xsl:apply-templates select="node()"/></bibl>
@@ -251,32 +260,38 @@
     <xsl:apply-templates select="following-sibling::*[@type][1]" mode="#current"/>
   </xsl:template>
   
-  <xsl:template match="t:p[lower-case(@type)='#blockquote']" mode="epidoc pass2">
+  <xsl:template match="t:p[lower-case(@n)='#blockquote']" mode="pass2">
     <quote>
-      <lb/><xsl:apply-templates mode="#current"/><xsl:text>
+      <lb/><xsl:apply-templates mode="pass2"/><xsl:text>
 </xsl:text>
-      <xsl:iterate select="following-sibling::t:p">
-        <xsl:choose>
-          <xsl:when test="not(lower-case(@type)='#endblockquote')">
-            <lb/><xsl:apply-templates mode="#current"/><xsl:text>
-</xsl:text>
-            <xsl:next-iteration/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:break/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:iterate>
+      <xsl:apply-templates select="t:p[following-sibling::t:p[lower-case(@n) = '#endblockquote'][1] 
+        is current()/following-sibling::t:p[lower-case(@n) = '#endblockquote'][1]]" mode="blockquote"/>
     </quote>
-    <xsl:variable name="endbq" select="./following-sibling::t:p[lower-case(@type) = '#endblockquote'][1]"/>
-    <xsl:for-each select="$endbq/following-sibling::t:*[preceding-sibling::t:p[@type][1] is $endbq][not(@type)]">
-      <xsl:copy-of select="."/>
-    </xsl:for-each>
+  </xsl:template>
+  
+  <xsl:template match="*" mode="pass2">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates mode="pass2"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="t:p[lower-case(@n) = '#endblockquote']" priority="2" mode="pass2">
+    <xsl:copy>
+      <xsl:copy-of select="@*[not(local-name(.) = 'n')]"/>
+      <xsl:apply-templates mode="pass2"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="t:p[count(preceding-sibling::t:p[lower-case(@n)='#blockquote']) gt count(preceding-sibling::t:p[lower-case(@n)='#endblockquote'])]" mode="pass2"/>
+  
+  <xsl:template match="t:p" mode="blockquote">
+    <lb/><xsl:apply-templates mode="pass2"/>
   </xsl:template>
   
   <xsl:template match="*[not(@type = ('#metadata','#text','#introduction','#translation','#commentary','#bibliography'))]" mode="epidoc"/>
   
-  <xsl:template match="t:p" mode="pass2"/>
+  <xsl:template match="t:p" mode="pass3"/>
   
   <xsl:template match="text()" mode="comment" xml:space="preserve"><xsl:choose>
       <xsl:when test="matches(.,'^\t?(-|\d+[-–.0-9]*)\s+')"><ref><xsl:value-of select="replace(.,'^\t?((-|\d+[-–.0-9]*))\s.*','$1')"/></ref> <xsl:value-of select="replace(.,'^\t?(-|\d+[-–.0-9]*)\s+(.*)$','$2')"/></xsl:when>
