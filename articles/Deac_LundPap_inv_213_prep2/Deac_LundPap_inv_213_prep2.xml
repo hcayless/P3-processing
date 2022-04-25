@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Register of receipts (?) from a military context</title>
+            <author>
+               <name>
+                  <forename>Dan</forename>
+                  <surname>Deac</surname>
+               </name>
+               <affiliation>Babes-Bolyai University</affiliation>
+               <email>dan_deac1923@yahoo.com</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-04-25T15:07:43Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Register of receipts (?) from a military context</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">P.Lund Inv. 213 is housed in the Lund University Library and is currently in a fragile state of preservation.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> I would like to thank Per Stobaeus, librarian in charge of the Papyrus collection at the Lund University for the excellent collaboration and for providing me with high-quality photos of the papyrus. Most importantly, I would like to express my gratitude to Rodney Ast (Institut für Papyrologie, Heidelberg University), Graham Claytor (University of Warsaw), Ligia Ruscu (Babeș-Bolyai Unviersity, Cluj-Napoca) and Loreleï Vanderheyden (Institut für Papyrologie, Heidelberg University) for their valuable comments on drafts of the paper. All errors or misjudgements are my own. This publication is the result of my participation in the Lektüre unpublizierter Papyri seminar led by Rodney Ast from November 2020 to February 2021. </p></note> No information survives regarding its provenance, nor does the content point to a certain area.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> The fact that it refers to a veteran might suggest it comes from the Fayum, since that area of Egypt attests a high number of veterans; see <ref target="https://papyri.info/biblio/13826">Alston 1995</ref>: 39, 51. </p></note> Acquisition information about the piece is also lacking.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> For an overview of the history of the Lund collection, see <ref target="https://papyri.info/biblio/64523">Andorlini 1995</ref>. In recent years Todd Hickey has published some of the Lund papyri: e.g. inv. 43 and 48 (<ref target="https://papyri.info/biblio/77739?q=Hickey+Two+Papyri+in+Lund">Hickey 2009</ref>); inv. 12 (<ref target="https://papyri.info/biblio/79758">Hickey 2011</ref>); inv. 177 which joins with P.Heid. IV 298 (Ast and Hickey 2018); inv. 41 (<ref target="https://papyri.info/biblio/95980">Hickey 2021</ref>). See as well <ref target="https://papyri.info/biblio/95781">DeWitt 2019</ref> for a re-edition of <ref target="https://papyri.info/ddbdp/basp;56;131">P.Lund 6 10</ref> + P.Mich. inv. 1671.</p></note> The medium brown papyrus is torn on three sides, with the upper margin preserved on the recto and the bottom margin on the verso. The roll was made up of two sheets written on both sides in black ink; a kollesis is visible at the end of the lines of the first column on the recto, as well as on the verso.  <lb/>	The recto contains, in two columns along the fibers, a possible register of receipts related to military personnel, perhaps of a single unit. Column II looks to be a continuation of the first column, since the name Birrius Florus, which begins the column, is in the genitive case. A paragraphos occurs after the fourth line, which divides two receipts. Two styles of the same handwriting are visible in the two receipts. <lb/>	Column II preserves in line 3 more than half of the original text while the second line has approximately one third; after the paragraphos, the lines show less than half of the original text, with the number of letters progressively diminishing towards the bottom. Of particular interest is the unusual name Birrius, attested in papyrological sources for the first time, and the reference to a custos armorum. The nomen Birrius occurs among soldiers in a few places outside Egypt.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> Most bearers of this name are humiliores, the name Birrius being usually encountered on Roman epigraphic monuments in Italy and Rome, Dalmatia, Pannonia Inferior, Germania Superior and Gallia Narbonensis (<ref target="https://papyri.info/biblio/96050">Solin and Salomies 1994</ref>: 35; OPEL I 295). Birrius is so far identified in Greek epigraphic evidence at Istros in the 3rd c. CE (ISM I 143, line 6), and at modern-day Kilavuzlar, in Pisidia, in the Imperial period (<ref target="https://papyri.info/biblio/96048">Smith 1887</ref>: 250-251, no. 30).</p></note> Lucius Birrius Priscus, son of Caius, of the Publilia tribe, from Verona, is recorded as a miles cohortis IIII praetoriae on a funerary monument discovered at Rome and dated to the second half of the 1st c. CE (AE 1989, 83). Another Birrius is recorded on an honorific inscription dated to Gordian III’s reign: the name is partially preserved as Birr[iu]s S[---]nianus, miles of an unknown military unit (AE 2013, 473). The name appears as well in literary sources.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> E.g., Horace, Sat. I 4.69: ut sis tu similis Caeli Birrique latronum.</p></note> However, although less likely, one cannot exclude a betacism of the transliterated form of Virrius / Οὐΐρριος.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> For the occurrences of this name in Latin inscriptions consult the <ref target="http://db.edcs.eu/epigr/epikl_ergebnis.php">Epigraphic Database Clauss/Slaby</ref>; for Greek, see the <ref target="https://inscriptions.packhum.org/search?patt=O%2525CF%252585%2525CE%2525B9%2525CF%252581%2525CF%252581%2525CE%2525B9">Packard Humanities Institute database</ref>. These occurrences are more or less similar in quantity and distribution to Birrius / Βίρριος. In papyrological sources, Οὐΐρριος has not been identified so far, but the name Βέ̣ρ̣ριος appears in <ref target="https://papyri.info/ddbdp/sb;18;13102">SB 18 13102</ref>, 4-5 (81-95), although the reading of epsilon and the first rho is questionable, and Οὐέρριος in <ref target="https://papyri.info/ddbdp/o.edfou;2;257">O.Edfu 2 257</ref> and <ref target="https://papyri.info/ddbdp/o.edfou;2;258">258</ref>; <ref target="https://papyri.info/ddbdp/p.select;;6">P. Select 6</ref>.</p></note> <lb/>	The parties to the transaction are a certain Marcus Valerius L(…), honorably discharged among the veterans, and a custos armorum of a turma of an auxiliary unit that might be identified with a certain degree of caution as an ala. Perhaps Marcus Valerius L(…) was discharged from the same ala as the one where the custos armorum was serving, but there is no conclusive evidence in this regard. The term custos armorum is found in papyrological sources, e.g., ἀρμοκ[ο]ύστωρ, Alexandria, 2nd c. CE (<ref target="https://papyri.info/ddbdp/chla;42;1207"><seg style="text-decoration: underline;">P.Fouad 1 45</seg></ref>) and Pselkis, 2nd c. CE (<ref target="https://papyri.info/ddbdp/o.bodl;2;2022"><seg style="text-decoration: underline;">O. Bodl. 2 2022</seg></ref>); ἀρμοροκούστορ, Abu Duruah, Nubia (<ref target="https://epigraphy.packhum.org/text/220564"><seg style="text-decoration: underline;">SB 1 1592</seg></ref>); ἀρμικ̣(ούστωρος), Syene, 2nd c. CE (<ref target="https://papyri.info/ddbdp/pap.choix;;6"><seg style="text-decoration: underline;">P.Wisc. 1 14</seg></ref>); ἀρμι[κούστωρ], Bostra, Arabia, 2nd c. CE (<ref target="https://papyri.info/ddbdp/p.mich;8;466."><seg style="text-decoration: underline;">P.Mich. 8 466</seg></ref>); ἐρμοκούστωρι, Philadelphia, 2nd c. CE (<ref target="https://papyri.info/ddbdp/p.hamb;1;88"><seg style="text-decoration: underline;">P.Hamb. 1 88</seg></ref>); ἀρμορου, Nikopolis, 16 January 179 CE (<ref target="https://papyri.info/ddbdp/rom.mil.rec;1;76"><seg style="text-decoration: underline;">Rom.Mil.Rec. I 76</seg></ref>.15.8); ἁρμοκ(  ), Arsinoites 2nd-3rd c. CE (<ref target="https://papyri.info/ddbdp/bgu;1;344"><seg style="text-decoration: underline;">BGU I 344</seg></ref>). In the Eastern desert the rank of custos armorum is attested in two dipinti at Maximianon (<ref target="https://papyri.info/biblio/71893"><seg style="text-decoration: underline;">Cuvigny 2003</seg></ref>: 343) and at Dios on an unpublished ostracon (O.Dios. inv. 1057), dated not earlier than 115/116 CE, where the custos armorum is named Publius Petronius Apollonius (cf. O.Berenike III 276.1n.). In Latin, the term is encountered in Egypt at Krokodilo (<ref target="https://papyri.info/ddbdp/o.krok;1;119"><seg style="text-decoration: underline;">O.Krok. 1 119</seg></ref>), at Contrapollonopolis (<ref target="https://papyri.info/ddbdp/p.diog;;1"><seg style="text-decoration: underline;">P.Diog. 1</seg></ref>) and on several papyri with unknown provenance (<ref target="https://papyri.info/ddbdp/rom.mil.rec;1;58"><seg style="text-decoration: underline;">Rom.Mil.Rec. 1 58</seg></ref>; <ref target="https://papyri.info/ddbdp/rom.mil.rec;1;129"><seg style="text-decoration: underline;">Rom.Mil.Rec. 1 129</seg></ref>). The Greek equivalent, ὁπλοφύλαξ, appears in Egypt on a papyrus discovered at Berenike dated to the 1st c. CE (<ref target="https://papyri.info/ddbdp/o.berenike;2;131"><seg style="text-decoration: underline;">O.Berenike II 131.5</seg></ref>) and on another unprovenanced fragment dated to the 3rd-4th c. CE.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> See the comments on <ref target="https://papyri.info/ddbdp/p.genova;5;204">P.Genova 5 204</ref> in <ref target="https://papyri.info/biblio/87150">van Minnen, P. (2015)</ref>: 238-239, no. 818. </p></note>Custodes armorum are attested both in legionary and auxiliary units, and were generally in charge of managing the state supplied weapons for each soldier as well as other financial duties. Our document suggests that they were present in each turma.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> See the detailed discussion in Speidel 1992: especially 132: “There was one armorum custos in every turma since there was much work to be done.” </p></note> <lb/>	This brings us to the left column, which, based on the information from the second column, I assume contained receipts as well. It preserves twelve line endings, which cannot be read due to the fragmentary state of preservation. The handwriting in the first column is different from that in the second column, which suggests that the second receipt on the first column is not the beginning of the first receipt on the second.<lb/>	It is estimated that during the early second century three to four alae were stationed in Egypt at any given time.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;"> Cf., e.g., <ref target="https://papyri.info/biblio/81530"><seg style="text-decoration: underline;">Haensch 2012</seg></ref>: 70; <ref target="https://papyri.info/biblio/96053"><seg style="text-decoration: underline;">Fischer<seg style="text-decoration: underline;">‐</seg></seg></ref>: 172, table 11.2, 173. </p></note> A military diploma issued for Egypt approximately one year before, on 24 September 105 CE, attests three alae among the auxiliary units of Egypt: Augusta, Apriana and Vocontiorum (RMD I 9).<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;"> Other alae that can be pointed out are, for example, the ala Commagenorum, I Thracum Mauretana or Veterana Gallica; it should be mentioned that there are some alae known to have been stationed at one point in their history in Egypt – such as Heracliana or Xoitana – but these are not attested in Egypt during Trajanʼs reign (see a detailed discussion in <ref target="https://papyri.info/biblio/13826"><seg style="text-decoration: underline;">Alston 1995</seg></ref>, appendix 1). For the auxilia, including those of Egypt, see <ref target="https://papyri.info/biblio/96046"><seg style="text-decoration: underline;">Haynes 2013</seg></ref>.</p></note> </p>
+            <p xml:id="p2" style="text-align: left; ">The writing is against the fibers, with four line endings visible in the first column. The only secure elements are the mention of a date, a day in the month of Tybi (i.e. 27 December – 25 January) of a 14th year of a reign, presumably that of Trajan, namely 111 CE. </p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p3">Col I</p>
+                  </note>
+                  <note>
+                     <p xml:id="p4"><ref>2.</ref> [...]τιου is possibly the ending of a name in the genitive. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p5"><ref>3.</ref> This is perhaps the dative of, e.g., a name ending in -ανος.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p6"><ref>12.</ref> If the first partially visible letter is an alpha one could read maybe [γρ]ά̣φιν for [γρ]ά̣φειν. </p>
+                     <p xml:id="p7">Col II</p>
+                  </note>
+                  <note>
+                     <p xml:id="p8"><ref>1.</ref> Unlike Birrius, Florus is a fairly common Latin cognomen (<ref target="https://papyri.info/biblio/96050">Solin and Salomies 1994</ref>: 333; OPEL II, 149).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p9"><ref>2-4.</ref> The dating in the last lines of the receipt above the paragraphos is 2 October 106 CE. Accordingly, it is safe to assume that the title Δακικοῦ (i.e. Dacicus Maximus) was written in the lacuna, as it had been bestowed on Trajan by late 102 CE (<ref target="https://papyri.info/biblio/96047"><seg style="text-decoration: underline;">Kienast, Eck and Heil 2017</seg></ref>: 117) and attested for the first time in papyrological sources in Egypt in January/February of the next year (103), as in <ref target="https://papyri.info/ddbdp/p.flor;1;81"><seg style="text-decoration: underline;">P. Flor. 1 81</seg></ref> (<ref target="https://papyri.info/biblio/56082?q=Traianus+Dacicus+and+the+Papyri"><seg style="text-decoration: underline;">Sijpesteijn 1983</seg></ref>). </p>
+                  </note>
+                  <note>
+                     <p xml:id="p10"><ref>5.</ref> perhaps Λ̣  instead of  Μ̣. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p11"><ref>5-6.</ref> The form [οὐε]τ̣ρανῶν ἀπο̣λελυ[μένων] is encountered in the fragmentary last line of a second century account of payments made to a sitologos (?) discovered presumably at Theadelphia and dated to the second half of the 2nd c. CE  (<ref target="https://papyri.info/ddbdp/p.bas;2;37"><seg style="text-decoration: underline;">P.Bas. 2 37</seg></ref>). Unfortunately, nothing can be read after this phrase. As N. Vanthieghem, the editor of the papyrus observed, the adverb ἐντίμως should have preceded the word ἀπολελυμένος. The same can probably be said of the Lund papyrus as well. In papyri dated until the 2nd century CE, the position within the army, for example, στρατιωτῶν or ἱππέων, usually follows in the genitive after ἀπολελυμένων. See, e.g., <ref target="https://papyri.info/ddbdp/p.fouad;;44"><seg style="text-decoration: underline;">P.Fouad 1 44</seg></ref>, 44 CE; <ref target="https://papyri.info/ddbdp/p.hamb;1;1"><seg style="text-decoration: underline;">P.Hamb. 1 1</seg></ref>, 57 CE; <ref target="https://papyri.info/ddbdp/p.mich;3;185"><seg style="text-decoration: underline;">P.Mich. 3 185</seg></ref>, 122 CE. In later periods, especially the third and fourth centuries, the preposition ἀπὸ + the military rank follows ἀπολελυμένων. Cf. [ἀπ]ὸ̣ σημιαφό̣ρ̣[ων] [λεγιῶνο]ς̣ β´ Τραια̣ν̣[ῆς] [Ἀντων]ινιανῆς (<ref target="https://papyri.info/ddbdp/p.vet.aelii;;6"><seg style="text-decoration: underline;">P.Vet. Aelii 6</seg></ref>, Ankyron, Severus Alexander’s reign); ἀπὸ ὀφφικιαλίων ἐπάρχου Αἰγύπτου (<ref target="https://papyri.info/hgv/21955a"><seg style="text-decoration: underline;">P.Oxy. 14 1646</seg></ref>, 28 September – 11 October 270 CE); ἀπὸ δουπλικιαρίων (<ref target="https://papyri.info/ddbdp/bgu;4;1021"><seg style="text-decoration: underline;">BGU 4 1021</seg></ref>, 25 June, 3rd c. CE); on three occasions in the case of Aelius Syrion: ἀπὸ ὀπτιώνων λεγιῶνος (<ref target="https://papyri.info/ddbdp/p.vet.aelii;;9"><seg style="text-decoration: underline;">P.Vet. Aelii 9</seg></ref>; 11 and 15, Ankyron, 3rd c. CE); <anchor xml:id="Hlk99023101"/>ἀπὸ (ἑκατοντάρ)χ(ων) (<ref target="https://papyri.info/ddbdp/p.cair.isid;;91"><seg style="text-decoration: underline;">SB 6 9222</seg></ref>, Karanis, January – May 309 CE); ἀπὸ <anchor xml:id="Hlk99023178"/>οὐιξιλ[λαρίων] (<ref target="https://papyri.info/ddbdp/p.stras;3;131"><seg style="text-decoration: underline;">SB 5 8013</seg></ref>, Arsinoite, 363 CE).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p12"><ref>7.</ref> The address by Valerius to the custos armorum should have ended with the customary χαίρειν. At the end of the receipt the dating formula was probably written similarly to the last lines of the receipt above the paragraphos. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p13"><ref>9.</ref> A slanting stroke (/)is visible in the margin before the beginning of this line.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p14"><ref>10.</ref> If the ἔπαρχος τῆς Αἰγύπτου and not the commander of the ala is meant, then the prefect referred to would have been Gaius Vibius Maximus (103-107 CE) (<ref target="https://papyri.info/biblio/96049">Faoro 2015</ref>: 75-78, no. 38 with references).</p>
+                  </note>
+               </div>
+            </div>
+            <div type="section">
+               <head>Verso</head>
+               <p xml:id="p15" style="text-align: left; ">The writing is against the fibers, with four line endings visible in the first column. The only secure elements are the mention of a date, a day in the month of Tybi (i.e. 27 December – 25 January) of a 14th year of a reign, presumably that of Trajan, namely 111 CE. </p>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p16"><ref>1.</ref> The horizontal stroke before iota makes an identification of the letter with beta unlikely. </p>
+                        <p xml:id="p17">	2. It is possible that Tῦβι was written in the lacuna before ̅ιδ̅.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Register of receipts (?) from a military context</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">142605</idno>
+               <idno type="HGV">142605</idno>
+               <idno type="ddb-filename">pylon.1.12r</idno>
+               <idno type="ddb-hybrid">pylon;1;12r</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">11.1</measure>
+                              <measure type="width" unit="cm">9.9</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>2.10.106 CE</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Geld</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Register of receipts (?) from a military context</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.12r</idno>
+               <idno type="ddb-hybrid">pylon;1;12r</idno>
+               <idno type="HGV">142605</idno>
+               <idno type="TM">142605</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Register of receipts (?) from a military context</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ευς
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>τιου
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>νω
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ησ<gap reason="illegible" quantity="2" unit="character"/><unclear>σ</unclear>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ο</unclear>ν<unclear>πα</unclear>  
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>αν<unclear>το</unclear>  
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>τι<gap reason="illegible" quantity="2" unit="character"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>π</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear>η</unclear>ς
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>φιν 
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="1"/>Βιρρίου Φλώρο<supplied reason="lost">υ</supplied> <gap reason="lost" quantity="20" unit="character" precision="low"/> <supplied reason="lost">καὶ οὐδέν σοι</supplied>
+<lb n="2"/>ἐνκαλῶ. ἔτους δεκ<unclear>ά</unclear><supplied reason="lost">του Αὐτοκράτορος Καίσαρος Νέρ</supplied>
+<lb n="3" break="no"/>ουα <supplied reason="lost">T</supplied><unclear>ρ</unclear>αιανοῦ Σεβαστοῦ Γε<unclear>ρ</unclear><supplied reason="lost">µανικοῦ Δακικοῦ,</supplied>
+<lb n="4"/>Φαῶφι <num value="5"><hi rend="supraline">ε</hi></num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5"/>Μᾶρκος <choice><reg>Οὐαλέριoς</reg><orig>Οὐαλέρις</orig></choice> <unclear>M</unclear><gap reason="lost" quantity="10" unit="character" precision="low"/> <supplied reason="lost">ἀπὸ τῶν</supplied> <supplied reason="lost" cert="low">ἐντίμως</supplied> <supplied reason="lost">ἀπο</supplied>
+<lb n="6" break="no"/>λελυμένων οὐε<unclear>τ</unclear><supplied reason="lost">ρανῶν</supplied> <gap reason="lost" quantity="20" unit="character" precision="low"/>
+<lb n="7"/>ἀρμοκούστορι τύρ<unclear>μ</unclear><supplied reason="lost">ης</supplied> <gap reason="lost" quantity="20" unit="character" precision="low"/> <supplied reason="lost" cert="low">χαίρειν</supplied>
+<lb n="8"/>ἀπέσχον πα<supplied reason="lost">ρὰ σοῦ</supplied> <gap reason="lost" quantity="25" unit="character" precision="low"/>
+<lb n="9"/>τα ἀρ<unclear>γυρ</unclear><supplied reason="lost">ίου</supplied> <gap reason="lost" quantity="30" unit="character" precision="low"/>
+<lb n="10"/>ἐπάρχου <supplied reason="lost" cert="low">εἴλης</supplied> <gap reason="lost" quantity="15" unit="character" precision="low"/> <supplied reason="lost" cert="low">καὶ οὐδέν σοι</supplied>
+<lb n="11"/>ἐ<unclear>νκ</unclear><supplied reason="lost" cert="low">αλῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Register of receipts (?) from a military context</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">142605</idno>
+               <idno type="TM">142605</idno>
+               <idno type="HGV">142605</idno>
+               <idno type="ddb-hybrid">142605</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+            <div n="ii" subtype="column" type="textpart">
+               <p>
+                  <milestone unit="line" n="1"/> (m1) (…) of Birrius Florus (…) (... that I make no) claim (against you). The 10th year of the emperor Caesar Nerva Traianus Augustus, Germanicus, Dacicus, Phaophi 5. 
+<milestone unit="line" n="5" rend="break"/> (m2) “Marcus Valerius L(<gap reason="illegible" extent="unknown" unit="character"/>), from among the honorably discharged veterans, to the custos armorum of the turma of (<gap reason="illegible" extent="unknown" unit="character"/>, greetings!). I have received from (you...) money (<gap reason="illegible" extent="unknown" unit="character"/>) of the commander (…) (... that I make no) claim (against you? …).
+               </p>
+            </div>
+         </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Register of receipts (?) from a military context</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">142605</idno>
+               <idno type="HGV">142605</idno>
+               <idno type="ddb-filename">pylon.1.12v</idno>
+               <idno type="ddb-hybrid">pylon;1;12v</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">11.1</measure>
+                              <measure type="width" unit="cm">9.9</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>27.12.110 -25.01.111 CE</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung (?)</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Register of receipts (?) from a military context</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.1.12v</idno>
+               <idno type="ddb-hybrid">pylon;1;12v</idno>
+               <idno type="HGV">142605</idno>
+               <idno type="TM">142605</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Register of receipts (?) from a military context</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ιβλο
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <hi rend="supraline">ιδ</hi> <expan><ex>ἔτους</ex></expan>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> 
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> διὰ <choice><reg><expan>χειρό<ex>ς</ex></expan></reg><orig><expan>χιρ<unclear>ό</unclear><ex>ς</ex></expan></orig></choice>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> Tῦβι <hi rend="supraline">ιδ</hi> <expan><ex>ἔτους</ex></expan> 
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="1"/><hi rend="supraline">ιθ</hi> <unclear>η</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><choice><reg>ἔχω</reg><orig>ἔχο</orig></choice> Φ<unclear>λαο</unclear>υ<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Register of receipts (?) from a military context</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">142605</idno>
+               <idno type="TM">142605</idno>
+               <idno type="HGV">142605</idno>
+               <idno type="ddb-hybrid">142605</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+            <div n="i" subtype="column" type="textpart">
+               <p>
+                  <milestone unit="line" n="1"/> (…) year 14 (…received) by hand (…) Tybi, year 14.
+               </p>
+            </div>
+         </div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
