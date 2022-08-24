@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Antichresis and Dioikesis: Negotiating Public and Private Debt in the Egyptian Delta</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-08-24T13:46:58Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-style: italic;">Antichresis</seg> and <seg style="font-style: italic;">Dioikesis</seg>: Negotiating Public and Private Debt in the Egyptian Delta</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">   &lt;= ((1)) ...from which it was made clear that until the sixteenth year nothing could accrue because it was not inhabited....In the (20th?) year of the Aurelii Antoninus and Commodus, Caesars Augusti...[[to Julius Crispinus,]] \to Vessidius Rufinus/, the most powerful <seg style="font-style: italic;">dioiketes</seg>. Ammonios, son of Potamon... ((5)) ...(that the) transfer of property put up as security for him happens in accordance with...the letter reading thus: From the records of proceedings of the most powerful <seg style="font-style: italic;">dioiketes</seg>, 20th year, roll 1, column [[15]] \32 up to/… Julius Crispinus, to the <seg style="font-style: italic;">strategos</seg> of the Diopolite nome of Lower Egypt, greetings. Of the petitions given to me by Ammonios, son of Potamon, I have signed one and ((10)) sent it to you. Now, if the property indicated is subject to sale (auction)...the <seg style="font-style: italic;">basilikos grammateus</seg>...whichever bids you receive, let me know...examine...he says that he is owed a loan, with a share of (property) as security...he says that the debtor is liable to the treasury and...in the property record office ((15)) whatever you find out, write back to me...I wish you well. In the (20th?) year of the Aurelii Antoninus and Commodus, Caesars Augusti. To Julius Crispinus, the most powerful <seg style="font-style: italic;">dioiketes</seg>, from Ammonios, son of Potamon of those from Diospolis of Lower Egypt. The woman succeeded in the inheritance, Potamiaina, ((20)) also known as Tapiomis, the daughter of Panesies, already from the 10th year of the deified Hadrian,...to Herakleides the elder, son of Isidoros...1080 drachmas on the security, and in lieu of occupation, of a house and an empty lot...the right of inhabitation not being provided, the legal rights...of possession against both the capital and the interest ((25)) meanwhile the debtor died. Of one of the heirs, ... being tied up in public matters, (the property was added?) to the unsold property (of the Treasury)...the custom of the province then preserving the right of first claim (on property)...for...creditors, I ask you to write (to the <seg style="font-style: italic;">strategos</seg> to take care of this. Farewell.)</p>
+            <p xml:id="p2" style="text-align: left; ">   =&gt;</p>
+            <p xml:id="p3" style="text-align: left; ">=T&gt;</p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+            </div>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed2" type="edition"/>
+               <div copyOf="#trans2" type="translation"/>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Report on Private and Public Claims to Debt Collection</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">749359</idno>
+               <idno type="HGV">749359</idno>
+               <idno type="ddb-filename">zpe.205.221</idno>
+               <idno type="ddb-hybrid">zpe;205;221</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">28.8</measure>
+                              <measure type="width" unit="cm">11.5</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>Spät 180 oder früh 181</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Bericht</term>
+                  <term n="2">Antichresis</term>
+                  <term n="3">Dioikesis</term>
+                  <term n="4">Diopolis Parva</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Report on Private and Public Claims to Debt Collection</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">zpe.205.221</idno>
+               <idno type="ddb-hybrid">zpe;205;221</idno>
+               <idno type="HGV">749359</idno>
+               <idno type="TM">749359</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Report on Private and Public Claims to Debt Collection</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb n="1"/><handShift new="m3"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <unclear>ἐ</unclear>ξ <unclear>ἧ</unclear>ς <expan><unclear>ἐ</unclear>δηλ<ex>ώθη</ex></expan> ἕως <num value="16"><unclear>ιϛ</unclear></num> <expan><ex>ἔτους</ex></expan> <expan>μηδ<ex>ὲν</ex></expan> <expan>δύν<ex>ασθαι</ex></expan> <expan>περιγ<ex>ίνεσθαι</ex></expan> διὰ τὸ μὴ ἐνοικ<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" quantity="10" unit="character" precision="low"/><gap reason="illegible" quantity="2" unit="character"/>ε
+<lb n="3"/><handShift new="m1"/><supplied reason="lost"><expan><ex>ἔτους</ex></expan></supplied><gap reason="lost" quantity="8" unit="character" precision="low"/> Αὐρηλίων Ἀντωνίνου καὶ <unclear>Κο</unclear><supplied reason="lost">μμ</supplied>όδου Καισάρων τῶν <unclear>κ</unclear><supplied reason="lost">υρίων Σεβαστῶν</supplied>
+<lb n="4"/><gap reason="lost" quantity="9" unit="character" precision="low"/><gap reason="illegible" quantity="2" unit="character"/>α <del rend="erasure">Ἰο<supplied reason="lost">υ</supplied>λ<supplied reason="lost">ί</supplied>ῳ Κρισ<unclear>πείν</unclear>ῳ</del> <handShift new="m2"/><add place="above">Οὐ<unclear>εσσ</unclear>ι<unclear>δ</unclear>ίῳ Ῥουφε<unclear>ί</unclear>ν<supplied reason="lost">ῳ</supplied></add> <handShift new="m1"/>τῷ <expan><supplied reason="lost">κ</supplied><unclear>ρ</unclear>α<ex>τίστῳ</ex></expan> <expan>διοικ<ex>ητῇ</ex></expan>. <unclear>Ἀμμώ</unclear>νιος Πο<unclear>τ</unclear><supplied reason="lost">άμωνος</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <unclear>π</unclear>αράδοσιν τῶν ὑποτε<supplied reason="lost">θ</supplied>έντων αὐτῷ γενέσθαι ἀκολο<supplied reason="lost">ύθως</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><gap reason="lost" quantity="10" unit="character" precision="low"/><unclear>ῃ</unclear> ἐπι<unclear>στ</unclear>ολῇ οὕτως ἐχούσῃ·
+<lb n="7"/><handShift new="m2"/><supplied reason="lost">ἐκ τῶν τοῦ</supplied> <expan><supplied reason="lost">κρ</supplied><unclear>ατίσ</unclear><ex>του</ex></expan> δ<unclear>ι</unclear>οικητο<supplied reason="lost">ῦ</supplied> <expan><supplied reason="lost">δι</supplied><unclear>αλογ</unclear><ex>ισμῶν</ex></expan> <num value="20"><unclear>κ</unclear></num> <expan><ex>ἔτους</ex></expan> <num value="1">α</num> <expan>τόμ<ex>ου</ex></expan> <expan>κολ<ex>λήματος</ex></expan> <del rend="erasure">ιε</del> <add place="above"><num value="32">λβ</num> ἕ<unclear>ω</unclear><supplied reason="lost">ς</supplied> <gap reason="lost" quantity="2" unit="character"/></add> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8"/><handShift new="m1"/><supplied reason="lost">Ἰούλιος Κρ</supplied>ισπ<unclear>εῖ</unclear>νος <expan>στρα<ex>τηγῷ</ex></expan> <expan>Δ<supplied reason="lost">ιο</supplied><unclear>π</unclear>ολ<ex>ίτου</ex></expan> κάτω χώρας χαίρειν. <supplied reason="lost">βιβλιδίων</supplied>
+<lb n="9"/><supplied reason="lost">δοθέντω</supplied><unclear>ν</unclear> <unclear>μ</unclear><supplied reason="lost"><unclear>ο</unclear></supplied>ι ὑπὸ Ἀμμωνίο<unclear>υ</unclear> <unclear>Π</unclear><supplied reason="lost">ο</supplied><unclear>τάμ</unclear>ωνος τὸ ἕτερον σημ<supplied reason="lost">ειωσάμενος</supplied>
+<lb n="10"/><supplied reason="lost">ἔπεμψά σ</supplied>οι. εἰ οὖν τὰ δηλούμενα ὑπάρχοντα πράσει <choice><reg>ὑποπίπ<supplied reason="lost">τει</supplied></reg><orig>ὑποπείπ<supplied reason="lost">τει</supplied></orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="lost" quantity="10" unit="character" precision="low"/> ὁ <expan>βασιλ<ex>ικὸς</ex></expan> <expan>γρα<ex>μματεύς</ex></expan>, ἃς ἂν <unclear>λά</unclear>βῃς αἱρέσ<unclear>ει</unclear>ς δήλωσόν μοι ἐξετ<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <unclear>φ</unclear>ησὶν ὀφεί<unclear>λε</unclear>σθαι δάν<unclear>ει</unclear><supplied reason="lost">ον</supplied> ἐπὶ ὑποθήκῃ μέρει τῶ<supplied reason="lost">ν</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="13"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <supplied reason="lost">φ</supplied><unclear>η</unclear>σὶν τὸν ὑπόχρεον ἐπέχ<unclear>εσ</unclear>θαι τῷ ταμείῳ καὶ <unclear>τουτ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="14"/><gap reason="lost" quantity="10" unit="character" precision="low"/><unclear>ο</unclear><gap reason="illegible" quantity="10" unit="character"/>ου τοῦ <unclear>ἐ</unclear>ν <unclear>τῷ</unclear> <expan>βιβλιοφ<unclear>υλ</unclear><ex>ακίῳ</ex></expan> τῶν ἐνκτ<unclear>ήσε</unclear><supplied reason="lost">ων</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="15"/><gap reason="lost" quantity="10" unit="character" precision="low"/><unclear>σπ</unclear>α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>αυ</unclear>τον <unclear>σ</unclear><gap reason="lost" quantity="2" unit="character"/><unclear>ν</unclear> καὶ ὃ ἐὰν ἐπιγνῷς ἀντίγρα<supplied reason="lost">ψόν μοι.</supplied>
+<lb n="16"/><space extent="unknown" unit="character"/> <expan>ἐ<unclear>ρ</unclear><supplied reason="lost">ρ</supplied><unclear>ῶσ</unclear>θ<ex>αί σε</ex></expan> ε<unclear>ὔ</unclear>χομαι.
+<lb n="17"/><supplied reason="lost"><expan><ex>ἔτους</ex></expan> <num value="20">κ</num> Αὐρηλί</supplied>ων Ἀντωνίνου καὶ Κομμόδου Καισάρων τῶν κυρίων <unclear>Σ</unclear><supplied reason="lost">εβαστῶν <g type="month"> day</g></supplied><gap reason="lost" extent="unknown" unit="character"/>
+ <lb n="18"/><supplied reason="lost">Ἰουλίῳ Κρι</supplied>σπείνῳ τῷ κρατίστωι διοικητῇ παρὰ Ἀμ<supplied reason="lost">μωνίου</supplied>
+ <lb n="19"/><supplied reason="lost">Ποτάμωνο</supplied><unclear>ς</unclear> τῶν ἀπὸ <expan>Διὸς πόλ<ex>εως</ex></expan> τῆς κάτω χώρας. ἡ κληρονομ<supplied reason="lost">ηθεῖσα Ποτα</supplied>
+<lb n="20" break="no"/><supplied reason="lost">μίαινα ἡ</supplied> <choice><reg>καὶ</reg><orig><supplied reason="lost">κ</supplied>ὲ</orig></choice> Ταπιῶ<unclear>μ</unclear>ις Πανεσιήους ἔτι ἀπὸ <num value="10">ι</num> <expan><ex>ἔτους</ex></expan> θεοῦ Ἁδρια<unclear>ν</unclear><supplied reason="lost">οῦ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="21"/><gap reason="lost" quantity="17" unit="character" precision="low"/><supplied reason="lost">Ἡρα</supplied>κλείδῃ <expan>πρεσβ<ex>υτέρῳ</ex></expan> Ἰσιδώρου ἀ<unclear>π</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="22"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <expan><ex>δραχμ  </ex></expan> <num value="1080">Απ</num> ἐπὶ ὑποθήκ<unclear>η</unclear> καὶ <supplied reason="lost">ἐ</supplied>νοικήσει οἰκίᾳ καὶ <expan>ψιλ<ex>ῷ</ex></expan> <unclear>τ</unclear><supplied reason="lost">όπῳ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="23"/><gap reason="lost" quantity="10" unit="character" precision="low"/> ἐνοική<unclear>σ</unclear>εως ο<supplied reason="lost">ὐ π</supplied>αρασχεθείσης τὰ νόμιμα α<unclear>ρ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="24"/><gap reason="lost" quantity="10" unit="character" precision="low"/> ἐμβιβασμοῦ πρός τε τὸ κεφάλαιον καὶ τοὺς τόκου<unclear>ς</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="25"/><gap reason="lost" quantity="10" unit="character" precision="low"/>ηναι μετοξὺ <supplied reason="omitted">ὁ</supplied> χρεώστης ἐτελεύτησεν. ἑνὸς τῶν <expan>κλη<ex>ρόνομων</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="26"/><gap reason="lost" quantity="10" unit="character" precision="low"/> δημοσίοις πράγμασι περιπλεκέντος εἰς ἄπρατα <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="27"/><gap reason="lost" quantity="10" unit="character" precision="low"/> τοῦ οὖν ἔθους τῆς ἐπαρχείας τὸ πρωτοπ<unclear>ρ</unclear><supplied reason="lost">άξιον</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="28"/><gap reason="lost" quantity="10" unit="character" precision="low"/><abbr><gap reason="illegible" quantity="5" unit="character"/><unclear>ιοφυ</unclear>λ</abbr> δανισταῖ<unclear>ς</unclear> <choice><reg>τηροῦντος</reg><orig>τηροῦντες</orig></choice>, δέομαι γρά<unclear>ψ</unclear><supplied reason="lost">αι</supplied><gap reason="lost" extent="unknown" unit="character"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Report on Private and Public Claims to Debt Collection</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">749359</idno>
+               <idno type="TM">749359</idno>
+               <idno type="HGV">749359</idno>
+               <idno type="ddb-hybrid">749359</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+   <p> <milestone unit="line" n="1"/> ...from which it was made clear that until the sixteenth year nothing could accrue because it was not inhabited....In the (20th?) year of the Aurelii Antoninus and Commodus, Caesars Augusti...[[to Julius Crispinus,]] \to Vessidius Rufinus/, the most powerful dioiketes. Ammonios, son of Potamon... <milestone unit="line" n="5"/> ...(that the) transfer of property put up as security for him happens in accordance with...the letter reading thus: From the records of proceedings of the most powerful dioiketes, 20th year, roll 1, column [[15]] \32 up to/… Julius Crispinus, to the strategos of the Diopolite nome of Lower Egypt, greetings. Of the petitions given to me by Ammonios, son of Potamon, I have signed one and <milestone unit="line" n="10"/> sent it to you. Now, if the property indicated is subject to sale (auction)...the basilikos grammateus...whichever bids you receive, let me know...examine...he says that he is owed a loan, with a share of (property) as security...he says that the debtor is liable to the treasury and...in the property record office <milestone unit="line" n="15"/> whatever you find out, write back to me...I wish you well. In the (20th?) year of the Aurelii Antoninus and Commodus, Caesars Augusti. To Julius Crispinus, the most powerful dioiketes, from Ammonios, son of Potamon of those from Diospolis of Lower Egypt. The woman succeeded in the inheritance, Potamiaina, <milestone unit="line" n="20"/> also known as Tapiomis, the daughter of Panesies, already from the 10th year of the deified Hadrian,...to Herakleides the elder, son of Isidoros...1080 drachmas on the security, and in lieu of occupation, of a house and an empty lot...the right of inhabitation not being provided, the legal rights...of possession against both the capital and the interest <milestone unit="line" n="25"/> meanwhile the debtor died. Of one of the heirs, ... being tied up in public matters, (the property was added?) to the unsold property (of the Treasury)...the custom of the province then preserving the right of first claim (on property)...for...creditors, I ask you to write (to the strategos to take care of this. Farewell.)
+   </p>
+</div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Donkey List</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">749360</idno>
+               <idno type="HGV">749360</idno>
+               <idno type="ddb-filename">zpe.205.227</idno>
+               <idno type="ddb-hybrid">zpe;205;227</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">28.8</measure>
+                              <measure type="width" unit="cm">11.5</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>Nach Ende 180 </origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Liste</term>
+                  <term n="2">Esel</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Donkey List</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">zpe.205.227</idno>
+               <idno type="ddb-hybrid">zpe;205;227</idno>
+               <idno type="HGV">749360</idno>
+               <idno type="TM">749360</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Donkey List</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb n="1"/><expan>λόγ<ex>ος</ex></expan> <expan>πρ<ex>ὸς</ex></expan> Ἀί̈ων
+<lb n="2"/>Μεχείρ
+<lb n="3"/><num value="29"><hi rend="supraline">κθ</hi></num> ὄνοι <num value="2">β</num>
+<lb n="4"/><num value="30"><hi rend="supraline">λ</hi></num> ὄνοι <num value="2">β</num>
+<lb n="5"/>Φαμενὼθ <num value="1"><hi rend="supraline">α</hi> </num> ὄν<supplied reason="lost">οι</supplied> <num value="1">α</num>
+<lb n="6"/><num value="2"><hi rend="supraline">β</hi></num> ὄνοι <num value="1">α</num>
+<lb n="7"/><num value="3">γ</num> ὄνοι <num value="2">β</num>
+<lb n="8"/><num value="4"><hi rend="supraline">δ</hi></num> ὄνοι <num value="2">β</num>
+<lb n="9"/><num value="5"><hi rend="supraline">ε</hi></num> ὄνοι <num value="1">α</num> <g type="slanting-stroke"/>
+<lb n="10"/><num value="6">ϛ</num> ὄνοι <num value="1">α</num> 
+<lb n="11"/><num value="7">ζ</num> ὄνοι <num value="1">α</num> 
+<lb n="12"/><num value="8"><hi rend="supraline">η</hi></num> ὄνοι <num value="2">β</num> <g type="slanting-stroke"/>
+<lb n="13"/><supplied reason="lost"><num value="9">θ</num> ὄνο</supplied>ι <num value="2">β</num> 
+<lb n="14"/><num value="10"><hi rend="supraline">ι</hi></num> ὄνοι <num value="3">γ</num>
+<lb n="15"/><num value="11"><hi rend="supraline">ι<unclear>α</unclear></hi></num> ὄνοι <g type="slanting-stroke"/> 
+<lb n="16"/><num value="12">ιβ</num> ὄνοι <num value="3">γ</num>
+<lb n="17"/><num value="13"><hi rend="supraline">ιγ</hi></num> ὄνοι <num value="3">γ</num>
+<lb n="18"/><num value="14"><hi rend="supraline">ιδ</hi></num> ὄνοι <num value="3">γ</num>
+<lb n="19"/><num value="15"><hi rend="supraline">ι</hi><supplied reason="lost">ε</supplied></num> ὄνοι <num value="3">γ</num>
+<lb n="20"/><num value="16"><hi rend="supraline">ιϛ</hi></num> ὄνοι <num value="3">γ</num>
+<lb n="21"/><num value="17">ιζ</num> ὄνοι <num value="2">β</num> 
+<lb n="22"/><num value="18">ι<supplied reason="lost">η</supplied></num> <supplied reason="lost">ὄνοι <num value="2">β</num></supplied> 
+<lb n="23"/><num value="19">ιθ</num> <supplied reason="lost">ὄ</supplied><unclear>ν</unclear>οι <num value="3">γ</num>
+<lb n="24"/><num value="20">κ</num> ὄνοι <num value="3"><unclear>γ</unclear></num>
+<lb n="25"/><num value="21">κα</num> ὄνοι <num value="3">γ</num>
+<lb n="26"/><num value="22">κβ</num> ὄνοι <num value="3">γ</num>
+<lb n="27"/><num value="23">κγ</num> ὄνοι <num value="3">γ</num>
+<lb n="28"/><num value="24">κδ</num> ὄνοι <num value="3">γ</num>
+<lb n="29"/><num value="25"><hi rend="supraline"><unclear>κε</unclear></hi></num> ὄν<supplied reason="lost">ο</supplied>ι <num value="3">γ</num>
+<lb n="30"/><num value="26"><hi rend="supraline">κ</hi><supplied reason="lost">ϛ</supplied></num> ὄνοι <num value="3">γ</num>
+<lb n="31"/>ὄνοι <num value="63">ξγ</num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Donkey List</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">749360</idno>
+               <idno type="TM">749360</idno>
+               <idno type="HGV">749360</idno>
+               <idno type="ddb-hybrid">749360</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+   <p> Record for Aion: Mecheir 29th	2 donkeys; 30th, 2 donkeys. Phamenoth 1st, 1 donkey; 2nd, 1 donkey; 3rd, 2 donkeys; 4th, 2 donkeys; 5th, 1 donkey; 6th, 1 donkey; 7th, 1 donkey; 8th, 2 donkeys; 9th, 2 donkeys; 10th, 3 donkeys; 11th, 0 donkeys; 12th, 3 donkeys; 13th, 3 donkeys; 14th, 3 donkeys; 15th, 3 donkeys; 16th, 3 donkeys; 17th, 2 donkeys; 18th, 2 donkeys; 19th, 3 donkeys; 20th, 3 donkeys; 21st, 3 donkeys; 22nd, 3 donkeys; 23rd, 3 donkeys; 24th, 3 donkeys; 25th, 3 donkeys; 26th, 3 donkeys. Total: 63 donkeys
+ </p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
