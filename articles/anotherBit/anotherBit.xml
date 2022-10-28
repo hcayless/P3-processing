@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The David G. Hogarth Papyri</title>
+            <author>
+               <name>
+                  <forename>C. Michael</forename>
+                  <surname>Sampson</surname>
+               </name>
+               <affiliation>University of Manitoba</affiliation>
+               <email>
+                  <ref target="mailto:mike.sampson@umanitoba.ca">mike.sampson@umanitoba.ca</ref>
+               </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-10-28T14:04:36Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">The David G. Hogarth Papyri</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Postscript: Cataloguing Papyri in the Bodleian Library from 1935</seg>
+               </head>
+               <p xml:id="p1" style="text-align: left; text-align: left;">William Hogarth’s donation of his father’s personal collection of papyri to the Bodleian on 15 May 1935 was one of the final additions to the library’s papyrological holdings. It is dwarfed, however, by <seg style="font-style: italic;">the</seg> last major acquisition, on whose heels it closely followed. Just two months previous, on 13 March 1935, Lucy Hunt had presented a collection consisting of several hundred fragments, following her husband’s passing the summer before.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/14543">Salomons (1996)</ref> reports tentatively on these items: “Given by Mrs. A. S. Hunt, 1934(?)”. But I have confirmed the 13 March 1935 date in the Bodleian’s Register of donations, 1932–1936 (Oxford, Bodleian Libraries, Library Records b. 220). Further notable late acquisitions in the register include 61 Coptic and 3 Greek ostraca from W. E. Crum (22 May 1939) and 2 Coptic ostraca and 2 boxes of Coptic papyri from W. E. Crum (12 September 1939).</p></note> This donation included papyri Hunt had purchased in Egypt and ones that had belonged previously to Grenfell, though it was by no means the full extent of either man’s personal collection.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Some of Grenfell and Hunt’s acquisitions ended up with the collection of the Egypt Exploration Society and are now kept in the Sackler Library, most notably in box 89: see <ref target="https://papyri.info/biblio/96094">Bagnall 2017: 2</ref>.</p></note> One cannot help but wonder whether the timing of Hogarth <seg style="font-style: italic;">fils </seg>was purely coincidental, or whether he was inspired to find his father’s papyri an institutional home by the example of a bygone collaborator’s widow. </p>
+               <p xml:id="p2" style="text-align: left; text-align: left;">Most, if not all, of Hogarth’s papyri were catalogued promptly. By August 1936, when Eefje P. Wegener visited Oxford for four weeks of work, they had been sorted by size and assigned shelfmarks such that these could be reported.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> A Bodleian shelfmark such as <seg style="font-weight: bold;">MS. Gr. class. g 75 (P)</seg> can be parsed as follows: the first designation indicates a manuscript (<seg style="font-weight: bold;">MS</seg>) and the second its language (<seg style="font-weight: bold;">Gr.</seg>) before additional subdivisions by content (e.g., <seg style="font-weight: bold;">bib.</seg>, <seg style="font-weight: bold;">liturg.</seg>, <seg style="font-weight: bold;">th.</seg>, <seg style="font-weight: bold;">class.</seg>, <seg style="font-weight: bold;">misc.</seg>), size (<seg style="font-weight: bold;">a</seg>–<seg style="font-weight: bold;">g</seg>, where <seg style="font-weight: bold;">a </seg>is the largest), serial number (<seg style="font-weight: bold;">75</seg>), and material / conservation <seg style="font-weight: bold;">(P). </seg>The last, in this case, denotes a papyrus or glazed manuscript: see <ref target="https://papyri.info/biblio/14543">Salomons (1996: vii)</ref>. <ref target="https://papyri.info/biblio/36243">Wegener 1937</ref> published seven Hogarth papyri, whose shelfmarks belong to the <seg style="font-weight: bold;">d</seg>, <seg style="font-weight: bold;">e</seg>, <seg style="font-weight: bold;">f</seg>, and <seg style="font-weight: bold;">g</seg> series. </p></note> But the same cannot be said for the much larger Hunt collection, despite the fact that it had reached the library first. Wegener’s article also included one item from it – <ref target="https://papyri.info/hgv/17867">SB 6 9193</ref> – but she could not publish a shelfmark: “Pap. Bodl. Uncatal.” is her report.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/36243">Wegener 1937: 217, no. IV</ref>. <ref target="https://papyri.info/biblio/14543">Salomons (1996: 315)</ref> records that this papyrus now bears the shelfmark MS. Gr. class. a 18 (P).</p></note> The likeliest explanation for the curiosity – that Hogarth’s papyri were catalogued first, despite arriving later – is the staggering amount of material in the Hunt collection. Support for that inference comes from a reading of the library’s records. Edgar Lobel, who was then the Keeper of Western Manuscripts, had assembled a catalogue of the library’s papyrological holdings, but its coverage breaks down in and around 1935: it includes none of Hunt’s papyri, and only a few of the smaller items in Hogarth’s.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> The final items for each series in Lobel’s inventory are #16 (<seg style="font-weight: bold;">a</seg>), #19 (<seg style="font-weight: bold;">b</seg>), #91 (<seg style="font-weight: bold;">c</seg>), #133 (<seg style="font-weight: bold;">d</seg>), #126 (<seg style="font-weight: bold;">e</seg>), #112 (<seg style="font-weight: bold;">f</seg>), and #78 (<seg style="font-weight: bold;">g</seg>). The Hogarth items that it includes are MS. Gr. class. e 126, MS. Gr. class. f 103–107, and MS. Gr. class. g. 73–76, all from the series for smallest items. </p></note> We may reasonably conclude that Lobel had completed this inventory before the influx of new material in 1935, and was never able to update it fully. </p>
+               <p xml:id="p3" style="text-align: left; text-align: left;">It was no dereliction of duty on Lobel’s part that his inventory of Bodleian papyri does not account comprehensively for its most recent acquisitions. Hunt’s death marked the end of an era for British papyrology, and its impact on the Bodleian, in particular, went far beyond the hundreds of fragments that were subsequently deposited there. The work of editing unpublished Oxyrhynchus papyri, for years the purview of the Oxford Dioscuri, suddenly required a new hand on the tiller, and that job promptly fell to Lobel. From the time of Hunt’s death in 1934, as Eric Turner has summarized, he “gradually came to assume sole charge of the unpublished Oxyrhynchus papyri”.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/56129">Turner 1983: 277</ref>.</p></note> In September 1935, only six months following the donation of Hunt’s collection, he secured permission to study some of the literary material from Oxyrhynchus in the Bodleian. He was then appointed Reader in Papyrology in December, a post which began formally in July 1936. In October 1938 he resigned from the Bodleian to take up a Senior Research Fellowship at Queen’s, and the decades of work on Oxyrhynchus papyri that ensued need no accounting here. I summarize the contours of his career not to suggest that Lobel in any way ignored Hunt’s papyri – the opposite is true<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/35712">Lobel 1936</ref> is the edition of MS Gr. class. f 113 (P), from the Hunt donation (though it is not therein identified by its shelfmark).</p></note> – but only to indicate that, from 1935 on, he had more papyri than one man could manage. His energies were wholly occupied, increasingly by the larger and more promising collection of papyri in Oxford.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> For a richer discussion of Lobel and the Oxyrhynchus papyri, see <ref target="https://papyri.info/biblio/56129">Turner 1983: 277–278</ref>.</p></note></p>
+               <p xml:id="p4" style="text-align: left; text-align: left;">A full accounting of Hunt’s papyri in the Bodleian would have to wait until 1976, when Revel Coles undertook to catalogue the collection on index cards. That catalogue remains the primary basis for the Bodleian’s records today, now available online and published in large part by Salomons.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> See <ref target="https://medieval.bodleian.ox.ac.uk/">https://medieval.bodleian.ox.ac.uk/</ref>. Filtering by type (‘manuscript’), language (‘Greek’), and material (‘papyrus’) results in 1,160 records. Last accessed 15 August 2022.</p></note> But one consequence of the decades-long interval between Lobel and Coles’ work is that the sorting of papyri by size into alphabetic series breaks down: Hunt’s papyri belong overwhelmingly to the <seg style="font-weight: bold;">c </seg>series, occupying much of the range MS Gr. class. c 103–538 (P).<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/14543">Salomons (1996: 332)</ref> reports that, according to a note in Lobel’s hand, MS. Gr. class. c 103–228 were purchased in Cairo by Grenfell. Notes regarding other segments of the <seg style="font-weight: bold;">c</seg> series pepper his catalogue: e.g., that 234–288 come “from Mrs. Hunt and other sources”, including Sayce; and that 294–300 were “perhaps acquired from G. J. Chester.” There were evidently other smaller, unimportant scraps from early acquisitions that were not immediately assigned shelfmarks.</p></note> Salomons’ catalogue, which extends only to MS Gr. class. c 300 (P), leaves scores of these unremarked upon (not to mention the non-Hunt items belonging to the <seg style="font-weight: bold;">d</seg>, <seg style="font-weight: bold;">e</seg>, <seg style="font-weight: bold;">f</seg>, and <seg style="font-weight: bold;">g</seg> series). There remains much yet to do in the Bodleian in terms of both conservation and basic papyrological research. MS Gr. class. c 301–538 (P), in particular, are for the most part later documents and accounts; Coles’ inventory frequently notes that these are Byzantine in date, and there is also a good number of Coptic and Arabic pieces. Since they are for the most part stored loosely in folders, these will require special handling and a larger-scale investigation.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
