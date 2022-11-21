@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P.Math. leaf C recto, Mathematical Problem c1 Revisited: Another New Algorithm</title>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Universität Heidelberg </affiliation>
+               <email>lougovaya@uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-11-21T14:56:00Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">P.Math. leaf C recto, Mathematical Problem c1 Revisited: Another New Algorithm</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="introduction">
+               <p xml:id="p1">Mathematical problem c1 in P.Math. (Oxyrhynchos? 350–375; TM 92734) was interpreted in the ed.pr. as being concerned with finding the volume of a quadrangular prism, an interpretation that accounted well for the preserved computations.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> I am grateful to Alexander Jones for commenting on a draft of this paper and to both editors for kindly sharing the image of the relevant codex page with me. I am also grateful to the anonymous owner of the “Archimedes Palimpsest” for permission to reproduce it.</p></note> The statement of the problem, however, was far from clear. Here is how it appears in the edition:</p>
+               <quote>
+                  <lb/>1	ξύλων νέον πηχ̣[ῶν κ̅η̅      ]
+</quote>
+               <p xml:id="p2" style="text-align: left; ">The editors were puzzled by the reference to ‘leaves’ in line 4 (φύλλων) and the incomprehensible α̣π̣ο̣ρ̣ι̣ in line 3. The latter characters in fact are very clearly visible, while the traces in line 2 printed in the edition as   ̣[  ̣ ̣]  ̣ρι  ̣οι suggest that something similar was written there, too (Fig. 1). The appearance of the sequence απορι along with φύλλων in the description of a piece of timber makes it virtually certain that it conceals a reference to the lower part of a tree, from the root(s), ἀπὸ ῥίζης or ἀπὸ ῥιζῶν, as opposed to its upper part, from the foliage, ἀπὸ φύλλων. The terminology comes up in a passage of Theophrastus in which he explains how wood should be chosen for sockets and pivots (HP 5.3.7): Ποιοῦσι δὲ αὐτοὺς ἔμπαλιν τιθέντες τὰ ξύλα τό τε ἀπὸ τῆς ῥίζης καὶ τὸ ἀπὸ τοῦ φύλλου. καλοῦσι δὲ οἱ τέκτονες τὸ ἀπὸ τοῦ φύλλου τὸ ἄνω,  “They make them (sc. hinges) by reversing the wood ‘from the root’ and ‘from the foliage’—by ‘wood from the foliage’ they mean the upper part wood.”</p>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">C recto, lines 1-13 (Problem c1)</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
