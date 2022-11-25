@@ -11,12 +11,7 @@
                   <forename>Amin</forename>
                   <surname>Benaissa</surname>
                </name>
-            </author>
-            <author>
-               <name>
-                  <forename/>
-                  <surname/>
-               </name>
+               <email>amin.benaissa@classics.ox.ac.uk</email>
             </author>
          </titleStmt>
          <editionStmt>
@@ -37,7 +32,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2022-11-25T16:32:06Z</date>
+               <date>2022-11-25T16:41:06Z</date>
                <name>Amin Benaissa</name>
             </change>
          </listChange>
@@ -53,39 +48,48 @@
          <div type="article">
             <p xml:id="p1" style="text-align: justify;">2–3 [ποι]μαίνω[ν]: read ποιμένων. For the common phonetic interchange of αι and ε, see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 191–193. The word is similarly spelled in the corresponding title in the Codex Alexandrinus (fol. 45r); cf. also the index of τίτλοι on fol. 43r.</p>
             <div type="epidoc" subtype="DCLP">
+               <head>#papyrologicalHeader</head>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">Bodl. MS. Gr. class. g. 68 (P)</cell>
+                     <cell style="text-align: center;">6.7 (w) × 5.6 (h) cm</cell>
+                     <cell style="text-align: right;">Fifth or sixth century</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="https://digital.bodleian.ox.ac.uk/objects/544855a5-3460-4dc7-83c0-9a94b1ba4838/">digital.bodleian.ox.ac.uk</ref>
+                     </cell>
+                     <cell style="text-align: center;"/>
+                     <cell style="text-align: right;">Fayum(?)</cell>
+                  </row>
+               </table>
                <div type="introduction">
                   <p xml:id="p2">This papyrus fragment preserves the summary heading (τίτλος) of the second chapter (κεφάλαιον) of the Gospel of Luke, the so-called Annunciation to the Shepherds (2:8–20). The lack of writing on the other side suggests that it was written in the upper margin of a codex. If this were a title from the middle of the page before the section in question, one would have expected to find writing on the other side of the leaf. A papyrus roll is not, of course, a realistic possibility at this date. The implication would be that this was a codex with lavishly wide margins, since Christian codices with margins measuring above 4 cm are relatively rare. Those with the widest upper margins include <ref target="https://papyri.info/dclp/61952">P.Beatty 5</ref> (6 cm, papyrus, 2nd cent.), the Codex Sinaiticus (5.3–6.3 cm, parchment, mid 4th cent.), the Codex Vaticanus (3.7–4.8 cm, parchment, 2nd half of 4th cent.), <ref target="http://papyri.info/dclp/59464">P.Köln 7 297</ref> (5 cm, papyrus, 4th cent.), and <ref target="http://papyri.info/dclp/62072">PSI 14 1371</ref> (5 cm, papyrus, 4th/5th cent.).<note place="foot" xml:id="ftn1" n="1"><p style="text-align: justify;"> On margin size in Christian codices, see <ref target="https://papyri.info/biblio/96264">Mugridge 2016</ref>: 57–60, 470–478, who does not distinguish between papyrus and parchment codices.</p></note> In literary papyrus rolls of the Roman period, upper margins can be as deep as 7.5 cm, and margins above 4 cm are associated with finer manuscripts.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify;"> See <ref target="https://papyri.info/biblio/18132">Johnson 2004</ref>: 130–141; cf. p. 141: “when a somewhat exaggerated margin was desired, a range from 4–6 cm was common for the upper margin among finely written examples, as was a range of 5–7 cm for the lower margin (though several manuscripts without pretension also employ margins of this size).” Cf. also <ref target="https://papyri.info/biblio/19701">McNamee 2007</ref>: 13.</p></note> The earliest such section titles in the upper margin are found in the Codex Alexandrinus of the fifth century, where they are written in red ink.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: justify;"> See <ref target="https://papyri.info/biblio/96262">Goswell 2009</ref> and <ref target="https://papyri.info/biblio/96266">Smith 2014</ref>: 156–179. Upper marginal τίτλοι for the Book of Acts are also present in the Codex Sinaiticus of the mid fourth century, but they are not numbered; see <ref target="https://papyri.info/biblio/96265">Milne and Skeat 1938</ref>: 38 with Figure 11. Cf. also the titles in the wide upper margins of the Codex Zacynthius (probably 8th cent.), on which see <ref target="https://papyri.info/biblio/96268">Houghton and Parker 2020</ref>: 34–39.</p></note> Unlike the marginal titles in the Codex Alexandrinus, the title here is written in tapering form over three lines in the manner of an end-title. One possible way to account for the separate preservation of the title is to suppose that the original codex was drastically trimmed when it was rebound.</p>
                   <p xml:id="p3" style="text-align: justify;">The writing, in brownish ink, runs against the fibres. The hand is a medium-sized specimen of the so-called Alexandrian Majuscule.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: justify;"> On the type, see <ref target="https://papyri.info/biblio/18496">Cavallo 2005</ref>: 175–202 and <ref target="https://papyri.info/biblio/79030">Bastianini and Cavallo 2011</ref>.</p></note> The blank spaces above and below the title are each <seg style="font-style: italic;">c</seg>. 2 cm deep. The interlinear space measures <seg style="font-style: italic;">c. </seg>0.2 cm. Letters are <seg style="font-style: italic;">c. </seg>0.3 cm high. The widest letter is ω at 0.8 cm, the narrowest (besides ι) are ε and ο at 0.2 cm. The hand is bilinear, but ρ descends below the notional baseline. The bar of π extends beyond the uprights, which are of uneven length. μ is rounded, with the saddle level with the baseline. Uprights often end in a blob at the base. Strokes are generally thick, but some shading is observable, for instance on the first oblique of λ and the horizontal bar of π. Among dated parallels, the closest are <ref target="http://papyri.info/dclp/131510">PSI 16 1576</ref>, a paschal letter securely datable to 420/21, and <ref target="http://papyri.info/dclp/65050">P.Grenf. 2 112</ref> = <seg style="font-style: italic;">GBEBP </seg>37, a paschal letter probably dating from 577.</p>
                   <p xml:id="p4" style="text-align: justify;">According to the Bodleian’s handlist of papyri, the papyrus was bought from the Revd Grenville John Chester (1830–92) in 1878.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: justify;"> On this collector and dealer, see <ref target="https://papyri.info/biblio/96267">Bierbrier 2019</ref>: 100–101 and <ref target="https://papyri.info/biblio/96263">Seidmann 2006</ref>: 145–150.</p></note> Its provenance is unrecorded but is likely to be the Fayum in light of other papyri sold by Chester to the Bodleian and British Libraries in that year: see R. Luiselli, Gr.Med.Pap. 1 3 introd., pp. 37–8, on MS. Gr. class. g. 69 (P), a leaf from a codex of Galen.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: justify;"> I am grateful to N. Gonis for this reference.</p></note></p>
-                  <p xml:id="p5" style="text-align: justify;">#papyrologicalHeader</p>
-                  <table>
-                     <row>
-                        <cell style="text-align: left;">Bodl. MS. Gr. class. g. 68 (P)</cell>
-                        <cell style="text-align: center;">6.7 (w) × 5.6 (h) cm</cell>
-                        <cell style="text-align: right;">Fifth or sixth century</cell>
-                     </row>
-                     <row>
-                        <cell style="text-align: left;">
-                           <ref target="https://digital.bodleian.ox.ac.uk/objects/544855a5-3460-4dc7-83c0-9a94b1ba4838/">digital.bodleian.ox.ac.uk</ref>
-                        </cell>
-                        <cell style="text-align: center;"/>
-                        <cell style="text-align: right;">Fayum(?)</cell>
-                     </row>
-                  </table>
                </div>
                <div copyOf="#ed1" type="edition"/>
                <div copyOf="#trans1" type="translation"/>
                <div type="commentary">
                   <note>
-                     <p xml:id="p6"><ref>1</ref> ]  ̣. A descending oblique at one-third height. It is unclear whether this is part of an ornamental stroke or just a stray mark.</p>
+                     <p xml:id="p5"><ref>1</ref> ]  ̣. A descending oblique at one-third height. It is unclear whether this is part of an ornamental stroke or just a stray mark.</p>
                   </note>
                   <note>
-                     <p xml:id="p7"><ref>2–3</ref> [ποι]μαίνω[ν]: read ποιμένων. For the common phonetic interchange of αι and ε, see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 191–193. The word is similarly spelled in the corresponding title in the Codex Alexandrinus (fol. 45r); cf. also the index of τίτλοι on fol. 43r.</p>
+                     <p xml:id="p6"><ref>2–3</ref> [ποι]μαίνω[ν]: read ποιμένων. For the common phonetic interchange of αι and ε, see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 191–193. The word is similarly spelled in the corresponding title in the Codex Alexandrinus (fol. 45r); cf. also the index of τίτλοι on fol. 43r.</p>
                   </note>
                </div>
             </div>
             <div type="epidoc" subtype="DCLP">
                <div copyOf="#ed2" type="edition"/>
+               <div copyOf="#trans2" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p7"><ref>1</ref> ]  ̣. A descending oblique at one-third height. It is unclear whether this is part of an ornamental stroke or just a stray mark.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p8"><ref>2–3</ref> [ποι]μαίνω[ν]: read ποιμένων. For the common phonetic interchange of αι and ε, see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 191–193. The word is similarly spelled in the corresponding title in the Codex Alexandrinus (fol. 45r); cf. also the index of τίτλοι on fol. 43r.</p>
+                  </note>
+               </div>
                <div type="bibliography">
                   <listBibl>
                      <bibl>
@@ -100,7 +104,7 @@
                         <ref target="https://papyri.info/biblio/8813">Gignac, F. T. (1976)</ref>
                         <seg style="font-style: italic;">A Grammar of the Greek Papyri of the Roman and Byzantine Periods. Vol. 1: Phonology</seg>. Milan.</bibl>
                      <bibl>
-                        <ref target="https://papyri.info/biblio/96262">Goswell, G. (2009)</ref> “Early Readers of the Gospels: The <seg style="font-style: italic;">Kephalaia</seg> and <seg style="font-style: italic;">Titloi</seg> of Codex Alexandrinus,” <seg style="font-style: italic;">JGRChJ</seg> 6: 134–174.</bibl>
+                        <ref target="https://papyri.info/biblio/96262">Goswell, G. (2009)</ref> “Early Readers of the Gospels: The <seg style="font-style: italic;">Kephalaia </seg>and <seg style="font-style: italic;">Titloi </seg>of Codex Alexandrinus,” <seg style="font-style: italic;">JGRChJ</seg> 6: 134–174.</bibl>
                      <bibl>
                         <ref target="https://papyri.info/biblio/96268">Houghton, H. A. G. and Parker, D. C. (eds.) (2020)</ref>
                         <seg style="font-style: italic;">Codex Zacynthius: Catena, Palimpsest, Lectionary</seg>. Piscataway, NJ. </bibl>
@@ -280,6 +284,46 @@
 <lb n="2" break="no"/>λουντων <choice><reg><supplied reason="lost">ποι</supplied><lb n="3" rend="indent" break="no"/>μένω<supplied reason="lost">ν</supplied></reg><orig><supplied reason="lost">ποι</supplied>
 <lb n="3" rend="indent" break="no"/>μαίνω<supplied reason="lost">ν</supplied></orig></choice>
 </ab> </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Title of the Annunciation to the Shepherds in the Bodleian Library</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">012210</idno>
+               <idno type="TM">012210</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+ ‘ … 2nd (chapter) concerning the shepherds out in the fields.’
+</p></div>
          </body>
       </text>
    </TEI>
