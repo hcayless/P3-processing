@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Karanis Penthemeros Certificate Completed</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>Faculty of Archaeology Department of Papyrology, University of Warsaw</affiliation>
+               <email>gclaytor@gmail.com</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-12-08T16:56:19Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Karanis <seg style="font-style: italic;">Penthemeros </seg>Certificate Completed</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">P.Mich. inv. 2377 is the right side of a recently published penthemeros certificate (<ref target="https://papyri.info/biblio/96032">Claytor 2017</ref>, 92-93, no. 5) and allows for a complete text to be presented, even if a panel or two are still missing at the left. The closest parallel remains <ref target="https://papyri.info/ddbdp/p.got;;1">P.Got. 1</ref> (4 June, 140 CE), written earlier in the same month by the same initial scribe and also signed by Marion. In the present example, one scribe wrote the date range, location of the work, and the worker’s identification (hand 2), while in the Gothenburg certificate two other scribes added this information (on the composition of penthemeros certificates, see <ref target="https://papyri.info/biblio/6629">Sijpesteijn 1964</ref>: 16-17 and Heilporn and Martin, <ref target="https://papyri.info/biblio/81813">P.Pintaudi</ref> 25-26, pp. 125-128). The back contains a few traces of ink and a lighter patch of papyrus securing two of the panels together.</p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p2"><ref>5</ref> [ἐν τῇ] Ἀ̣ργαίτι(δος) διώ(ρυγι). This central canal (<ref target="https://www.trismegistos.org/place/297">TM Geo 297</ref>) was the extension of the Bahr Yussef that divided the Fayum in half (<ref target="https://papyri.info/biblio/73714">Vandorpe 2004</ref>: 70-72). Karanis residents are found working on this dike in four other certificates: <ref target="https://papyri.info/biblio/96032">Claytor 2017</ref>: Appendix 1 (where the present certificate is listed as no. 26).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p3"><ref>5-6</ref> A match for the dike worker’s name and patronym is found a quarter century later in <ref target="https://papyri.info/ddbdp/p.bour;;42">P.Bour. 42</ref>, col. 13.296 and 14.319 (166/167 CE), among Karanis residents who farmed land in Ptolemais Nea. He is not found in the Tax Rolls (<ref target="http://www.trismegistos.org/archive/63">TM Arch 63</ref>), but Θεάβενις Ἁρφαήσεως τοῦ Θεαβένεως μη(τρὸς) Θαήσεως (<ref target="https://papyri.info/biblio/3919">P.Mich. 4.2</ref> index, p. 175; <ref target="https://papyri.info/biblio/9030">P.Cair.Mich. 1.2</ref> index, p. 69) is perhaps related.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p4"><ref>7</ref> [Μ]αρίων σεσημ(είωμαι). The signing official was the κατασπορεύς (on whom see <ref target="https://papyri.info/biblio/13074">Bonneau 1993</ref>: 168-173), although his title is only occasionally added in subscriptions to second century penthemeros certificates. Marion also signs <ref target="https://papyri.info/ddbdp/p.got;;1">P.Got. 1</ref> (4 June, 140 CE). A Marion κατασπορεύς is found 30 years earlier in <ref target="https://papyri.info/ddbdp/p.kron;;25">P.Kron. 25</ref>.13 (Tebtynis, 110 CE), conceivably the same man but certainly not in office continuously, since by this period the position was liturgical with one-year terms the norm (<ref target="https://papyri.info/biblio/13074">Bonneau 1993</ref>: 169-170).</p>
+                  </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/13074">Bonneau, D. (1993)</ref> Le régime administratif de l'eau du Nil dans l'Égypte grecque, romaine et byzantine. Leiden.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96032">Claytor, W.G. (2017)</ref> “More Penthemeros Certificates from Karanis,” BASP 54, 83-102.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/6629">Sijpesteijn, P.J. (1964)</ref> Penthemeros-Certificates in Graeco-Roman Egypt. Leiden.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/73714">Vandorpe, K. (2004)</ref> “The Henet of Moeris and the Ancient Administrative Division of the Fayum in Two Parts,” APF 50, 61-78.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Karanis penthemeros certificate completed</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">704976</idno>
+               <idno type="HGV">704976</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Mich. inv. 2377</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">8</measure>
+                              <measure type="width" unit="cm">6</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>19. Juni 140</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Karanis</placeName><placeName n="2">Arsinoites</placeName></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Penthemros</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="figure">
+               <p><figure n="1"><graphic url="https://quod.lib.umich.edu/a/apis/x-9086"/></figure></p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Karanis penthemeros certificate completed</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">704976</idno>
+               <idno type="TM">704976</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A Karanis penthemeros certificate completed</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><supplied reason="lost">ἔτους τρίτ</supplied>ου Αὐτοκράτορος Κ<supplied reason="lost">α</supplied><unclear>ί</unclear><supplied reason="lost">σαρο</supplied><unclear>ς</unclear> <unclear>Τίτο</unclear>υ
+<lb n="2"/><supplied reason="lost">Αἰλίου Ἁ</supplied>δριανοῦ Ἀντωνίνου Σ<unclear>ε</unclear><supplied reason="lost">βα</supplied><unclear>σ</unclear>τοῦ
+<lb n="3"/><supplied reason="lost">Εὐσεβ</supplied>οῦς <expan>εἴργ<ex>ασται</ex></expan> ὑπὲρ <expan>χωμ<ex>ατικῶν</ex></expan> ἔργων
+<lb n="4"/><supplied reason="lost">τοῦ αὐτο</supplied>ῦ <num value="3">γ</num> <expan><ex>ἔτους</ex></expan> <handShift new="m2"/>Πα<unclear>ῦ</unclear>νι <num value="21">κ<hi rend="supraline">α</hi></num> ἕως <num value="25">κ<hi rend="supraline">ε</hi></num>
+<lb n="5"/><supplied reason="lost">ἐν τῇ</supplied> <expan><unclear>Ἀ</unclear>ργαίτι<ex>δος</ex></expan> <expan>διώ<ex>ρυγι</ex></expan> <expan>Καρα<ex>νίδος</ex></expan> <expan>Πτολεμ<ex>αῖος</ex></expan>
+<lb n="6"/><expan><supplied reason="lost">Θεα</supplied>βέννε<ex>ως</ex></expan> τοῦ <expan>Ἁρπαή<ex>σιος</ex></expan> <expan>μη<ex>τρὸς</ex></expan> <expan>Θεναμ<ex>ούνιος</ex></expan>.
+<lb n="7"/><handShift new="m3"/><supplied reason="lost">Μ</supplied>αρίων <expan>σεσημ<ex>είωμαι</ex></expan>.
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Karanis penthemeros certificate completed</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">704976</idno>
+               <idno type="TM">704976</idno>
+               <idno type="HGV">704976</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+<milestone unit="line" n="1"/> In the third year of Imperator Caesar Titus Aelius Hadrianus Antoninus Augustus Pius, <milestone unit="line" n="3"/> he has performed the dike work for the same 3rd year (2nd hand) from Pauni 21 to 25 on the canal of Argaitis on behalf of Karanis: Ptolemaios son of Theabennis grandson of Harpaesis, whose mother is Thenamounis. <milestone unit="line" n="7" rend="break"/> (3rd hand) I, Marion, have signed.
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
