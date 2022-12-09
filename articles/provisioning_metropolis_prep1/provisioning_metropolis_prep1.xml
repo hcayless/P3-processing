@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Provisioning the Metropolis: A Reedition of SPP 22 94</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>Faculty of Archaeology Department of Papyrology, University of Warsaw</affiliation>
+               <email>gclaytor@gmail.com</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2022-12-09T15:52:30Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Provisioning the Metropolis: A Reedition of <ref target="https://papyri.info/ddbdp/stud.pal;22;94">SPP 22 94</ref>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">This document is a report of pending transport expenses (φόρετρον) related to the food supply of the Arsinoite metropolis. It was submitted to two ex-gymnasiarchs with the title πρὸς τῆι εὐθ(ηνίαι) τῆς μητροπ(όλεως) by another ex-gymnasiarch who had served as the sitologos of <ref target="http://www.trismegistos.org/place/2103">Sebennytos</ref>, a Fayum village in the Herakleides meris. There are no close parallels among published texts,<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> P.Berol. inv. 25136 will offer several points of comparison (cf. below ll. 1-2 and 12 nn.). I thank Nahum Cohen for bringing this papyrus to my attention.</p></note> and the document is among the few that touch on metropolite finances in general before the establishment of boulai.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> See <ref target="https://papyri.info/biblio/16013">Habermann 2000</ref>, 100, n. 52. Among the texts discussed there, <ref target="https://papyri.info/ddbdp/p.oxf;;2">P.Oxf. 2</ref>, col. 2 (= Pap.Lugd.Bat. 3A 2, Arsinoe, after 4 Aug., 141) is of particular relevance, as it involves correspondence between the strategos and archontes about outstanding phoretron due to kamelotrophoi, which, on the order of the prefect, was to be paid out of the politikos logos. On metropolite finances in general, see Jouguet 1911, 415-456; E.P. Wegener, <ref target="https://papyri.info/biblio/4095">P.Oxf.</ref>, pp. 6-7; <ref target="https://papyri.info/biblio/16854">Alston 2002</ref>, 193-196; and, most extensively, <ref target="https://papyri.info/biblio/84641">Schmidt 2014</ref>.</p></note></p>
+            <p xml:id="p2" style="text-align: left; ">	The opening of the report is straightforward: ἀνηλώθη εἰς εὐθ(ηνίαν) τῆς μητροπ(όλεως), followed by a date range of ten days (ll. 5-8). Improvements can be made to the understanding of the rest of the text, which is re-edited here on the basis of the <ref target="http://data.onb.ac.at/rec/RZ00007933">images available through the Austrian National Library</ref>.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> Only substantive changes to the text are recorded in the line notes. Col. 1.15-16 and col. 2 were not transcribed in the ed. pr.</p></note> We find that the recipients of the transport dues are ktenotrophoi from at least three metropolite amphoda.</p>
+            <p xml:id="p3" style="text-align: left; ">	The papyrus is broken at the bottom and at the right. The ends of lines in the first column are written over a kollesis about 10.5 cm from the left edge. The writing on the recto is with the fibers, while the verso contains two-columns of an account written against the fibers in the same hand, which suggests that this example of the report was not sent.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> The first column contains a day-by-day account headed by Μάρω(ν) κ ̣[ ̣] ̣ ̣( ) (cf. col. 2.1), with numbers (of donkeys?), which begins on Pharmouthi 21 (col. 1.2) and goes through at least Pachon 6 (col. 1.17), that is, beyond the time frame of the report on the other side (Pharmouthi 20-30). The second column is more abraded but contains an entry for δαπάνη(ς) (l. 9) with fractional numbers following. Line 8 has the phrase ἐπ’ ὄνοις.</p></note> </p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p4">Col. 1</p>
+                  </note>
+                  <note>
+                     <p xml:id="p5"><ref>1</ref> Διονυσίω[ι] καὶ: Διονυσίῳ [καί] ed. pr. A small fragment containing most of the καί appears in the image and was presumably correctly positioned subsequent to the ed. pr. There is room for iota adscript, which has been supplemented in view of its appearance in the next name, although scribes are not always consistent. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p6"><ref>-</ref> Διονυσίω[ι] καὶ Ἰσιδώρωι γεγυμ(νασιαρχηκόσι).  A pair of former gymnasiarchs with the same names would later serve as βιβλιοφύλακες ἐγκτήσεων (<ref target="https://papyri.info/ddbdp/sb;1;5808">SPP 13, p. 1 = SB 1 5808</ref>, 124 CE), but the commonness of the names hinders identification. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p7"><ref>1-2</ref> πρὸς τῆι | εὐθ(ηνίᾳ) τῆς μητροπ(όλεως).  This text is the earliest reference to the municipal office that would later be known as the εὐθηνιαρχία (see <ref target="https://papyri.info/biblio/14864">Lewis 1997</ref>, s.v. εὐθηνία, εὐθηνιάρχης, εὐθηνιαρχία; on the development of metropolite offices, see <ref target="https://papyri.info/biblio/76534">Hagedorn 2007</ref>). This exact title is paralleled only in the unpublished P.Berol. inv. 25136 (cf. n. 1), but an equivalent, ἐπὶ τῆς εὐθηνίας, is found first in <ref target="https://papyri.info/ddbdp/sb;14;12139">SB 14 12139</ref>, col. 4.3-4 (146): Αἴλιος Διονύσιος γενόμεν[ο]ς ἀγοραν[ό]μος καὶ ἐπὶ τῆς εὐθηνίας τῆς πόλεως (that is, Alexandria); as a metropolite office, it is found in <ref target="https://papyri.info/ddbdp/p.amh;2;124">P.Amh. 2 124 = W.Chr. 152</ref>.22 (Hermopolis, II CE). Cf. also <ref target="https://papyri.info/ddbdp/p.tebt;2;397">P.Tebt. 2 397 = M.Chr. 321</ref>.13-15 and 28 (Arsinoe, 198 CE), where the office is called προστασία εὐθηνίας. On the food supply of the metropoleis, see <ref target="https://papyri.info/biblio/16854">Alston 2002</ref>, 192, and on the transporters involved, <ref target="https://papyri.info/biblio/19484">Adams 2007</ref>: 176</p>
+                  </note>
+                  <note>
+                     <p xml:id="p8"><ref>3</ref> τoπ(αρχίας) BL 12 279: τόπ(ων) ed. pr. See also <ref target="https://papyri.info/biblio/19085">Derda 2006</ref>, 128-129.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p9"><ref>3-4</ref> The only other attestation of an ex-gymnasiarch serving as sitologos that I know of is found in the closely contemporary <ref target="https://papyri.info/ddbdp/p.ryl;2;202A">P.Ryl. 2 202a</ref> (Theadelphia, 108 CE).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p10"><ref>5</ref> ἀνηλώθη: ἀνηλώθη(σαν) ed. pr.  There is no obvious sign of abbreviation, and the plural does not seem necessary in what is essentially an impersonal construction. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p11"><ref>8</ref> {ἀπὸ θη(σαυροῦ)}. This phrase seems unconnected syntactically and probably anticipates its deployment in the next line.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p12"><ref>8-9</ref> τοῦ εἰ(ς) | μ̣η̣τρόπ(ολιν) ἀνασπασθ(έντος): τοῦ εἰ(ς) | μητροπ(ολ ) ἀνασπασθ( ) ed. pr. The first two letters of μ̣η̣τρόπ(ολιν) are corrected, but not, it seems, to include the expected article τήν. The subject of the participle is not expressed but can be understood as πυροῦ or σίτου. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p13"><ref>10-11</ref> τ̣οῖς ὑπο|γεγρα(μμένοις) κτηνοτρόπ(οις) ἀπὸ μη̣τ̣ρ̣ο̣π̣(όλεως): ὡς ὑπο|γέγρ(απται)   ̣ ̣ινομοπ(  ) ἀπολεγ[ῆναι …] ed. pr. The new reading provides the expected recipients of the payments, who are indeed listed below. On the involvement of ktenotrophoi in the transport of state grain, see <ref target="https://papyri.info/biblio/19484">Adams 2007</ref>: 172-180. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p14"><ref>12</ref> Βιθ(υνῶν) Ἀφροδᾶ̣τ̣ι ὄνο(ις) δ: ο̣ια(  ) Ἀφροδ[ί]της πο(λ ) δ ed. pr. The new reading of the first entry establishes the layout of the list. The transporters are organized by metropolite amphodon (cf. col. 2.5 and 12). The word abbreviated ονο( ) could also be read as οπο( ) (note the two-stroke form of the questionable letter in l. 13), but the latter does not lead to an obvious solution, unless considered an otherwise unattested spelling of ὀβο(λοί). Instead, I think the number of donkeys is noted, presumably carrying the standard load of three artabas (cf. e.g. <ref target="https://papyri.info/ddbdp/p.col;2;1,r,5">P.Col. 2 1 recto 5</ref>), which must have been converted to a transport payment (whether in cash or in kind) at a standard rate. P.Berol. inv. 25136 (cf. n. 1) has a rate of 3 ob. per artaba transported.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p15"><ref>13</ref> Ἀπολλῶτι ὄνο(ις) γ: Ἀπολλωνοπο(λ ) γ ed. pr.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p16"><ref>14</ref> <seg style="text-decoration: underline;">Ἡρᾶτι ν</seg>ε̣(ωτέρῳ) ὄνο(ις) ι: Ἡρα ̣ ̣λεοπο(λ )  ̣ ed. pr. There is a line drawn under the the eta, then another continuing through the nu of νε̣(ωτέρῳ): similar lines separate entries in the more fragmentary column 2.</p>
+                     <p xml:id="p17">Col. 2</p>
+                  </note>
+                  <note>
+                     <p xml:id="p18">5, 12 Both lines are in ekthesis, indicating that they are amphodon headings. In the latter heading, the first two visible strokes could be the base of delta with a descending iota in ligature, which, in combination with what seems to be a lunate pi at the end, suggests Δ̣ι̣ο̣ν̣υ̣(σίου) τ̣ό̣π(ων).	</p>
+                  </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/19484">Adams, C. (2007)</ref> Land Transport in Roman Egypt. A Study of Economics and Administration in a Roman Province. Oxford.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/16854">Alston, R. (2002)</ref> The City in Roman and Byzantine Egypt. London/New York. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/19085">Derda, T. (2006)</ref> Ἀρσινοΐτης νομός. Administration of the Fayum under Roman Rule. Warsaw.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/16013">Habermann, W. (2000)</ref>  Zur Wasserversorgung einer Metropole im kaiserzeitlichen Ägypten. Neuedition von P. Lond. III 1177. Munich.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96283">Jouguet, P. (1911)</ref> La vie municipale dans l’Égypte romaine. Paris.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/84641">Schmidt, S. (2014)</ref> Stadt und Wirtschaft im Römischen Ägypten: die Finanzen der Gaumetropolen. Wiesbaden.</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Provisioning the Metropolis: A Reedition of SPP 22 94</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">15143</idno>
+               <idno type="HGV">15143</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Vindob. inv. G 24952</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">14.5</measure>
+                              <measure type="width" unit="cm">17.5</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>25 April, 111 CE</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Arsinoites</placeName></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Bericht</term>
+                  <term n="2">Versorgung der Metropole</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+            <div type="figure">
+               <p><figure n="1"><graphic url=" http://data.onb.ac.at/rec/RZ00007933"/></figure></p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Provisioning the Metropolis: A Reedition of SPP 22 94</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">15143</idno>
+               <idno type="TM">15143</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Provisioning the Metropolis: A Reedition of SPP 22 94</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1"/>Διονυσίω<supplied reason="lost">ι</supplied> καὶ Ἰσιδώρωι <expan>γεγυμ<ex>νασιαρχηκόσι</ex></expan> πρὸς τῆι
+<lb n="2"/><expan>εὐθ<ex>ηνίαι</ex></expan> τῆς <expan>μητροπ<ex>όλεως</ex></expan>
+<lb n="3"/>Πτολεμαῖος <expan>γεγυμ<ex>νασιαρχηκὼς</ex></expan> <expan>γενάμε<ex>νος</ex></expan> <choice><reg><expan>σιτολ<ex>όγος</ex></expan></reg><orig><expan>σειτολ<ex>όγος</ex></expan></orig></choice> <expan>τoπ<ex>αρχίας</ex></expan> τῶν
+<lb n="4"/>περὶ Σεβέννυτον τοῖς φιλτάτοις <expan>χα<ex>ίρειν</ex></expan>.
+<lb n="5"/>ἀνηλώθη εἰς <expan>εὐθ<ex>ηνίαν</ex></expan> τῆς <expan>μητροπ<ex>όλεως</ex></expan> ἀπὸ <num value="20"><hi rend="supraline">κ</hi></num>
+<lb n="6"/>ἕως <hi rend="supraline">λ</hi> τοῦ <expan>Φαρμοῦθ<ex>ι</ex></expan> <expan>μη<ex>νὸς</ex></expan> τοῦ <expan>ἐνεστῶ<ex>τος</ex></expan> <num value="14">ιδ</num> <expan><ex>ἔτους</ex></expan> 
+<lb n="7"/>Αὐτοκράτορος Καίσαρος Νέρουα Τραιανοῦ
+<lb n="8"/>Σεβαστοῦ Γερμανικοῦ Δακικοῦ <surplus>ἀπὸ <expan>θη<ex>σαυροῦ</ex></expan></surplus> τοῦ <expan>εἰ<ex>ς</ex></expan>
+<lb n="9"/><expan><unclear>μη</unclear>τρόπ<ex>ολιν</ex></expan> <expan>ἀνασπασθ<ex>έντος</ex></expan> ἀπὸ <expan>θη<ex>σαυροῦ</ex></expan> Σεβεννύτου
+<lb n="10"/>ὧ<supplied reason="lost">ν</supplied> φόρετρον δεήσει <expan>ἐξωδ<ex>ιασθῆναι</ex></expan> <unclear>τ</unclear>οῖς <expan>ὑπο
+<lb n="11" break="no"/>γεγρα<ex>μμένοις</ex></expan> <choice><reg><expan>κτηνοτρόφ<ex>οις</ex></expan></reg><orig><expan>κτηνοτρόπ<ex>οις</ex></expan></orig></choice> ἀπὸ <expan>μ<unclear>ητροπ</unclear><ex>όλεως</ex></expan>
+<lb n="12"/><expan>Βιθ<ex>υνῶν</ex></expan> Ἀφροδ<unclear>ᾶτ</unclear>ι <expan>ὄνο<ex>ις</ex></expan> <num value="4">δ</num>
+<lb n="13"/>Ἀπολλῶτι <expan>ὄνο<ex>ις</ex></expan> <num value="3">γ</num>
+<lb n="14"/>Ἡρᾶτι <expan>ν<unclear>ε</unclear><ex>ωτέρωι</ex></expan> <expan>ὄνο<ex>ις</ex></expan> <num value="10">ι</num>
+<lb n="15"/><unclear>Κα</unclear><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <supplied reason="lost"><expan>ὄνο<ex>ις</ex></expan></supplied> <num value="6">ϛ</num>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/> <space extent="unknown" unit="character"/> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="1"/>Μάρωνι <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="1"/><gap reason="lost" quantity="3" unit="line" precision="low"/>
+<lb n="5"/><expan>Ἑ<unclear>λλη</unclear><ex>νείου</ex></expan>
+<lb n="6"/>Σουχ<unclear>ᾶτι</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/>Ἀρχία<unclear>ι</unclear> <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8"/><gap reason="illegible" quantity="3" unit="character"/><unclear>τ</unclear>ι <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="9"/><gap reason="illegible" quantity="1" unit="character"/>ρ<gap reason="illegible" quantity="1" unit="character"/><unclear>φ</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="10"/><abbr><gap reason="illegible" quantity="6" unit="character"/>τ</abbr> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ολι</unclear>α<unclear>μον</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><abbr><gap reason="illegible" quantity="7" unit="character"/><unclear>π</unclear></abbr> 
+<lb n="13"/><gap reason="illegible" quantity="4" unit="character"/><unclear>ί</unclear>ωνι <unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="14"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Provisioning the Metropolis: A Reedition of SPP 22 94</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">15143</idno>
+               <idno type="TM">15143</idno>
+               <idno type="HGV">15143</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<div n="i" subtype="column" type="textpart">
+               <p>
+                  <milestone unit="line" n="1"/> To Dionysios and Isidoros, ex-gymnasiarchs in charge of the food supply of the metropolis, Ptolemaios, ex-gymnasiarch and former grain collector for the district around Sebennytos, to his friends, greetings. <milestone unit="line" n="5" rend="break"/> Expended for provision of the metropolis from the 20th to 30th of the month Pharmouthi in the present 14th year of Imperator Caesar Nerva Traianus Augustus Germanicus for the (grain) hauled to the metropolis from the storehouse of Sebennytos, for which transport charges will need to be paid to the following herdsmen from the metropolis: <milestone unit="line" n="12" rend="break"/> (Quarter) of the Bithynians:
+to Aphrodas		for 4 donkeys
+(<milestone unit="line" n="13"/> to Apollos		for 3 donkeys
+<milestone unit="line" n="14" rend="break"/> to Heras the younger	for 10 donkeys
+<milestone unit="line" n="15" rend="break"/> to Ka…		for 6 donkeys
+<milestone unit="line" n="16" rend="break"/>…			[	]
+- - - - - - - - - - - - -
+               </p>
+            </div>
+<div n="ii" subtype="column" type="textpart">
+               <p>
+                  <milestone unit="line" n="1"/> to Maron 
+		[ 	ca. 3 lines missing	]
+	<milestone unit="line" n="5" rend="break"/> (Quarter) of the Helleneion
+		to Souchas 		[	]
+		to Archias 		[	]
+traces of four names
+	(Quarter) of …
+		to …ion …
+		to …			[	]
+	- - - - - - - - - - - - -
+               </p>
+            </div>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
