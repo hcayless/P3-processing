@@ -1,5 +1,6 @@
 #!/bin/bash
 
+git config --global --add safe.directory "$GITHUB_WORKSPACE"
 FILES=$(git diff --name-only $BEFORE..$AFTER | grep ".docx")
 
 for f in $FILES
