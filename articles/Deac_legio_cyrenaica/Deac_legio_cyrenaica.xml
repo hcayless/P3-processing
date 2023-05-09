@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Fragment Mentioning the Legio III Cyrenaica?</title>
+            <author>
+               <name>
+                  <forename>Dan</forename>
+                  <surname>Deac</surname>
+               </name>
+               <affiliation>Babes-Bolyai University</affiliation>
+               <email>dan_deac1923@yahoo.com</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-05-09T09:59:58Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Fragment Mentioning the Legio III Cyrenaica?</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; text-align: justify;">P.Heid. inv. G. 826 is a small papyrus fragment of medium brown color.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> I would like to thank Prof. Andrea Jördens (Institute for Papyrology, Heidelberg University) for allowing me to study this papyrus fragment and the editors and anonymous reviewers of the journal for their very useful insights, corrections, and comments regarding previous versions of the manuscript; all errors are my own. The dates are Common Era unless specified otherwise.</p></note> It was acquired by Friedrich Bilabel during the ‘Badische Grabungen’ conducted in el-Hîbeh in the winter and early spring of 1914.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> A general account of the excavations is available in <ref target="https://papyri.info/biblio/95278">Habermann 2014</ref>.</p></note> It preserves most of the large top margin and the upper part of the left-hand margin (fig. 1). Overall, there survive the beginnings of ten lines of a Greek text written along the fibers. The original length of the lines is impossible to determine. The ink is black and the writing is somewhat effaced. </p>
+            <p xml:id="p2" style="text-align: left; text-align: justify;">The main interest of the fragment, which dates to the reign of Domitian and might have contained an oath by the fortune of this emperor,<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> For the papyrological documentation dating to the reign of Domitian see the overview of selected papyri in <ref target="https://papyri.info/biblio/96324">Bellucci and Longo 2020</ref>, especially chapter 1.3.</p></note> is in the mention of a ‘third legion’, which I suggest to identify with <seg style="font-style: italic;">legio III Cyrenaica. </seg>This legion, created sometime at the end of the Republic, was stationed in Egypt after Octavian established the province. In the first century, it was garrisoned at Nikopolis, near Alexandria; later it participated in the conquest of Arabia in 106/107 and in Trajan’s eastern campaigns, returning to Egypt by 119; shortly after, it moved again to the eastern frontier provinces of the Roman Empire where, as early as 140, it was permanently garrisoned at Bostra.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> For this legion both in Egypt and Arabia see, for instance: <ref target="https://papyri.info/biblio/55357">Speidel 1982</ref>; <ref target="https://papyri.info/biblio/13826">Alston 1995</ref>: esp. 73; <ref target="https://papyri.info/biblio/69641">Wolff 2000</ref>; <ref target="https://papyri.info/biblio/16235">Gatier 2000</ref>; <ref target="https://papyri.info/biblio/81530">Haensch 2012</ref>: esp. 69; <ref target="https://papyri.info/biblio/96053">Fischer‐Bovet and Sänger 2019</ref>: 172; <ref target="https://papyri.info/biblio/96322">Bagnall 2021</ref>: 62-63. See also: <ref target="https://papyri.info/biblio/96329">Stoll 2003</ref>; <ref target="https://papyri.info/biblio/https://papyri.info/biblio/72759">Perea Yébenes 2003</ref>: 116-118; <ref target="https://papyri.info/biblio/76986">Coșkun 2008</ref>; <ref target="https://papyri.info/biblio/87001">Speidel 2016</ref>: 223-225; <ref target="https://papyri.info/biblio/96326">Perea Yébenes 2020</ref>: 69-75; <ref target="https://papyri.info/biblio/96327">Stoll 2022</ref>. For the latest epigraphic discoveries pertaining to the legion in the Eastern Desert of Egypt see <ref target="https://papyri.info/biblio/96323">García-Dils de la Vega et al. 2022</ref>, including further bibliographic references at 114-115, note 16; for the latest epigraphic discoveries from Arabia, see <ref target="https://papyri.info/biblio/96321">Fiema et al. 2020</ref>.</p></note>  </p>
+            <p xml:id="p3" style="text-align: left; text-align: justify;">It is difficult to assert what kind of document we are dealing with. It could be a declaration of some sort. The two parties involved bear common Latin names, Marcus and Lucius Valerius. The rest of the text is too fragmentary to offer definite conclusions.</p>
+            <p xml:id="p4" style="text-align: left; ">1    Μᾶρκος  Ạ ̣ ̣ [                                                ]</p>
+            <p xml:id="p5" style="text-align: left; ">      λεγειῶνι τρίτη̣[ς Κυρηναικῆς (?)                  ] </p>
+            <p xml:id="p6" style="text-align: left; ">     Λούκιωι Οὐαλ̣[ερίωι <seg style="font-style: italic;">ca.? </seg> χαίρειν (?)          ]  </p>
+            <p xml:id="p7" style="text-align: left; "><anchor xml:id="Hlk130897580"/>     Καίσ̣α̣ρει Δομιτια<anchor xml:id="Hlk130897595"/>[νοῦ Σεβαστοῦ 		 ]</p>
+            <p xml:id="p8" style="text-align: left; text-align: justify;">5   <anchor xml:id="Hlk130897604"/>τυχην̣ Μάρκον̣ [                                          ]</p>
+            <p xml:id="p9" style="text-align: left; ">     [2–3]στο̣λας ἀσφαλ̣[                                ]</p>
+            <p xml:id="p10" style="text-align: left; ">     [     <seg style="font-style: italic;">ca</seg>. <seg style="font-style: italic;">5  </seg>] κ̣ατὰ τὴ[ν                                ]</p>
+            <p xml:id="p11" style="text-align: left; ">     [      <seg style="font-style: italic;">ca.5</seg> τ]<ref target="https://www.trismegistos.org/words/detail.php?lemma=%25E1%25BD%2581&amp;morph_type=article">ῇ</ref>  κελευ[σθείσῃ (?)	]</p>
+            <p xml:id="p12" style="text-align: left; ">     [      <seg style="font-style: italic;">ca. 7       </seg>ὑ]παρχο.[                      	]</p>
+            <p xml:id="p13" style="text-align: left; ">10 [<seg style="font-style: italic;">      ca. 7           </seg>] … [                         	]</p>
+            <p xml:id="p14" style="text-align: left; ">  - - - - - -</p>
+            <p xml:id="p15" style="text-align: left; "><seg style="font-weight: bold;">2. l. </seg>λεγεῶνος.<seg style="font-weight: bold;"> 4.</seg> l. Καίσαρος. </p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p16"><ref>1.</ref> The  <seg style="font-style: italic;">nomen gentile </seg>could have started with a <seg style="font-style: italic;">lambda </seg>instead of <seg style="font-style: italic;">alpha</seg>; there follow traces of two unidentifiable letters. The lost part of the line must have had the <seg style="font-style: italic;">cognomen </seg>and the legionary rank or status. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p17"><ref>2.</ref> The dative is likely a mistake for the genitive, l. λεγεῶνος. Alternatively, if the dative was intended, line 1 may have ended with the preposition ἐν, preceded by a verb, thus - - - ἐν]|  λεγειῶνι τρίτη̣[ι Κυρηναικῇ].    </p>
+                     <p xml:id="p18">Several Greek and Latin papyri from Egypt referring to the <seg style="font-style: italic;">legio III Cyrenaica</seg> have known provenance. One comes from <ref target="https://www.trismegistos.org/place/1524">Oxyrhynchus</ref>, <ref target="https://papyri.info/ddbdp/p.oxy%3B64%3B4434">P.Oxy. 64 4434</ref> (22 August 154?), and another probably from <ref target="https://www.trismegistos.org/place/100">Alexandria</ref>, <ref target="https://papyri.info/ddbdp/chr.mitt%3B%3B373">BGU 1 140 = M. Chr. 373 = Sel. Pap. 2 213</ref> (4–29 August 119), while the rest come from the Arsinoite nome: <ref target="https://papyri.info/ddbdp/sb%3B12%3B11041">P.Tebt. 2 586 = SB 12 11041</ref> (20/21, Tebtunis); <ref target="https://papyri.info/ddbdp/sb%3B18%3B13235">SB 18 13235</ref> (69–78, <ref target="https://www.trismegistos.org/place/747">Aueris</ref>); <ref target="https://papyri.info/ddbdp/chla%3B46%3B1364">ChLA 46 1364</ref> (92, Arsinoites); <ref target="https://papyri.info/ddbdp/p.lond%3B2%3B142">P.Lond. 2 142</ref> (28 November 95, Karanis); <ref target="https://papyri.info/ddbdp/p.mich%3B9%3B571">P. Mich. 9 571</ref> (26 May–24 June 96, Karanis); <ref target="https://papyri.info/ddbdp/p.mich%3B8%3B465">P.Mich. 8 465</ref> and <ref target="https://papyri.info/ddbdp/p.mich%3B8%3B466">P.Mich. 8 466</ref> (107/108, Karanis), two letters sent by Iulius Apollinarius while stationed with the legion at <ref target="https://www.trismegistos.org/place/2987">Bostra</ref>; <ref target="https://papyri.info/ddbdp/p.mich%3B9%3B562">P.Mich. 9 562</ref> (1 September 119, Karanis). See also <ref target="https://papyri.info/biblio/86877">Lash and Verhoogt 2015</ref> for a <seg style="font-style: italic;">signifier </seg>from Karanis presumed to be from this legion. The provenance of other papyri mentioning the legion (<ref target="https://papyri.info/ddbdp/c.ep.lat%3B%3B82">ChLA 10 431</ref>; <ref target="https://papyri.info/ddbdp/chla%3B43%3B1242">RMR 34</ref>; <ref target="https://papyri.info/ddbdp/rom.mil.rec%3B1%3B58">RMR 58</ref>) is not clear. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p19"><ref>3.</ref> Marcus’s address to Lucius Valerius probably ended with the customary χαίρειν.  </p>
+                  </note>
+                  <note>
+                     <p xml:id="p20"><ref>3–5.</ref> If τυχην̣ in l. 5 is the word τύχην, its proximity to the imperial titles would suggest that it formed part of an oath, in which the verb ὀμνύω stood in line 3. A possible reconstruction of ll. 3–5 could then be  [… ὀμνύω τὴν Aὐτοκράτορος] | Καίσ̣α̣ρει (l. Καίσαρος) Δομιτια[νοῦ Σεβαστοῦ Γερμανικοῦ (?)] | τύχην̣. An oath by the fortune of the emperor is attested in two Domitianic papyri, a census declaration  <ref target="https://papyri.info/ddbdp/p.hamb%3B1%3B60">P.Hamb. 1 60 = CPJ 3 485</ref> (10 December 90, Hermopolis), ll. 19–22: [καὶ ὀμ]ν̣ύωι (l. ὀμνύω) τὴν Αὐτοκράτορος Καίσαρος Δομιτι[ανοῦ] [Σεβαστο]ῦ Γερμανικοῦ τύχην &lt;μὴ&gt; ὑπάρχειν μοι [ο]ἰ̣κ̣[ίαν] … ἔξω τῶν προγεγραμμέ[νων], and a fragmentarily preserved delivery assurance,    <ref target="https://papyri.info/ddbdp/sb%3B6%3B9087">SB 6 9087</ref> (29 August 89–28 August 90). One would expect, however, that the content of the oath, which should have followed the word τύχην, would begin with an infinitival or an adverbial phrase, cf. P.Hamb. 1 60 cited above (or other sworn statements), and not a personal name in the accusative, as in the Heidelberg fragment, unless this Marcus—presumably different from the Marcus in l. 1—is the subject of the lost infinitive of the oath. Too little is preserved to allow one to draw any definite conclusion and it is conceivable that τυχην in l. 5 was the end of a personal name, such as Εὐτύχην.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p21"><ref>6.</ref> One can clearly read στο̣λας. The letters probably form the ending of a word the beginning of which was written in the lost beginning of the line, for instance: [ἐπι]στο̣λάς, ‘letters’, or [ <ref target="https://www.trismegistos.org/words/detail.php?lemma=%25CE%25B4%25CE%25B9%25CE%25B1%25CF%2583%25CF%2584%25CE%25BF%25CE%25BB%25CE%25AE&amp;morph_type=noun">δια]στολάς</ref>, ‘payments’. The form of ἀσφαλ̣[ is impossible to ascertain, nor its connection to the preceding word. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p22"><ref>8.</ref> Since the first preserved letter in the line is an  <seg style="font-style: italic;">eta</seg>, I suggest that it is part of the article τ]<ref target="https://www.trismegistos.org/words/detail.php?lemma=%25E1%25BD%2581&amp;morph_type=article">ῇ</ref> and that the following word is the dative singular of the participle feminine passive of the verb κελεύω.</p>
+                  </note>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/13826?q=alston+soldier+and+society">Alston, R. (1995)</ref>
+                        <seg style="font-style: italic;">Soldier and Society in Roman Egypt. A Social History</seg>, London &amp; New York.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96322">Bagnall, R. (2021)</ref>
+                        <seg style="font-style: italic;">Roman Egypt. A History</seg>. Cambridge.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96324">Bellucci, N. and B. Longo (2020)</ref>
+                        <seg style="font-style: italic;">L’Egitto dei Flavi: Sintesi e prospettive d’indagine alla luce della documentazione papirologica ed epigrafica egiziana</seg>. Oxford.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96323">García-Dils de la Vega, S., Ast, R., Oller Guzmán, J., Fernández Abella, D. and Trevín Pita V. (2022)</ref> “Loci and the legio III Cyrenaica in New Inscriptions from the Roman Emerald Mines of Wadi Sikait (Eastern Desert of Egypt) ,” ZPE 223: 109–119.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/76986">Coşkun, A. (2009)</ref> “Galatische Legionäre in Ägypten. Die Konstituierung der legio XXII Deiotariana in der frühen Kaiserzeit,” Tyche 23: 21–46.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96321">Fiema, Z., Villeneuve F. and T. Bauzou (2020)</ref> “New Latin and Greek Inscriptions from Ancient Hegra,” ZPE 214: 179–202.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96053">Fischer‐Bovet, C. and P. Sänger (2019)</ref> “Security and Border Policy: Army and Police,” in K. Vandorpe (ed.), <seg style="font-style: italic;">A Companion to Greco-Roman and Late Antique Egypt</seg>. Hoboken: 163–178.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/16235?q=gatier">Gatier, P.-L. (2000)</ref> “La legio III Cyrenaica et l`Arabie,” in Y. Le Bohec (ed.) <seg style="font-style: italic;">Les légions de Rome sous le Haut-Empire. Actes du Congrès de Lyon (17–19 septembre 1998)</seg>. Lyon: 341–349.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95278">Habermann, W. (2014)</ref>
+                        <seg style="font-style: italic;">Die Badischen Grabungen in Qarâra und el-Hibeh 1913 und 1914. Wissenschaftsgeschichtliche und papyrologische Beiträge (P. Heid. X).</seg>, (Heidelberg) </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/81530">Haensch, R. (2012)</ref>, “The Roman Army in Egypt” in C. Riggs (ed<seg style="font-style: italic;">.), The Oxford Handbook of Roman Egypt</seg>. Oxford: 68–82. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/86877">Lash, S., and Verhoogt, A. (2015)</ref> “Receipt of a <seg style="font-style: italic;">signifer</seg> (P.Mich. inv. 5923),” ZPE 193: 223–225.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/72759">Perea Yébenes S. (2003)</ref> “Campamentos y defensa del territorio en el Egipto romano,” Espacio, Tiempo y Forma, Serie II. Historia Antigua, 16, 2003: 111–140.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96326">Perea Yébenes S. (2020)</ref> “Campamentos y defensa del territorio en el Egipto romano,” in Perea Yébenes S., El ejército romano en Egipto, Madrid: 67–104.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/55357?q=Deployment+of+the+Legions+in+Egypt">Speidel, M. P. (1982)</ref> “Augustusʼ Deployment of the Legions in Egypt,” CdÉ 57: 120–124.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/87001">Speidel, M. A. (2016)</ref> “Die Throninschrift von Adulis und das Römische Reich am Roten Meer zur Beginn des dritten Jahrhunderts n. Chr.,” ZPE 200: 287–300.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96329">Stoll, O. (2003)</ref> “Der Gott der arabischen Legion: Zeus Ammon-Sarapis und die legio III Cyrenaica in der römischen Provinz Arabia,” in Schumacher L. and O. Stoll (eds.), <seg style="font-style: italic;">Sprache und Kultur in der kaiserzeitlichen Provinz Arabia</seg>, Mainzer Althistorische Studien 4. St. Katharinen: 70–109.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/96327">Stoll, O. (2022)</ref> “„Die Augen der Legionen“ und Iuppiter Optimus Maximus Hammon <seg style="font-style: italic;">noster. </seg>Zur Rolle des römischen Militärs bei der Sicherung überregionaler Handelsrouten und zu neuen Zeugnissen zum Gott der <seg style="font-style: italic;">legio III Cyrenaica</seg> aus Hegra, NW-Saudi-Arabien,” Marburger Beiträge zur antiken Handels-, Wirtschafts und Sozial Geschichte 40: 27–113.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/69641?q=La+legio+III+Cyrenaica+au+">Wolff, C. (2000)</ref> “La legio III Cyrenaica au Ier siècle,” in Y. Le Bohec (ed.) <seg style="font-style: italic;">Les légions de Rome sous le Haut-Empire. Actes du Congrès de Lyon (17–19 septembre 1998)</seg>. Lyon: 339–340.</bibl>
+                     <bibl>{{Photo caption}}</bibl>
+                     <bibl>P.Heid. inv. G. 826. Photo: Elke Fuchs; © Institut für Papyrologie, Universität Heidelberg</bibl>
+                  </listBibl>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A fragment mentioning the Legio III Cyrenaica?</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">142605</idno>
+               <idno type="HGV">142605</idno>
+               <idno type="ddb-filename">pylon.3.1</idno>
+               <idno type="ddb-hybrid">pylon;3;1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">11.3</measure>
+                              <measure type="width" unit="cm">5.6</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>81-96 CE</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Deklaration ?</term>
+                  <term n="2">Eid ?</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A fragment mentioning the Legio III Cyrenaica?</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.3.1</idno>
+               <idno type="ddb-hybrid">pylon;3;1</idno>
+               <idno type="HGV">142605</idno>
+               <idno type="TM">142605</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A fragment mentioning the Legio III Cyrenaica?</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/>Μᾶρκος  <unclear>A</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><choice><reg>λεγεῶνος</reg><orig>λεγειῶνι</orig></choice> τρίτ<unclear>η</unclear><supplied reason="lost" cert="low">ς Κυρηναικῆς </supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>Λούκιωι Οὐα<unclear>λ</unclear><supplied reason="lost">ερίωι</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">χαίρειν </supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><choice><reg>Καίσαρος</reg><orig>Καί<unclear>σα</unclear>ρει</orig></choice> Δομιτια<supplied reason="lost">νοῦ Σεβαστοῦ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/>τυχη<unclear>ν</unclear> Μάρκο<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><gap reason="lost" atLeast="2" atMost="3" unit="character"/>στ<unclear>ο</unclear>λας ἀσφα<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/><gap reason="lost" quantity="5" unit="character" precision="low"/> <unclear>κ</unclear>ατὰ τὴ<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8"/><gap reason="lost" quantity="5" unit="character" precision="low"/> <supplied reason="lost">τ</supplied>ῇ κελευ<supplied reason="lost" cert="low">σθείσῃ </supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="9"/><gap reason="lost" quantity="7" unit="character" precision="low"/> <supplied reason="lost">ὑ</supplied>παρχο<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="10"/><gap reason="lost" quantity="7" unit="character" precision="low"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
