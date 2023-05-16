@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P.Ghent inv. 47 completed. A Coptic letter from Papa Diane to Dioscorus of Aphrodito.</title>
+            <author>
+               <name>
+                  <forename>Loreleï</forename>
+                  <surname>Vanderheyden</surname>
+               </name>
+               <affiliation>Heidelberg University</affiliation>
+               <email>lorelei.vanderheyden@uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023-05-16</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-05-16T16:47:40Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">P.Ghent inv. 47 completed. A Coptic letter from Papa Diane to Dioscorus of Aphrodito.</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This publication is a product of the Collaborative Research Centre 933 – Material Text Cultures. Materiality and Presence of Writing in Non-Typographic Societies (Subproject A02: Antique Letters as a Means of Communication). CRC 933 is funded by the German Research Foundation (DFG) (Project Number 178035969 - SFB933). I would like to thank the project leader R. Ast who kindly gave me the benefit of his expertise and edited my English. I owe further thanks to A. Boud’hors and I. Marthot with whom this article has been discussed.</note>
+            <p xml:id="p1" style="text-align: justify; ">I propose here an extended edition of a papyrus that consists of two fragments kept on different continents: one published (Ghent) and one unpublished (Cairo).<note place="foot" xml:id="ftn2" n="1"><p> Cf. <seg style="font-style: italic;">inter alia</seg> <ref target="https://papyri.info/biblio/56566">Keenan 1984</ref>: 5253; <ref target="https://papyri.info/biblio/81750">Vanderheyden 2012</ref>: 793-795; Vanderheyden (forthcoming), introduction.</p></note> The first unpublished fragment (hereafter fragment A) preserves the line beginnings of the papyrus; I studied and photographed it in the Coptic Museum, Cairo, during a postdoctoral stay in February 2019.<note place="foot" xml:id="ftn3" n="2"><p> I hereby thank L. Bavay, director of the IFAO at that time, for the granting of a postdoctoral fellowship that facilitated my work on the original papyri kept in Cairo.</p></note> The second fragment – recently published by Y. Amory and J. V. Stolk (hereafter fragment B)<note place="foot" xml:id="ftn4" n="3"><p> See <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref>.</p></note> – contains the line endings of the same text.</p>
+            <p xml:id="p2" style="text-align: justify; ">Fragment A is kept in the Coptic Museum, Cairo (inv. 841). The glass currently contains two fragments (including our fragment A) and a complete unpublished opisthograph letter. According to its museum records, the Coptic Museum has been in possession of fragment A since its transfer from the Egyptian Museum (Cairo) in 1937. The join between P.Cair.Copt.Mus. inv. 841 and P.Ghent. inv. 47 indicates that inventory numbers 822 to 850 of the Coptic Museum collection entered the Egyptian Museum at an early stage probably as part of the same 1908 purchase as the Ghent fragment, which confirms that this set of papyri is indeed of Aphroditan provenance. G. Robinson was the first to call attention to the Kūm Išqāw provenance of this lot of papyri (inv. 822-850),<note place="foot" xml:id="ftn5" n="4"><p> See <ref target="https://papyri.info/biblio/58740">Robinson 1987</ref>: 71.</p></note> and I have been able to verify this origin thanks to internal criteria.</p>
+            <p xml:id="p3" style="text-align: justify; ">According to my preliminary autopsy of the originals, I can now lay out the following pieces of information about this series of inventory numbers:</p>
+            <p xml:id="p4" style="text-align: justify; ">•	Inv. 822, <seg style="font-style: italic;">nunc</seg> Crum Mss V 4.4 recto (one of Lacau’s transcriptions kept in the Griffith Institute) = <seg style="font-style: italic;">olim</seg> Gr.Inst.(c). Papyrus inv. 822, is a glass currently containing 33 fragments of which 20 could be joined in the lower part and 4 in the upper part.<note place="foot" xml:id="ftn6" n="5"><p> A full new edition of this text will soon be published as P.Aphrod.Let.Copt. 19, in Vanderheyden (forthcoming).</p></note></p>
+            <p xml:id="p5" style="text-align: justify; ">•	Inv. 829 joins inv. 4054, is another Coptic letter from Aphrodito (ed. in preparation).</p>
+            <p xml:id="p6" style="text-align: justify; ">•	According to my paleographical analysis, “scribe A”, the most prolific writer of Coptic letters from Aphrodito, wrote fragments inv. 840 and 850.<note place="foot" xml:id="ftn7" n="6"><p> Named “scribe digraphe anonyme” in <ref target="https://papyri.info/biblio/96341">Amory 2018</ref> I: 50-61 and “scribe A” in Vanderheyden (forthcoming), § 1.3.3.3.</p></note></p>
+            <list>
+               <item>Inv. 847 is another Coptic letter addressed to “my brother” Dioscorus (see below).</item>
+            </list>
+            <p xml:id="p7" style="text-align: justify; ">The <seg style="font-style: italic;">ed. pr.</seg> of fragment B explains the discovery of this fragment in the Ghent collection.<note place="foot" xml:id="ftn8" n="7"><p> <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref> proposed to identify perhaps another Coptic letter addressed to Dioscorus in the Ghent collection (inv. 48) in their paper entitled “The Coptic Papyri from Ghent University Collection: Two New Documents from the Archive of Dioscorus of Aphrodite?” given on the 11.07.2022 at the 12th International Congress of Coptic Studies, Brussels.</p></note> It was sold to Ghent University Library soon after the famous discovery of the Byzantine Aphrodito papyri in the village of Kūm Išqāw in 1905<note place="foot" xml:id="ftn9" n="8"><p> On the circumstances of the find, see <ref target="https://papyri.info/biblio/20276">Fournet and Magdelaine 2008</ref> (preface): 7-8; <ref target="https://papyri.info/biblio/76488">Fournet 2009a</ref>: 117; <ref target="https://papyri.info/biblio/96341">Amory 2018</ref>: 6 and n. 9. Centered on the Apollos’ and later Dioscorus’ archives, these slightly more than 700 texts include many relating to the administration of the village. About the rediscovery of Apollos’ papers and his important role in the village, which was overshadowed for a century by interest in his son, see <ref target="https://papyri.info/biblio/96337">Vanderheyden 2020</ref>.</p></note> and is now kept in the “Fonds Cumont,” named after the historian who acquired it through the antiquities market in 1908.<note place="foot" xml:id="ftn10" n="9"><p> The Ghent collection hosts some Greek Aphrodito papyri, such as SB 3 6704 (Ghent inv. 44 = TM 18825; picture available at the url <ref target="http://lib.ugent.be/catalog/rug01:001484515">http://lib.ugent.be/catalog/rug01:001484515</ref>) and SB 3 7201 written by Dioscorus (Ghent inv. 45 = TM 18861; picture available at the url <ref target="http://lib.ugent.be/catalog/rug01:001484516">http://lib.ugent.be/catalog/rug01:001484516</ref>). See <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref>: 147-148.</p></note></p>
+            <p xml:id="p8" style="text-align: justify; ">The composite text brings important additional information, such as recognition of a new anonymous scribe who penned a dossier of three letters, clearer identification of monastic titles (esp. <seg style="font-style: italic;">Papa</seg> probably as head of the Pharoou monastery), and more insight into Aphrodito place names. Finally, the identity of the sender of the letter, a certain Papa Diane whose name is attested only in the Cairo fragment but twice, has been specified.</p>
+            <div type="section">
+               <head>Paleography</head>
+               <p xml:id="p9" style="text-align: justify; ">Paleographical analysis was the key to joining these two fragments. The Coptic writing style, close to the unimodular majuscule, is a straight bilinear writing with few ligatures. As described in the edition of fragment B, <seg style="font-style: italic;">mu, alpha </seg>and<seg style="font-style: italic;"> upsilon</seg> shapes divert from the regular biblical majuscule form, while <seg style="font-style: italic;">hori</seg>, <seg style="font-style: italic;">shai, psi, beta</seg>, and <seg style="font-style: italic;">fai</seg> occasionally descend below the line, breaking the bilinearity of the script. The scribe used interpunction to divide the structure of the letter (before ⲕⲁⲓ ⲅⲁⲣ l. 6 and before ⲉⲧⲃⲉ l. 7), features that give a particular bookish impression to his hand.<note place="foot" xml:id="ftn11" n="10"><p> Description in <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref>: 148.</p></note> In comparison to other Aphrodito letters, it shows general characteristics similar to P.Aphrod.Let.Copt.<seg style="font-style: italic;"> </seg>5 or 19, both written in monastic environments.</p>
+               <p xml:id="p10" style="text-align: justify; ">A certain Papa Diane (mentioned in l. 1 and 13) sent this letter to Dioscorus and his brothers. However, the anonymous scribe who penned the letter also probably wrote another unpublished Coptic letter (P.Cair.Copt.Mus. inv. 847): I have recognized the same hand in this much-abraded letter sent by another person, a certain <seg style="font-style: italic;">Papa </seg>Apollo, the <seg style="font-style: italic;">reader</seg> (ⲡⲣⲉϥⲱϣ) to the same “brother” Dioscorus.<note place="foot" xml:id="ftn12" n="11"><p> I am planning to publish this letter as part of the next catalogue of Coptic letters from Aphrodito.</p></note> Although inv. 847 is poorly preserved, a comparison of a few words in it with those in our fragments A and B strongly suggests that the same hand (see hereafter Table 1) wrote the two documents:</p>
+               <table>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">Fragments A and B</cell>
+                     <cell style="text-align: center;">P.Cair.Copt.Mus. inv. 847 (ined.)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">⳨ ⲡ̅ⲡⲁⲡⲁ</cell>
+                     <cell style="text-align: right;">
+                        <figure>
+                           <graphic n="1001"
+                                    width="2.84515cm"
+                                    height="0.6665777777777778cm"
+                                    url="media/image1.png">
+                              <desc>Picture 2</desc>
+                           </graphic>
+                        </figure>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <figure>
+                           <graphic n="1002"
+                                    width="3.4360583333333334cm"
+                                    height="0.6666388888888889cm"
+                                    url="media/image2.png">
+                              <desc>Picture 1</desc>
+                           </graphic>
+                        </figure>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">ⲥⲟⲛ ⲇⲓⲟⲥⲕⲟⲣⲟⲥ</cell>
+                     <cell style="text-align: right;">
+                        <figure>
+                           <graphic n="1003"
+                                    width="1.471086111111111cm"
+                                    height="0.64965cm"
+                                    url="media/image3.png">
+                              <desc>Picture 5</desc>
+                           </graphic>
+                           <graphic n="1004"
+                                    width="2.7688916666666668cm"
+                                    height="0.6233527777777778cm"
+                                    url="media/image4.png">
+                              <desc>Picture 6</desc>
+                           </graphic>
+                        </figure>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <figure>
+                           <graphic n="1005"
+                                    width="4.303888888888889cm"
+                                    height="0.6265583333333333cm"
+                                    url="media/image5.png">
+                              <desc>Picture 13</desc>
+                           </graphic>
+                        </figure>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">ϩⲁ ⲑⲏ ⲙⲉⲛ ⲛ̅ϩⲱⲃ ⲛⲓⲙ    </cell>
+                     <cell style="text-align: right;">
+                        <figure>
+                           <graphic n="1006"
+                                    width="5.805713888888889cm"
+                                    height="0.5168194444444445cm"
+                                    url="media/image6.png">
+                              <desc>Picture 9</desc>
+                           </graphic>
+                        </figure>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <figure>
+                           <graphic n="1007"
+                                    width="5.639155555555556cm"
+                                    height="0.48794166666666666cm"
+                                    url="media/image7.png">
+                              <desc>Picture 10</desc>
+                           </graphic>
+                        </figure>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">ⲭⲁⲓⲣⲉ</cell>
+                     <cell style="text-align: right;">
+                        <figure>
+                           <graphic n="1008"
+                                    width="2.0425333333333335cm"
+                                    height="0.5758861111111111cm"
+                                    url="media/image8.png">
+                              <desc>Picture 11</desc>
+                           </graphic>
+                        </figure>
+                     </cell>
+                     <cell style="text-align: left;">
+                        <figure>
+                           <graphic n="1009"
+                                    width="2.067511111111111cm"
+                                    height="0.5750305555555556cm"
+                                    url="media/image9.png">
+                              <desc>Picture 12</desc>
+                           </graphic>
+                        </figure>
+                     </cell>
+                  </row>
+               </table>
+               <p xml:id="p11" style="text-align: justify; text-align: center;">Table 1: Paleographic comparison between Ghent. inv. 47 + P.Cair.Copt.Mus. inv. 841</p>
+               <p xml:id="p12" style="text-align: justify; text-align: center;">and P.Cair.Copt.Mus. inv. 847</p>
+               <p xml:id="p13" style="text-align: justify; ">Could Apollo the <seg style="font-style: italic;">reader</seg> and Diane, both bearing the title<seg style="font-style: italic;"> Papa,</seg> have used the service of the same anonymous scribe to write their letters to Dioscorus? Alternatively, should we assume that this hand belongs to either <seg style="font-style: italic;">Papa </seg>Apollo or <seg style="font-style: italic;">Papa</seg> Diane and that one of them wrote for the other?</p>
+            </div>
+            <div type="section">
+               <head>Circumstances of the letter</head>
+               <p xml:id="p14" style="text-align: justify; ">The reason the letter was sent to Dioscorus is now unclear because of the poor state of preservation of lines 8 to 12, which must have featured the actual message. However, it is likely that it concerned property management, probably on behalf of a monastery, since it mentions fields and perhaps camels.</p>
+               <p xml:id="p15" style="text-align: justify; ">The extant part of the letter mostly contained greetings (8 lines on 12) and, therefore, this letter raises the issue of monastic titles.</p>
+               <p xml:id="p16" style="text-align: justify; ">First of all, as already stated in <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref>: 151, who mention Crum Mss V 4.6, 4, the term ⲗⲁⲟⲥ generally qualifies the monks of a coenobitic monastic community and in Aphrodito more precisely the monks of the Apa Apollos monastery in Pharoou.<note place="foot" xml:id="ftn13" n="12"><p> <seg style="font-style: italic;">Ed. pr.</seg> quotes Crum Mss V 4.5 (transcription) according to Kahle’s reading, rightfully avoiding <ref target="https://papyri.info/biblio/63270">MacCoull 1993</ref>: 37 wrong reading. However, studying the original transcriptions in the Griffith Institute has revealed that Crum Mss V 4.6 actually keep a sepia picture of a lost papyrus, on the back of which, one can read the following note: “May 1907. One of the papyri found at Aphrodito (Jkôou) by (?) G. Lefebvre in 1905/06. Photogr. Brugsch (for Maspero) (not Dioscorus' hand)”. The recipient of Crum Mss V 4.6 remains unknown but even if the papyrus was already damaged and abraded when photographed, I read on the picture: ⳨ ⲡⲁⲡⲁ ⲫ[ⲟⲓⲃⲁ]ⲙⲙⲱⲛ ⲡⲓⲱⲧ ⲙⲡⲧⲟⲟⲩ ⲛ̣ⲛⲁⲡⲁ ⲁⲡⲟⲗⲗⲱ ⲙⲫ[ⲁ]ⲣⲁⲟ[ⲩ] | ⲙⲛ̅ ⲡⲗⲁⲟⲥ ⲧⲏⲣϥ ⲙⲡⲛⲟⲩⲧⲉ ⲙⲛ ⲛⲉⲥⲛⲏọⲩ̣ ⲛ̅ϩⲏⲕ[ⲉ…], “<seg style="font-style: italic;">Papa Phoibammôn, father of the mountain/monastery of Apa Apollos of Pharaou, alongside with the whole people of God and the poor brothers</seg>”. I hope to find the original papyrus in the Coptic Museum, Cairo, the same way I have identified other texts transcribed by Lacau at the beginning of the 20th century.</p></note> Thanks to our Cairo-Ghent reconstructed letter and P.Cair.Copt.Mus. inv. 847, both written by the same scribe, as well as Crum Mss V 4.6, one could think that we are in front of a small dossier constituted by three letters sent by superiors of the Pharoou community bearing the title <seg style="font-style: italic;">Papa</seg> (Phoibammôn, Diane, and Apollos <seg style="font-style: italic;">the reader</seg>). In these three letters <seg style="font-style: italic;">papa </seg>seemed to refer to the “father” of the monastery and not to the function of priest. The presence of the “men of ϫⲕ̅ⲕⲟⲟⲩ”<note place="foot" xml:id="ftn14" n="13"><p> Written here with two <seg style="font-style: italic;">kappas</seg> while ϫⲕⲱⲟⲩ is the most common form in Coptic.</p></note> and of the name [S]ophia, probably Dioscorus’ wife, in Crum Mss V 4.6, 5 reinforces the hypothesis that Dioscorus was indeed the recipient of these three letters, in his function of curator of his father’s monastery.</p>
+               <p xml:id="p17" style="text-align: justify; ">On the other hand, the title ⲟⲩϣ[ⲏⲣ]ⲉ ⲛ̄ϣⲟⲩⲁϣϥ̄ “<seg style="font-style: italic;">the worthy-of-being-loved son</seg>” was well attested in Aphrodito (twice in the plural form ⲛ̄ϣⲟⲩⲁϣⲟⲩ).<note place="foot" xml:id="ftn15" n="14"><p> P.Aphrod.Let.Copt.<seg style="font-style: italic;"> </seg>7.36 and 18.18.</p></note> P.Aphrod.Let.Copt.<seg style="font-style: italic;"> </seg>7, written by Apollos himself (dated July 11, 545), was sent to his “beloved and <seg style="font-style: italic;">worthy-of-being-loved sons.</seg>” There it certainly referred to members of the Pharoou monastic community, which was funded by Apollos himself and led amongst others by Apa Charisios and Iakôb.<note place="foot" xml:id="ftn16" n="15"><p> See <ref target="https://papyri.info/biblio/96337">Vanderheyden 2020</ref>: 122-124.</p></note> Then, about 30 years later, P.Aphrod.Let.Copt. 18.18 (dated between 573 and 580), sent to “my <seg style="font-style: italic;">worthy-of-being-loved </seg>venerable fathers Phoibammon and Dioscorus” by Môusês their “son,” referred probably to the two leaders of the Pharoou community. I have proposed elsewhere that these two characters are the famous Dioscorus of Aphrodito and Phoibammon, son of Triadelphos, both heirs of Apollos.<note place="foot" xml:id="ftn17" n="16"><p> Vanderheyden (forthcoming), § 3.1.7.</p></note> In that perspective, the <seg style="font-style: italic;">worthy-of-being-loved son/father </seg>was perhaps an equivalent to the ⲡϣⲏⲣⲉ/ⲡⲓⲱⲧ ⲙ̄ⲡⲧⲟⲡⲟⲥ attested as Dioscorus’ title in P.Aphrod.Let.Copt. 17.13. As proposed in the edition of fragment B,<note place="foot" xml:id="ftn18" n="17"><p> See <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref>: 149.</p></note> our composite text dates from the last years of Dioscorus' archive, probably between 573 and 580, date of his confirmed death.<note place="foot" xml:id="ftn19" n="18"><p> See <seg style="font-style: italic;">SB </seg>XXII 15522. Date in <ref target="https://papyri.info/biblio/20276">Fournet and Magdelaine 2008</ref>, p. 22, n. 21.</p></note></p>
+            </div>
+            <div type="section">
+               <head>Language</head>
+               <p xml:id="p18" style="text-align: justify; ">The structure of the letter follows that which is well attested in the Aphrodito corpus. It starts with an inner address X ⲡⲉⲧⲥϩⲁⲓ ⲛ Y ⲭⲁⲓⲣⲉⲇⲉ (l. 1-4) with the inserted formula <seg style="font-style: italic;">we greet you with all [our] heart and all our soul</seg> (l. 2-3). This traditional prescript gives the letter an ancient and respectful form that is common in early and monastic letters.<note place="foot" xml:id="ftn20" n="19"><p> E.g. SB Kopt. 3 1311, 1-3 and 1312, 1-2. See <ref target="https://papyri.info/biblio/19058">Choat 2006a</ref>: 26 and 102; <ref target="https://papyri.info/biblio/78440">Choat 2010</ref>: 155; <ref target="https://papyri.info/biblio/88404">Richter 2008</ref>: 761-762 (table 2:2).</p></note> Then additional greetings follow (l. 4-7), which are often used by senders who wish to give more solemnity and strengthen the politeness of their greetings. There we can read diverse clichés: <seg style="font-style: italic;">we remember you and the whole community from the oldest to the youngest, so that God straightens your path </seg>(l. 4-6), <seg style="font-style: italic;">it is our very wish [...] </seg>and<seg style="font-style: italic;"> everyone loves you because you are one worthy-of-being-loved son </seg>(l. 6-7). Across the corpus of the Aphrodito Coptic letters, professional copyists who use a type of non-cursive bilinear upright writing mostly use these clichés, as monastic formulas.<note place="foot" xml:id="ftn21" n="20"><p> See P.Aphrod.Let.Copt. 2, 4, 5, and 17.</p></note> Then, ⲉⲧⲃⲉ introduces the main section of the letter (l. 7-11) and in the end, final greetings are partly preserved (l. 12). The address on the verso (l. 13-14) follows the expected pattern ⲧⲁⲁⲥ ⲛ Y ϩⲓⲧⲛ X1 ⲙⲛ̄ X2.</p>
+               <p xml:id="p19" style="text-align: justify; ">As usual when the sender writes in a literary handwriting, the letter is close to the standard Sahidic with only few peculiarities from the Middle Egypt dialectal influence. In addition to an accidental elision of the ⲛ in ⲡ]ⲉ&lt;ⲛ&gt;ⲙⲉⲣⲓⲧ ⲛⲥⲟⲛ (l. 12), one can note the form ⲛ̄ϣⲟⲩⲁϣ= (<seg style="font-style: italic;">S</seg> ⲛ̄ϣⲟⲩⲟⲩⲁϣ=), l. 7 which seems the common form in Aphrodito (see thereafter 7n.). Unsurprisingly, the common phonetic ⲇ for τ confusion in Greek loanwords in Coptic is also attested in ⲭⲁⲓⲣⲉⲇⲉ for χαίρετε (l. 4).<note place="foot" xml:id="ftn22" n="21"><p> See <ref target="https://papyri.info/biblio/46444">Girgis 1970</ref>: 57, § 20a; Gignac I: 80-83; <ref target="https://papyri.info/biblio/78441">Clackson 2010</ref>: 80.</p></note></p>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">P.Cair.Copt.Mus. inv. 841+</cell>
+                        <cell style="text-align: left;">A = H. 7.2 x W. 9.5 cm</cell>
+                        <cell style="text-align: left;">
+                           <seg style="font-style: italic;">ca</seg>. 573-580</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">P.Ghent inv. 47</cell>
+                        <cell style="text-align: left;">B = H. 11 x W. 17 cm</cell>
+                        <cell style="text-align: left;"/>
+                     </row>
+                  </table>
+                  <head>Fragment A is dark brown, which is characteristic of a large part of the Aphrodito papyri.<note place="foot" xml:id="ftn23" n="22">
+                        <p> See P.Aphrod.Lit. 1: 10.</p>
+                     </note> It constitutes the upper left corner of the letter, as is clear from the fact that both the upper and left margins are preserved. Fragment B is the right part of our Coptic letter, with upper, right and bottom margins complete. The state of preservation shows that it was separated from the original piece at an early stage.</head>
+                  <head>A strip of ca. 2.5 cm (4-5 letters) is missing between the two non-joining fragments A and B; the expected original width of the letter is in accordance with the horizontal Byzantine format measuring ca. 30 cm.<note place="foot" xml:id="ftn24" n="23">
+                        <p> In this format, the length of the lines cannot exceed the height of the <seg style="font-style: italic;">volumen</seg> and the text is written perpendicular to the vertical fibers of the papyrus. See P.Oxy. LIX, 4005: 176; <ref target="https://papyri.info/biblio/77679">Fournet 2009b</ref>: 31-32; <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref>: 148.</p>
+                     </note>
+                  </head>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p20"><ref>1</ref> ⲡ̄ⲡⲁⲡⲁ: title worn by bishops and priests, corresponds to a real ecclesiastical function and is not merely honorary (see Derda &amp; Wipszycka 1994: 54-56; P.Brux.Bawit 34.1n and p. 65, n. 93). Here it applies to the superior of a monastic community.</p>
+                        <p xml:id="p21">ⲇⲓⲁ[ⲛⲉ]: reading confirmed by the verso (l. 13) where the name of the sender is easily readable in the address. <ref target="https://papyri.info/biblio/80637">Ruffini 2011</ref>: 154 lists two instances of Diane in Aphrodito, one a masculine personal name for a guardian (<seg style="font-style: italic;">phrouros</seg>) and the second a female name. A new third entry can be added for our <seg style="font-style: italic;">Papa</seg>. In the eighth-century P.Lond. 4 1419.831-832 [<ref target="http://papyri.info/ddbdp/p.lond%3B4%3B1419">http://papyri.info/ddbdp/p.lond;4;1419</ref>], the “sons of Diane” υἱῶν Διανε pay for a share of the <seg style="font-style: italic;">topos</seg> Sasou and for a share of the <seg style="font-style: italic;">topos</seg> for the church of Saint Mary. Should we identify our “Papa Diane [and] his brothers” with a 6th century community, the name of which would persist as a monastic community, and thus a collective taxpayer in our 8th century register? The noteworthy rarity of the name Diane could point in this direction. An example of this designation appears e.g. in <seg style="font-style: italic;">P.Sorb.</seg> II 69, 26 A1 where a monastery is named after the “sons of Germanos”, as well as a <seg style="font-style: italic;">diakonia </seg>bearing the same name (see <seg style="font-style: italic;">P.Sorb.</seg> II 69: 82-83).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p22"><ref>2-3</ref> ϩⲙ̄ ⲧⲏⲣϥ̄ ⲙⲛ̣ ⲧⲁⲯⲩⲭⲏ ⲧⲏⲣⲥ : senders who wish to give more solemnity to their greetings employ an additional formula that reinforces politeness after the archaic inner address X ⲡⲉⲧⲥϩⲁⲓ ⲛ Y. As far as the Aphrodito letters corpus shows, copyists who use the non-cursive bilinear practiced handwriting (such as our scribe) tend to use these clichés (see Vanderheyden, forthcoming, § 1.3.1.2 and § 1.4.2.3) but it is not exclusive, since Apollos uses it too (see e.g. P.Aphrod.Let.Copt. 7.1, 8.1 and 9.1, probably all dated in summer 545).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p23"><ref>4</ref> About ⲡⲗⲁⲟⲥ generally qualifying a coenobitic monastic community, see inter alia introduction to P.Bawit.Clackson 81 and Förster WB s.v. λαός. It refers more precisely to the monks of the Apa Apollos monastery, in Pharoou, in the Aphrodito texts (see introduction).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p24"><ref>5-6</ref> [ⲉ]ⲧⲣⲉⲡⲛⲟⲩⲧⲉ ⲥⲟⲟⲩⲧⲛ̄ ⲛ̄ⲧⲉⲕ|ϩⲓⲏ. This formula is probably a biblical echo or allusion to “(God) straightening your way”, as already stated in the <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref>: 152. For the use of biblical echoes/quotations in Coptic early letters, see <ref target="https://papyri.info/biblio/74856">Choat 2006b</ref>, in Coptic documents, see <ref target="https://papyri.info/biblio/96339">Richter 2015</ref>, and in the Aphrodito Coptic letters, see Vanderheyden (forthcoming), § 1.4.7.3.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p25"><ref>7</ref> ⲟⲩϣ̣[ⲏⲣ]ⲉ̣ ⲛ̄ϣⲟⲩⲁϣϥ “<seg style="font-style: italic;">the worthy-of-being-loved son</seg>” (l. ⲟⲩϣⲏⲣⲉ ⲛ̄ϣⲟⲩⲟⲩⲁϣϥ̅). The non-standard form ⲛ̄ϣⲟⲩⲁϣϥ̅ is the expected one in Aphrodito (see P.Aphrod.Let.Copt.<seg style="font-style: italic;"> </seg>7.36 and 18.18, both in the plural form ⲛ̄ϣⲟⲩⲁϣⲟⲩ). One can also propose ⲣ̣ and read ⲣ̣[ⲱⲙ]ⲉ instead of ϣ̣[ⲏⲣ]ⲉ.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p26"><ref>8</ref> ⲉϣ̣ϣⲉ ⲉ ̣[.3][. . .]: ⲉϣϣⲉ ⲉ[ⲁⲁϥ] or ⲉ[ⲣⲟⲕ]? “as it is right to do it ?” or “as it is right for you.” ⲁⲩⲱ at the beginning of l. 9 prevents a new conditional clause from starting here.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p27"><ref>9</ref> <ref target="https://papyri.info/biblio/96335">Amory and Stolk 2021</ref>: 153 has already shown that the first occurrence of the <seg style="font-style: italic;">ma </seg>of Iakôb in the Byzantine Aphrodito sources is of particular interest for the geography of the village, since it was attested only in fiscal documents of the Umayyad Aphrodito so far.<note place="foot" xml:id="ftn25" n="24"><p> About this place name, see also <ref target="https://papyri.info/biblio/96342">Marthot 2013</ref>, II: 91 and its attestations in Aphrodito, in P.Lond. 4 1421.14, 113 (705) [<ref target="http://papyri.info/ddbdp/p.lond%3B4%3B1421">http://papyri.info/ddbdp/p.lond;4;1421</ref>], P.Lond. 4 1422.20 (707/708) [<ref target="http://papyri.info/ddbdp/p.lond%3B4%3B1422">http://papyri.info/ddbdp/p.lond;4;1422</ref>], P.Lond. 4 1419.874, 883, 913, 921 (716/717) [<ref target="http://papyri.info/ddbdp/p.lond%3B4%3B1419">http://papyri.info/ddbdp/p.lond;4;1419</ref>] and P.Lond. 4 1442.56 (8th c.) [<ref target="http://papyri.info/ddbdp/p.lond%3B4%3B1442e">http://papyri.info/ddbdp/p.lond;4;1442e</ref>].</p></note> The place name Tankash is kept in P.Lond.<seg style="font-style: italic;"> </seg>4 1419 (fiscal register, Aphrodito, 716-717 CE).<note place="foot" xml:id="ftn26" n="25"><p> <ref target="https://papyri.info/biblio/96342">Marthot 2013</ref>, II: 336 notes two different orthographies in the same register P.Lond. 4 1419: Τανκαϣ (l. 686) and [Τα]νκεϣ (l. 834) [<ref target="http://papyri.info/ddbdp/p.lond%3B4%3B1419">http://papyri.info/ddbdp/p.lond;4;1419</ref>].</p></note> The <seg style="font-style: italic;">topos</seg> Tankesh refers to a larger group of composite crops.<note place="foot" xml:id="ftn27" n="26"><p> See <ref target="https://papyri.info/biblio/96342">Marthot 2013</ref> I: 230-231.</p></note> My first idea was to restore [ⲛⲧⲁ]ⲛ̄ⲕⲁϣ ϩⲙ̄ ⲡⲙⲁ ⲛ̄ⲓ̈ⲁⲕⲱⲃ here, the <seg style="font-style: italic;">topos</seg> Tankesh being a smaller division “inside” the <seg style="font-style: italic;">ma </seg>of Iakôb. This hypothesis stands alone and cannot be proved by contemporary parallels and since this restoration is close to a lacuna, one should remain cautious in order not to contradict <seg style="font-style: italic;">lex Youtie</seg>. Moreover, the supralineation ⲛ̅ⲕⲁϣ speak against this interpretation, and one should consider the possibility that “reeds” are mentioned here, as proposed in the <seg style="font-style: italic;">ed. pr</seg>. Nevertheless, the verb ⲕⲱⲱⲣⲉ ⲕⲁϣ “cut, gather reeds” that could make sense here does not match with the traces. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p28"><ref>10</ref> A <seg style="font-style: italic;">topos</seg> located in the “five eastern <seg style="font-style: italic;">Pediades</seg>” called (Αβου/Παπο) Τζαμουλ/Καμουλ is attested in the Umayyad Aphrodito documents as a place name (see <ref target="https://papyri.info/biblio/96342">Marthot 2013</ref> II: 358). According to Marthot, it seems to be a peculiar name used locally in Aphrodito under the form Τζαμουλ (see also <ref target="https://papyri.info/biblio/80637">Ruffini 2011</ref>: 586). In this text could ϭⲁⲙⲟⲩⲗ be a field of unknown location, or someone’s name (see <seg style="font-style: italic;">NB Copt</seg>: 119), or is the sender of this letter indeed talking about real camels as guessed in the <seg style="font-style: italic;">ed. pr.</seg>? The fragmentary state of these lines prevent us from answering these questions.</p>
+                     </note>
+                  </div>
+                  <div type="bibliography">
+                     <listBibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/96341">Amory, Y. (2018)</ref> Communiquer par écrit dans l’Égypte de l’Antiquité tardive : les lettres grecques des archives de Dioscore d’Aphrodité (Égypte, vie s. apr. J.-C.), Unpubl. Ph.D. diss, 2 vol., EPHE. Paris.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/96335">Amory, Y. and Stolk, J.V. (2021)</ref> “A Coptic letter to Dioscorus of Aphrodite from the collection of the Ghent University Library,” <seg style="font-style: italic;">CdE</seg> 191: 147-153 (DOI: <ref target="https://doi.org/10.1484/J.CDE.5.128175">https://doi.org/10.1484/J.CDE.5.128175</ref>).</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/19058">Choat, M. (2006a)</ref> Belief and Cult in Fourth-Century Papyri (Studia Antiqua Australiensia 1), Turnhout.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/74856">Choat, M. (2006b)</ref> “Echo and quotation of the New Testament in papyrus letters to the end of the fourth century,” in T.J. Kraus &amp; T. Niklas (éd.) New Testament Manuscripts. Their Texts and their World (Texts and Editions for New Testament Study 2), Leiden: 267-292.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/78440">Choat, M. (2010)</ref> “Early Coptic Epistolography,” in A. Papaconstantinou (ed.), The Multilingual Experience in Egypt, from the Ptolemies to the Abbasids, Surrey: 153-178.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/78441">Clackson, S. (2010)</ref> “Coptic or Greek? Bilingualism in the Papyri,” in A. Papaconstantinou (ed.), The Multilingual Experience in Egypt, from the Ptolemies to the Abbasids. Surrey: 73-104. </bibl>
+                        <bibl>Derda, T. &amp; Wipszycka, E. (1994) “L’emploi des titres <seg style="font-style: italic;">Abba</seg>, <seg style="font-style: italic;">Apa</seg>, et  <seg style="font-style: italic;">Papas </seg>dans l’Égypte byzantine,” <seg style="font-style: italic;">JJP </seg>24: 2356.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/20276">Fournet, J.-L. and Magdelaine, C. (2008)</ref> Les archives de Dioscore d’Aphroditê cent ans après leur découverte. Histoire et culture dans l’Égypte Byzantine. Actes du colloque de Strasbourg (8-10 décembre 2005). Paris.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/76488">Fournet, J.-L. (2009a)</ref> “Papyrologie grecque,” AEPHE, Section des sciences historiques et philologiques, 140e année 2007-2008. Paris: 117-120 (DOI: <ref target="http://journals.openedition.org/ashp/681">http://journals.openedition.org/ashp/681</ref>).</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/77679">Fournet, J.-L. (2009b)</ref> “Esquisse d’une anatomie de la lettre antique tardive d’après les papyrus,” in R. Delmaire, J. Desmulliez, P.-L. Gatier (ed.), Correspondances. Documents pour l’histoire de l’antiquité tardive (CMOM 40; Série littéraire et philosophique 13), Lyon: 23-66.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/46444">Girgis, W.A. (1970)</ref> “Greek Loan Words in Coptic,” (part III), <seg style="font-style: italic;">BSAC</seg> 19: 57-87.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/56566">Keenan, J.G. (1984)</ref> “The Aphrodite Papyri and Village Life in Byzantine Egypt,” <seg style="font-style: italic;">BSAC </seg>26: 51-63.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/63270">MacCoull, L.S.B. (1993)</ref> “The Apa Apollos Monastery of Pharoou (Aphrodito) and its Papyrus Archive,” <seg style="font-style: italic;">Le Muséon</seg> 106: 21-63.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/96342">Marthot, I. (2013)</ref> Un village égyptien et sa campagne : étude de la microtoponymie du village d’Aphroditê (vie-viiie s.), Unpubl. Ph. D. thesis, 3 vol., EPHE. Paris.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/58740">Robinson, G. (1987)</ref> “International Photographic Archive of Greek Papyri. Photography of the Papyrus Collection of the Coptic Museum, Cairo”, <seg style="font-style: italic;">ZPE</seg> 70: 65-72.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/88404">Richter, T.S. (2008)</ref> “Coptic Letters,” in E.M. Grob &amp; A. Kaplony (ed.), Documentary Letters from the Middle East: The Evidence in Greek, Coptic, South Arabian, Pehlevi, and Arabic (1st-15th c CE) (Asiatische Studien/Études Asiatiques 62/3), Berne: 739-770. </bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/96339">Richter, T.S. (2015)</ref> “Heilige Schriften im Alltagsgebrauch Bibeltexte und -zitate im frühislamischen Theben,” in G. Neunert (éd.), Text: Wissen – Wirkung – Wahrnehmung. Beiträge des vierten Münchner Arbeitskreises Junge Aegyptologie (MAJA 4), 29.11. bis 1.12.2013; unter Mitarbeit von C. Jones und B. Backes (GOF Reihe 4, Ägypten 59), Wiesbaden: 9-30.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/80637">Ruffini, G.R. (2011)</ref> A prosopography of Byzantine Aphrodito (Am.Stud.Pap. 50). Durham.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/81750">Vanderheyden, L. (2012)</ref> “Les lettres coptes des archives de Dioscore d’Aphroditê,” in <seg style="font-style: italic;">PapCongr</seg>. 26: 793-799.</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/96343">Vanderheyden, L. (2015)</ref> Les lettres coptes des archives de Dioscore d’Aphroditê (vie siècle, Égypte). Unpubl. Ph.D. diss, 3 vol., EPHE. Paris. [Papyri editions are here abbreviated as P.Aphrod.Let.Copt., and they keep the same number in Vanderheyden (forthcoming)].</bibl>
+                        <bibl>
+                           <ref target="https://papyri.info/biblio/96337">Vanderheyden, L. (2020)</ref> “The figure of Apollôs, father of Dioscorus, in the light of Coptic letters from Aphrodito (6th c. CE),” in S. Huebner, E. Garosi, I. Marthot-Santaniello, M. Müller, S. Schmidt &amp; M. Stern (eds.), Living the End of Antiquity – Individual Histories from Byzantine to Islamic Egypt (Millennium Studies 84). Basel: 119-128 (DOI: <ref target="https://doi.org/10.1515/9783110683554-011">https://doi.org/10.1515/9783110683554-011</ref>).</bibl>
+                        <bibl>Vanderheyden, L. (forthcoming) Écrire en copte dans l’Égypte du vie siècle. Les lettres coptes des archives familiales d’Aphroditê (P.Aphrod.Let.Copt. I) (Studia Papyrologica et Aegyptiaca Parisina 6) Paris.</bibl>
+                     </listBibl>
+                  </div>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96341">Amory, Y. (2018)</ref> Communiquer par écrit dans l’Égypte de l’Antiquité tardive : les lettres grecques des archives de Dioscore d’Aphrodité (Égypte, vie s. apr. J.-C.), Unpubl. Ph.D. diss, 2 vol., EPHE. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96335">Amory, Y. and Stolk, J.V. (2021)</ref> “A Coptic letter to Dioscorus of Aphrodite from the collection of the Ghent University Library,” <seg style="font-style: italic;">CdE</seg> 191: 147-153 (DOI: <ref target="https://doi.org/10.1484/J.CDE.5.128175">https://doi.org/10.1484/J.CDE.5.128175</ref>).</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/19058">Choat, M. (2006a)</ref> Belief and Cult in Fourth-Century Papyri (Studia Antiqua Australiensia 1), Turnhout.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/74856">Choat, M. (2006b)</ref> “Echo and quotation of the New Testament in papyrus letters to the end of the fourth century,” in T.J. Kraus &amp; T. Niklas (éd.) New Testament Manuscripts. Their Texts and their World (Texts and Editions for New Testament Study 2), Leiden: 267-292.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78440">Choat, M. (2010)</ref> “Early Coptic Epistolography,” in A. Papaconstantinou (ed.), The Multilingual Experience in Egypt, from the Ptolemies to the Abbasids, Surrey: 153-178.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78441">Clackson, S. (2010)</ref> “Coptic or Greek? Bilingualism in the Papyri,” in A. Papaconstantinou (ed.), The Multilingual Experience in Egypt, from the Ptolemies to the Abbasids. Surrey: 73-104. </bibl>
+                  <bibl>Derda, T. &amp; Wipszycka, E. (1994) “L’emploi des titres <seg style="font-style: italic;">Abba</seg>, <seg style="font-style: italic;">Apa</seg>, et  <seg style="font-style: italic;">Papas </seg>dans l’Égypte byzantine,” <seg style="font-style: italic;">JJP </seg>24: 2356.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/20276">Fournet, J.-L. and Magdelaine, C. (2008)</ref> Les archives de Dioscore d’Aphroditê cent ans après leur découverte. Histoire et culture dans l’Égypte Byzantine. Actes du colloque de Strasbourg (8-10 décembre 2005). Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/76488">Fournet, J.-L. (2009a)</ref> “Papyrologie grecque,” AEPHE, Section des sciences historiques et philologiques, 140e année 2007-2008. Paris: 117-120 (DOI: <ref target="http://journals.openedition.org/ashp/681">http://journals.openedition.org/ashp/681</ref>).</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77679">Fournet, J.-L. (2009b)</ref> “Esquisse d’une anatomie de la lettre antique tardive d’après les papyrus,” in R. Delmaire, J. Desmulliez, P.-L. Gatier (ed.), Correspondances. Documents pour l’histoire de l’antiquité tardive (CMOM 40; Série littéraire et philosophique 13), Lyon: 23-66.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/46444">Girgis, W.A. (1970)</ref> “Greek Loan Words in Coptic,” (part III), <seg style="font-style: italic;">BSAC</seg> 19: 57-87.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56566">Keenan, J.G. (1984)</ref> “The Aphrodite Papyri and Village Life in Byzantine Egypt,” <seg style="font-style: italic;">BSAC </seg>26: 51-63.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/63270">MacCoull, L.S.B. (1993)</ref> “The Apa Apollos Monastery of Pharoou (Aphrodito) and its Papyrus Archive,” <seg style="font-style: italic;">Le Muséon</seg> 106: 21-63.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96342">Marthot, I. (2013)</ref> Un village égyptien et sa campagne : étude de la microtoponymie du village d’Aphroditê (vie-viiie s.), Unpubl. Ph. D. thesis, 3 vol., EPHE. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/58740">Robinson, G. (1987)</ref> “International Photographic Archive of Greek Papyri. Photography of the Papyrus Collection of the Coptic Museum, Cairo”, <seg style="font-style: italic;">ZPE</seg> 70: 65-72.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/88404">Richter, T.S. (2008)</ref> “Coptic Letters,” in E.M. Grob &amp; A. Kaplony (ed.), Documentary Letters from the Middle East: The Evidence in Greek, Coptic, South Arabian, Pehlevi, and Arabic (1st-15th c CE) (Asiatische Studien/Études Asiatiques 62/3), Berne: 739-770. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96339">Richter, T.S. (2015)</ref> “Heilige Schriften im Alltagsgebrauch Bibeltexte und -zitate im frühislamischen Theben,” in G. Neunert (éd.), Text: Wissen – Wirkung – Wahrnehmung. Beiträge des vierten Münchner Arbeitskreises Junge Aegyptologie (MAJA 4), 29.11. bis 1.12.2013; unter Mitarbeit von C. Jones und B. Backes (GOF Reihe 4, Ägypten 59), Wiesbaden: 9-30.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/80637">Ruffini, G.R. (2011)</ref> A prosopography of Byzantine Aphrodito (Am.Stud.Pap. 50). Durham.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/81750">Vanderheyden, L. (2012)</ref> “Les lettres coptes des archives de Dioscore d’Aphroditê,” in <seg style="font-style: italic;">PapCongr</seg>. 26: 793-799.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96343">Vanderheyden, L. (2015)</ref> Les lettres coptes des archives de Dioscore d’Aphroditê (vie siècle, Égypte). Unpubl. Ph.D. diss, 3 vol., EPHE. Paris. [Papyri editions are here abbreviated as P.Aphrod.Let.Copt., and they keep the same number in Vanderheyden (forthcoming)].</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96337">Vanderheyden, L. (2020)</ref> “The figure of Apollôs, father of Dioscorus, in the light of Coptic letters from Aphrodito (6th c. CE),” in S. Huebner, E. Garosi, I. Marthot-Santaniello, M. Müller, S. Schmidt &amp; M. Stern (eds.), Living the End of Antiquity – Individual Histories from Byzantine to Islamic Egypt (Millennium Studies 84). Basel: 119-128 (DOI: <ref target="https://doi.org/10.1515/9783110683554-011">https://doi.org/10.1515/9783110683554-011</ref>).</bibl>
+                  <bibl>Vanderheyden, L. (forthcoming) Écrire en copte dans l’Égypte du vie siècle. Les lettres coptes des archives familiales d’Aphroditê (P.Aphrod.Let.Copt. I) (Studia Papyrologica et Aegyptiaca Parisina 6) Paris.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>P.Ghent inv. 47 completed. A Coptic letter from Papa Diane to Dioscorus of Aphrodito.</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">140425</idno>
+               <idno type="HGV">140425</idno>
+               <idno type="ddb-filename">pylon.3.2</idno>
+               <idno type="ddb-hybrid">pylon;3;2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>ca. 573-580</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Bitte</term>
+                  <term n="2">Kauf</term>
+                  <term n="3">Bdellium</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>P.Ghent inv. 47 completed. A Coptic letter from Papa Diane to Dioscorus of Aphrodito.</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.3.2</idno>
+               <idno type="ddb-hybrid">pylon;3;2</idno>
+               <idno type="HGV">140425</idno>
+               <idno type="TM">140425</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">P.Ghent inv. 47 completed. A Coptic letter from Papa Diane to Dioscorus of Aphrodito.</head>
+            <div xml:id="ed1" xml:lang="cop" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><g type="rho-cross"/> <hi rend="supraline">ⲡ</hi>ⲡⲁⲡⲁ ⲇⲓⲁ <supplied reason="lost">ⲛⲉ ⲙⲛ<hi rend="supraline"> </hi> ⲛ</supplied><unclear>ⲉ</unclear>ϥⲥⲛⲏⲩ ⲛ<unclear> </unclear>ⲉⲧ<unclear>ⲥ</unclear>ϩⲁⲓ̈ <unclear>ⲙ</unclear>ⲡⲉⲩⲥⲟⲛ
+<lb n="2"/>ⲉⲧⲧⲁⲓ̈ⲏⲩ ⲇⲓ<unclear> </unclear><supplied reason="lost">ⲟⲥⲕⲟ</supplied><unclear>ⲣ</unclear>ⲟⲥ ϩⲁ ⲑⲏ  <choice><reg xml:lang="grc">μέν</reg><orig>ⲙⲉⲛ</orig></choice> <hi rend="supraline">ⲛ</hi>ϩⲱⲃ ⲛⲓⲙ<unclear> </unclear> <unclear>ⲧ</unclear>ⲛ
+<lb n="3" break="no"/>ϣⲓⲛⲉ ⲉⲣⲟⲕ  ϩ<hi rend="supraline">ⲙ</hi> ⲡ<supplied reason="lost">ⲉⲛϩ</supplied>ⲏⲧ ⲧⲏⲣ <hi rend="supraline">ϥ</hi> ⲙ<unclear>ⲛ</unclear> ⲧⲉⲛ<choice><reg xml:lang="grc">ψυχή</reg><orig>ⲯⲩⲭⲏ</orig></choice> ⲧⲏⲣ<unclear>ⲥ</unclear>
+<lb n="4"/><choice><reg xml:lang="grc">χαίρετε</reg><orig>ⲭⲁⲓⲣⲉⲇⲉ</orig></choice> ⲁⲩⲱ ⲧ<unclear> </unclear><supplied reason="lost">ⲛⲉⲓ</supplied>ⲣⲉ ⲙ<unclear> </unclear>ⲡⲉⲕⲙⲉⲉⲩⲉ ⲙⲛ<unclear> </unclear> ⲡ<choice><reg xml:lang="grc">λαός</reg><orig>ⲗⲁⲟⲥ</orig></choice> ⲧ<unclear>ⲏ</unclear>ⲣ<unclear>ϥ</unclear>
+<lb n="5"/>ϫⲓⲛ ⲙ<hi rend="supraline"> </hi>ⲡⲛⲟϭ ϣ<supplied reason="lost">ⲁ ⲡⲕ </supplied><unclear>ⲟ</unclear>ⲩⲓ̈ <app type="editorial"><lem><supplied reason="lost">ⲉ</supplied>ⲧⲣⲉⲡⲛⲟⲩⲧⲉ</lem><rdg><unclear>ⲉ</unclear>ⲧⲣⲉⲡⲛⲟⲩⲧⲉ</rdg></app> ⲥⲟⲟⲩⲧ<hi rend="supraline">ⲛ</hi> <hi rend="supraline">ⲛ</hi>ⲧⲉⲕ
+<lb n="6" break="no"/>ϩⲓⲏ· <choice><reg xml:lang="grc">καὶ γάρ</reg><orig>ⲕⲁⲓ ⲅⲁⲣ </orig></choice> ⲡⲉⲛ<gap reason="lost" quantity="3" unit="character"/>ⲉ ϩⲱⲱⲛ ⲡⲉ ⲡⲁⲓ  ̈ ϫⲉ ⲥⲉⲩⲁ ϣ<hi rend="supraline"><unclear>ⲕ</unclear></hi> ⲧⲏ
+<lb n="7"/>ⲣⲟⲩ ϫⲉ ⲛ<hi rend="supraline"> </hi>ⲧⲕ ⲟⲩ <unclear>ϣ</unclear><supplied reason="lost">ⲏⲣ</supplied><unclear>ⲉ</unclear> <hi rend="supraline">ⲛ</hi>ϣⲟⲩⲁϣϥ· ⲉⲧⲃ<unclear>ⲉ</unclear> ⲑⲉ ⲛ<hi rend="supraline"> </hi>ⲧⲁⲕ<unclear>ⲥϩ</unclear><supplied reason="lost">ⲁⲓ</supplied>
+<lb n="8"/>ⲛⲁⲛ ⲉⲧⲃⲉ ⲡⲁ <unclear> </unclear><gap reason="lost" quantity="5" unit="character"/><app type="editorial"><lem>ⲛⲉⲓⲱϩⲉ</lem><rdg><unclear>ⲛ</unclear>ⲉⲓⲱϩⲉ</rdg></app> ⲁⲛ<hi rend="supraline">ⲣ</hi> ⲡϩⲱⲃ ⲉ <unclear>ϣ</unclear>ϣⲉ ⲉ<unclear> </unclear><gap reason="lost" quantity="3" unit="character"/>
+<lb n="9"/>ⲁⲩⲱ <gap reason="illegible" quantity="4" unit="character"/><unclear>ⲉ</unclear> ϭ<gap reason="lost" quantity="5" unit="character"/><hi rend="supraline">ⲛ</hi>ⲕⲁϣ ϩ<hi rend="supraline">ⲙ</hi> ⲡⲙⲁ ⲛ<hi rend="supraline"> </hi>ⲓ̈ⲁⲕ<unclear>ⲱⲃ</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character"/>
+<lb n="10"/><gap reason="lost" quantity="13" unit="character" precision="low"/><unclear>ⲉ</unclear>ⲧⲉ ⲛ<hi rend="supraline"> </hi>ϭⲁⲙⲟⲩⲗ ⲟ<unclear> </unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="10" unit="character" precision="low"/>
+<lb n="11"/><gap reason="lost" quantity="14" unit="character" precision="low"/>ⲉ ⲙ<hi rend="supraline"> </hi>ⲙⲟⲛ ϩⲱⲱ<unclear>ⲧ</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="9" unit="character" precision="low"/>
+<lb n="12"/><supplied reason="lost">ⲟⲩϫⲁⲓ ϩⲙ ⲡ ϫⲟⲉⲓⲥ ⲡ </supplied>ⲉ<supplied reason="omitted">ⲛ</supplied>ⲙⲉⲣⲓⲧ ⲛⲥⲟⲛ ⲉ  <supplied reason="lost">ⲧⲧⲁⲓ̈ⲏⲩ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+</ab></div>
+<div n="v" type="textpart"><ab>
+<lb n="13"/><g type="rho-cross"/> ⲧⲁⲁⲥ ⲛ<hi rend="supraline"> </hi>ⲇⲓ<unclear>ⲟ</unclear>ⲥⲕⲟⲣⲟⲥ <figure><figDesc>locussigilli</figDesc></figure>ϩⲓⲧ<supplied reason="lost">ⲛ</supplied> <supplied reason="lost"><space extent="unknown" unit="character"/></supplied> <supplied reason="lost">ⲡ</supplied><unclear>ⲡ</unclear>ⲁⲡⲁ ⲇⲓⲁⲛⲉ ⲙⲛ  
+<lb n="14"/>ⲛⲉϥⲥ<unclear>ⲛⲏ</unclear>ⲩ ⲧ<unclear> ⲏⲣ</unclear>ⲟ<unclear>ⲩ</unclear> 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">P.Ghent inv. 47 completed. A Coptic letter from Papa Diane to Dioscorus of Aphrodito.</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">140425</idno>
+               <idno type="TM">140425</idno>
+               <idno type="HGV">140425</idno>
+               <idno type="ddb-hybrid">140425</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>This is Papa Diane [and] his brothers who write to their [venerable] brother Dioscorus. Before anything else, we greet you with all [our] heart and all our soul. Greetings! Moreover, we remember you and the whole community from the oldest to the youngest, so that God straightens your path. Indeed, it is our very …, since everyone loves you because you are one worthy-of-being-loved son.
+Concerning what you wrote to us about the [...] field(s?), we did the work. If (?) it is appropriate, […]. Moreover … […] reeds in the place of Iakôb [...] [...] camels [ ... ] otherwise (?) myself [ ... ] [Greetings in the Lord], our beloved and venerable brother…
+Send to Dioscorus, from Papa Diane and all his brothers.
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
