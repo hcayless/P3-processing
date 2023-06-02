@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>Faculty of Archaeology Department of Papyrology, University of Warsaw</affiliation>
+               <email>gclaytor@gmail.com</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-06-02T16:26:08Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">	<anchor xml:id="Hlk133097935"/>P.Frankfurt inv. 86<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> Unter diesem Nummer finden sich zwei kleine Fragmente, die zum hier vorliegenden Text nicht gehören.</p></note>			</p>
+            <p xml:id="p2" style="text-align: left; ">	<anchor xml:id="Hlk1330979352"/>Die Papyrussammlung der Goethe-Universität Frankfurt besteht hauptsächlich aus ptolemäischen Dokumenten, die Mumienkartonage entnommen wurden, sowie einer Handvoll spätantiker Stücke.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Vgl. nun Essler 2023 zur Erwerbungsgeschichte der Frankfurter Papyri sowie deren Zusammenhang mit dem Deutschen Papyruskartell. Essler führt die Kartonage auf einen Kauf durch das Kartell im Jahr 1907 zurück; allerdings könnten mehrere oder alle Stücke der Sammlung auch wie <ref target="https://papyri.info/ddbdp/p.frankf%3B%3B7">P.Frankf. 7</ref> im Winter 1913/14 im Fayum erworben worden sein. Der Jurist Hans Lewald hat sieben Papyri in P.Frankf. herausgegeben, dazu zwei weitere im nächsten Jahr (Lewald 1921). Ansonsten ist bis heute nur <ref target="https://papyri.info/ddbdp/sb%3B14%3B12093">SB 14 12093</ref> erschienen (<ref target="https://papyri.info/biblio/51668">Sijpesteijn 1976</ref>, vgl. die Einleitung für eine kurze Beschreibung der Sammlung; siehe auch die <ref target="https://www.jura.uni-frankfurt.de/68030310/ContentPage_68030310">Homepage der Sammlung</ref>). </p></note> Einer der wenigen Papyri aus der römischen Zeit, die vor kurzem bei einem Besuch der Sammlung identifiziert wurden, ist die hier edierte Gewerbesteuerquittung.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> Mein herzlicher Dank gilt dem Kurator der Papyrussamlung, Herrn Prof. Dr. Guido Pfeifer, für seine Gastfreundlichkeit und Unterstützung während des Besuches der Warschauer Papyrologengruppe am 16. März 2023.  </p></note></p>
+            <p xml:id="p3" style="text-align: left; ">Auch wenn die Steuer in ganz Ägypten erhoben wurde,<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Eine Ausnahme stellt die memphitische Quittung <ref target="https://papyri.info/ddbdp/sb%3B22%3B15390">SB 22 15390</ref> dar, vgl. meinen Lesevorschlag für Z. 3 (<ref target="https://papyri.info/biblio/96208">Claytor 2022</ref>, 124). Weitere Quittungen für χειρωνάξιον aus der Regierungszeit von Antoninus Pius sind <ref target="https://papyri.info/ddbdp/cde%3B85%3B247">P.Brux. inv. E 7908</ref> (ed. <ref target="https://papyri.info/biblio/78415">Bingen 2010</ref>, 246–248; Soknopaiu Nesos, 144), <ref target="https://papyri.info/ddbdp/sb%3B14%3B11628">SB 14 11628</ref> (Arsinoites [?], 148), und <ref target="https://papyri.info/ddbdp/p.fay%3B%3B58">P.Fay. 58</ref> (Theadelpheia, 155/156). In <ref target="https://papyri.info/ddbdp/sb%3B14%3B11628">SB 14 11628</ref>, Z. 3, lies κουρεύς („Friseur, Barbier“) statt des Namens Κουρεύς.</p></note> finden sich Quittungen für χειρωνάξιον vor allem in Ostraka aus Elephantine, während diejenigen auf Papyrus fast ausschließlich aus dem Arsinoites stammen.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> Für Überblicke über Gewerbesteuer s. O.Wilck., S. 321–333 und <ref target="https://papyri.info/biblio/3811">Wallace 1938</ref>, 191–213.</p></note> Die arsinoitische Herkunft des Frankfurter Papyrus ist wahrscheinlich, aber nicht sicher.</p>
+            <p xml:id="p4" style="text-align: left; ">Neu ist die Verbindung von χειρωνάξιον mit einem τέκτων in einer Quittung, aber aus <ref target="https://papyri.info/ddbdp/p.phil%3B%3B1">P.Phil. 1</ref>, Z. 26–34 war schon bekannt, dass neben Walkern, Goldschmieden und anderen Fachmännern auch Zimmerleute das χειρωνάξιον entrichteten und dadurch von anderen öffentlichen Abgaben befreit wurden.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> Übersetzt und analysiert von <ref target="https://papyri.info/biblio/96345">Kloppenborg 2020</ref>, Dok. Nr. 230.</p></note> Darüber hinaus muß die Gewerbesteuer nicht unbedingt mit dem Begriff χειρωνάξιον bezeichnet worden sein. Zwei Quittungen an Zimmerleute wurden schon in diesem Sinne interpretiert: <ref target="https://www.trismegistos.org/text/28440">P.Tebt. 2 455 descr.</ref> und <ref target="https://papyri.info/ddbdp/p.vind.sal%3B%3B13">P.Vind.Sal. 13</ref>. Die erstere berichtet über Zahlungen für δημόσια, die von den Zimmerleuten von Tebtynis geleistet wurden (Z. 3),<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> Vgl. <ref target="https://papyri.info/biblio/3811">Wallace 1938</ref>, 205 und 308. In Z. 2 könnte der Titel der Steuererheber nach Parallelen als ἐπιτηρητ(αῖς) κοπ[ῆς τριχὸς καὶ χειρωναξίου] ergänzt werden; im online verfügbaren Foto liest man in Z. 3 καὶ οἱ λοιποὶ τέκτωνες Τεβτύ[νεως … ].</p></note> die letztere über Zahlungen eines Zimmermanns in Hephaistias für τέλος, in Höhe von 28 Drachmen pro Jahr. Εine Zahlung in der letzteren Quittung beträgt 12 Drachmen, was vielleicht darauf hindeutet, dass es sich bei dem in der vorliegenden Quittung gezahlten Betrag ebenfalls um eine Ratenzahlung handelt.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> Im Vergleich dazu zahlten die Weber von Soknopaiu Nesos etwa 76 oder 80 Drachmen pro Jahr ein: vgl. zuletzt <ref target="https://papyri.info/biblio/86999">Gonis 2016</ref>, 411.  </p></note> </p>
+            <p xml:id="p5" style="text-align: left; ">	Der Papyrus ist fragmentarisch erhalten, aber die Ränder sind oben (1,8 cm), unten (2 cm) und rechts vorhanden. Die Schrift verläuft parallel zu den Fasern; die Rückseite ist leer.</p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p6"><ref>3–4</ref> Für die Abkürzung δι ̅ gefolgt vom Namen des Steuererhebers im Genitiv, vgl. <ref target="https://papyri.info/ddbdp/p.stras%3B5%3B420">P.Stras. 5 420</ref>. Wenn es sich nicht bloß um einen Kasusfehler handelt, kann der Einfluss der Abkürzung δι ̅= διά in Betracht gezogen werden.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p7"><ref>4</ref> καὶ μετόχ(οις) πράκ(τορσι). Im Arsinoites tragen normalerweise die Erheber des χειρωνάξιον den Titel ἐπιτηρητὴς / ἐγλήμπτωρ / μισθωτὴς κοπῆς τριχὸς καὶ χειρωναξίου (vgl. etwa <ref target="https://papyri.info/biblio/63126">Hobson 1993</ref>, 76–77), aber <ref target="https://papyri.info/ddbdp/p.tebt%3B2%3B579">P.Tebt. 2 579 descr.</ref> (129–130 n.Chr.) stellt eine Parallele dar.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p8"><ref>5</ref> Falls der Erhebungsbezirk der Praktoren im Papyrus genannt wurde, muß er abgekürzt worden sein, da die Lücke mindestens den Namen und vielleicht auch den Vatersnamen des Zimmermanns enthielt.</p>
+                  </note>
+               </div> “Trois documents provenant de Soknopaiou Nèsos,” CdÉ 85: 240–248.</div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">704976</idno>
+               <idno type="HGV">704976</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Frankfurt Inv. 86</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">7.5</measure>
+                              <measure type="width" unit="cm">8</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>138-161</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Arsinoites (?)</placeName></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuer</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">704976</idno>
+               <idno type="TM">704976</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><supplied reason="lost">ἔτους</supplied> <gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character" precision="low"/> <unclear>Αὐτοκ</unclear>ράτορος Καίσαρ<supplied reason="lost">ος</supplied>
+<lb n="2"/><supplied reason="lost">Τίτου Αἰλίου</supplied> <unclear>Ἁ</unclear>δριανοῦ Ἀντωνείνου
+<lb n="3"/><supplied reason="lost">Σε</supplied><unclear>β</unclear><supplied reason="lost">αστοῦ</supplied> <unclear>Εὐσ</unclear><supplied reason="lost">ε</supplied><unclear>βοῦς</unclear> Θωθ <num value="3"><hi rend="supraline"><unclear>γ</unclear></hi></num> <expan>δι<ex>έγραψεν</ex></expan> <choice><reg>Ἀμ<supplied reason="lost">μω</supplied> <lb n="4" break="no"/>νίῳ καὶ Ἡρακ<supplied reason="lost">λεί</supplied>δῃ</reg><orig>Ἀ<unclear>μ</unclear><supplied reason="lost">μω</supplied>
+<lb n="4" break="no"/>νίου καὶ <expan>Ἡρακ<supplied reason="lost">λεί</supplied><unclear>δ</unclear>ο<ex>υ</ex></expan></orig></choice> καὶ <expan>μετόχ<ex>οις</ex></expan> <expan>πράκ<ex>τορσι</ex></expan>
+<lb n="5"/><gap reason="lost" quantity="10" unit="character" precision="low"/> τέκτων <choice><reg>χειρωναξίου</reg><orig>χειροναξίου</orig></choice>
+<lb n="6"/><supplied reason="lost">τοῦ αὐτοῦ <expan><ex>ἔτους</ex></expan></supplied> <expan><supplied reason="lost">ἀρ</supplied><unclear>γ</unclear>υ<ex>ρίου</ex></expan> <expan><ex>δραχμὰς</ex></expan> <num value="12">δεκαδύο</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχμαὶ</ex></expan> <num value="12">ιβ</num>.
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Gewerbesteuerquittung für einen Zimmerman aus der Frankfurter Papyrussammlung</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">704976</idno>
+               <idno type="TM">704976</idno>
+               <idno type="HGV">704976</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="de" type="translation" xml:space="preserve">
+<p>
+<milestone unit="line" n="1"/> Im  Jahr des Imperator Caesar Titus Aelius Hadrianus Antoninus Augustus, am 3. Thoth. Eingezahlt hat an Ammonios und Herakleides und ihre Kollegen, die Erheber NN, Zimmerman, für die Gewerbesteuer für dasselbe Jahr zwölf Drachmen, das sind 12 Dr.
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
