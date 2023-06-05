@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Rent Receipt for a Weaver from the 7th-century Arsinoite</title>
+            <author>
+               <name>
+                  <forename>Lajos</forename>
+                  <surname>Berkes</surname>
+               </name>
+               <affiliation>Humboldt-Universität zu Berlin, Theologische Fakultät, Seminar: Neues Testament, Burgstraße 26, 10178 Berlin</affiliation>
+               <email>berkesla@hu-berlin.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-06-05T10:52:27Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Rent Receipt for a Weaver from the 7th-century Arsinoite</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">Images are a courtesy of the University of Michigan. P.Mich. inv. 3437 was purchased from Nahman in 1925 and donated to the University of Michigan in October 1926 by Oscar and Richard H. Webber (Detroit).</note>
+            <p xml:id="p1" style="text-align: left; text-align: justify;">A receipt for the payment of 4 ¼ 1⁄₁₆ gold carats for the rent of Theodoros, the weaver. There are numerous similar receipts preserved, which attest to rent payments of comparable amounts from the 7th-century Arsinoite. This date is also confirmed by the versatile minuscule hand typical of the period. The object, for which the rent was paid, is not specified, but this is common (cf. e.g. <ref target="https://papyri.info/ddbdp/stud.pal;8;796">SPP 8 796</ref>), because it must have been obvious to the parties involved. The complete, middle-brown papyrus is written in black ink, <seg style="font-style: italic;">transversa charta</seg>. The back is blank.</p>
+            <div type="epidoc" subtype="DDB">
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">P.Mich. inv. 3437</cell>
+                     <cell style="text-align: left;">9 × 7</cell>
+                     <cell style="text-align: left;">7th century</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Arsinoite</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+               </table>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p2"> Another weaver called Theodoros from the city quarter of (the church) of St. Damianos pays 11 carats on the Alexandrean standard for his poll-tax of the 4th indiction in the <ref target="https://papyri.info/ddbdp/bgu;3;738">BGU 3 738</ref> (Arsinoite, 7th century [Byz. <seg style="font-style: italic;">ed.pr.</seg>]).<note place="foot" xml:id="ftn1" n="1"><p style="text-align: justify;"> The correction (BL I 440) of Θεοδόρο(υ) ταρσικαρίο(υ) of the ed. pr. to Θεόδορο(ς) ταρσικάριο(ς) in line 3 is incorrect. The diagonal strokes above the two final omicra represent ypsila as common in this period. Since the receipt does not contain a verb, we may simply retain the genitive: Θεοδόρου (l. Θεοδώρου) ταρσικαρίου ‘for Theodoros, the weaver’.</p></note> He might have been the same person as the Theodoros of this receipt.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p3"> This expression is relatively rare and has only been attested once in a similar receipt: <ref target="https://papyri.info/ddbdp/stud.pal;8;864">SPP 8 864</ref>.2 (prov. unknown, 6th–7th c.)<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify;"> The ed.pr. dated the papyrus to the 6th century, but the handwriting is compatible with a date in the early 7th century.</p></note>: ἀπὸ λώγ(ου) (l. λόγου) ἐ[νοικ(ίου)].<note place="foot" xml:id="ftn3" n="3"><p style="text-align: justify;"> Ἀπὸ or ὑπέρ can be supplied at the end of line 1 in SPP VIII 789 (Ars., 7th–8th c. [6th c. ed.pr.]), since line 2 starts with λόγου ἐνοικ[ίου (ἐνυ[κίου ed.pr). </p></note></p>
+                  </note>
+                  <note>
+                     <p xml:id="p4">This fraction is rarely attested for carats. The only parallels I have been able to find are <ref target="https://papyri.info/ddbdp/stud.pal;3;641">SPP 3 641</ref>.4 (Ars., 7th c. [6th c. ed. pr.]), <ref target="https://papyri.info/ddbdp/cpr;19;40r">CPR 19 40</ref>.4 (Hermopolite, 2nd part 7th c.), <ref target="https://papyri.info/ddbdp/stud.pal;3;627">SPP 3 627</ref>.7 (Arsinoite, 7–8th c.), and P.Lond. 4 1419.349 <seg style="font-style: italic;">et passim</seg> (Aphrodito, 716–717; <ref target="https://papyri.info/ddbdp/sb;20;15099">SB 20 15099</ref> belongs to the same register and contains the fraction at lines 5, 46 and 49).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p5"><ref>14</ref> July.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p6"> A similar signature of a Markos, albeit without paraphe, can be found in <ref target="https://papyri.info/ddbdp/stud.pal;8;703">SPP 8 703</ref>.6 (Ars., 7th c.), but, judging from the handwriting, it seems to have been written by a different person.</p>
+                  </note>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Rent Receipt for a Weaver from the 7th-century Arsinoite</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">704976</idno>
+               <idno type="HGV">704976</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Mich. inv. 3437</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">7</measure>
+                              <measure type="width" unit="cm">9</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>7th century</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Arsinoites</placeName></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Geld</term>
+                  <term n="3">Weber</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Rent Receipt for a Weaver from the 7th-century Arsinoite</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV">704976</idno>
+               <idno type="TM">704976</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A Rent Receipt for a Weaver from the 7th-century Arsinoite</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><g type="stauros"/> <choice><reg>παρέσχε </reg><orig>παρῆσ<unclear>χ</unclear>ε</orig></choice> <choice><reg>Θεόδωρος</reg><orig>Θεοδώρ<unclear>ου</unclear></orig></choice> <choice><reg>ταρσι<lb n="2" break="no"/>κάριος</reg><orig><unclear>τα</unclear>ρσι
+<lb n="2" break="no"/>καρίου</orig></choice> ἀ<unclear>π</unclear>ὸ <unclear>λ</unclear>όγου ἐν<unclear>ο</unclear>ι<unclear>κ</unclear>ί<unclear>ο</unclear>υ <expan>αὐτ<ex>οῦ</ex></expan>
+<lb n="3"/><unclear>τ</unclear>ῆς <expan><unclear>παρ</unclear>ού<ex>σης</ex></expan> <num value="1">α</num> <expan>ἰ<ex>¨</ex>νδ<ex>ικτίωνος</ex></expan> χρυσ<unclear>οῦ</unclear> <unclear>κ</unclear>ερά<unclear>τ</unclear><supplied reason="lost">ια</supplied>
+<lb n="4"/><num value="4">τέσσαρα</num> <num value="1/4">τέταρτ<unclear>ο</unclear>ν</num> <num value="1/16"><choice><reg><expan>ἑκκαιδέκ<ex>α</ex>τ<ex>ον</ex></expan></reg><orig><expan>ἑξ<unclear>κα</unclear>ιδέκ<ex>α</ex>τ<ex>ον</ex></expan></orig></choice></num>
+<lb n="5"/><expan>γί<ex>νεται</ex></expan> <expan>χρ<ex>υσοῦ</ex></expan> <expan><ex>κεράτια</ex></expan> <num value="4">δ</num> <num value="1/4">δ<g type="slanting-stroke"/></num> <num value="1/16">ι<hi rend="supraline">ϛ</hi> ´</num> <expan>μό<ex>να</ex></expan>. <expan>μη<ex>νὸς</ex></expan> Ἐ<unclear>π</unclear>ει<unclear>φ</unclear> <num value="20"><unclear>κ</unclear></num> <num value="1">α</num> <expan>ἰνδ<ex>ικτίωνος</ex></expan>.
+<lb n="6"/>vac. <g type="stauros"/> <expan>δ<ex>ι’</ex></expan> ἐμοῦ Μάρκ<unclear>ου</unclear> <figure><figDesc>paraphe</figDesc></figure>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Rent Receipt for a Weaver from the 7th-century Arsinoite</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">704976</idno>
+               <idno type="TM">704976</idno>
+               <idno type="HGV">704976</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+† Theodoros, the weaver has paid from the account of his house-rent of the current 1st indiction four one-fourth one-sixteenth gold carats, total 4 ¼ 1⁄₁₆ gold carats only. On the 20th of the month Epeiph of the 1st indiction. † Through me, Marcus paraphe
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
