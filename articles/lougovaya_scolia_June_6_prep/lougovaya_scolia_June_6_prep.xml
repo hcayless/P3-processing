@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Scholia minora to Iliad 1.1–12: P.Berol. 5014 Revisited</title>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Institute for Papyrology, Heidelberg</affiliation>
+               <email>lougovaya@uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-06-06T14:10:19Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-style: italic;">Scholia minora</seg> to Iliad 1.1–12: P.Berol. 5014 Revisited</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">P.Berol. inv. 5014 (TM 61036) is a page from a papyrus codex dated to the 5th c. and containing <seg style="font-style: italic;">scholia minora</seg> to the first lines of the Iliad, <ref target="https://berlpap.smb.museum/01581/">https://berlpap.smb.museum/01581/</ref>. The side inscribed along the fibers preserves glossary entries to Iliad A 1–6 and the side inscribed against the fibers covers verses A 8–12. In the <seg style="font-style: italic;">editio princeps</seg> of 1887, Ulrich Wilcken produced a diplomatic transcription of the papyrus. In 2007, Franco Montanari published an updated edition on the Aristarchus website (<ref target="http://www.aristarchus.unige.net/Scholia/it-IT/Database/PapyDetail/18"><seg style="font-style: italic;">Scholia Minora in Homerum</seg></ref>, December 19, 2007). Two years later, Davide <ref target="https://papyri.info/biblio/77840">Muratore (2009)</ref> produced an article with several further improvements to the text.  </p>
+            <p xml:id="p2">From high-quality digital images in the Berliner Papyrusdatenbank I was able to decipher more of the text and to propose a few changes to the existing transcriptions. While studying the papyrus I made use of ImageJ, a free image processing program designed for enhancing images. Image J is used alongside a plugin called DStretch,<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> For DStretch, see <ref target="https://www.dstretch.com/index.html">https://www.dstretch.com/index.html</ref>; for its use in helping read ancient inscriptions, cf. <ref target="https://papyri.info/biblio/96333">Bülow-Jacobsen 2021</ref>: 76-77. To obtain the program, a donation of at least 50 dollars is now required. One can also consider using a somewhat similar, though more automatic, image enhancer called Hierax, which is freely available at <ref target="https://d-scribes.philhist.unibas.ch/en/hierax-enhancer/">https://d-scribes.philhist.unibas.ch/en/hierax-enhancer/</ref>. </p></note> which allows one to optimize the legibility of writing by manually filtering and adjusting color channels, as well as by changing brightness, contrast etc. An example of such transformations can be seen on Figures 1–2.</p>
+            <p xml:id="p3">Figure 1: → side of P.Berol. inv. 5014 processed with DStretch (lab_ac)</p>
+            <p xml:id="p4"><seg style="font-style: italic;">Scholia minora</seg> on the same or some of the same lines as those in the Berlin papyrus are attested by five other papyri, tabulated here in chronological order and with indication of the extent of the preserved commentaries:</p>
+            <p xml:id="p5">The page of the codex is broken on top and bottom. At the top, on the side with the fibers (→), the page must have had entries for μῆνιν and ἄειδε, with only a speck of ink from the definition of the latter visible in l. 1. The lost bottom of this page, along with the lost top of the page inscribed against the fibers (↓) must have contained glosses to Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς / τίς τάρ σφωε (A 7–8). Since the writer tends to comment on each and every word of the text, on which see more below, the missing part of the papyrus likely had no fewer than six entries, if τίς τάρ σφωε was treated as one lemma (cf. P.Mich. inv. 1588 col. 2.15, <seg style="font-style: italic;">schol. D</seg> A 8<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify;"> Here and in the commentaries, <seg style="font-style: italic;">schol. D </seg>are cited after <ref target="https://papyri.info/biblio/96334">van Thiel 2014</ref>.</p></note>), and possibly had more, if it was split between entries. </p>
+            <p xml:id="p6">The lost part of the pages aside, the Berlin glossary encompasses 47 entries; for comparison, the part of the glossary in P.Achm. 2 covering the same amount of text of the Iliad comprises only 17 entries.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> This is the number of entries in P.Achm. 2 from θεά to ἀρητῆρα.</p></note> This difference reflects the fact that the two papyri represent two poles among the preserved papyrological <seg style="font-style: italic;">scholia minora</seg> to the beginning of the Iliad, with P.Achm. 2 being most selective<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Notably, P.Achm. 2 does not give definitions to any of the proper names with the sole exception of explaining the location of mount Olympos (l. 32-34) in the gloss to Ὀλύμπια δώματ’ ἔχοντες (A 18). </p></note> and concise and P.Berol. 5014 being the most plentiful. P.Mich. inv. 1588, P.Oslo II 12 and P.Oxy. XLIV 3027 are closer in their coverage to P.Berol. 5014 than P.Achm. 2, but none appears to follow the text as close as the Berlin papyrus does. The intention of the writer of the latter seems to have been to produce a glossary to the continuous text of Homer, connectives included, so much so that it was once suggested that the papyrus contained a prose rendition of the epic.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96331">Erman and Krebs 1899</ref>: 232. </p></note> It must have been in the quest for completeness of the commented text that such words as Ἀχιλλῆος (l. Ἀχιλῆος), ψυχάς, θεῶν and μάχεσθαι, which are not glossed in other papyri, have been supplied with explanations, even if in two cases it amounted to nothing more than adding an article to the word (thus, τὰς ψυχάς and [τῶν] θεῶν). In light of this completeness, it is surprising that the writer does not explain Ἄιδι προΐαψεν (A 3) and ὁ γὰρ ἦλθε (A 12).<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96331">Erman and Krebs 1899</ref>: 232 comment on the first omission, but not the second.</p></note> It seems certain that at least the first omission was unintentional, while the second was likely so, too, cf. ↓ 19n.</p>
+            <p xml:id="p7">Textual changes proposed here mainly concern the first five lines of the definition column on the ↓ side of the papyrus, which, with the exception of one line, had not been deciphered before. Nevertheless, the entire extant text of the papyrus is printed. It is based on Fontanari’s edition and takes into account Wilcken’s <seg style="font-style: italic;">editio princeps</seg> and Muratore’s suggestions. For the sake of visual clarity, the end of each <seg style="font-style: italic;">lemma</seg> in the transcription is marked with a middot, even though such punctuation was not used by the ancient writer. Note that the numbering of lines on → differs from previous editions. </p>
+            <p xml:id="p8">Figure 3: P.Berol. inv. 5014 → (c) Staatliche Museen zu Berlin – Ägyptisches Museum und Papyrussammlung, Photo: Sandra Steiß, P. 5014.</p>
+            <div type="epidoc" subtype="DCLP">
+               <div copyOf="#ed1" type="edition"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p9"><ref>2</ref> θ̣[εά]. The lower loop of the theta is visible. The same definition occurs also in the other two papyri preserving glosses to this verse, P.Mich. inv. 1588 col.1.4a and P.Achm. 2.20.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p10"><ref>3</ref> Πη[λη]ι̣ά̣[δεω· τῷ] παιδὶ τοῦ̣ Π̣ηλέως: the omega of the ending of Πηληιάδεω may have suggested to the writer that the word is in the dative. P.Mich. inv. 1588 col. 1.5 explains Πηληι̣δέω· Πηλέω̣ς̣ υἱοῦ, π̣α̣τ̣ρ̣ω̣ν̣υ̣μ̣ι̣κ̣ῶ̣ς̣, λέγει δὲ τοῦ Ἀχιλλέως.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p11"><ref>4</ref> Ἀχιλλῆος (<seg style="font-style: italic;">l</seg>. Ἀχιλῆος)· τοῦ Ἀχιλλέος (<seg style="font-style: italic;">l.</seg> Ἀχιλλέως). The name is not commented on in the other two papyri. Here, the gloss was probably meant to explain the Ionic ending, while the addition of the article could perhaps be for emphasis, although the writer has a propensity for adding the article in the definitions, cf. a similar case in ↓ 7: βασιλῆι· [τ]ῷ̣ βασιλε̣[ῖ].  </p>
+                  </note>
+                  <note>
+                     <p xml:id="p12"><ref>5</ref> The same in P.Mich. inv. 1588 col.1.7 and P.Achm. 2.20–21, as well as <seg style="font-style: italic;">schol. D</seg> A 2.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p13"><ref>6–7</ref> ἥ is not glossed in P.Mich. inv. 1588, but cf. <seg style="font-style: italic;">schol. D</seg> A 2 ἥ· ἥτις ὀργή. P.Achm. 2.21 runs together ἣ μυρί’: ἥτις πολλά.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p14"><ref>8–12</ref> Same words are glossed similarly in P.Mich. inv. 1588 col. 1.9–13, whereas P.Achm. 2 omits Ἀχαιοῖς, ἄλγεα and πολλάς.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p15"><ref>13</ref> ψυχάς·	τὰς ψυχάς. An apparently unique ‘clarification’, if it may be called so, perhaps with the article conceived of as possessive, or simply owed to the writer’s propensity for using the article whenever possible, cf. → 4n.</p>
+                     <p xml:id="p16">	The writer must have skipped the end of A 3, Ἄϊδι προΐαψεν, for it is highly unlikely that not commenting on these two words could be intentional. Both are glossed in P.Mich. inv. 1588 col.1.15–16 and <seg style="font-style: italic;">schol. D</seg> A 3, whereas their absence in P.Achmim is likely due to the much more selective character of that glossary.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p17"><ref>14</ref> Cf. <seg style="font-style: italic;">schol. D</seg> A 4, ἡρώων· τῶν ποτὲ ἡμιθέων ἀνδρῶν. P.Mich. inv. 1588 col. 1.16 has  ̣ (  ̣) μήτε ἀνθρώπων, with the writer probably inadvertently leaving out the beginning of the definition when copying.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p18"><ref>15–18</ref> Same words are commented on in a similar way in P.Mich. inv. 1588 col. 1.17–20, with ἑλώρια· ἑλέ̣{σ̣}ματα ἢ ἑλ̣κ̣ύ̣σ̣ματα also in P.Oxy. XLIV 3207 Front, 1. P.Achm. 2 omits commenting on τεῦχε and κύνεσσιν.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p19"><ref>19–20</ref> The Berlin papyrus generally avoids lemmata consisting of more than one word, particles and prepositional clauses excluded, but this is the first exception (the other is ↓ 5). The wording of the clarification is, unfortunately, not entirely clear. P.Oxy. XLIV 44 Front, 2, and P.Achm. 2.24–25 have οἰωνοῖσι· (τοῖς) σαρκοφάγοις ὀρνέοις, while partially preserved explanation in P.Oslo II 12. col. 1.1–2 features ὀρνέοις and τοῖς γυψί. In P.Mich. 1588 col. 2.3–4, οἰωνοῖσι and πᾶσι are commented on separately with the clarification for the first lost. </p>
+                     <p xml:id="p20">In the Berlin papyrus, the reading σ[αρκ]ω̣φάκ̣ο̣ι̣ς̣, suggested by <ref target="https://papyri.info/biblio/77840">Muratore 2009</ref>: 24, is very convincing as the upper vertical visible after the alpha of φα is not compatible with gamma. His proposed restoration ὠρνέοις λέγ[ει γυ]ψ̣ί,̣ κ[όραξι], however, seems problematic mainly because of the space it requires. Restoring κ[όραξι] entails that five letters were written beyond the current break of the papyrus, whereas writing in lines 14 and 16, with the letters decreasing in size on the far right, suggests that the last words there are written close to the right-hand edge of the sheet. Thus, it seems that only one, possibly two letters, but not five, could have fit after what is taken to be kappa in line 20. I wonder if the traces might be compatible with a xi, thus λέγ[ει κόρα]ξ̣[ι], or with upsilon and psi, thus λέγ[ει τοῖς γ]υ̣ψ̣[ί]. I cannot, however, see enough to make a decision.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p21"><ref>21–23</ref> P.Mich. inv. 1588 col. 2.5–6 has the exact same definition except that it glosses the entire clause, Διὸς δ’ ἐτελείετο βουλή, whereas the Berlin papyrus splits it into three entries. P.Oslo II 12 appears to omit commenting on ἐτελείετο, whereas P.Oxy. XLIV 3207 Front, 4 only comments on this verb. P.Achm. 2 skips the clause altogether. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p22"><ref>24–26</ref> Similar in all papyri except P.Achm. 2, which does not comment on any of these.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p23"><ref>26</ref> ἐ̣ρίσαν̣τ̣[ε]. The ink is much fainter than elsewhere but most of the letters are discernible. The word is glossed in all four other papyri that preserve notes to this verse (the gloss stands out of order in P.Oxy. XLIV 3207 Front, 3). </p>
+                  </note>
+                  <note>
+                     <p xml:id="p24"><ref>1–5</ref> Parts of the words in lines 1–5 of the definition column are relatively well discernible, and zooming in and applying color filters brings out some letters even more, as can be seen in the examples in Figure 2. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p25"><ref>1</ref> [τῶν] θ̣ε̣ῶ̣ν. The letters θ̣ε̣ω̣ν seem quite clear, while their position indicates that about three letters preceded the word, which renders the proposed supplement all but certain (for the use of the article, cf. → 4n, 13n). It is conceivable that one of the faint verticals to the left of theta belongs to the nu, but I find it difficult to distinguish possible ink from darkened vertical fibers of the papyrus. The word is not commented upon in other papyri.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p26"><ref>2</ref> φ̣[ι]λ̣ο̣νικ̣[ίᾳ]. <ref target="https://papyri.info/biblio/77840">Muratore 2009</ref>: 24–25 reads [φ]ι̣λ̣ο̣ν̣ε̣ι̣κ̣[ίᾳ], but the sequence νικ̣ appears to be more compatible with the traces on the papyrus than ν̣ε̣ι̣κ̣ since there are two relatively clear, tall verticals following nu, which would fit the verticals of iota and kappa. The same definition is found in P.Mich. inv. 1588 col. 2.16, P.Oxy. XLIV 3207 Front, 12. The entry is likely lost in P.Oslo II 2, and the word was not commented upon in P.Achm. 2.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p27"><ref>3</ref> [συν]έβα̣λ̣[ε]. The beta and epsilon preceding it are very visible and traces of alpha and lambda can be discerned. For this definition, cf. [ξυνέηκε· συ]νέβαλεν in P.Oxy. XLIV 3207 Front, 13, and ξυνέηκε· ξυνέβαλε in P.Achm. 2.26, as well as <seg style="font-style: italic;">schol. D </seg>A 8. The clarification is lost in P.Mich. inv. 1588 col. 2.17 and the entire entry is thought to have been in the damaged part of P.Oslo II 12.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p28"><ref>4</ref> [π]ο̣λ̣εμ̣ῆ̣[σαι]. The epsilon is legible even without enhancing, and starting from it one can work out lambda and omicron to the left, and mu and eta to the right of it. The lambda and right-hand side of omicron must have created the impression of a mu, which Montanari recorded, although not without hesitation. The word is not explained in the three papyri preserving glosses to A 8, nor did it likely appear in P.Oslo II 12, in which the part of commentaries to A 8 is lost, but see <ref target="https://papyri.info/biblio/96330">Fontanella 2021</ref>: 40 and <seg style="font-style: italic;">ed.pr</seg>. for the probable supplements. Nor is μάχεσθαι glossed in <seg style="font-style: italic;">schol. D</seg> A 8, but cf. <seg style="font-style: italic;">schol. D</seg> A 151, μάχεσθαι· πολεμῆσαι.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p29"><ref>5</ref> υἱ̣ό̣ς̣· ὁ̣ Ἀ̣πό[λλων]. Pi and omicron of Ἀπόλλων are legible on the photo, and then going left from it one can work out the letters υι̣ο̣σ̣ο̣α̣. The same entry appears in all papyrological witnesses but P.Achm. 2, which avoids commenting on proper names.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p30"><ref>6–18</ref> The same words are glossed the same way or similarly in P.Oslo II 2col. 1.16–col. 2.11 (for col. 2.9, see <ref target="https://papyri.info/biblio/96330">Fontanella 2021</ref>: 42–43) and P.Oxy. XLIV 3207 Front, 15–Back, 6.  P.Achm. 2 leaves out ὁ γάρ, βασιλῆι, ἀνὰ στρατόν, κακήν, λαοί and τὸν Χρύσην, while P.IFAO inv. 105 1–6, which overlaps with P.Berol. inv. 5014 ↓ 11–18, leaves out κακήν and τὸν Χρύσην.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p31"><ref>19</ref> Ἀτρείδης. The word is glossed in P.Oxy. XLIV 3207 Back, 5 (the definition is lost), and P.IFAO  inv. 105 7–8 (Ἀγαμέμνων), but not in P.Oslo II 12 and P.Achm. 2. </p>
+                     <p xml:id="p32">	The papyrus omits ὁ γὰρ ἦλθε (of A 12,  Ἀτρεΐδης· ὃ γὰρ ἦλθε θοὰς ἐπὶ νῆας Ἀχαιῶν), which is also not explained in P.Oxy. XLIV 3207 and P.Achm. 2, while P.Oslo II 12 col. 2.12–13, contains glosses to ὁ γὰρ· οὗτος [γ]ά̣ρ and ἦλθε· παρεγένετο. Since the Berlin papyrus tends to comment on each and every word in the Homeric text, it seems likelier that the writer overlooked to copy or to produce the two lines than that he left them out intentionally, cf. his omitting a comment on Ἄϊδι προΐαψεν of A 3. Yet, it is not impossible that our writer started to exercises judgement over which words to comment on and left the ‘trivial’ ὁ γὰρ ἦλθε out.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p33"><ref>20–22</ref> Our writer is back to commenting on each and every word. The same gloss on θοάς is found in P.Oxy. XLIV 3207 Back, 6, and P.Oslo II 12. col. 2.14, the latter papyrus also glosses νῆας· ναῦς, πλοῖα in the following line. No other papyrus contains a definition for Ἀχαιῶν.</p>
+                  </note>
+               </div>, “Photography of Papyri and Ostraca” in Caputo, C. and Lougovaya, J. (eds), (Materiale Textkulturen, 32) Berlin/Boston, 2020, 59–86.</div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename"/>
+               <idno type="dclp"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement/>
+                     </placeName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm"/>
+                              <measure type="width" unit="cm"/>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>unbekannt</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
