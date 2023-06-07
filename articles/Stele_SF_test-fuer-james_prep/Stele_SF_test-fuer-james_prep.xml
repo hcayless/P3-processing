@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stele in Shifo Monastery石佛寺</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-06-07T09:52:11Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">Stele </seg>
+               <seg style="font-weight: bold;text-decoration: underline;">in</seg>
+               <seg style="font-weight: bold;"> Shifo Monastery石佛寺</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">The stele in Shifo Monastery 石佛寺is outstanding in several respects. It is one of only five steles with engraved sutra passages in Shandong, whose stone is completely preserved;<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> One each at <seg style="text-decoration: underline;">Shengguo, Shifo, and Haitang</seg> Monasteries, two at Jixiang Monastery.</p></note> the sutra is not found engraved elsewhere in Shandong; its text is written in an unusual archaizing calligraphy; it has a precise date: 564; on it are listed more than two hundred individuals by name and rank; and three additional colophons document the stele’s subsequent history from 1209 to 1497.</p>
+            <div type="section">
+               <head>The Monastery</head>
+               <figure>
+                  <anchor xml:id="Hlk85695965"/>
+                  <graphic n="1001"
+                           width="14.747947222222223cm"
+                           height="9.802255555555556cm"
+                           url="media/image1.png">
+                     <desc>Picture 1</desc>
+                  </graphic>
+               </figure>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">
+                        <p>(Fig 15) 巨野石佛寺址<seg style="text-decoration: underline;">；</seg> 2007年拍攝</p>
+                        <p style="text-align: left;">Ground of the former Shifo Monastery; photograph taken in 2007</p>
+                     </cell>
+                  </row>
+               </table>
+               <p xml:id="p4">The monastery is located in Xiao Xuying Village 小徐營村at Dayi Town大義鎮, Juye County巨野縣, at a distance of 13 km south of the County seat Juye. It is the westernmost of all sites with engraved sutras in Shandong. The monastery is first mentioned in a <seg style="font-style: italic;">Gazetteer of Juye County</seg> of 1582,<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Juye xianzhi 1582, juan 8:303.  (Bib says Juye xianzhi 1590, what is correct?).</p></note> but only in a gazetteer of 1846 do we find more information about it. There we learn that a certain abbot Chongxi崇禧 rebuilt the compound between 1458 and 1460. At the time the stele of 564 was kept in the monastery and the gazetteer describes it in detail. The gazetter further quotes from a <seg style="font-style: italic;">Stele Recording the Restoration of the Shifo Meditation Monastery</seg>重修石佛禪寺碑記 composed in 1549 by a certain Bestowed Regular Metropolitan Graduate [of 1544], Secretary in the Ministry of Revenue 賜進士出身戸部主事 Yu Jin 于錦, who says that the monastery was restored from 1532 to 1549 under the leadership of the community elder 邑老 Wang Pin 王彬 with the economic support of the donor Mr. Sui 隋子.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> 鉅野縣志24卷 Juye xianzhi  1846, 21: 5b-6a.</p></note> The colophon added to the stele in 1497 is also a testimony of the monastery’s activities in the Ming dynasty. Yet no ancient building and no inscription is seen at the site today (fig. 15, p. 63). In 1993 the stele was transferred to the Cultural Relics Bureau 文物管理所of Juye County.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Lai Fei 2007, 162-16<seg style="text-decoration: underline;">5</seg>.</p></note></p>
+            </div>
+            <div type="section">
+               <head>The Stele</head>
+               <p xml:id="p5"><anchor xml:id="Hlk137027632"/>The high rectangular body of the stele is surmounted by a head of half-circle shape, formed by pairs of intertwined dragons. The gazetteer of 1846 writes: “The head has curled dragons, but there are no dragons on a base decorated with with beetles, nor is there the scheme of tortoises [to support the stele]. It is bland and simple like Han dynasty steles. 蟠額 無螭坐蚨，無龜制度，渾樸與漢碑同.”<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> Juye xianzhi  1846, 20:3b</p></note> The curled dragons in the head enclose on the front side a field with three figures sculptured in high relief. The frontal figure of Buddha Śakyamuni in the middle is flanked by two bodhisattvas seen from the side; both raise a hand in which they hold a lotus flower. This standard configuration of three figures does not tally with the scene that is described in the carved sutra itself. There only one bodhisattva is mentioned, who “knelt upright, put his palms together, bowed in respect, and addressed the Buddha.” Obviously, the sculptors were loath to change, because of this sutra text, the well-known and frequently carved formula of three figures. It also gave the donors in the inscription on the stele’s back the opportunity to have each figure assigned to one of them.</p>
+               <figure>
+                  <graphic n="1002"
+                           width="15.991063888888888cm"
+                           height="10.61876388888889cm"
+                           url="media/image1.jpeg">
+                     <desc>Y:\stonesutras1\Images\Shandong_Band_5\st_JY-Stele_detail_DSC2544.jpg</desc>
+                  </graphic>
+               </figure>
+               <p xml:id="p6">Fig. yy. Head on the front side of the stele of 564. </p>
+               <table>
+                  <row>
+                     <cell style="text-align: left;"/>
+                  </row>
+               </table>
+               <p xml:id="p7">Y:\stonesutras1\Images\Shandong\Juye\Juyexian_Museum\stele\stone</p>
+               <p xml:id="p8">St_JY-Stele_detail_DSC2544.JPG</p>
+               <p xml:id="p9">The field of script of the sutra has eight vertical columns with 25 characters each. Only beneath the last character of the last column, a last small additional character is added. The calligraphy is utterly remarkable. Duan Songling 段松苓 (1745–1800), who in 1796 was the first epigrapher to describe the stele in his <seg style="font-style: italic;">List of Steles in Shandong</seg>, classified it as clerical script (<seg style="font-style: italic;">lishu</seg> 隸書),<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> SHANZUO BEIMU 14859a, see also Discussion.</p></note> certainly because of the square proportions of the characters and the prominent diagonal strokes that are drawn out to the lower right. A year later, Ruan Yuan 阮元 (1764–1849) called in his <seg style="font-style: italic;">Epigraphic Records of Shandong</seg> the sutra text symmetrical clerical script (<seg style="font-style: italic;">bafen </seg>八分), and noted standard script (正書<seg style="font-style: italic;"> zhengshu</seg>) on its sides.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> SHANZUO JINSHI ZHI, 14475b, see also Discussion.</p></note> Since then all authors adopted this terminology when describing the calligraphy. A more detailed description tries the gazetteer of 1846: </p>
+               <quote>
+                  <lb/>The characters in symmetrical regular script are large as a peck, florishing and fascinating, forceful and strong, of the former periods it is equal to the intentions of Zhong [You; 151-230] and Wang [Xizhi; 303-361]. Certainly it was done by a good calligrapher of his time.  八分字，大如斗，秀媚遒勁，上嫓鍾王，意,必當時善書者所作。<note place="foot" xml:id="ftn8" n="8">
+                     <p style="text-align: left; "> Juye xianzhi  1846, 20:3b</p>
+                  </note>
+               </quote>
+               <p xml:id="p10">The style can be characterized as a self-conscious archaizing clerical script. The calligrapher constructs symmetrical character compositions, such as <seg style="font-style: italic;">he</seg> 合 (1/7), <seg style="font-style: italic;">qu</seg> 曲 (1/9), <seg style="font-style: italic;">bai</seg> 白 (1/14), <seg style="font-style: italic;">bai</seg>百 (3/4), <seg style="font-style: italic;">kou</seg>口 (8/1), and <seg style="font-style: italic;">bai </seg>白 (8/14). Also unusual are the playful straight rows of four circular dots in the character <seg style="font-style: italic;">zhi</seg> 之 (5/5, 5/13, 5/18). Perfectly circular dots are also seen on the stele on Mount Shuiniu 水牛山 with a tentative date of 558–561.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> See SHANDONG 2, 423 and 431, fig. 172.</p></note> As the epigraphers noted, the remarkable style of the Shifo Monastery stele was reserved for the sutra. All other inscriptions on the stele, the colophon contemporary with the sutra as well as the three later colophons, used various forms of regular script. </p>
+               <figure>
+                  <graphic n="1003"
+                           width="13.173913888888888cm"
+                           height="21.392619444444446cm"
+                           url="media/image2.jpeg">
+                     <desc>Y:\stonesutras1\Images\Shandong_Band_5\SF_1_JY-Stele-Ins_detail_DSC2569_stitch.jpg</desc>
+                  </graphic>
+               </figure>
+               <p xml:id="p11">Detail of the Stele from Shifo Monastery</p>
+               <p xml:id="p12">SF_1_JY-stele-ins_detail DSC2569</p>
+               <p xml:id="p13">Ruan Yuan read a date of the <seg style="font-style: italic;">heqing</seg> 河清period, but left the year open. The Gazetteer of 1846 writes “what one can decipher are only the six characters ‘second year of the <seg style="font-style: italic;">heqing </seg>period of the Great Qi’ 可辨者僅’大齊河清二年’六字” which would be 563, but like most epigraphers we have adopted here the reading “third year 三年“ which is 564. </p>
+            </div>
+            <div type="section">
+               <head>The Texts</head>
+               <p xml:id="p14">No title of the sutra text is engraved. There are only four small characters written horizontally below columns 2 and 3 reading “Verse from the <seg style="font-style: italic;">Flower Garland Sutra</seg>” (<seg style="font-style: italic;">Huayan jing ji </seg>華嚴經偈). They were obviously added later, but some scholars nevertheless believed that the engraved text was a passage from the <seg style="font-style: italic;">Flower Garland Sutra</seg>華嚴經. Only in 2003 did Zhang Zong 張總 identify the text as being similar to a passage in the apocryphal <seg style="font-style: italic;">Sutra of the Chapter on the Ten Evils from the Great Extensive Flower Garland</seg> (<seg style="font-style: italic;">Dafangguang huayan shi epin jing</seg>大方廣華嚴十惡品經), several versions of which were preserved in Dunhuang (T#2875, 85: 1360b27-1360c8).<note place="foot" xml:id="ftn10" n="10"><p>More versions among the Dunhuang manuscripts are: Bei 北 76–79, S 1320, S 5612v, S 6790, and ZW#13, 1: 367. (mentioned in text note 27). </p></note> Another abbreviated version of the text is engraved with the title <seg style="font-style: italic;">Flower Brightness Sutra</seg> (<seg style="font-style: italic;">Huaxian jing</seg> 華鮮經) in cave 20 at Dafowan 大佛灣, Mount Baoding 寶頂山, in Dazu 大足, Sichuan.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; "> ZHANG ZONG 2003, 5. See also Discussion.</p></note> </p>
+               <p xml:id="p15">Several early epigraphers surmised that the engraved text was not complete, and that there must have been more than one stone.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; "> See Discussion.</p></note> It seems, however, that the passage chosen for the stele stands for itself. It conjures up a savage imagery of cosmic dimensions. As a gruesome warning to those who break the precepts of the fast, their punishments in hell are graphically evoced, such as “the iron wheel, which passes through their left side and out their right </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
