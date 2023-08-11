@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ostraka und Inschriften auf Tonscherben aus dem s.g. Serapeion </title>
+            <author>
+               <name>
+                  <forename>Patrick</forename>
+                  <surname>Sänger</surname>
+               </name>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-08-11T14:42:22Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">Ostraka und Inschriften auf Tonscherben aus dem s.g. Serapeion </seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Der archäologische Kontext</seg>
+               </head>
+               <p xml:id="p1" style="text-align: left; text-align: justify;">Im Rahmen der vom Österreichischen Archäologischen Institut im Jahr 2014 geführten Grabungstätigkeiten kamen aus zwei Sondagen am Fuß der Freitreppe des s.g. Serapis-Tempels etwa 20 beschriebene Tonscherben zutage, die ursprünglich als Aufschüttungsmaterial beim Einebnen des natürlichen Bodens verwendet wurden. Dank der Prospektionen, die an der Wende zum 21. Jahrhundert auf den Nordabhängen des Bülbül Dağ durchgeführt wurden, lässt es sich feststellen, dass die Eröffnung der Bauarbeiten im Bereich westlich der unteren Agora wahrscheinlich schon am Ende der Regierungszeit Domitians stattfand (Scherrer 2005, 120). Die Errichtung des monumentalen Tempels und der Hallen im Vorplatz, der wesentlichen Bestandteile des heiligen Areals, ist nach der bis heute herrschenden Meinung in die trajanische bzw. hadrianische Zeit zu datieren (Wilberg 1914; Strocka 1988, 303-305; Scherrer 2005, 129-130; dagegen Schulz-Brize 2016, 743 u. Schulz-Brize 2020, 41 [2. Hälfte 2. Jh. n.Chr.]). Der Bau der Freitreppe kam bald nach der Fertigstellung des Tempels und sah das Anlegen der Stufen an ein eigenes Fundament sowie die Anwendung einer eigenen Art von Baumaterial vor (Schulz-Brize 2016, 750). Obwohl die Gottheit/en, welcher/n das Heiligtum gewidmet war, noch nicht mit Sicherheit identifiziert worden ist/sind, stellen die epigraphisch-archäologischen von J. Keil gesammelten Zeugnisse für die Zuweisung des Tempels zu Serapis bzw. zu den ägyptischen Göttern die einzigen, allerdings umstrittenen Anhaltspunkte dar (Keil 1947; dagegen s. insbes. Wild 1981). Im 5. Jh. (wenn nicht schon am Ende des 4. Jh.s) wurde der Tempel in eine Kirche umfunktioniert und nahm selbst die Gräber der christlichen Gläubigen auf (Bauer 2015; Steskal – Rembart – Pülz – Binder 2015).</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Die Tonscherben und ihre Texte</seg>
+               </head>
+               <p xml:id="p2" style="text-align: left; text-align: justify;">Die Fundstücke aus dem Serapeion lassen sich im Großteil als Ostraka bezeichnen, da die Tonscherben bloß als Schrifträger herangezogen wurden. Wie bei den anderen Gruppen von Ostraka aus Ephesos, wurden diese Texte mit keiner Tinte ausgeführt, sondern direkt in die keramische Oberfläche eingeritzt. Außer einem fraglichen Einzelfall (Nr. <seg style="font-weight: bold;">6.</seg>) wurden alle Texte eindeutig auf Griechisch aufgesetzt. Ein geringer Teil der Tonscherben erhält anscheinend Besitzmarken bzw. kurze Angaben zu den Produkten, die das entsprechende Gefäß transportiert hatte (<seg style="font-weight: bold;">5.</seg>, <seg style="font-weight: bold;">6.</seg> [?], <seg style="font-weight: bold;">20. </seg>[?]), was ihre Identifizierung als Ostraka in Frage stellt.</p>
+               <p xml:id="p3" style="text-align: left; text-align: justify;">Sofern der Erhaltungszustand davon herleiten lässt, spricht der Textinhalt der beschriebenen Fragmente für eine wirtschaftliche Funktion. Geldsummen und Zahlenwerte kommen bei mehreren Zeugnissen (<seg style="font-weight: bold;">3.</seg>, <seg style="font-weight: bold;">5.</seg>, <seg style="font-weight: bold;">11., 15. </seg>[?], <seg style="font-weight: bold;">17. </seg>[?]<seg style="font-weight: bold;">, 18.</seg>) zum Ausdruck. Ein Ostrakon enthält wahrscheinlich einen Verweis auf Säcke (<seg style="font-weight: bold;">16.</seg>), die in Ägypten für den Transport des Getreides häufig benutzt wurden (Mayerson 1998). Die ökonomische Natur der Dokumente ist mit dem weiteren archäologischen Kontext in Verbindung zu bringen. Das Areal des s.g. Serapeion breitet sich in der unmittelbaren Nähe der unteren Agora, wo in römischer und spätrömischer Zeit die Handelsgeschäfte blühten, aus. Darüber hinaus könnten die Hallen, die den Platz vor dem s.g. Serapis-Tempel umschlossen, eine gewerbliche Nutzung gehabt haben (zur Annahme, dass die großräumige Fläche vor dem Tempel als Sklavenmarkt fungierte, s. Coarelli 1982, 137-138; dagegen, s. Trümper 2009, 73-74).</p>
+               <p xml:id="p4" style="text-align: left; text-align: justify;">Der archäologische Kontext vermag außerdem, die in zwei Texten überlieferten Verweise auf die lokale kirchliche Organisationsstruktur zu erhellen. Zwei Ostraka enthalten jeweils die Erwähnungen von einem σύστημα, d. h. vielleicht einer religiösen bzw. mönchischen Gemeinschaft (<seg style="font-weight: bold;">16.</seg>), sowie von einer Dekanie bzw. einem Dekan (<seg style="font-weight: bold;">17.</seg>). Ein Hinweis auf ein Mitglied der lokalen Kirchenhierarchie ist außerdem im Ehrenepitheton εὐλαβέστατος (<seg style="font-weight: bold;">8.</seg>) zu erkennen. Solche Texte – sowie auch die Ostraka mit christlichen Symbolen – lassen sich am besten in der spätantiken Phase des Komplexes einfügen, als der Tempel in eine Kirche umfunktioniert wurde.</p>
+               <p xml:id="p5" style="text-align: left; text-align: justify;">Gering sind die Spuren der Onomastik im Gebrauch. Höchstwahrscheinlich ist die Erwähnung eines Menschen namens [Ἰωά]ννης und eines namens [- - -]ώσιος (beide bei <seg style="font-weight: bold;">1.</seg>), sowie die der zwei ephesischen Märtyrer [Θε]ώτιμος und Ἑρμ[ιόνη] (beide bei <seg style="font-weight: bold;">21.</seg>). Zu erwähnen sind auch die möglichen, lückenhaften Anthroponyme [- - -]δ̣ρου (<seg style="font-weight: bold;">18.</seg>) und Εὐτυχι[- - -] (<seg style="font-weight: bold;">20.</seg>). </p>
+               <p xml:id="p6" style="text-align: left; text-align: justify;">Unter dem paläographischen Gesichtspunkt gehen die Schriftzüge der Tonscherben erst auf die christliche Phase des Komplexes zurück, wie auch durch die christlichen Symbole bei den Zeugnissen <seg style="font-weight: bold;">18.</seg> und <seg style="font-weight: bold;">21.</seg> bestätigt. Im Allgemeinen handelt es sich um informelle, fast vollständig unverbundene Schriften, deren Ausführung von der materiellen Natur des Schriftträgers stark geprägt ist. Mit der Ausnahme vom Zeugnis <seg style="font-weight: bold;">4.</seg> geben alle Fundstücke aufrechte Schriften wieder. Die Zeugnisse <seg style="font-weight: bold;">1.</seg>, <seg style="font-weight: bold;">10.</seg>, <seg style="font-weight: bold;">16.</seg> und <seg style="font-weight: bold;">18.</seg>, die ähnliche Buchstabenformen und Linienführungen sowie auch eine einheitliche Textverteilung vorweisen, greifen anscheinend auf eine selbe Schreibtradition zurück, die in ein grundsätzlich eckiges Schriftsystem (s. beispielsweise <seg style="font-style: italic;">alpha</seg>, <seg style="font-style: italic;">my</seg>, <seg style="font-style: italic;">ny</seg>, <seg style="font-style: italic;">hypsilon</seg>) dennoch wohl abgerundete Formen (<seg style="font-style: italic;">epsilon</seg>, <seg style="font-style: italic;">omicron</seg>,<seg style="font-style: italic;"> sigma</seg>, <seg style="font-style: italic;">omega</seg>) mit einbezieht. Rundere Schriftzüge sind in den Zeugnissen <seg style="font-weight: bold;">8.</seg> und <seg style="font-weight: bold;">17.</seg> aufzufinden. Zur selben Hand könnten die Zeugnisse <seg style="font-weight: bold;">5.</seg> und <seg style="font-weight: bold;">19. </seg>gehören, wie die Übereinstimmung der singulären Linienführung von <seg style="font-style: italic;">kappa </seg>darauf hinweist. Bei manchen Fragmenten erhalten sich unterschiedliche Formen desselben Buchstabens, wie im Fall vom Zeugnis <seg style="font-weight: bold;">18.</seg>, wo zwei verschiedene Typologien von <seg style="font-style: italic;">hypsilon</seg> (Z. 2, 3) vorkommen, und <seg style="font-weight: bold;">21.</seg>, wo sogar drei Varianten von <seg style="font-style: italic;">my </seg>(Z. 3, 4, 5) nebeneinander bestehen. Ligaturen und Symbole, die aus der Kursive entstammen, bieten maßgebliche Anhaltspunkte für die Chronologie einzelner Stücke (<seg style="font-weight: bold;">3.</seg>, <seg style="font-weight: bold;">8.</seg>, <seg style="font-weight: bold;">11.</seg>, <seg style="font-weight: bold;">17.</seg>). Die verschiedenen Hände, die die Texte eingemeißelt haben, befolgen vorwiegend die Grundlinien aus gemeinsamen Schriftbräuchen, die sich ins 5. und – spätestens – in die erste Hälfte des 6. Jh.s datieren lassen. Diesbezüglich lohnt es sich nebenbei den Synchronismus zwischen der paläographischen Datierung der hier behandelten Tonscherben und der Chronologie der für die Verfüllung des Kanals in der Cella herangezogenen Materialien zu betonen, was auf die vermutliche Zugehörigkeit beider Eingriffe zu derselben Bauphase hinweist (Steskal – Rembart – Pülz – Binder 2015, 263 u. 271).</p>
+               <p xml:id="p7" style="text-align: left; text-align: justify;">Die gemeinsamen Charakteristika (Fundstelle, Chronologie, Inhalt), die viele Stücke miteinander in Verbindung setzen, legen die Vermutung nahe, dass die Ostraka – zur Gänze oder zum Teil – ursprünglich aus einem Archiv von überwiegend ökonomischer Natur entstammten. Solche Annahme geht von der Voraussetzung aus, dass die eingeritzten Tonscherben nach der Erschöpfung ihrer dokumentarischen Funktion <seg style="font-style: italic;">absichtlich </seg>und <seg style="font-style: italic;">gleichzeitig </seg>für Abfallgegenstände gehalten wurden. Ihre Sekundärverwendung in den Aufschüttungsschichten am Fuß der Freitreppe kann unter das umfassende Bau- und Bausanierungsprogramm fallen, das erst vom 6. Jh. an nicht nur den Kirchenkomplex am s.g. Serapeion, sondern auch zahlreiche christliche Gebäude von Ephesos betraf (Pülz – Ladstätter 2007, 413-417; Külzer 2013, 12; Ladstätter 2018). Wird die bevorstehende Publikation der jüngsten Erforschungen im Serapeions Areal die Heranziehung der Tonscherben als Verfüllungsmaterialien für die Einebnung des Bodenniveaus untermauern, sollte man – wie mehrere Parallelfälle bezeugen – die Mitglieder der lokalen Kirchengemeinde als Stifter solcher Sanierungsmaßnahmen betrachten (Foss 1979, 28-29; Liverani 2003; Haensch 2006 u. 2017). Im Übrigen setzt sich das Verhältnis der beschriebenen Fragmente mit einem kirchlichen Hintergrund einigermaßen durch, nicht nur im Hinblick auf die Freilegung der Befunde am Fuß der zur Kirche hinaufführenden Freitreppe, aber auch angesichts der Erwähnung von Mitgliedern der kirchlichen Hierarchie in den Texten selbst. Der eindeutig geschäftliche Inhalt mehrerer Zeugnisse lässt sich zum einen mit der zunehmenden Relevanz von Ephesos als christlichem Pilgerziel und mit den damit verbundenen Wirtschaftstätigkeiten (Külzer 2010; Pülz 2010; Kislinger 2018), zum anderen mit der anerkannten Rolle der Kirche und der Klöster in anderen ökonomischen Bereichen des spätantiken und frühbyzantinischen Wirtschaftslebens in Zusammenhang bringen (vgl. <seg style="font-style: italic;">e.g. </seg>Jones 1960; Wipszycka 2009 u. 2011; Giorda 2011). Man könnte letzten Endes vor einem mit dem kirchlichen Kreis zu verbindendem Dossier stehen, das die Spuren der möglicherweise im Temenos des s.g. Serapeion geführten Transaktionen erhält.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Katalog</seg>
+               </head>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed1" type="edition"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p8"/>
+                        <p xml:id="p9">Hervorzuheben sind die besonderen Umrisse vom minuskelförmigen <seg style="font-style: italic;">alpha</seg> und vom v-förmigen<seg style="font-style: italic;"> hypsilon</seg>. Die Schlaufe der zwei <seg style="font-style: italic;">omikron</seg> – kleineren im Vergleich zu den anderen Buchstaben – ist oben leicht vergrößert und, in einem Fall (Z. 1), oben geöffnet. <seg style="font-style: italic;">iota </seg>ist nach oben und nach unten verlängert.</p>
+                        <p xml:id="p10"><seg style="font-weight: bold;">Z. 1</seg>: Teil eines Anthroponyms lässt sich hier erkennen. Ein Προρώσιος ist durch I.Ephesos 4354 bekannt, aber auch eine verschriebene Namensform Θεοδ<seg style="text-decoration: underline;">ώ</seg>σιος [statt Θεοδόσιος] ist einfach vorstellbar. Als Alternative könnte man hier auch ein Kompositum aus ὅσιος – wie etwa περιώσιος (s. I.Ephesos 2043, Z. 5, 4.-5. Jh. gemäß Foss 1979, 61) – annehmen.</p>
+                        <p xml:id="p11"><seg style="font-weight: bold;">Z. 2</seg>: Die Ergänzung [Ίωά]ννου (mehrere Zeugnisse in den Papyri und in der Anthroponymie von Ephesos) ist höchstwahrscheinlich.</p>
+                     </note>
+                  </div>
+               </div>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed2" type="edition"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p12"/>
+                        <p xml:id="p13">Einflüsse der kursiven Schrift tauchen bei der Form von <seg style="font-style: italic;">alpha </seg>wieder auf, das eine runde, nach oben geöffnete Schlaufe aufweist. <seg style="font-style: italic;">omikron </seg>ist klein und leicht hochgestellt. <seg style="font-style: italic;">sigma</seg> wurde mit keiner ausgeprägten Krümmung umgerissen.</p>
+                     </note>
+                  </div>
+               </div>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed3" type="edition"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p14"/>
+                        <p xml:id="p15"><seg style="font-weight: bold;">Z. 1</seg>: Das Zeichen ∫ weist wohl auf eine Bruchzahl hin (vgl. Nr.<seg style="font-weight: bold;"> 5.</seg>), eher als auf die Abkürzung der Konjunktion καί, die allerdings noch in byzantinischer Epoche weit im Gebrauch war (Gardthausen 1913, 338; Avi-Yonah 1940 [1974], 37; Kenyon 1899 [1940], 129; vgl. Agati 1984; Degni 1996, 34-38). Die Verbindung <seg style="font-style: italic;">my-rho</seg> lehnt sich an eine nicht besonders gängige Typologie von Abkürzungszeichen an. Die zwei ineinander geschriebenen Buchstaben können sowohl auf eine Wertangabe in Myriaden (vgl. P.Bingen 137, Z. 2-3, 4-5 Jh.; Stud.Pal. VIII, 1000, Z. 4, 5. Jh.) als auch auf die abgekürzten Worte aus dem Stamm *μαρτυρ- (μαρτυρεῖν, „bezeugen“; μάρτυς, „Zeuge“; usw.; vgl. P.Dura 26v, 227 n.Chr.; P.Amst. I 81, Z. 1, 5. Jh., mit Van Minnen 1995, 19-20 = BL XIII 2017, 7) anspielen. In Hinblick auf den archäologischen Kontext, in dem das Ostrakon ans Licht gebracht wurde, erweisen sich beide Interpretationen der Verbindung als möglich, obwohl die parallele Bezeugung einer Wertangabe in Myriaden bei einem weiteren Ostrakon aus dem Serapeion (Nr. <seg style="font-weight: bold;">11.</seg>) der ersten oben vorgeschlagenen Deutung einen leichten Vorzug gewährt (zu den Denarmyriaden in den spätantiken Papyruszeugnissen aus Ägypten, s. Bagnall 1985, 12).</p>
+                     </note>
+                  </div>
+               </div>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed4" type="edition"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p16"/>
+                        <p xml:id="p17">Der Text wurde von einer nach rechts geneigten Hand ausgeführt, die als eine spätantike Entwicklung des s.g. Strengen Stils erscheint. Einzelne Merkmale der Schrift, die immerhin wohlrunde Umrisse (<seg style="font-style: italic;">epsilon</seg>, <seg style="font-style: italic;">omega</seg>) aufweist, rufen einige literarische Parallele in geneigter spitzbogiger Majuskel ins Gedächtnis – vgl. beispielsweise PSI VIII 977r, Mitte 5. Jh.; P.Cair. inv. 43227, 2. Hälfte 5. Jh.; zur geneigten spitzbogigen Majuskel, s. insbes. Orsini 2016.  </p>
+                     </note>
+                  </div>
+               </div>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed5" type="edition"/>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ωσίο<unclear>υ</unclear>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ννου
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>σταν
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>χ<unclear>ι</unclear>το<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <unclear> </unclear>ατησα<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ρινησ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>  <unclear>   </unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <expan>μ<ex>υ</ex>ρ<ex>ια </ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ί</unclear>ου
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><abbr><gap reason="illegible" quantity="1" unit="character"/>ερ</abbr>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed4" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>νι<unclear>ω</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>υπε<unclear>ρ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ριων<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> και <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed5" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><num value="524">φκ<unclear>δ</unclear></num> <num value="1/2"><expan><ex>ἥμισυ</ex></expan></num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
