@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Location and Size of Prektis in the Hermopolite nome</title>
+            <author>
+               <name>
+                  <forename>Ryosuke</forename>
+                  <surname>Takahashi</surname>
+               </name>
+               <affiliation>Tokyo Metropolitan University</affiliation>
+               <email>r_takahashi@tmu.ac.jp </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-11-16T16:03:23Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">The Location and Size of Prektis in the Hermopolite nome</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This note is the result of research that was supported by the Japan Society for the Promotion of Science (JSPS) Grants-in-Aid for Scientific Research (no.20K00918) and conducted during a period of research leave abroad granted by Tokyo Metropolitan University and hosted by the Institute of Classical Studies, University of London. I thank Dominic Rathbone for comments and suggestions on earlier drafts and Paul Scade for improving my English.  </note>
+            <p xml:id="p1" style="text-align: left;">This note seeks to resolve the issue of the location of a Hermopolite settlement named Prektis (<ref target="https://www.trismegistos.org/place/2947"><seg style="text-decoration: underline;">TM Geo 2947</seg></ref>) and to assess its importance. I argue that Prektis was a substantial settlement located on the west side of the Nile rather than on the east side, as supposed by previous studies. This village is well attested in the surviving documentary evidence from the fourth century AD. Our records show that it belonged to the 13th pagus in c. AD 324–326 (<ref target="https://papyri.info/ddbdp/p.col%3B9%3B247"><seg style="text-decoration: underline;">P.Col. 9 247</seg></ref>.258) and then to the 15th pagus in c. AD 340.<note place="foot" xml:id="ftn0" n="1"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/9253"><seg style="text-decoration: underline;">Drew-Bear 1979</seg></ref>: 223.</p></note> The Hermopolite nome had 15 pagi in its territory, growing to 17 soon after AD 324–326. The pagi were numbered according to their position on a north-south axis, with the southernmost pagus counted as the first and the northernmost assigned the highest number. Some toponyms in the northern part of the Hermopolite nome can be identified with modern settlements, such as Thallou (12th pagus in c. AD 324–326; <ref target="https://www.trismegistos.org/place/4386"><seg style="text-decoration: underline;">TM Geo 4386</seg></ref>), which is now Talla near Minya; Peentalis (12th pagus; <ref target="https://www.trismegistos.org/place/4085"><seg style="text-decoration: underline;">TM Geo 4085</seg></ref>), which has become Bihdal, also near Minya; and Somolo (15th pagus; <ref target="https://www.trismegistos.org/place/3222"><seg style="text-decoration: underline;">TM Geo 3222</seg></ref>), now Samalut. We know, then, that Prektis must have been located to the north of modern Minya and to the south of Samalut.</p>
+            <p xml:id="p2" style="text-align: left;">	In her fundamental work on the topography of the Hermopolite nome, Drew-Bear improves the text of <ref target="https://papyri.info/ddbdp/p.stras%3B4%3B197"><seg style="text-decoration: underline;">P.Strasb. 4 197</seg></ref> (4th c.) to read the toponym of Prektis in lines 4 and 7: ὁ πραιπ(όσιτος) τῆς Πρήκ(τεως) (the <seg style="font-style: italic;">praepositus castrorum </seg>in Prektis) in lines 3–4 and ἐν τῇ α(ὐτῇ) [Π]ρήκ(τει) (in the same Prektis) in line 7. She identifies this site with Precteos, where the <seg style="font-style: italic;">ala I Valeria dromedariorum</seg> (camel squadron) is said to have been garrisoned in Not. Dign. Or. 31.57.<note place="foot" xml:id="ftn1" n="2"><p style="text-align: left;"> BL 8.415; <ref target="https://papyri.info/biblio/9253"><seg style="text-decoration: underline;">Drew-Bear 1979</seg></ref>: 222; for line 3, see BL 5.137. Not. Dign. Or. is dated to c. AD 400. While its descriptions reflect changes that occurred during the course of the fourth century AD, it presents the general picture that resulted from Diocletian’s reforms: <ref target="https://papyri.info/biblio/88598"><seg style="text-decoration: underline;">Pollard 2013</seg></ref> and <ref target="https://papyri.info/biblio/87100"><seg style="text-decoration: underline;">Kaiser 2015</seg></ref>. </p></note> The presence of soldiers in Prektis is also attested in Coptic and Arabic Christian texts in which the village is called Preht (ⲡⲣⲉϩⲧ) and Qaṣr Abraḥt, respectively. According to the account of his martyrdom, Phoibammon, a Christian soldier from the camp at Preht, or Qaṣr al-Abragīt/Ibragīt, refused to sacrifice to the Roman gods in violation of Diocletian’s decree, and was sent upstream to Antinoopolis and then to Asyut (Lykopolis) to be tried. His camp must, then, have been to the north of Antinoopolis.<note place="foot" xml:id="ftn2" n="3"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/96526"><seg style="text-decoration: underline;">Copt.Enc.</seg></ref>: 1963–1964; <ref target="https://papyri.info/biblio/61874"><seg style="text-decoration: underline;">Timm 1991</seg></ref>: 2110; Gesa Schenke, <ref target="http://csla.history.ox.ac.uk/record.php?recid=E02109"><seg style="text-decoration: underline;">Cult of Saints, E02109</seg></ref>. I follow Timm’s transcription of the Arabic version of the village name.  </p></note> In his Arabic biography, Aba (A)Nub of Anṣinā (Antinoopolis) is said to have had visitors while in prison, among whom there were two soldiers from Qaṣr Abraḥt/Ībraḥt.<note place="foot" xml:id="ftn3" n="4"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/96467"><seg style="text-decoration: underline;">Amélineau 1893</seg></ref>: 12; <ref target="https://papyri.info/biblio/9253"><seg style="text-decoration: underline;">Drew-Bear 1979</seg></ref>: 221; <ref target="https://papyri.info/biblio/61874"><seg style="text-decoration: underline;">Timm 1991</seg></ref>: 2110.</p></note> This information does not tell us anything about how far or in which direction Prektis lay, but Amélineau concludes that the garrison was probably on the edge of the desert, in a suitable position, not far from Antinoopolis, to guard a commercial route across the desert.<note place="foot" xml:id="ftn4" n="5"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/96467"><seg style="text-decoration: underline;">Amélineau, 1893</seg></ref>: 12. According to Timm, medieval writers knew of a village called Abraht/Ibraht near Deir el-Bersha (<ref target="https://www.trismegistos.org/place/2834"><seg style="text-decoration: underline;">TM Geo 2834</seg></ref>) and to the south of Antinoopolis. Timm wonders if there were two homonymous villages; <ref target="https://papyri.info/biblio/61874"><seg style="text-decoration: underline;">Timm 1991</seg></ref>: 2111.</p></note> Taking this claim as her starting point, Drew-Bear suggests that Prektis stood on the east bank of the Nile, since the <seg style="font-style: italic;">via nova Hadriana</seg> originated in Antinoopolis, from where it ran to the Red Sea.<note place="foot" xml:id="ftn5" n="6"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/9253"><seg style="text-decoration: underline;">Drew-Bear 1979</seg></ref>: 221–223. </p></note> She gives another reason for locating Prektis on the east bank, which is that the reference to Precteos at Not. Dign. Or. 31.57 precedes the mention of southern garrisons on the east bank at Not. Dign. Or. 31.58–61, at Theraco (Hierakon; <ref target="https://www.trismegistos.org/place/3124"><seg style="text-decoration: underline;">TM Geo 3124</seg></ref>), Mutheos (Mouthis; <ref target="https://www.trismegistos.org/place/5832"><seg style="text-decoration: underline;">TM Geo 5832</seg></ref>), Silili (<ref target="https://www.trismegistos.org/place/8882"><seg style="text-decoration: underline;">TM Geo 8882</seg></ref>), and Peamu (Peamou; <ref target="https://www.trismegistos.org/place/6435"><seg style="text-decoration: underline;">TM Geo 6435</seg></ref>).<note place="foot" xml:id="ftn6" n="7"><p style="text-align: left;"> The first three toponyms are attested in the It. Ant. Aug. 167.2, 166.6, and 166.4; cf. <ref target="https://papyri.info/biblio/4898"><seg style="text-decoration: underline;">van Berchem 1952</seg></ref>: 66–67. Seeck identifies Silili with Selino (<ref target="https://www.trismegistos.org/place/6351"><seg style="text-decoration: underline;">TM Geo 6351</seg></ref>) in his edition of Not. Dign. (Berlin, 1876, p.65). However, this identification is not certain: <ref target="https://papyri.info/biblio/52377"><seg style="text-decoration: underline;">Bowman 1978</seg></ref>: 35; <ref target="https://papyri.info/biblio/64457"><seg style="text-decoration: underline;">Worp 1994</seg></ref>: 467. The last toponym, Peamou in Greek, is referred to in <ref target="https://papyri.info/ddbdp/p.panop.beatty%3B%3B2"><seg style="text-decoration: underline;">P.Panop.Beatty 2</seg></ref>.292 (AD 300) alongside the <seg style="font-style: italic;">Cohors XI Chamauorum</seg>. It is described as being on the opposite side of Abydos. </p></note> Drew-Bear’s view is followed by Worp and Kessler. Worp examines the disposition of military units in Upper Egypt referred to in Not. Dign. and proposes corrections for the locations of some of the units, placing Prektis to the south of Antinoopolis on his map, on the eastern side of the Nile across from Hermopolis.<note place="foot" xml:id="ftn7" n="8"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/64457"><seg style="text-decoration: underline;">Worp 1994</seg></ref>: 469. </p></note> However, as Kessler rightly remarks, Prektis in fact was located in the northern part of the Hermopolite nome, although he too places it on the east bank.<note place="foot" xml:id="ftn8" n="9"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/13691"><seg style="text-decoration: underline;">Kessler 1994</seg></ref>: 94.</p></note></p>
+            <p xml:id="p3" style="text-align: justify;">Worp’s supposed location for Prektis does not fit with his own account of the general pattern according to which the units listed in Not. Dign. are distributed. He points out that the <seg style="font-style: italic;">alae</seg> (Not. Dign. Or. 31.43–57) and then the cohorts (Not. Dign. Or. 31.58–67) are each arranged in a largely ‘clockwise’ pattern, which is to say that the listed units of each type start with those on the northern part of the east bank of the Nile and then progress to the south, before crossing over to the southern part of the west bank and then moving back up to the north. According to this scheme, the appearance on the list of the last unit of the <seg style="font-style: italic;">alae</seg>, the <seg style="font-style: italic;">ala I Valeria dromedariorum Precteos</seg>, just before the first units of the cohorts does not support Drew-Bear’s interpretation that the <seg style="font-style: italic;">ala</seg> was on the same side of the Nile as these cohorts. According to the ‘clockwise’ disposition, Prektis should be located on the west bank, in the northern part of the Thebaid described in Not. Dign. Or. 31. Worp admits that the proposed location of Prektis on the east bank disturbs the pattern, but he explains this deviation on the grounds that the supposed system underlying the order of the list was not rigidly applied.</p>
+            <p xml:id="p4" style="text-align: justify;">Against these views, there is a good reason to locate Prektis on the west bank at the north end of the Hermopolite nome without supposing the deviation from the general ‘clockwise’ pattern of the arrangement of the units in Not. Dign. There is no need to hypothesise that the camel squadron garrisoned at Prektis aimed at protecting at least only the <seg style="font-style: italic;">via nova Hadriana </seg>whose regular traffic and commercial role have been doubted recently.<note place="foot" xml:id="ftn9" n="10"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/86147"><seg style="text-decoration: underline;">Malouta 2016</seg></ref>.</p></note> Instead, it is most probable that the last four <seg style="font-style: italic;">alae</seg> in Not. Dign. Or. 31.54–57 together form a group whose purpose was to police the Western desert, as Kucera points out.<note place="foot" xml:id="ftn10" n="11"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/85223"><seg style="text-decoration: underline;">Kucera 2012</seg></ref>: 313–314.</p></note> The <seg style="font-style: italic;">ala II Herculia dromedariorum</seg> was garrisoned at Psinabla (<ref target="https://www.trismegistos.org/place/8201"><seg style="text-decoration: underline;">TM Geo 8201</seg></ref>) on the west bank of the river, in the Panopolite nome (Not. Dign. Or. 31.54).<note place="foot" xml:id="ftn11" n="12"><p style="text-align: left;"> In <ref target="https://papyri.info/ddbdp/p.panop.beatty%3B%3B2"><seg style="text-decoration: underline;">P.Panop.Beatty 2</seg></ref>.169, the <seg style="font-style: italic;">ala</seg> is ‘at Toeto and Psinabla’. See also <ref target="https://papyri.info/ddbdp/p.panop.beatty%3B%3B1"><seg style="text-decoration: underline;">P.Panop.Beatty 1</seg></ref>.39, 86–87, 386, 389, 406 (AD 298), and <ref target="https://papyri.info/ddbdp/p.panop.beatty%3B%3B2"><seg style="text-decoration: underline;">P.Panop.Beatty 2</seg></ref>.29.</p></note> The <seg style="font-style: italic;">ala I Abasgorum</seg> and <seg style="font-style: italic;">ala I Quadorum </seg>were both located in the Western oases (Not. Dign. Or. 31.55 (=41) and 56). The former was garrisoned at Hibis (<ref target="https://www.trismegistos.org/place/2786"><seg style="text-decoration: underline;">TM Geo 2786</seg></ref>) in the Kharga oasis, while the latter is described as being based at ‘Oasi minore, Trimtheos’, namely Trimithis (<ref target="https://www.trismegistos.org/place/2733"><seg style="text-decoration: underline;">TM Geo 2733</seg></ref>) in the Dakhla oasis.<note place="foot" xml:id="ftn12" n="13"><p style="text-align: left;"> On the documentary evidence of the presence of soldiers in Trimithis, see <ref target="https://papyri.info/biblio/87144"><seg style="text-decoration: underline;">Ast and Bagnall 2015</seg></ref>.</p></note> Then, another camel squadron, <seg style="font-style: italic;">ala I Valeria dromedariorum</seg>, was garrisoned at Prektis. Even though the two camel squadrons were stationed in the two settlements in the Nile Valley, they were well-suited to the desert environment and seemed to have operated in the Western desert.<note place="foot" xml:id="ftn13" n="14"><p style="text-align: left;"> Furthermore, the <seg style="font-style: italic;">cuneus equitum Maurorum scutariorum</seg> and <seg style="font-style: italic;">ala VIII</seg>, two units stationed respectively in Lykopolis and Abydos, cities from which the Kharga oasis could be reached, must have guarded routes across the Western desert. Soldiers of the former unit are known from evidence from the Oasis Maior: <ref target="https://papyri.info/hgv/34065"><seg style="text-decoration: underline;">SB 20 14760</seg></ref> (4th c., Kharga) and perhaps <ref target="https://papyri.info/ddbdp/o.douch%3B4%3B457"><seg style="text-decoration: underline;">O.Douch 4 457</seg></ref> (4th – early 5th c.); see the commentary to <ref target="https://papyri.info/ddbdp/p.oxy%3B72%3B4893"><seg style="text-decoration: underline;">P.Oxy. 72 4893</seg></ref>. </p></note> If this grouping is correct, it is reasonable to suppose that Prektis should be on the west bank, like Psinabla, rather than on the east bank. Taking into consideration its location in the northern part of the Hermopolite nome, however, Prektis must have connected with neither Hibis nor Trimithis but rather with the ‘Oasis Minor’ proper, namely the Bahariya oasis (<ref target="https://www.trismegistos.org/place/2829"><seg style="text-decoration: underline;">TM Geo 2829</seg></ref>) where the <seg style="font-style: italic;">ala II Armeniorum</seg> was stationed (Not. Dign. Or. 28.22) because Prektis was not very far from Oxyrhynchus, where a road to the Bahariya oasis began.<note place="foot" xml:id="ftn14" n="15"><p style="text-align: left;"> On the road network in the Western desert, see <ref target="https://papyri.info/biblio/85223"><seg style="text-decoration: underline;">Kucera 2012</seg></ref>: 313, <ref target="https://papyri.info/biblio/87749"><seg style="text-decoration: underline;">Rossi 2012</seg></ref>: 334. On the road between the Bahariya oasis and Oxyrhynchus, see <ref target="https://papyri.info/biblio/96469"><seg style="text-decoration: underline;">Paprocki 2019</seg></ref>: 215–218.</p></note> The need to guard against attacks from the Western desert was very real. In c. AD 259–264, the village of Nesmeimis (<ref target="https://www.trismegistos.org/place/2864"><seg style="text-decoration: underline;">TM Geo 2864</seg></ref>) in the Oxyrhynchite nome was attacked by the Libyan tribe of the Goniotai (<ref target="https://papyri.info/ddbdp/p.oxy%3B46%3B3292"><seg style="text-decoration: underline;">P.Oxy. 46 3292</seg></ref>). Nesmeimis belonged to the southernmost pagus of the Oxyrhynchite nome and must, therefore, have been close to the border with the Hermopolite nome.<note place="foot" xml:id="ftn15" n="16"><p style="text-align: left;"> For Nesmeimis, see <ref target="https://papyri.info/biblio/96514"><seg style="text-decoration: underline;">Benaissa 2021</seg></ref>: 217–219. Worp proposes that ‘Nitnu’, where the<seg style="font-style: italic;"> cohors IX Tzanorum</seg> (Not. Dign. Or. 31.62) was garrisoned, should be identified with Netneou epoikion (<ref target="https://www.trismegistos.org/place/5938"><seg style="text-decoration: underline;">TM Geo 5938</seg></ref>; <ref target="https://papyri.info/biblio/96514"><seg style="text-decoration: underline;">Benaissa 2021</seg></ref>: 220–221), a settlement near Nesmeimis: <ref target="https://papyri.info/biblio/64457"><seg style="text-decoration: underline;">Worp 1994</seg></ref>: 466–467. According to his explanation, Netneou was corrupted to ‘Nitnu’ in the process of copying the manuscripts and Not. Dign. Or. 31.62 and 63 (<seg style="font-style: italic;">Cohors IX Alamannorum, Burgo Severi</seg> [<ref target="https://www.trismegistos.org/place/3899"><seg style="text-decoration: underline;">TM Geo 3899</seg></ref>]) should be placed after 31.67, where the final cohort in Not. Dign. Or. 31 is listed. His argument is proposed as an alternative to previous attempts to identify this place with either ‘Nithine’ in the Delta (<ref target="https://papyri.info/biblio/55606"><seg style="text-decoration: underline;">Calderini, Diz.geogr. 3</seg></ref>: 355) or Antinoopolis (<ref target="https://papyri.info/biblio/4898"><seg style="text-decoration: underline;">van Berchem 1952</seg></ref>: 67). Worp’s argument seems to me to remain a mere possibility.</p></note> In order to prepare against possible further attacks from the Western desert, the <seg style="font-style: italic;">ala I Valeria dromedariorum</seg> garrisoned at Prektis must have played a practical role along with other soldiers in the Oxyrhynchite nome and Bahariya oasis.<note place="foot" xml:id="ftn16" n="17"><p style="text-align: left;"> The Oxyrhynchus papyri attest soldiers in Oxyrhynchus who belonged to the <seg style="font-style: italic;">equites Maurorum scutariorum</seg> based in Hermopolis Magna or Lycopolis (<ref target="https://papyri.info/ddbdp/p.oxy%3B60%3B4084"><seg style="text-decoration: underline;">P.Oxy. 60 4084</seg></ref>: AD 339; <ref target="https://papyri.info/ddbdp/p.oxy%3B63%3B4381"><seg style="text-decoration: underline;">P.Oxy.</seg></ref><ref target="https://papyri.info/ddbdp/p.oxy%3B63%3B4381" xml:space="preserve"> </ref><ref target="https://papyri.info/ddbdp/p.oxy%3B63%3B4381"><seg style="text-decoration: underline;">63 4381</seg></ref>: AD 375; <ref target="https://papyri.info/ddbdp/p.oxy%3B72%3B4893"><seg style="text-decoration: underline;">P.Oxy. 72 4893</seg></ref>: AD 375; cf. <ref target="https://papyri.info/ddbdp/p.oxy%3B67%3B4628"><seg style="text-decoration: underline;">P.Oxy. 67 4628</seg></ref>: 4th c.) and the fortress at Psobthis/Psoftis (<ref target="https://www.trismegistos.org/place/8248"><seg style="text-decoration: underline;">TM Geo 8248</seg></ref>; <ref target="https://papyri.info/ddbdp/p.oxy%3B60%3B4089"><seg style="text-decoration: underline;">P.Oxy.</seg></ref><ref target="https://papyri.info/ddbdp/p.oxy%3B60%3B4089" xml:space="preserve"> </ref><ref target="https://papyri.info/ddbdp/p.oxy%3B60%3B4089"><seg style="text-decoration: underline;">60 4089</seg></ref>: AD 351), which can be identified with Sosteos where the <seg style="font-style: italic;">ala II Assyriorum </seg>was stationed (Not. Dign. Or. 28.33). Psobthis is more likely to be located in the Oxyrhynchite nome rather than in the Oasis Minor. See <ref target="https://papyri.info/biblio/80615"><seg style="text-decoration: underline;">Colin et al. 2012</seg></ref>: 113–114 and <ref target="https://papyri.info/biblio/68957"><seg style="text-decoration: underline;">Colin, Laisney, and Marchand, 2000</seg></ref>: 158–163. </p></note></p>
+            <p xml:id="p5" style="text-align: justify;">	Other evidence suggests that Prektis was one of the largest settlements in the north-west corner of the Hermopolite nome. Three official documents from the fourth century AD give some indication of the relative size of the settlement by providing information about the levels of the quantities of taxation and requisitions imposed on Prektis and its neighbouring villages. The first document is <ref target="https://papyri.info/ddbdp/sb%3B18%3B13147"><seg style="text-decoration: underline;">SB 18 13147</seg></ref> (AD 340/341; cf. <ref target="https://papyri.info/biblio/86498"><seg style="text-decoration: underline;">Clarysse 2014</seg></ref>: 106 n.18), a list of wine, meat, barley, and chaff to be collected from villages of the 15th pagus for the <seg style="font-style: italic;">annona militaris</seg> for the 14th indiction. The text seems to record the amount of the annual payment.<note place="foot" xml:id="ftn17" n="18"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/70337"><seg style="text-decoration: underline;">Mitthof 2001</seg></ref>: 415.</p></note> The names of eight villages appear in the document and for three of these – Prektis, Admenthon, and Krokodilon – the amounts of the impositions are preserved in the surviving text. This information is summarised in Table 1 below. There is some variation in the proportion of the contribution made by each village with respect to different items. While Prektis provided more barley and chaff than the other two villages, Admenthon contributed larger amounts of meat and wine than Prektis. If we apply a monetary valuation to each item on the basis of other contemporary documents, Admenthon appears to have contributed the largest total amount,<note place="foot" xml:id="ftn18" n="19"><p style="text-align: left;"> In <ref target="https://papyri.info/ddbdp/stud.pal%3B20%3B75"><seg style="text-decoration: underline;">Stud.Pal. 20 75</seg></ref> (4th c.; Hermopolites), one sextarius of wine and one pound of meat each cost 4 talents 2,000 drachmas. One artaba of barley costs 15 talents; in <ref target="https://papyri.info/ddbdp/sb%3B14%3B11593"><seg style="text-decoration: underline;">SB</seg></ref><ref target="https://papyri.info/ddbdp/sb%3B14%3B11593" xml:space="preserve"> </ref><ref target="https://papyri.info/ddbdp/sb%3B14%3B11593"><seg style="text-decoration: underline;">14 11593</seg></ref> (c. AD 338–341; Hermopolites), one sextarius of wine costs 3 talents 2,000 drachmas and one pound of meat one talent 2,000 drachmas; in <ref target="https://papyri.info/ddbdp/bgu%3B1%3B21"><seg style="text-decoration: underline;">BGU 1 21</seg></ref> (AD 340; Prektis), chaff costs 480 drachmas per pound: <ref target="https://papyri.info/biblio/10726"><seg style="text-decoration: underline;">Bagnall 1985</seg></ref>: 64–67.</p></note> although we cannot be certain that the size of the contribution accurately reflects the size of the settlement, as it might have been the case that some goods were simply not available in certain places (e.g. wine in Krokodilon).</p>
+            <p xml:id="p6" style="text-align: justify;">Table 1: Contribution of Prektis and other villages in <ref target="https://papyri.info/ddbdp/sb%3B18%3B13147"><seg style="text-decoration: underline;">SB 18 13147</seg></ref></p>
+            <table>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: center;">Wine (sextarius)</cell>
+                  <cell style="text-align: center;">Meat (pound)</cell>
+                  <cell style="text-align: center;">Barley (artaba)</cell>
+                  <cell style="text-align: center;">Chaff (pound)</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">Prektis</cell>
+                  <cell style="text-align: center;">5,439</cell>
+                  <cell style="text-align: center;">2,408</cell>
+                  <cell style="text-align: center;">888</cell>
+                  <cell style="text-align: center;">40,000</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">Admenthon</p>
+                     <p style="text-align: justify;">(<ref target="https://www.trismegistos.org/place/8309"><seg style="text-decoration: underline;">TM Geo 8309</seg></ref>)</p>
+                  </cell>
+                  <cell style="text-align: center;">9,849</cell>
+                  <cell style="text-align: center;">3,716</cell>
+                  <cell style="text-align: center;">700</cell>
+                  <cell style="text-align: center;">23,366</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">Krokodilon</p>
+                     <p style="text-align: justify;">(<ref target="https://www.trismegistos.org/place/2309"><seg style="text-decoration: underline;">TM Geo 2309</seg></ref>)</p>
+                  </cell>
+                  <cell style="text-align: center;">0</cell>
+                  <cell style="text-align: center;">3,333</cell>
+                  <cell style="text-align: center;">490</cell>
+                  <cell style="text-align: center;">23,500</cell>
+               </row>
+            </table>
+            <p xml:id="p11" style="text-align: justify;">The second document is <ref target="https://papyri.info/ddbdp/p.col%3B9%3B247"><seg style="text-decoration: underline;">P.Col.</seg></ref><ref target="https://papyri.info/ddbdp/p.col%3B9%3B247" xml:space="preserve"> </ref><ref target="https://papyri.info/ddbdp/p.col%3B9%3B247"><seg style="text-decoration: underline;">9 247</seg></ref> (c. AD 324–326), a papyrus codex which records the burden either assigned to or collected from 72 Hermopolite villages for the provision of military garments (<seg style="font-style: italic;">vestis militaris</seg>). While the text lists the types and numbers of the garments assigned to each village, the landowners of the villages in fact paid their contributions in cash. The text records that the provision of 12 items of clothing was imposed on Prektis. According to the editor’s calculation, the monetary value of the clothing in question was 51,500 drachmas (<ref target="https://papyri.info/ddbdp/p.col%3B9%3B247"><seg style="text-decoration: underline;">P.Col.</seg></ref><ref target="https://papyri.info/ddbdp/p.col%3B9%3B247" xml:space="preserve"> </ref><ref target="https://papyri.info/ddbdp/p.col%3B9%3B247"><seg style="text-decoration: underline;">9 247</seg></ref>.258–263). Prektis’s contribution was the fourth largest of the villages in the Hermopolite nome and the second largest in the 13th pagus to which it belonged.<note place="foot" xml:id="ftn19" n="20"><p style="text-align: left;"> Of the 72 villages in <ref target="https://papyri.info/ddbdp/p.col%3B9%3B247"><seg style="text-decoration: underline;">P.Col. 9 247</seg></ref>, with a pair of villages being dealt with in a single entry on two occasions, Kirka (<ref target="https://www.trismegistos.org/place/1107"><seg style="text-decoration: underline;">TM Geo 1107</seg></ref>), in the same pagus as Prektis, pays the most, providing 65,300 drachmas for 15 garments.</p></note></p>
+            <p xml:id="p12" style="text-align: justify;">The third document is <ref target="https://papyri.info/ddbdp/sb%3B16%3B12826"><seg style="text-decoration: underline;">SB 16 12826</seg></ref> (AD 340), a report addressed to the <seg style="font-style: italic;">praepositus pagi </seg>of the 15th pagus. It records payments by seven villages in the pagus. The value is represented in <seg style="font-style: italic;">folles</seg> and <seg style="font-style: italic;">denarii</seg>, one <seg style="font-style: italic;">follis</seg> being 12,500 <seg style="font-style: italic;">denarii</seg>. The komarchs of Prektis were to pay the largest amount out of all the villages, coming to 72 <seg style="font-style: italic;">folles</seg> and an unknown number in <seg style="font-style: italic;">denarii</seg>. These seven villages also appear in the record of the provision of military garments discussed above. The amount of the imposition on these villages is summarised in Table 2 below. While the relative size of tax liability of the villages is not always consistent when comparing the provision of the <seg style="font-style: italic;">vestis militaris</seg> and the requisitions of cash, Prektis’s position remains the same in both cases, providing the largest amount. Prior to the publication of <ref target="https://papyri.info/ddbdp/p.col%3B9%3B247"><seg style="text-decoration: underline;">P.Col. 9 247</seg></ref>, Sijpesteijn had stated that we cannot know the population of Prektis and its neighbouring villages.<note place="foot" xml:id="ftn20" n="21"><p style="text-align: left;"> <ref target="https://papyri.info/biblio/58795"><seg style="text-decoration: underline;">Sijpesteijn 1987</seg></ref>: 379. He also refers to a much less informative short memorandum, <ref target="https://papyri.info/ddbdp/sb%3B14%3B11594"><seg style="text-decoration: underline;">SB 14 11594</seg></ref> (4th c., Hermopolites), in which Prektis is written alongside ‘153 talents 1,000 drachmas’ and Tiberiou epoikion alongside ‘200 talents’. </p></note> While this remains true, the evidence now available permits us to conclude that Prektis had a greater capacity to bear the governmental impositions than its neighbours, probably as a result of a larger population and/or area under cultivation.<note place="foot" xml:id="ftn21" n="22"><p style="text-align: left;"> Worp suggests that Krokodilon should be identified with Tenis/Hakoris (<ref target="https://www.trismegistos.org/place/2309"><seg style="text-decoration: underline;">TM Geo 2309</seg></ref>), a major settlement on the east bank between Minya and Samalut: <ref target="https://papyri.info/biblio/56181"><seg style="text-decoration: underline;">Worp 1983</seg></ref>. As Krokodilon does not appear as a large village in the fourth-century documents, one may doubt this identification. Worp also carefully points out the possibility that Krokodilon was ‘(semi-)independent’ of Tenis/Hakoris, even though they were in the immediate neighbourhood of one another. I wonder if the whole or a part of Tenis/Hakoris and its territory belonged to the Antinoite nome in the fourth century. Alabastron Polis/Alabastrine (<ref target="https://www.trismegistos.org/place/2684"><seg style="text-decoration: underline;">TM Geo 2684</seg></ref>), about 18 km south of Tenis/Hakoris, certainly belonged to the nomarchy of Antinoopolis in the second century AD and became the territory of the Antinoite nome in the fourth century AD: the introduction to P.Würzb. 8; <ref target="https://papyri.info/biblio/81596"><seg style="text-decoration: underline;">Malouta 2012</seg></ref>, 466; <ref target="https://papyri.info/biblio/96468"><seg style="text-decoration: underline;">Eller 2022</seg></ref>, 236. However, there is no textual evidence to show how far the Antinoite nome extended to the north beyond Alabastrine.</p></note></p>
+            <p xml:id="p13" style="text-align: justify;">Table 2: Contribution of Prektis and other villages in <ref target="https://papyri.info/ddbdp/sb%3B16%3B12826"><seg style="text-decoration: underline;">SB 16 12826</seg></ref> and <ref target="https://papyri.info/ddbdp/p.col%3B9%3B247"><seg style="text-decoration: underline;">P.Col. 9 247</seg></ref></p>
+            <table>
+               <row>
+                  <cell style="text-align: left;"/>
+                  <cell style="text-align: justify;">Cash in SB 16 12826</cell>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">Number of garments</p>
+                     <p style="text-align: justify;">in P.Col. 9 247*</p>
+                  </cell>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">Equivalent cash value</p>
+                     <p style="text-align: justify;">in P.Col. 9 247</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">Prektis</cell>
+                  <cell style="text-align: justify;">72 <seg style="font-style: italic;">folles</seg> NN <seg style="font-style: italic;">denarii</seg>
+                  </cell>
+                  <cell style="text-align: justify;">12</cell>
+                  <cell style="text-align: justify;">51,500 drachmas</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">Admenthon </p>
+                     <p style="text-align: justify;">(<ref target="https://www.trismegistos.org/place/8309"><seg style="text-decoration: underline;">TM Geo 8309</seg></ref>)</p>
+                  </cell>
+                  <cell style="text-align: justify;">33 f. 7,500 d.</cell>
+                  <cell style="text-align: justify;">2</cell>
+                  <cell style="text-align: justify;">8,400 dr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">Nache  </p>
+                     <p style="text-align: justify;">(<ref target="https://www.trismegistos.org/place/2955"><seg style="text-decoration: underline;">TM Geo 2955</seg></ref>)</p>
+                  </cell>
+                  <cell style="text-align: justify;">28 f. 2,600 d.</cell>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">1 </p>
+                     <p style="text-align: justify;">(together with Isieion)</p>
+                  </cell>
+                  <cell style="text-align: justify;">4,000 dr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">Psychis (<ref target="https://www.trismegistos.org/place/2946">
+                        <seg style="text-decoration: underline;">TM Geo 2946</seg>
+                     </ref>)</cell>
+                  <cell style="text-align: justify;">19 f. 2,500 d.</cell>
+                  <cell style="text-align: justify;">1</cell>
+                  <cell style="text-align: justify;">3,300 dr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">Krokodilon </p>
+                     <p style="text-align: justify;">(<ref target="https://www.trismegistos.org/place/2309"><seg style="text-decoration: underline;">TM Geo 2309</seg></ref>)</p>
+                  </cell>
+                  <cell style="text-align: justify;">13 f. 6,500 d.</cell>
+                  <cell style="text-align: justify;">2</cell>
+                  <cell style="text-align: justify;">9,400 dr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">
+                     <p style="text-align: justify;">Tiberiou epoikion</p>
+                     <p style="text-align: justify;"> (<ref target="https://www.trismegistos.org/place/7595"><seg style="text-decoration: underline;">TM Geo 7595</seg></ref>)</p>
+                  </cell>
+                  <cell style="text-align: justify;">9 f. 7000 d.</cell>
+                  <cell style="text-align: justify;">2</cell>
+                  <cell style="text-align: justify;">9,400 dr.</cell>
+               </row>
+               <row>
+                  <cell style="text-align: justify;">Isieion (<ref target="https://www.trismegistos.org/place/9923">
+                        <seg style="text-decoration: underline;">TM Geo 9923</seg>
+                     </ref>)</cell>
+                  <cell style="text-align: justify;">3 f. 8,500 d.</cell>
+                  <cell style="text-align: justify;">see Nache above</cell>
+                  <cell style="text-align: left;"/>
+               </row>
+            </table>
+            <p xml:id="p28" style="text-align: justify;">* the number and cash value of garments in P.Col. 9 247 are taken from P.Col. 9 pp.110-113.</p>
+            <p xml:id="p29" style="text-align: justify;"><seg style="font-weight: bold;">Fig. 1</seg>: A map to show ancient sites referred to in this article. Villages neighbouring Prektis mentioned in the 4th-century documents and listed in Tables 1 and 2 are, however, not indicated in the map, except for Krokodilon. Sites whose exact locations are not certain are underlined and placed in approximate locations without dots. The map is created by the author based on the Ancient World Mapping Center, “À-la-carte”. &lt;http://awmc.unc.edu/awmc/applications/alacarte/&gt;[is it better to link this URL to the text ‘the Ancient World Mapping Center, “À-la-carte”’?] [Accessed: September 26, 2023]</p>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96467">
+                        <seg style="text-decoration: underline;">Amélineau, E. (1893)</seg>
+                     </ref> La géographie de l’Égypte à l’époque copte. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/87144">
+                        <seg style="text-decoration: underline;">Ast, R. and Bagnall, R.S. (2015)</seg>
+                     </ref> “New Evidence for the Roman Garrison of Trimithis,” Tyche 30: 1–4.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/10726">
+                        <seg style="text-decoration: underline;">Bagnall, R.S. (1985)</seg>
+                     </ref> Currency and Inflation in Fourth Century Egypt. Atlanta.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96514">
+                        <seg style="text-decoration: underline;">Benaissa, A. (2021)</seg>
+                     </ref> Rural Settlements of the Oxyrhynchite Nome: A Papyrological Survey, Version 3. Köln – Leuven.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/52377">
+                        <seg style="text-decoration: underline;">Bowman, A.K. (1978)</seg>
+                     </ref> “The Military Occupation of Upper Egypt in the Reign of Diocletian,” BASP 15: 25–38. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/55606">
+                        <seg style="text-decoration: underline;">Calderini, Diz.geogr. 3</seg>
+                     </ref> = S. Daris (ed.)  (1978–1983) Dizionario dei nomi geografici e topografici dell’Egitto greco-romano III. Milan.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86498">
+                        <seg style="text-decoration: underline;">Clarysse, W. (2014)</seg>
+                     </ref> “Artabas of Grain or Artabas of Grains,” BASP 51: 101–108. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/80615">
+                        <seg style="text-decoration: underline;">Colin, F. et al. (2012)</seg>
+                     </ref> Baḥariya I. Le fort romain de Qaret el-Toub I. Cairo.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/68957">
+                        <seg style="text-decoration: underline;">Colin, F., Laisney, D. and Marchand, S. (2000)</seg>
+                     </ref> “Qaret el-Toub: un fort romain et une nécropole pharaonique. Prospection archéologique dans l’oasis de Bahariya 1999,” BIFAO 100: 145–192.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96526">
+                        <seg style="text-decoration: underline;">Copt.Enc.</seg>
+                     </ref> = A.S. Atiya (ed.) (1991) The Coptic Encyclopedia. New York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9253">
+                        <seg style="text-decoration: underline;">Drew-Bear, M. (1979)</seg>
+                     </ref> Le Nome Hermopolite: Toponymes et Sites. Missoula.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96468">
+                        <seg style="text-decoration: underline;">Eller, A. (2022)</seg>
+                     </ref> Nomes et toparchies en Égypte gréco-romaine: réalités administratives et géographie religieuse d'Éléphantine à Memphis. Cairo.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/87100">
+                        <seg style="text-decoration: underline;">Kaiser, A.M. (2015)</seg>
+                     </ref> “Egyptian Units and the Reliability of the Notitia Dignitatum, pars Oriens,” Historia 64: 243–261.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96470">
+                        <seg style="text-decoration: underline;">Kessler, D. (1994)</seg>
+                     </ref> “Beiträge zum Verständnis des Obelisken,” in H. Meyer (ed.), Der Obelisk des Antinoos: Eine kommentierte Edition. München: 89–149.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/85223">
+                        <seg style="text-decoration: underline;">Kucera, P. (2012)</seg>
+                     </ref> “Al-Qasr: the Roman Castrum of Dakhleh Oasis,” in R. S. Bagnall, P. Davoli, C. A. Hope, and B. E. Parr (eds.), The Oasis Papers 6. Proceedings of the Sixth International Conference of the Dakhleh Oasis Project. Oxford: 305–316.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/81596">
+                        <seg style="text-decoration: underline;">Malouta, M. (2012)</seg>
+                     </ref> “Antinoopolis and Hermopolis: A Tale of Two Cities,” in P. Schubert (ed), Actes du 26e Congrès international de papyrologie Genève, 16–21 août 2010. Geneva: 463–469.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86147">
+                        <seg style="text-decoration: underline;">Malouta, M. (2016)</seg>
+                     </ref> “Antinoopolis by Land and River,” in T. Derda et al (eds.), Proceedings of the 27th International Congress of Papyrology Warsaw, 29 July – 3 August 2013. Warsaw: 1961–1972.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/70337">
+                        <seg style="text-decoration: underline;">Mitthof, F. (2001)</seg>
+                     </ref> Annona militaris. Die Heeresversorgung im spätantiken Ägypten. Ein Beitrag zur Verwaltungs- und Heeresgeschichte des Römischen Reiches im 3. bis 6. Jh. n. Chr. Firenze.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96469">
+                        <seg style="text-decoration: underline;">Paprocki, M. (2019)</seg>
+                     </ref> Roads in the Deserts of Roman Egypt: Analysis, Atlas, Commentary. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/88598">
+                        <seg style="text-decoration: underline;">Pollard, N. (2013)</seg>
+                     </ref> “Imperatores castra dedicaverunt: Security, Army Bases, and Military Dispositions in Later Roman Egypt (Late Third-Fourth Century),” Journal of Late Antiquity 6: 3–36.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/87749">
+                        <seg style="text-decoration: underline;">Rossi, C. (2012)</seg>
+                     </ref> “Controlling the Borders of the Empire: The Distribution of Late-Roman “Forts” in the Kharga Oasis,” in R. S. Bagnall, P. Davoli, C. A. Hope, and B. E. Parr (eds.), The Oasis Papers 6. Proceedings of the Sixth International Conference of the Dakhleh Oasis Project. Oxford: 331–336.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/58795">
+                        <seg style="text-decoration: underline;">Sijpesteijn, P. (1987)</seg>
+                     </ref> “The Village Prektis,” Hellenika 38: 377–383.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/61874">
+                        <seg style="text-decoration: underline;">Timm, S. (1991)</seg>
+                     </ref> Das christlich-koptische Ägypten in arabischer Zeit. Eine Sammlung christlicher Stätten in Ägypten in arabischer Zeit, Teil 5 (Q-S). Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/4898">
+                        <seg style="text-decoration: underline;">van Berchem, D. (1952)</seg>
+                     </ref> L’armée de Dioclétien et la réforme constantinienne. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56181">
+                        <seg style="text-decoration: underline;">Worp, K.A. (1983)</seg>
+                     </ref> “Hermopolitan Krokodilon Polis: A Note,” ZPE 53: 261–262. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/64457">
+                        <seg style="text-decoration: underline;">Worp, K.A. (1994)</seg>
+                     </ref> “The Notitia Dignitatum and the Geography of Egypt: Observations on Some Military Camps and Place Names in Upper Egypt,” in A. Bülow-Jacobsen (ed.), Proceedings of the 20th International Congress of Papyrologists, Copenhagen, 23–29 August, 1992. Copenhagen: 463–469.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
