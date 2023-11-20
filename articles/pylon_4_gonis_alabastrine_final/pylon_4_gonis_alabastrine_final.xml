@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Antinoite Document of 181–183</title>
+            <author>
+               <name>
+                  <forename>Nikolaos</forename>
+                  <surname>Gonis</surname>
+               </name>
+               <affiliation>University College London</affiliation>
+               <email>n.gonis@ucl.ac.uk</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-11-20T15:07:58Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">An Antinoite Document of 181–183</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="epidoc" subtype="DDB">
+               <div type="introduction">
+                  <p xml:id="p1">The papyrus published in this article was purchased by the British Museum from the Cairo dealer M. Nahman in July 1921. It first became known to the world outside the Museum ninety years ago. H.I. Bell’s publication (<ref target="https://papyri.info/biblio/34376">Bell 1933</ref>) of papyri from Antinoopolis, with references to unpublished papyri that related to this city, prompted a long letter from U. Wilcken on 22.11.33. While working on the future <ref target="https://papyri.info/hgv/17392">P.Würzb. 8</ref> and <ref target="https://papyri.info/hgv/13734">9</ref>, Wilcken had developed a new hypothesis on the administrative status of the region of Antinoopolis, and asked Bell whether there was anything relevant among the London inedita. Bell obliged by supplying information that lent support to Wilcken’s views. Bell’s letter is not available, but Wilcken’s response on 7.1.34 acknowledged it as ‘extraordinarily valuable’ (<seg style="font-style: italic;">außerordentlich wertvoll</seg>) to his work.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: justify; "> The two letters are kept in British Library Add. MS 59522, folios 206–210; I have read them on photocopies. An edition of Wilcken’s letters is in progress (cf. <ref target="https://papyri.info/biblio/86182">Essler 2016</ref>).</p></note> Wilcken went on to mention this exchange in the volume that he sent to the press shortly thereafter (<ref target="https://papyri.info/biblio/3180">P.Würzb.</ref>, p. 55). He paid particular attention to P.Lond. inv. 2269, a second-century document that includes the phrase ἀπὸ Ἀλαβαστρίνης τῆς Ἀντινόου νομαρχίας, offering an additional reference to this nomarchy and a hint to the location of the village of Alabastrine within the older Hermopolite nome (<ref target="https://papyri.info/biblio/3180">P.Würzb.</ref>, pp. 55, 57). Since then, there have been several mentions of this text in scholarly literature, all of which rely on Wilcken’s report, but the papyrus has remained unpublished.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify; "> One other unpublished papyrus mentioned in P.Würzb., viz. P.Lond. inv. 2288, has been edited by Susan Fogarty and will appear in Tyche 38 (2023).</p></note></p>
+                  <p xml:id="p2" style="text-align: justify; ">What remains is the top of the papyrus, with a small part missing on the left side. Two hands are visible. One wrote an address to a <seg style="font-style: italic;">procurator Caesaris</seg> (name lost) by Stephanos son of Apollonios, who originated from Alabastrine in the nomarchy of Antinoopolis (lines 1–2). Another, more compact hand wrote a document that begins with the same Stephanos addressing a nomarch of Antinoopolis (name also lost). This is followed by a reference to the prefect Veturius Macrinus in the dative, which implies that a petition was mentioned and probably appended; cf. the contemporary <ref target="https://papyri.info/hgv/15173">P.Fam.Tebt. 43</ref> (182), a petition to a nomarch of Antinoopolis which includes a petition to an epistrategus. The papyrus breaks off at this point. The two addresses do not appear to be part of one and the same text; nothing seems to have been lost between lines 2 and 3, and the hands are different. Perhaps the first two lines were added to the top margin after the document addressed to the nomarch was written, for whatever reason.</p>
+                  <p xml:id="p3" style="text-align: justify; ">The prefect D. Veturius Macrinus is attested in office between 4 July 181 and April/May 183 (<ref target="https://papyri.info/biblio/96049">Faoro 2015</ref>: 123f.), which provides the basis for the dating of the text. The <seg style="font-style: italic;">procurator Caesaris</seg> may have been a <seg style="font-style: italic;">procurator usiacus</seg>, making this a late instance of the use of this appellation for this official (see 1 n., §*). The text also offers an early reference to the village as Alabastrine, not Alabastron polis (see 2 n. , §*), and is the sole evidence of its position in the Antinoite administrative district (νομαρχία) prior to the late fourth century.</p>
+                  <p xml:id="p4" style="text-align: justify; ">The text is written along the fibres. The papyrus is mounted and the back is presumably blank. There is a sheet join running vertically close to the right edge. The ink traces before it look like offsets.</p>
+                  <table>
+                     <row>
+                        <cell style="text-align: left;">P.Lond. inv. 2269</cell>
+                        <cell style="text-align: center;">23.7 cm (w) × 5 cm (h)</cell>
+                        <cell style="text-align: right;">181–183</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">TM 369456</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Antinoite</cell>
+                     </row>
+                  </table>
+               </div>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">P.Lond. inv. 2269</cell>
+                     <cell style="text-align: center;">23.7 cm (w) × 5 cm (h)</cell>
+                     <cell style="text-align: right;">181–183</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">TM 369456</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">Antinoite</cell>
+                  </row>
+               </table>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p5"><ref>1</ref> ἐπιτρόπῳ̣ τοῦ κυρίου Καίσαρος. P.Lond. inv. 2263, a lease of 99/100, from the same acquisition, is addressed to a procurator (ἐπιτρόπ(ῳ), l. 1) by farmers from Alabastron (Polis) (γεωργῶν ἀπὸ Ἀλαβάϲτρω(ν), l. 2). P.Lond. inv. 2277.4 refers to an <seg style="font-style: italic;">ousia</seg> at Alabastrine in 153/154, suggesting that this may be a <seg style="font-style: italic;">procurator usiacus</seg>; for the address, cf. e.g. <ref target="https://papyri.info/hgv/12602">P.Oxy. 43 3089</ref>.19 (146). If this holds, it represents a survival of the earlier way of referring to this official. <ref target="https://www.trismegistos.org/person/127087">Aelius Socraticus</ref>, attested between 151 and 155, was the last known <seg style="font-style: italic;">procurator usiacus</seg> whose jurisdiction was unspecified, while <ref target="https://papyri.info/hgv/20817">P.Tebt. II 317</ref>.17 (174/175), τοῦ κρατίστου οὐσιακοῦ ἐπιτ[ρό]που, marks a new starting point; see <ref target="https://papyri.info/biblio/76305">Beutler 2007</ref>.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p6"><ref>2</ref> Στεφάνου] Ἀ̣πολλωνίου. Cf. 3. Not known from elsewhere.</p>
+                     <p xml:id="p7">Ἀλαβαστρίνης = <ref target="https://www.trismegistos.org/place/2684">TM Geo 2684</ref>. Cf. 3. This village was located in the northern part of the Hermopolite nome, on the east bank of the Nile; see most recently <ref target="https://papyri.info/biblio/96468">Eller 2022</ref>: 235–236. Third-century documents describe it as part of the Hermopolite nome (<ref target="https://papyri.info/hgv/16347">SB 13 13030</ref>.1–2 [205]; <ref target="https://papyri.info/hgv/22807">P.Lond. 3 1157va.14</ref> [246]; <ref target="https://papyri.info/hgv/18663">P.Stras. 1 5</ref>.8 [262]; <ref target="https://papyri.info/hgv/28913">P.Oslo 3 134</ref>.7 (3rd c.) — see §*), but it belonged to the Antinoite nome in the late fourth and early fifth centuries, and probably later as well: Alabastrine is mentioned in <ref target="https://papyri.info/hgv/97194">SB 26 16491</ref>.19, a tax register of the early eighth century, alongside Antinoite villages. Additionally, there are references to the village in three other fragmentary papyri from the same acquisition in the British Library: P.Lond. inv. 2263.2 (see 1 n., §*), 2276.3 (see Appendix), and 2277.1 (153/154) ἀπὸ Ἀλαβ(αστρίνης), 3 περὶ κωμογρ(αμματείαν) Ἀλαβ(αστρίνης).</p>
+                     <p xml:id="p8"><ref target="https://papyri.info/biblio/9253">Drew-Bear 1979</ref>: 57 suggested that three copies of a census declaration of 161, namely P.Oslo 3 99 = <ref target="https://papyri.info/hgv/14900">SB 20 14668</ref> and P.Mich. inv. 158 = <ref target="https://papyri.info/hgv/14898">SB 20 14666</ref>–<ref target="https://papyri.info/hgv/14899">SB 20 14667</ref>, came from Alabastrine and not from Alabanthis, as previously thought. <ref target="https://papyri.info/biblio/60367">Bagnall 1990</ref>: 9–10 (= BL 9.176) later (re)confirmed the Antinoite origin of this declaration, but without referring to Drew-Bear’s discussion. The declarant recurs in P.Lond. inv. 2277 (153/154); although the name of the village is abbreviated, its association with a group of papyri from Alabastrine is significant. Furthermore, it seems possible to me, on the basis of the online <ref target="http://quod.lib.umich.edu/a/apis/x-1478">image</ref>, to read Ἀλα[βαστρί]ν̣η̣ς intead of Ἀλα[βανθί]δ̣ος in <ref target="https://papyri.info/hgv/14898">SB 20 14666</ref>.ii.2. Another disputed occurrence is <ref target="https://papyri.info/hgv/28913">P.Oslo 3 134</ref>.7 (3rd c.) Ἀλαβαντ̣ί̣δ̣[ος], later read as Ἀλαβασ̣τ̣ρ̣ε̣[ίνης] (BL 8.229–230), probably correctly (see the online <ref target="https://ub-media.uio.no/OPES/jpg/513r.jpg">image</ref>; <ref target="https://papyri.info/biblio/62246">Gagos–van Minnen 1992</ref>: 192 n. 11 = BL 10.134 defended the original reading based on the presumed occurrence of Alabanthis in <ref target="https://papyri.info/hgv/14898">SB 20 14666</ref>–<ref target="https://papyri.info/hgv/14900">SB 20 14668</ref>).</p>
+                     <p xml:id="p9">τῆς Ἀντινόου νομαρχίας: νομαρχίας Ἀντινόου in l. 3. Wilcken’s discussion in <ref target="https://papyri.info/biblio/3180">P.Würzb.</ref>, pp. 53–58, remains useful, but some parts require revision. For example, he posited that the nomarchy was part of the Hermopolite nome, which would explain the shifting administrative affiliation of Alabastrine, but evidence published later suggests otherwise; cf. <ref target="https://papyri.info/biblio/50335">Thomas 1974</ref>: 401. (Wilcken’s assumption that <ref target="https://papyri.info/hgv/11490">P.Iand. 7 140</ref> provided additional support for his ideas relied on readings that were subsequently corrected; see BL 6.57.) For a list of references to the nomarchy, see <ref target="https://papyri.info/biblio/96468">Eller 2022</ref>: 240.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p10"><ref>3</ref> [   ca.10   νομάρ]χ(ῃ) Ἀντινόου πόλεως. Cf. <ref target="https://papyri.info/hgv/15173">P.Fam.Tebt. 43</ref>.19 (182) Ἀρτεμιδώρῳ νομάρχῃ Ἀντινόου πόλεως. On this office, see <ref target="https://papyri.info/biblio/10067">Thomas 1982</ref>: 106, 110; cf. <ref target="https://papyri.info/biblio/96468">Eller 2022</ref>: 238 n. 99.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p11"><ref>4</ref> [   ca.12   Ο]ὐ̣ετουρίῳ Μακρίνῳ̣ [τ]ῷ̣ λαμπροτάτῳ̣ [ἡγε]μ̣όνι δ̣ια̣  ̣  ̣[. A common way of introducing embedded petitions is οὗ ἐπ(ιδ)έδωκα <seg style="font-style: italic;">reference to</seg> <seg style="font-style: italic;">prefect</seg> βιβλιδίου, but this would leave δ̣ια̣  ̣  ̣ unexplained. It is possible that the papyrus had ἐνέτυχον Ο]ὐ̣ετουρίῳ Μακρίνῳ̣ [τ]ῷ̣ λαμπροτάτῳ̣ [ἡγε]μ̣όνι δ̣ιὰ̣ ἀ̣ν̣[αφορίου; for a partial parallel, see <ref target="https://papyri.info/hgv/41706">SB 22 15782</ref>.11 (Ars.; 150/151).</p>
+                  </note>
+               </div>
+            </div>
+            <div type="section">
+               <head>APPENDIX</head>
+               <div type="epidoc" subtype="DDB">
+                  <div type="introduction">
+                     <p xml:id="p12">I publish here a fragmentary papyrus acquired with the one edited above because it may offer the earliest attestation of the toponym ‘Alabastrine’. The document appears to be a petition or possibly a declaration addressed to an authority, but too little has survived to form a coherent narrative. Sarapion, whose name is flanked by blank spaces, would have held an official position; a Roman <seg style="font-style: italic;">nomen gentile</seg> and Sarapion’s function would have been lost to the left and right, respectively. Line 2 contained the name(s) of the petitioner(s), and l. 3 mentions Alabastrine. The text then refers to a separation (l. 4, ἀπη]λλαχότι; cf. l. 7), a 14th year (l. 5), an edict (ll. 6, 10), and perhaps an amount of money (l. 9). The 14th year would be 150/151 if the ruler was Antoninus Pius, although Marcus Aurelius (173/174) or even Hadrian (129/130) may also be considered. <ref target="https://papyri.info/hgv/11490">P.Iand. 7 140</ref> preserves a prefectural edict concerning Antinoites with a covering letter dated to year 14 of Antoninus; however, this may be a mere coincidence.</p>
+                     <p xml:id="p13" style="text-align: justify; ">The text is written along the fibres. The papyrus back is not visible and presumably blank.</p>
+                     <table>
+                        <row>
+                           <cell style="text-align: left;">P.Lond. inv. 2276</cell>
+                           <cell style="text-align: center;">* cm (w) × * cm (h)</cell>
+                           <cell style="text-align: right;">150/151(?)</cell>
+                        </row>
+                        <row>
+                           <cell style="text-align: left;">TM 987704</cell>
+                           <cell style="text-align: left;"/>
+                           <cell style="text-align: right;">Antinoite/Hermopolite</cell>
+                        </row>
+                     </table>
+                  </div>
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">P.Lond. inv. 2276</cell>
+                        <cell style="text-align: center;">* cm (w) × * cm (h)</cell>
+                        <cell style="text-align: right;">150/151(?)</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">TM 987704</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Antinoite/Hermopolite</cell>
+                     </row>
+                  </table>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p14"><ref>1</ref> Σαραπίωνι. The name is not borne by any Hermopolite or Antinoite official attested in or around a 14th year in the second century.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p15"><ref>2</ref> ]λίων Μαξίμου τοῦ̣ [. I have taken ]λίων to be the ending of a name; τοῦ̣ would introduce an alias (τοῦ̣ [καὶ <seg style="font-style: italic;">name</seg>) rather than a grandfather. Alternatively, this could be the ending of a Roman <seg style="font-style: italic;">gentilicium</seg> (e.g. παρὰ Αἰ]λίων) in the plural, followed by either an alias or a name (e.g. Τού̣[ρβωνος).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p16"><ref>3</ref> ἐ]ν Ἀλαβαστρίνῃ ἔτι. It may be that we have to punctuate after ἐ]ν Ἀλαβαστρίνῃ, which would mark the end of the prescript.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p17"><ref>4</ref> εἰς τὸ συν[. An articular infinitive of a compound of συν[.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p18"><ref>6</ref> δ̣ιὰ προστάγματος. Cf. 10 πρ]οστάγματ[.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p19"><ref>7</ref> πρα]γ̣μάτων ἀπηλλ[α-. Cf. <ref target="https://papyri.info/hgv/31352">SB 22 15350</ref>.4 (3rd c.) ἀ̣παλλ[ά]σσων αὐ[τ]ὸν τοῦ πράγματος; <ref target="https://papyri.info/hgv/16559">P.Oxy. 36 2768</ref>.23 (3rd c.) πραγμάτων ἀπαλλάχθαι; <ref target="https://papyri.info/hgv/30721">PSI 7 741</ref>.10 (3rd/4th c.) τὰ πράγματα ἀπαλλάξαι.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p20"><ref>8</ref> τῆς ἐ]μῆς δυνάμεω[ς is an easy guess but would be unparalleled in the papyri.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p21"><ref>11</ref> [.?]λ̣ι̣.2ας φπ[. λ̣ι̣ may also be read as ν̣. φ̣π[, if phi is correctly read (the shape is not common in this period), will be the number 580.</p>
+                     </note>
+                  </div> “Notes on Egyptian Census Declarations, I,” BASP 27: 1–14.</div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/60367">Bagnall, R. S. (1990)</ref> “Notes on Egyptian Census Declarations, I,” BASP 27: 1–14.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/34376">Bell, H.I. (1933)</ref> “Diplomata Antinoitica,” <seg style="font-style: italic;">Aegyptus</seg> 13: 514–528.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/76305">Beutler, F. (2007 [2009])</ref> “Wer war ein <seg style="font-style: italic;">procurator usiacus</seg>? Die Verwaltung des patrimoniums in Ägypten in der ersten Hälfte des 2. Jahrhunderts,” in S. Demougin and X. Loriot (eds), Servir le prince en Égypte. Actes de la table ronde, Paris, 25 novembre 2006 = Cahiers Centre Glotz 18: 67–82.</bibl>
+                  <bibl>
+                     <ref target="http://www.apple.com/uk">Drew-Bear, M. (1979)</ref> Le Nome Hermopolite: Toponymes et Sites, Missoula.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/62246">Gagos, T. – P. van Minnen (1992)</ref> “Documenting the Rural Economy of Byzantine Egypt: Three Papyri from Alabastrine,” JRA 5: 186-202</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96468">Eller, A. (2022)</ref> Nomes et toparchies en Égypte gréco-romaine: réalités administratives et géographie religieuse d'Éléphantine à Memphis. Cairo.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86182">Essler, H. (2016)</ref> “Wilckens Briefe an britische Kollegen,” Pap. Congr. XXVIII: 1351–1363. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96049">Faoro, D. (2015)</ref> I prefetti d’Egitto da Agosto a Commodo. Bologna.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/50335">Thomas, J.D. (1974)</ref> “A New List of Nomes from Oxyrhynchus,” Pap. Congr. XIII: 397–403.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/10067">Thomas, J.D. (1982)</ref> The Epistrategos in Ptolemaic and Roman Egypt. Part 2. The Roman Epistrategos. Opladen.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">369456</idno>
+               <idno type="HGV">369456</idno>
+               <idno type="ddb-filename">pylon.4.9_1</idno>
+               <idno type="ddb-hybrid">pylon;4;9_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Lond. inv. 2269</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">5</measure>
+                              <measure type="width" unit="cm">23.7</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>181-183</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Schreiben</term>
+                  <term n="2">procuartor Caesaris</term>
+                  <term n="3">Nomarch</term>
+                  <term n="4">Präfekt</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.4.9_1</idno>
+               <idno type="ddb-hybrid">pylon;4;9_1</idno>
+               <idno type="HGV">369456</idno>
+               <idno type="TM">369456</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb n="1"/><handShift new="m2"/><gap reason="lost" quantity="12" unit="character" precision="low"/> ἐπιτρόπ<unclear>ῳ</unclear> τοῦ κυρίου Καίσαρος
+<lb n="2"/><supplied reason="lost">παρὰ Στεφάνου</supplied> <unclear>Ἀ</unclear>πολλωνίου ἀπὸ Ἀλαβαστρίνης τῆς Ἀντινόου νομαρχίας
+<lb n="3"/><handShift new="m1"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <expan><supplied reason="lost">νομάρ</supplied>χ<ex>ῃ</ex></expan> Ἀντινόου πόλεως <space extent="unknown" unit="character"/> παρὰ Στεφάνου Ἀπολλωνίου ἀπὸ Ἀλαβαστρίνης νομαρχίας Ἀντινόου
+<lb n="4"/><gap reason="lost" quantity="12" unit="character" precision="low"/> <supplied reason="lost">Ο</supplied><unclear>ὐ</unclear>ετουρίῳ Μακρίν<unclear>ῳ</unclear> <supplied reason="lost">τ</supplied><unclear>ῷ</unclear> λαμπροτάτ<unclear>ῳ</unclear> <supplied reason="lost">ἡγε</supplied><unclear>μ</unclear>όνι <unclear>δ</unclear>ι<unclear>α</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="7" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><unclear>λ</unclear>ων<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/>
+<lb n="5"/><gap reason="lost" quantity="17" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>αυτη<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="7" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>ανδ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">369456</idno>
+               <idno type="TM">369456</idno>
+               <idno type="HGV">369456</idno>
+               <idno type="ddb-hybrid">369456</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+(hand 2) To …, procurator of lord Caesar, from Stephanos, son of Apollonios, from Alabastrine of the nomarchy of Antinoou. 
+ (hand 1) To …, nomarch of the city of Antinoos, from Stephanos, son of Apollonios, from Alabastrine of the nomarchy of Antinoos. … to Veturius Macrinus, the clarissimus prefect, through(?) …
+</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">987704</idno>
+               <idno type="HGV">987704</idno>
+               <idno type="ddb-filename">pylon.4.9_2</idno>
+               <idno type="ddb-hybrid">pylon;4;9_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Lond. inv. 2276</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">x5</measure>
+                              <measure type="width" unit="cm">x6</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>150-151(?)</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Eingabe (?)</term>
+                  <term n="2">Deklaration (?) Geld (?)</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.4.9_2</idno>
+               <idno type="ddb-hybrid">pylon;4;9_2</idno>
+               <idno type="HGV">987704</idno>
+               <idno type="TM">987704</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> Σαραπίωνι <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>λίων Μαξίμου το<unclear>ῦ</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied>ν Ἀλαβαστρίνῃ ἔτι <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀπη</supplied>λλαχότι εἰς τὸ συν<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>τος εἰς τὸ ιδ <expan><ex>ἔτος</ex></expan> ει<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>δ</unclear>ιὰ προστάγματος <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρα</supplied><unclear>γ</unclear>μάτων ἀπηλλ<supplied reason="lost">α</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>μης δυνάμεω<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="9"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character"/>ς</lem><rdg><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">δραχμὰ</supplied>ς</rdg></app> <num value="1000"><choice><reg>χιλίας</reg><orig>χειλίας</orig></choice></num> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρ</supplied>οστάγματ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><unclear>λι</unclear><gap reason="illegible" quantity="2" unit="character"/>ας <num value="580"><unclear>φ</unclear>π<certainty match="../@value" locus="value"/></num> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="line"/> </ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">987704</idno>
+               <idno type="TM">987704</idno>
+               <idno type="HGV">987704</idno>
+               <idno type="ddb-hybrid">987704</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+… to Sarapion … –lion, son of Maximus … at Alabastrine. Still … left(?) for … in/for the 14th year … through an edict … released(?) from troubles … force … one thousand (drachmas?) … edict … 580(?) …
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
