@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Local Will with a “Codicillary” Clause</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>Faculty of Archaeology Department of Papyrology, University of Warsaw</affiliation>
+               <email>gclaytor@gmail.com</email>
+            </author>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Nowak</surname>
+               </name>
+               <affiliation>Faculty of Law and Administration, University of Warsaw</affiliation>
+               <email>m.nowak@wpia.uw.edu.pl</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-11-20T11:27:28Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Local Will with a “Codicillary” Clause</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; text-align: justify;">The papyrus is held at the University of Michigan Library and is part of a small group of papyri “purchased in Egypt during the season 1931/1932.”<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> That is, the University of Michigan’s excavation season in the Fayum, which that winter took place at Soknopaiou Nesos. The purchase was inventoried as P.Mich. inv. 6213–6237.</p></note> The recto is written across the fibers (as commonly for wills: <ref target="https://papyri.info/biblio/9182">Turner 1978</ref>: 43–44) and is incomplete at the top and both sides. The blank space at the bottom is either the lower margin or a space between sections (see below) and contains two lines written upside down in a different hand. This hand seems to match that of the <ref target="https://quod.lib.umich.edu/a/apis/x-14631/6215IV.TIF">verso</ref>, which was turned 90 degrees and reused for a document also written against the fibers; the margins on the left and right of the verso (the right partially filled at the top with a notation) suggest that the papyrus was cut for reuse. The verso text (not published here) is badly preserved due to smudging or purposeful erasure of the text, but it is framed as a day-to-day account with amounts of drachmas. From what remains, the hand does not look later than the second century.</p>
+            <p xml:id="p2" style="text-align: left; text-align: justify;">The recto contains part of a local Greek will (diatheke),<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> See generally <ref target="https://papyri.info/biblio/84731">Nowak 2015</ref>.</p></note> whose main interest lies in the inclusion of a rare “codicillary” clause, which may have been introduced under Roman influence. The date is lost, but the paleography suggests the second half of the second century. The script has the appearance of Turner’s “informal round” category (1987: 21), with similar hands found in <ref target="https://papyri.info/ddbdp/zpe%3B172%3B175_1">P.CtYBR inv. 685</ref> = <ref target="https://papyri.info/biblio/78029">Benaissa 2010</ref> (157–160 or 180–188 CE) and <ref target="https://papyri.info/ddbdp/p.col%3B10%3B267">P.Col. 10 267</ref> (180–192). The latter document is the top part of a will from Oxyrhynchos and close enough in style and physical characteristics that we have considered whether it originally belonged to our document. A close examination, however, reveals consistent differences in certain letter forms, such as the round-bottomed kappa of the Columbia papyrus and particularly its nu in three distinct, straight strokes, whereas the Michigan papyrus has a more cursive nu with a concave second stroke. Palaeography aside, our document should date no later than 212 CE when almost everyone became subject to Roman law as a result of the Constitutio Antoniniana and began to make their wills accordingly. A rough terminus post quem is suggested by the “codicillary” clause itself, which on current evidence first appears in the reign of Antoninus Pius (below). These external clues support the palaeographical dating to the second half of the century. As for provenance, the patterns on which the will is based suggests that it belongs to the group of local wills written in Oxyrhynchos (as does the name of the beneficiary in l. 10), while the hand belongs to the same graphic tradition as <ref target="https://papyri.info/ddbdp/p.col%3B10%3B267">P.Col. 10 267</ref>. All signs thus point to Oxyrhynchos, even if we cannot rule out with certainty an origin in another metropolis of Roman Egypt.</p>
+            <p xml:id="p3" style="text-align: left; text-align: justify;">Missing at the top of the will are the dating clause, introductory formula, and most of the main bequests.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> For the structure of Oxyrhynchite wills, see Nowak 2022: 120–121.</p></note> Since bequests varied in length and detail, it is not possible to estimate how much is missing. It is, however, possible to get a sense of the width of the document through reconstruction of the clauses in ll. 5–6 and 8–9. The reconstructions proposed suggest ca. 69–71 letters are missing in the lacunas between lines, giving overall line lengths on the order of 100 letters. Our reconstruction of these lines is exempli gratia, since the distribution across the lines cannot be determined.</p>
+            <p xml:id="p4" style="text-align: left; text-align: justify;">The preserved text consists of the very end of the main bequests, followed by individualized substitution clauses, the penalty clause, completeness clause, a “codicillary” clause, individual bequests, and the kyria clause. The identity of the testator (or testatrix) is lost, and there are at least three beneficiaries to the will, Apollinarion (relation unknown), a son Sosibios, and another son whose name is damaged (l. 12).</p>
+            <p xml:id="p5" style="text-align: left; text-align: justify;">The kyria clause, the last clause of the body of the will, is followed by a blank space interrupted only by two lines of text written upside down in another hand. If an original will, we would expect the document to contain the following after the main body: a long subscription recapitulating the testamentary provisions; subscriptions of the six witnesses; and a docket written in the same professional hand that wrote the main text. The blank space raises the possibility that nothing further was in fact written.</p>
+            <p xml:id="p6" style="text-align: left; text-align: justify;">If this were the case, P.Mich. inv. 6215i would be either a private copy, such as <ref target="https://papyri.info/ddbdp/psi%3B12%3B1263">PSI 12 1263</ref> (166/7), or a draft, as <ref target="https://papyri.info/ddbdp/p.louvre%3B3%3B192">P. Louvre 3 192</ref> (end 2nd cent.) seems to be. The corrections and superlinear addition as well as the reuse for an account may support this understanding. Although the vast majority of Oxyrhynchite wills are original, most come from a single season of Grenfell and Hunt’s excavations and must have been found together (cf. <ref target="https://papyri.info/biblio/96512">Nowak 2022</ref>), whereas P. Mich. inv. 6215i was acquired on the antiquities market decades later.</p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p7"><ref>1</ref> ] ̣[ ̣ ̣ ̣]ης σκευῶν ἢ ἄλλων [. The first trace is a deep descender going through the upsilon of τελευτήσῃ in the next line, almost reaching the tau of τελευτήσῃ in the line following. For the writing of ]ης, cf. προγεγρ̣αμμ̣έ̣ν̣ης in l. 4 and τῆς in l. 8.</p>
+                     <p xml:id="p8">This phrase must have belonged to the main bequest due to its position before the specific substitution clauses. For references to σκεύη in the bequests of Oxyrhynchite wills, cf. <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B105">P.Oxy. 1 105</ref>.4 and 10; <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B489">P.Oxy. 3 489</ref>.8 and 16; <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B494">494</ref>.9; <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B495">495</ref>.6 and 7; <ref target="https://papyri.info/ddbdp/p.koeln%3B2%3B100">P.K<seg style="text-decoration: underline;">ö</seg>ln 2 100</ref>.13 and 24.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p9">2–4: The final letter of τελευτήσῃ̣ in l. 3 is the result of a scribal correction, perhaps from ν̣ or α̣ι̣. In the second instance of the verb in the next line, the writer appears to have corrected from -της with a final, turned-over sigma, by adding, then retracing for good measure, a final eta. No such modification was made to the third instance, of which only ]σ̣η remains at the beginning of l. 4. Given the subjunctive verbs, the following ἄτεκνον ἢ ἀδιάθετον in ll. 2 and 3 should be in the nominative case on the understanding that they agree with an individual’s name, as in <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B105">P.Oxy. 1 105</ref>.11 (118–138), ἐὰν δ]ὲ ἡ Ἀμμωνοῦς ἄτεκνος καὶ ἀδιάθετος τελευτήσῃ. The -ον endings may have been influenced by the pattern ἐὰν δὲ συμβῇ (PN in the accusative) ἄτεκνον ἢ ἀδιάθετον τελευτῆσαι, especially in view of the possible correction from -αι in l. 2. A less likely explanation for the -ον endings is a protasis such as ἐὰν τὸ τέκνον μου PN ἄτεκνον ἢ ἀδιάθετον τελευτήσῃ. Each of the apodoses in our text begin with the imperative ἔστω (as in <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B105">P.Oxy. 1 105</ref>.11); in ll. 2 and 3, the verb is followed by the beginning of a relative clause (ἃ ἐὰν) serving as the subject, which would have continued in the vein of <ref target="https://papyri.info/ddbdp/p.koeln%3B2%3B100">P.K<seg style="text-decoration: underline;">ö</seg>ln 2 100</ref>.16 (ἔστω ἃ ἐὰν ἀπολίπῃ ἀπὸ τῶν ἐμῶν …), while in l. 4, a genitive of possession immediately follows the verb.</p>
+                     <p xml:id="p10">	These lines contain individual substitution clauses. Unlike the general substitution clause (ἐὰν ζῇ, εἰ δὲ μή, τὰ τούτου τέκνα vel sim.), which is placed much earlier in the text as a part of the appointment of heirs, individualized substitutions occur only sporadically and have no set pattern. Cf. for instance: <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B105">P.Oxy. 1 105</ref>.6, ἐὰν δὲ συμβῇ τὴν Ἀμμωνοῦν ἄτεκνον καὶ ἀδιάθετον τελευτῆσαι, ἔσται τὰ μέρη τῶν ἐνγαίων τοῦ ὁμομητρίου αὐτῆς ἀδελφοῦ Ἀντᾶτος; <ref target="https://papyri.info/ddbdp/p.oxy%3B66%3B4533">P.Oxy. 66 4533</ref>. 5–6, ἐὰ̣ν δὲ μὴ ἔχω τέκνα μόνους τοὺς προγεγραμμέ̣ν̣ο̣υ̣ς̣ ̣ [Ἀ]μόιν ̣ | [καὶ Ζωίλον ἢ τὸν ἀπʼ αὐτῶν περιόντα πάντων ὧν ἐὰν ἀπολίπ]ω̣ καθʼ ὁνδηποτοῦν τρόπον; <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B490">P.Oxy. 3 490</ref>. 6–7, ἐὰν δὲ συμβῇ τὸν Διονύσιον ἄτεκνον καὶ ἀδιάθετον τελευτῆσαι πεμφθήσεται] τὰ ἀπʼ ἐμοῦ εἰς αὐτὸν ἐλευσόμενα [εἰ]ς τοὺς ἔγγιστά μου γένους ὄ̣[ντας]; <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B491">P.Oxy. 3 491</ref>.10: ἐὰν δέ τινι τῶν τριῶν υἱῶν συμβῇ ἀτέκνῳ τελευτῆσαι ἔστω τὸ το[ύ]του μέρος τῶν περιόντων αὐτοῦ ἀδελφῶν ἐξ ἴσου.</p>
+                     <p xml:id="p11">            Here, there are at least three successive substitution clauses, an unusual number. In <ref target="https://papyri.info/ddbdp/p.wisc%3B1%3B13">P.Wisc. 1 13</ref>.7–8, the possible death of one or both of the heirs is handled as follows: ἐάν τις αὐτῶν μεταλλάξῃ ἄτεκνος καὶ ἀδιάθετος, ἔστω τὸ τούτου μέρος] ἐν κ̣λ̣η̣ρονομίας (l. -ᾳ) μ̣ο̣υ̣ τ̣ο̣ῦ̣ ἑτέρ[ου αὐτῶν, ἐὰ]ν δὲ καὶ ὁ ἕτερος ἐπιμ̣ε̣ταλλάξῃ̣, ὃ̣ [μ]ὴ ε̣ἴ̣η, ἄ̣τ̣εκν̣ο̣ς̣ καὶ ἀ̣διάθετ̣ο̣ς, ἔστω δέ τινʼ ἀπολιπεῖν τ̣ῶν ἔ̣γ̣[γιστά] [μου γένους ὄντων, “Should one of them die without children and without a will, his portion of my estate shall belong to the other; should the other one—may it not be! —also die without children and without a will, it shall not be contested that one of my next of kin shall benefit” (translation of ed. pr., lightly modified). </p>
+                     <p xml:id="p12">In our papyrus, we are either dealing with the appointment of a separate substitute for several heirs (scenario 1) or different grades of substitution for one or more heirs (scenario 2), both of which are attested in Greco-Roman Egypt. Scenario 1: ‘I leave NN1 and NN2 as heirs of my belongings. Should NN1 die childless and without a will, his share shall belong to NN3. Should NN2 die childless and without a will, his share shall be of NN4 (such a pattern is attested in a copy of a Roman will, <ref target="https://papyri.info/ddbdp/bgu%3B1%3B326">BGU 1 326</ref> = Colella (forthcoming) no. 14; see Amelotti (1966): 129). Scenario 2: “I leave NN1 as heir of my belongings. Should NN1 die childless and without a will, his share shall belong to NN2. Should NN2 die childless and without a will, her share shall belong to NN3. Should NN3 die childless and without a will, her share shall belong to NN4 (cf. e.g. the Hellenistic <ref target="https://papyri.info/ddbdp/p.petr.2%3B%3B25">P.Petr. 12 25</ref>.27–31 or the Roman testamentum Dasumii [<ref target="https://www.trismegistos.org/text/265642">CIL 6 10229</ref>] with Eck 1978). </p>
+                  </note>
+                  <note>
+                     <p xml:id="p13"><ref>4–6</ref> Following the last substitution clause, the will shifted to the general penalty clause, the extant part of which in l. 5 is exactly paralleled in <ref target="https://papyri.info/ddbdp/p.wisc%3B1%3B13">P.Wisc. 1 13</ref>.8, the basis for our restorations (parallel underlined): μὴ οὔσης μηδενὶ τῷ καθόλου ἐξουσίας παραβαίνειν τι τούτων ἢ χωρὶς] τοῦ τ̣α̣ῦ̣τα μένειν κύρια ἔτι καὶ ἐκτ̣ε̣ί̣[νειν] τ̣ὸν ἐπιχε<seg style="text-decoration: underline;">ιρήσοντα πρὸς ἀ̣θέτησίν τι τ̣ο̣ύ̣τ̣ων ἄγει</seg>ν ἐπ[ί]τιμο̣ν̣ δ̣ραχμὰς χι̣λίας καὶ εἰ̣ς τὸ δημόσιον τὰς ἴσ̣[ας]. Similar constructions are found also in <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B492">P.Oxy. 3 492</ref>.9–10 and <ref target="https://papyri.info/ddbdp/psi%3B12%3B1263">PSI 12 1263</ref>.9–11. For this clause, see <ref target="https://papyri.info/biblio/84731">Nowak 2015</ref>: 200.</p>
+                     <p xml:id="p14">] προκείμ̣ε̣να in l. 6 shows that an additional clause was added to the penalty clause, affirming the validity of the provisions even if attempts were made to break them: for the restoration and parallels cf. <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B491">P.Oxy. 3 491</ref>.11–12; <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B494">P.Oxy. 3 494</ref>.29; <ref target="https://papyri.info/ddbdp/p.oxy%3B66%3B4533">P.Oxy. 66 4533</ref>.8–9; and <ref target="https://papyri.info/ddbdp/zpe%3B207%3B145">P.Oxy. 3 646 descr.</ref>, l. 13, published in Derda and Nowak 2018 (the clause is also fully restored in <ref target="https://papyri.info/ddbdp/p.sijp%3B%3B43">P.Sijp. 43</ref>.15; cf. also the variant found at <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B495">P.Oxy. 3 495</ref>.16); the abbreviated version καὶ μηθὲν ἦσσον is also found (e.g. <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B492">P.Oxy. 3 492</ref>.10 and <ref target="https://papyri.info/ddbdp/psi%3B12%3B1263">PSI 12 1263</ref>.11).</p>
+                     <p xml:id="p15">If the penalty was set at δραχμὰς χιλίας as in <ref target="https://papyri.info/ddbdp/p.wisc%3B1%3B13">P.Wisc. 1 13</ref>.8 (the amount varies, however), our reconstruction would contain 71 letters in the lacuna (cf. the 69 letters reconstructed between ll. 8–9 below).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p16"><ref>6</ref> ἄλλ̣ῳ̣ γ̣ὰ̣ρ̣̣ οὐ̣δενὶ οὐδὲν̣ τῶν ἐ̣[μῶν καταλείπω]. On the completeness clause, see <ref target="https://papyri.info/biblio/84731">Nowak 2015</ref>: 154–155. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p17"><ref>7</ref> This line contains reference to at least two individuals in the dative connected by οὐδέ. A third individual might appear at the end of the line with a name beginning with mu, but there is no article before it, and οὐδεμί̣α̣ν̣ is a possible reading. </p>
+                     <p xml:id="p18">The line might contain individual penalty clauses, introduced, for example, by μὴ ἐξεῖναι: cf. <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B104">P.Oxy. 1 104</ref>.27–30, prohibiting anyone from acting against the testatrix’s son, and <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B105">P.Oxy. 1 105</ref>.7, indicating that the penalty should be paid to a given individual, the testator’s daughter and heir; <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B491/">P.Oxy. 3 491</ref>.7–8, prohibiting heirs to dispose off the inherited property before turning 25 years old. See <ref target="https://papyri.info/biblio/96020">Kreller 1919</ref>: 366–368.</p>
+                     <p xml:id="p19">Usually, however, both individual and general penalty clauses constitute parts of one provision, that is, a prohibition against anyone interfering with the will and individual prohibitions concerning specifics. Here, however, the general penalty clause was already followed by the completeness clause, so perhaps an alternative explanation for this line is needed, such as a continuation of the completeness clause, specifying that certain people were not bequeathed anything other than what was written in the will. Such a provision is, however, not attested elsewhere.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p20"><ref>8–9</ref> What remains of these lines shows that they contained a “codicillary” clause, paralleled in only two other wills from Oxyrhynchos, <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B494">P.Oxy. 3 494</ref>. 25–26 and <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B495">495</ref>. 15–16 (see discussion below). Since our reconstruction of ll. 5–6 has ca. 71 letters in the lacuna, the “codicillary” clause here likely followed <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B495">P.Oxy. 3 495</ref>.15 with the addition of τῶν προκειμένων after ἀφαιρούμενός τι (left out of <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B494">P.Oxy. 3 494</ref>.26): the lacuna between ll. 8 and 9 would thus contain 69 letters.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p21"><ref>9</ref> κ]αὶ ταῦτα ἔστω κύρια ὡ̣ς ἂν [ἐ]ν̣ τ̣α̣ύ̣τ̣ῃ̣ τ̣ῇ δ[ιαθήκῃ ἐγγεγραμμένα ἐστίν. The phrase is similar to that in the two other wills contains this clause: <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B494">P.Oxy. 3 494</ref>.25–26 (καὶ αὐτὰ ἔστω κύρια | ὡς δʼ ε̣ἶν[α]ι̣ τῇ διαθήκῃ ἐ̣ν̣γεγραμμένα) and <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B495">495</ref>.16 (αὐτὰ ἔστω κύρια] ὡς [  ̣ ̣ ̣ ̣ τῇ διαθ]ήκῃ ἐνγεγραμμ[έ]να).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p22"><ref>10</ref> In the second century, the name Sosibios (TM Nam 5932) is found largely in texts from Oxyrhynchos. </p>
+                  </note>
+                  <note>
+                     <p xml:id="p23"><ref>10–12</ref> These lines contain additional provisions, anchored by two appearances of the verb χορηγέω. The verb is used for specific bequests in wills: cf. for example <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B494">P.Oxy. 3 494</ref>.16, where a son was appointed as heir (ll. 11–13), but the wife was given the use and management of the testator’s property until her death (ll. 7–10), but was obliged to pay various burdens and provide determined maintenance to her son (ll. 13–16). </p>
+                  </note>
+                  <note>
+                     <p xml:id="p24"><ref>11</ref> δ]ιαδεξ̣όμενοι (l. διαδεξάμενοι). A previous lambda or perhaps chi was crossed out by a short vertical then rewritten with a tall, narrow xi. There are faint remains of what appears to be a curved stroke atop the following omicron, though not obviously an attempt at changing to alpha (contrast διαδεξαμένους corr. ex -ομένους at <ref target="https://papyri.info/ddbdp/p.oxy%3B66%3B4533">P.Oxy. 66 4533</ref>.6). The clause in this line is reminiscent of the passage loc. cit.: ἐπὶ τῷ τοὺς διαδεξαμένους τὰ ἡμέτερα δοῦναι.</p>
+                  </note>
+               </div>
+            </div>
+            <div type="section">
+               <head>The “Codicillary” Clause (ll. 8–9)</head>
+               <p xml:id="p25" style="text-align: left; text-align: justify;">This clause, found with minor variants at <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B494">P.Oxy. 3 494</ref>.25–26 and <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B495">495</ref>.15–16, allows the testator to make changes to the ekdosimon, or official copy, of their will. The clause is of interest both because it might have been inspired by Roman testamentary practice (as already suggested by <ref target="https://papyri.info/biblio/96515">Arangio-Ruiz 1906</ref>: 129–130) and because, if put into effect, it would undercut the long-established procedure surrounding the deposition and opening of Greek wills at the local agoranomeion.</p>
+               <p xml:id="p26" style="text-align: left; text-align: justify;">Local Greek wills (diathekai) were notarial documents, which were drawn up and stored in a notarial office, generally the agoranomeion located in the metropolis of a nome (<ref target="https://papyri.info/biblio/9194">Wolff 1978</ref>: 23 with n. 62). The testator was given the official ekdosimon, which they entrusted to a private person. Upon the testator’s death, the holder of the ekdosimon would apply to the strategos or other relevant officials to initiate the procedure for opening the original will, as illustrated in the preserved requests from the second century (<ref target="https://papyri.info/ddbdp/p.fouad%3B%3B32">P.Fouad 32</ref>, <ref target="https://papyri.info/ddbdp/p.mert%3B2%3B75">P.Mert. 2 75</ref>, <ref target="https://papyri.info/ddbdp/p.oxy%3B44%3B3166">P.Oxy. 44 3166</ref>).<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Dryton’s wills suggest a similar procedure was on place from at least the middle of the second century BCE (<ref target="https://papyri.info/biblio/89296">Nowak 2012</ref>).</p></note></p>
+               <p xml:id="p27" style="text-align: left; text-align: justify;">Under normal circumstances, a testator intending to change their will had to contact the authorities to do so: <ref target="https://papyri.info/ddbdp/p.cair.preis%3B%3B32">P.Cair.Preis. 1</ref><ref target="https://papyri.info/ddbdp/p.cair.preis%3B%3B32">2 </ref><ref target="https://papyri.info/ddbdp/p.cair.preis%3B%3B32">32</ref>, for instance, an order to the agoranomoi to return a will, was prompted by the testator’s petition and contains his acknowledgement of receipt at the bottom (cf. <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B106">P. Oxy. 1 106</ref>; <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B107">107</ref>; <ref target="https://papyri.info/ddbdp/p.oxy%3B36%3B2759">36 2759</ref>; <ref target="https://papyri.info/ddbdp/sb%3B8%3B9766">SB 8 9766</ref>). The object of the request is the original διαθήκη and removing it served the purpose of revoking the will. This method prevented the ‘collision’ of two wills but required the physical presence of the testator in the agoranomeion (see <ref target="https://papyri.info/biblio/96020">Kreller 1919</ref>: 389–395). As Samuel (1961: 39–42) has pointed out, this method is only attested for Oxyrhynchos in the first half of the second century. Later, we hear of law attributed to Antoninus Pius according to which one could declare their will to be invalid from afar, in case they wished to make another one in a different place (<ref target="https://papyri.info/ddbdp/p.wash.univ%3B1%3B13">P.Wash.Univ. 1 13</ref> and <ref target="https://papyri.info/ddbdp/sb%3B10%3B10280">SB 10 10280</ref> with <ref target="https://papyri.info/biblio/46999">Lewis 1968</ref>). Local testamentary practice in Egypt before 212 CE, therefore, allowed revocation of a will through the notarial office in which it was drawn up.</p>
+               <p xml:id="p28" style="text-align: left; text-align: justify;">Roman wills, in contrast, were fully private deeds, involving no state office, whose validity depending on meeting certain formal requirements (<ref target="https://papyri.info/biblio/84731">Nowak 2015</ref>: 19–71). Changes to a will were made through a codicil, a separate document written by the testator (<ref target="https://papyri.info/biblio/6813">Amelotti 1966</ref>: 163). Such codicils have survived in Egyptian papyri (e.g. <ref target="https://papyri.info/ddbdp/bgu%3B1%3B326">BGU 1 326</ref>.15–21) and in epigraphic material from outside of Egypt (cf. Jones 2004, pp. 95–100). Furthermore, Roman testaments from Egypt often contained the codicillary clause confirming the validity of such additions: e.g. <ref target="https://papyri.info/ddbdp/p.oxy%3B38%3B2857">P.Oxy. 38 2857</ref>.21–26 (the text is that of Colella, forthcoming, no. 4), ll. 21–26: ἐὰν δέ τι μετὰ ταύτην μου | [τὴ]ν̣ διαθήκην πιν̣[α]κ̣είσι κωδικίλλοις χ[ά]ρτῃ ἢ ἄλλῳ τινὶ | [γέ]ν̣ει ὑπʼ ἐμοῦ γεγραμμένον ἢ ὑπογεγραμμένον ἐσφρα|[γισ]μένον τεκαταλε̣[ί]πω, διʼ οὗ δοθῆναί τι ἢ γενέσθαι παρέ̣|χειν τε ἐπιτρέψω κωλύσω τε, ⟦ι⟧ἐν ἴσῳ βέβαιον εἶναι θέλω | ὡς καὶταύτην μου τὴν διαθήκην. For Latin examples see: <ref target="https://papyri.info/ddbdp/chla%3B9%3B399">ChLA 9 399</ref> = Colella, forthcoming, no. 1 or <ref target="https://papyri.info/ddbdp/p.hamb%3B1%3B72">P.Hamb. 1 72 </ref>= Colella, forthcoming, no. 22).</p>
+               <p xml:id="p29" style="text-align: left; text-align: justify;">Although we cannot avoid the impression that the clause in P.Mich. inv. 6215i, <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B494">P.Oxy. 3 494</ref>, and <ref target="https://papyri.info/ddbdp/p.oxy%3B3%3B495">495</ref> was inspired by Roman practice, it differs in one important respect from the Roman codicillary clause: it envisages changes made on a copy of the will itself, whereas the Roman testator could not add anything to his will once it was made, because it was closed and sealed (<ref target="https://papyri.info/biblio/40354">Arangio-Ruiz 1953</ref>). A codicil, therefore, had to be a separate document. Further, it is difficult to see any practical effect of this modified “codicillary” clause, since adding or removing something on the ekdosimon would not affect the content of the sealed will kept in the notary’s office. The influence, then, may have been more stylistic than anything else. Unfortunately, no examples of such local ‘codicils’ are known to us, so we cannot observe how (and whether) the clause was put into effect in relation to the procedure for opening wills.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/6813">Amelotti M. (1966)</ref> Il testamento romano attraverso la prassi documentale. I. Le forme classiche di testamento. Firenze. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96515">Arangio-Ruiz, V. (1906)</ref> La successione testamentaria secondo i papiri greco-egizii. Napoli.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/40354">Arangio-Ruiz, V. (1953)</ref> “Il testamento di Antonio Silvano e il senatoconsulto di Nerone,” in Studi in onore di Emilio Albertario. I: 203–212</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78029">Benaissa, A. (2010)</ref> “Five Leases of the Roman Period,” ZPE 172: 175–182.</bibl>
+                  <bibl>Colella, L.C. (forthcoming) I testamenti dei cittadini romani d’Egitto tra storia sociale e prassi giuridica. Dal I secolo d.C. a Severo Alessandro.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96488">Derda, T. and M. Nowak (2018)</ref> “Will of Ploution, son of Ischyrion, from Oxyrhynchus, a Weaver (?)” ZPE  207: 145–154.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96510">Eck, W. (1978)</ref> “Zum neuen Fragment des sogenannten Testamentum Dasumii,” ZPE 30: 277–95.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96511">Jones, C.P. (2004)</ref> “A Roman Will in Cappadocia”, Epigraphica Anatolica 37: 95–100.<ref target="https://papyri.info/biblio/96020">Kreller H. (1919)</ref> Erbrechtliche Untersuchungen auf Grund der graeco-aegyptischen Papyrusurkunden. Leipzig–Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/46999">Lewis, N. (1968)</ref> “P. bibl. univ. Giss. Inv. 311 reconsidered”, CdE 43: 375–378.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/89296">Nowak, M. (2012)</ref> “Dryton’s wills reconsidered”, RIDA 59: 241–251.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/84731">Nowak, M. (2015)</ref> Wills in the Roman Empire. A Documentary Approach. Warsaw.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96512">Nowak, M. (2022)</ref> “A Will from Sinkepha (Oxyrhynchites) – P. Heid. inv. 939 + PSI V 475,” ZPE 223: 120–130.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/57458">Rupprecht, H.-A. (1985) </ref>“Zum Ehegattenerbrecht nach den Papyri”, BASP 22: 291–295.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/43928">Samuel, A.E. (1961)</ref> “Six papyri from Hamilton College”, JJP 13: 33–51.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9182">Turner, E.G. (1978)</ref> The Terms Recto and Verso. The Anatomy of the Papyrus Roll. Brussels.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/11371">Turner, E.G. (1987)</ref> Greek Manuscripts of the Ancient World, 2nd ed. (P.J. Parson, ed.). London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9194">Wolff, H.J. (1978)</ref> Das Recht der griechischen Papyri Ägytens in der Zeit der Ptolemaeer und des Prinzipats. 2. Band. Organisation und Kontrolle des privaten Rechtsverkehrs. Munich.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Local Will with a “Codicillary” Clause</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">987703</idno>
+               <idno type="HGV">987703</idno>
+               <idno type="ddb-filename">pylon.4.8</idno>
+               <idno type="ddb-hybrid">pylon;4;8</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Mich. 6215i recto</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">7</measure>
+                              <measure type="width" unit="cm">9.9</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>2. Hälfte II</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Testament</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Local Will with a “Codicillary” Clause</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.4.8</idno>
+               <idno type="ddb-hybrid">pylon;4;8</idno>
+               <idno type="HGV">987703</idno>
+               <idno type="TM">987703</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A Local Will with a “Codicillary” Clause</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>     
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/>ης σκευῶν ἢ ἄλλων <gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <subst><add place="inline">τελευτήσ<unclear>ῃ</unclear></add><del rend="corrected"><app type="alternative"><lem>τελευτησ<unclear>ν</unclear></lem><rdg>τελευτῆσ<unclear>αι</unclear></rdg></app></del></subst> ἄτεκνον ἢ ἀδιάθετον, ἔστω ἃ <supplied reason="lost">ἐὰν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <subst><add place="inline">τελευτήσῃ</add><del rend="corrected">τελευτῆς</del></subst> ἄτεκν<supplied reason="lost">ο</supplied>ν ἢ ἀδιά<unclear>θ</unclear>ετον, ἔστω ἃ ἐὰ<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"> τελευτή</supplied><unclear>ση</unclear>, ἔστω τῆς προγεγ<unclear>ρ</unclear>αμμέ<unclear>ν</unclear>ης Ἀπολλωναρίο<supplied reason="lost">υ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐκτείνειν ἐπιχε</supplied><unclear>ι</unclear>ρήσοντα πρὸς ἀθέ<unclear>τησί</unclear>ν τ<unclear>ι</unclear> τούτων ἄγει<supplied reason="lost">ν ἐπίτιμον δραχμὰς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><supplied reason="lost">καὶ εἰς τὸ δημόσιον τὰς ἴσας καὶ μηδὲν ἧσσον κύρια μένειν τὰ</supplied> προκεί<unclear>με</unclear>να. ἄλ<unclear>λῳ</unclear> <unclear>γὰρ</unclear> οὐδενὶ οὐδὲ<unclear>ν</unclear> τῶν <unclear>ἐ</unclear><supplied reason="lost">μῶν καταλείπω</supplied>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>ορι οὐδὲ τῇ Ἀπολλω<unclear>να</unclear>ρίῳ οὐδεμ<gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ν</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8"/><supplied reason="lost">ὅσα δ’ ἂν ὑπὸ τὸ ἐκδόσιμο</supplied><unclear>ν</unclear> τῆς διαθήκης γ<unclear>ράψ</unclear>ω ἤτοι <choice><reg>ἀ<unclear>φ</unclear>αιρούμενος</reg><orig>ἀ<unclear>φ</unclear>αιρο<hi rend="superscript">ό</hi>μενός</orig></choice> τ<supplied reason="lost">ι τῶν προκειμένων ἢ</supplied> 
+<lb n="9"/><supplied reason="lost">προσδιατάσσων ἢ ἑτέροις χαριζόμενος ἢ καὶ ἄλλο τι βουλόμενος κ</supplied>αὶ ταῦτα ἔστω κύρια <unclear>ὡ</unclear>ς ἂν <supplied reason="lost">ἐ</supplied><unclear>ν</unclear> <unclear>ταύτῃ</unclear> <unclear>τ</unclear>ῇ δ<supplied reason="lost">ιαθήκῃ ἐγγεγραμμένα ἐστίν</supplied>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">χορη</supplied><unclear>γ</unclear>ήσει τῷ προτετα<unclear>γ</unclear>μένῳ<hi rend="diaeresis">υ</hi>ἱῷ μου Σωσιβίῳ <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <subst><add place="inline"><choice><reg><supplied reason="lost">δ</supplied>ιαδεξάμενοι</reg><orig><supplied reason="lost">δ</supplied>ιαδεξόμενοι</orig></choice></add><del rend="corrected"><app type="alternative"><lem><supplied reason="lost">δ</supplied>ιαδελομενοι</lem><rdg><supplied reason="lost">δ</supplied>ιαδεχόμενοι</rdg></app></del></subst> δὲ αὐτὴν ὁμοίως χορηγή<unclear>σ</unclear><supplied reason="lost">ουσι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>σ</unclear>θαι τῷ αὐτῷ <unclear>υ</unclear>ἱῷ μο<unclear>υ</unclear> <gap reason="illegible" quantity="9" unit="character"/>ωκ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἡ δι</supplied><unclear>α</unclear>θ<unclear>ήκη</unclear> κυρία. <space extent="unknown" unit="character"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Local Will with a “Codicillary” Clause</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">987703</idno>
+               <idno type="TM">987703</idno>
+               <idno type="HGV">987703</idno>
+               <idno type="ddb-hybrid">987703</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p> 
+“… of implements and other … [If NN] dies childless and without a will, let whatever [I leave … belong to … And if NN] dies childless and without a will, let whatever [I leave … belong to … And if NN] dies, let … belong to the aforementioned Apollonarion … Whoever should attempt to invalidate any of these things [must pay a penalty of X drachmas and an equal amount to the public treasury, and] the aforementioned terms [are nonetheless to be valid. I bequeath] to no one else any of [my] things … [neither] to …tor, nor to Apollonarion … [Whatever] I write [under the copy] of the will, whether removing or adding something [of the aforementioned terms or providing gifts for other people or whatever else I wish,] let these things be valid as if [they were written] in this will … S/he will provide to my aforementioned son Sosibios … Upon receiving it, they will likewise provide … to the same son of mine, NN … The will is valid.”
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
