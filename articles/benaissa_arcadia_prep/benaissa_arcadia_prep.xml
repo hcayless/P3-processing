@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Document in the Bodleian Addressed to the Governor of Arcadia</title>
+            <author>
+               <name>
+                  <forename>Amin</forename>
+                  <surname>Benaissa</surname>
+               </name>
+               <affiliation>University of Oxford</affiliation>
+               <email>amin.benaissa@classics.ox.ac.uk</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-11-21T15:15:15Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">A Document in the Bodleian Addressed to the Governor of Arcadia</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="epidoc" subtype="DDB">
+               <div type="introduction">
+                  <p xml:id="p1">The upper left-hand corner of a document preserving the beginnings of 16 lines, with intact upper (1.5 cm) and left-hand (c. 1.2 cm) margins. A smaller detached fragment with traces of five lines cannot be placed. The writing runs along the fibres. The back is covered by a sheet within the glass frame and is presumably blank.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> I thank Nikolaos Gonis for comments.</p></note></p>
+                  <p xml:id="p2" style="text-align: left; text-align: justify;">The document is addressed by Aurelia Apia, apparently an inhabitant of the village of Ankyron in the Heracleopolite nome, to the office of the governor of Arcadia. It mentions a previous petition to the same authority, a priest, her husband Victor, and a previous judgement. In its phraseology, the body of the document recalls <ref target="http://papyri.info/ddbdp/p.haun%3B3%3B57">P.Haun. 3 57</ref> (412–15?), which is of uncertain provenance but relates to the same province. It is an out-of-court settlement (διάλυσις) of a dispute between a <seg style="font-style: italic;">princeps officii </seg>and a former governor of Arcadia. It opens with a similar reference to a previous petition by the former against the latter submitted to the <seg style="font-style: italic;">praefectus Augustalis</seg>: ἐπειδὴ ἐγὼ ὁ Κύριλλος [ἐνέτυ]χ̣ον τῇ ἐξουσίᾳ τοῦ κυρίου μου τοῦ μεγαλοπρ(επεστάτου) ἐπάρχου Αὐγουσταλί(ου) (3–4); cf. 5–6 below. Furthermore, it uses an identical phrase to refer to the initial decision by the <seg style="font-style: italic;">praefectus Augustalis</seg>: ἀποφάσεως δὲ ἐξενεχθείσης (7); cf. 10 below. A crucial difference is that P.Haun. 57 is concluded between the settling parties and is not addressed to the prefect’s or current governor’s office. It is assumed, however, that the prefect would have been subsequently informed of the settlement, perhaps in a document like ours.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> Cf. the editor’s introd., p. 53: “Man muss annehmen, dass auf den vorliegenden Vergleich zwischen Kyrillos und Serenianos eine Mitteilung an das Gericht folgte, die darauf hinausging, dass die beiden Prozessparteien sich miteinander verständigt hätten und der Kläger (in diesem Falle beide Parteien) demgemäss die Klage fallen lasse. Damit hat allem Anschein nach jedes Gerichtsverfahren aufgehört.”</p></note> There are, in fact, three other papyri addressed more specifically to the bureau (τάξις) of the <seg style="font-style: italic;">princeps officii </seg>of the governor which may be cited as parallels.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> On these and other texts with a similar address, see B. Palme, CPR 24 17 introd. </p></note> One group is formed of <ref target="http://papyri.info/ddbdp/p.oxy%3B16%3B1880">P.Oxy. 16 1880</ref> (427) and <ref target="http://papyri.info/ddbdp/psi%3B10%3B1114">PSI 10 1114</ref> (454, Oxyrhynchus?), both labelled διαλύσεις, which inform the <seg style="font-style: italic;">princeps officii </seg>of the petitioner’s abandonment of legal proceedings against the defendant; the other is <ref target="http://papyri.info/ddbdp/p.oxy%3B16%3B1881">P.Oxy. 16 1881</ref> (427), which declares the defendant’s intention to appear in court and refute the petitioner’s claims (ἀντίρρησις). These documents similarly begin with a reference to the claimant’s previous petition to the governor,<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> <ref target="http://papyri.info/ddbdp/p.oxy%3B16%3B1880">P.Oxy. 1880</ref>.7–8 προσελθὼν τῇ αὐτῇ ἐξουσίᾳ διὰ [λι]βέλλου δόσεως ἤτοι ἐντυχ̣ίας; <ref target="http://papyri.info/ddbdp/p.oxy%3B16%3B1881">P.Oxy. 1881</ref>.8–10 Κύρου … διὰ λιβέλλου δόσεως προσελθόντος τῇ αὐτῇ ἐξουσίᾳ τοῦ αὐτοῦ κυρίου μου τοῦ λαμπροτάτου ἡγεμόνος; <ref target="http://papyri.info/ddbdp/psi%3B10%3B1114">PSI 1114</ref>.5–6 προσελθὼ̣ν τ̣ῇ̣ ἐ̣ξ[ουσ]ί[ᾳ τοῦ αὐτοῦ κυρίου μου (?)] ἄρχοντος ᾐτιασάμην κτλ.</p></note> and <ref target="http://papyri.info/ddbdp/p.oxy%3B16%3B1881">P.Oxy. 1881</ref> and <ref target="http://papyri.info/ddbdp/psi%3B10%3B1114">PSI 1114</ref> also mention the governor’s initial decision in a genitive absolute phrase.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> P.Oxy. 1881.11 καὶ τῆς ἀποφάσεως ἐμφανισθείσης ἡμῖν τῆς βουλομένης; <ref target="http://papyri.info/ddbdp/psi%3B10%3B1114">PSI 1114</ref>.7 καὶ ἀποφάσεως [.</p></note> The Bodleian papyrus therefore probably notifies the governor’s office either of Apia’s settlement with the defendant or of her intention to proceed to a new stage of the judicial procedure.</p>
+                  <p xml:id="p3" style="text-align: left; text-align: justify;">The subject of Apia’s original complaint is uncertain. She was probably a widow (cf. 8–9 n.). <ref target="https://papyri.info/biblio/72883">Bagnall (2004)</ref> has noted that both the frequency and range of women’s engagement in litigation drop sharply after the fourth century, and that almost all women’s petitions from this period involve either “a woman without a husband or a woman litigating with her husband.”<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/72883">Bagnall 2004</ref>: 57.</p></note> Women’s petitions to governors or Augustal prefects also become rare in this period.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> Of the 118 post fourth-century petitions catalogued in <ref target="https://papyri.info/biblio/73111">Fournet and Gascou 2004</ref>, only two are addressed by women to governors, viz. P.Cair.Masp. I <ref target="http://papyri.info/ddbdp/p.cair.masp%3B1%3B67005">67005</ref> and <ref target="http://papyri.info/ddbdp/p.cair.masp%3B1%3B67006r">67006r</ref> (c. 568, Antinoopolis, BL 11.52), both directed to the <seg style="font-style: italic;">dux Thebaidis</seg>. <ref target="http://papyri.info/ddbdp/p.muench%3B3.1%3B79">P.Münch. 3 79</ref> (6th/7th cent., unknown provenance) is addressed to an official with the titles of <seg style="font-style: italic;">gloriosissimus </seg>and <seg style="font-style: italic;">illustris</seg>, who must be a pagarch (this was probably a model text). <ref target="http://papyri.info/ddbdp/p.oxy%3B63%3B4399">P.Oxy. 63 4399</ref> (before 539, BL 13.166) implies a prior petition to the Augustal prefect.</p></note> </p>
+                  <p xml:id="p4" style="text-align: left; text-align: justify;">The document must postdate the creation of the province of Arcadia sometime between 386 and 398.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> See <ref target="https://papyri.info/biblio/67733">Palme 1998</ref>: 127–128, 130. Arcadia is first attested in the papyri in 398 (<ref target="http://papyri.info/ddbdp/p.flor%3B1%3B66">P.Flor. 1 66</ref>.2).</p></note> The hand is in the so-called “Heracleopolite style” and suggests a date not much later than the middle of the fifth century; cf. e.g. <ref target="http://papyri.info/ddbdp/cpr%3B10%3B38">CPR 10 38</ref> (420, Heracleopolis), <ref target="http://papyri.info/ddbdp/stud.pal%3B20%3B123r">SPP 20 123r</ref> (445, Heracleopolis; BL 7.263). Characteristic features include epsilon in the shape of two superimposed curves, alpha with a narrow nose, and avoidance of latinate deltas and h-shaped etas.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;"> On this style, see <ref target="https://papyri.info/biblio/96483">Harrauer and Rom 1984</ref>: 95–96 and <ref target="https://papyri.info/biblio/20986">Harrauer 2010</ref>: 77–78.</p></note></p>
+                  <p xml:id="p5" style="text-align: left; text-align: justify;">According to the Bodleian’s handlist of papyri, the papyrus was “[r]eceived in exchange from the British Museum, 1896,” but there are no further details about its provenance and prior acquisition history.</p>
+                  <table>
+                     <row>
+                        <cell style="text-align: justify;">MS. Gr. class. f. 64 (P)</cell>
+                        <cell style="text-align: center;">7.5 (w) × 11.3 (h)</cell>
+                        <cell style="text-align: right;">First half of fifth century</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Heracleopolite nome</cell>
+                     </row>
+                  </table>
+               </div>
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: justify;">MS. Gr. class. f. 64 (P)</cell>
+                     <cell style="text-align: center;">7.5 (w) × 11.3 (h)</cell>
+                     <cell style="text-align: right;">First half of fifth century</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">Heracleopolite nome</cell>
+                  </row>
+               </table>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p6"><ref>1</ref> τῇ τάξει. Unlike <ref target="http://papyri.info/ddbdp/p.oxy%3B16%3B1880">P.Oxy. 16 1880</ref>, <ref target="http://papyri.info/ddbdp/p.oxy%3B16%3B1881">P.Oxy. 16 1881</ref>, and <ref target="http://papyri.info/ddbdp/psi%3B10%3B1114">PSI 10 1114</ref>, cited in the introduction, our document is broadly addressed to the <seg style="font-style: italic;">officium </seg>of the governor, without specifying an individual addressee within it. Compare <ref target="http://papyri.info/ddbdp/bgu%3B3%3B936">BGU 3 936</ref> (426, Oxyrhynchus), a surety addressed [τ]ῇ τάξι τῆς ἐξουσίας τοῦ κυρίω μου τοῦ μεγαλοπρεπεστάτου ̣ ̣ ̣ ̣ος ἐπαρχίας [Ἀ]ρκαδίας Φλαουίω Ἀριστονίκου Ἀλεξάνδρου            (3–4).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p7"><ref>1–2</ref> τοῦ λαμπροτάτου ἡγεμόνος] ἐπαρχίας Ἀρκαδίας. For a list of known governors of Arcadia in the fifth century, see F. Mitthof, CPR 23 32.1 n. λαμπρότατος is the expected epithet for a <seg style="font-style: italic;">praeses Arcadiae </seg>at this date; see B. Palme, CPR 24 17.2–3 n. The cap of the final sigma of Ἀρκαδίας is extravagantly extended over 2 cm, which suggests that nothing else is written in this line.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p8"><ref>2</ref> ἐπαρχίας Ἀρκαδίας. This nomenclature of the province is typical of the late fourth and fifth centuries before it was replaced by Ἀρκάδων ἐπαρχία in the sixth; see <ref target="https://papyri.info/biblio/66365">Palme 1997</ref> and <ref target="https://papyri.info/biblio/76295">Benaissa 2007</ref>.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p9"><ref>4</ref> τοῦ Ἡρακλεοπολίτου οἴκου. I have not found other instances of <seg style="font-style: italic;">nome adjective</seg> + οἶκος. In connection with a nome, οἶκος ought to designate a large estate (cf. <seg style="font-style: italic;">WB </seg>s.v., nos. 6, 7) that presumably also included areas in other nomes. The reference here is most likely to the <seg style="font-style: italic;">domus divina</seg>, i.e. the imperial estates, though in the fifth century the usual designation is (θειοτάτη) οἰκία; see <ref target="https://papyri.info/biblio/84497">Azzarello (2012)</ref> 6. The terms, however, were later interchangeable. For the <seg style="font-style: italic;">domus divina </seg>in the Heracleopolite nome, cf. <ref target="http://papyri.info/ddbdp/cpr%3B5%3B18">CPR 5 18</ref> (538(?), Heracleopolis), relating to the estate of Theodora, wife of the emperor Justinian, and referring more generally to τῶν ὑπὸ τὴν Ἡρακλέους κτημάτων διαφερόντων τῷ θειοτάτῳ οἴκῳ       (5–6, 7–8). Since τῆς αὐτῆς Ἀγκυρώνων in line 8 implies that the village was previously mentioned, it is tempting to restore ἀπὸ κώμης Ἀγκυρώνων <seg style="font-style: italic;">vel sim. </seg>at the end of line 3. This would imply that the village was wholly part of the imperial domains in this period.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p10"><ref>7</ref> Ἄρωνος: <ref target="http://www.trismegistos.org/name/8275">TM Nam 8275</ref>. There do not seem to be any viable alternative names with such a termination in this period.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p11"><ref>8</ref> τῆς αὐτῆς Ἀγκυρώνων. This is one of the latest papyrological instances of this Heracleopolite village (<ref target="http://www.trismegistos.org/place/182">TM Geo 182</ref>) along with <ref target="http://papyri.info/ddbdp/p.rain.cent%3B%3B101">P.Rain.Cent. 101</ref>.10 (457).<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;"> To judge from a digital image of the papyrus kindly provided by Sophie Kovarik, the editor’s anachronistic [πό]λ̣ε̣ω̣ς̣ cannot be read after Ἀνκυρ(ώνων), nor for that matter can [κώ]μ̣η̣ς̣.</p></note> SPP 3 453.2 (7th/8th cent.) should be excised from <ref target="https://papyri.info/biblio/15230">Falivene 1998</ref>: 41: see the re-edition of this text in <ref target="http://papyri.info/ddbdp/stud.pal%3B3%3B453">SPP 3 2.5 453</ref>.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p12"><ref>8–9</ref> ]|μένου μοι ἀνδρός : e.g. τοῦ ἀπογενο]|μένου μοι  (<seg style="font-style: italic;">l</seg>. μου) ἀνδρός, which would imply that Apia is a widow. For the confusion of dative and genitive pronouns in the papyri, see <ref target="https://papyri.info/biblio/96485">Stolk 2015</ref> and <ref target="https://papyri.info/biblio/96484">Stolk 2017</ref>: 185–187, 190–194.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p13"><ref>3</ref> ]αλεστ ̣[: probably τὸ ἀσφ]αλὲς τ ̣[. The trace before the break, a short upright (η?), excludes ἀσφ]αλεστε̣[ρ- or ἀσφ]αλεστα̣[τ-.</p>
+                  </note>
+               </div> (2012Il dossier della ‘Domus divina’ in Egitto. Berlin–Boston.</div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Document in the Bodleian Addressed to the Governor of Arcadia</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">987705</idno>
+               <idno type="HGV">987705</idno>
+               <idno type="ddb-filename">pylon.4.10</idno>
+               <idno type="ddb-hybrid">pylon;4;10</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">MS. Gr. class. f. 64 (P)</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">11.3</measure>
+                              <measure type="width" unit="cm">7.5</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>1. Hälfte V</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Brief</term>
+                  <term n="2">Aurelia Apia an NN</term>
+                  <term n="3">Eingabe</term>
+                  <term n="4">Urteil</term>
+                  <term n="5">Priester</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A Document in the Bodleian Addressed to the Governor of Arcadia</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.4.10</idno>
+               <idno type="ddb-hybrid">pylon;4;10</idno>
+               <idno type="HGV">987705</idno>
+               <idno type="TM">987705</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A Document in the Bodleian Addressed to the Governor of Arcadia</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+<lb n="1"/>τῇ τάξει τῆς ἐξουσίας τοῦ <unclear>κ</unclear><supplied reason="lost">υρίου</supplied> <supplied reason="lost">μου τοῦ λαμπροτάτου ἡγεμόνος</supplied>
+<lb n="2"/>ἐπαρχίας Ἀρκαδίας <supplied reason="lost"><space extent="unknown" unit="character"/></supplied>
+<lb n="3"/>παρὰ Αὐρηλίας Ἀπίας θυγ<supplied reason="lost">ατρὸς</supplied> <gap reason="lost" quantity="25" unit="character" precision="low"/>
+<lb n="4"/>τοῦ Ἡρακλεοπολίτου οἴκου <gap reason="lost" quantity="30" unit="character" precision="low"/>
+<lb n="5"/>ἐπειδὴ ἐνέτυχον τῇ ἐξουσίᾳ <supplied reason="lost">τοῦ κυρίου μου τοῦ λαμπροτάτου</supplied> <supplied reason="lost">ἡγεμό</supplied>
+<lb n="6" break="no"/>νος ἐπαρχίας Ἀρκαδίας Φλ<unclear>α</unclear><supplied reason="lost">ουΐου</supplied> <gap reason="lost" quantity="25" unit="character" precision="low"/>
+<lb n="7"/>Ἄρωνος Παύλου π<unclear>ρ</unclear>εσβυτέ<supplied reason="lost">ρου</supplied> <gap reason="lost" quantity="27" unit="character" precision="low"/>
+<lb n="8"/>τῆς αὐτῆς Ἀγκυρώνων πρε<gap reason="lost" quantity="30" unit="character" precision="low"/>
+<lb n="9"/>μένου <choice><reg cert="low">μου</reg><orig>μοι</orig></choice> ἀνδρὸς Οὐ<hi rend="diaeresis">ί</hi>κτορ<unclear>ο</unclear><supplied reason="lost">ς</supplied> <gap reason="lost" quantity="30" unit="character" precision="low"/>
+<lb n="10"/>ἀποφάσεως ἐξενεχθ<unclear>ε</unclear><supplied reason="lost">ίσης</supplied> <gap reason="lost" quantity="27" unit="character" precision="low"/>
+<lb n="11"/>αὐτὸν χωρηγῆσαι <unclear>π</unclear><gap reason="lost" quantity="34" unit="character" precision="low"/>
+<lb n="12"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ου Φ<supplied reason="lost">ο</supplied>ιβάμ<unclear>μ</unclear><supplied reason="lost">ων</supplied> <gap reason="lost" quantity="30" unit="character" precision="low"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab>
+<div n="2" subtype="fragment" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">τ</supplied>εταγμέ<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>αλεστ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀ</supplied><unclear>π</unclear>ὸ ὁμ<unclear>ολ</unclear><supplied reason="lost">ογίας</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>	</div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A Document in the Bodleian Addressed to the Governor of Arcadia</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">987705</idno>
+               <idno type="TM">987705</idno>
+               <idno type="HGV">987705</idno>
+               <idno type="ddb-hybrid">987705</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+“To the office of his Highness [my lord the governor] of the province of Arcadia, from Aurelia Apia daughter [of N.N. from the village of Ankyron (?)] of the Heracleopolite household … Since I petitioned his Highness [my lord the governor] of the province of Arcadia, Flavius [N.N., vir clarissimus,] … Aron son of Paulus, priest … from/of the said Ankyron … my late (?) husband Victor … the judgement having been declared … that he provide … Phoebammon …”
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
