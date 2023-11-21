@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Two Ptolemaic Tax Receipts at University College Dublin</title>
+            <author>
+               <name>
+                  <forename>Todd M.</forename>
+                  <surname>Hickey</surname>
+               </name>
+               <affiliation>Center for the Tebtunis Papyri, University of California, Berkeley</affiliation>
+               <email>tmhickey@berkeley.edu</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023-11-21</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-11-21T21:11:57Z</date>
+               <name>Todd Hickey</name>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Two Ptolemaic Tax Receipts at University College Dublin</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">#acknowledgements</p>
+            <p xml:id="p2">I remain grateful to Jo Day for her generous assistance both during my visit to Belfield to study the UCD collection and afterwards. The photographs of the ostraka were taken by Anna Basquel, whom I thank along with Amin Benaissa, who kindly provided a scan of <ref target="https://papyri.info/biblio/96435">Browne 1913</ref>, and the reviewers for this journal, who offered some helpful suggestions; any deficiencies that remain are my own. Dates of ostraka and papyri without further specification are “BC.” Additional material from the UCD collection is slated to be published by Paul Heilporn and Brian McGing (cf. <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 173 n. 635).</p>
+            <div type="introduction">
+               <p xml:id="p3">The Classical Museum at University College Dublin includes a small collection of papyrological material, both papyri and ostraka. The former were presented to the Museum by Frederic Kenyon “from surplus of the British Museum collection,”<note place="foot" xml:id="ftn2" n="1"><p> <ref target="https://papyri.info/biblio/96435">Browne 1913</ref>: 14; he localizes them to the Fayyūm on p. 20. Cf. <ref target="https://papyri.info/biblio/96426">Haywood 2003</ref>: 16, “fragments of papyri from Fayum … given by the British Museum. The Archives Department, UCD, also own Petrie papyri from Oxyrhynchus.” (This second group was a prompt for my visit, but I could not find it. One of three fragments labeled “Archives” clearly comes from the fourth-century AD Hermopolite; another, dating to the third century BC, is unlikely to be of Oxyrhynchite origin.) Note also <ref target="https://papyri.info/biblio/14068">McGing 1995 </ref>: ix, where the UCD papyri, “a few very fragmentary pieces,” are associated, but only “probably,” with Flinders Petrie. For Kenyon (1863–1952), see <ref target="https://papyri.info/biblio/40004">Bell 1952</ref>; Petrie (1853–1942), <ref target="https://papyri.info/biblio/96267">Bierbrier 2019</ref>: 363‒365, and refs.</p></note> while the latter, “11 Ostraka, fragments with Greek Script,” have long been associated with “Flinders Petrie’s excavations in Egypt.”<note place="foot" xml:id="ftn3" n="2"><p> Thus already <ref target="https://papyri.info/biblio/96435">Browne 1913</ref>: 13.</p></note> Their immediate source, however, was Belfast, and specifically Kingdon Tregosse Frost, who in 1909 had been hired as lecturer and tasked with creating a new Department of Archaeology and Ancient History within the School of Classics at The Queen’s University.<note place="foot" xml:id="ftn4" n="3"><p> Cf. <ref target="https://papyri.info/biblio/96426">Haywood 2003</ref>: 17, “[T]he objects catalogued by him [Henry Browne] as ‘Petrie’ came from Queens. Among these are the ostraka …” For Frost (1877–1914), see <ref target="https://papyri.info/biblio/96423">Dunlop 2000</ref> and <ref target="https://papyri.info/biblio/96425">Dunlop 2007</ref>; he died in battle on the second day of the British Expeditionary Force’s action in France, 24 August.</p></note> Though Frost had excavated with Petrie in Sinai (1904/1905),<note place="foot" xml:id="ftn5" n="4"><p> See <ref target="https://papyri.info/biblio/96429">Petrie 1906</ref>: x, “Mr. Frost, December 3rd to February 7th.” Note also the brief mention in the autobiographical <ref target="https://papyri.info/biblio/96430">Petrie 1932</ref>: 207, “K. Frost, who was killed … running a machine-gun single-handed, and given a military funeral by the Germans.”</p></note> this fieldwork surely was not the source of the ostraka, but time spent in Egypt before and after that campaign, as well as Frost’s subsequent work as a lecturer in ancient and medieval history with the Egyptian government in the Department of Public Instruction (1905‒1908), would have afforded occasions to make purchases.<note place="foot" xml:id="ftn6" n="5"><p> See <ref target="https://papyri.info/biblio/96423">Dunlop 2000</ref>: 2‒3. </p></note> Whether any were transacted during these periods is unknown, while it is clear that the ostraka that Frost acquired for the Archaeological Museum and Teaching Collection that he established after moving to Queen’s were obtained only in 1910, on a trip to London; in a 10 January letter written during that visit to his new Belfast colleague Robert Henry Mitchell, he declares, “I have some Greek ostraka and the prospect of more and better: also some Demotic ostraka.”<note place="foot" xml:id="ftn7" n="6"><p> <ref target="https://papyri.info/biblio/96422">Dunlop et al. 2004</ref>: 130.</p></note> This statement is ambiguous, seeming to imply either two sources—if in fact the unelaborated “prospect” bore fruit<note place="foot" xml:id="ftn8" n="7"><p> Since there seem to be no demotic sherds in Belfast, it may not have. <ref target="https://papyri.info/biblio/96431">Russell 1969</ref>: 109 mentions “several ostraka with Coptic graffiti”—a mistake for “Greek”?</p></note>—or a single source who might be convinced to provide additional sherds.<note place="foot" xml:id="ftn9" n="8"><p> Or could Frost have meant three sources, one for the “Greek,” one for the “more and better,” and one for the “Demotic”?</p></note> One definite source, in any case, was J. G. Milne, who, in tandem with C. T. Currelly, had made a large purchase of ostraka in 1906.<note place="foot" xml:id="ftn10" n="9"><p> For Milne (1867‒1951), see <ref target="https://papyri.info/biblio/96267">Bierbrier 2019</ref>: 319; Currelly (1876‒1957), <ref target="https://papyri.info/biblio/96267">Bierbrier 2019</ref>: 116. In 1905/1906, they were working for the Egypt Exploration Fund at Dayr al-Baḥrī. Cf. <ref target="https://papyri.info/biblio/8754">Bagnall and Samuel 1976</ref>: xi for the acquisition of the ostraka.</p></note> J. G. Tait identifies Milne as the (sole) source of the Belfast ostraka that he publishes in O.Bodl. 1,<note place="foot" xml:id="ftn11" n="10"><p> <ref target="https://papyri.info/biblio/95300">Tait 1930</ref>: 176 (“given by Milne”). The preface in <ref target="https://papyri.info/biblio/95306">Gardiner et al. 1913</ref> does not contradict this; there Currelly notes that “about half the texts included in this volume will be found in the Royal Ontario Museum of Archaeology at Toronto, while <seg style="font-style: italic;">most</seg> of the remainder will, I understand, be deposited in the Bodleian Library at Oxford” (my emphasis). Cf. also <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 16‒17 (“[L]e savant anglais [Milne] dispersa également un certain nombre de pièces au sein de ce qui était alors l’empire britannique.”).</p></note> and Frost not only knew Milne but in fact was based at Milne’s home during his London “shopping spree.”<note place="foot" xml:id="ftn12" n="11"><p> <ref target="https://papyri.info/biblio/96422">Dunlop et al. 2004</ref>: 130‒132. Frost had worked with Currelly as well during Petrie’s Sinai season (<ref target="https://papyri.info/biblio/96429">Petrie 1906</ref>: x) and had accompanied him after he peeled off to excavate for the Egyptian Research Account at Tall al-Mashkhūţah (cf. <ref target="https://papyri.info/biblio/96428">Milne 1911</ref>: 31); note also <ref target="https://papyri.info/biblio/96434">Currelly 1956</ref>: 215, “[m]y friend Frost.” The ostraka given by Milne were presumably not yet in hand when Frost prepared his 16 May 1910 catalogue of the Belfast collection (reproduced in <ref target="https://papyri.info/biblio/96422">Dunlop et al. 2004</ref>: 133‒136). My efforts to determine the current whereabouts of the Belfast ostraka have not been successful.</p></note> </p>
+               <p xml:id="p4">	On the basis of textual content and handwriting, it has already been suggested that at least one of the Dublin ostraka also came originally from Milne.<note place="foot" xml:id="ftn13" n="12"><p> See <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 16‒17 (“peut-être”) and esp. 173, where no identification is given, but the author confirms for me (pers. comm., 15 August 2023) that UCD inv. 1649 is meant.</p></note> The object in question, which bears a stamp label with the designation “G. [= Greek] 302,” happens, moreover, to be marked identically to sherds from the Milne-Currelly purchase that were published in O.Theb.,<note place="foot" xml:id="ftn14" n="13"><p> See <ref target="https://papyri.info/biblio/95306">Gardiner et al. 1913</ref>: 71‒161; the “G-numbers” are within parentheses following the publication numbers. The preface of the volume indicates that they were assigned before the division of the collection. For a label comparable to the one on the UCD sherd, see <ref target="https://collections.rom.on.ca/objects/380620/">https://collections.rom.on.ca/objects/380620/</ref> (= <ref target="https://papyri.info/ddbdp/o.ont.mus;1;47">O.Ont. Mus. 1 47  </ref>; the stamp itself is identical, but the Toronto numeral has been circled).</p></note> and in this it is not an outlier, for three other Dublin ostraka have stamp labels indicating the same origin.<note place="foot" xml:id="ftn15" n="14"><p> UCD inv. 1648 (“G. 193.”), 1650 (“G. 185.”), 1658 (“G. 306”). The first of these bears the inscription “LUXOR | 31·12·’05,” suggesting that the 1906 purchase date reported in the preface of <ref target="https://papyri.info/biblio/95306">Gardiner et al. 1913</ref> needs slight modification.</p></note> There are, however, an additional seven sherds without the stamps, and given that four of these are attributed to “Petrie” in a 2003 exhibition booklet,<note place="foot" xml:id="ftn16" n="15"><p> <ref target="https://papyri.info/biblio/96426">Haywood 2003</ref>: 32.</p></note> it is tempting to suggest that these pieces, which include the two edited below, come from that source. But there are reasons to doubt this. For one, it is clear that not all of the Milne-Currelly sherds received stamp labels.<note place="foot" xml:id="ftn17" n="16"><p> “G-numbers” may have been assigned only to those sherds thought worthy of potential inclusion in <ref target="https://papyri.info/biblio/95306">Gardiner et al. 1913</ref>. Cf. <ref target="https://papyri.info/biblio/86777">Ryholt 2013</ref>: 233 on Grenfell and Hunt’s “T-numbers,” not all of which ended up applied to papyri that were published in <ref target="https://papyri.info/biblio/95393">Grenfell et al. 1907</ref>: “little more than an attempt … to provide larger or more interesting fragments with a reference number.” The majority of the ostraka from the Milne-Currelly purchase that are viewable in the Royal Ontario Museum’s collections portal, <ref target="https://collections.rom.on.ca/">https://collections.rom.on.ca</ref>, lack these numbered stamp labels.</p></note> More tellingly, one of the unlabeled sherds, UCD inv. 1654, is a granary receipt pertaining to the descendants of Horos, son of Spotous, and all but one of these receipts derive from the Milne-Currelly purchase,<note place="foot" xml:id="ftn18" n="17"><p> Cf. <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 140, 146. The outlier is in Strasbourg; for the association of its purchase with that of Milne and Currelly, see idem, 14‒15.</p></note> including one that Frost acquired for Belfast, <ref target="https://papyri.info/ddbdp/o.minor;;D12">O.Minor D 12</ref>.<note place="foot" xml:id="ftn19" n="18"><p> The connection of UCD inv. 1653, the second sherd edited below, with <ref target="https://papyri.info/ddbdp/o.heid;;15">O.Heid. 15</ref> may also be noted; <ref target="https://papyri.info/biblio/20775">Heilporn 2009</ref>: 15 offers a link between O.Heid. and the Milne-Currelly ostraka.</p></note> In short, until evidence to the contrary emerges, it seems prudent to attribute all of the Dublin sherds to Milne, and to ascribe the Petrie association to miscommunication or misunderstanding, confusion already present shortly after their accession by the then Museum of Ancient History.<note place="foot" xml:id="ftn20" n="19"><p> See <ref target="#fn2">n. 2</ref> above.</p></note></p>
+            </div>
+            <div type="section">
+               <head>1. <seg style="font-style: italic;">apomoira</seg> receipt</head>
+               <div type="epidoc" subtype="DDB">
+                  <head>#papyrologicalHeader</head>
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">UCD inv. 1652</cell>
+                        <cell style="text-align: center;">5.5 (w) × 5.9 (h) × .7 (t) cm</cell>
+                        <cell style="text-align: right;">136/135?</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Diospolis Magna (Thebes)</cell>
+                     </row>
+                  </table>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p5"><ref>1</ref> ἔτους: This may well have been written in symbol form; cf., e.g., <ref target="https://papyri.info/ddbdp/o.bodl;1;68">O.Bodl. 1 68 </ref> (140), a receipt from the same banker.</p>
+                        <p xml:id="p6">Payment of the in-kind <seg style="font-style: italic;">apomoira</seg> followed on the vintage; cf., e.g., <ref target="https://papyri.info/biblio/20260">Von Reden 2007</ref>: 101 n. 71, “[A]ll <seg style="font-style: italic;">apomoira</seg> wine was new,” as well as <ref target="https://papyri.info/biblio/82396">Thomas 2012</ref>: 213, “after the harvest … between mid-July and late September.” Receipts for the adaerated tax cluster in the six-month period from Mesore through Tybi (July/August‒December/January); cf. <ref target="https://papyri.info/biblio/95047">Schubart and Kühn 1922</ref>: 108, and note <ref target="https://papyri.info/biblio/67075">Clarysse and Vandorpe 1997</ref>: 69 and n. 3, with the bulk of the inflows in the text under discussion there falling between Thoth (August/September) and Mecheir (January/February) inclusive. Later payments are hardly unknown, though, nor are ones attesting payment in subsequent regnal years; for the latter, cf., e.g., <ref target="https://papyri.info/ddbdp/o.edfou;3;350">O.Edfou 3 350 </ref>. In short, though λε is the likely restoration of the year, it is not certain, hence the querying of the corresponding date in the edition header.    </p>
+                        <p xml:id="p7">The month name need not have been written in full. Given the apparently limited space available for it, it seems doubtful that the day numeral included a tens digit.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p8"><ref>2</ref> [ἐν Διὸς πόλει τῆ]ι με(γάληι): It has been suggested that ἐν is omitted in <ref target="https://papyri.info/ddbdp/sb;16;12349">SB 16 12349 </ref>.1 (126), a sherd for the same tax and from the same banker, but the plate depicting it in the ed. pr. does not allow confirmation. πόλει could have appeared as πόλ(ει), with the letters stacked <seg style="font-style: italic;">omicron</seg>-<seg style="font-style: italic;">pi</seg>-<seg style="font-style: italic;">lambda</seg> (bottom to top); cf. the writing in UCD inv. <ref target="#ed2ln2">1653.2</ref> below.</p>
+                        <p xml:id="p9">Ἡρακλεί̣δ̣η̣`ς̣´: The name has been compressed to fit the space at the end of the line, with the final <seg style="font-style: italic;">sigma</seg> apparently superscript. For the banker Herakleides (fl. 140‒126), see <ref target="https://papyri.info/biblio/63732">Bogaert 1994</ref>: 265‒267, 274; <ref target="https://papyri.info/ddbdp/o.ashm.shelt;;3">O.Ashm. Shelt. 3</ref> (139) and <ref target="https://papyri.info/ddbdp/sb;20;15119">SB 20 15119</ref> (ca. 140‒131) are subsequent additions to his dossier.</p>
+                        <p xml:id="p10"><ref target="mailto:https://papyri.info/biblio/63732">Bogaert 1994 </ref> notes the appearance of a “simplified formula” (p. 267: “l’élément ἐφ’ ἧς suivi du nom de trapézite a disparu”) in the receipts of Herakleides beginning in 130. That formula’s absence here provides confirmation for the difficult reading of the year numeral in l. 3; in other words, μ (40), which when combined with πέμπτου yields a date of 126/125, cannot be read.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p11"><ref>3</ref> [ἀπο]μοίρας: On a “regular” sherd (cf. introduction above), the missing ἀπο- must have been written in elongated form (or possibly the writing space was not entirely usable). That an abbreviation of τραπεζίτης followed Ηρακλεί̣δ̣η`ς̣´ is unlikely, as is the presence of another tax; though the <seg style="font-style: italic;">eparourion</seg> frequently appears alongside the <seg style="font-style: italic;">apomoira</seg> in Theban tax receipts, the latter invariably comes first.</p>
+                        <p xml:id="p12">πέμπτου καὶ̣ λ̣: for the combination (i.e., ordinal word and numeral), cf., e.g., <ref target="https://papyri.info/ddbdp/o.bodl;1;69">O.Bodl. 1 69 </ref>.1‒2 (138; banker Herakleides), ἀπομοί(ρας) τῶν ἄλλων χωρίων δευτέρου καὶ λ (ἔτους); <ref target="https://papyri.info/ddbdp/o.bodl;1;83">O.Bodl. 1.83</ref>.2‒3 (118), ἀπ̣ο̣μ̣ο̣ί(ρας) καὶ ἐ̣π̣α̣ρ̣ο̣υ̣(ρίου) [δ]ευτέρου καὶ ν (ἔτους); <ref target="https://papyri.info/ddbdp/o.deiss;;1">O.Deiss. 1</ref>.3 (123), ἀπ(ομ)οί(ρας) ὀγδόου καὶ μ (ἔτους); <ref target="https://papyri.info/ddbdp/sb;16;12352">SB 16 12352 </ref>.2 (122), ἀπομο(ίρας) ἐνά(του) καὶ μ (ἔτους). </p>
+                     </note>
+                     <note>
+                        <p xml:id="p13"><ref>4</ref> Even if it is assumed that the fabric of the sherd flared out (cf. <ref target="#p">next note</ref>), there seems little room for a name plus patronym. The most plausible suggestion is that no patronym was present, as in <ref target="https://papyri.info/ddbdp/o.bodl;1;68">O.Bodl. 1.68</ref>.3 (140), where only Πτόλλις appeared. [Πτόλλ]ι̣ς or [Πτόλ]ι̣ς is also conceivable here, and its supplementation would seem to receive support from the Oxford ostrakon’s shared association with Herakleides. [ὁ αὐτ]ό̣ς (cf. <ref target="https://papyri.info/ddbdp/o.wilck;;1526">O.Wilck. 1526</ref>.5; 122) is dubious without a preceding statement of the name. [οἱ ἱερε]ῖ̣ς (cf. <ref target="https://papyri.info/ddbdp/o.bodl;1;72">O.Bodl. 1 72 </ref>.3; 138/137) could fit, but the lack of further specification (e.g., τοῦ Ἄμμωνος) as well as an agent (διὰ κτλ.) gives pause.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p14"><ref>5</ref> [πεντακοσ]ίας: The supplement, confirmed by the figure in the next line, appears long unless the sherd flared out at its bottom left or the word was written in compressed or abbreviated form. For the last of these possibilities, which also seems least likely, cf. <ref target="https://papyri.info/ddbdp/o.edfou;2;243">O.Edfou 2 243 </ref>.5 (111), πεν(τα)κοσίας and <ref target="https://papyri.info/ddbdp/psi;7;820">PSI 7 820 </ref>.63 (AD 314), πεντασίας, l. πεντα⟨κο⟩σίας.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p15"><ref>7</ref> ᾿Δω: For the supplement of 5.49%, comparable to surcharges during this period for taxes, such as the <seg style="font-style: italic;">apomoira</seg>, that were assessed in bronze, see <ref target="https://papyri.info/biblio/96421">Milne 1925</ref>: 277‒279 and <ref target="https://papyri.info/biblio/14469">Maresch 1996</ref>: 94 (“auf Spesen”). </p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>2. <seg style="font-style: italic;">epigraphē</seg> receipt</head>
+               <div type="epidoc" subtype="DDB">
+                  <head>#papyrologicalHeader</head>
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;">UCD inv. 1653</cell>
+                        <cell style="text-align: center;">8.7 (w) × 7.5 (h) × 1.0 (t) cm</cell>
+                        <cell style="text-align: right;">6? September 120</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Diospolis Magna (Thebes)</cell>
+                     </row>
+                  </table>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p16"><ref>1</ref> Μεσορη: The month in which the <seg style="font-style: italic;">epigraphē</seg> was most frequently paid; cf. <ref target="https://papyri.info/ddbdp/o.petr.mus;;91">O.Petr. Mus. 91</ref>, 1n. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p17"><ref>2</ref> πόλ(ει)—stacked <seg style="font-style: italic;">omicron</seg>-<seg style="font-style: italic;">pi</seg>-<seg style="font-style: italic;">lambda</seg> from bottom to top—με(γάληι)—written as a symbol—and τόπ(ου)—stacked <seg style="font-style: italic;">tau</seg>-<seg style="font-style: italic;">omicron</seg>-<seg style="font-style: italic;">pi</seg> from bottom to top—are rendered identically in <ref target="https://papyri.info/ddbdp/o.heid;;15">O.Heid. 15</ref> (125/115); for additional discussion, see 3n. there. </p>
+                        <p xml:id="p18">ν (ἔτους): For the identification of the tax year without preceding τοῦ or εἰς τό, see <ref target="https://papyri.info/biblio/7248">Packman 1968</ref>: 52 (associating the practice with the signatory in l. 4).</p>
+                        <p xml:id="p19">ὑπὲρ τ̣ο̣ῦ τόπ(ου): For discussion of this phrase, in which the article τοῦ can also be omitted, and its meaning, see <ref target="https://papyri.info/biblio/75496">Casa 2006‒2008</ref>: 159‒160.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p20"><ref>3</ref> Πτολεμαῖος Πύρρου: Probably the infantry commander attested by <ref target="https://papyri.info/ddbdp/psi;9;1016">PSI 9 1016 </ref>.27 (129; <ref target="http://www.trismegistos.org/person/12923">TM Pers 12923</ref>). Alongside a likely brother named Heroides, the Dublin Ptolemaios doubtless also appears as a payer of the <seg style="font-style: italic;">epigraphē</seg> in <ref target="https://papyri.info/ddbdp/o.heid;;15">O.Heid. 15</ref> (cf. 3n. there; <ref target="http://www.trismegistos.org/person/12923">TM Per 124359</ref>), and in view of the dates of PSI 1016 and the present receipt, 125 seems the preferable date to assign to the Heidelberg text (see also <ref target="#p">4n</ref>. below). Another attestation of Ptolemaios may be offered by <ref target="https://papyri.info/ddbdp/o.wilck;;1189">O.Wilck. 1189</ref> Col. 2.16 (<ref target="http://www.trismegistos.org/person/301224">TM Per 301224</ref>). Perhaps he obtained the property whose taxation is documented by the receipts in the wake of the civil war between Ptolemy VIII and Cleopatra II (recently: <ref target="https://papyri.info/biblio/96433">Lanciers 2020</ref>); for soldiers as acquirers (by auction) of land subject to the <seg style="font-style: italic;">epigraphē</seg>, cf. <ref target="https://papyri.info/biblio/69608">Vandorpe 2000</ref>: 173, 194‒196.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p21"><ref>4</ref> Ἀντ(ιγένης): For this probable resolution, cf. <ref target="https://papyri.info/biblio/7248">Packman 1968</ref>: 45 (signing “between 123 and 119”), 48, and 50 (same “tax-phrase group,” viz. the second, as the present receipt, though he appears as a countersigner). Packman also notes (p. 53) Antigenes’s habitual abbreviation of his name, typical for signatories between 140 and 120. She does not record the shortening documented here, but the identical signature—rapidly written αντ, with <seg style="font-style: italic;">tau</seg> surmounted by an oblique stroke—recurs in <ref target="https://papyri.info/ddbdp/o.heid;;15">O.Heid. 15</ref> (furnishing additional support for dating that text to 125) and, pace BL 2.1.75, in <ref target="https://papyri.info/ddbdp/o.wilck;;750">O.Wilck. 750</ref> (122). Both of these receipts likewise belong in Packman’s second “tax-phrase group.”</p>
+                     </note>
+                  </div> Ostraka in the Royal Ontario Museum, vol. 2. Toronto.</div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/8754">Bagnall, R. S. and Samuel, A. E. (1976)</ref> Ostraka in the Royal Ontario Museum, vol. 2. Toronto.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/40004">Bell, H. I. (1952)</ref> “Sir Frederic George Kenyon, 1863–1952.” Proceedings of the British Academy 38: 268–294.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96267">Bierbrier, M. L. (2019)</ref> Who Was Who in Egyptology, 5th rev. ed. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/63732">Bogaert. R. (1994)</ref> “Liste chronologique des banquiers royaux thébains – 255‒84 avant J.-C.,” in id. (ed.), Trapezitica Aegyptiaca: Recueil de recherches sur la banque en Égypte gréco-romaine. Florence: 253‒279, 415‒416.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96435">Browne, H. (1913)</ref> University College, Dublin, Museum of Ancient History: Report with Summary Catalogue and Two Plates. Dublin – Belfast – Cork –Waterford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96420">Caputo, C. (2020)</ref> “Pottery Sherds for Writing: An Overview of the Practice,” in ead. and J. Lougovaya (eds), Using Ostraca in the Ancient World: New Discoveries and Methodologies. Berlin: 31‒58.</bibl>
+                  <bibl>Casa, G. (2006‒2008) “Frazioni dall’<seg style="font-style: italic;">epigraphe</seg>: Note preliminari ad alcuni ostraca del II sec. a.e.v. dal <seg style="font-style: italic;">nomos</seg> Perithebas,” APapyrol 18‒20: 155‒174.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/67075">Clarysse, W. and K. Vandorpe (1997)</ref> “Viticulture and Wine Consumption in the Arsinoite Nome (P. Köln V 221),” AncSoc 28: 67‒73.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/67361">Clarysse, W. and K. Vandorpe (1998)</ref> “The Ptolemaic <seg style="font-style: italic;">apomoira</seg>,” in H. Melaerts (ed.), Le culte du souverain dans l’Égypte ptolémaïque au IIIe siècle avant notre ère. Leuven: 5‒42.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96434">Currelly, C. T. (1956)</ref> I Brought the Ages Home. Toronto.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96423">Dunlop, W. M. (2000)</ref> “Kingdon Tregosse Frost: First Lecturer in Archaeology at the Queen’s University of Belfast,” Ulster Journal of Archaeology 59: 2‒10.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96425">Dunlop, W. M. (2007)</ref> “K. T. Frost and the Archaeological Museum at the Queen’s University of Belfast,” in J. V. Luce et al. (eds), The Lure of Greece: Irish Involvement in Greek Culture, Literature, History, and Politics. Dublin: 33‒41.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96422">Dunlop, W. M. et al. (2004)</ref> “The Catalogue of the Archaeological Museum at the Queen’s University of Belfast, Compiled by K. T. Frost in 1910,” Ulster Journal of Archaeology 63: 130‒137.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96530">Dzierzbicka, D. (2018)</ref> ΟΙΝΟΣ: Production and Import of Wine in Graeco-Roman Egypt. Warsaw.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95306">Gardiner, A. H. et al. (1913)</ref> Theban Ostraca. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95393">Grenfell, B. P. et al. (1907)</ref> The Tebtunis Papyri, vol. 2. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96426">Haywood, C. (2003)</ref> The Making of the Classical Museum: Antiquarians, Collectors, and Archaeologists. Dublin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/20775">Heilporn, P. (2009)</ref> Thèbes et ses taxes: Recherches sur la fiscalité en Égypte romaine (Ostraca de Strasbourg II). Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96433">Lanciers, E. (2020)</ref> “The Civil War between Ptolemy VIII and Cleopatra II: Possible Causes and Key Events,” in G. Gorre and S. Wackenier (eds), Quand la fortune du royaume ne dépend pas de la vertu du prince. Leuven: 21‒54.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14469">Maresch, K. (1996)</ref> Bronze und Silber: Papyrologische Beiträge zur Geschichte der Währung im ptolemäischen und römischen Ägypten bis zum 2. Jahrhundert n.Chr. Opladen.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14068">McGing, B. (1995)</ref> Greek Papyri from Dublin (P.Dub.). Bonn.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96428">Milne, J. G. (1911)</ref> “The Roman Coinage of Alexandria,” in E. B. Knobel et al. (eds), Historical Studies. London: 30‒34.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96421">Milne, J. G. (1925)</ref> “Double Entries in Ptolemaic Tax-Receipts,” JEA 11: 269‒283.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/7248">Packman, Z. M. (1968)</ref> The Taxes in Grain in Ptolemaic Egypt: Granary Receipts from Diospolis Magna 164‒88 B.C. New Haven – Toronto.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96429">Petrie, W. M. F. (1906)</ref> Researches in Sinai. New York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96430">Petrie, W. M. F. (1932)</ref> Seventy Years in Archaeology. New York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96431">Russell, J. F. (1969)</ref> “Archaeological Material in the Teaching Collection of the Department of Archaeology, Queen’s University, Belfast,” Ulster Journal of Archaeology 32: 109‒111.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86777">Ryholt, K. (2013)</ref> “The Illustrated Herbal from Tebtunis: New Fragments and Archaeological Context,” ZPE 187: 233‒238.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95047">Schubart, W. and E. Kühn (1922)</ref> Papyri und Ostraka der Ptolemäerzeit. Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95300">Tait, J. G. (1930)</ref> Greek Ostraca in the Bodleian Library at Oxford and Various Other Collections, vol. 1. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/82396">Thomas, S. E. (2012)</ref> “Two Wooden Tablet Receipts for the Ptolemaic Vineyard Tax (<seg style="font-style: italic;">apomoira</seg>): T Norwich 1921.37.51.1 and 1921.37.51.2,” ZPE 183: 209‒218.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/69608">Vandorpe, K. (2000)</ref> “The Ptolemaic <seg style="font-style: italic;">epigraphe</seg> or Harvest Tax (<seg style="font-style: italic;">shemu</seg>),” APF 46: 169‒232.   </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/20260">Von Reden, S. (2007)</ref> Money in Ptolemaic Egypt: From the Macedonian Conquest to the End of the Third Century BC. Cambridge.   </bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for payment of apomoira into bank of Herakleides</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV">987699</idno>
+               <idno type="ddb-filename">pylon.4.3_1</idno>
+               <idno type="ddb-hybrid">pylon;4;3_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">UCD inv. 1652</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>136/135? BCE</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Steuern</term>
+                  <term n="3">Geld</term>
+                  <term n="4">Weinbau</term>
+                  <term n="5">Bank</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for payment of apomoira into bank of Herakleides</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.4.3_1</idno>
+               <idno type="ddb-hybrid">pylon;4;3_1</idno>
+               <idno type="HGV">987699</idno>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Receipt for payment of apomoira into bank of Herakleides</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><supplied reason="lost">ἔτους</supplied> <num><gap reason="lost" extent="unknown" unit="character"/></num> <num value="5"><hi rend="supraline">ε</hi></num> <expan>τέ<ex>τακται</ex></expan> ἐπὶ τὴν
+<lb n="2"/><supplied reason="lost">ἐν Διὸς πόλει τῆ</supplied>ι <expan>με<ex>γάληι</ex></expan> <expan>τρά<ex>πεζαν</ex></expan> ἐφ’ ἧς Ἡρακλε<unclear>ιδη</unclear><add place="above"><unclear>ς</unclear></add>
+<lb n="3"/><supplied reason="lost">ἀπο</supplied>μοίρας πέμπτου κα<unclear>ὶ</unclear> <num value="30"><unclear>λ</unclear></num> <expan><ex>ἔτους</ex></expan>
+<lb n="4"/><gap reason="lost" quantity="3" unit="character" precision="low"><certainty match=".." locus="name"/></gap><gap reason="illegible" quantity="1" unit="character"/>ς <num value="4550">τετρακισχιλ<unclear>ί</unclear>ας 
+<lb n="5"/><supplied reason="lost">πεντακοσ</supplied>ίας πεντήκ<unclear>ο</unclear>ντα</num>
+<lb n="6"/><supplied reason="lost"><space extent="unknown" unit="character"/> <expan><ex>γίνονται</ex></expan></supplied> <num value="4550"><supplied reason="lost">Δ</supplied>φν</num> <space quantity="1" unit="character"/> <expan>Ηρακλ<ex>είδης</ex></expan> <expan>τρα<ex>πεζίτης</ex></expan> 
+<lb n="7" rend="indent"/> <num value="4800">Δω</num></ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Receipt for payment of apomoira into bank of Herakleides</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">987699</idno>
+               <idno type="TM"/>
+               <idno type="HGV">987699</idno>
+               <idno type="ddb-hybrid"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+<milestone unit="line" n="1"/> [Year x month ]5. Paid into the bank [in Diospolis] Magna that is overseen by Herakleides, for the apomoira of year fifth plus 30 [i.e., the 35th year], (by) … four thousand <milestone unit="line" n="5"/> [five] hundred fifty (drachmas), [total 4]550. [subscription:] Herakleides, banker. 4800 (drachmas).</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for payment of epigraphe by Ptolemaios, son of Pyrrhos, who is probably a known infantry commander</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV">987700</idno>
+               <idno type="ddb-filename">pylon.4.3_2</idno>
+               <idno type="ddb-hybrid">pylon;4;3_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">UCD inv. 1653</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>6(?).9.120 BCE</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Quittung</term>
+                  <term n="2">Erntesteuer</term>
+                  <term n="3">Getreide</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Receipt for payment of epigraphe by Ptolemaios, son of Pyrrhos, who is probably a known infantry commander</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.4.3_2</idno>
+               <idno type="ddb-hybrid">pylon;4;3_2</idno>
+               <idno type="HGV">987700</idno>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Receipt for payment of epigraphe by Ptolemaios, son of Pyrrhos, who is probably a known infantry commander</head>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/>ἔτους <num value="50">ν</num> Mεσορη <num value="20"><hi rend="supraline"><unclear>κ</unclear></hi></num> <expan>με<ex>μέτρηκεν</ex></expan> εἰς τὸν
+<lb n="2"/>ἐν Διὸς <expan>πόλ<ex>ει</ex></expan> τῆι <expan>με<ex>γάληι</ex></expan> <expan>θη<ex>σαυρὸν</ex></expan> <num value="50">ν</num> <expan><ex>ἔτους</ex></expan> ὑπὲρ <unclear>το</unclear>ῦ <expan>τόπ<ex>ου</ex></expan>
+<lb n="3"/>Πτολεμαῖος Πύρρου <expan><ex>πυροῦ</ex></expan> <num value="16">δέκα ἓξ</num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="4" rend="indent"/> <expan><ex>γίνονται</ex></expan> <expan><ex>πυροῦ</ex></expan> <num value="16">ιϛ</num> <space quantity="3" unit="character" precision="low"/> <expan>Ἀντ<ex>ιγένης</ex></expan></ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Receipt for payment of epigraphe by Ptolemaios, son of Pyrrhos, who is probably a known infantry commander</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">987700</idno>
+               <idno type="TM"/>
+               <idno type="HGV">987700</idno>
+               <idno type="ddb-hybrid"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+<milestone unit="line" n="1"/> Year 50, Mesore 20(?). Ptolemaios, son of Pyrrhos, has measured to the granary in Diospolis Magna for year 50, for the district, 16 (artabai) of wheat, total 16 (artabai) of wheat. [subscription:] Ant(igenes).
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
