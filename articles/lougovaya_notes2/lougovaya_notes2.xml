@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notes on Mathematical and Mensurational Papyri </title>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Institute for Advanced Study/Heidelberg University </affiliation>
+               <email>lougovaya@uni-heidelberg.de </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-11-27T15:34:43Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Notes on Mathematical and Mensurational Papyri </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">I am grateful to Alexander Jones and Rodney Ast for commenting on a draft of these notes. It is also with gratitude that I acknowledge the kind support of the Ralph E. and Doris M. Hansmann Member Fund at the Institute for Advanced Study, where I spent the fall semester 2023 working on a project devoted to mathematical papyri.</note>
+            <div type="section">
+               <head>1. P.Math. B recto, problem b2. </head>
+               <p xml:id="p1" style="text-align: left; ">The first line of the problem (line 4 of the papyrus sheet) is printed and translated in the edition as [χωρ]ί̣ον τετράγωνον εἰς ὃ πλ[ευρὸν ἔχον] . . . , ‘a rectangular field having its side . . .’. The editors divide the letters to form the phrase εἰς ὃ πλ[ευρόν, but what is intended is surely εἰσόπλ[ευρον], l. ἰσόπλευρον, ‘equilateral’, which qualifies the word for quadrilateral, τετράγωνον. The field (χωρίον) has the shape of an equilateral quadrilateral, thus a square (so the editors based on computed sides<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/95870">Bagnall and Jones 2019</ref>: 125.</p></note>). </p>
+            </div>
+            <div type="section">
+               <head>2. P.Math. B verso, problem b4. </head>
+               <p xml:id="p2" style="text-align: left; ">Precisely the same qualifier, ἰσόπλευρον, ‘equilateral’, is to be read in problem b4 on B verso. The editors give the following text and translation: </p>
+               <quote>
+                  <lb/>2	[τετράγ]ω̣νον εἰς ὃ πλευρ̣ὸν ἔχο[ν ἀπὸ νότου]
+</quote>
+               <p xml:id="p3" style="text-align: left; ">Since only [- - -]ω̣νον survives at the beginning of line 2, restoring [τρίγ]ω̣νον is equally possible, and reading [τρίγ]ω̣νον εἰσόπλευρ̣ον helps to account fully for the rest of the text. The task of the problem is to determine the area of an equilateral triangle, the side of which equals 30 schoinia. It is computed by squaring the side of the triangle, multiplying the result by 13 and dividing the product by 30. In modern notation, the area A = <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><msup xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msup><mo xmlns="http://www.w3.org/1998/Math/MathML">×</mo><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>13</mn></mrow><mrow><mn>30</mn></mrow></mfrac></mml:math>, where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mi xmlns="http://www.w3.org/1998/Math/MathML">a</mi></mml:math> is the side of the triangle and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mml:math>  <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>1</mn></mrow><mrow><mn>10</mn></mrow></mfrac></mml:math>  (= <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>13</mn></mrow><mrow><mn>30</mn></mrow></mfrac></mml:math>) is a well attested approximation for <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>√</mo><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mml:math> (see note to 5–6 below). My identification of the problem’s subject matter leads me to suggest the following text: </p>
+               <div type="epidoc" subtype="DCLP">
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p4"><ref>3</ref> [πλευρ]άς seems to me a plausible restoration, which may have been preceded by the article τάς at the end of line 2. The writer could have viewed the two sides opposite to the base as πλευραί and the base as βάσις, even though all three sides should theoretically be called πλευραί.</p>
+                        <p xml:id="p5">	βάσις [- - -]. One should not be surprised that the length of the base is stated even though the triangle is said to be equilateral. Since the numeral is lost, two possibilities for what could have been written there present themselves. It could have been 30, in which case the text of the problem was correctly transmitted; alternatively, if the writer misunderstood the problem, he may have given the length of the base as 13, as appears to be given in the drawing. I prefer not to restore the numeral here.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p6"><ref>4</ref> με̣[τρ- - -]. This is likely a form of μετρέω.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p7"><ref>5–6</ref> The procedure employed here to determine the area of an equilateral triangle, in modern notation A = <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><msup xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msup><mo xmlns="http://www.w3.org/1998/Math/MathML">×</mo><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>13</mn></mrow><mrow><mn>30</mn></mrow></mfrac></mml:math>, is used repeatedly in <ref target="https://www.trismegistos.org/text/63192">MPER I 1</ref> recto (Soknopaiou Nesos, 1st c.; TM 63192),<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> For the discussion of the algorithm, cf. <ref target="https://papyri.info/biblio/95870">Bagnall and Jones 2019</ref>: 27–28, 45–49.</p></note> where it is never explicitly formulated because it is taken for granted that the reader understands it. The description of the method, phrased very similarly to our papyrus, is found in pseudo-Heron, Geometrica 22.3 (<ref target="https://papyri.info/biblio/96507">Heiberg 1912</ref>: 392): τριγώνου ἰσοπλεύρου τὸ ἐμβαδὸν εὑρεῖν. τὴν πλευρὰν ἐφ’ ἑαυτήν· ταῦτα ἐπὶ τὰ ιγ· ὧν λʹ ἔστω τὸ ἐμβαδόν, ‘To find the area of an equilateral triangle. Multiply the side by itself; multiply the result by 13. The area will be 1/30th of that.’</p>
+                        <p xml:id="p8">Diagram	The drawings in P.Math. tend to be very schematic and consequently it is difficult to ascertain whether the 13 written by the ‘base’ of what looks like a right-angled triangle was meant to indicate its length. If it was, the writer likely failed to understand the problem perhaps because he was not familiar with the procedure for computing the area of an equilateral triangle. Most of the triangles in P.Math., as in other contemporary collections of problems, are right-angled, which is exactly what he seems to have meant to depict.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>3. P.Math. G recto, problem g2.</head>
+               <p xml:id="p9" style="text-align: left; ">The first line of the problem (line 22 on the sheet) is printed in the edition as ναύβιον στρονκύλουν (l. στρογγύλον) μισ ̣ων[- - - περιφέρεια], and the problem is interpreted as seeking the volume of a trench in the form of a cylinder with a given circumference. On the image kindly provided to me by the editors it is possible to read the second word as μίου̣ρ̣ων, l. μύουρον or μείουρον, which means ‘tapering’; cf. Heron, Metrica III 19 (<ref target="https://papyri.info/biblio/96257">Acerbi &amp; Vitrac 2014</ref>: 348), where οἱ μείουροι is used as a collective term encompassing ‘pyramids, cones and the like’. Since the excavation is circular and only one circumference is given, it must be conical. This explains the computation of its volume, which is based on equating it to the volume of a cylinder with a circumference half the circumference of the cone and the same height (lines 24–26). Although the procedure results in a seemingly absurd algorithm in which the volume of a cone is computed as 1/4 (instead of 1/3!) of the volume of a cylinder built on the same base, it is consistent with the general approach to measuring the volume of tapering solids by means of ‘averaging approximation’ which is employed in many problems in the codex and in other collections (cf. <ref target="https://papyri.info/biblio/95870">Bagnall and Jones 2019</ref>: 27–28). Since the cone has no top-face, the circumference of the cylinder to which it is approximated is simply taken to be twice smaller than that of the base of the cone.</p>
+            </div>
+            <div type="section">
+               <head>4. P.Math. N recto, problems n2 and n3</head>
+               <p xml:id="p10" style="text-align: left; ">Problem n2 asks to find the capacity in artabas of a granary for which the dimensions of the length, width, and depth are given in lines 12–13: θησαυρὸς τρίγωνος, μῆκος πηχῶν κ̅, πλάτος πηχῶν| λ̣̅, βάθ̣ος πηχῶν ϛ̅. εὑρεῖν τὰς ἀρτάβας. The method of solving the problem consists of multiplying the width by the length, dividing the product by four and multiplying it by the depth before converting the last product to artabas. The editors interpret the shape of the granary as a triangular prism with a right-angled triangle as its base, the volume of which is erroneously computed as a product of a quarter instead of a half of the area by the height (<ref target="https://papyri.info/biblio/95870">Bagnall and Jones 2019</ref>: 147). </p>
+               <p xml:id="p11" style="text-align: left; ">Although the use of geometrical or mensurational terms in papyri is all but strict, sides of a triangle do not seem ever to be referred to by length and width, yet the diagram accompanying the problem presents a triangle. The key to understanding the described shape is furnished by a problem transmitted in the treatise On Measuring All Sorts of Timber, ascribed to Didymus of Alexandria, which features a similar description in the statement of one problem: ἔστω ξύλον τρίγωνον τὸ μὲν μῆκος πήχεων κ̅δ̅, τὸ δὲ πλάτος δακτύλων ι̅β̅. τὸ δὲ πάχος δακτύλων ι̅. εὑρεῖν αὐτοῦ τὸ στερεόν, Didymus 41 (<ref target="https://papyri.info/biblio/96508">Heiberg 1927</ref>: 16), ‘Let there be a triangular piece of wood, with the length of 24 cubits, the width of 12 fingers, the thickness of 10 fingers. To find its volume.’ The volume is then computed as the product of the width and the thickness, which is divided by four and then multiplied by the length, that is, in the exact same way as is in problem n2. In the two main manuscripts of Didymus the problem is accompanied by a drawing of a rectangular pyramid put out on its side, so that the dimension one would call the height of the pyramid looks like the length of the object. I think a rectangular pyramid is indeed the shape of the solids both in Didymus and in problem n2 of P.Math. (and probably n3, too; see below). Its designation as τρίγωνον must refer not to the base of the pyramid, but to its side-view, so to speak. This might explain why the granary in problem n2 is depicted as a right-angled triangle, unless the person making the drawing simply took the word τρίγωνον in the statement of the problem as his cue. That the volume of the pyramids in Didymus and P.Math. is computed as 1/4 (not 1/3!) of a prism of the same height built on the same base must be owed to the use of the same principle of ‘averaging approximation’ which we see at work in the computation of the volume of a cone in problem g2.  </p>
+               <p xml:id="p12" style="text-align: left; ">Problem n3 is evidently similar to problem n2, but all the parameters necessary for ascertaining the computational procedure are lost. The editors emend the text on the assumption that both granaries have the shape of a triangular prism (<ref target="https://papyri.info/biblio/95870">Bagnall and Jones 2019</ref>: 147–148). As I am inclined to believe that both are rectangular pyramids, I suggest the following changes (in bold):  </p>
+               <quote>
+                  <lb/>	ἐπ[ὶ] τὸ πλάτος, κ̅ [ἐ]π̣ὶ τὸ̣ν ι̅. γί(νεται) σ̅. ὧ[ν <seg style="font-weight: bold;">ἥμισυ ρ̅</seg>.]
+</quote>
+               <p xml:id="p13" style="text-align: left; ">As can be seen from the linear dimensions of the anabateria, it had the shape of a trapezoidal prism. Its volume was computed as the product of the length, the average of the upper and lower width and the depth, which was then converted to naubia through division by 27 (although not recorded on the papyrus, the calculations can be easily reconstructed: 27 ×  <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>10</mn><mo>+</mo><mn>6</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mml:math> × 3 ÷ 27 = 24). It is not immediately clear, however, what the shape of the cistern was. Puzzled by the absence of the length among its linear dimensions, the editor deduced it by a roundabout calculation from the stated volume and the two given linear dimensions to 17 1/4 cubits but found it odd that the length turned out be shorter than the width. There is no reason for concern, however, because the cistern must have been circular, i.e., a conical frustum, even though the writer of the papyrus chose to call the upper and lower diameters ‘width’. That it indeed had the shape of a conical frustum is borne out by the given numerical values: Following the standard procedure, the volume of a conical frustum with an upper diameter of 24 cubits, lower diameter of 22 cubits and depth of 6 cubits can be computed as <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>3</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mml:math> × <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><msup xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfenced separators="|"><mrow><mfrac><mrow><mn>24</mn><mo>+</mo><mn>22</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup></mml:math>× 6 = 2380 1/2 (cubic) cubits, which, converted to naubia, yields exactly 88 1/6.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename"/>
+               <idno type="dclp"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement/>
+                     </placeName>
+                  </msIdentifier>
+                  <history>
+                     <origin>
+                        <origPlace>unbekannt</origPlace>
+                        <origDate>unbekannt</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="2"/><supplied reason="lost">τρίγ</supplied><unclear>ω</unclear>νον <choice><reg>ἰσόπλευρον</reg><orig>εἰσόπλευ<unclear>ρ</unclear>ον</orig></choice> ἔχο<supplied reason="lost">ν <gap reason="illegible" quantity="6" unit="character" precision="low"/></supplied>
+<lb n="3"/><supplied reason="lost">πλευρ</supplied>ὰς σχοινίων <num value="30"><hi rend="supraline">λ</hi></num>, καὶ βάσις <gap reason="lost" quantity="6" unit="character" precision="low"/>
+<lb n="4"/><supplied reason="lost">- - - ε</supplied><unclear>ὑ</unclear>ρεῖν τὸ <choice><reg>ἐμβαδόν</reg><orig>ἐνβαδόν</orig></choice>. οὕτω μ<unclear>ε</unclear><supplied reason="lost">τρ-   τὸ <num value="30"><hi rend="supraline">λ</hi></num></supplied>
+<lb n="5"/><supplied reason="lost">ἐφ᾿ ἑα</supplied>υτά· <expan>γί<ex>νεται</ex></expan> <num value="900"><hi rend="supraline">ϡ</hi></num>. ἐπὶ τὸν <num value="13"><hi rend="supraline">ιγ</hi></num>· <expan>γί<ex>νεται</ex></expan> <expan><ex>μυριὰς</ex></expan> α̅<supplied reason="lost">῾Α̅ψ̅. παρὰ</supplied> 
+<lb n="6"/><supplied reason="lost">τὸν</supplied> <num value="30"><hi rend="supraline"><unclear>λ</unclear></hi></num>· <expan>γί<ex>νεται</ex></expan> <num value="390"><hi rend="supraline">τϙ</hi></num>. οὕτως ἔχει ὁμοίω<unclear>ς</unclear>. 
+<lb n="7"/>diagram λ  τϙ  τϙ  ιγ  <expan><ex>μυριὰς</ex></expan> α ῾Αψ 
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+‘An equilateral triangle with the sides of 30 schoinia and the base [ - - -]. Το find its area. We/I/you measure it this way: take 30 by itself, the result is 900; times 13, the result is 11,700; divide by 30, the result is 390. This is how it is for similar cases.’ 
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
