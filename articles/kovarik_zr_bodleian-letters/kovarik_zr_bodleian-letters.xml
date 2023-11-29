@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The lady, the radish oil, and the bishop: Two Byzantine letters from the Bodleian Library</title>
+            <author>
+               <name>
+                  <forename>Sophie</forename>
+                  <surname>Kovarik</surname>
+               </name>
+               <affiliation>Universität Wien</affiliation>
+               <email>
+                  <ref target="mailto:sophie.kovarik@univie.ac.at">sophie.kovarik@univie.ac.at</ref>
+               </email>
+            </author>
+            <author>
+               <name>
+                  <forename>Michael</forename>
+                  <surname>Zellmann-Rohrer</surname>
+               </name>
+               <affiliation>Freie Universität Berlin</affiliation>
+               <email>michael.zellmann-rohrer@fu-berlin.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2023-11-29T19:54:03Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">The lady, the radish oil, and the bishop: Two Byzantine letters from the Bodleian Library</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">Lajos Berkes and Nikolaos Gonis are thanked for comments on the edition; remaining errors are our own responsibility.</note>
+            <div type="introduction">
+               <p xml:id="p1">We publish here two letters from Late Antique Egypt that have so far only been briefly described in print since their entry into the Bodleian Library, Oxford, in the 1890s. As often in letters, the details of the personal and business matters discussed are obscured both by damage and concision on points known already to the correspondents, and much of what remains is the careful politeness characteristic of Byzantine letters (<ref target="https://papyri.info/biblio/77679">Fournet 2009</ref>). Dating is also difficult, as commonly the case in this genre: in the absence of internal dates, paleography and prosopography are the chief basis. The often embellished cursive used in letters, however, is different from the one used in dated documents such as contracts and not necessarily comparable. Both papyri adhere to the typical format of Late Antique papyrus letters predominant from the late fifth century onwards: the papyrus is written against the fibres, which usually results in a horizontal format, and dispenses with all introductory or concluding salutation formulae.</p>
+               <p xml:id="p2" style="text-align: left; text-align: justify;">	A few other characteristics allow a chronological classification. A paratextual sign centered above the first line of the letter gradually shifted from one generally thought to be an abbreviation of παρά to a simple cross from the later 6th century onwards. The address on the back is more likely to introduce the name of the sender with παρά in relatively earlier texts (5th and 6th centuries, though never common) and simply place it in the nominative in later ones.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> Deviations from the two common formulae (i. ἐπίδ(ος) N.N. (dative): recipient – π(αρά) Ν.Ν. (genitive), and ii. N.N. (dative): recipient – N.N. (nominative): sender with a cross placed mostly in front of the name of the addressee and the sender alike), are usually due to errors in readings or supplements, as, e.g., P.Flor. 3 303 will have lost an initial ἐπιδ( ); alleged abbreviations of παρά often cannot be confirmed on photographs (e.g. <ref target="https://papyri.info/ddbdp/cpr%3B14%3B51">CPR 14 51</ref> or <ref target="https://papyri.info/ddbdp/cpr%3B14%3B55">55</ref>, or <ref target="https://papyri.info/ddbdp/p.gen%3B4%3B173">P.Gen 4 173</ref>; παρά in <ref target="https://papyri.info/ddbdp/cpr%3B25%3B11">CPR 25 11</ref>.9 is rather a cross).</p></note> The use of a stylized, “chancery script” for the address is found from the second half of the 6th century onwards, especially in the province of Arcadia, but fading out of use towards the middle of the 7th century.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> See, e.g., the letters from the Senouthios archive around the time of the Arab conquest, CPR 30 and 36, which do not use it.</p></note> The use of this style, which is not confined to letters,<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> It also appears, for instance, in the introductory addresses of late Roman petitions, see e.g. <ref target="https://papyri.info/ddbdp/p.oxy%3B81%3B5289">P.Oxy. 81 5289</ref>, where the script similarly shifts with the name of the petitioner, or in circus programmes (<ref target="https://papyri.info/ddbdp/p.bingen%3B%3B128">P.Bingen 128</ref>, <ref target="https://papyri.info/ddbdp/p.harrauer%3B%3B56">P.Harrauer 56</ref>, <ref target="https://papyri.info/ddbdp/p.oxy%3B34%3B2707">P.Oxy. 34 2707</ref>). The most recent discussions to our knowledge are <ref target="https://papyri.info/biblio/77173">Hagedorn 2008</ref> and the commentary of F. Morelli to P.Harrauer 56.</p></note> is sometimes limited to the name of the recipient, with the name of the sender in a smaller and less elaborate script.</p>
+               <p xml:id="p3" style="text-align: left; text-align: justify;">	In the case of the new Bodleian papyri these observations do not contribute much to refining the date. At most, the crosses centered in the top margins of both letters favor a composition around the end of the 6th century or later; the chancery script in the address of one (text I here) places it no later than the beginning of the early 7th century. Further details are considered in the respective editions.</p>
+               <p xml:id="p4" style="text-align: left; text-align: justify;">	The first of the two letters mentions a person of <seg style="font-style: italic;">spectabilis </seg>rank in connection with a loan(?) of money, and the second requests that the addressee enlist the help of a bishop in a matter in which the sender hoped to be “saved” and claimed to be “wronged.”</p>
+            </div>
+            <div type="section">
+               <head>I. Letter concerning a sum of money</head>
+               <p xml:id="p5" style="text-align: left; text-align: justify;">This papyrus was purchased by the Bodleian Library from Bernard P. Grenfell in November 1895, as part of a lot “from the Fayûm, Hermopolis, and unspecified sources,” thus far described in the <seg style="font-style: italic;">Summary Catalogue</seg> of the Library’s Western manuscripts as a “frag[ment] of a letter.”<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/96443">Madan and Craster 1924</ref>: 18 no. 31940 (with corrections, p. xx).</p></note> A sheet-join runs horizontally through line 3 on the front. The proficient, slightly right-leaning cursive may be assigned to the sixth or seventh century. This is supported by the “chancery” styling of the address on the back (see the introduction), where every word is abbreviated, either by supralinear letters (first three words, δεσπό(τῃ) ἐμῷ τὰ and γνη(σίῳ)) or abbreviation sign. The <seg style="font-style: italic;">ny</seg>, which usually has three legs in this style, is written in ligature with the following <seg style="font-style: italic;">tau</seg> in π(ά)ντ(α). The style of the chancery script is closest to that of Oxyrhynchite letters; we have found nothing comparable from the Hermopolite.</p>
+               <p xml:id="p6" style="text-align: left; text-align: justify;">	References to Θεοδοσιούπολις and a charge for the ναῦλον Ἀντινόου in an account on the sheet from which the substrate of the letter was cut indicate a Hermopolite provenance, which is shared with some other papyri in this lot: MS Gr. class. c. 26 (<ref target="https://papyri.info/ddbdp/p.grenf%3B1%3B26">P.Grenf. 1 26</ref>), d. 38 (<ref target="https://papyri.info/ddbdp/p.grenf%3B1%3B58">P.Grenf. 1 58</ref>), e. 36 (<ref target="https://papyri.info/ddbdp/p.grenf%3B1%3B67">P.Grenf. 1 67</ref>), and possibly also a. 6 (<ref target="https://papyri.info/ddbdp/p.grenf%3B1%3B62">P.Grenf. 1 62</ref>; <ref target="https://papyri.info/ddbdp/p.bodl%3B1%3B47">P.Bodl. 1 47</ref>) and c. 27 (<ref target="https://papyri.info/ddbdp/p.grenf%3B1%3B64">P.Grenf. 1 64</ref>). The letter may then have been written and sent within the same nome, and it is tempting to connect “the lady Anastasia” mentioned in the letter with entries in the account for “the lady” (τῆς κυρᾶς, <ref target="bookmark">6</ref>, <ref target="bookmark1">8</ref>). A sum of two solidi is probably requested directly from the addressee, whom the phrasing of <ref target="bookmark2">2<seg style="text-decoration: underline;">–</seg>3</ref> suggests was of <seg style="font-style: italic;">spectabilis </seg>rank.</p>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: justify;">MS. Gr. class. d. 40 (P)</cell>
+                        <cell style="text-align: center;">20.9 (w) × 15.7 (h) cm</cell>
+                        <cell style="text-align: right;">6th–7th cent.</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: justify;">SC 31940</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: right;">Hermopolite?</cell>
+                     </row>
+                  </table>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p7"><ref>1</ref> The symbol of the cross is typically used to structure a text, framing each segment. In the case of letters, it usually appears at beginning and end of the letter proper and beginning and end of the address, sometimes also separately for addressee and sender. See in general <ref target="https://papyri.info/biblio/96442">Carlig 2020</ref> and <ref target="https://papyri.info/biblio/96447">Amory 2023</ref>. A special case, as here, is the placement of the cross at the top of letters, in the middle of the margin where the π( ) sign, usually understood as π(αρά), once stood: see introduction.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p8"><ref>2</ref> The opening formula is restored after <ref target="https://papyri.info/ddbdp/p.oxy%3B16%3B1856">P.Oxy. 16 1856</ref> (second decade of the 7th cent.: <ref target="https://papyri.info/biblio/87150">Gonis 2015</ref>); cf. also 16 1865 (6th–7th cent.), and <ref target="https://papyri.info/ddbdp/sb%3B18%3B13762">SB 18 13762</ref> (late 6th cent.: <ref target="https://papyri.info/biblio/86850">Gonis 2014</ref>: 201–202 no. 52; unknown provenance), 21–22. The simplest interpretation would be as a reference to a previous meeting between the correspondents, the addressee being of <seg style="font-style: italic;">spectabilis </seg>rank; it remains conceivable, however, that the <seg style="font-style: italic;">spectabilis </seg>is a third party, whose name has been lost in <ref target="bookmark3">3</ref>, and the fulfillment of the request requires the intervention of the addressee, who might then be an employee of this high-ranking person.</p>
+                        <p xml:id="p9">τὴν πάνσοφον καὶ περίβλεπτον. For the collocation of epitheta, cf. <ref target="https://papyri.info/ddbdp/p.oxy%3B16%3B1843">P.Oxy. 16 1843</ref> (623), 1–2, 11–12 (μεγαλοπρεπὴς καὶ πάνσοφος φιλία); 1864 (623/624), 1–2 (ἐνδοξοτάτη καὶ πάνσοφος προστασία). There are only a handful of attestations of πάνσοφος. The epithet seems to invoke erudition, cf. σοφώτατος typically used to address a <seg style="font-style: italic;">scholasticus.</seg> <seg style="font-style: italic;">Spectabilis</seg> (περίβλεπτος) is an intermediate senatorial honorific.</p>
+                        <p xml:id="p10">Most likely an abstract, third-person reference to the addressee, lost in <ref target="bookmark4">3</ref>, was qualified, e.g. [φιλίαν ὑμῶν] (cf. 4); the addressee would then have been the one of <seg style="font-style: italic;">spectabilis </seg>rank, though this is not reflected in the address (10). </p>
+                     </note>
+                     <note>
+                        <p xml:id="p11"><ref>3</ref> ῥαφανελαίου. Radish-oil is a staple in Roman and Late Roman Egypt (<ref target="https://papyri.info/biblio/14491">Morelli 1996</ref>: 6–7; <ref target="https://papyri.info/biblio/73454">2004</ref>: 140–141), outside of which, as Mayerson observes, it is very little attested (<ref target="https://papyri.info/biblio/70310">2001</ref>: 109). It could be used for illumination as well as cooking and seems to have been produced in the Fayum and neighboring regions. Cf. l. 5n. with the indication that something has to be brought, possibly upriver in this case, if the referent is the same radish-oil and the provenance is indeed Hermopolite.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p12"><ref>4</ref> φι]λ̣ίαν. For the writing of the λι-ligature see ὀλίγου l. 3; [θεοφι]λ̣ίαν is generally reserved for ecclesiastics. The noun was probably preceded by [πάνσοφον] (as in <ref target="bookmark5">2</ref> above, which may also qualify a lost φιλίαν) rather than [γνησίαν] (suggested by the address).</p>
+                        <p xml:id="p13">εἰ ἀβαρὲς αὐτῇ φαίνεται. A late example of this polite formula (cf. <ref target="https://papyri.info/biblio/36620">Steen 1938</ref>: 128), which so far is not attested after the fourth century: cf. (with forms of εἰμί rather than φαίνεται) <ref target="https://papyri.info/ddbdp/p.nag.hamm%3B%3B68">P.Nag.Hamm. 68</ref>.13 (4th cent.); <ref target="https://papyri.info/ddbdp/p.neph%3B%3B4">P.Neph. 4</ref>.25–26 (4th cent.; sent from Alexandria); <ref target="https://papyri.info/ddbdp/p.oxy%3B6%3B933">P.Oxy. 6.933</ref>.29 (late 2nd cent.); <ref target="https://papyri.info/ddbdp/p.oxy%3B34%3B2727">P.Oxy. 34 2727</ref>.18 (3rd or 4th).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p14"><ref>5</ref> Conceivably a request to come up or down river (ἀνελθεῖν, κατελθεῖν) and bring something along: something similar is probably to be restored in reference to a person in the letter <ref target="https://papyri.info/ddbdp/p.iand%3B2%3B25">P.Iand. 2 25</ref> (with <ref target="https://papyri.info/biblio/75040">Hagedorn 2006</ref>: 166–167; 6th cent.; Hermopolite), θελήσατε κ[ατελθεῖν ἐνεγκόντες] μεθʼ ἑατῶν καὶ τὸν γραμματέα (following Hagedorn); in the letter <ref target="https://papyri.info/ddbdp/p.oxy%3B16%3B1844">P.Oxy. 16 1844</ref> (6th–7th cent.), the addressee is to bring a person (ἐνέγκῃ αὐ̣τὸν μ̣[ε]θ’ ἑαυτῆς) in preparation for another party’s journey down river to Alexandria. A periphrasis for raising and conveying the funds is also possible, as in <ref target="https://papyri.info/ddbdp/p.oxy%3B56%3B3869">P.Oxy. 56 3869</ref>.3–4 φρόντισον τοῦ λαβεῖν καὶ ἐνεγκῖν. Radish-oil may be what the addressee should bring (ultimately produced in the Fayum [<ref target="bookmark6">3n</ref>.], perhaps), but a reference to the two <seg style="font-style: italic;">solidi</seg> (<ref target="bookmark7">4</ref>) is also possible, even preferable if α̣ὐτῶν in <ref target="bookmark8">6</ref> has the same referent.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p15"><ref>5–6</ref> κατὰ τὸ [ ]. An expression of immediacy κατὰ τὸ νῦν would make sense but is not paralleled in the papyri; κατὰ τὸ ἀναγκαῖον (cf. esp. <ref target="https://papyri.info/ddbdp/o.claud%3B4%3B873">O.Claud. 4 873</ref>.3 [circa 150]) seems too long.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p16"><ref>6</ref> α̣ὐτῶν ἔχομεν. Probably preceded by [χρείαν], cf., e.g., <ref target="https://papyri.info/ddbdp/p.rain.cent%3B%3B80">P.Rain.Cent. 80</ref>.5 (6th cent.; Hermopolite).</p>
+                        <p xml:id="p17">κοσμιωτ(άτην). The uncommon epithet alluding to piety is reserved for women (<ref target="https://papyri.info/ddbdp/p.oxy%3B82%3B5340">P.Oxy. 82 5340</ref>.8n.; on the related κοσμιότης, also applied to men: <ref target="https://papyri.info/ddbdp/cpr%3B25%3B6">CPR 25 6</ref>.12n.) and generally confined to the 5th and 6th centuries (DDbDP), mostly in papyri from Palestine (Nessana, Petra). The few examples refer to either unmarried or soon to be married women (in marriage contracts) or relatives of clerics. Cf. the daughter of the Oxyrhynchite <seg style="font-style: italic;">scholasticus</seg> Ioannes discussed in the n. on Ἰω[ below, <ref target="bookmark9">10n</ref>.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p18"><ref>8</ref> Conceivably [κατὰ τὰ ῥ]ηθέντα or [λαλ]ηθέντα (the suggestion of Lajos Berkes). A nexus of the aorist passive participle of εὑρίσκω with ἐγγύς in <ref target="https://papyri.info/ddbdp/p.lond%3B5%3B1682">P.Lond. 5 1682</ref> (circa 566/567; Aphrodite), 3–5 ἐπέτρεψα τῷ ποιμένι κατὰ τύχην εὑρεθέντι ἐγγὺς μου μὴ ὀχλῆσαι τοῖς γεωργοῖς σου, might suggest εὑρηθέντα but with an irregular spelling (l. εὑρεθέντα). It cannot be excluded that τά is to be divided and construed attributively with the following ἐγγὺς ἡμῶν.</p>
+                        <p xml:id="p19">Θεοδώρου τοῦ νοταρ(ίου). The man cannot be conclusively identified with any of the other notarii of the same name. Holders of this title worked not only in the imperial administration but also in the private sector, especially in the large estates of the landowning elite. On the former, see <ref target="https://papyri.info/biblio/10922">Teitler 1985</ref>.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p20"><ref>9</ref> δ[έσπο]τα. An apparent diagonal on the image proves to be on a displaced fragment, folded over from the back: the fibers run left-right here.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p21"><ref>10</ref> δεσπό(τῃ) ἐμῷ τὰ π(ά)ντ(α) σοφωτά(τῳ). The recipient’s titulature unusually lacks any indication of rank. Deliberate suppression of another’s rank seems unlikely, unless there is a title that presupposes this rank, missing after the name of the recipient, cf. e.g. the endorsement of <ref target="https://papyri.info/ddbdp/p.oxy%3B59%3B4008">P.Oxy 59 4008</ref> (6th–7th cent.): τ̣ῷ̣ ἡμῶν ἀ̣γ̣α̣[θ(ῷ(?))] δεσπότ(ῃ) κυρ(ίῳ) Ἰωάννῃ ☓ ἰ̣λ̣λουστρ(ίῳ) (καὶ) ἀντιγεούχ(ῳ) (following the reading proposed in 6n.).</p>
+                        <p xml:id="p22">σοφώτατος, implying legal expertise, is a typical epithet for s<seg style="font-style: italic;">cholastici</seg>, who are usually <seg style="font-style: italic;">viri clarissimi</seg>; for an exceptional application of the epithet to a man of higher rank, see <ref target="https://papyri.info/ddbdp/cpr%3B24%3B31">CPR 24 31</ref>.6n<seg style="font-style: italic;">.</seg></p>
+                        <p xml:id="p23">φίλ(ῳ). The ink after <seg style="font-style: italic;">lambda</seg> is most likely a two-part abbreviation-sign. The combination γνήσιος φίλος καὶ ἀδελφός is attested if not common in addressees of letters in the early 7th century (e.g. the letters of the archive of Victor, <ref target="https://papyri.info/ddbdp/p.oxy%3B16%3B1845">P.Oxy. 16 1845</ref> and <ref target="https://papyri.info/ddbdp/p.oxy%3B16%3B1860">1860</ref>: see <ref target="bookmark10">n. 2</ref> above).</p>
+                        <p xml:id="p24">κυρ(ίῳ). A term of respect usually assigned to persons of an elevated social standing who are not necessarily of noble origin (see in general <ref target="https://papyri.info/biblio/76096">Papathomas 2007</ref>). It also appears as a term of respectful address in family letters of a slightly earlier date, even between spouses and children and their parents.</p>
+                        <p xml:id="p25">Ἰω[. Either Ἰω[άννῃ or Ἰω[σήφ (or spelling variants), followed by either a title, as discussed above, or only the single name of the sender for reasons of space, probably in a second line. The name of the sender may have been omitted entirely, though there are few parallels: <ref target="https://papyri.info/ddbdp/p.grenf%3B1%3B64">P.Grenf. 1 64</ref> (6th–7th cent.; Hermopolite): τῷ δεσπό(τῃ) μου τῷ πάντ(  ) μεγαλοπρε(πεστάτῳ) (καὶ) περιβλέ(πτῳ) Ἀνατολίῳ κόμε(τι) χμγ and <ref target="https://papyri.info/ddbdp/sb%3B20%3B14118">SB 20 14118</ref> (6th–7th cent.): ⳨ τῷ ἐμῷ δεσπότ(ῃ) τὰ πά(ντα) θεοφιλεστά(τῳ) καὶ ὁσιωτά(τῳ) πατρὶ χμγ (from the online image we prefer θεοφιλεστά(τῳ) in place of θεοσεβεστάτῳ: the combination of the epitheta <seg style="font-style: italic;">theophilestatos</seg> and <seg style="font-style: italic;">hosiotatos</seg> is typical for a bishop); not <ref target="https://papyri.info/ddbdp/psi%3B14%3B1428">PSI 14 1428</ref> (as read in <ref target="https://papyri.info/ddbdp/p.oxy%3B82%3B5341">P.Oxy. 82 5341</ref>.5–6n.; 6th cent.), where the sender Θεόδωρος is not the same as the σχολαστικός (or multiple σχολαστικοί?) addressed, for whom the abstract σοφία, rare and reserved for <seg style="font-style: italic;">scholastici</seg> (<ref target="https://papyri.info/ddbdp/p.oxy%3B8%3B1165">P.Oxy. 8 1165</ref> [6th cent.]; <ref target="https://papyri.info/ddbdp/p.oxy%3B51%3B3637">51 3637</ref> [623]; <ref target="https://papyri.info/ddbdp/psi%3B7%3B790">PSI 7 790</ref> [circa 546; Oxyrhynchus]; 8 963 [579; Oxyrhynchus]), is also used in the body of the letter (l. 1).</p>
+                        <p xml:id="p26">If the name is completed Ἰωάννῃ here, there would be many homonyms among the σχολαστικοί. In the second half of the 6th century there is a σοφώτατος σχολαστικός in Antinoe (<ref target="https://papyri.info/ddbdp/p.lond%3B5%3B1707">P.Lond. 5 1707</ref>, of 566) and in Oxyrhynchos (<ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B126">P.Oxy. 1 126</ref>, of 572), the former a σχολαστικός and advocate (συνήγορος) of the <seg style="font-style: italic;">forum Thebaidos</seg>, a more likely relation given the provenance of this letter. Both lack indication of rank, but the Oxyrhynchite Ioannes appears again as a <seg style="font-style: italic;">scholasticus </seg>of the <seg style="font-style: italic;">forum Arcadiae</seg>. (Another Ioannes, <seg style="font-style: italic;">scholasticus </seg>of the <seg style="font-style: italic;">forum Arcadiae</seg>, very likely appears 30 years earlier in <ref target="https://papyri.info/ddbdp/sb%3B18%3B13949">SB 18 13949</ref> [541; Oxyrhynchite], 3, which is probably not the same person.) In <ref target="https://papyri.info/ddbdp/p.oxy%3B82%3B5340">P.Oxy. 82 5340</ref> (572) a rank of no lower than <seg style="font-style: italic;">clarissimus</seg> is suggested: his father’s μνήμη is λαμπρά. The daughter of Ioannes, Stephanous, is also called by the rare epithet κοσμιωτάτη, which also appears in this letter (<ref target="bookmark11">6n</ref>.). The same person might be recognized in <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B128">P.Oxy. 1 128</ref> (6th or 7th cent.), among the senders of a letter, or in the account P.Sijp. 35 (6th or 7th cent.; Oxyrhynchus) ii 6, iv 8, verso i 4, ii 13, iii 12, among recipients of vouchers; but not, <seg style="font-style: italic;">contra </seg><ref target="https://papyri.info/ddbdp/p.oxy%3B82%3B5340">P.Oxy. 82 5340</ref>.5–6n., in <ref target="https://papyri.info/ddbdp/psi%3B8%3B963">PSI 8 963</ref>, where the homonym, a former <seg style="font-style: italic;">praeses </seg>with epitheta σοφώτατος and ἐλλογιμώτατος, has a different father, as does the ἐλλογιμώτατος σχολαστικός of <ref target="https://papyri.info/ddbdp/p.oxy%3B27%3B2480">P.Oxy. 27 2480</ref> col. 4 63 (580–581: <ref target="https://papyri.info/biblio/84465">Hickey 2012</ref>: 95–97). The paleography of <ref target="https://papyri.info/ddbdp/p.princ%3B2%3B105">P.Princ. 2 105</ref>, a letter that mentions hosting a man of the same name, suggests a date early in the assigned 6th century. The present letter, however, most likely was found in the Hermopolite, which is probably also the provenance of the list <ref target="https://papyri.info/ddbdp/p.lond%3B5%3B1756">P.Lond. 5 1761</ref> (6th cent.?), 18, which mentions a <seg style="font-style: italic;">scholasticus</seg> Ioannes, and <ref target="https://papyri.info/ddbdp/sb%3B18%3B13756">SB 18 13756</ref>.19 from the early 7th century, attesting payment from a <seg style="font-style: italic;">scholasticus </seg>Ioannes, son of Didymos.</p>
+                        <p xml:id="p27">The address is written in the embellished epistolary chancery style common in the addresses of letters in the later 6th and early 7th century (see the introduction).</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>Verso: Account</head>
+               <p xml:id="p28" style="text-align: left; text-align: justify;">A hand distinct from that on the recto has turned the sheet 180° and copied an account of wheat and money whose background seems to be related to taxes; artabas are not explicitly written, except in the penultimate line. The abbreviation of κεράτια (cf., e.g., <ref target="https://papyri.info/ddbdp/bgu%3B17%3B2720">BGU 17 2720</ref> [588/589?: <ref target="https://papyri.info/biblio/75040">Hagedorn 2002</ref>: 114; Hermopolis] or <ref target="https://papyri.info/ddbdp/p.bad%3B4%3B95">P.Bad. 4 95</ref> [with P.Gascou pp. 487–508; early 6th cent.; Hermopolite])<seg style="font-style: italic;">, </seg>and the references to Theodosioupolis (<ref target="https://papyri.info/biblio/9253">Drew-Bear 1979</ref>: 111–112; TM <ref target="https://www.trismegistos.org/place/3383">Geo 3383</ref>) and Antinoou (polis) (TM <ref target="https://www.trismegistos.org/place/2774">Geo 2774</ref>; <ref target="https://papyri.info/biblio/9253">Drew-Bear 1979</ref>: 49) point to a Hermopolite origin. There are <seg style="font-style: italic;">lemmata</seg> for different people, unnamed notables and specific charges. Lines 4–8 are indented and have control marks at the beginning. The pale ink makes the reading of ll. 9–15 particularly difficult.</p>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed2" type="edition"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p29"><ref>1–3</ref> Sums of artabas of wheat perhaps for the month of Epeiph. The siglum artaba is either missing or included in the irregular ending of σίτου: σίτ(ου) . The numeral κγ in l. 1 could refer to a day of the month. The numbers are difficult to read and in part missing in l. 1. Line 3 contains the sum of the numbers from l.1–2, which should equal 973 1/3 1/24. To match that total, 1/4 must be missing in l. 1. The higher number of 977 1/8 is placed next to the sum – perhaps another 3 2/3 1/12 artabas were added at a later date (in l. 1) and the former sum not corrected. The second <seg style="font-style: italic;">sampi</seg> in l. 3 looks slightly different. On the form of <seg style="font-style: italic;">sampi</seg> see <ref target="https://papyri.info/biblio/75389">Soldati 2006</ref>.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p30">6, 8 τῆς κυρᾶς. This κυρά may be the “lady Anastasia” mentioned in the letter on the back (ll. 7, 9). Cf. ll. 10 and 15 with a possible reference to a κύριος, also without a name.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p31">10, 14 τοῦ κυρίου: the reading is uncertain, as κύρου is also possible, and in l. 14 τω could be read instead of του with narrowly written ου. Cf. the reference to a nameless κυρά in ll. 6 and 8. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p32">11–11b συνβ̣[]γρ( ). A form of συμβολαιογράφος “notary” comes to mind. The lacuna seems toο small to fit the 5 missing letters: perhaps a second abbreviation was in use, such as συν[βολ(αιο)]γρ( ).</p>
+                        <p xml:id="p33">ε̣ξ̣ ἀποδειξ( ). An initial (κ̣α̣ί̣) is unlikely; for the following noun, a form of ἀπόδειξις is probable: either ἐξ ἀποδείξ(εως) or ἓξ ἀποδείξ(εις), the first of which seems more likely. The passage is written in darker black ink and has possibly been added at a later stage. It seems to continue over the next two lines (11a and 11b). The new entry in l. 12 is separated from the rest of the line by a slash in ink of the same color.</p>
+                        <p xml:id="p34">There is a difference between the two sums before and after the addition of ἐξ ἀποδείξεως—if the preference in the preceding is accepted—, of 1 <seg style="font-style: italic;">keration </seg>between l. 11 (5 ¾ <seg style="font-style: italic;">keratia</seg>) and l. 11b (6 ¾ <seg style="font-style: italic;">keratia</seg>). ⅔ of a <seg style="font-style: italic;">keration</seg> seem to have been added for tax purposes ((ὑπὲρ) δημοσί(ων)) on account of a receipt (ἀπόδειξις), which would leave another ⅓ for the surcharge (l. 11a: σὺν προ̣σθ(ήκῃ)) added to the money owed.</p>
+                        <p xml:id="p35">The only parallel for ἐξ ἀποδείξεως is <ref target="https://papyri.info/ddbdp/p.gascou%3B%3B34">P.Gascou 34</ref> (6th cent.; Oxyrhynchus), 7–8, where it was understood as “aufgrund der Beweisurkunde”. In <ref target="https://papyri.info/ddbdp/sb%3B8%3B9770">SB 8 9770</ref> (511; Arsinoite), 9, and <ref target="https://papyri.info/ddbdp/stud.pal%3B20%3B139">SPP 20 139</ref> (531; Arsinoe), 16, an <seg style="font-style: italic;">apodeixis </seg>is further defined as a repayment (ἀνακομιδή) of a note of debt (γραμματεῖον). The money mentioned here could refer to a debt in taxes to be collected.</p>
+                        <p xml:id="p36">κ̣(εράτιον) ̣: the kappa seems to be abbreviated like in l. 11b with a loop.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p37"><ref>13.</ref> ναύλ(ου) Ἀντινόου. The name of this charge is not directly paralleled, but Nick Gonis points out that its existence is implied by the Coptic version ϩⲁⲑⲏⲙⲉ ⲛⲡⲉϫⲓⲟⲟⲣ ⲛⲡⲧⲟϣ ⲁⲛⲧⲓⲛⲟⲟⲩ “for the freight of the ferry-boat of the nome (of) Antinoou” in P.Bal. 291 (7th–8th cent.), 3, and (ὑπὲρ) ὁμοίως (sc. ναύλου) Ἀντινόου in <ref target="https://papyri.info/ddbdp/sb%3B20%3B14702">SB 20 14702</ref> (7th cent.: <ref target="https://papyri.info/biblio/96501">Gonis 2021</ref>: 162 no. 103), 12. Cf. l. 9, where the charge is not specified.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p38"><ref>14.</ref> λ̣ο̣ι̣(π- ). The traces are supplemented by more ink on an overturned fragment visible from the front.</p>
+                        <p xml:id="p39">The indecipherable squiggle at the end of the line is perhaps κ̣(εράτια) γ̣, written again like <seg style="font-style: italic;">kappa</seg> in l. 11b.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p40"><ref>15.</ref> μισθ(οῦ) τηγ( ) τοῦ ἐλαιουρ(γ ). The second word has a sinusoid abbreviation stroke with part of the fibers broken off; perhaps τηγ(άνου), rent for a metal frying pan, which might have been used for producing oil (read ἐλαιουρ(γοῦ) or ἐλαιουρ(γίου) in the following in that case). The letter on the backside mentions a request for radish-oil in l. 3. Three τήγανα share space with a vessel of ἔλαιον in the shipment catalogued in <ref target="https://papyri.info/ddbdp/p.oxy%3B16%3B1923">P.Oxy. 16 1923</ref> (5th–early 6th cent.), 18 and 20 respectively; cf. also the obscure ὑ(πὲρ) τοῦ διαγράφου τοῦ τηγάνου in <ref target="https://papyri.info/ddbdp/p.oxy%3B1%3B127">P.Oxy. 1 127</ref> (6th cent.), 2, 9.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p41"><ref>16.</ref> Ματειυ: no omikron can be discerned before the final vowel, unless it has essentially vanished into a ligature with upsilon on the line, which usually only appears above the line. One might suspect a non-standard spelling of Ματείου, which probably belongs among the variants of the biblical Ματθαῖος: cf. Foraboschi, NB 185 s.vv. Μαθαῖος, Μαθείας, Μαθθέας, Μαθθίας, Μάθιος; but cf. also Coptic ⲙⲁⲧⲟⲓ “soldier,” also a personal name (<ref target="https://papyri.info/biblio/96532">Crum 1939</ref>: <ref target="http://www.greeklatin.narod.ru/coptic/_190.htm">190b</ref>).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p42"><ref>17.</ref> ἐμβο̣λ̣[ῆ]ς̣ Ἀντινόου. There is also reference to Antinoe in l. 14.</p>
+                        <p xml:id="p43"><pb/></p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>II. Letter to Kyriakos requesting the intervention of a bishop</head>
+               <p xml:id="p44" style="text-align: left; text-align: justify;">The papyrus was given to the Bodleian Library on 20 October 1986 by the Armenologist and biblical scholar Frederick C. Conybeare, part of a lot said to come from the Fayum.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/96443">Madan and Craster 1924</ref>: 158 no. 32456 with corr. p. xxii. No distinction is made there between what was given by Conybeare and what was bought from Bernard P. Grenfell in the same year, but the manuscript handlist traces Gr. class. d. 56 (and Gr. class. d. 46–d. 55) more specifically to Conybeare.</p></note> It is described in the <seg style="font-style: italic;">Summary Catalogue</seg> simply as a “letter.” Among the Conybeare papyri eventually published, provenances from Hermopolis (e.g., <ref target="https://papyri.info/ddbdp/p.grenf%3B1%3B56">P.Grenf. 1 56</ref>: Gr. class. d. 55) as well as the Arsinoite (e.g., <ref target="https://papyri.info/ddbdp/sb%3B6%3B9269">SB 6 9269</ref>: Gr. class. d. 54) and the Thebaid (Gr. class. c. 35: <ref target="https://papyri.info/ddbdp/p.grenf%3B2%3B92">P.Grenf. 2 92</ref> with P.Bodl. 1 p. 322) are represented; that of the present letter must be considered unknown. </p>
+               <p xml:id="p45" style="text-align: left; text-align: justify;">	The fluent but idiosyncratic hand is difficult to date. It shows (deliberate?) archaizing features indicative of writing in the late 5th or early 6th century, alongside characteristics that point to a later time, like the paleography of the sender’s name in the address. The general lack of serifs and the majuscule form of <seg style="font-style: italic;">phi</seg> contribute to an early impression. <seg style="font-style: italic;">Rho </seg>is angular and pointy at the top. The writer’s usual way of forming <seg style="font-style: italic;">lambda</seg> is especially peculiar, a single wavy stroke below the line with a loop at the end for which we were not able to find any parallels; the forms of this letter in κέλευσων (2) and μεγαλο-, δοῦλος (verso), however, are more normative, and the alternation may suggest again a deliberate archaism. The script in general displays the unsettled appearance characteristic of the 5th century, an impression to which the many non-standard spellings contribute. Embellished <seg style="font-style: italic;">sigma </seg>at the end of l. 3 also gives an earlier impression; the form of <seg style="font-style: italic;">delta </seg>in 2, however, points later. <seg style="font-style: italic;">Phi</seg> and especially <seg style="font-style: italic;">eta </seg>in majuscule form (κληρον, διαφυλάξῃ, ἐρημίαν, ἡμᾶς) resemble the so-called Heracleopolite style dominant between the late 5th and early 7th century, which preserves an archaizing character in its later phase,<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> <ref target="https://papyri.info/biblio/20986">Harrauer 2010</ref>: 70–71.</p></note> and might point to provenance from that nome. A sheet-join runs across the space between lines 4–5.</p>
+               <p xml:id="p46" style="text-align: left; text-align: justify;">	The sender, writing to an employer (<ref target="bookmark12">6n</ref>.), presents himself as wronged (<ref target="bookmark13">5</ref>) in relation to some “allotment(s)” (κλῆρος or κλῆροι: <ref target="bookmark14">1n</ref>.) and asks for his correspondent to have a letter written to request the intervention of a bishop. The legal background by which bishops in the East exercised power as arbiters (<seg style="font-style: italic;">iudicium episcopale </seg>and <seg style="font-style: italic;">episcopalis audientia</seg>) and were elevated to local notables fits the date of this text (see in general P.Col. 11 pp. 70–72). Adjudication of a disputed inheritance, e.g., is possible: <ref target="https://papyri.info/ddbdp/p.lips%3B1%3B43">P.Lips. 1 43</ref> (Chrest.Mitt. 98) is the record of fourth-century judicial proceedings (δίαιτα) over which a bishop presided ἐν τῷ πυλῶνι τῆς κ[αθ]ολικῆς ἐκκλησίας (of Hermopolis?) in the case of a nun accused of wrongfully removing Christian books from an inheritance. Other kinds of intervention may be considered, however, based more generally on the status of the bishop as powerful figure: as e.g. <ref target="https://papyri.info/ddbdp/p.gen%3B4%3B169">P.Gen. 4 169</ref> (6th–7th cent.), a letter to a bishop asking for help in the matter of a delayed shipment, probably of a donation of cereals destined for a monastery, which is at risk from rot and rodents.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> In 14 ἐκ τῆς σήψεως καὶ ἐκ τῶν ποντι[κῶν] is already considered in the commentary, but in this context the latter is not the adjective “marin” but the substantive “rat.”</p></note></p>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: justify;">MS. Gr. class. d. 56 (P)</cell>
+                        <cell style="text-align: center;">29.0 (w) × 8.2 (h) cm</cell>
+                        <cell style="text-align: right;">5th–6th cent. </cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: justify;">SC 32456</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                     </row>
+                  </table>
+                  <div copyOf="#ed3" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p47"><ref>2.</ref> τῇ σου δεσποτίᾳ – εἱ ὑμετέρα ἐνδοξότιτος. The jump between informal and formal forms of address is not uncommon (see, e.g., <ref target="https://papyri.info/ddbdp/cpr%3B36%3B46">CPR 36 46</ref>.1n.). The first abstract (used two more times) in the address refers to the “masterhood” of the recipient (over the sender), not to his rank (like μεγαλοπρεπεία or ἐνδοξότης, which is used in the next line), and emphasizes the relationship between sender and recipient as “servitude” of the former in the employment of the latter.</p>
+                        <p xml:id="p48">μικρον κληρον. It is unclear whether μικροῦ κλήρου or μικρῶν κλήρων was intended. Despite the mention of a bishop (cf. <ref target="https://papyri.info/ddbdp/p.louvre%3B3%3B235">P.Louvre 3 235</ref> [7th cent.; Arsinoite], 10–11, where he is greeted μετὰ παντὸ̣ς̣ αὐτοῦ τοῦ τιμίου κλήρου), the adjective points to an older sense of the word: perhaps a disputed inheritance (in that case, μικροῦ κλήρου), where the judicial intervention of a bishop is paralleled (see the <ref target="bookmark15">introduction</ref>, and cf. <ref target="https://papyri.info/ddbdp/p.oxy%3B6%3B903">P.Oxy. 6 903</ref> [4th cent.]: an oath in a family dispute is made ἐπὶ παρουσίᾳ τῶν ἐπισκόπων [15]).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p49"><ref>4.</ref> μεσάσι. The verb in the active voice seems to have the sense “intervene” (confined to the passive according to LSJ) also in <ref target="https://papyri.info/ddbdp/p.berl.frisk%3B%3B6">P.Berl.Frisk 6</ref> (710; Aphrodite), 14, σὺ διὰ σεαυτοῦ μεσάζων μετʼ ἀκριβείας πάσης; cf. also <ref target="https://papyri.info/ddbdp/p.mert%3B1%3B46">P.Mert. 1 46</ref> (late 5th–early 6th cent.; Herakleopolite), 12; <ref target="https://papyri.info/ddbdp/p.wash.univ%3B1%3B36">P.Wash.Univ. 1 36</ref> (428/429?; Oxyrhynchite), 5. As a loanword in Coptic μεσάζω becomes a technical term of legal agreements, “divide in half” (<ref target="https://papyri.info/biblio/16959">F<seg style="text-decoration: underline;">ö</seg>rster 2002</ref>: 516).</p>
+                        <p xml:id="p50">σωθ̣ῆ̣ν̣[αι ca. 5 ]ο[]ει. Probably a word that introduces the following ὅπως; before <seg style="font-style: italic;">omicron</seg> perhaps traces of <seg style="font-style: italic;">pi.</seg></p>
+                        <p xml:id="p51">εο̣λο̣.The end of the line is particularly difficult. <seg style="font-style: italic;">Lambda </seg>could be part of πολλά or another form of πολύς, but the construction remains obscure. Just possibly πολλὰ ἔ̣τ̣ι̣ (for ἔτη) stood at the end, but e.g. εἰς or ἐπί before that (“for many years”: cf. <ref target="https://papyri.info/ddbdp/p.herm%3B%3B8">P.Herm. 8</ref> [late 4th cent.], 23–24) is difficult. Alternatively, the preceding letter combination could be -το- with the word starting with <seg style="font-style: italic;">epsilon</seg> after a short word ending in a descender, like καί, after ἡμᾶς (or, actually a small vacat); a possible reading is Εὐ̣τόλμ̣ε̣ι̣ος̣ or -ον̣ (or also -μιος/ν). Eutolmios could have been a third party (on the side of the sender), either somehow involved in the problem with the “allotments” (<ref target="bookmark16">2n</ref>.)—if we read -μειον or -μιον or one concerned in the next phase of the bishop’s intervention—if we read -μειος or -μιος. He would then be subject of διαφυλάξει and presumably a secular official or a notable. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p52"><ref>5.</ref> εἰδό. Understand ἰδού, the suggestion of Lajos Berkes; for the spelling with final -ό in place of -ού, compare <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 211. In <ref target="https://papyri.info/ddbdp/psi%3B7%3B823">PSI 7 823</ref> (5th cent.), ἰδό (l. 9: ϊδο pap.) is apparently written for ἰδού (not διό as ed.pr.).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p53"><ref>6.</ref> μὶ ἐάσις ἀδικισθῆναι ἡμᾶς. If not an error for the more common ἀδικηθῆναι, this would be the first occurrence of ἀδικίζω, apparent by-form of ἀδικέω. There is a similar formulation in a seventh-century petition to an <seg style="font-style: italic;">antigeouchos</seg>, <ref target="https://papyri.info/ddbdp/p.oxy%3B81%3B5289">P.Oxy. 81 5289</ref>.17–18, μὴ ἐάσῃ ὁ ἐμὸς ἀγα̣θ̣ὸς δεσπότης̣ ἀδικ⟦ει⟧ηθῆναί με. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p54"><ref>7.</ref> Νο <seg style="font-style: italic;">comes </seg>with the relevant ranks and the name Kyriakos is known to us. The titulature would match that of the <seg style="font-style: italic;">comites domesticorum </seg>in the late fifth and early sixth cent.: e.g., <ref target="https://papyri.info/ddbdp/stud.pal%3B20%3B128">SPP 20 128</ref>.2 (487, Arsinoite): Φλ(αουίῳ) Ε[ὐσ]τοχίῳ τῷ μεγαλοπρεπεστάτῳ καὶ ἐνδοξοτάτῳ κόμιτι τῶν καθοσιωμένων (l. καθωσιωμένων) δομεστικῶν. For the meaning of <seg style="font-style: italic;">kyrios</seg>, see 1. <ref target="bookmark17">10n</ref>. </p>
+                        <p xml:id="p55">ὑ̣μέτερ̣ο̣ς̣ δοῦλος. The hierarchical relation between δοῦλος and δεσπότης is a typical expression of humility and reference towards the recipient, especially in the context of large estates where it shows that the sender was most likely in the employment of the addressee. As Fikhman (<ref target="https://papyri.info/biblio/49978">1974</ref>: 119) puts it, “in the papyri of Byzantine Oxyrhynchus ‘doulos’ was used almost exclusively by people of free status for themselves when addressing people of higher standing and very seldom about slaves”. This Oxyrhynchite material comes mostly from the Apion estate. The collocation of δοῦλος and ἀδελφός, if in fact present (see the following <ref target="bookmark18">n</ref>.), has one parallel in the endorsement of <ref target="https://papyri.info/ddbdp/p.oxy%3B59%3B4006">P.Oxy. 59 4006</ref> (early 7th cent.: <ref target="https://papyri.info/biblio/95961">Berkes 2017</ref>: 95 n. 67), which addresses a <seg style="font-style: italic;">meizoteros</seg> of the Apions. According to Papathomas (<ref target="https://papyri.info/biblio/76096">2007</ref>: 509), the use of <seg style="font-style: italic;">doulos </seg>shows the impact of Christianity on epistolary language.</p>
+                        <p xml:id="p56">κ̣α̣ὶ̣ ἀ̣δ̣ε̣λ̣φός. The reading is difficult; there are also additional letters after a short lacuna. Instead of what is read here, a partly abraded [ἀδελ]φός could simply follow there towards the end of the line. Then the proper name, which we would expect to precede this expression as in many letter addresses (e.g. <ref target="https://papyri.info/ddbdp/p.oxy%3B16%3B1939">P.Oxy. 16 1939</ref> [6th–7th cent.]; <ref target="https://papyri.info/ddbdp/psi%3B5%3B481">PSI 5 481</ref> [5th–6th cent.]), would come after δοῦλος instead. The word ending -φός could also be read as -τιος, or possibly the whole passage as Γεώργιος followed by a further specification, now partly lost. This alternative, however, is also problematic, as there is clearly writing before ὑ̣μέτερ̣ο̣ς̣ as well. <ref target="https://papyri.info/ddbdp/p.muench%3B3.1%3B129">P.M<seg style="text-decoration: underline;">ü</seg>nch. 3 129</ref> (5th cent.) is the only letter known to us where the name follows <seg style="font-style: italic;">doulos</seg>: ος δοῦλος Ἰερεμία̣ς̣ ἀρχιυπ(ηρέτης).</p>
+                     </note>
+                  </div> “Usi intratestuali dei simboli Cristiani nei papiri documentari di epoca bizantina ed araba,” in A. Ghignoli, M. Boccizzi, A. Monte, and N. Sietis (eds.), Segni, sogni, materie e scrittura dall’Egitto tardoantico all’Europa Carolingia = Temi e Testi 221, Roma: 51–70.</div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96447">Amory, Y. (2023)</ref> “Usi intratestuali dei simboli Cristiani nei papiri documentari di epoca bizantina ed araba,” in A. Ghignoli, M. Boccizzi, A. Monte, and N. Sietis (eds.), Segni, sogni, materie e scrittura dall’Egitto tardoantico all’Europa Carolingia = Temi e Testi 221, Roma: 51–70.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95961">Berkes, L. (2017)</ref> Dorfverwaltung und Dorfgemeinschaft in Ägypten von Diokletian zu den Abbasiden. Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96442">Carlig, N. (2020)</ref> “Les symboles chrétiens dans les papyrus littéraires et documentaires grecs: forme, disposition et fonction (IIIe – VIIe/VIIIe siècles),” in N. Carlig, G. Lescuyer, A. Motte, and N.Sojic (eds.), Signes dans les textes. Continuités et ruptures des pratiques scribales en Égypte pharaonique, gréco-romaine et byzantine. Actes du colloque international de Liège (2–4 juin 2016) = Papyrologica Leodiensia. 9. Liège: 271–281.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96532">Crum, W.E. (1939)</ref> A Coptic Dictionary. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9253">Drew-Bear, M. (1979)</ref> Le nome Hermopolite: Toponymes et sites. American Studies in Papyrology 21. Missoula, MT.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/49978">Fikhman, I. F. (1974)</ref> “Slaves in Byzantine Oxyrhynchos,” in E. Kießling, H. A. Rupprecht (eds), Akten des XIII Internationalen Papyrologenkongress. München: 117–124.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/16959">F<seg style="text-decoration: underline;">ö</seg>rster, H. (2002)</ref> Wörterbuch der griechischen Wörter in den koptischen dokumentarischen Texten. Texte und Untersuchungen zur Geschichte der altchristlichen Literatur 148. Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77679">Fournet, J.-L. (2009)</ref> “Esquisse d'une anatomie de la lettre antique tardive d'après les papyrus,” in R. Delmaire, J. Desmulliez, and P.-L. Gatier (eds.), Correspondances. Documents pour l'histoire de l'Antiquité tardive. Actes du colloque international (Université Charles-de-Gaulle - Lille 3, 20–22 novembre 2003). Lyon: 23–66.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/8813">Gignac, </ref>
+                     <ref target="https://papyri.info/biblio/8813">F.T. (1976)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. I. Phonology. Milan.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86850">Gonis, N. (2014)</ref> “Notes on Miscellaneous Documents IV,” ZPE 191: 198–202.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/87150">Gonis, N. (2015)</ref> “[Korr. Tyche] 793. P.Oxy. XVI 1856,” Tyche 30: 225.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96501">Gonis, N. (2021)</ref> “Notes on Miscellaneous Documents VII,” ZPE 218: 158–162.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/75040">Hagedorn, D. (2002)</ref> “Bemerkungen zu Urkunden,” ZPE 138: 113–118.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/75040">Hagedorn, D. (2006)</ref> “Bemerkungen zu Urkunden,” ZPE 156: 165–168.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77173">Hagedorn, D. (2008)</ref> “Zu den Adressen einiger spätantiker Briefe,” ZPE 65: 129–132.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/20986">Harrauer, H. (2010)</ref> Handbuch der griechischen Paläographie. Stuttgart.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/84465">Hickey, T. M. (2012)</ref> Wine, Wealth, and the State in Late Antique Egypt: The House of Apion at Oxyrhynchus. Ann Arbor.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96443">Madan, F., and H. H. E. Craster (1924)</ref> A Summary Catalogue of Western Manuscripts in the Bodleian Library at Oxford VI. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/70310">Mayerson, P. (2001)</ref> “Radish Oil: A Phenomenon in Roman Egypt,” BASP 38: 109–117.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14491">Morelli, F. (1996)</ref> Olio e retribuzioni nell'Egitto tardo (V – VIII d. C.). Florence.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/73454">Morelli, F. (2004)</ref> “Il λαχανόϲπερμον, il ῥαφανέλαιον, e il sesamo: olii e oleaginose fantasma,” ZPE 149: 138–142.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/76096">Papathomas, A. (2007)</ref> “Höflichkeit und Servilität in den griechischen Papyrusbriefen der ausgehenden Antike,” in B. Palme (ed.), Akten des 23. Internationalen Papyrologenkongresses. Wien: 497–512</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/75389">Soldati, A. (2006)</ref> “Τὸ καλούμενον παρακύϊσμα. Le forme del sampi nei papiri”, APF 52: 209–217.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/36620">Steen, H. A. (1938)</ref> “Les clichés épistolaires dans les papyrus grecs,” ClMed 1: 119–172.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/10922">Teitler, H. C. (1985)</ref> Notarii and Exceptores: An Inquiry Into Role and Significance of Shorthand Writers in the Imperial and Ecclesiastical Bureaucracy of the Roman Empire (from the Early Principate to c. 450 A.D.). Dutch Monographs on Ancient History and Archaeology 1. Amsterdam.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Letter concerning a sum of money</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">987697</idno>
+               <idno type="HGV">987697</idno>
+               <idno type="ddb-filename">pylon.4.2_1</idno>
+               <idno type="ddb-hybrid">pylon;4;2_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">MS. Gr. class. d. 40 (P)</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">15.7</measure>
+                              <measure type="width" unit="cm">20.9</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>6th–7th cent.</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Brief</term>
+                  <term n="2">Geld</term>
+                  <term n="3">Rettichöl</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Letter concerning a sum of money</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.4.2_1</idno>
+               <idno type="ddb-hybrid">pylon;4;2_1</idno>
+               <idno type="HGV">987697</idno>
+               <idno type="TM">987697</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Letter concerning a sum of money</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><g type="stauros"/>
+<lb n="2"/><supplied reason="lost"><g type="stauros"/> καθὼς καὶ κα</supplied>τὰ <subst><add place="inline">πρόσω<add place="above">πον</add></add><del rend="corrected">προ<gap reason="illegible" quantity="2" unit="character"/></del></subst> παρεκάλεσα <subst><add place="inline">τὴν</add><del rend="corrected"><gap reason="illegible" quantity="1" unit="character"/>ην</del></subst>
+<subst><add place="inline">πάνσοφον</add><del rend="corrected">σοφ<gap reason="illegible" quantity="7" unit="character"/></del></subst> καὶ περίβλεπτον
+<lb n="3"/><gap reason="lost" quantity="10" unit="character" precision="low"/> ἕνεκεν ὀλίγου ῥαφανελαίου δυσωπῶ τὴν ὑμετέραν
+<lb n="4"/><gap reason="lost" quantity="8" unit="character" precision="low"/> <supplied reason="lost">φι</supplied><unclear>λ</unclear>ίαν εἰ ἀβαρὲς αὐτῇ φαίνεται <num value="2">δύο</num> <expan>νομισμά<ex>τια</ex></expan>
+<lb n="5"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <unclear>κ</unclear>αὶ ἐνεγκεῖν ἡμῖν μεθ᾿ ἑαυτῆς ἐπειδὴ κατὰ τὸ
+<lb n="6"/><gap reason="lost" quantity="8" unit="character" precision="low"/> <unclear>α</unclear>ὐτῶν ἔχομεν· παρεκάλεσα δὲ τὴν <expan>κοσμιωτ<ex>άτην</ex></expan>
+<lb n="7"/><supplied reason="lost">ἀδελφὴν τὴ</supplied>ν <subst><add place="inline">κυρὰν</add><del rend="corrected">κυρ<gap reason="illegible" quantity="2" unit="character"/></del></subst> Ἀναστασίαν<hi rend="diaeresis">ἵ</hi>να γράψῃ ὑμῖν τούτου ἕνεκα
+<lb n="8"/><gap reason="lost" quantity="8" unit="character" precision="low"/>ηθεντα ἐγγὺς ὑμῶν ἕνεκεν Θεοδώρου τοῦ <expan>νοταρ<ex>ίου</ex></expan>
+<lb n="9"/><gap reason="lost" quantity="8" unit="character" precision="low"/> <supplied reason="lost">ἀ</supplied><unclear>δ</unclear><supplied reason="lost">ελ</supplied>φῆς τῆς κυρᾶς Ἀναστασίας δ<supplied reason="lost">έσπο</supplied>τα <g type="stauros"/>
+</ab></div>
+<div n="v" type="textpart"><ab>
+<lb n="10"/><g type="stauros"/> <expan>δεσπό<ex>τῃ</ex></expan> ἐμῷ τὰ <expan>π<ex>ά</ex>ντ<ex>α</ex></expan> <expan>σοφωτά<ex>τῳ</ex></expan> <expan>γνη<ex>σίῳ</ex></expan> <expan>φίλ<ex>ῳ</ex></expan> <expan><ex>καὶ</ex></expan> <expan>ἀδ<supplied reason="lost">ε</supplied><unclear>λ</unclear>φ<ex>ῷ</ex></expan> <expan>κυρ<ex>ίῳ</ex></expan> Ἰω<gap reason="lost" extent="unknown" unit="character"/>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Letter concerning a sum of money</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">987697</idno>
+               <idno type="TM">987697</idno>
+               <idno type="HGV">987697</idno>
+               <idno type="ddb-hybrid">987697</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<div n="r" type="textpart">
+<p>
+[As I also] asked [your?] all-wise and admirable [friendship?] in person on account of a little radish-oil, I beseech your [all-wise?] friendship (sc. now), if it seems not too much trouble for you, two solidi … to bring to us with you, since … we have … of them. I have asked the most decent [sister] the lady Anastasia to write to you on account of this … near you on account of Theodoros the secretary … sister the lady Anastasia, master.
+</p>
+</div>
+<div n="v" type="textpart">
+<p>
+To my master, in all things most learned genuine friend and brother, the lord Io[
+</p></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><supplied reason="lost" cert="low">Ἐπεὶ</supplied>φ <num value="23">κγ</num> σίτου ϡοα <num value="1/2">𐅵</num> <num value="1/3" rend="tick"><unclear>γ</unclear></num> <supplied reason="lost"><num value="1/4" rend="tick">δ</num></supplied> <gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="2"/><expan><ex>ὑπὲρ</ex></expan> <expan>Θεοδοσιουπόλ<ex>εως</ex></expan> σίτου α <num value="1/4" rend="tick">δ</num> <num value="1/24" rend="tick"><unclear>κ</unclear>δ</num>
+<lb n="3"/><expan><ex>γίνεται</ex></expan> σίτου ϡογ <num value="3"><hi rend="supraline">γ</hi></num> <subst><add place="inline"><num value="24"><hi rend="supraline">κδ</hi></num></add><del rend="corrected">α <certainty match=".." locus="value"/></del></subst>  <unclear>ϡ</unclear>οζ <num value="1/8" rend="tick">η</num>
+<lb n="4"/><g type="x"/> Βίκτορος <expan>πρ<ex>εσβυτέρου</ex></expan> <expan>νο<ex>μισμάτια</ex></expan> <num value="6">ϛ</num>
+<lb n="5"/><g type="x"/> <expan>Θεοτίμ<ex>ου</ex></expan> <expan>πρ<ex>εσβυτέρου</ex></expan> <expan>νο<ex>μισμάτια</ex></expan> <num value="1">α</num> <expan>κ<ex>εράτια</ex></expan> <num value="12"><hi rend="diaeresis">ι</hi>β</num>
+<lb n="6"/><g type="x"/> τῆς κυρᾶς
+<lb n="7"/><g type="x"/> Κολλούθο<unclear>υ</unclear> <expan><unclear>πρ</unclear><ex>εσβυτέρου</ex></expan> <expan>νο<ex>μισμάτια</ex></expan> <num value="5"><unclear>ε</unclear></num> <expan>κ<ex>εράτια</ex></expan>  <num value="12"><hi rend="diaeresis">ι</hi>β</num>
+<lb n="8"/><g type="x"/> τῆς κυρᾶς <expan>νο<ex>μισμάτια</ex></expan>  ζ <expan>κ<ex>εράτια</ex></expan> <num value="18"><hi rend="diaeresis">ι</hi>η</num>
+<lb n="9"/><expan>ναύλ<ex>ου</ex></expan> <expan>νο<ex>μισμάτια</ex></expan> <num value="9">θ</num> <expan>κ<ex>εράτια</ex></expan> <num value="14"><hi rend="diaeresis">ι</hi>δ</num> <expan>νο<ex>μισμάτια</ex></expan>  <num value="16"><hi rend="diaeresis">ι</hi>ϛ</num> <expan>κ<ex>εράτια</ex></expan> θ <num value="1/2">𐅵</num> <num value="1/4" rend="tick">δ</num>
+<lb n="10"/>τοῦ <expan><unclear>κ</unclear><supplied reason="lost">υ</supplied><unclear>ρ</unclear><ex>ί</ex><unclear>ου</unclear></expan> <expan>κ<ex>εράτια</ex></expan> <num value="6">ϛ</num> <num value="1/2">𐅵</num> <num value="1/4" rend="tick"><unclear>δ</unclear></num> <expan><unclear>λοι</unclear><ex>π- </ex></expan> <expan>κ<ex>εράτια</ex></expan> <num value="8">η</num> <num value="1/4" rend="tick">δ</num>
+<lb n="11"/>συν<unclear>β</unclear><gap reason="lost" quantity="3" unit="character"/> <abbr>γρ</abbr> <expan>κ<ex>εράτια</ex></expan> <num value="5">ε</num> <num value="1/2">𐅵</num> <num value="1/4" rend="tick"><unclear>δ</unclear></num><unclear>εξ</unclear> <abbr>ἀποδειξ</abbr> <expan><ex>ὑπὲρ</ex></expan> <expan>δημοσί<ex>ων</ex></expan> <expan><unclear>κ</unclear><ex>εράτιον</ex></expan> <num value="2/3"><unclear>𐅷</unclear></num>
+<lb n="11a"/><expan><unclear>γ</unclear>ί<ex>νεται</ex></expan> σὺν <expan>πρ<unclear>ο</unclear>σθ<ex>ήκῃ</ex></expan>
+<lb n="11b"/><expan>κ<ex>εράτια</ex></expan> <num value="6">ϛ</num> <num value="1/4" rend="tick"><unclear>δ</unclear></num>
+<lb n="12"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" quantity="1" unit="character"/> <expan><unclear>ὀ</unclear>νοματ<ex>- </ex></expan> <expan>νο<ex>μισμάτια</ex></expan> <num value="2">β</num> <expan>κ<ex>εράτια</ex></expan> <num value="6">ϛ</num>
+<lb n="13"/><expan>ναύλ<ex>ου</ex></expan> Ἀντινόου<expan>νο<ex>μισμάτια</ex></expan>  γ <expan>κ<ex>εράτια</ex></expan> ζ <num value="1/2">𐅵</num> <num value="1/4" rend="tick">δ</num>
+<lb n="14"/>τοῦ <expan>κ<unclear>υ</unclear>ρ<ex>ί</ex>ου</expan><expan>κ<ex>εράτια</ex></expan> <num value="6">ϛ</num> <expan><unclear>λοι</unclear><ex>π- </ex></expan> <expan><unclear>κ</unclear><ex>εράτια</ex></expan> <num value="3">γ</num>
+<lb n="15"/><expan><ex>ὑπὲρ</ex></expan> <expan>μισθ<ex>οῦ</ex></expan> <abbr>τηγ</abbr> τοῦ <expan>ἐλαιουρ<ex>γ- </ex></expan><expan>κ<ex>εράτια</ex></expan> <num value="7">ζ</num>
+<lb n="16"/>Παμιν <choice><reg cert="low">Ματείου </reg><orig>Ματειυ</orig></choice> <expan>κ<ex>εράτιον</ex></expan> <num value="1">α</num>
+<lb n="17"/><expan><ex>ὑπὲρ</ex></expan> <expan>λοιπάδ<ex>ος</ex></expan> ἐμβ<unclear>ολ</unclear><supplied reason="lost">ῆ</supplied><unclear>ς</unclear> Ἀντινόου <expan><ex>ἀρτάβη</ex></expan> <num value="1">α</num> <expan>κ<ex>εράτιον</ex></expan> <num value="1">α</num>
+<lb n="18"/><expan><ex>ὑπὲρ</ex></expan> <expan>ἀναλωματ<ex>- </ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><unclear>ὁμ</unclear><ex>οῦ</ex></expan> <expan>κ<ex>εράτια</ex></expan> <num value="8"><unclear>η</unclear></num>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Letter to Kyriakos requesting the intervention of a bishop</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">987698</idno>
+               <idno type="HGV">987698</idno>
+               <idno type="ddb-filename">pylon.4.2_2</idno>
+               <idno type="ddb-hybrid">pylon;4;2_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">MS. Gr. class. d. 56 (P)</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm">8.2</measure>
+                              <measure type="width" unit="cm">29</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>5th–6th cent.</origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Brief</term>
+                  <term n="2">Bischof</term>
+                  <term n="3">Bitte um Vermittlung</term>
+                  <term n="4">Land</term>
+                  <term n="5">Linsen</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Letter to Kyriakos requesting the intervention of a bishop</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.4.2_2</idno>
+               <idno type="ddb-hybrid">pylon;4;2_2</idno>
+               <idno type="HGV">987698</idno>
+               <idno type="TM">987698</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Letter to Kyriakos requesting the intervention of a bishop</head>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+<lb n="1"/><unclear><g type="stauros"/></unclear> 
+<lb n="2"/><g type="stauros"/> καθὼς <unclear>τὸ</unclear> <choice><reg>πρῶτον</reg><orig>προ͂των</orig></choice> ἔγραψα τῇ σου <choice><reg>δεσποτείᾳ</reg><orig>δεσποτίᾳ</orig></choice> <choice><reg>ἕνεκεν</reg><orig>ἕνεγκεν</orig></choice> <choice><reg><app type="alternative"><lem>τῶν μικρῶν κλήρων</lem><rdg>τοῦ μικροῦ κλήρου</rdg></app></reg><orig>τῶ μικρον κληρον</orig></choice> <choice><reg>καταξιώσῃ</reg><orig>καταξιόσι</orig></choice>
+<lb n="3"/><choice><reg>ἡ</reg><orig>εἱ</orig></choice> ὑμετέρα <choice><reg>ἐνδοξότης</reg><orig>ἐνδοξότιτος</orig></choice>, <choice><reg>κέλευσον</reg><orig>κέλευσων</orig></choice> γράψον <choice><reg>τῷ</reg><orig>τοῦ</orig></choice> πατρί μου <choice><reg>τῷ</reg><orig>τοῦ</orig></choice> <choice><reg>ἐπισκώπῳ</reg><orig>ἐπισκώπου</orig></choice> ὅπως
+<lb n="4"/><choice><reg>μεσάσῃ</reg><orig>μεσάσι</orig></choice> εἰ <choice><reg>δύναμαι</reg><orig><unclear>δύ</unclear>ναμε</orig></choice> σω<unclear>θῆν</unclear><supplied reason="lost">αι</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/><gap reason="illegible" quantity="5" unit="character"/>ο<gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ει ὅπ<unclear>ω</unclear><supplied reason="lost">ς</supplied> <unclear>δι</unclear><supplied reason="lost">αφ</supplied><unclear>υ</unclear>λάξῃ ἡμᾶς <gap reason="illegible" quantity="3" unit="character"/>ε<gap reason="illegible" quantity="2" unit="character"/><unclear>ο</unclear>λ<gap reason="illegible" quantity="2" unit="character"/><unclear>ο</unclear><gap reason="illegible" quantity="1" unit="character"/>
+<lb n="5"/>καὶ περὶ τῶν φακῶν, <choice><reg>ἰδού</reg><orig>εἰδό</orig></choice>, Ἰερημίαν ἔπεμψα πρὸς τὴν <choice><reg>σὴν</reg><orig>σὺν</orig></choice> <choice><reg>δεσποτείαν</reg><orig>δεσποτία</orig></choice>
+<lb n="6"/>περὶ <choice><reg>τούτου</reg><reg>τούτων</reg><orig>τούτω</orig></choice>. παρακαλῶ τὴν <choice><reg>σὴν</reg><orig>σὺν</orig></choice> <choice><reg>δεσποτείαν</reg><orig>δεσποτία</orig></choice> <choice><reg>μὴ</reg><orig>μὶ</orig></choice> <choice><reg>ἐάσῃς</reg><orig>ἐάσις</orig></choice> ἀδικι<add place="above">σ</add>θῆναι ἡμᾶς δέσποτα <g type="stauros"/>
+</ab></div>
+<div n="v" type="textpart"><ab>
+<lb n="7"/><g type="stauros"/> <expan><unclear>δεσ</unclear>π<ex>ότῃ</ex></expan> <expan>τ<ex>ῷ</ex></expan> ἐμ<unclear>ῷ</unclear> <expan>τ<ex>ῷ</ex></expan> τὰ <expan>πά<ex>ντα</ex></expan> μεγαλοπ<unclear>ρε</unclear><supplied reason="lost">πεστάτ</supplied><unclear>ῳ</unclear> <unclear>καὶ</unclear> <expan>ἐ<unclear>νδ</unclear><supplied reason="lost">ο</supplied><unclear>ξ</unclear><ex>οτάτῳ</ex></expan>
+<lb n="8"/>κυρίῳ <choice><reg>κόμητι</reg><orig><expan>κόμιτ<ex>ι</ex></expan></orig></choice> Κυριακῷ 
+<lb n="9"/><supplied reason="lost"><g type="stauros"/></supplied> <gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear> <unclear>ὑ</unclear>μέτε<unclear>ρος</unclear> δοῦλος <unclear>καὶ</unclear> <unclear>ἀδελ</unclear>φός <unclear><g type="stauros"/></unclear> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Letter to Kyriakos requesting the intervention of a bishop</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">987698</idno>
+               <idno type="TM">987698</idno>
+               <idno type="HGV">987698</idno>
+               <idno type="ddb-hybrid">987698</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve">
+<div n="r" type="textpart"><p>
+[As I also] asked [your?] all-wise and admirable [friendship?] in person on account of a little radish-oil, I beseech your [all-wise?] friendship (sc. now), if it seems not too much trouble for you, two solidi … to bring to us with you, since … we have … of them. I have asked the most decent [sister] the lady Anastasia to write to you on account of this … near you on account of Theodoros the secretary … sister the lady Anastasia, master.
+</p></div>
+<div n="v" type="textpart"><p>
+To my master, in all things most learned genuine friend and brother, the lord Io[
+</p></div>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
