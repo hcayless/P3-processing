@@ -35,7 +35,7 @@
       <revisionDesc>
          <listChange>
             <change>
-               <date>2024-04-24T15:03:22Z</date>
+               <date>2024-04-30T10:48:36Z</date>
                <name>Rodney Ast</name>
             </change>
          </listChange>
@@ -81,7 +81,55 @@
                   <note>
                      <p xml:id="p18"><ref>5</ref> There are clear remnants of incisions before the month name. Since the regnal formula certainly ended in the previous line, the writing cannot belong to that. One possibility is that ἐπ᾿ ἀγαθῷ was carved at the beginning of the line, but there are two problems with that interpretation: 1) it does not account for the tips of two diagonal lines (//) visible just to the right of the large lacuna; 2) it is hard to fit ω between what <seg style="font-style: italic;">could </seg> be Θ and the round sign before alpha in Ἁθύρ. Another possibility is that the visible lines are from two slanting strokes that followed an L-shaped ἔτους symbol (L//) and a Δ (not a Θ). On this interpretation, the round sign before the alpha would then be part of another <seg style="font-style: italic;">hedera</seg>. If this is correct, then the date of the inscription will have been 17 November 278.</p>
                   </note>
-               </div>Bibliography</div>
+               </div>
+               <div type="bibliography">
+                  <listBibl>
+                     <bibl>Bibliography</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95932">Ast, R. (2020)</ref> “I.Pan 70, a Dedication from the Year 133 BC,” ZPE 213: 108–110.</bibl>
+                     <bibl>Ast, R. (2021) “Marcus Laelius Cosmus. Italian merchants and Roman trade at Berenike under the Julio-Claudian Emperors” L. Rahmstorf, G. Barjamovic, and N. Ialongo (eds), Merchants, Measures and Money Understanding Technologies of Early Trade in a Comparative Perspective. Weight and Value 2 (Kiel-Hamburg 2021): 142–157.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/89162">Ast, R. and Bagnall, R.S. (2015)</ref> “The Receivers of Berenike,” <seg style="font-style: italic;">Chiron</seg> 45: 171–185.</bibl>
+                     <bibl>Ast, R., Popławski, S. and Rądkowska, J. (2022) “A Building Inscription for the Blemmyan King Kabantia,” <seg style="font-style: italic;">Chiron</seg> 52: 210–216.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95924">Ast, R. and Rądkowska, J. (2020)</ref> “Dedication of the Blemmyan Interpreter Mochosak on Behalf of King Isemne,” ZPE 215: 147–158.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/51199">Barnes, T.D. (1976)</ref> “Imperial Campaigns, A.D. 285–311,” Phoenix 30: 174–193.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/52377">Bowman, A.K. (1978)</ref> “The Military Occupation of Upper Egypt in the Reign of Diocletian,” BASP 15: 25–38.</bibl>
+                     <bibl>
+                        <ref target="https://doi.org/10.4000/books.cdf.5239">Brun, J.-P. (2018)</ref> “Chronology of the Forts of the Routes to Myos Hormos and Berenike during the Graeco-Roman Period,” in J.-P. Brun, T. Faucher, B. Redon, S. Sidebotham (eds), The Eastern Desert of Egypt during the Greco-Roman Period: Archaeological Reports. Paris.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/6514">Bureth, P. (1964)</ref> Les Titulatures impériales dans les papyrus, les ostraca et les inscriptions </bibl>
+                     <bibl>d'Égypte (30 a.C. - 284 p.C.). Brussels. </bibl>
+                     <bibl>Cobb, M.A. (2023) “The Palmyrene Diaspora in Egypt: Dependency, Sustainability, and Reuse” in N. Andrade and Raja, R. (eds), Exchange and Reuse in Roman Palmyra: Examining Economy and Circularity. Turnhout.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95999">Cuvigny</ref>
+                        <ref target="https://papyri.info/biblio/95999">, H. (2021)</ref> Rome in Egypt’s Eastern Desert. Vol. 2. New York.</bibl>
+                     <bibl>Cuvigny, H. (ed.) (2022) Blemmyes. New Documents and New Perspectives, Including O.Blem. 1–107. Cairo.</bibl>
+                     <bibl>Cuvigny, H. and Lach-Urgacz, K. (2020) “Ὀρεινὸν κέρμα. Monetary Circulation in the </bibl>
+                     <bibl>praesidia of the Eastern Desert During the Principate,” in T. Faucher (ed.), Money </bibl>
+                     <bibl>Rules! The Monetary Economy of Egypt, from the Persians until the Beginning of Islam. Cairo: 309–339.</bibl>
+                     <bibl>Earl, G. et al. (2010) https://eprints.soton.ac.uk/204531/1/ewic_ev11_s8paper3.pdf</bibl>
+                     <bibl>Kerler, G. (1970) Die Aussenpolitik in der Historia Augusta. Bonn. </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/88598">Pollard, N. (2013)</ref> “Imperatores castra dedicaverunt: Security, Army Bases, and Military Dispositions in Later Roman Egypt (Late Third-Fourth Century),” Journal of Late Antiquity 6: 3–36.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/71386">Rathbone, D. (2002)</ref> “Koptos the <seg style="font-style: italic;">Emporion</seg>. Economy and Society, I-III AD,” Topoi. Orient-Occident<seg style="font-style: italic;">.</seg> Supplément 3. Lyon.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/71692">Sidebotham, S.E. (2002) </ref> “Late Roman Berenike,” JARCE 39: 217–240.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/79310">Sidebotham, S.E. (2011) </ref> Berenike and the Ancient Maritime Spice Route. Berkeley, Los Angeles, London.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/95969">Sidebotham, S.E. et al. (2021)</ref> “Results of the Winter 2020 Excavation Season at Berenike (Red Sea coast, Egypt),” Thetis 26: 13–23.</bibl>
+                     <bibl>Sidebotham, S.E. et al. (2023) “Results of the Winter 2022 Excavation Season at Berenike (Red Sea Coast), Egypt,” Thetis 27: 13–28.</bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/15536">Sidebotham, S.E. and Wendrich, W.Z. (1998)</ref> Berenike 1996. Report of the 1996 excavations at Berenike (Egyptian Red Sea Coast) and the Survey of the Eastern Desert. Leiden </bibl>
+                     <bibl>
+                        <ref target="https://papyri.info/biblio/51720">Thomas, J. D. (1976)</ref> “The Date of the Revolt of L. Domitius Domitianus,” ZPE 22: 253–279.</bibl>
+                  </listBibl>
+               </div>
+            </div>
          </div>
       </body>
    </text>
