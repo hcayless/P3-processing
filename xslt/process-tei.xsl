@@ -145,7 +145,7 @@
     <div type="epidoc" subtype="{@subtype}">
       <xsl:apply-templates select="following-sibling::*[@type][1]" mode="epidoc"/>
     </div>
-    <xsl:apply-templates select="following-sibling::*[lower-case(@type) = ('edition','#articleheader')][1]" mode="pass3">
+    <xsl:apply-templates select="following-sibling::*[lower-case(@type) = ('edition','#articleheader','#bibliography')][1]" mode="pass3">
       <xsl:with-param name="inSubSection" select="$inSubSection"/>
     </xsl:apply-templates>
   </xsl:template>
@@ -249,7 +249,7 @@
     </xsl:if>
   </xsl:template>
   
-  <xsl:template match="t:p[@type='#bibliography']" mode="epidoc pass3">
+  <xsl:template match="t:p[@type='#bibliography']" mode="pass3">
     <div type='bibliography'>
       <listBibl>
         <bibl><xsl:apply-templates select="node()"/></bibl>
@@ -290,7 +290,7 @@
     <lb/><xsl:apply-templates mode="pass2"/>
   </xsl:template>
   
-  <xsl:template match="*[not(@type = ('#metadata','#text','#introduction','#translation','#commentary','#bibliography'))]" mode="epidoc"/>
+  <xsl:template match="*[not(@type = ('#metadata','#text','#introduction','#translation','#commentary'))]" mode="epidoc"/>
   
   <xsl:template match="t:p" mode="pass3"/>
   
