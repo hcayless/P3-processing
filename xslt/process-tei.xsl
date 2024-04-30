@@ -19,9 +19,9 @@
       
   <xsl:template match="t:body">
     <xsl:variable name="pass1"><xsl:apply-templates select="t:p|t:table|t:list|t:figure" mode="pass1"/></xsl:variable>
-    <xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>
+    <!--<xsl:result-document href="pass1.xml"><xsl:copy-of select="$pass1"/></xsl:result-document>-->
     <xsl:variable name="pass2"><xsl:apply-templates select="$pass1/*" mode="pass2"/></xsl:variable>
-    <xsl:result-document href="pass2.xml"><xsl:copy-of select="$pass2"/></xsl:result-document>
+    <!--<xsl:result-document href="pass2.xml"><xsl:copy-of select="$pass2"/></xsl:result-document>-->
     <front>
       <docTitle>
         <titlePart type="MainTitle"><xsl:apply-templates select="$pass2//t:p[lower-case(@type)='#articletitle']/node()"/></titlePart>
@@ -250,7 +250,6 @@
   </xsl:template>
   
   <xsl:template match="t:p[@type='#bibliography']" mode="epidoc pass3">
-    <xsl:message>In Bibliography</xsl:message>
     <div type='bibliography'>
       <listBibl>
         <bibl><xsl:apply-templates select="node()"/></bibl>
