@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilckens Briefwechsel mit Eduard Schwartz zur Edition von P.Würzb. 1</title>
+            <author>
+               <name>
+                  <forename>Holger</forename>
+                  <surname>Essler</surname>
+               </name>
+               <affiliation>Universität Würzburg</affiliation>
+               <email>
+                  <ref target="mailto:holger.essler@uni-wuerzburg.de">holger.essler@uni-wuerzburg.de</ref>
+               </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-06-10T10:22:08Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">Wilckens Briefwechsel mit Eduard Schwartz zur Edition von P.Würzb. 1</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="introduction">
+               <p xml:id="p1">Wohl in Reaktion auf eine Nachfrage Otto Handwerkers (1877–1947), des Direktors der Würzburger Universitätsbibliothek, hatte Ulrich Wilcken 1932 mit der Arbeit an einem Editionsband Würzburger Papyri begonnen, die schließlich im darauf folgenden Jahr in einem zunächst für den 9. März vorgesehenen und schließlich am 6. April gehaltenen Vortrag vor der Preußischen Akademie der Wissenschaften mündete. Der Band der <ref target="https://papyri.info/biblio/3180">P.Würzb. I</ref> erschien ein Jahr später, am 19.4.1934 in den Abhandlungen der Akademie.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: justify; "> Zu dieser Vorgeschichte vgl. <ref target="https://papyri.info/biblio/96529">Essler 2023</ref>: §1–5.</p></note> Gerade für die seinem eigenen Arbeitsgebiet ferner liegenden literarischen Papyri (P.Würzb. I 1–3) suchte Wilcken Rat und Auskunft bei Fachkollegen, während er soweit wir sehen bezüglich der dokumentarischen Editionen abgesehen von einer Anfrage an Adolf Grohmann (1887–1977) zur arabischen Verwaltung (<ref target="https://papyri.info/biblio/3180">P.Würzb. I</ref>: 104), lediglich mit Harold Idris Bell (1879–1967) in brieflichem Austausch stand.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify; "> Vgl. <ref target="https://papyri.info/biblio/96529">Essler 2023</ref>: §11–12.</p></note> Wilckens beide an Bell gerichtete Briefe vom 22.11.1933 und 7.1.1934 habe ich im letzten Band dieser Zeitschrift veröffentlicht;<note place="foot" xml:id="ftn3" n="3"><p style="text-align: justify; "> <ref target="https://papyri.info/biblio/96529">Essler 2023</ref>: §12–13.</p></note> im Folgenden werden Wilckens Briefe zu <ref target="http://papyri.info/dclp/59895">P.Würzb. I 1</ref>, dem von ihm schließlich als „Scholienexcerpte zu Euripides’ Phoenissen“ bezeichneten Text, vorgelegt.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: justify; "> Die abgedruckten Dokumente sind in der Bayerischen Staatsbibliothek in München (BSB München) und in der Staatsbibliothek zu Berlin (SBB) aufbewahrt. Die Wiedergabe der Archivunterlagen folgt der Orthographie und der Zeichensetzung der Originale, jedoch nicht den dortigen Zeilenumbrüchen. Änderungen sind nach dem Leidener Klammersystem gekennzeichnet, Zeichenstand und Interpunktion folgen dem Original. Seitenumbrüche sind mit | und hochgestellter Seitenzahl wiedergegeben, Zeilenumbrüche in den Grußformeln mit einfachem |.</p></note></p>
+            </div>
+            <div type="section">
+               <head>Text</head>
+               <p xml:id="p2">In seiner Anfrage an Bell war es Wilcken vor allem darum gegangen, Auskünfte über noch unveröffentlichte antinoitische Papyri im British Museum zu erhalten, um seine Hypothese zur Existenz bzw. Nicht-Existenz eines antinoitischen Gaues zu überprüfen. Die mitgeteilten Informationen benutzte er dann zu seiner eigenen weitergehenden Deutung und Argumentation. Hingegen ist der nun edierte, umfangreichere Briefwechsel, den Wilcken mit Eduard Schwartz (1858–1940) zu <ref target="http://papyri.info/dclp/59895">P.Würzb. I 1</ref> führte, auf Ergänzung, Verständnis und Einordnung dieses Papyrus ausgerichtet. Wilcken nahm daher eher – wie er auch selbst im vorletzten Brief schreibt – die Rolle des Schülers ein. Schwartz hatte 1887–1891 die Euripidesscholien herausgegeben und damit die wichtigste Textgrundlage für die Arbeit an diesem Papyrus geliefert.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: justify; "> Die Scholien zu den Phoenissen sind bei <ref target="https://papyri.info/biblio/96798">Schwartz 1887</ref>: 245–415 abgedruckt. Wilcken nennt sie <ref target="https://papyri.info/biblio/3180">P.Würzb. I</ref>: 8 das „wichtigste Hilfsmittel“.</p></note> In der Edition beschreibt Wilcken die Zusammenarbeit wie folgt (<ref target="https://papyri.info/biblio/3180">P.Würzb. I</ref>: 8):</p>
+               <quote>
+                  <lb/>Der Haupthelfer ist mir aber schließlich Eduard Schwartz selbst geworden, nachdem ich mich kürzlich, vor meinem Akademievortrag, mit der Bitte um Beratung und Belehrung an ihn gewendet hatte. An der Hand einer ihm übersandten Abschrift meines damaligen Textes hat er mir – im Verfolg eines mit liebenswürdigster Geduld getragenen regen Briefwechsels – nicht nur eine ganze Reihe evidenter Ergänzungen von Lücken geschickt, sondern hat auch zu noch ungelösten Textschwierigkeiten Vorschläge gemacht, die sich zum Teil durch Nachprüfung des Originals direkt bestätigten, zum Teil zu neuen Entzifferungsversuchen anregten, die schließlich, wenn auch nicht immer, zum Ziel geführt haben.<note place="foot" xml:id="ftn6" n="6">
+                     <p style="text-align: justify; "> In einer Fußnote fügt Wilcken hier hinzu: „Da ich in der ihm übersandten Copie meines damaligen Textes die Größe der Lücken an den Rändern vielfach noch nicht genau berechnet hatte, ergaben sich seine Vorschläge öfter als zu lang oder zu kurz. Aber auch dann haben sie oft den Weg zum Richtigen gewiesen.“</p>
+                  </note> Von besonderem Wert war es mir auch, von ihm, dem ersten Kenner dieser Materie, seine Ansicht über den Charakter und den Wert dieses in vieler Hinsicht ganz eigenartigen Würzburger Papyrus zu hören. So bin ich ihm für seine unschätzbare Mithilfe zu wärmstem Dank verbunden, und dies um so mehr, als mir selbst dieses Forschungsgebiet ja an sich ferner liegt.
+</quote>
+               <p xml:id="p3">Anscheinend standen Wilcken und Schwartz nicht in regelmäßiger Korrespondenz. Beide hatten bei Mommsen in Berlin studiert, allerdings zu unterschiedlichen Zeiten.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: justify; "> Zu Wilckens Biographie vgl. den Abriß bei <ref target="https://papyri.info/biblio/13432">Audring 1994</ref>: 12–21, zu Schwartz vgl. <ref target="https://papyri.info/biblio/96799">Rehm 1942</ref>: 8–15.</p></note> Der erste Kontakt scheint sich ergeben zu haben, als Schwartz am 29.10.1900 Wilcken, der im vorhergehenden Sommer einen Ruf nach Würzburg angenommen hatte,<note place="foot" xml:id="ftn8" n="8"><p style="text-align: justify; "> Zum Ruf nach Würzburg vgl. <ref target="https://papyri.info/biblio/13432">Audring 1994</ref>: 17–18 und 50–51.</p></note> zu einem Vortrag auf der Straßburger Philologenversammlung (1.–4.10.1901) einlud. Wilcken antwortete fast vier Wochen später, am 24. November:<note place="foot" xml:id="ftn9" n="9"><p style="text-align: justify; "> Brief Wilckens an Schwartz, datiert „Würzburg 24. XI.00.“ Handschr. Abzug in SBB, NL Wilcken, Briefkopierbuch, S. 415.</p></note></p>
+               <quote>
+                  <lb/>Hochgeehrter Herr College!
+</quote>
+               <p xml:id="p4">Am 3.7.1901 änderte Wilcken schließlich das Thema ab:<note place="foot" xml:id="ftn10" n="10"><p style="text-align: justify; "> Brief Wilckens an Schwartz, datiert „3. Juli 1901.“ Handschr. Abzug in SBB, NL Wilcken, Briefkopierbuch, S. 561.</p></note></p>
+               <p xml:id="p5">Wilcken hielt den Vortrag unter diesem Titel und rief darin zur weiteren Gründung von Papyrussammlungen in Deutschland und zu Spenden für den Erwerb von Papyri auf. Laut Tagungsbericht fand dieser Vortrag „die größte Aufmerksamkeit und rauschenden Beifall“.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: justify; "> <ref target="https://papyri.info/biblio/96809">Erdmann 1902</ref>: 37.</p></note> In der Folge kam es zu verschiedenen Initiativen, die schließlich in der Gründung des Deutschen Papyruskartells mündeten.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: justify; "> <ref target="https://papyri.info/biblio/86399">Essler, Hermes-Wladarsch</ref>: 433–466.</p></note></p>
+               <p xml:id="p6">Schwartz scheint rasch und zustimmend geantwortet zu haben. Denn bereits acht Tage nach seinem ersten Brief spricht Wilcken davon, daß sich seine eigene Antwort durch neue Leseversuche etwas verzögert hatte. Die für Schwartz angefertigte Abschrift ist nicht erhalten. Nach Wilckens Vorbemerkungen läßt sich ihr Charakter folgendermaßen beschreiben: Sie entsprach in Konventionen, freilich nicht in der Textherstellung und den Angaben zum Umfang der Lücken, wohl weitgehend der späteren Ausgabe, mit Ausnahme der Zeilenzählung. In der Schwartz übersandten Transkription beginnt Wilcken die Zählung für jede Seite des Blattes bei 1, in der Edition zählt er fortlaufend. Die Zeilennummern der Rektoseite sind daher in der Edition jeweils um 35 höher: <note place="foot" xml:id="ftn16" n="16"><p style="text-align: justify; "> Brief Wilckens an Schwartz, datiert „21.2.33“. Handschr. Original in BSB München, Schwartziana IIA, Wilcken, Ulrich, Nr. 2.</p></note></p>
+               <p xml:id="p7">Schwartz hatte innerhalb weniger Tage mit verschiedenen Lesungs- und Ergänzungsvorschlägen geantwortet, auf die Wilcken am 27.2.1933 Bezug nimmt. Besonders wiederholt er aber im Hinblick auf den bevorstehenden Vortrag noch einmal seine Bitte um eine allgemeine Einordnung des Papyrus:<note place="foot" xml:id="ftn18" n="18"><p style="text-align: justify; "> Brief Wilckens an Schwartz, datiert „27.2.33“. Handschr. Original in BSB München, Schwartziana IIA, Wilcken, Ulrich, Nr. 3.</p></note></p>
+               <p xml:id="p8">Schließlich übersendet Wilcken die Fragen mit einer kleinen Verzögerung, nicht wie angekündigt zum 6.3.1933, sondern erst an diesem Tag. Es geht ihm dabei vor allem um die Charakterisierung des Papyrus, seinen philologischen Wert und die Rekonstruktion der Quelle:<note place="foot" xml:id="ftn20" n="20"><p style="text-align: justify; "> Brief Wilckens an Schwartz, datiert „6.3.33“. Handschr. Original in BSB München, Schwartziana IIA, Wilcken, Ulrich, Nr. 4. Zur Charakteristik des Papyrus vgl. <ref target="https://papyri.info/biblio/96796">Essler, Mastronarde, McNamee 2013</ref>: 86–94.</p></note></p>
+               <p xml:id="p9">Auf Wilckens Bitte um Einordnung des Wertes des Papyrus für die Entwicklungsgeschichte der Scholien und auch auf seinen zweiten Punkt, zur Qualität der Exzerpte, beziehen sich wohl die Worte von Schwartz, die Wilcken in seiner Ausgabe aus „einem späteren Brief“ zitiert (<ref target="https://papyri.info/biblio/3180">P.Würzb. I</ref>: 9):</p>
+               <p xml:id="p10">Wilcken stimmte in seiner Edition dieser Auffassung von Schwartz ausdrücklich zu, betonte aber zugleich das Interesse des Papyrus, das vor allem in den Informationen läge, die von den Angaben der Scholien abwichen oder darüber hinausgingen (<ref target="https://papyri.info/biblio/3180">P.Würzb. I</ref>: 9). Am 3.4.1933, fast einen Monat nach seinem letzten Brief, schickte Wilcken schließlich die versprochenen Antworten zu den einzelnen von Schwartz vorgeschlagenen Lesungen. Wo in den Anmerkungen nicht anders angegeben, sind die Ergänzungen auch in die Edition eingeflossen:<note place="foot" xml:id="ftn25" n="25"><p style="text-align: justify; "> Brief Wilckens an Schwartz, datiert „3.4.33“. Handschr. Original in BSB München, Schwartziana IIA, Wilcken, Ulrich, Nr. 5.</p></note></p>
+               <p xml:id="p11">Der nächste – und letzte – erhaltene Brief datiert elf Monate später, vom 5.3.1934. Inzwischen hatte Wilcken das Manuskript des Editionsbandes fertiggestellt, die Druckfahnen erhalten und jene bezüglich   <ref target="http://papyri.info/dclp/59895">P.Würzb. I 1</ref> an Schwartz mit der Bitte um Prüfung weitergeleitet. Wilckens Begleitbrief ist ebenso wie die Antwort von Schwartz verloren. Wir lesen erst wieder Wilckens Reaktion darauf. Auch in seiner letzten Rückfrage hängt Wilcken durchaus nicht an seiner eigenen Textherstellung, sondern stellt alles Unsichere auch explizit in Frage:<note place="foot" xml:id="ftn38" n="38"><p style="text-align: justify; "> Brief Wilckens an Schwartz, datiert „5.3.34“. Handschr. Original in BSB München, Schwartziana IIA, Wilcken, Ulrich, Nr. 6. Die Genehmigung des Bandes zum Druck erfolgte am 21.2., die Publikation am 19.4.1934 (vgl. <ref target="https://papyri.info/biblio/3180">P.Würzb. I</ref>: 2).</p></note></p>
+               <p xml:id="p12">In der Folge der Antwort scheint Wilcken seinen eigenen Ergänzungsvorschlag an dieser Stelle aus dem Text getilgt zu haben. Die Diskussion mit Schwartz faßt er im Kommentar so zusammen:<note place="foot" xml:id="ftn40" n="40"><p style="text-align: justify; "> <ref target="https://papyri.info/biblio/3180">P.Würzb. I</ref>: 20 zu 63–65. Auf den Bezug machte mich dankenswerter Weise D. Kaltsas aufmerksam.</p></note></p>
+               <p xml:id="p13">Wie weit der Austausch mit dem vier Jahre älteren Kollegen tatsächlich einem Lehrer-Schüler-Verhältnis entsprach und wie sehr Wilcken diese Rollen den damaligen Konventionen folgend stilisiert, läßt sich zumal angesichts der verlorenen Gegenbriefe von Schwartz schwer bestimmen. Wilckens Arbeitsethos, seine strenge Sachlichkeit in der Lesung, die Bereitschaft, frühere Annahmen aufzugeben und umzuwerfen, Belehrung anzunehmen, das Ringen um Buchstaben und Verständnis, gleichzeitig auch die Freude an den Durchbrüchen und Erfolgen, sind hingegen in seinen Briefen allgegenwärtig.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
