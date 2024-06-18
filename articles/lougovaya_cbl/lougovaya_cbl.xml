@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>School Tablet with Divisions and Demonstrations in the Chester Beatty Library</title>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Heidelberg University </affiliation>
+               <email>lougovaya@uni-heidelberg.de </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-06-18T08:55:22Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">School Tablet with Divisions and Demonstrations in the Chester Beatty Library</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">#acknowledgements</p>
+            <p xml:id="p2" style="text-align: left; ">I am grateful to Dr Jill Unkel of the Chester Beatty Library for the permission to publish the tablet and for her kind assistance. It is also with gratitude that I acknowledge the kind support of the Ralph E. and Doris M. Hansmann Member Fund at the Institute for Advanced Study, where I worked on this edition in the fall of 2023.</p>
+            <div type="introduction">
+               <p xml:id="p3">The wax tablet published here (CBL 142.2) is inscribed with two series of divisions for the divisors 6 and 7. While series of divisions, also referred to as tables of fractions, comprise the most common kind of arithmetical tables preserved in papyrological evidence, the Chester Beatty tablet belongs to a peculiar subtype that includes demonstrations. In these tables, entries for divisions follow the conventional format in which a series for each divisor <seg style="font-style: italic;">n </seg>begins with the division of 6000 and then lists divisions and their quotients for whole-number dividends from 1 to 10, then for tens, then hundreds and then thousands up to 10,000 (one myriad) for <seg style="font-style: italic;">n </seg><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mo xmlns="http://www.w3.org/1998/Math/MathML">≤</mo></mml:math> 10 and up to <seg style="font-style: italic;">n </seg>for <seg style="font-style: italic;">n </seg><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mo xmlns="http://www.w3.org/1998/Math/MathML">&gt;</mo></mml:math> 10. Unlike in most division tables, however, every quotient is accompanied by a series of multiplications in which each constituent part of the quotient is multiplied by the divisor with the product of each multiplication recorded. Since the sum of products in each series of multiplications amounts to the dividend, the procedure demonstrates that the quotient is correct. Consequently, these reverse computations are sometimes called verifications.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> See <ref target="https://papyri.info/biblio/55623">Cauderlier 1983</ref>: 267–268; Brashear (<ref target="https://papyri.info/biblio/56292">1984b</ref>: 216), on the other hand, suggests that these multiplications might reflect the method of computing fractions that had roots in pharaonic Egypt.</p></note> The entry for divisor 2 in the division table for 17 in T.Varie 78 line 3 illustrates well the format of such tables:<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> I have added the punctuation printed in the example from <ref target="https://papyri.info/dclp/65067">T.Varie 78</ref> line 3.</p></note> </p>
+               <p xml:id="p4" style="text-align: left; ">τῶν β· ιβ να ξη̅· vac. ιβ α γʹ ιβ· να γʹ· ξη d</p>
+               <p xml:id="p5" style="text-align: left; ">of 2 1/12 1/51 1/68. vac. 1/12 1 1/3 1/12 1/51 1/3 1/68 1/4</p>
+               <p xml:id="p6" style="text-align: left; ">The sequence of numbers stands for the following calculations—I supply all signs of arithmetic operations and figures implied but not written while underlining the figures actually recorded: </p>
+               <p xml:id="p7" style="text-align: left; "><seg style="text-decoration: underline;">2</seg> ÷ 17 = <seg style="text-decoration: underline;">1/12 1/51 1/68</seg>. vac. <seg style="text-decoration: underline;">1/12</seg> × 17 = <seg style="text-decoration: underline;">1 1/3 1/12</seg>, <seg style="text-decoration: underline;">1/51</seg> × 17 = <seg style="text-decoration: underline;">1/3</seg>, <seg style="text-decoration: underline;">1/68</seg> × 17 = <seg style="text-decoration: underline;">1/4</seg>. </p>
+               <p xml:id="p8" style="text-align: left; ">1 1/3 1/12 + 1/3 + 1/4 = 2.</p>
+               <p xml:id="p9" style="text-align: left; ">As can be easily observed, the procedures after the <seg style="font-style: italic;">vac.</seg> demonstrate that the quotient 1/12 1/51 1/68 indeed satisfies the division of 2 by 17. </p>
+               <p xml:id="p10" style="text-align: left; ">Although arithmetical tables are difficult to date with precision, it appears that division-with-demonstration tables tend not to predate the fifth century. Not surprisingly, because they require more space on a line, such tables have a horizontal, ‘landscape’ orientation, even when other leaves in the same codex have a vertical orientation.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> This is the case, for example, with the codex in the Morgan Library, T.Varie 71–78, in which all tablets but the one with the divisions (T.Varie 78) have vertical orientation.</p></note> Examples include (dimensions are given width × height):</p>
+               <p xml:id="p11" style="text-align: left; ">Louvre AF 11962 Face B + Louvre AF 11963 Face B (SB 14649), 5th–6th c., division table for 2/3. Inked tablets, 26 × 12.5 cm and 26.5 × 12.5 cm respectively.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> For the ed.pr. of both tablets AF 11962 and 11963 see <ref target="https://papyri.info/biblio/49256">Boyaval 1973</ref>: 243–256. Cauderlier (<ref target="https://papyri.info/biblio/55623">1983</ref>: 261, 266–268) offers improvements to the ed.pr. and identifies the faint traces of writing on 11963 Face B as continuation of the division table for 2/3 inscribed on AF 11962 Face B; for AF 11962 Face B cf. also Brashear (<ref target="https://papyri.info/biblio/56292">1984b</ref>: 215–217). An online image of AF 11962 can be found at <ref target="https://collections.louvre.fr/en/ark:/53355/cl010048857">https://collections.louvre.fr/en/ark:/53355/cl010048857</ref> and of AF 11963 at <ref target="https://collections.louvre.fr/en/ark:/53355/cl010002616">https://collections.louvre.fr/en/ark:/53355/cl010002616</ref>. </p></note></p>
+               <p xml:id="p12" style="text-align: left; "><ref target="https://papyri.info/dclp/65067">T.Varie 78</ref>, division table for 17, 5th c. (?). Wax tablet, c. 20 × 10 cm.</p>
+               <p xml:id="p13" style="text-align: left; "><ref target="https://papyri.info/dclp/65105">T.Varie 16</ref> = P.Vat.Gr. 60, 6th c., division tables for 15, 16, 17, 18. Wax tablet, 23.5 × 13.6 cm.</p>
+               <p xml:id="p14" style="text-align: left; "><ref target="https://papyri.info/dclp/65105">T.Varie 17</ref> = P.Vat.Gr. 61A, 6th c., division tables for 19. Wax tablet, 23 ×12.5 cm.</p>
+               <p xml:id="p15" style="text-align: left; "><ref target="https://papyri.info/dclp/65351">T.Varie 4–5</ref> = P.Vat.Gr. 53 A–B, 7th c., division tables for 2 and 4. Inked tablet, 47 × 22.7 cm.</p>
+               <p xml:id="p16" style="text-align: left; "><ref target="https://papyri.info/dclp/65353">T.Varie 7</ref> = P.Vat.Gr. 55A, 7th c., division tables for 17 and 19. Inked tablet, 39.3 × 15.7 cm.</p>
+               <p xml:id="p17" style="text-align: left; ">Würzburg, Martin-von-Wagner Museum K 1024 (TM 69464), 8th c., division tables for 2/3 and 11. Inked tablet, 40.7 × 18.7 cm.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> For the edition of this tablet, see <ref target="https://papyri.info/biblio/56293">Brashear 1984a</ref>.</p></note></p>
+               <p xml:id="p18" style="text-align: left; ">In some tables, the demonstration can be visually separated from the quotient. Thus, in T.Varie 78, most entries have a space about a letter or two wide after the quotient. In T.Varie 4 and 5, each division has a tripartite entry arranged in three columns: the dividend, the quotient, and the demonstration. Whether such division-with-demonstration tables served a didactic purpose (for example, as a teacher’s model) or were results of exercises is impossible to deduce from the content alone, but the medium and style of writing might offer some clues. Large neatly inscribed tablets like T.Varie 4–5 might well have been models intended to help expound the calculations. Wax tablets, on the other hand, may have been used for students’ exercises in which computational skills were trained either by copying, which was possibly meant to help understand the division, or by performing actual calculations. As far as the tablet published here is concerned, the type of medium (i.e. wax), the gap in the series of divisions (see below), and the untidy character of inscribing suggest that it comes from a school environment and was a product of an exercise. </p>
+               <p xml:id="p19" style="text-align: left; ">The tablet was made as an inner leaf of a wooden codex, as evidenced by four holes drilled in the margin of one of its long sides and by four corresponding notches cut into the edge. A string threaded through the holes would tie the tablet to other leaves, while the notches helped keep the string in place. The opposite edge of the tablet also has a notch, but only one and made at an angle. The purpose of that notch was to indicate the position of the tablet in relation to other leaves, which would also have a notch each so that all the notches would form a continuous line on the fore-edge of the codex when the tablets were put together correctly.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> Images of the table, including photographs of the edges, are available at <ref target="https://cbl01.intranda.com/viewer/image/W_142_2/1/LOG_0000/">https://cbl01.intranda.com/viewer/image/W_142_2/1/LOG_0000/</ref></p></note> Both sides of the tablet have a recess that was covered with wax to create the writing surface. </p>
+               <p xml:id="p20" style="text-align: left; ">A single hand inscribed both sides of the tablet, and, as is usual for writing on wax, it did not employ ligatures.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> Cf. introduction to T.Varie 71–78, p. 156.</p></note> Letters at the beginnings of lines on either side are drawn more carefully and uniformly than towards the ends of the lines, where they vary more in size and shape. Where writing has spilled into the margins not covered by wax, letters are scratched directly into the wood and become angular and very uneven. Paleographically, the more neatly inscribed parts find close parallels in T.Varie 16 and 17, which also contain division tables and display similar small roundish letters and the same symbol for 2/3, which looks like omega with a long vertical at its right-hand side and resembles Coptic <seg style="font-style: italic;">shai</seg>. The date in the sixth century assigned to T.Varie 16 and 17 can be reasonably conjectured for the tablet published here, too.  </p>
+               <p xml:id="p21" style="text-align: left; ">The tablet’s wax surface is not well preserved. Random scratches and loss of wax make it hard in places to discern specific forms of letters or even to see any writing at all. For example, I cannot ascertain how, or even whether, the digits for thousands are marked (Side A, col. 2, lines 9–15). It might well be that they were not indicated at all. Nor can I determine if all the instances of the fraction 1/7 on Side B are distinguished from the number 7, although symbols for 1/3 (γʹ) and 1/6 (ϛʹ) on Side A clearly show a tick-like extension in the upper right corner of the respective letters. There also seem to be overstrokes above the last digit of two-digit fractions, see e.g. κη̅ for 1/28 in Side B, line 10, but it is unclear if this was done consistently. Most regrettably, the headings to the tables are badly damaged (Side A) or almost completely lost (Side B), so that it is impossible to see whether they featured a demonstration for the quotients for the division of 6000 (see note to Side A col. 1, line 1). </p>
+               <p xml:id="p22" style="text-align: left; ">Side A contains a table of divisions by 6 inscribed in two uneven columns separated by a line drawn somewhat left of center. After the header featuring the usual division of 6000, the first column has entries for dividends from 1 to 60, while the second begins with 200 and the divisions up to the dividend 9000 can be discerned. The reason for the gap in the series—with entries for 70, 80, 90 and 100 apparently missing—is not clear. While it is theoretically conceivable that one or even two entries may have been squeezed at the lower or upper edge of the tablet and eventually lost, it is highly unlikely that all four could have fit, and I am inclined to think that they were never inscribed. Side B comprises divisions by 7 for consecutive dividends from 1 to 50.</p>
+               <p xml:id="p23" style="text-align: left; ">The tablet seems particularly messy compared to other tablets inscribed with divisions with demonstrations, although its poor state of preservation may contribute to this impression. On both sides, the entries for the divisions run more or less horizontally and parallel both to each other and the edge of the tablet, but the entries for demonstrations, which form a separate column are less regular and increasingly slant downwards. In the first column of Side A, for example, the demonstrations from about line 11 on are not anymore on a plane with the quotients for which they serve as verifications. This can be especially well observed in line 14, where the quotient for dividend 40 (ϛ 𐅷), which sits right on the edge of the frame, happens to be directly juxtaposed to the demonstration for the division with the dividend 30 from the line above (ε ϛ λ). The increasing slant of entries containing demonstrations combined with less careful writing creates an impression that they were written after the columns with dividends and quotients had been completed. </p>
+               <p xml:id="p24" style="text-align: left; ">It is noteworthy that in the demonstration part the multipliers 6 and 7 are recorded explicitly only for multiplicands over 1, that is, the multiplier remains implicit when the multiplicand is a fractional part of the quotient or 1. Thus, in the table for the divisor 6, the 6 in the demonstration in the division for 10 is the product (underlined twice in the example cited just below), whereas the exact same number in the next demonstration, which is for the quotient in the division of 20, is a multiplicand (underlined once):</p>
+               <p xml:id="p25" style="text-align: left; ">τῶν ι 	α𐅷	α ϛ· 𐅷 δ	of 10 is 1 2/3	1(×6=) 6, 2/3(×6=) 4		</p>
+               <p xml:id="p26" style="text-align: left; ">τῶν κ	⟦α̣⟧γγʹ	γ <seg style="text-decoration: underline;">ϛ</seg> ιη· γʹ β	of 20 is 3 1/3	3×<seg style="text-decoration: underline;">6</seg>=18, 1/3(×6=) 2</p>
+               <p xml:id="p27" style="text-align: left; ">Once the multiplier is recorded, it appears in all operations except when the multiplicand is a fraction. For example, in the verification of the quotient for 200, the multiplier is repeated twice (underlined), but is omitted in the last multiplication, in which the multiplicand is a fraction:</p>
+               <p xml:id="p28" style="text-align: left; ">τῶν σ	λγγʹ	λ <seg style="text-decoration: underline;">ϛ</seg> ρπ· γ <seg style="text-decoration: underline;">ϛ</seg> ιη· γʹ β	of 200 is 33 1/3		30×<seg style="text-decoration: underline;">6</seg>=180, 3×<seg style="text-decoration: underline;">6</seg>=18, 1/3(×6=) 2</p>
+               <p xml:id="p29" style="text-align: left; ">The same principle is followed in the series for the divisions by 7 on Side B. While the reasons for this format of recording are not immediately clear, the consistency with which it is adhered to is remarkable.</p>
+               <p xml:id="p30" style="text-align: left; ">In the edition below, I punctuate between each pair of calculations in the demonstration part in order to make it easier to follow the procedures. In the line-by-line translation I supply in parentheses the implicit multipliers (which equal the divisors 6 and 7 in the two respective tables) and, when there is more than one multiplication, also the sum of the products (which amounts to the dividend in the corresponding division). Signs for arithmetic operations are put in parentheses only when they go with implicit multipliers, but otherwise are printed outside them. The ticks and overstrokes are shown only where discernible on the tablet.</p>
+            </div>
+            <div type="epidoc" subtype="DCLP">
+               <div copyOf="#ed1" type="edition"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p31"><ref>1</ref> The expression ἐν ψήφων refers to the division of 6000 that conventionally serves as a title in</p>
+                     <p xml:id="p32">late antique division tables.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> For the format of the headings in division tables, see <ref target="https://papyri.info/biblio/95950">Azzarello 2018</ref>.</p></note> The first line runs across the two columns, with α inscribed to the right of</p>
+                     <p xml:id="p33">the dividing line. It is not clear, however, what, if anything, was written beyond ψήφων α. There is a</p>
+                     <p xml:id="p34">trace of a letter further down the line and above the sigma in line 1 of col. 2 (rendered by a dot in the</p>
+                     <p xml:id="p35">edition) and there might be the tail of an alpha squeezed between line 1 and 2 of col. 1, just above ϛʹ α</p>
+                     <p xml:id="p36">in line 2 (not printed). If anything was written there, it was likely the demonstration that the quotient</p>
+                  </note>
+                  <note>
+                     <p xml:id="p37"><ref>1000</ref> is correct, cf. divisions of 6000 in T.Varie 4–5, which feature such verifications.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p38"><ref>11</ref> Starting in this line the demonstrations start slanting down in relation to their corresponding</p>
+                     <p xml:id="p39">divisions.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p40"><ref>14–16</ref> The demonstration ϛ ϛ λϛ· [𐅷] δ̣ in line 14 and the following two lines are scratched into the</p>
+                     <p xml:id="p41">wood of the frame.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p42"><ref>16</ref> The division of 60 by 6 seems to be written at the very bottom of the tablet’s border</p>
+                     <p xml:id="p43">suggesting that entries for the dividends 70, 80, 90 and 100 were not recorded.</p>
+                     <p xml:id="p44">Col. 2</p>
+                  </note>
+                  <note>
+                     <p xml:id="p45"><ref>14</ref> Α ϛ Ϛ. The demonstration is squeezed above the last digit of the quotient of the next division,</p>
+                     <p xml:id="p46">[Α]ρ̣ξϛ𐅷.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p47"><ref>15</ref> The beginning of the demonstration, Α ϛ Ϛ̣, written at the edge of the recess and still on the</p>
+                     <p xml:id="p48">wax, is relatively well discernible, but traces after that are hard to identify conclusively until the chi,</p>
+                     <p xml:id="p49">which is inscribed on the frame. Of the remaning numerals belonging to the demonstration only τξ is</p>
+                     <p xml:id="p50">clear.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p51"><ref>14</ref> The division τῶ̣ν̣ μ ε 𐅷 κα is written at the very edge of the waxed recess, where it is followed</p>
+                     <p xml:id="p52">by the first number (δ̣) of the demonstration for the division in line 13, which has slid down because of</p>
+                     <p xml:id="p53">the continuous downward slant of the demonstration entries. The rest of that demonstration (ζ κ̣η̣· ḍ</p>
+                     <p xml:id="p54">α̣[]ḍ κη d) is inscribed on the wood of the frame.</p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95950">Azzarello, G. (2018)</ref> “Titles of Parts and Parts of a Title: Incipits as Possible Indicators of Textual</bibl>
+                  <bibl>Traditions in Graeco-Roman Tables of Division,” Analecta Papyrologica 30: 95–111.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/49256">Boyaval, B. (1973)</ref> “Tablettes mathématiques du Musée du Louvre,” Revue Archéologique 1973.2: </bibl>
+                  <bibl>243–260.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56293">Brashear, W. (1984a)</ref> “Neue griechische Bruchzahlentabellen,” Enchoria 12: 1–6.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56292">Brashear, W. (1984b)</ref> “Corrections à des tablettes arithmétiques du Louvre,” Revue des Études</bibl>
+                  <bibl>Grecques 97: 214–217.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/55623">Cauderlier, P. (1983)</ref> “Cinq tablettes en bois au Musée du Louvre,” Revue Archéologique 1983.2: 259–280.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Digital Corpus of Literary Papyri</authority>
+               <idno type="filename">998493</idno>
+               <idno type="dclp">998493</idno>
+               <idno type="TM">998493</idno>
+               <availability>
+                  <p>© Digital Corpus of Literary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <placeName>
+                        <settlement>Unknown</settlement>
+                     </placeName>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                              <measure type="height" unit="cm"/>
+                              <measure type="width" unit="cm"/>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origPlace>Unknown</origPlace>
+                        <origDate>unbekannt</origDate>
+                     </origin>
+                     <provenance type="located">
+                        <p><placeName n="1">Unknown</placeName></p>
+                     </provenance>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref></p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="A" subtype="side" type="textpart">
+<div n="i" subtype="column" type="textpart"><ab>
+<lb n="1"/><g type="stauros"/> <supplied reason="lost">τ</supplied>ὸ ϛʹ ἐν ψήφ<unclear>ων</unclear> <unclear>α</unclear>      <gap reason="illegible" quantity="1" unit="character"/>
+<lb n="2"/><choice><reg>τῆς</reg><orig>τῶν</orig></choice> <num value="1">α</num> J<num value="1/6" rend="tick">ϛ</num> J <num value="1/6" rend="tick">ϛ</num> <num value="1">α</num>
+<lb n="3"/>τῶν <num value="2">β</num> J <num value="1/3" rend="tick"><unclear>γ</unclear></num> J <num value="1/3" rend="tick"><unclear>γ</unclear></num> <num value="2"><unclear>β</unclear></num> 
+<lb n="4"/>τῶν <num value="3">γ</num> J <num value="1/2"><unclear>𐅵</unclear></num> J <num value="1/2"><unclear>𐅵</unclear></num> <num value="3">γ</num>
+<lb n="5"/>τῶν <num value="4">δ</num> J <num value="2/3"><unclear>𐅷</unclear></num> J <num value="2/3">𐅷</num> <num value="4"><unclear>δ</unclear></num>
+<lb n="6"/>τῶν <num value="5">ε</num> J <num value="1/2"><unclear>𐅵</unclear></num><num value="1/3" rend="tick"><unclear>γ</unclear></num> J <num value="1/2">𐅵</num> <num value="3">γ</num>· <num value="1/3" rend="tick"><unclear>γ</unclear></num> <supplied reason="lost"><num value="2">β</num></supplied>
+<lb n="7"/>τῶν <num value="6">ϛ</num> J <num value="1">α</num> J <num value="1"><unclear>α</unclear></num> <num value="6">ϛ</num>
+<lb n="8"/>τῶν <num value="7">ζ</num> J <num value="1">α</num><num value="1/6" rend="tick">ϛ</num> J <num value="1"><unclear>α</unclear></num> <num value="6"><unclear>ϛ</unclear></num>· <num value="1/6" rend="tick"><unclear>ϛ</unclear></num> <supplied reason="lost"><num value="1">α</num></supplied>
+<lb n="9"/>τῶν <num value="8">η</num> J <num value="1">α</num><num value="1/3" rend="tick">γ</num> J <num value="1">α</num> <num value="6">ϛ</num>· <num value="1/3" rend="tick">γ</num> <num value="2"><unclear>β</unclear></num>  
+<lb n="10"/>τῶν <num value="9">θ</num> J <num value="1">α</num><num value="1/2">𐅵</num> J <num value="1">α</num> <num value="6">ϛ</num>· <num value="1/2">𐅵</num> <num value="3">γ</num>
+<lb n="11"/>τῶν <num value="10">ι</num> J <num value="1">α</num><num value="2/3">𐅷</num> J <num value="1">α</num> <num value="6">ϛ</num>· <num value="2/3">𐅷</num> <num value="4">δ</num>
+<lb n="12"/>τῶν <num value="20">κ</num> J<del rend="erasure"><unclear>α</unclear></del> <num value="3">γ</num><num value="1/3" rend="tick">γ</num> J <num value="3">γ</num> <num value="6">ϛ</num> <num value="18">ιη</num>· <num value="1/3" rend="tick">γ</num> <num value="2">β</num>
+<lb n="13"/>τῶν <num value="30">λ</num> J <num value="5">ε</num> J <num value="5">ε</num> <num value="6">ϛ</num> <num value="30">λ</num>
+<lb n="14"/>τῶν <num value="40">μ</num> J <num value="6">ϛ</num><num value="2/3">𐅷</num> J <app type="editorial"><lem><num value="6">ϛ</num></lem><rdg resp="pap"><g type="slanting-stroke"/><num value="6">ϛ</num></rdg></app> <num value="6">ϛ</num> <num value="36">λϛ</num>· <num value="2/3"><unclear>𐅷</unclear></num> <num value="4"><unclear>δ</unclear></num>
+<lb n="15"/>τ<unclear>ῶ</unclear><supplied reason="lost">ν <num value="50">ν</num> J <num value="8">η</num><num value="1/3" rend="tick">γ</num></supplied> J <num value="8"><unclear>η</unclear></num> <num value="6">ϛ</num> <num value="48">μη</num>· <num value="1/3" rend="tick">γ</num> <supplied reason="lost"><num value="2">β</num></supplied>
+<lb n="16"/>τ<unclear>ῶ</unclear><supplied reason="lost">ν <num value="60">ξ</num> J <num value="10">ι</num></supplied> J <num value="10">ι</num> <num value="6">ϛ</num> <num value="60">ξ</num>
+</ab></div>
+<div n="ii" subtype="column" type="textpart"><ab>
+<lb n="1"/>τῶν <num value="200">σ</num> J <num value="33">λγ</num><num value="1/3" rend="tick">γ</num> J <num value="30">λ</num> <num value="6">ϛ</num> <num value="180">ρπ</num>· <num value="3">γ</num> <num value="6">ϛ</num> <num value="18">ιη</num>· <num value="1/3" rend="tick">γ</num> <num value="2"><unclear>β</unclear></num>
+<lb n="2"/>τῶν <num value="300">τ</num> J <num value="50">ν</num> J <num value="50">ν</num> <num value="6">ϛ</num> <num value="300">τ</num>
+<lb n="3"/>τῶν <num value="400">υ</num> J <num value="66">ξϛ</num><num value="2/3">𐅷</num> J <num value="60">ξ</num> <num value="6">ϛ</num> <num value="360">τξ</num>· <num value="6">ϛ</num> <num value="6">ϛ</num> <num value="36">λϛ</num>· <num value="2/3">𐅷</num> <num value="4"><unclear>δ</unclear></num>
+<lb n="4"/>τῶν <num value="500">φ</num> J <num value="83">πγ</num><num value="1/3" rend="tick">γ</num> J <num value="80">π</num> <num value="6">ϛ</num> <num value="480"><unclear>υπ</unclear></num>· <num value="3">γ</num> <num value="6">ϛ</num> <surplus>γ</surplus> <num value="18">ιη</num>· <num value="1/3" rend="tick">γ</num> <num value="2">β</num> 
+<lb n="5"/>τῶν <num value="600">χ</num> J <num value="100">ρ</num> J <supplied reason="lost"><num value="100">ρ</num></supplied> <num value="6">ϛ</num> <num value="600">χ</num>
+<lb n="6"/>τῶ<unclear>ν</unclear> <supplied reason="lost"><num value="700">ψ</num></supplied> J <num value="116"><supplied reason="lost">ρ</supplied><unclear>ιϛ</unclear></num><num value="2/3"><unclear>𐅷</unclear></num> J <num value="100"><unclear>ρ</unclear></num> <num value="6">ϛ</num> <num value="600"><unclear>χ</unclear></num>· <supplied reason="lost"><num value="10">ι</num></supplied> <num value="6">ϛ</num> <num value="60">ξ</num>· <num value="6">ϛ</num> <num value="6">ϛ</num> <num value="36">λϛ</num>·<add place="above"><num value="2/3">𐅷</num> <num value="4">δ</num></add>
+<lb n="7"/>τῶ<supplied reason="lost">ν <num value="800">ω</num></supplied> J <num value="133">ρ<unclear>λ</unclear>γ</num><num value="1/3" rend="tick"><unclear>γ</unclear></num> J <num value="100"><unclear>ρ</unclear></num> <num value="6">ϛ</num> <num value="600">χ</num>· <num value="30"><unclear>λ</unclear></num> <num value="6">ϛ</num> <num value="180">ρπ</num>· <num value="3">γ</num> <num value="6">ϛ</num> <num value="18">ιη</num>·<add place="above"><num value="1/3" rend="tick">γ</num> <num value="2">β</num></add>
+<lb n="8"/>τ<unclear>ῶ</unclear><supplied reason="lost">ν <num value="900">ϡ</num></supplied> J <unclear>ρ</unclear><supplied reason="lost">ν</supplied><num value="150"/> J <num value="100"><supplied reason="lost">ρ</supplied></num> <num value="6">ϛ</num> <num value="600"><unclear>χ</unclear></num>· <num value="50">ν</num> <num value="6">ϛ</num> <num value="300">τ</num>
+<lb n="9"/>τῶν <num value="1000">Α</num> J <num value="166">ρ<supplied reason="lost">ξ</supplied>ϛ</num><num value="2/3"><unclear>𐅷</unclear></num> J <supplied reason="lost"><num value="100">ρ</num></supplied> <num value="6">ϛ</num> <num value="600"><unclear>χ</unclear></num>· <num value="60">ξ</num> <num value="6">ϛ</num> <num value="360">τξ</num>· <num value="6">ϛ</num> <num value="6">ϛ</num> <num value="36">λϛ</num>·<add place="above"><num value="2/3">𐅷</num> <num value="4"><unclear>δ</unclear></num></add>
+<lb n="10"/>τῶν <num value="2000">Β</num> J <num value="333">τλ<unclear>γ</unclear></num><supplied reason="lost"><num value="1/3" rend="tick">γ</num></supplied> J <num value="300"><unclear>τ</unclear></num> <num value="6">ϛ</num> <num value="1800">Αω</num>· <num value="30">λ</num> <num value="6">ϛ</num> <num value="180">ρπ</num>· <num value="3">γ</num> <num value="6">ϛ</num> <add place="above"><num value="18">ιη</num>· <num value="1/3" rend="tick">γ</num> <supplied reason="lost"><num value="2">β</num></supplied></add>
+<lb n="11"/>τῶν <num value="3000">Γ</num> J <num value="500"><unclear>φ</unclear></num> J <num value="500">φ</num> <num value="6">ϛ</num> <num value="3000">Γ</num>
+<lb n="12"/>τῶν <num value="4000"><unclear>Δ</unclear></num> J <num value="666"><unclear>χ</unclear><supplied reason="lost">ξϛ</supplied></num><num value="2/3">𐅷</num> J <num value="600">χ</num> <num value="6">ϛ</num> <num value="3600">Γχ</num>· <num value="60">ξ</num> <num value="6">ϛ</num> <num value="360">τξ</num>· <num value="6">ϛ</num> <num value="6">ϛ</num> <add place="above"><num value="36"><unclear>λ</unclear>ϛ</num>· <num value="2/3">𐅷</num> <supplied reason="lost"><num value="4">δ</num></supplied></add>
+<lb n="13"/>τῶν <num value="5000"><unclear>Ε</unclear></num> J <num value="833"><supplied reason="lost">ωλ</supplied><unclear>γ</unclear></num><num value="1/3" rend="tick"><unclear>γ</unclear></num> J <num value="800">ω</num> <num value="6">ϛ</num> <num value="4800"><choice><reg>Δω</reg><orig>Δ𐅷</orig></choice></num>· <num value="30">λ</num> <num value="6">ϛ</num> <num value="180">ρ<unclear>π</unclear></num>· <num value="3">γ</num> <num value="6">ϛ</num> <add place="above"><num value="18">ιη</num>· <num value="1/3" rend="tick">γ</num> <supplied reason="lost"><num value="2">β</num></supplied></add>
+<lb n="14"/>τῶν <num value="6000"><unclear>Ϛ</unclear></num> J <num value="1000"><unclear>Α</unclear></num> J <num value="1000">Α</num> <num value="6">ϛ</num> <num value="6000">Ϛ</num>
+<lb n="15"/><unclear>τῶν</unclear> <num value="7000"><unclear>Ζ</unclear></num> J <num value="1166"><supplied reason="lost">Α</supplied><unclear>ρ</unclear>ξϛ</num><num value="2/3">𐅷</num> J <num value="1000">Α</num> <num value="6">ϛ</num> <num value="6000"><unclear>Ϛ</unclear></num>· <supplied reason="lost"><num value="100">ρ</num></supplied> <num value="6"><unclear>ϛ</unclear></num> <num value="600">χ</num>· <num value="60"><unclear>ξ</unclear></num> <num value="6"><unclear>ϛ</unclear></num> <num value="360">τξ</num>· <add place="above"><num value="6"><unclear>ϛ</unclear></num> <num value="6"><unclear>ϛ</unclear></num> <num value="36"><unclear>λϛ</unclear></num>· <num value="2/3"><unclear>𐅷</unclear></num> <supplied reason="lost"><num value="4">δ</num></supplied></add>
+<lb n="16"/>τῶ<supplied reason="lost">ν <num value="8000">Η</num></supplied> J <num value="1333"><supplied reason="lost">Ατ</supplied>λ<unclear>γ</unclear></num><num value="1/3" rend="tick"><unclear>γ</unclear></num> J <supplied reason="lost"><num value="1000">Α</num> <num value="6">ϛ</num></supplied> <num value="6000">Ϛ</num>· <num value="300">τ</num> <num value="6">ϛ</num> <num value="1800"><supplied reason="lost">Α</supplied>ω</num>· <supplied reason="lost"><num value="30">λ</num> <num value="6">ϛ</num> <num value="180">ρπ</num>·</supplied> <add place="above"><num value="3"><unclear>γ</unclear></num> <num value="6">ϛ</num> <supplied reason="lost"><num value="18">ιη</num>· <num value="1/3" rend="tick">γ</num> <num value="2">β</num></supplied></add>
+<lb n="17"/><unclear>τῶ</unclear><supplied reason="lost">ν</supplied> <num value="9000"><unclear>Θ</unclear></num> J <num value="1500"><unclear>Αφ</unclear></num> J <num value="1000"><unclear>Α</unclear></num> <supplied reason="lost"><num value="6">ϛ</num> <num value="6000">Ϛ</num></supplied>· <num value="500"><unclear>φ</unclear></num> <num value="6">ϛ</num> <num value="3000"><unclear>Γ</unclear></num>
+</ab></div>
+</div>
+<div n="B" subtype="side" type="textpart"><ab>
+1.<gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap><gap reason="lost" extent="unknown" unit="character"/> <num value="857">ωνζ</num> <supplied reason="lost"><num value="1/7">ζ</num></supplied>
+<lb n="2"/>τ<gap reason="lost" quantity="2" unit="character"/> <num value="1">α</num> J <num value="7"><unclear>ζ</unclear></num> J <num value="7"><supplied reason="lost">ζ</supplied></num> <num value="1">α</num>
+<lb n="3"/>τῶν <num value="2"><unclear>β</unclear></num> J <num value="1/4"><unclear>d</unclear></num> <num value="1/28">κ<hi rend="supraline"><unclear>η</unclear></hi></num> J <num value="1/4"><unclear>d</unclear></num> <num value="1">α</num><num value="1/2">𐅵</num><num value="1/4"><unclear>d</unclear></num>· <num value="1/28">κ<hi rend="supraline">η</hi></num> <supplied reason="lost"><num value="1/4">d</num></supplied>
+<lb n="4"/>τῶν <num value="3">γ</num> J <num value="1/3" rend="tick"><unclear>γ</unclear></num> <supplied reason="lost"><num value="1/14">ιδ</num> <num value="1/42">μβ</num></supplied> J <supplied reason="lost"><num value="1/3" rend="tick">γ</num></supplied> <num value="2"><unclear>β</unclear></num><num value="1/3" rend="tick"><unclear>γ</unclear></num>· <num value="1/14">ιδ</num> <num value="1/2">𐅵</num>· <supplied reason="lost"><num value="1/42">μβ</num> <num value="1/6" rend="tick">ϛ</num></supplied> 
+<lb n="5"/>τῶν <num value="4"><unclear>δ</unclear></num> J <supplied reason="lost"><num value="1/2">𐅵</num> <num value="1/14">ιδ</num></supplied> J <num value="1/2"><unclear>𐅵</unclear></num> <num value="3">γ</num><num value="1/2">𐅵</num>· <supplied reason="lost"><num value="1/14">ιδ</num> <num value="1/2">𐅵</num></supplied>
+<lb n="6"/>τῶν <num value="5">ε</num> J <num value="2/3">𐅷</num> <num value="1/21">κα</num> J <supplied reason="lost"><num value="2/3">𐅷</num> <num value="4">δ</num><num value="2/3">𐅷</num>· <num value="1/21">κα</num> <num value="1/3" rend="tick">γ</num></supplied> 
+<lb n="7"/>τῶν <num value="6">ϛ</num> J <num value="1/2"><unclear>𐅵</unclear></num> <num value="1/3" rend="tick"><unclear>γ</unclear></num> <num value="1/42">μβ</num> J <num value="1/2"><unclear>𐅵</unclear></num> <num value="3"><unclear>γ</unclear></num><supplied reason="lost"><num value="1/2">𐅵</num>· <num value="1/3" rend="tick">γ</num> <num value="2">β</num><num value="1/3" rend="tick">γ</num>· <num value="1/42">μβ</num> <num value="1/6" rend="tick">ϛ</num></supplied>
+<lb n="8"/>τῶν <num value="7">ζ</num> J <num value="1">α</num> J <num value="1">α</num> <num value="7">ζ</num>
+<lb n="9"/>τῶν <num>η</num> J <num value="1">α</num> <num value="1/7" rend="tick">ζ</num> J <num value="1">α</num> <num value="7">ζ</num>· <num value="1/7" rend="tick">ζ</num> <supplied reason="lost"><num value="1">α</num></supplied>
+<lb n="10"/>τῶν <num value="9">θ</num> J <num value="1">α</num> <num value="1/4"><supplied reason="lost">d</supplied></num> <num value="1/28">κ<hi rend="supraline"><unclear>η</unclear></hi></num> J <num value="1">α</num> <num value="7">ζ</num>· <num value="1/4">d</num> <num value="1">α</num><num value="1/2">𐅵</num><num value="1/4"><unclear>d</unclear></num>· <num value="1/28">κ<hi rend="supraline"><unclear>η</unclear></hi></num> <num value="1/4"><unclear>d</unclear></num>
+<lb n="11"/>τῶν <num value="10">ι</num> J <num value="1">α</num> <num value="1/3" rend="tick">γ</num> <num value="1/14">ιδ</num> <num value="1/42">μ<hi rend="supraline"><unclear>β</unclear></hi></num> J <num value="1">α</num> <num value="7">ζ</num>· <num value="1/3" rend="tick">γ</num> <num value="2">β</num><num value="1/3" rend="tick"><unclear>γ</unclear></num>· <num value="1/14">ιδ</num> <num value="1/2"><unclear>𐅵</unclear></num>· <num value="1/42"><unclear>μ</unclear><supplied reason="lost">β</supplied></num> <supplied reason="lost"><num value="1/6" rend="tick">ϛ</num></supplied>
+<lb n="12"/>τῶν <num value="20">κ</num> J <num value="2">β</num> <num value="1/2"><unclear>𐅵</unclear></num> <num value="1/3" rend="tick">γ</num> <num value="1/42">μ<hi rend="supraline">β</hi></num> J <num value="2"><unclear>β</unclear></num> <num value="7">ζ</num> <num value="14">ιδ</num>· <num value="1/2">𐅵</num> <num value="3">γ</num><num value="1/2"><unclear>𐅵</unclear></num>· <num value="1/3" rend="tick"><unclear>γ</unclear></num> <num value="2">β</num><num value="1/3" rend="tick">γ</num>· <num value="1/42"><unclear>μβ</unclear></num> <num value="1/6" rend="tick">ϛ</num>
+<lb n="13"/>τῶν <num value="30"><unclear>λ</unclear></num> J <num value="4"><unclear>δ</unclear></num> <num value="1/4"><unclear>d</unclear></num> <num value="1/28">κ<hi rend="supraline">η</hi></num> J <num value="4"><unclear>δ</unclear></num> <num value="7">ζ</num> <num value="28"><unclear>κη</unclear></num>· <num value="1/4"><unclear>d</unclear></num> <num value="1"><unclear>α</unclear></num><num value="1/2"><supplied reason="lost">𐅵</supplied></num><num value="1/4"><unclear>d</unclear></num>· <num value="1/28">κη</num> <num value="1/4">d</num>
+<lb n="14"/>τ<unclear>ῶν</unclear> <num value="40">μ</num> J <num value="5">ε</num> <num value="2/3">𐅷</num> <num value="1/21">κα</num> J <num value="5">ε</num> <num value="7">ζ</num> <num value="35">λ<unclear>ε</unclear></num>· <num value="2/3"><unclear>𐅷</unclear></num> <supplied reason="lost"><num value="4">δ</num><num value="2/3">𐅷</num></supplied>· <num value="1/21"><unclear>κα</unclear></num> <num value="1/3" rend="tick"><unclear>γ</unclear></num>         
+<lb n="15"/>τῶν <num value="50"><unclear>ν</unclear></num> J <num value="7"><unclear>ζ</unclear></num> <num value="1/7"><unclear>ζ</unclear></num> J <num value="7">ζ</num> <num value="7">ζ</num> <num value="49">μθ</num>· <num value="1/7"><unclear>ζ</unclear></num> <supplied reason="lost"><num value="1">α</num></supplied>         
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
