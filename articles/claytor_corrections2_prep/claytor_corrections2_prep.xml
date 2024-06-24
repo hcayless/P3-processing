@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notes on Papyri from Roman Egypt II</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>Faculty of Archaeology Department of Papyrology, University of Warsaw</affiliation>
+               <email>gclaytor@gmail.com</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-06-24T09:37:06Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Notes on Papyri from Roman Egypt II</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="section">
+               <head>10. <ref target="https://papyri.info/ddbdp/p.stras%3B4%3B210">P.Stras. 4 210</ref> (Arsinoite, 90–95):<note place="foot" xml:id="ftn1" n="1">
+                     <p style="text-align: left; "> For the date, see <ref target="https://papyri.info/ddbdp/bgu%3B20%3B2851">BGU 20 2851</ref>.3 n.</p>
+                  </note>
+                  <seg style="font-style: italic;">Paramone </seg>at an Imperial Oil Mill</head>
+               <p xml:id="p1" style="text-align: left; ">	This petition hasn’t entered into discussions of paramone due to the simple fact that the word was not printed in line 8.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Freu 2022, esp. 25–51, is the most up-to-date treatment of paramone in Egypt.</p></note> The passage runs ὁ σὺν ἐμοὶ ἐργαζ[όμε]νος ἐπὶ |  ̣ ̣τ̣α̣μονῃ ἐργά[τη]ς Ἀγχορίμφις Μύσθου (ll. 7–8) and the editor comments, “la lecture la plus possible est κ̣α̣τ̣α̣μόνῃ” (accented sic). Examination of the image supplied to me by Paul Heilporn shows that the expected παρ̣αμονῇ is agreeable: the pi is pointed at the top (just as that of Ἀπύγχεως in l. 3) and ligatures into an alpha without a loop, which in turn ligatures into a small rho, partially obscured. The only hesitation may stem from an almost horizontal tick following rho, which I would explain as a connecting or errant stroke.</p>
+               <p xml:id="p2" style="text-align: left; ">	The work took place in a leased oil mill, as line 9 makes clear:  ̣ ̣ωι ε[  ̣ ̣ ̣ ἐλ]αιουργίωι ἐν μισθώσει. Here the editor considered but ultimately abandoned the reading ἐ̣ν̣ ὧι ἔ[χω ἐλ]αιουργίωι (“impossible paléographiquement”), but this is surely right: of ἐ̣ν̣, the first stroke of epsilon is visible, nearly vertical as in the same preposition later in the line (though the ligature is not quite the same), while the horizontal of nu is where one would expect it; thereafter, the right side of omega can be seen connecting to final iota as in the first name of the strategos in line 1.</p>
+               <p xml:id="p3" style="text-align: left; ">	According to the next line, this oil mill belonged to an imperial estate and was located in the “aforementioned village,” referring back to line 4, where the petitioner is said to be domiciled in ἐν κώμῃ Σε̣βε̣ρ̣ ̣[  ]| ̣ν, as printed in the ed. pr. The residence of the petitioner can be read as Σεβενν̣[ύ]|τ̣ωι, an identification anticipated by Calderini, Diz.geogr. 4.3, 252 and already recorded in Trismegistos (<ref target="http://www.trismegistos.org/georef/5458">TM GeoRef 5458</ref>). The petitioner’s name and patronym (Stotoetis son of Apynchis) are both typical of Soknopaiou Nesos, a connection suggested by the editor’s note to l. 4, and this may indeed be where the papyrus was found.</p>
+               <p xml:id="p4" style="text-align: left; ">	The final preserved lines are challenging due to abrasion. In lines 12–13, the editor read κατε|φρ[ ̣ ̣ ̣ ̣ ̣ ̣]ν̣α[. Instead of the lower parts of φρ, I see these two uprights as the legs of pi and suggest κατὰ̣ | π̣α̣ρ̣α̣μ̣ο̣ν̣ή̣ν̣, mostly based on sense since the traces are exiguous, but also drawing on the editor’s nu, which looks right. </p>
+               <p xml:id="p5" style="text-align: left; ">	The petition is similar to the more frequently cited <ref target="https://papyri.info/ddbdp/p.ryl%3B2%3B128">P.Ryl. 2 128</ref> (Εuhemeria, 30), which likewise narrates the flight of a paramonial worker, this time a girl, from an estate oil mill. Her position is described in comparable terms to the worker in the Strasbourg papyrus: ἡ παρʼ ἐμοὶ οὖσα ὑποσύνγραφος Σουῆρις Ἁρσύθμιος παρεμβ̣άλ̣λ̣ουσα (ll. 7–10).<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> On this text, see <ref target="https://papyri.info/biblio/95713">Claytor, Litinas, and Nabney 2016</ref>, 91, where Soueris’ position is compared to that of Tahaunes, daughter of Harthotes. For a fuller analysis of the Rylands petition, see Ratzan 2011: 467–483.</p></note> Both petitions underline the contractual basis of the employment, as does <ref target="https://papyri.info/ddbdp/p.nyu%3B2%3B3">P.NYU 2 3</ref>.15, in which the petitioner relates that his donkey driver “was in agreement” (συνγνοὺς ἦν) with the terms of the contract.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Cf. Freu 2022: 105.</p></note> </p>
+            </div>
+            <div type="section">
+               <head>11. <ref target="https://papyri.info/ddbdp/sb%3B20%3B15033">SB 20 15033</ref> (= P.Oxy. 2 364 descr., 94)</head>
+               <p xml:id="p6" style="text-align: left; ">Described in the second volume of P.Oxy., this papyrus was sent to Trinity College Dublin and published in <ref target="https://papyri.info/biblio/59800">Daris 1989</ref>. It is a mandate drawn up in Oxyrhynchos in 94 through which Ti. Claudius Sarapion, former agoranomos of Alexandria, authorizes a local to collect the debts owed to a woman whom he represented in some way (the editor supplies ἐπίτροπος (?) where the papyrus breaks off). Digital images have revealed a small piece folded onto the back of the papyrus, which went unnoticed in the ed. pr., and provide the woman’s full name, Octavia Politta. Lines 14–15 can be read as follows:</p>
+               <p xml:id="p7" style="text-align: left; ">	ἀπαιτήσον¦τα π̣¦άντα τὰ [ὀφ]ε̣ιλόμε-</p>
+               <p xml:id="p8" style="text-align: left; ">να Ὀκτ̣άιᾳ Π¦ολίτ¦τ̣ᾳ, ἧς ἐστιν̣ ὁ ὁμολο-</p>
+               <p xml:id="p9" style="text-align: left; ">[γῶν ἐπίτροπος (?)			]</p>
+            </div>
+            <div type="section">
+               <head>12. <ref target="https://papyri.info/ddbdp/bgu%3B2%3B515">Sel.Pap. 2 286</ref> = W.Chr. 268 = BGU 2 515 (Karanis, 193)</head>
+               <p xml:id="p10" style="text-align: left; ">	This petition narrates the aggressive methods of a pair of πράκτορες σιτικῶν, together with their secretary and assistant, to collect a single artaba owed by the petitioner and his brother, resulting in assault on their mother. Originally published as BGU 2 515, the document was improved in Wilcken’s Chrestomathie and further refined in Sel. Pap. 2 286.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> Corrections are recorded in BL 1, 2.2, 3, and 5 (and two slight adjustments in Papyri.info). Doc.Eser.Rom. 80 simply reprints the text of W.Chr. 268. The abbreviated personal description was printed as εἰκ(όνικα)· (ἐτῶν) μζ οὐλ(ὴ) γόνατι δεξιῷ φα(μένου) (?) μὴ εἰδ(έναι) γρ(άμματα) in Sel.Pap., whereas in BL 3 13 φά(μενος) is given without offering an explicit expansion of εἰκ( ). <ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>, 1016 with n. 26 expanded εἰκ(ονίσθη), which is necessary if the participle is taken as nominative. The formulas are usually so abbreviated as to be ambiguous, but the passive verb is preferable when the notary does not explicitly stand as the subject: cf. εἰκονίσθ(η) φάμενος μὴ εἰδ(έναι) γρ(άμματα) διὰ Ζω|[σί]μου νομωγρ(άφου) (<ref target="https://papyri.info/ddbdp/stud.pal%3B22%3B55r">SPP 22 55r</ref>.22–23, Soknopaiou Nesos, 167), and contrast Κάστωρ νομογράφος εἰκόνικα φαμένου μὴ εἰδέναι γράμματα, <ref target="https://papyri.info/ddbdp/p.fay%3B%3B36">P.Fay. 36</ref>.23–24 (Theadelphia, 111–112). See <ref target="https://papyri.info/biblio/78821">Depauw 2011</ref>, particularly 192–193 on these descriptions.</p></note></p>
+               <p xml:id="p11" style="text-align: left; ">Combined efforts have improved the understanding of the end of the narrative and details of the alleged attack, which began when the tax collectors burst into the petitioner’s home while he was out in the fields and violently removed his mother’s cloak: ἐπε[ι]|σῆλθαν τῇ ο[ἰ]κίᾳ μου … [κ]αὶ ἀφήρπα|σα[ν] ἀπὸ τῆς [μη]τρός μου ἱμά|[τιο]ν (ll. 13–20). Schubart has so far offered the most attractive solution to what follows in ll. 20–21: καὶ λ̣α̣κ̣[τί]σμασιν αὐτὴν | [ἐξ]έβαλον (BL 2.2 18 = BL 3 13).<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> The latter prints [λακτί]σμασιν, though the first three letters are indeed visible on the papyrus, as BL 2.2 18 has it. As for the prefix of -έβαλον, Schubart’s supplement is supported by the remains of two horizontal strokes meeting epsilon, which are consistent with those of xi, judging by the example in ἀξιῶ in l. 14. The reading of this passage superseded Kukule’s σ̣ὺ̣ν̣ [τραύ]μ̣ασιν αὐτὴν | [κατ]έβαλ̣ο̣ν̣ (BL 1 438).</p></note></p>
+               <p xml:id="p12" style="text-align: left; ">Αs a result of this attack, the petitioner continues, his mother was bedridden: [διὸ ἐκ τ]ούτου τε κλει|[νήρου]ς α[ὐτῆς γ]ενομένης | [τε (?) καὶ μ]ὴ δυν[αμέ]ν̣ης τω|[  ̣ ̣ ̣ ̣]ν, as printed in W.Chr. 268.21–23. Commentators sought an infinitive beginning τω- to complement δυν[αμέ]ν̣ης (e.g. BL 5 11), but the editors of Sel. Pap. II 286 took the next step by printing [ ̣ ̣ ̣ ̣ ̣ μ]ὴ δυν[αμέ]νης τῷ | [  ̣ ̣ ̣ ̣]ν, recognizing an articular infinitive with an instrumental use of the dative and leaving space for an infinitive complement of δυν[αμέ]νης.</p>
+               <p xml:id="p13" style="text-align: left; ">An examination of the image, however, reveals an issue with the ending -νης, namely a clear curving stroke before the eta that is not likely to come from nu. It is rather a sigma with the same shape as the final letter, which leads to the participle κι]νδυν[ε]υ̣ο̣ύ̣σης. The line can be filled out with [καὶ κι]νδυν[ε]υ̣ο̣ύ̣σης, producing a proper τε … καί correlation in place of the awkward τε … τε (?) καί of W.Chr. The articular infinitive is then easily supplied, as we have come upon a stock phrase of petitions: [καὶ κι]νδυν[ε]υ̣ο̣ύ̣σης τῷ | [ζ]ῆ̣ν, which is often paired with κατακλινής or κλινήρης, as here.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> For examples and discussion, see <ref target="https://papyri.info/biblio/96192">Mascellari 2021</ref>, 428–431, where the present text is adduced (430-431) for the κλινήρης formula.</p></note> </p>
+               <p xml:id="p14" style="text-align: left; ">Finally, the name of the first πράκτωρ in ll. 14–15 can be read as Πετε|εύ̣ς (Πετε| ̣σ̣ι[ο]ς: W.Chr., Πετε|ήσι[ο]ς: Sel.Pap.).</p>
+            </div>
+            <div type="section">
+               <head>13. <ref target="https://papyri.info/ddbdp/p.athen%3B%3B29">P.Athen. 29</ref> (29 March, 121)</head>
+               <p xml:id="p15" style="text-align: left; ">The place of writing of this contract has been lost along with the entire right side of the papyrus. The editor supplied ἐν [Θεαδελφείᾳ τῆς Θεμίστου] | μερίδος based on a note found with the papyrus and the word of the donor (l. 2 n.), rather than internal evidence. Two points speak against the idea, without disproving it: 1) the name and patronym of the creditor, Paouetis (<ref target="http://www.trismegistos.org/name/11187">TM Nam 11187</ref>) son of Tanephremmis (<ref target="http://www.trismegistos.org/name/7701">TM Nam 7701</ref>), had little currency in Theadelphia but are strongly associated with Soknopaiou Nesos and, to a lesser extent, Karanis; 2) the main hand cannot be identified with those associated with the grapheion of Theadelphia at the time (see Iannace 2023). </p>
+               <p xml:id="p16" style="text-align: left; ">The solution is provided by <ref target="https://papyri.info/ddbdp/ddbdp%3B2021%3B3">P.Haun. inv. 28</ref>, dated just seven months later (24 Oct., 121), which is unmistakably written in the same main notarial hand: the Athens contract can thus likewise be attributed to Karanis and the second line read and restored ἐν Κ̣[αρανίδι τῆς Ἡρακλείδου] | μερίδος. It joins a growing group of texts in the Archaeological Society collection that relate to this village, all more likely than not to have been found there: <ref target="https://papyri.info/ddbdp/p.athen%3B%3B21">P.Athen. 21</ref>, <ref target="https://papyri.info/ddbdp/p.athen%3B%3B25">25</ref>, and <ref target="https://papyri.info/ddbdp/p.athen%3B%3B27">27</ref> are also notarial contracts written there, <ref target="https://papyri.info/ddbdp/p.athen%3B%3B32">32</ref> and 37+39 (= <ref target="https://papyri.info/ddbdp/sb%3B10%3B10757">SB 10 10757</ref>) petitions from Karanis residents, 42 (= <ref target="https://papyri.info/ddbdp/sb%3B14%3B11912">SB 14 11912</ref>) a declaration of unwatered land near the village, and <ref target="https://papyri.info/ddbdp/p.athen%3B%3B66">66</ref> a letter to be delivered there. More recently, Nikolaos Gonis has connected <ref target="https://papyri.info/ddbdp/p.athen%3B%3B19">P.Athen. 19</ref> (a lease of ousiac land)<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96589">Gonis 2023b</ref>, 124–125.</p></note> and the tax registers <ref target="https://papyri.info/ddbdp/p.athen%3B%3B48">P.Athen. 48</ref><note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96705">Gonis 2021</ref>.</p></note> and <ref target="https://papyri.info/ddbdp/p.athen%3B%3B49">49</ref><note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/96531">Gonis 2023a</ref>, 225–227.</p></note> to Karanis through internal clues.</p>
+               <p xml:id="p17" style="text-align: left; ">The end of line 30 and all of line 31 were left unread in the edition. This is the short subscription of the second party, which following parallels can be read and restored as γέγον[ε εἴς με ἡ ἀπόχη καθὼς πρόκειται],<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; "> On the phrase, see <ref target="https://papyri.info/biblio/67504">Hagedorn 1998</ref>.</p></note> as the editor was already thinking (l. 31 n.). The next line contains the illiteracy clause, althoughVerschleifung has obscured its exact rendition. ἔγραψεν can be read at the beginning (the clearest letter is psi), which makes ὑπὲρ αὐτοῦ (possibly abbreviated) more-or-less inevitable, even if not readily apparent. Moving to the end of the line, I see γράμματ̣(α), concluding with a partially-lost tau raised in abbreviation, before which μὴ εἰδό(τος) can be read, all in ligature, except between ει- and -δο. The middle of the line escapes me. It is hard to see all of it as a drawn out ὑπὲρ αὐτοῦ, so perhaps we have the name and patronym of the subscriber, which can come in this position. I don’t have a good solution other than to suggest the possibility that this is another subscription written by the well-attested hypographeus Heron son of Satyros, who was active in Karanis’ grapheion at the time.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/86823">Claytor 2014</ref>.</p></note></p>
+            </div>
+            <div type="section">
+               <head>14. <ref target="http://papyri.info/trismegistos/9383">BGU 3 855</ref> (Soknopaiou Nesos, 157)</head>
+               <p xml:id="p18" style="text-align: left; ">This short document is an abstract or draft of a contract concerning a slave girl, evidently arranging for her to work or serve an apprenticeship for one-and-a-half years (with a weaver: see below). It is written against the fibers on the back of an unpublished document described as a “Heuerquittung aus der Zeit des Antoninus” in the Berlin inventory.<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; "> Under P. 7287, part of the Sammlung Brugsch acquired in 1891.The Erwerbungsbücher of the Papyrussammlung have been digitized and are available <ref target="https://www.smb.museum/museen-einrichtungen/aegyptisches-museum-und-papyrussammlung/sammeln-forschen/erwerbungsbuecher/">here</ref> (accessed 15 May, 2024).</p></note> The contract, presumably written later, opens with the full titulature of this same emperor, with the day of the month squeezed in before the main verb ὁμολογεῖ (no place of writing is recorded). Rather than year ια, we should be read κα (so too already in the Berlin inventory) due to the stroke connecting the two numerals: the date, then, was 7 November, 157.</p>
+               <p xml:id="p19" style="text-align: left; ">The name of the first contracting party in l. 3 was printed as [Τ]α̣ούητις, but since this is a female name and no kyrios is recorded, it is better to read the male name Π̣α̣ούητις (the traces are too meager to be decisive on their own). Some caution is in order, however, since mention of the kyrios may simply have been omitted in this version. Another clue to the gender may have stood at the end of the line, but the reading isn’t obvious: any of ἱερε̣ύ̣ς̣, ἱερέ̣ω̣ς̣ (as the editor has it), or ἱερέ̣ο̣ς̣ would seem possible, the latter two of which could stand for a nominative. </p>
+               <p xml:id="p20" style="text-align: left; ">At the beginning of line 5, I read γ̣[ε]ρδί̣ῳ̣, showing that the second party was a weaver. What follows is the major crux, still unsolved. We expect a verb dependent on ὁμολογεῖ, but one can barely quibble with the editor’s επ[ ̣ ̣]ω̣σμου. Perhaps μου can be separated as the pronoun (cf. the following τὴν παιδίσκιν μου), but this does not get us any closer to a verb, which perhaps was simply omitted by mistake. No doubt the weaver was to be entrusted with the girl (whose name at the end of l. 5 is Τασοῦς [l. Τασοῦν], not Τασεύς), but the precise arrangement remains unclear. </p>
+            </div>
+            <div type="section">
+               <head>15. <ref target="https://papyri.info/ddbdp/p.graux%3B2%3B21">P.Graux 2 21</ref> (Apias, 151 CE)</head>
+               <p xml:id="p21" style="text-align: left; ">	This is the latest papyrus in the archive of Hermas, son of Heron <ref target="http://www.trismegistos.org/archive/569">(TM Arch 569)</ref>. The reading in l. 2, where ταριχοπωλικῆς vel sim. is expected (cf. l. 8), still perplexes, but a minor improvement can be made in the notary’s subscription in ll. 22-23:</p>
+               <p xml:id="p22" style="text-align: left; ">ἐγράφη δι(ὰ) τοῦ τε  ̣  ̣  ̣  ̣ | νομογράφου <g style="font-family:Wingdings;" n="F0E0"/> ἐγράφη δι(ὰ) τοῦ τῆ̣ς̣ κ̣ώ̣μη̣ς̣ | νομογράφου</p>
+               <p xml:id="p23" style="text-align: left; ">The editor’s epsilon is rather the left half of a partially effaced eta; the remaining traces fit the reading well (for the sigma-kappa ligature just after the lacuna, cf. the next line). “The village” refers to Apias, mentioned twice above. In hypomnemata and cheirographiai, village notaries usually sign with their name (in contrast to contract registrations, which allowed for anonymity), but cf. <ref target="https://papyri.info/ddbdp/symboslo%3B78%3B24">P.Oslo inv. 1468</ref>.16-17 (54), where the same anonymous identification is used: ἔγραψεν ὑπὲρ αὐτῶν ὁ τῆς κώμης νομογράφος. <ref target="https://papyri.info/ddbdp/p.mich%3B5%3B233">P.Mich. 5 233</ref>.23 (24) and <ref target="https://papyri.info/ddbdp/bgu%3B11%3B2085">BGU 11 2085</ref>.16 (119) also make use of the formula ὁ τῆς κώμης νομογράφος after the notary’s name.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86823">Claytor, W.G. (2014)</ref> “Heron, Son of Satyros: a Scribe in the grapheion of Karanis,” ZPE 190, 199–202. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95713">Claytor, W.G., N. Litinas, E. Nabney (2016)</ref> “Labor Contracts from the Harthotes Archive,” BASP 53, 79–119.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/59800">Daris, S. (1989)</ref> “P. Oxy. II 364 e 365,” ZPE 79, 197–199.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78821">Depauw, M. (2011)</ref> “Physical Descriptions, Registration and εἰκονίζειν. With New Interpretations for P. Par. 65 and P. Oxy. I 34,” ZPE 176, 189–199.</bibl>
+                  <bibl>Freu, C. (2022) Les salariés de l’Égypte romano-byzantine. Paris.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96705">Gonis, N. (2021)</ref> “P.Athen. 48: Tax registers from Karanis,” CdÉ 96, 114–120.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96531">Gonis, N. (2023a)</ref> “Notes on Miscellaneous Documents IX” ZPE 225, 225–230.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96589">Gonis, N. (2023b)</ref> “Notes on Miscellaneous Documents X” ZPE 226, 123–129.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/67504">Hagedorn, D. (1998)</ref> “ Noch einmal: Who got the Contract?” ZPE 123, 177–180.</bibl>
+                  <bibl>Iannace, V. (2023). The Village of Theadelphia in the Second Century AD: The Archives of Aphrodisios Son of Philippos, and Ptolemaios Son of Diodoros. Diss. Univ. Manchester.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96192">Mascellari (2021)</ref> La lingua delle petizioni nell’Egitto romano. Florence.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86878">Paganini, M.C.D. (2015)</ref> “Receipt of Hay for the Transport (?) of Roses,” ZPE 193, 226–230.</bibl>
+                  <bibl>Ratzan, D.M. (2011) Contract Norms and Contract Enforcement in Graeco-Roman Egypt. Diss. Columbia University.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
