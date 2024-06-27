@@ -6,7 +6,7 @@ then
   do
     curl -s -S --data-urlencode content@$f \
       -d "type=$2" -d 'direction=nonxml2xml' \
-      https://papyri-xsugar.cloud.duke.edu/ \
+      https://papyri-xsugar-prod.lib.duke.edu/ \
       > $1/result.json
       if [ "`jq 'has("exception")' $1/result.json`" == "true" ]
       then
