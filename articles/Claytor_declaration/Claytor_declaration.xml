@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Property Declaration from Theadelphia</title>
+            <author>
+               <name>
+                  <forename>W. Graham</forename>
+                  <surname>Claytor</surname>
+               </name>
+               <affiliation>Uniwersytet Warszawski</affiliation>
+               <email>w.claytor-vi@uw.edu.pl</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-10-24T13:14:01Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">A Property Declaration from Theadelphia</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">This edition is based on autopsy and digital images. I thank curator Eric White and the staff of Special Collections of Firestone Library, Princeton University for facilitating access to the papyrus collection. Research for this article was co-funded by Poland’s National Science Centre and the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie grant agreement no. 945339 (project No. 2021/43/P/HS3/00651).</note>
+            <p xml:id="p1" style="text-align: left; ">This fragment contains a property declaration submitted by a tenant of the estate of Claudia Antonia, daughter of the emperor Claudius. The terminus ante quem is her father’s death in 54 CE (see ll. 6–7 n.), which, combined with the formula in l. 8, suggests that the document belongs to the group of declarations submitted in 53–54, the first of their kind in Roman Egypt. These declarations were prompted by the prefect L. Lusius Geta,<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> PIR2 L 435. Cf. <ref target="https://papyri.info/biblio/96049">Faoro 2015</ref>: 42–43.</p></note> who ordered a province-wide census of property holdings.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> The order is mentioned in the Memphite and Oxyrhynchite declarations, but not those from the Arsinoite. At PSI 15 1521.1–3 n., the editor unnecessarily speculates about the possibility of two successive orders in Claudius’ year 13 (52/3) and 14 (53/4).</p></note> This initiative would be followed up about 15 years later by the creation of a separate archive of real property (the bibliotheke enkteseon) in each nome, which thereafter would handle such declarations.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> See most recently <ref target="https://papyri.info/biblio/95803">Claytor 2020</ref>.</p></note></p>
+            <p xml:id="p2" style="text-align: left; ">With two recent additions from the Oxyrhynchite nome (<ref target="https://www.trismegistos.org/text/998575">P.Harr. 3 246</ref> and <ref target="https://www.trismegistos.org/text/998576">247</ref>), the present document is now the ninth declaration connected with this first general survey of property holdings in the province.</p>
+            <table>
+               <row>
+                  <cell style="text-align: right;">
+                     <ref target="https://papyri.info/ddbdp/p.mich%3B9%3B539">P.Mich. 9 539</ref>
+                  </cell>
+                  <cell style="text-align: left;">Arsinoites</cell>
+                  <cell style="text-align: left;">23 June, 53</cell>
+               </row>
+               <row>
+                  <cell style="text-align: right;">
+                     <ref target="https://papyri.info/ddbdp/p.oxy%3B47%3B3332">P.Oxy. 47 3332</ref>
+                  </cell>
+                  <cell style="text-align: left;">Arsinoites</cell>
+                  <cell style="text-align: left;">24 June, 53</cell>
+               </row>
+               <row>
+                  <cell style="text-align: right;">
+                     <ref target="https://papyri.info/ddbdp/p.mich%3B9%3B540">P.Mich. 9 540</ref>
+                  </cell>
+                  <cell style="text-align: left;">Arsinoites</cell>
+                  <cell style="text-align: left;">53–54</cell>
+               </row>
+               <row>
+                  <cell style="text-align: right;">P.Princ. inv. GD 7650A</cell>
+                  <cell style="text-align: left;">Arsinoites</cell>
+                  <cell style="text-align: left;">53–54</cell>
+               </row>
+               <row>
+                  <cell style="text-align: right;">
+                     <ref target="https://papyri.info/ddbdp/sb%3B20%3B14392coli">SB 20 14392, col. 1</ref>
+                  </cell>
+                  <cell style="text-align: left;">Memphites</cell>
+                  <cell style="text-align: left;">before 15 July, 53</cell>
+               </row>
+               <row>
+                  <cell style="text-align: right;">
+                     <ref target="https://papyri.info/ddbdp/sb%3B20%3B14392colii">SB 20 14392, col. 2</ref>
+                  </cell>
+                  <cell style="text-align: left;">Memphites</cell>
+                  <cell style="text-align: left;">15 July, 53</cell>
+               </row>
+               <row>
+                  <cell style="text-align: right;">
+                     <ref target="https://www.trismegistos.org/text/112652">PSI 15 1521</ref>
+                  </cell>
+                  <cell style="text-align: left;">Oxyrhynchites</cell>
+                  <cell style="text-align: left;">31 Jan. (?), 54</cell>
+               </row>
+               <row>
+                  <cell style="text-align: right;">
+                     <ref target="https://www.trismegistos.org/text/998575">P.Harr. 3 246</ref>
+                  </cell>
+                  <cell style="text-align: left;">Oxyrhynchites</cell>
+                  <cell style="text-align: left;">53–54</cell>
+               </row>
+               <row>
+                  <cell style="text-align: right;">
+                     <ref target="https://www.trismegistos.org/text/998576">P.Harr. 3 247</ref>
+                  </cell>
+                  <cell style="text-align: left;">Oxyrhynchites</cell>
+                  <cell style="text-align: left;">53–54</cell>
+               </row>
+            </table>
+            <div type="epidoc" subtype="DDB">
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="https://dpul.princeton.edu/papyri/catalog/zk51vn23j">P.Princ. inv. GD 7650 A</ref>
+                     </cell>
+                     <cell style="text-align: center;">8 (h) x 5 (w) cm</cell>
+                     <cell style="text-align: right;">
+                        <ref target="http://www.trismegistos.org/place/2349">Theadelphia</ref>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Acquired in 1924</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">53–54 CE          </cell>
+                  </row>
+               </table>
+               <head>The papyrus is broken at the top, right, and bottom. The left margin measures 1 cm. The back is blank.</head>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p3"><ref>1</ref> βυβλιοθήκ[ης	vac.	].  The preceding lines can be restored from <ref target="https://papyri.info/ddbdp/p.mich%3B9%3B539">P.Mich. 9 539</ref>, <ref target="https://papyri.info/ddbdp/p.mich%3B9%3B540">540</ref>, and <ref target="https://papyri.info/ddbdp/p.oxy%3B47%3B3332">P.Oxy. 47 3332</ref> as follows: [Θρακίδαι γυμνασιάρχωι | βυβλιοφύλακι τῆς | ἐν τῶι Ἀρσινοείτηι] | βυβλιοθήκ[ης]. Nothing is expected after βυβλιοθήκ[ης, even though there is room for about four or five letters. Writers of hypomnemata often left space after the addressee’s title and began the next line with παρά (<ref target="https://papyri.info/biblio/76037">Martin 2007</ref>: 668).</p>
+                     <p xml:id="p4">	The nome archive is called βυβλιοφυλάκιον in the Memphite and Oxyrhynchite declarations of this year.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p5"><ref>2-3</ref> Τεῶτ[ος τοῦ δεῖνος]| τοῦ Τ̣ε̣ῶ̣τ̣ο̣[ς. An example of the common practice of papponymy. This individual does not appear to be known from other texts. A large part of Theadelphia texts from the first century of Roman rule belong to the archive of Harthotes (<ref target="http://www.trismegistos.org/archive/99">TM Arch 99</ref>), which was acquired in various purchases in the 1920s including some from the same lot as the present papyrus, but the name Teos is not associated with this family.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p6"><ref>5</ref> [οὐσιακ(οῦ)]. For the supplement, cf. <ref target="https://papyri.info/ddbdp/p.mich%3B9%3B539">P.Mich. 9 539</ref>, submitted by an οὐσιακοῦ γεωργο̣ῦ̣ καὶ ἀ̣π̣ο̣λ̣υ̣σίμου Καμηλιανῆς οὐσίας; in <ref target="https://papyri.info/ddbdp/p.mich%3B9%3B540">P.Mich. 9 540</ref>, the declarant is called simply γεωργοῦ | [οὐ]σίας Γερμανικιανῆς (ll. 5-6).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p7"><ref>6-7</ref> Ἀντ̣[ωνίας] | θυγατρός.  Antonia, daughter of the emperor Claudius, is known in the papyri as Ἀντωνία θυγάτηρ (with θεοῦ Κλαυδίου added after her father’s death) to distinguish her from her paternal grandmother, known as Ἀντωνία Δρούσου, the wife of Drusus: see <ref target="https://papyri.info/biblio/53734">Hanson 1980</ref>: 245. The lack of θεοῦ Κλαυδίου following Antonia’s name suggests that Claudius is still alive (or thought to be), which would set the end of 54 CE as the terminus ante quem of this text. Claudia Antonia’s estate in Egypt (<ref target="http://www.trismegistos.org/ousia/5">TM Ousia 5</ref>) included an epoikion named after her (<ref target="http://www.trismegistos.org/place/209">TM Geo 209</ref>) and holdings around several villages of the Fayum, to which list Theadelphia can perhaps now be added (the location of the estate land on which Teos worked is not stated): Hiera Nesos (<ref target="https://papyri.info/ddbdp/p.bour%3B%3B42">P.Bour. 42</ref>.89, 111, 117, and 201), Karanis (?) (<ref target="https://papyri.info/ddbdp/p.sijp%3B%3B44">P.Sijp. 44</ref>.4), Kerkeesis/Perkeesis (<ref target="https://papyri.info/ddbdp/p.bour%3B%3B42">P.Bour. 42</ref>.140-141), and Theoxenis (<ref target="https://papyri.info/ddbdp/p.fay%3B%3B40">P.Fay. 40</ref>.7).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p8"><ref>8</ref> ὑπάρχι μοι.  This formula, taken over from census declarations, only appears in the Arsinoite property declarations from 53. It corresponds to ἀπογράφομαι … τὸ ὑπάρχον in the Memphite and Oxyrhynchite declarations of this year, a formula followed in later general declarations, including those from the Arsinoite (see <ref target="https://papyri.info/ddbdp/p.oxy%3B47%3B3332">P.Oxy. 47 3332</ref> introduction with l. 4 n. and <ref target="https://papyri.info/biblio/9194">Wolff 1978</ref>: 231).</p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95803">Claytor, W.G. (2020)</ref> “Two Papyri from the Archive of Mikkalos and the Establishment of the bibliotheke enkteseon,” BASP 57: 19–42.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96049">Faoro, D. (2015)</ref> I prefetti d’Egitto da Augusto a Commodo (Bologna).</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/53734">Hanson, A.E. (1980)</ref> “P. Princeton I 11 and P. Cornell 21v.,” ZPE 37: 241–248.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/76037">Martin, A. (2007)</ref> “Τῷ δεῖνι παρὰ τοῦ δεῖνος. Réflexions à propos d'un type documentaire,” in Pap.Congr. 24: 661–675.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9194">Wolff, H.J. (1978)</ref> Das Recht der griechischen Papyri Ägytens in der Zeit der Ptolemaeer und des Prinzipats, Vol. 2 (Munich).</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A property declaration from Theadelphia </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">566211</idno>
+               <idno type="HGV">566211</idno>
+               <idno type="ddb-filename">pylon.6.7</idno>
+               <idno type="ddb-hybrid">Pylon;6;7</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Princ. inv. GD 7650 A</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <origDate>53–54 CE          </origDate>
+                     </origin>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>A property declaration from Theadelphia </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.6.7</idno>
+               <idno type="ddb-hybrid">Pylon;6;7</idno>
+               <idno type="HGV">566211</idno>
+               <idno type="TM">566211</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">A property declaration from Theadelphia </head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/>βυβλιοθήκ<supplied reason="lost">ης</supplied> <supplied reason="lost"><space extent="unknown" unit="character"/> </supplied>
+<lb n="2"/>παρὰ Τεῶτ<supplied reason="lost">ος</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/>
+<lb n="3"/>τοῦ <unclear>Τεῶτο</unclear><supplied reason="lost">ς τῶν ἀπὸ</supplied>
+<lb n="4"/>Θεαδελφείας <supplied reason="lost">τῆς Θεμί</supplied>
+<lb n="5" break="no"/>στου μερίδ<supplied reason="lost">ος</supplied> <supplied reason="lost"><expan>οὐσιακ<ex>οῦ</ex></expan></supplied>
+<lb n="6"/>γεωργοῦ Ἀν<unclear>τ</unclear><supplied reason="lost">ωνίας</supplied>
+<lb n="7"/>θυγατρὸς <unclear>oὐσ</unclear><supplied reason="lost">ίας.</supplied>
+<lb n="8"/><choice><reg>ὑπάρχει</reg><orig>ὑπάρχι</orig></choice> μοι <unclear>ἐ</unclear><supplied reason="lost">ν τῇ προκει</supplied>
+<lb n="9" break="no"/>μένῃ κώμ<supplied reason="lost">ῃ οἰκία καὶ</supplied>
+<lb n="10"/><choice><reg>αὐλὴ</reg><orig>αὐλὴν</orig></choice> ἐ<unclear>ν</unclear> ᾗ <supplied reason="lost">κατοικῶ</supplied>
+<lb n="11"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="7" unit="character" precision="low"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">A property declaration from Theadelphia </title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">566211</idno>
+               <idno type="TM">566211</idno>
+               <idno type="HGV">566211</idno>
+               <idno type="ddb-hybrid">566211</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+[To Thrakidas, gymnasiarch, keeper of the] archive [in the Arsinoite nome,] from Teos, [son of NN,] grandson of Teos, [one of those from] Theadelphia [of the] Themistos division, [estate] tenant on the estate of Antonia the daughter. There belongs to me in [the] aforementioned village [a house and] a courtyard, in which I dwell …
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
