@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Archive of Gelasios</title>
+            <author>
+               <name>
+                  <forename>Roger S.</forename>
+                  <surname>Bagnall</surname>
+               </name>
+               <affiliation>New York University</affiliation>
+               <email>rsb331@nyu.edu</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2024-11-06T13:22:15Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">The Archive of Gelasios</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">Such is the title accorded by Trismegistos Archives (<ref target="http://www.trismegistos.org/archive/306">TM Arch ID 306</ref>) to a group of three letters republished most recently as P.Mil. 1 81–83. The editions there are not entirely satisfactory; those in the present article seek to improve them. No less importantly, since the appearance of that edition in 1966 a large amount of new evidence has come to light that allows this cluster to be given a more precise context in time, place, and social location. It is now clear that they belong to a body of material clandestinely excavated in the Dakhla Oasis, at Ismant el-Kharab, the ancient village of Kellis, long before the beginning of the Australian excavations that made this village one of the most important sources of fourth-century documents and literary texts known today.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> On the acquisitions of papyri from Dakhla in the collection of the Università Cattolica del Sacro Cuore, see <ref target="https://papyri.info/biblio/89464">Worp 2010</ref>: 53 n. 1. As he points out, this is not the only western collection to hold papyri originating from the oasis acquired before the period of legal excavation. See <ref target="https://papyri.info/biblio/75917">Heilporn and Worp 2007</ref>, with 219 n. 5. They publish there a papyrus in the Michigan collection and cite two in the Biblioteca Laurenziana. But it is entirely possible for some documents originating in the oasis to have traveled in antiquity, for example as proofs of ownership for a slave, and been excavated elsewhere; see <ref target="http://papyri.info/ddbdp/p.oxy%3B86%3B5561">P.Oxy. 86 5561</ref> introd. for examples found at Oxyrhynchos. That may well be the explanation for the Michigan and Florentine papyri. But papyri acquired in the 1960s by Milan, Duke, and perhaps elsewhere certainly come from illegal excavations. See <ref target="http://papyri.info/ddbdp/p.sijp%3B%3B11a">P.Sijp. 11</ref> introd. for the three papyri published there, as well as <ref target="http://papyri.info/ddbdp/sb%3B20%3B14293">SB 20 14293</ref>, all acquired in 1969. </p></note> I give first the revised texts, with apparatus, translation, and limited notes, and then a brief discussion of their context; some further explorations are reserved for another article, which will appear in the Bulletin de la Société d’Archéologie Copte 63 (2024), a memorial volume for Wassif Boutros Ghali.</p>
+            <div type="section">
+               <head>1. Gelasios to Isidora</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">6 (w) × 25 (h) cm.</cell>
+                        <cell style="text-align: left;">Provenance unknown</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">Inv. 117</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">IV</cell>
+                     </row>
+                  </table>
+                  <div copyOf="#ed1" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p2"><ref>8</ref> Χαρισίαν was read correctly by Bandi in l. 43 but misread here.  The name does not appear elsewhere in Greek papyri but is not rare in Coptic texts; see TM Names <ref target="http://www.trismegistos.org/name/33985">33985</ref> and <ref target="http://www.trismegistos.org/name/12875">12875</ref>. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p3">15, 20  <ref target="https://papyri.info/biblio/52128">Parássoglou 1977/78</ref> : 66 n.2 argues (with references and bibliography) that ἀξιωθείς should be seen as an undeclined verbal participle used adverbially, and thus not needing to be corrected to a feminine form modifying the female Isidora.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p4"><ref>18</ref> Parássoglou views τὸ μέγα οἶκος as a neuter by–formation in late Greek, for which he cites parallels: <ref target="https://papyri.info/biblio/52128">Hellenika 30 (197978) 65</ref>. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p5"><ref>26</ref> The editor ignored the traces after ψεναμουν, but they appear to be the termination. Whether there was space for the restoration of καί is difficult to say. If not, Psenamounis might have had the second name Ammonios, or possibly Ammonios is a patronymic and should be corrected to the genitive. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p6"><ref>31</ref> The editor’s Thetis is a most unlikely name to appear here, as names from Greek literature and mythology in the late antique oasis are borne by men but not women; see Bagnall forthcoming. Undeclined Θασι appears in <ref target="http://papyri.info/ddbdp/o.kell%3B%3B71">O.Kellis 71</ref> and <ref target="http://papyri.info/ddbdp/o.kell%3B%3B99">99</ref>, both from third-century contexts. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p7"><ref>36–48</ref> In these lines the person doing the greeting switches from Gelasios to Tbekis. Apparently line 36 was inserted between the lines after “mother of” was deleted in line 37. She starts again in line 40, giving her name again and this time greeting Isidora, Charisia, and Eirene, who had already been greeted by Gelasios earlier in the letter, as well as others whose names are now lost but are also probably some of the same people mentioned earlier. </p>
+                        <p xml:id="p8">Verso 2  I do not know of a parallel for Ταβαια.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>2. Gelasios to Papnouthes</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">5.4 (w) × 9 (h) cm.</cell>
+                        <cell style="text-align: left;"/>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">Inv. 96</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                     </row>
+                  </table>
+                  <div copyOf="#ed2" type="edition"/>
+                  <div copyOf="#trans2" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p9"><ref>1</ref> Wilcken and Hombert doubted Francioni’s reading of πατρί, but it is correctly defended by Daris. The lower parts of all of the letters survive, and they suffice to exclude the suggested alternative (ἀδελφῷ). </p>
+                     </note>
+                     <note>
+                        <p xml:id="p10"><ref>7</ref> The editor of P.Mil. 1 did not correct the spelling, but he says in his note to the line “si potrebbe pensare a ταινίας ma la parola non è usata all’epoca della lettera.” This is not a compelling argument, and the use of ταινία for a strip of land is well attested in the region of Alexandria and at Pathyris. There are also examples in the ostraka from Ain es-Sabil (<ref target="http://papyri.info/ddbdp/basp%3B58%3B105_7">O.Sabil 7</ref> and <ref target="http://papyri.info/ddbdp/basp%3B58%3B106_10">10</ref>); I shall discuss the word further in the final edition of those texts. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p11"><ref>10</ref> <ref target="http://papyri.info/ddbdp/o.kell%3B%3B290">O.Kellis 290</ref> is also an order for delivery of dates to Tiberius, perhaps the same person. </p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>3. Gelasios to Papnouthes</head>
+               <div type="epidoc" subtype="DDB">
+                  <table type="papyrological_header">
+                     <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">4.3 (w) × 6 (h) cm.</cell>
+                        <cell style="text-align: left;"/>
+                     </row>
+                     <row>
+                        <cell style="text-align: left;">Inv. 97</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                     </row>
+                  </table>
+                  <div copyOf="#ed3" type="edition"/>
+                  <div copyOf="#trans3" type="translation"/>
+               </div>
+            </div>
+            <div type="section">
+               <head>Discussion</head>
+               <p xml:id="p12" style="text-align: left; ">In producing the first edition of <seg style="font-weight: bold;">1</seg>, Bandi assigned it to a date in the third century, struck by the mention of 600 talents and thinking that this large sum would point to that century. Wilcken pointed out her mistake, arguing that only after Diocletian would such a sum be thinkable and thus dating the papyrus to the end of the third or the fourth century, with a preference for the latter. Francioni duly dated the two related letters that he published to the third-fourth century. Such numbers of talents actually are almost unknown before the monetary reform under Constantius II in or around 353.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/97038">Bagnall and Bransbourg 2019</ref>.</p></note> These letters can therefore be securely dated no earlier than 353.</p>
+               <p xml:id="p13" style="text-align: left; ">Letters <seg style="font-weight: bold;">2</seg> and <seg style="font-weight: bold;">3</seg> appear to be in the same hand, as their first editor already suggested. Letter <seg style="font-weight: bold;">1</seg> is in a different hand. Still other hands appear in other texts involving Gelasios discussed below. There is no basis for identifying any of them as his own hand; someone of his status will have had access to various agents to take down their letters or write orders and receipts on their behalf.</p>
+               <p xml:id="p14" style="text-align: left; ">No indication of provenance appeared in the editions. In 2010, Carla Balconi published three orders from a Perikles, likely to be the same as the man referred to in <seg style="font-weight: bold;">1</seg>, and assigned these orders to the Great Oasis, recognizing that the three letters of Gelasios also should come from the same provenance.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/89462">Balconi 2010</ref>, esp. 52. </p></note> Because known toponyms of the Dakhla Oasis appear in these orders, the attribution to that oasis is secure, and we may be confident that they all came from Kellis. As Balconi noted, the name Gelasios is attested in this oasis. </p>
+               <p xml:id="p15" style="text-align: left; ">Most notably, in a contract for irrigation work (<ref target="http://papyri.info/ddbdp/p.gascou%3B%3B67">P.Gascou 67</ref>), written on a papyrus found at Kellis, the hiring party is named Aurelius Aionianos son of Gelasios, former magistrate of the city of Mothis, the capital of the oasis. The contract is dated to 368. The editor pointed out that the two men are also known from <ref target="http://papyri.info/ddbdp/p.kell%3B1%3B16">P.Kellis 1 16</ref>, a short note from Aionianos to his father Gelasios (the name is badly preserved, but the traces are compatible with the reading) instructing him to provide four artabas of dates to his “brother” (presumably, as usually, meaning “colleague”) Pataias. The note is a bit abrupt, but Gelasios’ name is given before that of Aionianos, a mark of respect. This note has no absolute date but refers to the third indiction. Aionianos is an interesting figure in his own right, whose name has a strongly Manichaean character, but I reserve discussion of him for the article mentioned above in the memorial for Wassif Boutros Ghali. This is, at any rate, an unusual case in which we have a legal document that shows that the relationship term in a private letter is to be taken literally rather than figuratively. </p>
+               <p xml:id="p16" style="text-align: left; ">Gelasios also appears in other papyri excavated at Kellis. He is the addressee of an undated letter from one Sarapion (<ref target="http://papyri.info/ddbdp/p.gascou%3B%3B82">P.Gascou 82</ref>). Men named Asterius and Optatus are mentioned, along with several military titles, suggesting connections with the local garrison.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> An Optatos also appears in <ref target="http://papyri.info/ddbdp/p.gascou%3B%3B70">P.Gascou 70</ref>, early in the fourth century; the pronoetes of a geouchos named Catulus Optatos figures in <ref target="http://papyri.info/ddbdp/o.trim%3B1%3B329">O.Trim. 1 329</ref>, from the 350s or 360s.</p></note> It is also worth noting the presence of a Pausanias son of Gelasios in <ref target="http://papyri.info/ddbdp/o.kell%3B%3B256">O.Kellis 256</ref>, with no date (given find place, probably fourth century) or textual context (and no plate on which to verify the reading). Pausanias is a name found in more than one generation of the upper class of Kellis, but it is impossible to place this person without further information.</p>
+               <p xml:id="p17" style="text-align: left; ">There is also a cluster of texts referring to a Gelasios in the ostraka from the house of Serenos at Trimithis (Amheida), datable also to the period after 353. These are listed in O.Trim. 2, p. 96. He receives rations, makes orders for payment, and signs receipts. He belongs to the circle of Serenos, who is known to have been a member of the city council. It seems entirely plausible that this Gelasios is the same. A Gelasios also receives a payment in an ostrakon from Ain es-Sabil, <ref target="http://papyri.info/ddbdp/basp%3B58%3B123_32">O.Sabil 32</ref>. In short, although we have no direct evidence that Gelasios was, like his son, a member of the local council or magistrate of Mothis, this seems very likely. </p>
+               <p xml:id="p18" style="text-align: left; ">Finally, strengthening that probability, is the appearance of a Gelasios who was strategos and exactor of the Oasis in 309 (<ref target="http://papyri.info/ddbdp/sb%3B18%3B13852">SB 18 13852</ref>),<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> The Great Oasis, embracing both Dakhla and Kharga, is meant, and a reference to the Hibite nome (line 17) assures us that Gelasios’ administrative domain included the entirety of the Oasis. The statement in SB that “Hibis (= el Nadura)” is the provenance of the papyrus is, however, unwarranted and not based on any indication from the editor (<ref target="https://papyri.info/biblio/57526">Thomas 1985</ref>). There is no indication where this set of official documents was kept; and the hill of Nadura is only a part of the larger area of the city of Hibis. </p></note> and the same man or a later member of the family who is described as former logistes (a higher office) in <ref target="http://papyri.info/ddbdp/p.kell%3B1%3B29">P.Kell. 1 29</ref> (331).</p>
+               <p xml:id="p19" style="text-align: left; ">What of the other personal names found in the letters, relatives or friends of Gelasios? Some are too common to be helpful: Isidora, Psais, Psenamounis, and Ammonios certainly fall into this category. Charisia is not attested in any other text from the oasis, although a woman named Charis is well known. Tsamoun is also unattested elsewhere. An Eirene appears in <ref target="http://papyri.info/ddbdp/o.kell%3B%3B272">O.Kell. 272</ref>, a receipt or memorandum probably datable after 353 from the mention of talents. Someone of this name also appears in the Kellis Agricultural Account Book (<ref target="http://papyri.info/ddbdp/p.kell%3B4%3B96">KAB)</ref> (lines 136, 1304), with no further identifying indicators. We find an Eirene (“our daughter”) as the recipient of a Coptic letter (P.Kell. 5 C.32.15). This is, even all taken together, not a lot to go on, but it does provide one slight connection to the Manichaean circles involved in the Coptic letters. </p>
+               <p xml:id="p20" style="text-align: left; ">Papnouthes is not a common name in Dakhla. A man by this name occurs in ten ostraka from the Ain es-Sabil excavations. He has no patronymic in any of them. The absence of a patronymic may be explained if he is the “father Papnouthes the monk” who is to receive an unstated product in one ostrakon from this site. A Papnouthes is a tenant in the <ref target="http://papyri.info/ddbdp/p.kell%3B4%3B96">KAB</ref> and also an intermediary and estate agent receiving rents (pp. 69, 71–72). The name is otherwise scarce in the Greek texts from Kellis, occurring in the tablet <ref target="http://papyri.info/ddbdp/p.kell%3B1%3B61">P.Kell. 1 61</ref> (probably to be dated after 353 on the basis of amounts of money), and from the Coptic letters in P.Kell. 5. But Papnoute appears in five Coptic letters in P.Kell. 7, in one of which (P.Kell. 7 C. 78) he sends greetings to Pekysis. It seems highly likely that these all concern the same man and that he belongs to the Manichaean circle. There is no reason to identify him with men named Papnouthes in the Trimithis ostraka, however. In sum, it is possible that the Papnouthes of <seg style="font-weight: bold;">2</seg> and <seg style="font-weight: bold;">3</seg> here was connected to the Manichaean circles, but this is not a certainty.</p>
+               <p xml:id="p21" style="text-align: left; ">Tbekis is attested in the Coptic letters P.Kell. 5 C.12.16 (sending greetings) and 43.23. The name is attested at Kellis already in the second century (<ref target="http://papyri.info/ddbdp/cde%3B86%3B242">CdÉ 86 [2011] 242 no. 3</ref>), as well as at the Dakhla village of Mesobe (<ref target="http://papyri.info/ddbdp/sb%3B22%3B15614">SB 22 15614</ref>, from 154). A Tbekis is also the mother of a party to <ref target="http://papyri.info/ddbdp/p.kell%3B1%3B2">P.Kellis 1 2.7</ref>, dated to 301. No fourth-century homonyms other than those in the Coptic letters have yet come to light.</p>
+               <p xml:id="p22" style="text-align: left; ">Psenplaeus, finally, is attested in <ref target="http://papyri.info/ddbdp/p.nekr%3B%3B10">P.Nekr. 10</ref> (244) and <ref target="http://papyri.info/ddbdp/o.douch%3B4%3B473">O.Douch 4 473</ref> (late IV/early V), both from the Kharga Oasis, and <ref target="http://papyri.info/ddbdp/o.trim%3B2%3B676">O.Trim. 2 676</ref> (cf. also <ref target="http://papyri.info/ddbdp/o.trim%3B2%3B686">O.Trim. 2 686</ref>.1n.). This last is probably to be dated to the late third century and thus cannot concern the same individual. A Psenplaeus does, however, occur in an ostrakon from Ain es-Sabil, which belongs to the same chronological horizon as the Gelasios archive. This man has a decent claim to be the same person.</p>
+               <p xml:id="p23" style="text-align: left; ">Gelasios writes to people in Kellis. He has connections in Ain es-Sabil. He is involved in affairs in Trimithis. He has connections to several people who may appear in the Coptic letters emanating from Manichaean circles. He names his son Aionianos, a name best explained by Manichaean affiliation. But he certainly did not live in one of the houses at Kellis from which we have papyri, and quite possibly not at Kellis at all. Nothing actually places him in Ain es-Sabil. His relationship with Trimithis is at a high level but not well attested. He never appears himself in any of the Coptic letters as either writer or addressee. He is probably the descendant of local officials and certainly the father of a magistrate, but we know nothing about his own official posts. He is, in short, an elusive figure. Perhaps he lived in the capital, Mothis. Whether these three letters actually constitute an archive in any meaningful sense is hard to say. Overall, what we have is an intriguing but still thin dossier.</p>
+               <p xml:id="p24" style="text-align: left; "><ref target="https://papyri.info/biblio/35185/">Bandi 1935</ref> : 251 (SB 5 8000); cf. <ref target="https://papyri.info/biblio/40787/">Wilcken 1937</ref>: 92. S. Daris, <ref target="http://papyri.info/ddbdp/p.mil%3B2%3B81">P.Mil. 1 81</ref>; cf. <ref target="https://papyri.info/biblio/25911?/">Hagedorn 1968</ref>: 781 (BL 6.77); <ref target="https://papyri.info/biblio/52128/">Parássoglou 1977/78</ref> : 64–66 (BL 7.103); <ref target="https://papyri.info/biblio/71982/">Gonis 2003</ref> : 167-168 (BL 13.134). Photos: P.Mil. 1, tav. xxvii; <ref target="https://papyri.info/biblio/8051/">Montevecchi 1973</ref>, tav. 88.</p>
+               <p xml:id="p25" style="text-align: left; "><ref target="https://papyri.info/biblio/37508">Francioni 1942</ref>: 68 (SB 6 9012); cf. <ref target="https://papyri.info/biblio/40787/">Wilcken 1953</ref>: 120; <ref target="https://papyri.info/biblio/23647/">Hombert 1943</ref>: 310; S. Daris, <ref target="http://papyri.info/ddbdp/p.mil%3B2%3B82">P.Mil. 1 82</ref>.</p>
+               <p xml:id="p26" style="text-align: left; "><ref target="https://papyri.info/biblio/37508">Francioni 1942</ref>: 70 (SB 6 9013). S. Daris, <ref target="http://papyri.info/ddbdp/p.mil%3B2%3B83">P.Mil. 1 83</ref>.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>Bagnall, R.S. (forthcoming) “Onomastics and classical culture in Egypt’s western oases,” in A. Almasy and Y. Broux (eds.), Greek Personal Names in Egypt. Oxford. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97038">Bagnall, R.S. and Bransbourg, G. (2019)</ref> “The Constantian monetary revolution,” ISAW Papers 14; also in T. Faucher, ed., Money Rules! The Monetary Economy of Egypt, from Persians until the Beginning of Islam (Cairo 2020) <ref target="https://papyri.info/biblio/97037">367–92</ref>.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/89462/">Balconi, C. (2010)</ref> “Tre ordini di consegna inediti provenienti dalla Grande Oasi,” Aegyptus 90: 41–51.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/35185/">Bandi, L. (1935)</ref> “Dai papiri inediti della raccolta milanese. [1–4.],” Aegyptus 15: 239–254.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/37508/">Francioni, S. (1942)</ref> “Dai papiri inediti della raccolta milanese. [11–19.],” Aegyptus 22: 55–73.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/71982/">Gonis, N. (2003)</ref> “Remarks on Private Letters II.,” ZPE 142: 163–170.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/25911?/">Hagedorn, D. (1968)</ref> Review of S. Daris, Papiri Milanesi (P. Med.) I nn. 1–12, Gnomon 40: 778–781.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/75917/">Heilporn, P. and Worp, K.A. (2007)</ref> “A wet nurse contract with an unusual provenance,” CdÉ 82: 218–26.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/8051/">Montevecchi, O. (1973)</ref>  La Papirologia. (Manuali Universitari. 1. Per lo studio delle Scienze dell’Antichità.). Torino.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/52128/">Parássoglou, G.M. (1977/78)</ref> “Adnotatiunculae. I. Avec résumé en grec.,”  Hellenika 30: 62–72.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/57526/">Thomas, J. D. (1985)</ref> “The earliest occurrence of the exactor civitatis in Egypt (P. Giss. inv. 126 recto,” in N. Lewis (ed.), Yale Classical Studies 28, Papyrology: 115–25.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/40787/">Wilcken, U. (1953)</ref> “Urkunden-Referat.,” APF 15: 108–122.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/89464/">Worp, K.A. (2010)</ref> “SB XII 10930 revised,” Aegyptus 90: 53–56.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">33514</idno>
+               <idno type="HGV">33514</idno>
+               <idno type="ddb-filename">pylon.6.8_1</idno>
+               <idno type="ddb-hybrid">pylon;6;8_1</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.6.8_1</idno>
+               <idno type="ddb-hybrid">pylon;6;8_1</idno>
+               <idno type="HGV">33514</idno>
+               <idno type="TM">33514</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+    <lb n="1"/><supplied reason="lost">τῇ κυρίᾳ μου ἀδελφῇ</supplied> 
+    <lb n="2"/><supplied reason="lost">Ἰσιδώρᾳ Γελάσιος</supplied> 
+    <lb n="3"/>ὁ ἀδελφὸς χαίρ<supplied reason="lost">ει</supplied>ν. 
+    <lb n="4"/>πρὸ παντὸς πολλ<unclear>ὰ</unclear> <unclear>σὲ</unclear> ἀσπά
+    <lb n="5" break="no"/>ζομαι εὐχόμενος <choice><reg>ὑγιαί
+    <lb n="6" break="no"/>νειν</reg><orig>υἱαί<lb n="6" break="no"/>νειν</orig></choice> ἐπὶ μήκιστ<unclear>ο</unclear>ν χρό
+    <lb n="7" break="no"/>νον, μετὰ τὴν κυρ<supplied reason="lost">ί</supplied>αν σου 
+    <lb n="8"/>ἀδελφὴν <app type="editorial"><lem>Χαρισ<unclear>ί</unclear>αν</lem><rdg>Χαρί<unclear>τη</unclear>ν</rdg></app> πο
+    <lb n="9" break="no"/>λλὰ ἀσπ<unclear>ά</unclear><supplied reason="lost">ζο</supplied><unclear>μαι</unclear> <unclear>τὴν</unclear> μη
+    <lb n="10" break="no"/>τέρα Εἰρήνην, πολλὰ 
+    <lb n="11"/>ἀσπάζομαι τὴν ἀδελ
+    <lb n="12" break="no"/>φὴν Τσαμοῦν καὶ τὸν 
+    <lb n="13"/>ἀδελφὸν Ψάιν. πολλὰ 
+    <lb n="14"/>ἀσπάζομαι τὸν ἀδελ
+    <lb n="15" break="no"/>φόν μου. ἀξιωθείς, 
+    <lb n="16"/>κυρία μου ἀδελφή, <unclear>π</unclear>οίη 
+    <lb n="17" break="no"/>σον σαρωθῆναι καὶ ῥαν
+    <lb n="18" break="no"/>θ<unclear>ῆ</unclear>ναι τὸ μέγα οἰκος 
+    <lb n="19"/>τοῦ γεούχου Περικλέους 
+    <lb n="20"/>ἕως ἔλθω. ἀξιωθείς, 
+    <lb n="21"/>πέμψον μοι ἀργυρίου 
+    <lb n="22"/>τάλαντα <num value="2000"><choice><reg>δισχίλια</reg><orig>δισχείλια</orig></choice></num> 
+    <lb n="23"/>ἄλλα πάντω<unclear>ς</unclear>. οἶδα γὰρ 
+    <lb n="24"/>τὴν σὴν <choice><reg>φιλαδελφίαν</reg><orig>φι<supplied reason="lost">λαδ</supplied>ελφείαν</orig></choice>. 
+    <lb n="25"/>πολλὰ ἀσπάζομαι τὸν 
+    <lb n="26"/>πατέρα Ψεναμοῦν <supplied reason="lost" cert="low">καὶ </supplied> 
+    <lb n="27"/>Ἀμμό<supplied reason="lost">ν</supplied>ιον. πο<unclear>λλ</unclear><supplied reason="lost">ὰ</supplied> 
+    <lb n="28"/>ἀσπάζομαι τὴν μη
+    <lb n="29" break="no"/>τέρα Ταμοῦν. πολλὰ 
+    <lb n="30"/>ἀσπάζομαι τὴν ἀδελ
+    <lb n="31" break="no"/>φὴν Θ<unclear>α</unclear>σι. πολλὰ 
+    <lb n="32"/>ἀσπάζομαι τοὺς παρά 
+    <lb n="33"/>σοι πάντας κατʼ ὄνο
+    <lb n="34" break="no"/>μα ἐν τῇ οἰκίᾳ 
+    <lb n="35"/>Ψενπλάει Ἀμμονίου.
+    <lb n="36"/><add place="above">ἀδελφή σου</add> 
+    <lb n="37"/>ἡ <del rend="erasure">μήτηρ μου</del> Τβῆκις 
+    <lb n="38"/>πολλὰ ἀσπάζομαι τὸν 
+    <lb n="39"/>ἀδελφὸν <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="4" unit="character"/> 
+    <lb n="40"/>ἡ μήτηρ Τβῆκις πολλὰ
+    <lb n="41"/>ἀσπάζομαι τὴν κυρ<supplied reason="lost">ίαν</supplied> 
+    <lb n="42"/>μου ἀδελφὴν Ἰσιδώραν 
+    <lb n="43"/>καὶ τὴν θυγατέρα Χαρισίαν, 
+    <lb n="44"/>πολλὰ ἀσπάζομαι τὴν <unclear>ἀδελ</unclear>
+    <lb n="45" break="no"/>φὴν Εἰρήνην, πολ<supplied reason="lost">λὰ ἀσπά</supplied>
+    <lb n="46" break="no"/>ζομαι τὸν υἱὸν μ<supplied reason="lost">ου, πολ</supplied>
+    <lb n="47" break="no"/>λὰ ἀσπάζομαι τὴν <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+    <lb n="48"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ἀσπά<unclear>ζ</unclear><supplied reason="lost">ομαι</supplied> <gap reason="lost" quantity="3" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+    <lb n="48"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+<div n="v" type="textpart"><ab>
+    <lb n="49"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>α καὶ Ἀμμώνιον
+    <lb n="50"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὴ</supplied>ν μητέρα Ταβ<unclear>α</unclear>ιαν
+    <lb n="48"/><handShift new="m2"/> <supplied reason="lost">τῇ κυρί</supplied><unclear>ᾳ</unclear> μου ἀδελφ<unclear>ῇ</unclear> <unclear>Ἰσι</unclear>δώρᾳ <g type="x"/> Γελάσιος ὁ ἀδελφὸς
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">33514</idno>
+               <idno type="TM">33514</idno>
+               <idno type="HGV">33514</idno>
+               <idno type="ddb-hybrid">33514</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+[To my lady sister Isidora, Gelasios] her brother, greetings. Before everything, I greet (you) warmly, praying that you be well for the longest time, along with my lady sister Charisia. I agreet warmly mother Eirene. I greet warmly my sister Tsamoun and my brother Psais. I greet warmly my brother. Please, my lady sister, have the great house of our landlord Perikles be swept and sprinkled before I come. Please send me two thousand talents of money by all means. For I know your sisterly kindness. I greet warmly my father Psenamounis and (?) Ammonios. I greet warmly my mother Tamoun. I greet warmly my sister Thasi. I greet warmly all those in the house of Psenplaeus son of Ammonios with you individually. (Deleted: The mother of) Your sister Tbekis, I greet warmly my brother [ ]. Mother Tbekis, I warmly greet my lady sister Isidora and my daughter Charisia. I greet warmly my sister Eirene. I greet warmly my son. I greet warmly . . (Verso) . . . and Ammonios . . . and mother Tabaia.
+To my lady sister Isidora, Gelasios her brother. 
+</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">33515</idno>
+               <idno type="HGV">33515</idno>
+               <idno type="ddb-filename">pylon.6.8_2</idno>
+               <idno type="ddb-hybrid">pylon;6;8_2</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.6.8_2</idno>
+               <idno type="ddb-hybrid">pylon;6;8_2</idno>
+               <idno type="HGV">33515</idno>
+               <idno type="TM">33515</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+    <lb n="1"/>κυρίῳ μ<supplied reason="lost">ου</supplied> πατρὶ 
+    <lb n="2"/>Παπνούθῃ 
+    <lb n="3"/>Γελάσιος χαίρειν. 
+    <lb n="4"/>ἀργυρίου τάλαντα 
+    <lb n="5"/><num value="1300">χίλια τριακόσια</num> 
+    <lb n="6"/>ὑπὲρ τιμῆς οἴνου 
+    <lb n="7"/>ὑπὲρ τ<unclear>ῆ</unclear>ς <choice><reg>ταινίας</reg><orig>τενίας</orig></choice> 
+    <lb n="8"/>τοῦ κυρ<supplied reason="lost">ί</supplied>ου μου 
+    <lb n="9"/>υἱοῦ δὸ<supplied reason="lost">ς</supplied> τῷ ἀδελ
+    <lb n="10" break="no"/>φῷ <unclear>Τιβ</unclear>ερίῳ τῷ 
+    <lb n="11"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+<div n="v" type="textpart"><ab>
+    <lb n="11"/><expan><unclear>ἐ</unclear>πιστ<unclear>ολ</unclear><ex>ὴ</ex></expan> Γελασίου 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">33515</idno>
+               <idno type="TM">33515</idno>
+               <idno type="HGV">33515</idno>
+               <idno type="ddb-hybrid">33515</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans2" xml:lang="en" type="translation" xml:space="preserve"><p>
+To my lord father Papnouthes, Gelasios, greetings. Give one thousand three hundred talents of money for the price of wine for the strip of land of my lord son to my brother Tiberius the . . . 
+(Verso) Letter of Gelasios.
+</p></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">33516</idno>
+               <idno type="HGV">33516</idno>
+               <idno type="ddb-filename">pylon.6.8_3</idno>
+               <idno type="ddb-hybrid">pylon;6;8_3</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.6.8_3</idno>
+               <idno type="ddb-hybrid">pylon;6;8_3</idno>
+               <idno type="HGV">33516</idno>
+               <idno type="TM">33516</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" type="textpart"><ab>
+    <lb n="1"/><supplied reason="lost">κυ</supplied>ρ<supplied reason="lost">ίῳ</supplied> μου <expan>ἀ<supplied reason="lost">δελ<ex>φῷ</ex></supplied></expan> 
+    <lb n="2"/>Παπνούθῃ 
+    <lb n="3"/>Γελάσιος χαίρειν. 
+    <lb n="4"/>ἐδήλωσά σοι ἅπαξ 
+    <lb n="5"/>καὶ δεύτερον 
+    <lb n="6"/>ὅτι πέμψον μοι 
+    <lb n="7"/>ὀρνίθια <num value="10"><supplied reason="lost">δ</supplied>έκα</num> 
+    <lb n="8"/>καὶ οὐδ<supplied reason="lost">αμ</supplied>ῶς ἐφρόν
+    <lb n="9" break="no"/>τισας δη<supplied reason="lost">λ</supplied><unclear>ῶ</unclear>σαι 
+    <lb n="10"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+    <lb n="10"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab></div>
+<div n="v" type="textpart"><ab>
+    <lb n="10"/>κυρίῳ μου ἀδελφῷ Παπ<supplied reason="lost">νούθῃ</supplied> 
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">33516</idno>
+               <idno type="TM">33516</idno>
+               <idno type="HGV">33516</idno>
+               <idno type="ddb-hybrid">33516</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans3" xml:lang="en" type="translation" xml:space="preserve"><p>
+To my lord brother Papnouthes, Gelasios, greetings. I informed you once and a second time, “Send me ten chickens,” and you took no care to inform me …
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
