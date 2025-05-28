@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>More on the Homeric Papyri from Karanis</title>
+            <author>
+               <name>
+                  <forename>C. Michael</forename>
+                  <surname>Sampson</surname>
+               </name>
+               <affiliation>University of Manitoba</affiliation>
+               <email>mike.sampson@umanitoba.ca</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2025-02-05</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-05-28T14:53:34Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">More on the Homeric Papyri from Karanis</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">An early version of this article was presented at the 30th International Congress of Papyrology, prior to the publication of <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>. It has been revised with an eye to minimizing the reduplication of information from that study.</note>
+            <p xml:id="p1">My work has benefited from others’ generosity and support, and I thank especially Mark Depauw and Yanne Broux (Trismegistos / Leuven), Monica Tsuneishi (Michigan Papyrology), Michelle Fontenot and Tracey Miller (Kelsey Museum of Archaeology), Anne Harlow and Moira White (Tūhura Otago Museum), Evelyn Adkins (Case Western Reserve University), Christine Colburn (University of Chicago Library), as well as my collaborators Nicholas Hudson (UNC Wilmington) and Liwei Zheng (University of Manitoba). The letters of Orlando W. (Pip) Qualley are quoted by permission of the Luther College Archives, Decorah IA, where they are kept (RG15, Box 8). Financial support for the research was provided by the Social Sciences and Humanities Research Council of Canada as part of the research project ‘<ref target="https://twitter.com/karanisbooks">the Books of Karanis</ref>’.</p>
+            <div type="section">
+               <head>Introduction</head>
+               <p xml:id="p2">In a recent article, Serena Perrone has mined the Homeric papyri from Karanis for evidence about Greek literary culture there, employing an interdisciplinary approach whose contextualization of the texts incorporates legacy data from the University of Michigan’s 1924–1935 excavations at the village. Using the dig’s invaluable record of excavated objects, Perrone surveys the distribution of Homeric papyri by their stratigraphic level to reassess what we can learn about readership in an ancient village. She notes repeatedly the archaeological caveats associated with the excavation’s methodology as well as how tenuous the attempts to connect individual fragmentary texts with specific readers or libraries have proven.<note place="foot" xml:id="ftn2" n="1"><p> E.g., <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 37, 41–42, 45.</p></note> </p>
+               <p xml:id="p3">This article supplements Perrone’s findings by bringing additional archival and archaeological data to bear on the contextualization of the Homer papyri from Karanis – both purchased and excavated. The latter work proceeds in parallel with traditional papyrological and palaeographical (re)analyses of the texts, but it is nonetheless conducted independently of them, in the interest of methodological control. As Perrone rightly notes, the levels recorded by the Michigan excavators are not stratigraphic levels in the real archaeological sense,<note place="foot" xml:id="ftn3" n="2"><p> <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 41.</p></note> and as I demonstrate repeatedly, it is rarely the case that the archaeological and papyrological data map neatly onto one another. The addition of archival photography, field reports, and (on occasion) ceramic analyses all serve to decenter papyri somewhat from the archaeological analysis of Karanis. Perrone’s caution about the kinds of conclusions that can be sustained by an interdisciplinary approach are well placed,<note place="foot" xml:id="ftn4" n="3"><p> E.g., <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 55–56.</p></note> and I would add to the chorus by noting that, the better we understand the bigger picture revealed by archaeological data, the more problematic the place of the papyri within it becomes. </p>
+               <p xml:id="p4">Of the ca. 2,000 Homeric papyri in the Leuven Database of Ancient Books (LDAB), thirty have ‘Karanis’ as their stated provenance.<note place="foot" xml:id="ftn5" n="4"><p> For the first figure, cf. <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 37, n. 1. The latter was retrieved via a search in LDAB for ‘Homer’ in the field ‘Ancient Author &amp;amp; Work’ and ‘Karanis’ in the field ‘Provenance’, last accessed on 23 April 2025. The LDAB is now a component of Trismegistos: <ref target="https://papyri.info/biblio/96068">Depauw and Gheldof 2014</ref>. </p></note> That figure includes three items of Homerica – one a lexicon,<note place="foot" xml:id="ftn6" n="5"><p> P.Mich. inv. 5451 (<ref target="https://papyri.info/dclp/59200">TM 59200</ref>).</p></note> another a commentary,<note place="foot" xml:id="ftn7" n="6"><p> <ref target="https://papyri.info/dclp/382544">P.Cair.Mich. 2 4 </ref>.</p></note> another an epitome<note place="foot" xml:id="ftn8" n="7"><p> P.Mich. inv. 4832 (<ref target="https://papyri.info/dclp/61219">TM 61219</ref>)</p></note> – as well as two books which have been located there on rather dubious grounds. One was purchased by Bernard P. Grenfell and Francis W. Kelsey in February/March 1920, and neither archival material in Ann Arbor nor the publications that discuss it mention Karanis.<note place="foot" xml:id="ftn9" n="8"><p> So also <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 46 n. 51. The papyrus is P.Mich. inv. 15 + 15bis (<ref target="https://papyri.info/dclp/60685">TM 60685</ref>), which belongs to the Michigan collection’s founding purchase of 534 papyri: see <ref target="https://papyri.info/biblio/95801">Boak 1922</ref>: 38, <ref target="https://papyri.info/biblio/51004">Shelmerdine 1975</ref>: 21–22, no. 3, and <ref target="https://papyri.info/biblio/11613">Schwendner 1988</ref>: 13, no. 5, none of which mention Karanis. The acquisition report prepared for the collection by Arthur S. Hunt is similarly silent as regards provenance: see <ref target="https://apps.lib.umich.edu/papyrus-collection/inventory-papyri-1920">https://apps.lib.umich.edu/papyrus-collection/inventory-papyri-1920</ref> (Last accessed 9 May 2024). On Kelsey and Grenfell’s collaboration, see Todd Hickey’s forthcoming introductions to P.Mich.Cent. and P.Lond. 8.</p></note> The other is a codex fragment that Charles Brasch donated to the Tūhura Otago Museum in Dunedin, New Zealand (<ref target="https://papyri.info/dclp/60878">TM 60878</ref>). In its <seg style="font-style: italic;">editio princeps</seg>, Whitehorne suggested an attribution to Karanis on the following grounds:</p>
+               <quote>
+                  <lb/>Brasch spent three seasons in Egypt in 1932–1935, working ‘as a kind of unpaid cadet’ on the Egypt Exploration Society excavations at Tell el Amarna, at the same time as C. H. Roberts, his Oxford contemporary, was engaged as a papyrologist with the University of Michigan expedition at Karanis. There is no information on the provenance of the texts published here, but Brasch visited Roberts at Karanis several times, and the pieces may have come from there since the lessee in (3), a landlease, comes from Arsinoe.<note place="foot" xml:id="ftn10" n="9">
+                     <p> <ref target="https://papyri.info/biblio/56169">Whitehorne 1983</ref>: 39. </p>
+                  </note>
+               </quote>
+               <p xml:id="p5">The information in the anecdote is an insufficient basis for even a tentative assignment of provenance. If one excludes these as well as the three items of Homerica, a census of the Homer papyri from Karanis more accurately begins with the following twenty-five individual copies of the <seg style="font-style: italic;">Iliad </seg>and <seg style="font-style: italic;">Odyssey</seg><anchor xml:id="Ref144467326"/>.<note place="foot" xml:id="ftn11" n="10"><p> Cf. <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 58–61, who includes among the list of Homerica on p. 60 two additional items. </p></note> </p>
+               <table>
+                  <head>
+                     <anchor xml:id="Ref189661659"/>Table 1: Fragmentary Copies of Homer from Karanis</head>
+                  <row>
+                     <cell style="text-align: right;">No.</cell>
+                     <cell style="text-align: center;">Publication</cell>
+                     <cell style="text-align: center;">TM</cell>
+                     <cell style="text-align: center;">LDAB</cell>
+                     <cell style="text-align: center;">MP3</cell>
+                     <cell style="text-align: center;">Inv.</cell>
+                     <cell style="text-align: center;">Acquisition</cell>
+                     <cell style="text-align: center;">Contents</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">Pylon 7 (2025) / P.Fay. 141 descr.</cell>
+                     <cell style="text-align: left;">60315</cell>
+                     <cell style="text-align: left;">1436</cell>
+                     <cell style="text-align: left;">596</cell>
+                     <cell style="text-align: left;">Biblioteca Alexandrina 520 (= CG 10217)</cell>
+                     <cell style="text-align: left;">3 January 1896, in the <seg style="font-style: italic;">deipneterion</seg> (T4) at Karanis</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il</seg>. 1.273–1.362 </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">Pylon 7 (2025) + P.Grenf. 1 2 + P.Flor. 2 109</cell>
+                     <cell style="text-align: left;">60326</cell>
+                     <cell style="text-align: left;">1447</cell>
+                     <cell style="text-align: left;">821</cell>
+                     <cell style="text-align: left;">P.Vindob. G 19768</cell>
+                     <cell style="text-align: left;">Purchased by Carl Wessely in July 1896: “Stammt aus den Funden Grenfells in Karanis” </cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>8.62–75, 8.96–116, 8.436–461</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">Pylon 7 (2025)</cell>
+                     <cell style="text-align: left;">60366</cell>
+                     <cell style="text-align: left;">1487</cell>
+                     <cell style="text-align: left;">853</cell>
+                     <cell style="text-align: left;">P.Vindob. G 19791 + 19794</cell>
+                     <cell style="text-align: left;">Purchased from B.P. Grenfell by Carl Wessely in July 1896: “aus den Ausgrabungen in Karanis”</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il.</seg> 10.41–57, 10.76–100, 10.103–112</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">P.Chic. 7</cell>
+                     <cell style="text-align: left;">60439</cell>
+                     <cell style="text-align: left;">1561</cell>
+                     <cell style="text-align: left;">818</cell>
+                     <cell style="text-align: left;">University of Chicago, MS 1062</cell>
+                     <cell style="text-align: left;">October 1897, via J.R. Alexander: “found in the Faiyum at a town called Washim”</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>8.1–29, 8.35–68</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">P.Chic. 5</cell>
+                     <cell style="text-align: left;">60595</cell>
+                     <cell style="text-align: left;">1719</cell>
+                     <cell style="text-align: left;">624</cell>
+                     <cell style="text-align: left;">Lost</cell>
+                     <cell style="text-align: left;">October 1897, via J.R. Alexander: “found in the Faiyum at a town called Washim”</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il</seg>. 2.1–20</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">P.Mich. 18 759</cell>
+                     <cell style="text-align: left;">60345</cell>
+                     <cell style="text-align: left;">1466</cell>
+                     <cell style="text-align: left;">795.01</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4768</cell>
+                     <cell style="text-align: left;">26-B7H-H</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>7.1–13</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 1</cell>
+                     <cell style="text-align: left;">382542</cell>
+                     <cell style="text-align: left;">382542</cell>
+                     <cell style="text-align: left;">596.003</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4796b</cell>
+                     <cell style="text-align: left;">26-B17F-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>1.292–297</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 2</cell>
+                     <cell style="text-align: left;">382543</cell>
+                     <cell style="text-align: left;">382543</cell>
+                     <cell style="text-align: left;">667.001</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4798c</cell>
+                     <cell style="text-align: left;">26-B17F-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>2.723–791</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 6</cell>
+                     <cell style="text-align: left;">382546</cell>
+                     <cell style="text-align: left;">382546</cell>
+                     <cell style="text-align: left;">699.201</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4749b</cell>
+                     <cell style="text-align: left;">26-BS1-PI</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>3.348–353</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 7</cell>
+                     <cell style="text-align: left;">382547</cell>
+                     <cell style="text-align: left;">382547</cell>
+                     <cell style="text-align: left;">797.102</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4842a</cell>
+                     <cell style="text-align: left;">26-B25R-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>7.26–35</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 8</cell>
+                     <cell style="text-align: left;">382548</cell>
+                     <cell style="text-align: left;">382548</cell>
+                     <cell style="text-align: left;">919.01</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4843b</cell>
+                     <cell style="text-align: left;">26-B25T-C</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>14.511–515</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 3 3</cell>
+                     <cell style="text-align: left;">1000069</cell>
+                     <cell style="text-align: left;">1000069</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">P.Mich. inv. 4836</cell>
+                     <cell style="text-align: left;">26-B25A-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>2.734–739</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">13</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 3 2</cell>
+                     <cell style="text-align: left;">957670</cell>
+                     <cell style="text-align: left;">957670</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">P.Mich. inv. 4828</cell>
+                     <cell style="text-align: left;">26-B12L-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>1.159–167</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">14</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 3 4</cell>
+                     <cell style="text-align: left;">957671</cell>
+                     <cell style="text-align: left;">957671</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">P.Mich. inv. 4788 + 4788 + 4821</cell>
+                     <cell style="text-align: left;">26-B12L-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>4.356–359</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">15</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 3 1</cell>
+                     <cell style="text-align: left;">957669</cell>
+                     <cell style="text-align: left;">957669</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">P.Mich. inv. 4778</cell>
+                     <cell style="text-align: left;">26-B9S-E</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>1.91–96</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">16</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 3 5</cell>
+                     <cell style="text-align: left;">957672</cell>
+                     <cell style="text-align: left;">957672</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">P.Mich. inv. 4681</cell>
+                     <cell style="text-align: left;">26-B9Y-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>21.207–216, 21.251–262</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">17</cell>
+                     <cell style="text-align: left;">BASP 12 (1975), Page 19, No. I </cell>
+                     <cell style="text-align: left;">60343</cell>
+                     <cell style="text-align: left;">1464</cell>
+                     <cell style="text-align: left;">631.1</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2755</cell>
+                     <cell style="text-align: left;">24-X-west side</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>2.89–110</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">18</cell>
+                     <cell style="text-align: left;">BASP 41 (2004), Pages 65–67</cell>
+                     <cell style="text-align: left;">60688</cell>
+                     <cell style="text-align: left;">1813</cell>
+                     <cell style="text-align: left;">1024.1</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2764</cell>
+                     <cell style="text-align: left;">24-X-west side</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Od. </seg>1.220–236, 1.263–275</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">19</cell>
+                     <cell style="text-align: left;">BASP 12 (1975), Page 20, No. II</cell>
+                     <cell style="text-align: left;">60687</cell>
+                     <cell style="text-align: left;">1812</cell>
+                     <cell style="text-align: left;">953.1</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2755a (+ P.Mich. inv. 2 + P.Mich. inv. 3160)</cell>
+                     <cell style="text-align: left;">24-X-west side</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>18.23–45, 18.174–181, 18.209–216, 18.219–231, 18.237–242, 18.274–281, 18.286–299, 18.306–343, 18.354–617<seg style="font-style: italic;"> </seg>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">20</cell>
+                     <cell style="text-align: left;">BASP 41 (2004), Page 79</cell>
+                     <cell style="text-align: left;">60850</cell>
+                     <cell style="text-align: left;">1978</cell>
+                     <cell style="text-align: left;">625</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2931</cell>
+                     <cell style="text-align: left;">24-5006-E2-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il</seg>. 2.1–42</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">21</cell>
+                     <cell style="text-align: left;">BIFAO 61 (1961), Page 147</cell>
+                     <cell style="text-align: left;">60520</cell>
+                     <cell style="text-align: left;">1644</cell>
+                     <cell style="text-align: left;">599</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2810</cell>
+                     <cell style="text-align: left;">24-169B-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>1.283, 1.308–375, 1.397–520, 1.561–578</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">22</cell>
+                     <cell style="text-align: left;">BASP 41 (2004), Page 40, No. I</cell>
+                     <cell style="text-align: left;">66091</cell>
+                     <cell style="text-align: left;">7337</cell>
+                     <cell style="text-align: left;">814.013</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 5694d</cell>
+                     <cell style="text-align: left;">29-B197A-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>7.457–478, 7.490–506</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">23</cell>
+                     <cell style="text-align: left;">ZPE 46 (1982), Page 87, No. 19</cell>
+                     <cell style="text-align: left;">60691</cell>
+                     <cell style="text-align: left;">1816</cell>
+                     <cell style="text-align: left;">917.4</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4990</cell>
+                     <cell style="text-align: left;">27-230A-H</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>14.314–320</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">24</cell>
+                     <cell style="text-align: left;">BASP 41 (2004), Pages 73–75</cell>
+                     <cell style="text-align: left;">60853</cell>
+                     <cell style="text-align: left;">1981</cell>
+                     <cell style="text-align: left;">1113.1</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 5760d</cell>
+                     <cell style="text-align: left;">29-House NE of C65</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Od. </seg>14.513–522, 14.528–533, 15.1–5</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">25</cell>
+                     <cell style="text-align: left;">ComunicazioniVitelli 4 (2001), Page 40, No. 1 + Schwendner 1988, No. 2</cell>
+                     <cell style="text-align: left;">60527</cell>
+                     <cell style="text-align: left;">1419</cell>
+                     <cell style="text-align: left;">657.01</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 6239</cell>
+                     <cell style="text-align: left;">32-C63N-A / 32-219*-M</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il.</seg> 2.476–532</cell>
+                  </row>
+               </table>
+               <p xml:id="p6">The remarks in the preceding table under ‘Acquisition’ are sufficient to demonstrate the various books’ origins in Karanis. The final twenty items (Nos. 6–25) were all excavated by the University of Michigan (1924–1935), and their provenience is accordingly documented with a field number. Those Michigan papyri fall into two groups. Eleven of them (Nos. 6–16) were uncovered during the third season of work (i.e., 1926/7) in the neighborhood dubbed ‘Area G’ by the excavators.<note place="foot" xml:id="ftn12" n="11"><p> On the Homer fragments from Area G, see now <ref target="https://papyri.info/biblio/96751">Sampson 2023</ref>: 462–464.</p></note> The others (Nos. 17–25) came to light in other seasons and from other locations across the <seg style="font-style: italic;">kôm</seg>. All but one derive from bookrolls with dates between the first and third centuries CE; the sole codex fragment is the chronological outlier, as discussed further below. For the other five texts (Nos. 1–5), the historical record also confirms a provenance in Karanis, which is remarkable inasmuch as four of them were acquired by purchase on the Egyptian antiquities market. The documentation in these cases may not always rise to the level of an archaeological provenience, but it is nonetheless helpful: for purchased papyri, such information was not typically transmitted or preserved. </p>
+            </div>
+            <div type="section">
+               <head>Nos. 4–5: Goodspeed’s Homers (P.Chic. 7 and 5)</head>
+               <p xml:id="p7">Like the first three items in Table 1 (which are treated in more detail elsewhere<note place="foot" xml:id="ftn13" n="12"><p> See <ref target="https://papyri.info/biblio/97293">Sampson, Sawatzky, and Shields 2025</ref>.</p></note>), Nos. 4 and 5 were also acquired in the years prior to the Michigan excavations. They were both part of the large lot of papyri Edgar Goodspeed purchased in October 1897 from a dealer in Asiut, via the Rev. John R. Alexander. Alexander subsequently informed Goodspeed that these papyri all originated in Karanis, from different houses.<note place="foot" xml:id="ftn14" n="13"><p> “(1) The papyri were found in the Faiyum at a town called Washim. (2) They were found by people digging in the heaps or ‘tells’ of dirt and rubbish at the edge of the town. As they dug down they found walls of houses standing in position. In the rooms of these houses or some of them they found the papyri – some were in sacks, others in piles in corners, etc. (3) The pieces are all from that one town but probably not all from the same old ruin – but from different houses.” J. R. Alexander to E. J. Goodspeed, 14 March 1898, reproduced by <ref target="https://papyri.info/biblio/96084">Hickey and Keenan 2021</ref>: 17, quoting a February 1973 transcription by R. W. Allison now in the Goodspeed Collection at Denison University.</p></note></p>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">P.Chic. 7</cell>
+                     <cell style="text-align: left;">University of Chicago, MS 1062</cell>
+                     <cell style="text-align: left;">October 1897, via J.R. Alexander: “found in the Faiyum at a town called Washim”</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>8.1–29, 8.35–68</cell>
+                     <cell style="text-align: left;">I CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p8">Goodspeed posited a date of “not later than 159” in his <seg style="font-style: italic;">editio princeps</seg> of <ref target="https://papyri.info/dclp/60439">P.Chic. 7</ref>, inferring from Alexander’s report that it was uncovered alongside the lot’s many Antonine grain receipts, which he subsequently published in <ref target="https://papyri.info/biblio/95179">P.Kar.Goodsp</ref>.<note place="foot" xml:id="ftn15" n="14"><p> <ref target="https://papyri.info/biblio/95828">Goodspeed 1898</ref>: 348.</p></note> The Alexander report’s reference to ‘different houses’ means that this particular conclusion cannot be sustained, but Goodspeed offered further support for a second-century date by invoking the Bankes Homer (<ref target="https://papyri.info/dclp/60500">TM 60500</ref>) as a comparable hand, a proposal which was no doubt prompted by the many scribal accents and punctuation marks that pepper both texts.<note place="foot" xml:id="ftn16" n="15"><p> <ref target="https://papyri.info/biblio/95828">Goodspeed 1898</ref>: 349. The Goodspeed papyrus includes scribal accents (acute, grave, circumflex), apostrophes, and ano-stigmai.</p></note> </p>
+               <p xml:id="p9">Comparison to that famous example of a formal round is generous. Although phi often violates bilinearity (while rho and iota do not), the script of Goodspeed’s papyrus is squatter and its variation between broad (alpha, lambda, nu, omega, tau, pi), square (omicron, theta, eta, sigma), and narrow letters (gamma, rho, iota) is far more pronounced. The lower extremities of many letters end in a serif-like blot, as though the scribe let the pen rest momentarily. In its general appearance, the capitals aspire to the rounded majuscule type, but their execution is quite stiff and imperfect. It is an early hand, and a date in the first century is preferable; cf. <ref target="https://papyri.info/ddbdp/p.oxy;2;246">P.Oxy. 2 246</ref> (66); <ref target="https://papyri.info/dclp/61012">PSI 1 11</ref> (middle I).<note place="foot" xml:id="ftn17" n="16"><p> For the former, see <ref target="https://papyri.info/biblio/20342">Cavallo and Maehler 2008</ref>: no. 96; for the latter see <ref target="https://papyri.info/biblio/20342">Cavallo and Maehler 2008</ref>: no. 95.</p></note> The decorative aspects of the palaeography might even anticipate the tendencies of another type of formal round, namely, the Alexandrian majuscule (for an early example, see e.g., <ref target="https://papyri.info/dclp/63524">P.Oxy. 27 2469</ref>, II). As in that type, the script of Goodspeed’s papyrus includes marked ‘ripiegamenti a ricciolo’ of alpha and especially delta, and the curvature of lambda and chi is also pronounced.<note place="foot" xml:id="ftn18" n="17"><p> <ref target="https://papyri.info/biblio/50557">Cavallo 1975</ref>: 32.</p></note> </p>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">P.Chic. 5</cell>
+                     <cell style="text-align: left;">Lost</cell>
+                     <cell style="text-align: left;">October 1897, via J.R. Alexander: “found in the Faiyum at a town called Washim”</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il</seg>. 2.1–20</cell>
+                     <cell style="text-align: left;">II CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p10">No image of <ref target="https://papyri.info/dclp/60595">P.Chic. 5</ref> was published, and its present whereabouts are unknown.<note place="foot" xml:id="ftn19" n="18"><p> See <ref target="https://papyri.info/biblio/50445">Allison 1975</ref>: 32.</p></note> Although neither its text nor its script can be scrutinized further, Goodspeed described the latter as a “very neat uncial.” The papyrus was evidently acquired as part of the same Alexander-lot as <ref target="https://papyri.info/dclp/60439">P.Chic. 7</ref>: not only did Goodspeed remark that it “pretty certainly” came from Karanis, but he also referred to the “hundred or more” second-century documents with which it was found – another reference to the receipts for seed corn he published in <ref target="https://papyri.info/biblio/95179">P.Kar.Goodsp</ref>.<note place="foot" xml:id="ftn20" n="19"><p> See <ref target="https://papyri.info/biblio/96768">Goodspeed 1906</ref>: 167; the provenance is reiterated in <ref target="https://papyri.info/dclp/60595">P.Chic. 5</ref>. <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 45, n. 44 is more cautious.</p></note> As with <ref target="https://papyri.info/dclp/60439">P.Chic. 7</ref>, Goodspeed may well have inferred the association of this papyrus with the larger batch of receipts and, accordingly, dated it to the second century. </p>
+            </div>
+            <div type="section">
+               <head>Papyri from the Michigan Excavations: Area G</head>
+               <p xml:id="p11">During the first two excavation seasons, the Michigan team had focused on several regions of Kom Aushim that it identified by the letters A through F.<note place="foot" xml:id="ftn21" n="20"><p> See <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 3–4, and (for an illustration) Plan 1.</p></note> In the third season (i.e., 1926/7), however, it broke new ground in ‘Area G’, on the western side of the <seg style="font-style: italic;">kôm</seg>.<note place="foot" xml:id="ftn22" n="21"><p> The precise location of Area G remains unknown: for a description, see <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 7–8. Cornelia Römer has argued that, in light of the size of the structures and the tendency of the Fayum wind to blow from the northwest, Area G was a prosperous neighborhood (P.Cair.Mich. 3, p. x–xi).</p></note> The decision to do so came at an important turning point in the history of the dig. In the autumn of 1926, surveys and maps from the first two seasons of work remained incomplete, and the excavation as a whole had become imperilled by administrative and financial dysfunction. James Starkey was replaced as field director by Enoch Peterson, who immediately decided to focus the excavation’s energies on a new part of the <seg style="font-style: italic;">kôm</seg> he hoped would prove fruitful. Peterson perhaps underestimated the enormity of the task: so great was the quantity of fill in Area G that not every structure could be cleared to its foundation. As a consequence, the maps and plans from this third season were also left incomplete: the best we can do is the hand-drawn Figure 4, in which the intersecting streets BS1 and BS2 divide the neighborhood roughly into quadrants. Much about Area G’s archaeology remains unclear.<note place="foot" xml:id="ftn23" n="22"><p> On the background to the third season, see <ref target="https://papyri.info/biblio/96751">Sampson 2023</ref>: 457–459.</p></note> </p>
+               <p xml:id="p12">The eleven Homeric papyri discussed below are a small fraction of the bounty of texts uncovered in Area G. These included, most notably, portions of the so-called ‘archive’ of Sokrates the tax-collector, which was treated by Peter van Minnen in a study that has proven foundational to papyrology’s interdisciplinary turn.<note place="foot" xml:id="ftn24" n="23"><p> <ref target="https://papyri.info/biblio/64415">van Minnen 1994</ref>, building upon <ref target="https://papyri.info/biblio/61857">Strassi Zaccaria 1991</ref>: 245–262. See also <ref target="https://papyri.info/biblio/70531">Strassi 2001 </ref>: 1215–1228.</p></note> But despite Sokrates’ notoriety (and, indeed, my own interdisciplinary aspirations), I resist the temptation blindly to assign material from Area G to an archive, and would hesitate even to posit a unified archive at all. Archaeology does not provide a reliable indication of the papyri’s deposit(s), and the extent to which the archaeological record in Area G has been compromised limits the kinds of conclusions one might draw. I have elsewhere demonstrated, for example, that already by 1891 this neighborhood was being disturbed and was yielding papyri to the Egyptian antiquities market.<note place="foot" xml:id="ftn25" n="24"><p> <ref target="https://papyri.info/biblio/96751">Sampson 2023</ref>: 453–464.</p></note> The distribution and contents of Area G’s Homer papyri also prompt circumspection: not only does one find multiple copies of several of the <seg style="font-style: italic;">Iliad</seg>’s books, but these fragmentary books are also scattered across the neighborhood. It would be overly speculative to assign them to particular individuals or libraries, in whole or in part.<note place="foot" xml:id="ftn26" n="25"><p> So also <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 54.</p></note> </p>
+            </div>
+            <div type="section">
+               <head>No. 6 and House B7</head>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">P.Mich. 18 759</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4768</cell>
+                     <cell style="text-align: left;">26-B7H-H</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>7.1–13</cell>
+                     <cell style="text-align: left;">I – II CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p13">Most’s <seg style="font-style: italic;">editio princeps</seg> of <ref target="https://papyri.info/dclp/60345">P.Mich. 18 759</ref> describes the script as Roman uncial (i.e., rounded majuscule) and dates it to the first or second century CE. It shares a number of features with <ref target="https://papyri.info/dclp/60315">P.Fay. 141 descr.</ref> – another example of rounded majuscule on a Homeric papyrus from Karanis – including the ‘eyelet’ epsilon and an eta with a high bar, but its execution of the type is more regular than that example.<note place="foot" xml:id="ftn27" n="26"><p> On <ref target="https://papyri.info/dclp/60315">P.Fay. 141 descr.</ref>, see <ref target="https://papyri.info/biblio/97293">Sampson, Sawatzky, and Shields 2025</ref>: §4.</p></note> The tendency towards the adornment of apices and hastae with serifs perhaps reflects a slightly earlier fashion, but the assigned date is unobjectionable,<note place="foot" xml:id="ftn28" n="27"><p> So also <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 53.</p></note> and is consistent moreover with the other papyri from this context. Under the same field number (26-B7H-H) was recorded <ref target="https://papyri.info/hgv/397544">P.Cair.Mich. 2 21</ref> (164 CE), while in Room B7G were found <ref target="https://papyri.info/hgv/11979">P.Mich. 3 169</ref> (26-B7G-D) – the birth certificate of Sempronia Gemella’s twins (145 CE) – as well as the unpublished scraps P.Mich. inv. 4766–4767 (26-B7G-C).<note place="foot" xml:id="ftn29" n="28"><p> Other unpublished texts from House B7 are P.Mich. inv. 4765 (26-B7A-A); P.Mich. inv. 4769 (26-B7L-B); P.Mich. inv. 4770 (26-B7N-CI); and a third-century ostracon (26-B7N-E). Another third-century ostracon from the house (26-B7N-F) was published as <ref target="https://papyri.info/hgv/41906">O.Mich. 1 147</ref>. </p></note></p>
+               <p xml:id="p14"><seg style="font-style: italic;">House B7</seg></p>
+               <p xml:id="p15">The field number assigned to the papyrus by the dig’s record of objects (26-B7H-H) indicates the season of excavation (1926/7) as well as the layer, structure, and internal subdivision (House 7, from the ‘B’ layer, Room H). The final element in the field number itemizes the finds within a subdivision: H, in this case, indicates the eighth item recorded from Room H. House B7 is located on the eastern side of the southeastern quadrant of Area G (see Figure 4).</p>
+               <p xml:id="p16">Although House B7 warrants mention in the excavation’s architectural report solely for the white plaster pointing of its bricks and its large, bricked-over oven,<note place="foot" xml:id="ftn30" n="29"><p> For the plaster pointing, see <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 29; for the oven, see <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 36–37, Fig. 54. </p></note> closer examination of the dig’s legacy data adds considerably to the picture. Captions to archival photographs from the excavation detail various subdivisions of the structure, which in aggregate clarify aspects of its layout. Figure 5, for example, depicts the southern entrance, via Passageway BS6: the aforementioned white plaster pointing is visible on the bricks on the left side of the image.<note place="foot" xml:id="ftn31" n="30"><p> Access to House B7 could also be gained from the north, as the caption to 5.2380 implies: “View looking southwest over portions of B3, 4 and entrance to B7.”</p></note> The first room within was designated B7A, a corridor from which one accessed a staircase B7C.<note place="foot" xml:id="ftn32" n="31"><p> See Figure 6. The designation of these two subdivisions as a corridor and staircase, respectively, does not occur in the Kelsey Museum’s photographic archive, but in the handwritten caption to photograph 5.2289 in an archival folder created by Sam Yeivin: “Impression of wooden threshold beam between corridor in h. B7A &amp;amp; stairway B7C.” See Folder 7, Box 17, Karanis Excavation Records, Kelsey Museum of Archaeology, University of Michigan.</p></note> Figure 6, which indicates that this staircase led upward, testifies that the home had a second story. Figure 7 presents a view of the southern exterior wall, taken from Passage BS7, which ran east/west outside the front door. Five wooden beam-ends are visible, which the caption specifies are situated at floor level, between Rooms B7D and B7G.<note place="foot" xml:id="ftn33" n="32"><p> Caption to 5.2484: “Passageway, BS7, showing the wooden beam ends in the western wall of B7D at floor level between B7D and G.” We interpret the caption’s reference to the B7D’s ‘western’ wall as an error for ‘southern’, since Passageway BS7 (from which the photograph was taken) bordered House B7 to the south.</p></note> Like Corridor B7A, one concludes that these rooms were situated along the house’s southern wall. </p>
+               <p xml:id="p17">Analysis of the photographic archive also clarifies several aspects of Courtyard B7F, which Figure 4 indicates was situated between House B7’s main structure (to the south) and House B3 (to the north).<note place="foot" xml:id="ftn34" n="33"><p> Caption to 5.2016: “View to the north showing the walls of B1 and B2, street BS3 in the background and the walls of B7F in the foreground, before excavations. To the north of B7F lies B3 with BS1 between B3 and B1-B2, as they appeared before excavations.”</p></note> Figure 8 depicts a view to the southeast over Courtyard B7F, with the remains of B3 on the extreme left and of B4 on the extreme right. The caption indicates that the photograph captures the western walls of B7F and B10K as well as the eastern wall of B10E: given the camera’s southeastern orientation, it appears that the walls of B7F occupy the center of the frame, while B10K is the narrow chamber enclosed by the parallel walls on the right side of the frame. B10E, we may conclude, was the subdivision of B10 to the immediate west of that chamber. </p>
+               <p xml:id="p18">Figure 9 and Figure 10 present different perspectives on a niche in the northern wall of B7F, and both photographs’ captions indicate that the shot looks into B7N, the chamber on the left which is identifiable by the ovens sunk into its floor.<note place="foot" xml:id="ftn35" n="34"><p> These are the same ovens as those depicted in 5.2091, whose caption reads: “Ovens in B7N.”</p></note> </p>
+               <p xml:id="p19">Moving clockwise from the north wall of B7F, Figure 11 presents a view of Courtyard B7F’s eastern wall. The frame is centered on Alcove B7K, atop which Stairwell B7L ascended from the south.<note place="foot" xml:id="ftn36" n="35"><p> See Figure 11 and Figure 12. The caption to 5.2319 indicates that the eastern wall of B7E had a niche, but that description is incompatible with the visual testimony of Figure 11 and Figure 12, and another wall of the structure is presumably meant.</p></note> Visible in the bottom right corner of the frame (and slightly obscured by a shadow) is the threshold to Room B7E, which was adjacent to the south and therefore most probably a subdivision of House B7’s main structure. Figure 12 provides a clearer view of the wooden threshold into B7E, including the cut-outs for ancient doorposts. The archival captions also refer to remains of a collapsed roof in House B7, but their precise location is not indicated.<note place="foot" xml:id="ftn37" n="36"><p> Caption to 5.2070: “Fallen roofing in B7.”</p></note></p>
+               <p xml:id="p20">Much becomes clear about House B7 from a closer analysis of the legacy date (see Figure 13). Nonetheless, despite their richness, the preceding analyses are insufficient to determine the precise location of Room B7H – the Homeric papyrus’ findspot. My hypothesis is that B7H was adjacent to (or a further subdivision of) Room B7G in the structure’s southwestern corner, but that hypothesis is grounded chiefly in the fact that texts were excavated in both B7G and B7H and that alphabetical order is compatible with (but not definitively constitutive of) proximity. </p>
+            </div>
+            <div type="section">
+               <head>Nos. 7 &amp;amp; 8, from Vault B17F </head>
+               <p xml:id="p21"><seg style="font-style: italic;">Vault B17F</seg></p>
+               <p xml:id="p22"><ref target="https://papyri.info/dclp/382542">P.Cair.Mich. 2 1</ref> and <ref target="https://papyri.info/dclp/382543">P.Cair.Mich. 2 2</ref> were excavated from House B17 in the northwestern quadrant of Area G, and were part of a large cache of ca. 142 papyri that was assigned the field number 26-B17F-A in the dig’s record of objects.<note place="foot" xml:id="ftn38" n="37"><p> <ref target="https://papyri.info/biblio/96751">Sampson 2023</ref>: 453 n. 62. On House B17, see especially <ref target="https://papyri.info/biblio/64415">van Minnen 1994</ref>: 237–244.</p></note> Although van Minnen originally identified this cache as a primary deposit of which Sokrates the tax-collector was the protagonist,<note place="foot" xml:id="ftn39" n="38"><p> <ref target="https://papyri.info/biblio/64415">van Minnen 1994</ref>: 240; cf. <ref target="https://papyri.info/biblio/78358">van Minnen 2010</ref>: 463.</p></note> its diverse composition and the uncertain circumstances of its deposit undermine the case for a coherent, unified archive.<note place="foot" xml:id="ftn40" n="39"><p> So also <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 52. For texts from House B17 that do not obviously pertain to Sokrates or members of his family, see <ref target="https://papyri.info/biblio/96751">Sampson 2023</ref>: 460–461 nn. 89, 97. </p></note> It is rather more likely that some of Sokrates’ papers were somehow mixed up with texts from other sources. More so than House B7, much is unclear about the structure and archaeology of House B17. Figure 14 presents an eastward-looking view of Vault B17F, whose eastern wall the captions to Figure 15 and Figure 16 indicate was situated along Street BS2, near its intersection with Street BS1. The visual testimony of Figure 14 suggests that there was another subdivision (or room) to the south of Vault B17F, at what appears to be the southern extremity of the structure and its insula. </p>
+               <p xml:id="p23"><anchor xml:id="Ref173240723"/><anchor xml:id="Toc192679216"/>Figure 16: B17F in process of excavation. Part of the intersection of streets BS1 and 2 also shows on the left (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2134)</p>
+               <p xml:id="p24">Papyrological finds were not limited to Vault B17F: Room B17E also yielded papyri, though for these the excavation’s record of objects includes the annotation “papyrus very high in debris above the room,” evidently in acknowledgement of an archaeological abnormality. B17E had brick floors that were not covered in mud, but its location within the home is unclear:<anchor xml:id="Ref197091044"/><note place="foot" xml:id="ftn41" n="40"><p> Room E had brick floors that were not covered in mud, into whose northwestern corner a pot was sunk (see <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 27, and Fig. 40; as well as the caption to 5.2137: “A view of the northwest corner of B17E showing a small pot sunk into the brick floor. This photograph was taken before the room was fully cleared.”). One presumes that it was located on the building’s ground floor and that it was adjacent to Room F, where the large cache of papyri which included the Homer fragments was discovered; there is no evidence of staircases or upper stories on Houses B1 or B2, which were located across Street BS2.</p></note> the caption to an archival photograph indicates that it had a northwest corner,<note place="foot" xml:id="ftn42" n="41"><p> See caption to 5.2137, quoted in fn. 40.</p></note> but whether that was also the structure’s northwest corner cannot be determined. Nevertheless, as far as the excavated objects indicate, the layout of House B17 was not especially elaborate. Although its footprint was large, the record of objects includes items only for Rooms B17B–B17G.</p>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 1</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4796b</cell>
+                     <cell style="text-align: left;">26-B17F-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>1.292–297</cell>
+                     <cell style="text-align: left;">II CE</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 2</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4798c</cell>
+                     <cell style="text-align: left;">26-B17F-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>2.723–791</cell>
+                     <cell style="text-align: left;">II/III CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p25">The script of <ref target="https://papyri.info/dclp/382542">P.Cair.Mich. 2 1</ref> can be characterized loosely as an informal round. Its epsilon is narrow but for a high and wide middle bar. Kappa’s arms are also broad, as is the flat top of pi, which extends outside each hasta. Small serifs appear atop delta, eta, kappa, and sometimes iota and nu. It is not unlike <ref target="https://papyri.info/dclp/63663">P.Oxy. 60 4009</ref> (II). The script of <ref target="https://papyri.info/dclp/382543">P.Cair.Mich. 2 2</ref> is a somewhat more rapid example of an informal round; the rightmost extremities of letters frequently touch the left edge of the subsequent letter, though not in a way that could be called semi-cursive. Characteristic of the hand is epsilon, whose crossbar is broad and descends slightly to the right; one might compare <ref target="https://papyri.info/dclp/62825">P.Oxy. 31 2536</ref> (II); <ref target="https://papyri.info/dclp/62695">PSI 15 1470</ref> (II/III). </p>
+            </div>
+            <div type="section">
+               <head>No. 9 and Street BS1</head>
+               <p xml:id="p26"><ref target="https://papyri.info/dclp/382546">P.Cair.Mich. 2 6</ref> was one of a cache of over thirty papyri from the second and third centuries which was assigned the field number 26-BS1-PI. These papyri were found not inside a structure but rather outside, on Street BS1, the major east-west thoroughfare at the heart of Area G.<note place="foot" xml:id="ftn43" n="42"><p> An <ref target="https://quod.lib.umich.edu/a/apis?range-type-q4=ic_range;size=50;sort=apis_a;start=1;type=boolean;view=reslist;rgn1=apis_a;select1=all;q1=BS1">APIS search</ref> for the acquisition ‘BS1’ returns 56 hits, but several of these are duplicates that only distinguish the obverse sides of a single papyrus. For 26-BS1-PI, the dig’s record of objects includes the interesting annotation “Note papyrus found 1932–33”, which is explained by the appearance in APIS of the field number 32-BS1-PI for the fragments of P.Mich. inv. 6292: this field number, however, does not appear in the record of objects. </p></note> A sizable portion of this cache has been published.<note place="foot" xml:id="ftn44" n="43"><p> Published papyri from Street BS1 are <ref target="https://papyri.info/hgv/12169">P.Mich. 6 366</ref>; <ref target="https://papyri.info/hgv/12196">P.Mich. 6 388</ref>; <ref target="https://papyri.info/hgv/27105">P.Mich. 8 495</ref>; <ref target="https://umanitoba.sharepoint.com/sites/books_of_karanis/Shared%20Documents/Mike's%20Writing/Homer%20at%20Karanis/P.Mich.%208%20505">P.Mich. 8 505</ref>; <ref target="https://umanitoba.sharepoint.com/sites/books_of_karanis/Shared%20Documents/Mike's%20Writing/Homer%20at%20Karanis/P.Mich.%208%20512">P.Mich. 8 512</ref>; <ref target="https://papyri.info/hgv/12018">P.Mich. 9 522</ref>; <ref target="https://papyri.info/hgv/397529">P.Cair.Mich. 2 12a</ref>; <ref target="https://papyri.info/hgv/397530">P.Cair.Mich. 2 12b</ref>; <ref target="https://papyri.info/hgv/397531">P.Cair.Mich. 2 12c</ref>; <ref target="https://papyri.info/hgv/397532">P.Cair.Mich. 2 12d</ref>; <ref target="https://papyri.info/hgv/12184">P.Cair.Mich. 2 12e</ref>; <ref target="https://papyri.info/hgv/397538">P.Cair.Mich. 2 16</ref>; <ref target="https://papyri.info/hgv/397540">P.Cair.Mich. 2 18</ref>; <ref target="https://papyri.info/hgv/397541">P.Cair.Mich. 2 19r</ref>; <ref target="https://papyri.info/hgv/397542">P.Cair.Mich. 2 19v</ref>; <ref target="https://papyri.info/hgv/397543">P.Cair.Mich. 2 20</ref>; <ref target="https://papyri.info/hgv/40819">SB 12 11104</ref>; <ref target="https://papyri.info/hgv/26780">SB 12 11124</ref>; <ref target="https://papyri.info/hgv/30112">SB 14 12082</ref>. These date to the second and third centuries.</p></note> Although the papyri share a single field number, it is uncertain whether they were all uncovered together or whether they were grouped together in the course of recording, for the sake of convenience. The latter practice is typical for contexts in which large numbers of papyri were discovered (e.g., 26-B17F-A, 24-5006-E2-A), but the field numbers beginning 26-BS1 are unusual inasmuch as they lack any further subdivision (as would be expected in a structure) – Street BS1 is a major thoroughfare in Area G! The field numbers for this context, rather, appear simply to itemize the finds, and every papyrus has the field number 26-BS1-PI. The hypothesis that a single cache was uncovered in a particular location on the street is further weakened by the fact that some literary fragments from this context join with others found in nearby structures, providing clear evidence that, as has been documented elsewhere, the papyri in Area G have ‘wandered’ and that the circumstances of their deposition are indeterminable.<note place="foot" xml:id="ftn45" n="44"><p> I.e. the many fragments of <seg style="font-style: italic;">Epitrepontes </seg>(<ref target="https://papyri.info/dclp/61496">TM 61496</ref>); <ref target="https://papyri.info/dclp/382545">P.Cair.Mich 2 5 + 3 7</ref>. See P.Cair.Mich. 3, p. xvii, and, for the phenomenon of ‘wandering’ papyri, cf. P.Kellis 1, pp. 3–7. P.Mich. inv. 6239 (<ref target="https://papyri.info/dclp/60527">TM 60527</ref>) and <ref target="https://papyri.info/dclp/957671">P.Cair.Mich. 3 4</ref> (both discussed below) are other examples of rolls whose fragments have wandered.</p></note> </p>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 6</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4749b</cell>
+                     <cell style="text-align: left;">26-BS1-PI</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>3.348–353</cell>
+                     <cell style="text-align: left;">Late II – III CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p27">The hand of this papyrus is a clear informal round:<note place="foot" xml:id="ftn46" n="45"><p> The <seg style="font-style: italic;">ed. pr</seg>. describes the style as formal mixed and compares P.Mich. inv. 15 (<ref target="http://papyri.info/dclp/60685">TM 60685</ref>), but the alternation of narrow and wide letters is not especially pronounced, as one would expect of the formal mixed style.</p></note> it slopes gently to the right, and the tail of alpha is often ligatured to the subsequent letter. Notable letter shapes include nu, whose right hasta is not level with the left one, but sits slightly higher; an epsilon with extended middle bar; a sigma which is slightly over-rotated clockwise; and a rho whose loop is tiny (while on alpha it is large). Cf. <ref target="https://papyri.info/dclp/58959">BKT 9 37</ref> (late II–III).</p>
+            </div>
+            <div type="section">
+               <head>Nos. 10–12 and House B25</head>
+               <p xml:id="p28">House B25 yielded fragments of three separate bookrolls of the <seg style="font-style: italic;">Iliad</seg>, but only one of those contexts can be pinpointed with any confidence. The excavation’s architectural report notes that the structure was buried deeply under several meters of sebakh,<note place="foot" xml:id="ftn47" n="46"><p> <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 7, and Fig. 3. See also my Figure 17 and Figure 18. </p></note> and elsewhere remarks upon several features of its courtyard, which included a pair of ovens and pens for animals.<note place="foot" xml:id="ftn48" n="47"><p> <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 34–35, Figg. 50, 51. </p></note> One of those ovens was designated B25M: the caption to Figure 18 indicates that it was adjacent to Rooms B25L and B25T, respectively, and Figure 19 indicates that several pots were found within it. Photographic testimony is sufficient to reconstruct a few aspects of the building’s layout: the architectural report’s reference to a <seg style="font-style: italic;">pair</seg> of ovens means that Oven B25M is visible in the lower right corner of the eastward-facing Figure 21 – i.e., along the structure’s western wall. In that photograph, the oven appears also to contain ceramics, which is consistent with the testimony of Figure 19. The second oven mentioned by the architectural report also lies along the western wall at the bottom of Figure 21, to the north of the first. The position of Oven B25M on the building’s west side means that the view of B25M, B25L, and B25T in Figure 18 is westward-facing and that B25L was situated to the south of B25M. Comparison with Figure 19, which reveals that the Oven B25M was a subdivision of a larger chamber, suffices to conclude that B25T is that larger chamber. In the southward-oriented Figure 20, B25T is therefore the chamber obscured by shade on the right side of the frame: only the eastern extremity of B25M is visible at the right edge. One of the Homeric papyri was uncovered in B25T (No. 11), and although the caption to Figure 20 also mentions Rooms B25A and B25R (where the other two papyri were found), the position of these subdivisions within the larger structure cannot be determined with any precision.</p>
+               <figure>
+                  <head>
+                     <anchor xml:id="Ref173241395"/>
+                     <anchor xml:id="Toc192679217"/>Figure 17: A view of the debris above B25 and 26; the low wall in the background is the western wall of B25G (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2388)</head>
+                  <p xml:id="p29"><anchor xml:id="Ref173241404"/><anchor xml:id="Toc192679218"/>Figure 18: B25L and M just appearing beneath the debris accumulated above them. Part of T also shows (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2144)</p>
+                  <p xml:id="p30"><anchor xml:id="Ref173243371"/><anchor xml:id="Toc192679219"/>Figure 19: A view of oven B25M, showing pots as found in it (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2390) </p>
+                  <p xml:id="p31"><anchor xml:id="Ref173242307"/><anchor xml:id="Toc192679220"/>Figure 20: A view looking south over B25, A, B, C, D, E, P, R, Q, part of K and O, S and T (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2116)</p>
+                  <p xml:id="p32"><anchor xml:id="Ref173242932"/><anchor xml:id="Toc192679221"/>Figure 21: A view looking east over B25 across BS2, showing part of B12 in background (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2111)</p>
+                  <table>
+                     <row>
+                        <cell style="text-align: right;">10</cell>
+                        <cell style="text-align: left;">P.Cair.Mich. 2 7</cell>
+                        <cell style="text-align: left;">P.Mich. inv. 4842a</cell>
+                        <cell style="text-align: left;">26-B25R-A</cell>
+                        <cell style="text-align: left;">
+                           <seg style="font-style: italic;">Il. </seg>7.26–35</cell>
+                        <cell style="text-align: left;">I/II CE</cell>
+                     </row>
+                  </table>
+               </figure>
+               <p xml:id="p33">Römer’s <seg style="font-style: italic;">editio princeps</seg> likens the script of <ref target="https://papyri.info/dclp/382547">P.Cair.Mich. 2 7</ref> (26-B25R-A) to that of <ref target="http://papyri.info/hgv/10930">P.Fay. 87</ref>, whose hand Turner described as an example of the ‘Coptic uncial’ style (elsewhere called ‘Alexandrian majuscule’).<note place="foot" xml:id="ftn49" n="48"><p> See <ref target="https://papyri.info/biblio/11371">Turner 1987</ref>: no. 48.</p></note> But the Karanis papyrus is far less elaborate in its ornamentation than that papyrus’ script, and we would instead describe it as an upright rounded capital of informal type – a rather sloppier execution of the type represented by <ref target="https://papyri.info/dclp/59534">P.Oxy. 9 1182</ref> (I/II). </p>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">P.Cair.Mich. 2 8</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4843b</cell>
+                     <cell style="text-align: left;">26-B25T-C</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>14.511–515</cell>
+                     <cell style="text-align: left;">Late II – III CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p34">The record of objects notes that <ref target="https://papyri.info/dclp/382548">P.Cair.Mich. 2 8</ref> (26-B25T-C) was uncovered “high in filling,” an annotation which indicates the same discomfort with the archaeological context as for the papyri of Room B17E. The fact that B25 was covered by several meters of sebakh – especially, as Figure 17 indicates, along the western wall where this chamber was located – makes that annotation less surprising, and undermines the possibility of a clear relationship between text and context. One ought not to assert that the papyrus was found in the bin. Its script is an elegant formal round, the small sample size of which makes it somewhat difficult to determine whether it is an example of biblical or rounded majuscule. Despite the horizontal bar of alpha, its bilinear rho, and the presence of serifs on alpha at both apex and base of the right diagonal (all of which would suggest the latter), Römer’s <seg style="font-style: italic;">editio princeps </seg>is correct to emphasize the penstrokes’ elegant variation of shading in preferring the former. A date in the later second or early third century therefore seems appropriate: I would compare <ref target="http://papyri.info/dclp/59391">P.Oxy. 18 2169</ref> (later II).<note place="foot" xml:id="ftn50" n="49"><p> In editing the Oxyrhynchus papyrus, Edgar Lobel described its hand as ‘biblical’, but it contains some elements that are foreign to that style: see <ref target="https://papyri.info/biblio/7049">Cavallo 1967</ref>: 31.</p></note> </p>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">
+                        <ref target="https://papyri.info/dclp/1000069">P.Cair.Mich. 3 3</ref>
+                     </cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4836</cell>
+                     <cell style="text-align: left;">26-B25A-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>2.734–739</cell>
+                     <cell style="text-align: left;">II CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p35">The hand of <ref target="https://papyri.info/dclp/1000069">P.Cair.Mich. 3 3</ref> (26-B25A-A), meanwhile, writes neat and round informal capitals, with serifs on the apices or bases of letters (especially of kappa). Characteristic letter shapes include the eyelet epsilon, h-shaped eta, and very wide nu and omega. The horizontal of tau often touches the preceding letter, and the right leg of pi is gently curved. I compare it with <ref target="https://papyri.info/dclp/62537">P.Oxy. 26 2441</ref> (mid II) and would assign a date in the second century CE.</p>
+            </div>
+            <div type="section">
+               <head>Nos. 13 &amp;amp; 14, from Courtyard B12L </head>
+               <p xml:id="p36">House B12 yielded two copies of Homer, which were both recorded under the field number 26-B12L-A. Figure 4 distinguishes a north complex and a south complex of House B12, separated by a courtyard, but makes very little clear about the structure’s layout beyond these basic subdivisions. The house lay on the northwest corner of the insula of buildings in the southeastern quadrant of Area G, bordered by Street BS1 (to the north) and Street BS2 (to the west). The excavation records indicate that B12L was the central courtyard, that it yielded more excavated objects than any other context in this structure, and that – at one time, at least – it was accessed from Street BS2.<note place="foot" xml:id="ftn51" n="50"><p> See Figure 22. That the doorway from BS2 into B12L was blocked is owed to the handwritten caption to photograph 5.2216 in an archival folder created by Sam Yeivin: “Entrance into house B12, courtyard, from BS. Note stone paved area in front of blocked doorway.” See Folder 7, Box 17, Karanis Excavation Records, Kelsey Museum of Archaeology, University of Michigan.</p></note> </p>
+               <p xml:id="p37">Archival photographs add to our understanding of the architecture: Figure 23 indicates that Room B12A was situated along BS1 and therefore belonged to the northern complex.<note place="foot" xml:id="ftn52" n="51"><p> See Figure 23. P.Mich. inv. 4784, an unpublished papyrus dating to the reign of Marcus Aurelius, was excavated in this room (26-B12A-AI).</p></note> On the basis of Figure 24, whose caption reports looks north into Rooms B12H, B12K, B12G, and B12B, these subdivisions seem also to have belonged to the northern complex.<note place="foot" xml:id="ftn53" n="52"><p> See Figure 24. P.Mich. inv. 4785 and 4826, unpublished fragments from the second and third centuries, respectively, were found in B12B (26-B12B-L). B12G, meanwhile, yielded seven coins, whose dates range from Ptolemy IV (222–203 BCE) to Trajan (109 CE) (26-B12G-H).</p></note> Figure 25 presents a south-facing view of over the southern complex of B12: the tall walls in the center of the frame correspond to the north and west walls of B55 as illustrated on Figure 4, which permits the inference that the picture was taken from Courtyard B12L.<note place="foot" xml:id="ftn54" n="53"><p> See Figure 25. These details, which are sufficient to locate B12M in the southern complex of B12, are owed to the handwritten caption to 5.2082 in an archival folder created by Sam Yeivin: “House B12M, view looking SE, showing also the N. &amp;amp; W. walls of h. B55 in middle background. In far background – cultivation.” See Folder 7, Box 17, Karanis Excavation Records, Kelsey Museum of Archaeology, University of Michigan.</p></note> The excavation’s record of objects documents several finds from Rooms B12M and B12R, both of which I presume belonged to the south complex – though B12M may well have been a subdivision of Courtyard B12L. Given the reference to northern walls in the caption to Figure 26, I hypothesize that the vaulted underground rooms of B12 that are visible in the photograph were also located in the southern complex.<note place="foot" xml:id="ftn55" n="54"><p> See Figure 26. We suggest that the square entranceway at the top of the image is the same one visible in the bottom of Figure 25.</p></note> Several other texts dating to the second and third centuries were uncovered in Courtyard B12L, but to date only a few have been published.<note place="foot" xml:id="ftn56" n="55"><p> Published texts with the field number 26-B12L-A are <ref target="https://papyri.info/hgv/79217">SB 24 15877</ref>, <ref target="https://papyri.info/hgv/41760">SB 24 15887</ref> , <ref target="https://papyri.info/hgv/41642">SB 24 15864</ref>, <ref target="https://papyri.info/hgv/41642">SB 22 15864</ref>, <ref target="https://papyri.info/hgv/41713">SB 22 15789</ref>, <ref target="https://papyri.info/hgv/41710">SB 22 15786</ref>, <ref target="https://papyri.info/hgv/70014">ChLA 42 1214</ref>, <ref target="https://papyri.info/dclp/59973">P.Lond.Lit. 166 + P.Cair.Mich. 2 10</ref>, and <ref target="https://papyri.info/dclp/59438">P.Lond.Lit. 58 + P.Cair.Mich. 2 11</ref>. Two third-century ostraca were also found in Courtyard B12L: <ref target="https://papyri.info/hgv/42089">O.Mich. 1 331</ref> (26-B12L-BI) and <ref target="https://papyri.info/hgv/42136">O.Mich. 1 375</ref> (26-B12L-QII).</p></note> </p>
+               <figure>
+                  <head>
+                     <anchor xml:id="Ref173247553"/>
+                     <anchor xml:id="Toc192679223"/>Figure 23: B12A in process of excavation. The walls of B2 can just be seen across street BS1 in the background (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2042)</head>
+                  <p xml:id="p38"><anchor xml:id="Ref173247671"/><anchor xml:id="Toc192679224"/>Figure 24: View looking north over B12H and K into G, with part of B12B showing (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2483)</p>
+                  <p xml:id="p39"><anchor xml:id="Ref173248445"/><anchor xml:id="Toc192679225"/>Figure 25: A view looking south over the southern end of B12 (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2082)</p>
+                  <p xml:id="p40"><anchor xml:id="Ref173248458"/><anchor xml:id="Toc192679226"/>Figure 26: Northern walls of the vaulted underground rooms of B12 (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2064)</p>
+                  <table>
+                     <row>
+                        <cell style="text-align: right;">13</cell>
+                        <cell style="text-align: left;">P.Cair.Mich. 3 2</cell>
+                        <cell style="text-align: left;">P.Mich. inv. 4828</cell>
+                        <cell style="text-align: left;">26-B12L-A</cell>
+                        <cell style="text-align: left;">
+                           <seg style="font-style: italic;">Il. </seg>1.159–167</cell>
+                        <cell style="text-align: left;">II CE</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: right;">14</cell>
+                        <cell style="text-align: left;">P.Cair.Mich. 3 4</cell>
+                        <cell style="text-align: left;">P.Mich. inv. 4788 + 4788 + 4821</cell>
+                        <cell style="text-align: left;">26-B12L-A</cell>
+                        <cell style="text-align: left;">
+                           <seg style="font-style: italic;">Il. </seg>4.356–359</cell>
+                        <cell style="text-align: left;">II CE</cell>
+                     </row>
+                  </table>
+               </figure>
+               <p xml:id="p41">The first of the Homeric papyri from Courtyard B12L is <ref target="https://papyri.info/dclp/957670">P.Cair.Mich. 3 2</ref>, written in rounded capitals of an informal but decorated type. Lambda, hypsilon, and mu are upright, while nu and delta are wide, as is omega, whose middle element reclines slightly. The upper arm of kappa is both broad and nearly horizontal, thereby hazarding confusion with eta. The bubble of alpha is small and the tail gently curved, while delta has a pronounced cap and a curved left diagonal. Bilinearity is observed except for the tail of phi and a somewhat shallower right hasta of eta. Cf. <ref target="https://papyri.info/dclp/63359">BKT 9 10</ref> (II); <ref target="https://papyri.info/dclp/62613">P.Oxy. 3 454</ref> (later II). Courtyard B12L also yielded two fragments of <ref target="https://papyri.info/dclp/957671">P.Cair.Mich. 3 4</ref>.<note place="foot" xml:id="ftn57" n="56"><p> A third fragment of this papyrus has the field number 26-B2W-C: it was found in B2, a house on the north side of Street BS1, opposite House B12. For the layout of B2’s underground chambers, see <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: Plan IIIA, and the general discussion of pp. 20–23. The wandering of <ref target="https://papyri.info/dclp/957671">P.Cair.Mich. 3 4</ref>’s fragments is consistent with the evidence that this part of Area G had been disturbed already by 1891. <ref target="https://papyri.info/dclp/59973">P.Cair.Mich. 2 10 + P.Lond.Lit. 166</ref> and <ref target="https://papyri.info/dclp/59438">P.Cair.Mich. 2 11 + P.Lond.Lit. 58</ref> originate from the same roll, a portion of which was excavated and assigned the field number 26-B12L-A, while the other was part of the lot acquired from the Rev. Greville John Chester on 2 February 1891. See <ref target="https://papyri.info/biblio/96751">Sampson 2023</ref>: 451–456.</p></note>  This roll’s script is written in bilinear upright capitals. The letters’ modulus is square but the type is informal, with adornment of the apices of delta and alpha as well as on the hasta of kappa. Its alpha is angular, while the hastae of pi, nu, eta curve gently. The central element of omega is shallow and leans backward slightly. Of extant letters, only the hasta of rho breaches bilinearity. A second-century date is appropriate: cf. <ref target="https://papyri.info/hgv/10801">P.Fay. 21</ref> (134). </p>
+            </div>
+            <div type="section">
+               <head>Nos. 15 &amp;amp; 16 and House B9</head>
+               <p xml:id="p42">House B9 lay to the immediate east of House B12. It was noteworthy for its dovecote B9P,<note place="foot" xml:id="ftn58" n="57"><p> <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 24–25, Figg. 30–32.</p></note> which Figure 27 indicates was accessed from Courtyard B9M via a tiny door. A doorway into Courtyard B9M from House B10, to the east, was later blocked up.<anchor xml:id="Ref167278090"/><note place="foot" xml:id="ftn59" n="58"><p> The photograph 5.2154 is overexposed, but its caption reads as follows: “Looking southeast over a portion of B9 in process of excavation. The blocked up doorway and the window in the western wall of B10 are just uncovered. B9N, M and W are just in process of being dug out.”</p></note> Rooms B9N and B9W were also adjacent to (or subdivisions of) Courtyard B9M,<note place="foot" xml:id="ftn60" n="59"><p> See n. 58, above, for the caption to 5.2154.</p></note> and to its south was Courtyard B9V, which, according to the caption of Figure 28, included a bin situated at the southernmost extremity of the structure. To the immediate west of Courtyard B9V was Room B9Y, where one of the Homeric papyri was uncovered. </p>
+               <p xml:id="p43">Other aspects of the structure’s layout are harder to pin down. Because of its prominence, the dovecote is frequently a reference point for other subdivisions: it bordered on Room B9G,<note place="foot" xml:id="ftn61" n="60"><p> See Figure 29.</p></note> which was adjacent to Room B9F and above Vault B9H,<note place="foot" xml:id="ftn62" n="61"><p> See Figure 31 and Figure 30, respectively.</p></note> the latter of which also led into Room B9D via a door.<note place="foot" xml:id="ftn63" n="62"><p> See Figure 32.</p></note> Room B9R was a subterranean chamber accessed by stairs from Room B9E,<note place="foot" xml:id="ftn64" n="63"><p> See Figure 33.</p></note> which was a room notable for its bolted door.<note place="foot" xml:id="ftn65" n="64"><p> The photograph 5.2482 is not especially clear, but its caption reads as follows: “Bolt case and bolt used for doorway in B9E, where B9E turns to the left.”</p></note> It is possible (but far from certain) that the findspot of the structure’s other Homeric papyrus – Room B9S – was another underground chamber (or a further subdivision of B9R). It is not immediately clear from the legacy data which of these various subdivisions belong to Courtyard B9M and which to the larger structure to its north.</p>
+               <figure>
+                  <head>
+                     <anchor xml:id="Ref173246889"/>
+                     <anchor xml:id="Toc192679229"/>Figure 29: The west wall of B9G with the north wall of the dovecote, B9P, at the extreme left. The line of plaster on the north wall of B9G extends to the floor level of the room (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2045)</head>
+                  <p xml:id="p44"><anchor xml:id="Ref173246951"/><anchor xml:id="Toc192679230"/>Figure 30: The west wall of B9G in process of excavation. The top of the vault B9H shows in the lower right hand corner (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2049)</p>
+                  <p xml:id="p45"><anchor xml:id="Ref173246944"/><anchor xml:id="Toc192679231"/>Figure 31: A view looking west over B9F and G in process of excavation (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2048)</p>
+                  <p xml:id="p46"><anchor xml:id="Ref173246978"/><anchor xml:id="Toc192679232"/>Figure 32: Doorframe for the door between B9H and B9D (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2052)</p>
+                  <p xml:id="p47"><anchor xml:id="Ref173247005"/><anchor xml:id="Toc192679233"/>Figure 33: Steps leading down into B9R from B9E (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.2199)</p>
+                  <table>
+                     <row>
+                        <cell style="text-align: right;">15</cell>
+                        <cell style="text-align: left;">P.Cair.Mich. 3 1</cell>
+                        <cell style="text-align: left;">P.Mich. inv. 4778</cell>
+                        <cell style="text-align: left;">26-B9S-E</cell>
+                        <cell style="text-align: left;">
+                           <seg style="font-style: italic;">Il. </seg>1.91–96</cell>
+                        <cell style="text-align: left;">II CE</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: right;">16</cell>
+                        <cell style="text-align: left;">P.Cair.Mich. 3 5</cell>
+                        <cell style="text-align: left;">P.Mich. inv. 4681</cell>
+                        <cell style="text-align: left;">26-B9Y-A</cell>
+                        <cell style="text-align: left;">
+                           <seg style="font-style: italic;">Il. </seg>21.207–216, 21.251–262</cell>
+                        <cell style="text-align: left;">II CE</cell>
+                     </row>
+                  </table>
+               </figure>
+               <p xml:id="p48">As was noted, two Homeric papyri were excavated in House B9: <ref target="https://papyri.info/dclp/957669">P.Cair.Mich. 3 1</ref> (26-B9S-E) and <ref target="https://papyri.info/dclp/957672">P.Cair.Mich. 3 5</ref> (26-B9Y-A). The script of the former is round and squat, upright but informal: its phi is disproportionately large; delta is flattened, with a wide base; serifs adorn the extremities of tau, kappa, and upsilon; and epsilon has a high middle bar. I seem to discern a high point after the verb in the third line. The poor state of preservation and the small sample size inhibits comparison, but it is not unlike <ref target="https://doi.org/10.25446/oxford.21185536">P.Oxy. 80 5234</ref> (II). The other papyrus is <ref target="https://papyri.info/dclp/957672">P.Cair.Mich. 3 5</ref>, whose upright rounded decorated capitals are akin to the script of <ref target="https://papyri.info/dclp/957670">P.Cair.Mich. 3 2</ref>, but more decorated and less regularly sized and spaced. With the exception of phi, the script of <ref target="https://papyri.info/dclp/957672">P.Cair.Mich. 3 5</ref> is bilinear, though the letters’ modulus is not consistently square: some letters are narrow (e.g., hypsilon, alpha), while others are wide (e.g., nu, pi, kappa); some are tall (e.g., phi and beta), while others are comparatively squat (e.g., delta and sigma), as though the notional lines establishing bilinearity were inconsistently spaced. Similarly, sometimes the letters are packed tightly along the horizontal (i.1–5) and in other places more generously separated (i.6–10). </p>
+            </div>
+            <div type="section">
+               <head>Surface Finds: Nos. 17–19 </head>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">17</cell>
+                     <cell style="text-align: left;">BASP 12 (1975), Page 19, No. I </cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2755</cell>
+                     <cell style="text-align: left;">24-X-west side</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>2.89–110</cell>
+                     <cell style="text-align: left;">End I – Early II CE</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">18</cell>
+                     <cell style="text-align: left;">BASP 41 (2004), Pages 65–67</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2764</cell>
+                     <cell style="text-align: left;">24-X-west side</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Od. </seg>1.220–236, 1.263–275</cell>
+                     <cell style="text-align: left;">Late II – Early III CE</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">19</cell>
+                     <cell style="text-align: left;">BASP 12 (1975), Page 20, No. II</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2755a</cell>
+                     <cell style="text-align: left;">24-X-west side / “While digging the bricks from the walls of a room on the side of the mound a nice bit of papyri”</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>18.23–45, 18.174–181, 18.209–216, 18.219–231, 18.237–242, 18.274–281, 18.286–299, 18.306–343, 18.354–617<seg style="font-style: italic;"> </seg>
+                     </cell>
+                     <cell style="text-align: left;">Late II – Early III CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p49">The final nine items (Nos. 17–25) were excavated elsewhere at Kom Aushim by the Michigan team. Little can be said regarding the first two. P.Mich. inv. 2755 (<ref target="https://papyri.info/dclp/60343">TM 60343</ref>) and P.Mich. inv. 2764 (<ref target="https://papyri.info/dclp/60688">TM 60688</ref>) share the field number 24-X-west side, the imprecision of which designation implies that they were ‘surface finds’ made during the initial 1924/5 season. <seg style="font-style: italic;">Implies</seg> is the key word: the records of the first season are poorer than those of later years, and testimony from the field suggests that the dig’s methodology was being developed on the fly by its four principals and that the timely recording of finds proved an ongoing challenge.<note place="foot" xml:id="ftn66" n="65"><p> The principals of the first season were James L. Starkey, Arthur E. R. Boak, Orlando W. (“Pip”) Qualley, and Samuel Yeivin: see <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 1. For the difficulties in record-keeping, see, for example, Orlando W. Qualley to Clara Petra Wollan, (15 Feb. 1925): “Yeivin had to start his plan all over again because some of the measurements were wrong.” Cf. the more expansive remarks of Orlando W. Qualley to Clara Petra Wollan (11 Feb. 1925): “… we had about the worst sandstorm of the year today. Starkey and I gave up recording on the Kom at lunch time and did some filing and cleaning at the house this afternoon. We didn’t have room to take in any more stuff until some was cleared away so it all fitted in well. <seg style="font-weight: bold;">From now on we are going to try to file and check each night the stuff we record in the field. Otherwise we shall not be able to keep up with the game.</seg> I can see that we shall be busier and busier as the season progresses” (my emphasis).</p></note> At least one other papyrus whose field number suggests a ‘surface find’ certainly had a more precise archaeological context that was not captured in the record of objects.<note place="foot" xml:id="ftn67" n="66"><p> P.Mich. inv. 2754 (<ref target="https://papyri.info/dclp/59082">TM 59082</ref>) bears the field number ‘24-X-west side’ in the dig’s record of excavated objects, but cf. the account of its discovery in Orlando W. Qualley to Clara Petra Wollan, (3 Dec. 1924): “Yesterday we had our first find of any consequence… <seg style="font-weight: bold;">While digging the bricks from the walls of a room</seg> on the side of the mound a nice bit of papyri turned up. It’s about the size of this page and is written on both sides but in different hands…” (my emphasis). Qualley’s subsequent letter of 9 December makes clear that the papyrus whose discovery he reported is inv. 2754 (Alcidamas’ <seg style="font-style: italic;">On Homer</seg>). If it was found while excavating the walls of a room, it was no random surface find and the record of objects is (for whatever reason) faulty.</p></note> But the origin of these papyri can be pinpointed no more precisely than to say that they originated in Area A, on the west side of the <seg style="font-style: italic;">kôm</seg>’s monumental crater.<anchor xml:id="Ref176355388"/><note place="foot" xml:id="ftn68" n="67"><p> On Area A, see <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 3–4, and Plan I. </p></note> </p>
+               <p xml:id="p50">For inv. 2755 (<ref target="https://papyri.info/dclp/60343">TM 60343</ref>), written in informal round capitals some 4 mm in height, Perrone posits a date from the end of the first to the early second century, and we concur.<note place="foot" xml:id="ftn69" n="68"><p> <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 42; cf. <ref target="https://papyri.info/biblio/51004">Shelmerdine 1975</ref>: 19.</p></note> The hand of inv. 2764 (<ref target="https://papyri.info/dclp/60688">TM 60688</ref>) is reasonably assigned to the late second or early third century.<note place="foot" xml:id="ftn70" n="69"><p> <ref target="https://papyri.info/biblio/95842">Priest 1975</ref>: 165.</p></note> Its style is formal mixed – omicron and sigma are especially narrow – but also notable for its decoration: diagonal strokes bow slightly, and serifs adorn the extremities of lambda, tau, delta, kappa, and sometimes nu. Notable letter shapes include mu with a shallow saddle and omega with a virtually flat base. Priest cites <ref target="https://papyri.info/dclp/60083">P.Oxy. 28 2486</ref> (II) and <ref target="https://papyri.info/dclp/62628">BKT 2 pp. 53–54</ref> (III) as parallels,<note place="foot" xml:id="ftn71" n="70"><p> <ref target="https://papyri.info/biblio/95842">Priest 1975</ref>: 165.</p></note> to which list we would also add <ref target="https://papyri.info/dclp/60740">P.Oxy. 4 758 descr.</ref> (ca. 200) and <ref target="https://papyri.info/dclp/62741">P.Oxy. 9 1174</ref> (II).</p>
+               <p xml:id="p51">The field number 24-X-west side is shared by a third papyrus – P.Mich. inv. 2755a (<ref target="https://papyri.info/dclp/60687">TM 60687</ref>), which preserves a portion of <seg style="font-style: italic;">Iliad</seg> 18.306–312. Unlike the first two surface finds, the case of this papyrus is all the more interesting because the Michigan collection includes additional fragments of it that were acquired via two separate purchases on the Egyptian antiquities market, made several years apart. P.Mich. inv. 2 was purchased from Maurice Nahman by Kelsey and Grenfell in February 1920 and became one of the cornerstones of the collection,<note place="foot" xml:id="ftn72" n="71"><p> For Grenfell and Kelsey’s initial inspection of Nahman’s papyri on 21 February 1920, see Todd Hickey’s forthcoming introduction to P.Mich.Cent.</p></note> while P.Mich. inv. 3160 originated in a lot purchased from Dr. Kondilios in July 1925.<note place="foot" xml:id="ftn73" n="72"><p> This lot included P.Mich. inv. 3101–3192, a group notable for the many Zenon papyri among them, of which Kondilios was a notorious source.</p></note> It is unclear whether the two purchased fragments were excavated together but came to market separately, or whether they were uncovered on separate occasions (as the five-year gap in acquisition might imply).<note place="foot" xml:id="ftn74" n="73"><p> Cf. <ref target="https://papyri.info/biblio/96419">Perrone 2022</ref>: 42. The July 1925 Kondilios lot included at least one other papyrus from Karanis: the fragments of inv. 3159 belonging to the monumental tax roll published as <ref target="https://papyri.info/hgv/11999">P.Mich. 4 224</ref>.</p></note> The group preserves papyrologically and palaeographically coherent portions of <seg style="font-style: italic;">Iliad</seg> 18. Figure 34 outlines the various fragments’ organization: at left is one of the fragments of inv. 2, which includes an earlier portion of the same column (<seg style="font-style: italic;">Il. </seg>18.306–343<note place="foot" xml:id="ftn75" n="74"><p> See <ref target="https://papyri.info/biblio/95842">Priest 1975</ref>: 124.</p></note>) preserved by inv. 2755a – including the telltale upper margin. At right, meanwhile, is one of the fragments of inv. 3160, which contains a few line ends from that same column, as well as portions of the subsequent two columns.<note place="foot" xml:id="ftn76" n="75"><p> See Figure 34.</p></note> </p>
+               <p xml:id="p52">Parallels suggest a date in the late second or early third centuries.<note place="foot" xml:id="ftn77" n="76"><p> <ref target="https://papyri.info/biblio/51004">Shelmerdine 1975</ref>: 20, n. 4 compares <ref target="https://papyri.info/biblio/5264">Roberts 1955</ref>: no. 19b (=<ref target="https://papyri.info/dclp/60031">P.Oxy. 17 2098</ref>) and <ref target="https://papyri.info/dclp/62839">P.Oxy. 4 655</ref> in assigning a date in the late II early III for inv. 2755a.</p></note> Despite their discrete acquisition histories, the fragments certainly originate in the same roll, and the archaeological documentation regarding inv. 2755a – meager though it is – is sufficient to indicate a findspot in Karanis for the entire group.</p>
+            </div>
+            <div type="section">
+               <head>No. 20 and Vault 5006E2</head>
+               <p xml:id="p53">The challenging records from Michigan’s first excavation season complicate the archaeological analysis of another papyrus: <ref target="https://papyri.info/dclp/60850">P.Mich. inv. 2931</ref> (24-5006-E2-A). Structure 5006 is a courtyard in the so-called ‘middle level’ of Area A (on the northwest side of the <seg style="font-style: italic;">kôm</seg>),<note place="foot" xml:id="ftn78" n="77"><p> The location of this structure in Area A is confirmed by the third plan drafted by Yeivin, titled ‘Karanis (Kom Aushim): Area A, Second Layer’, which is reproduced in <ref target="https://papyri.info/biblio/97264">Sears 2012</ref>: 174. For Area A, see the citations in fn. 67 (supra). </p></note> and Room E2 is a vaulted storage chamber within it. There, in March 1925, Ahmud Ostman uncovered a large batch of mixed material.<note place="foot" xml:id="ftn79" n="78"><p> The handwritten notebooks in which excavated objects were recorded in the first season include the names of the Egyptian excavators who dug each context, information that was lost when the notebooks were typed and, eventually, entered into a spreadsheet. For these notebooks, see Box 7, Karanis Excavation Records, Kelsey Museum of Archaeology, University of Michigan. The name is written in abbreviated form (Ah Ostman) on the page for 5006/E2 (see Figure 35), but on the third page for 5006/A, it is written in full. The date derives from Orlando W. Qualley to Clara Petra Wollan (18 March 1925), which mentions the discovery of a batch of papyri, one of which involved the selection of ephebes – evidently P.Mich. inv. 2985 (<ref target="https://papyri.info/hgv/14017">SB 4 7427</ref>), which also has the field number 24-5006E2-A. See also Qualley’s letters of 10 and 11 March. It is tempting to identify the Ahmud Ostman in question with the Ahmed Osman who was a longstanding member of Petrie’s workforce: see <ref target="https://papyri.info/biblio/97072">Quirke 2010</ref>: 242.</p></note> Among its approximately 165 texts, whose dates span the first to early fourth centuries, are portions of the archive of Gemellus Horion.<anchor xml:id="Ref180150124"/><note place="foot" xml:id="ftn80" n="79"><p> <ref target="https://www.trismegistos.org/arch/detail.php?quick=90">TM Arch 90</ref>. The majority of the papyri in the batch that have been analyzed thus far date to the second or early third centuries, but there are occasional items from the first (e.g., <ref target="https://papyri.info/hgv/12260">P.Mich. 6 421</ref>; <ref target="https://papyri.info/hgv/12033">P.Mich. 9 539</ref>; <ref target="https://papyri.info/hgv/12047">P.Mich. 9 554</ref>; <ref target="https://papyri.info/apis/michigan.apis.6613">P.Mich. inv. 2935</ref>) and fourth centuries (i.e., <ref target="https://quod.lib.umich.edu/a/apis/x-9606">P.Mich. inv. 2986</ref>, where one reads Λικιννίου Σεβαστοῦ on the final line of the side written with the fibers).  </p></note></p>
+               <p xml:id="p54">The archaeology of Structure 5006 is obscure, and previous attempts to identify it with a property that figures prominently in the Horion archive have proven unsuccessful.<note place="foot" xml:id="ftn81" n="80"><p> See <ref target="https://papyri.info/biblio/97264">Sears 2012</ref>: 2–13, building upon unpublished research by Evelyn Adkins. The house in question, which was passed down from the family of Valeria Diodora to that of Gaius Iulius Niger, is the subject of <ref target="https://papyri.info/hgv/12266">P.Mich. 6 428</ref> (154).</p></note> The record of objects repeatedly notes the depths of particular finds relative to one another, which is too imprecise for any kind of scientific stratigraphy but which nonetheless establishes that the building had phases that were in one way or another archaeologically distinct at the time of excavation.<note place="foot" xml:id="ftn82" n="81"><p> So also <ref target="https://papyri.info/biblio/97264">Sears 2012</ref>: 12 n. 34.</p></note> A chronological anchor of sorts is provided by the adjacent structures 5016 and 5017, which each yielded a trio of examples of African Red Slip pottery whose types, in aggregate, imply occupation during the fourth century – if not also the fifth.<note place="foot" xml:id="ftn83" n="82"><p> There are two examples each of Hayes ARS type 58 (24-5017B-a; 24-5016A-b) and type 61 (24-5016B-b; 24-5017B-b), and one each of Hayes ARS type 67 (24-5016A-a) and type 62 (24-5017E-b). The dates of these types are as follows: 290–375 (58); 325–450 (61); 350–425 (62); 360–470 (67). I am grateful to Nicholas Hudson for sharing data stemming from his reassessment of the Late Roman ceramics from Karanis, which will expand considerably upon the work of <ref target="https://papyri.info/biblio/67759">Pollard 1998</ref>.</p></note> </p>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">20</cell>
+                     <cell style="text-align: left;">BASP 41 (2004), Page 79</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2931</cell>
+                     <cell style="text-align: left;">24-5006-E2-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il</seg>. 2.1–42</cell>
+                     <cell style="text-align: left;">Before 215</cell>
+                  </row>
+               </table>
+               <p xml:id="p55">The testimony of the adjacent structures’ ceramics is consistent with only the latest papyri from Room 5006E2. For the most part, those identified to date have been placed in the second and early third centuries,<note place="foot" xml:id="ftn84" n="83"><p> See fn. 79.</p></note> a range which applies as well to the Homeric papyrus in question, the circumstances of whose reuse confirm a date ante 215. It is an unusual case, distinct from the other copies of Homer at Karanis: a section from the beginning of a roll of <seg style="font-style: italic;">Iliad</seg> 2 was removed and repurposed as the surface for <ref target="https://papyri.info/hgv/12197">P.Mich. 6 390</ref> (215), a receipt of wine for annona.<note place="foot" xml:id="ftn85" n="84"><p> On whether this papyrus belonged to a family member of Horion’s, see <ref target="https://papyri.info/biblio/67869">van Minnen 1998</ref>: 132.</p></note> The extracted section of papyrus contained only the initial book-title as well as the first few syllables of the first column of <seg style="font-style: italic;">Iliad </seg>2; before the receipt was copied, an attempt was made to wash out the Homeric text with a sponge. The <seg style="font-style: italic;">Iliad </seg>roll, in other words, was dismembered after falling out of use. The editors cite <ref target="https://papyri.info/dclp/62580">BKT 2 pp. 3-51</ref> (Schubart, PGB 31, II) as a parallel hand, to which we would add <ref target="https://papyri.info/dclp/61488">P.Oxy. 10 1235</ref> (II), whose letters are somewhat more crowded, like those of this papyrus. The circumstances of reuse and the date of <ref target="https://papyri.info/hgv/12197">P.Mich. 6 390</ref> render a second-century date for the Homer papyrus unobjectionable. </p>
+            </div>
+            <div type="section">
+               <head>No. 21 and Granary 169</head>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">21</cell>
+                     <cell style="text-align: left;">BIFAO 61 (1961), Page 147</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 2810</cell>
+                     <cell style="text-align: left;">24-169B-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>1.283, 1.308–375, 1.397–520, 1.561–578</cell>
+                     <cell style="text-align: left;">Late I –II CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p56">P.Mich. inv. 2810 (<ref target="https://papyri.info/dclp/60520">TM 60520</ref>) is dated to the second century but appears a rather more refined version of the type of upright, decorated capitals preserved on <ref target="https://papyri.info/dclp/60326">P.Vindob. G 19768</ref>,<note place="foot" xml:id="ftn86" n="85"><p> See <ref target="https://papyri.info/biblio/97293">Sampson, Sawatzky, and Shields 2025</ref>: §8.</p></note> and so may belong to the late first century. More so than that of the Vienna papyrus, the script aspires to the ‘rounded majuscule’ style of formal round and so is closer to the hand of <ref target="https://papyri.info/dclp/60315">P.Fay. 141 descr.</ref> Like those of that papyrus’ hand, the letters are occasionally spaced quite closely together: this is especially true at the top of its second column. The script is certainly not as refined as, e.g., the Hawara Homer. </p>
+               <p xml:id="p57">The papyrus was excavated by Hasan Osman and Aly Omar,<note place="foot" xml:id="ftn87" n="86"><p> It is tempting these excavators with the synonymous individuals from Petrie’s Egyptian workforce: see <ref target="https://papyri.info/biblio/97072">Quirke 2010</ref>: 238, 243 (for the former) and 245 (for the latter).</p></note> and was assigned the field number 24-169B-A: Room B of House 169 is identified in the excavation records as either a bakery or a granary.<note place="foot" xml:id="ftn88" n="87"><p> For the former, see the record of objects. For the latter, see the caption to 5.1571.</p></note> This structure was located in the top layer of the site, grid H11, at the edge of an area destroyed by the sebakhin. </p>
+               <p xml:id="p58">The archaeological context of a fragment dating to the first or second century in the top layer of the site is, in a word, problematic. The situation is further complicated by the excavation’s record of objects, which notes that the papyrus was excavated “4'6" from floor in N.E. corner from filling.” Not only was the papyrus uncovered from a much later level of the site than archaeology would predict, in other words, but the circumstances of its excavation compound the difficulty. The explanation for the level and curious deposition height is doubtless to be found in the nearby activities of the sebakhin, which effectively turned the archaeological record upside down: as they dug the <seg style="font-style: italic;">kôm</seg> for the purpose of accumulating heaps of sebakh, newer material (from the site’s upper layer) ended up at the bottom of a heap, atop which older material (from lower layers) was accumulated. I suggest that one such heap was conglomerated atop Granary 169, from the area of sebakh-extraction to the immediate south.<note place="foot" xml:id="ftn89" n="88"><p> Other papyri were found in an adjacent room, including <ref target="https://papyri.info/hgv/12257">P.Mich. 6 418</ref> (157 CE) and <ref target="https://papyri.info/hgv/12259">P.Mich. 6 420</ref> (206 CE).</p></note></p>
+            </div>
+            <div type="section">
+               <head>No. 22 and House B197</head>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">22</cell>
+                     <cell style="text-align: left;">BASP 41 (2004), Page 40, No. I</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 5694d</cell>
+                     <cell style="text-align: left;">29-B197A-A</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>7.457–478, 7.490–506</cell>
+                     <cell style="text-align: left;">IV CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p59">P.Mich. inv. 5694d (<ref target="https://papyri.info/dclp/66091">TM 66091</ref>) is a codex fragment with the field number 29-B197A-A: House 197 is located in the second level of the site, grid H11, not far from the previously discussed top-level Granary 169. There is no structure above it in the top layer.</p>
+               <p xml:id="p60">The papyrus was dated by its editors to the third century, probably based on assumptions about the archaeology (and, in particular, the date of the B level), as well as the fact that a late second or third-century customs house receipt originates in the same context (<ref target="https://papyri.info/hgv/14128">SB 6 9234</ref>; 29-B197A-G). But the archaeology is far from consistent: the same room yielded six coins, one of which dated from the fourth year of Ptolemy II (267 BCE).<note place="foot" xml:id="ftn90" n="89"><p> The coin in question is KMA <ref target="https://quod.lib.umich.edu/k/kelsey/x-0000.04.0099/0000_04_0099">0000.04.0099</ref>, whose field number is 29-B197A-D.</p></note> </p>
+               <p xml:id="p61">Given the structure’s location near the edge of the area entirely destroyed by sebakhin, which included the southern wall of C142K in the level immediately below,<note place="foot" xml:id="ftn91" n="90"><p> See Figure 40.</p></note> it seems likely that at least some material from earlier periods was excavated and accumulated atop this structure by the sebakhin, as occurred in House 169. The discovery of a Ptolemaic coin in the same context is consistent with that hypothesis, but far from decisive. It is also curious that finds are recorded for House B197, but not for House C142 in the level below: every field-number of a find from C142 was recorded with an asterisk, an annotation which typically indicates its discovery <seg style="font-style: italic;">below</seg> floor level. These finds include first-century BCE coinage and ostraca, but also papyri from the first to third centuries, as well as a fourth-century coin from the reign of Constantius II.<note place="foot" xml:id="ftn92" n="91"><p> <ref target="https://papyri.info/hgv/74969">O.Mich. 3 973</ref>; (I BCE; 30-142*-E); <ref target="https://papyri.info/hgv/42573">O.Mich. 2 728</ref> (I BCE; 30-142*-SI); KMA <ref target="https://quod.lib.umich.edu/k/kelsey/x-0000.04.0368">0000.04.0368</ref> (63 BCE; 30-142*-N); <ref target="https://papyri.info/hgv/25145">O.Mich. 3 1028</ref> (I CE), P.Mich. inv. 5944 (102/103 CE); P.Mich. inv. 5939–5943, 5945 (II); <ref target="https://papyri.info/hgv/42695">O.Mich. 2 817</ref> (II/III CE); KMA <ref target="https://quod.lib.umich.edu/k/kelsey/x-0000.06.4988">0000.06.4988</ref> (324/330 CE; 30-142*-N).</p></note> The absence of material assigned to C142 itself suggests that, as happened elsewhere at Karanis, the distinction between C and B levels was not made in the field, but retrospectively, in the course of analysis.<note place="foot" xml:id="ftn93" n="92"><p> See, for example, <ref target="https://papyri.info/biblio/96271">Sampson 2022</ref>: §6–9; <ref target="https://papyri.info/biblio/74543">Stephan and Verhoogt 2005</ref>: 196–199. </p></note> It is certainly the case that the finds from the various levels are too confused for any kind of coherent archaeology; if earlier coinage is being found in a higher level, and later coinage at greater depth, than the same upheaval observed atop House 169 may have been occurring here, too.</p>
+               <p xml:id="p62">The codex fragment’s palaeography suggests its date is somewhat later than originally thought: like its editors, we characterize its script as reminiscent of the ‘formal mixed’ style, but the pronounced stylization and slope to the right indicate that we are well on our way toward the so-called ‘sloping pointing majuscule’ that arose in the later fourth century.<note place="foot" xml:id="ftn94" n="93"><p> On development of sloping pointed majuscule from the formal mixed style, see <ref target="https://papyri.info/biblio/95257">Orsini 2016</ref>: 89–93 and now <ref target="https://papyri.info/biblio/97267">Orsini 2019</ref>: 133–139.</p></note> In this case, the hand is marked by several very narrow letters (including epsilon, theta, sigma, and tiny omicron); an alpha with a tight bubble; a wide delta with pronounced cap; a triangular bubble on phi; lengthy descenders on phi, upsilon, rho, and iota; bowing on the left hasta of nu, eta, and also gamma. Less flamboyant but decent palaeographical parallels are <ref target="https://papyri.info/dclp/62002">P.Beatty 6 11</ref> (early IV)<note place="foot" xml:id="ftn95" n="94"><p> = <ref target="https://papyri.info/biblio/58405">Cavallo and Maehler 1987</ref>: no. 2b.</p></note> and <ref target="https://papyri.info/dclp/65915">P.Oxy. 66 4517</ref> (IV).</p>
+            </div>
+            <div type="section">
+               <head>Nos. 23–25 and the Northeastern Limit of the Excavation</head>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">23</cell>
+                     <cell style="text-align: left;">ZPE 46 (1982), Page 87, No. 19</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 4990</cell>
+                     <cell style="text-align: left;">27-230A-H</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il. </seg>14.314–320</cell>
+                     <cell style="text-align: left;">Late II – Early III CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p63">The next three items come from contexts in relative proximity to one another.<note place="foot" xml:id="ftn96" n="95"><p> See Figure 38.</p></note> The first is P.Mich. inv. 4990 (<ref target="https://papyri.info/dclp/60691">TM 60691</ref>), a small scrap of <seg style="font-style: italic;">Iliad </seg>14 written in upright capitals of a medium size. The hand is elegant and practiced, with a consistently square modulus whose bilinearity is only slightly breached by the hasta of phi. Omicron is typically small, the bubble of phi is flattened, and the left edge of tau’s crossbar is adorned with a serif. It can be dated to the late second or early third century: cf. <ref target="https://papyri.info/dclp/62626">P.Oxy. 7 1016</ref> (235–299), which has similar characteristics but is slightly less bilinear. </p>
+               <p xml:id="p64">The papyrus was assigned the field number 27-230A-H in the record of excavated objects. As is the case for other finds from House 230, this field number does not associate the house with a particular level, but the field director’s unpublished report makes clear that the excavation assigned it to the second layer of the site. It was built in part upon the foundation of C62 in layer below,<note place="foot" xml:id="ftn97" n="96"><p> See Figure 41.</p></note> but the occupation of that earlier structure was evidently interrupted.<note place="foot" xml:id="ftn98" n="97"><p> “None of the walls of the original C layer house, C62, alongside C56 on the west, Map 26, survived into the B layer of occupation above it, House 230. In fact, no original wall of any of the interrelated houses in that square, C62, C57, and C59, were in use in the later period, except as foundations upon which some of the walls in the B layer houses, 228, 229, 230, and 239 were built \Plate 102 and/ Map 44. Evidently there had been breaks in occupation here, times when houses in whole or in part had been unoccupied.” <ref target="https://papyri.info/biblio/95947">Peterson 1973</ref>: 446. </p></note> Interestingly, portions of House 230 also survived into the top level.<note place="foot" xml:id="ftn99" n="98"><p> See Figure 42.</p></note> It was excavated only gradually: numerous finds from this house were entered in the excavation’s record of objects during its initial excavation in the 1925/6 season,<note place="foot" xml:id="ftn100" n="99"><p> I.e., these finds have field numbers beginning 25-230 instead of 27-230: they are repeated in the entries that begin 27-230, but include there the annotation “entered in 1925–1926.”</p></note> including several examples of African Red Slip pottery whose types date to fourth and fifth centuries.<anchor xml:id="Ref180151953"/><note place="foot" xml:id="ftn101" n="100"><p> There are three examples of Hayes ARS type 58 (27-230E-lI; 27-230E-ml; 27-230E-nl), two of ARS type 67 (25-230E-f) and ARS type 91 (25-230A-l; 25-240B-d), respectively, and one each of ARS type 59 (27-230E-kl) and ARS type 93 (25-230A-m). The dates assigned to these types are as follows: 290–375 (58); 320–420 (59); 360–470 (67); 380–600 (91); 470–540 (93). It is noteworthy that one example of ARS type 91 and 93, respectively, was found in Room 230A, where the papyrus was excavated.</p></note> Two of them come from the same room as the papyrus, and the assigned dates of their types indicate that occupation of the structure continued into the fifth (if not also the sixth) century. But the papyrus was excavated several seasons later,<note place="foot" xml:id="ftn102" n="101"><p> P.Mich. inv. 4992 (27-230E-HI) was also excavated in the later, 1927/8 season: it is unpublished, but is assigned a date in the late-III/IV century by APIS, which corresponds well with the ceramic data detailed in fn. 100 as well as two coins from the reign of Constantine found in the same room (27-230E-J).</p></note> and its second or third century date is in any event anomalous in light of the ceramic data. It may have been deposited or dumped at a much earlier date, prior to a break in occupation, or it may have blown into the structure following the initial entry into Room 230A in 1925, only to be discovered when excavation resumed in 1927. </p>
+               <figure>
+                  <head>
+                     <anchor xml:id="Ref173332765"/>
+                     <anchor xml:id="Toc192679241"/>Figure 41: Map No. 7. Key Plan. E-L, 9-12, Third Layer (C), Eastern Area (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.7760)</head>
+                  <p xml:id="p65"><anchor xml:id="Ref173332760"/><anchor xml:id="Toc192679242"/>Figure 42: Map No. 71. Sectional Map. F9 - F11, West to East looking North, Section F10 (Kelsey Museum of Archaeology, University of Michigan, neg. no. 5.7806)</p>
+                  <table>
+                     <row>
+                        <cell style="text-align: right;">24</cell>
+                        <cell style="text-align: left;">BASP 41 (2004), Pages 73–75</cell>
+                        <cell style="text-align: left;">P.Mich. inv. 5760d</cell>
+                        <cell style="text-align: left;">29-House NE of C65</cell>
+                        <cell style="text-align: left;">
+                           <seg style="font-style: italic;">Od. </seg>14.513–522, 14.528–533, 15.1–5</cell>
+                        <cell style="text-align: left;">Late II – III CE</cell>
+                     </row>
+                  </table>
+               </figure>
+               <p xml:id="p66">P.Mich. inv. 5760d (<ref target="https://papyri.info/dclp/60853">TM 60853</ref>) was assigned the field number 29-House NE of C65 in the record of objects. Little is known about the archaeology of this structure – which was not even assigned its own identifying number! – or its immediate surroundings. Figure 43 provides a north-facing view over the east end of C65 with large accumulations of sand and mudbrick atop it. That is consistent with the field director’s report, that it was partially covered by ancient rubbish mounds, that no remains of walls were found beneath them, and that the excavations therefore did not advance any further to the north.<note place="foot" xml:id="ftn103" n="102"><p> On the area north of C65, see <ref target="https://papyri.info/biblio/95947">Peterson 1973</ref>: 184–184. </p></note> It seems likely that initial explorations could not justify the expenditure of labor and resources that would have been necessary, especially in the aftermath of the Herculean excavation of C65, recently concluded, which had spanned several seasons. But if no walls were found, it remains unclear why the field number refers to a ‘House’ as opposed to an ‘Area’.</p>
+               <p xml:id="p67">The papyrus’ script is a small, rapid specimen of the informal round type that is notable for incorporating aspects of the formal mixed style, in particular the variation between narrow (esp. omicron, rho, and sigma) and broad letters (e.g., gamma, chi, omega). Epsilon is typically drawn in two strokes, with the second concluding in a broad extension to the right.  Bilinearity is observed but for a tall iota and the hasta of rho, a letter which is also notable for its minuscule bubble. The editors offer <ref target="https://papyri.info/dclp/59988">BKT 6 II.1</ref> (III/IV) as a parallel, but the hand of this papyrus is markedly more upright than that, and its informality makes parallels somewhat difficult to identify: it lies somewhere between documentary hands such as that of <ref target="https://papyri.info/hgv/22162">P.Oxy. 18.2183</ref> (181) or <ref target="https://papyri.info/hgv/22212">P.Oxy. 22.2340</ref> (192) and more formal specimens of the formal mixed style such as <ref target="https://papyri.info/dclp/59676">P.Oxy. 49 3436</ref> (II/III). We would assign a date in the late second or third century. </p>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">25</cell>
+                     <cell style="text-align: left;">ComunicazioniVitelli 4 (2001), Page 40, No. 1 + Schwendner 1988, No. 2</cell>
+                     <cell style="text-align: left;">P.Mich. inv. 6239</cell>
+                     <cell style="text-align: left;">32-C63N-A / 32-219*-M</cell>
+                     <cell style="text-align: left;">
+                        <seg style="font-style: italic;">Il.</seg> 2.476–532</cell>
+                     <cell style="text-align: left;">I – II CE</cell>
+                  </row>
+               </table>
+               <p xml:id="p68">The final papyrus is P.Mich. inv. 6239 (<ref target="https://papyri.info/dclp/60527">TM 60527</ref>), a unique case for several reasons. For one thing, it joins with P.Aberd. 145, which was purchased on the antiquities market by James Andrew Sandilands Grant Bey, ca. 1888 but was only identified as Homer in 1991.<note place="foot" xml:id="ftn104" n="103"><p> For its identification as Homer, see <ref target="https://papyri.info/biblio/61475">Gronewald 1991</ref>: 9; for the join, see <ref target="https://papyri.info/biblio/69748">Andorlini 2001</ref>: 40–41. On the acquisition of the Aberdeen papyri, see <ref target="https://papyri.info/biblio/97074">de Ricci 1902</ref>:437; <ref target="https://papyri.info/biblio/97073">Reinach 1905</ref>: 295 n. 2; <ref target="https://papyri.info/biblio/97266">Ryholt 2019</ref>: 254. Of that group, <ref target="https://papyri.info/hgv/10002">P.Aberd. 42h</ref>, <ref target="https://papyri.info/hgv/10007">P.Aberd. 49</ref>, <ref target="https://papyri.info/hgv/10008">P.Aberd. 50</ref>, and <ref target="https://papyri.info/hgv/28320">P.Aberd. 187</ref> have also been located in Karanis, while the case for <ref target="https://papyri.info/hgv/9987">P.Aberd. 35</ref> is weak: see <ref target="https://papyri.info/biblio/96751">Sampson 2023</ref>: 459 n. 87.</p></note> Over forty years elapsed between the purchase of the Aberdeen fragment and the discovery of several others, via excavation. The papyrus’ other remarkable feature involves the excavation records. The fragments of inv. 6239 were entered into the record of objects under two separate field numbers: 32-C63N-A and 32-219*-M. The circumstances underlying that compound field number are not made clear in the excavation data. Initially, I interpreted it as an indication of some sort of archaeological uncertainty, such as a findspot that lay in between two contexts.<note place="foot" xml:id="ftn105" n="104"><p> So also <ref target="https://papyri.info/biblio/67869">van Minnen 1998</ref>: 135: “The Homeric text was partly derived from below the ground level of structure 219, possibly the structure above C63.”</p></note> Further examination disproved this hypothesis: House 219, from the top layer, is situated in the north-east corner of the south-western quadrant of grid square F11, while Room C63N, from the third layer, lies on the eastern side of the north-western quadrant of grid square F11.<note place="foot" xml:id="ftn106" n="105"><p> See Figure 44 and Figure 45, respectively.</p></note> Even though the asterisk in the field number 32-219*-M probably indicates that the papyrus was found beneath the floor level of this structure, it could not have been confused for any part of Room C63N because the two contexts do not at all overlap. Nor can we suppose that 219 is a clerical error of some sort: the structure directly above C63N in the top layer is House 235, and the finds from both House 219 and House 235 included papyri.<note place="foot" xml:id="ftn107" n="106"><p> Other papyri from below House 219 are <ref target="https://papyri.info/hgv/41762">SB 24 15895</ref> (79 CE), an Antonine-era papyrus (P.Mich. inv. <ref target="https://quod.lib.umich.edu/a/apis/x-14959">6256</ref>), and others which date variously to the first or second centuries (P.Mich. inv. <ref target="https://quod.lib.umich.edu/a/apis/x-14958">6255</ref>), second or third centuries (P.Mich. inv. <ref target="https://quod.lib.umich.edu/a/apis/x-14960">6259</ref>, <ref target="https://papyri.info/hgv/43146">SB 22 15220</ref>), third century (<ref target="https://papyri.info/hgv/79230">SB 24 15894</ref>, P.Mich. inv. <ref target="https://papyri.info/apis/michigan.apis.7328">6258</ref>, <ref target="https://papyri.info/apis/michigan.apis.7329">6261</ref>, <ref target="https://quod.lib.umich.edu/a/apis/x-7601">6263b</ref>), third or fourth century (P.Mich. inv. <ref target="https://papyri.info/hgv/41715">SB 22 15791</ref>, <ref target="https://quod.lib.umich.edu/a/apis/x-7714">6263c</ref>), or fourth century (P.Mich. inv. <ref target="https://papyri.info/apis/michigan.apis.7330">6262</ref>, <ref target="https://papyri.info/apis/michigan.apis.7331">6263a</ref>). One is of unknown date (P.Mich. inv. <ref target="https://papyri.info/apis/michigan.apis.7332">6266</ref>). The papyri from House 235 are P.Mich. inv. 6274–6290 (32-235*-RII), whose dates range from the second the fourth centuries. </p></note> The field director’s report, moreover, makes clear that House 235 was stratigraphically quite distinct from the level below it.<note place="foot" xml:id="ftn108" n="107"><p> See <ref target="https://papyri.info/biblio/95947">Peterson 1973</ref>: 771: “None of these houses… had made use of any surviving construction of an earlier level as a base upon which to lay their walls. <seg style="font-weight: bold;">The lowest courses of Houses 235 and 236, for instance, were fully m 2.70 above the jagged, ruined walls of House C63</seg>” (my emphasis).</p></note> The compound field number cannot reflect any confusion on the part of the excavators. </p>
+               <p xml:id="p69">The likelier explanation is that the various fragments of inv. 6239 came to light separately, in the two different findspots, and that they were assigned the same inventory number because they were promptly identified as belonging to one and the same bookroll. It would be unusual for separately excavated fragments to be inventoried together immediately – I know of no other examples in the excavation data – but both finds emerged during the same excavation season in relative proximity to one another, and both the text in question and the hand (see further, below) are recognizable enough. Given that the acquisition of the Aberdeen fragment occurred decades before the Michigan excavation, the ‘wandering’ of the excavated fragments is  easily explained by the previous disturbance of the archaeological record in this area of Karanis.<note place="foot" xml:id="ftn109" n="108"><p> So also <ref target="https://papyri.info/biblio/69748">Andorlini 2001</ref>: 40, n. 5.</p></note> Wandering may have also occurred in antiquity, but modern disturbance better explains why one excavated fragment was found below floor-level of a top layer structure, another in a context belonging to the third layer, meters below, and how another made its way to market. </p>
+               <p xml:id="p70">Like that of <ref target="https://papyri.info/dclp/60345">P.Mich. 18 759</ref>, the hand is a fine example of a decorated rounded majuscule, but this script is even more refined than that specimen. The letters are drawn carefully, and the pen lifted consistently to make letters in separate strokes: alpha and epsilon, in particular, are in three distinct movements. Finials adorn eta, kappa, alpha, nu, and delta, and there is ample evidence of shading of strokes, with shadows along the vertical and finer hairstrokes along the horizontal axis. The middle element of omega leans backward; omicron is left slightly open at the top, as is the left side of rho’s bubble. Andorlini notes a number of parallels in assigning a date in the first or, more probably, the second century, and I concur with her judgment.<note place="foot" xml:id="ftn110" n="109"><p> See <ref target="https://papyri.info/biblio/69748">Andorlini 2001</ref>: 40.</p></note> </p>
+            </div>
+            <div type="section">
+               <head>Conclusions</head>
+               <p xml:id="p71">This article has undertaken a reassessment of published Homeric papyri from Karanis on parallel (but independent) tracks, analyzing them from the perspectives of papyrology and archaeology, respectively. By considering the papyri on their own terms, it has attempted to identify new palaeographical parallels for the assignment of a date; on the basis of the University of Michigan’s archival maps, photographs (and captions), and associated finds in the record of objects – including ceramics – it has also attempted to outline a modest picture of their ancient contexts, as well as to reconstruct the circumstances of their deposition and persistence in the archaeological record. </p>
+               <p xml:id="p72">A survey of the papyri that have been examined in the course of this article clusters them in various ways. In some cases, virtually nothing can be gleaned from the interrogation of archival material or archaeological legacy data beyond the basic information recorded in an object’s field number: the year of excavation, archaeological level, structure (and subdivision) of excavation, and a serialized itemization. For the surface finds of the first season (Nos. 17, 18, and 19), for example, virtually no archaeological data can be brought to bear on a papyrological analysis, but belonging to the same cluster are texts for which the legacy data is insufficient to pinpoint even the particular structural subdivision of excavation (Nos. 2–6, 9–10, 12, 15, 24). The texts of this most problematic group, notably, include papyri acquired via purchase on the antiquities market: field numbers provide somewhat more precise archaeological data than the reports accompanying purchased papyri, but neither by any means permits a rigorous contextualization. Among the purchased papyri, No. 1 is a notable outlier and exception; otherwise, there is very little overlap (or possibility thereof) between papyrological and archaeological analyses.</p>
+               <p xml:id="p73">In precious few cases, examination of archival material sheds additional light on a text’s context. The collation of photographs, maps, and other descriptions can illustrate features of Karanis’ archaeology: not only are the findspots of Nos. 7, 8, 11, 16, 20 identified, but they can also be pinpointed, visualized, or otherwise analyzed. It is worth pointing out that Vault B17F, Room B9Y, and Vault 5006-E2 all appear to be either storage facilities or immediately adjacent to storage facilities: the accumulation of large numbers of diverse papyri in two of those locations – and also in Courtyard B12L (outside, in the open air) – is suggestive of dumping. </p>
+               <p xml:id="p74">A third cluster includes papyri from contexts that the excavation’s record of objects indicates yielded cognate finds. For these, comparison or collation of the cognate finds’ testimony with that of an individual papyrus is theoretically possible, but – a century later – only a few of the cognate object types are particularly illuminating. Papyri, ostraca, numismatics, and selected ceramics are dateable, but where comparison is possible, the results are often anomalous. Although it happened more than once at Karanis that papyri and ostraca came to light in batches, for example, examination of the assemblages to which Nos. 7, 8, 13, 14, and 20 belong indicates that such batches are heterogeneous in terms of date or content. One cannot assume that the texts have a single, common origin; it appears, rather, that the material is diverse, potentially from multiple sources, and that assemblages were accumulated or dumped over decades, if not centuries, of time. Numismatics are no more reliable: they accompany Homeric papyri only rarely at Karanis and add little to the conversation – the extreme cases of the coins accompanying No. 22 and in the vicinity of No. 23 are revealing on a different front. </p>
+               <p xml:id="p75">The ceramics excavated at Karanis would provide the most promising basis for comparison, but the legacy data reflect the limitations of ceramology in the early twentieth century and defy a sophisticated typological analysis. Only in a few special cases of Late Roman African Red Slip fine wares can dateable types be confidently identified within the record of objects. Nonetheless, even a small sample is sufficient to demonstrate how complicated the archaeology of a given context can be; excavation discovered a papyrus from the late-second or early third century (No. 23) in the same room as African Red Slip pottery from the fourth or fifth centuries, which makes for a transparent chronological anomaly. A structure yielding fine ware pottery of similarly later vintage was located not far from another second or early third-century papyrus (No. 20). It has long been clear that the Michigan team’s approach to stratigraphy was imperfect,<note place="foot" xml:id="ftn111" n="110"><p> See, e.g., <ref target="https://papyri.info/biblio/85713">Landvatter 2014</ref> and <ref target="https://papyri.info/biblio/86131">Landvatter 2016</ref>.</p></note> but these anomalies put in stark contrast how structures and neighborhoods could be occupied for centuries. The ceramic evidence is accordingly consistent with the excavation’s analysis of how houses were inhabited and modified over time, but is at odds with the dates assigned by the Michigan team to particular levels. Pottery adds to the growing consensus that Karanis’ decline came centuries later than the fourth and early fifth century date suggested by the papyri.<note place="foot" xml:id="ftn112" n="111"><p> So, most recently, <ref target="https://papyri.info/biblio/97276">Motta et al. 2024</ref>, contra (most notably) <ref target="https://papyri.info/biblio/95948">Boak and Peterson 1931</ref>: 5.</p></note></p>
+               <p xml:id="p76">Archaeological anomalies can involve excavated objects or more general problems stemming from the legacy data, which brings me to the final cluster of texts. The twofold field-number assigned to No. 25, for example, suggests some sort of disturbance of the archaeological record, which scattered fragments of a single ancient book across different contexts. That disturbance is consistent with the acquisition, decades earlier, of an additional fragment of the same bookroll. Other contexts yielded finds whose archaeology is incompatible with the papyrological testimony. When a fourth-century codex fragment (No. 22) is uncovered in the same context as Ptolemaic-era coinage, or when the excavation records themselves indicate that a late-first or early-second century papyrus was found several feet above the floor level of a top-layer structure (No. 21), one must tread carefully. The former case is important for illustrating the need to conduct papyrological and archaeological analyses separately: it seems that a third-century date was assigned to the papyrus initially not on palaeographical grounds, but because of mistaken assumptions about the B layer in which it was excavated as well as the presence of a late second or third-century receipt in the same context. But the palaeography points rather decisively to the fourth century, and the archaeology is indicative of much confusion in the analysis of layers – between B and C layer – resulting from the broad chronological range of the finds. The nearby disturbance of the archaeological record, evident on excavation maps, is likely to blame. In the latter case, the available data suggests a similar explanation: because the excavation maps indicate that the structure in question was adjacent to the crater dug by the sebakhin, it seems that their activities were effectively turning the archaeological record upside-down in this location, depositing an early papyrus from a deeper archaeological level atop material from higher, later periods. One should not be tempted to assign a later date to the papyrus by invoking its anomalous archaeology, but to think about how it may have ended up in the context of its excavation.</p>
+               <p xml:id="p77">The Homeric papyri from Karanis reveal how valuable a comprehensive, interdisciplinary approach to archival material and legacy data can be – not only for our understanding of the history of both the site and its ancient readers, but also for limiting the kinds of inferences scholarship might otherwise be tempted to draw. Papyrology has a tendency to begin with the text and to proceed from there, while archaeology is wont to construct its picture from the ground up – beginning with the artifact and the context of its discovery. The two approaches can complement and reinforce one another, but equally important are anomalous or divergent results. Archaeology can problematize how we know what we think we know about papyri – or, indeed, whether we know it at all – and some sensitivity to the evidence’s fragility limits the scholarly impulse to extrapolate and to synthesize information in bold ways. Just because papyri are precious in the eyes of modern academics does not mean that they were handled with similar care and deliberation in antiquity, or that their ancient contexts are easily reconstructed.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/50445">Allison, R.W. (1975)</ref> “A Guide to the Edgar J. Goodspeed Papyri,” ZPE 16: 27–32.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/69748">Andorlini, A (2001)</ref> “Frammenti di Omero, Iliade nei papiri Aberdeen 145, 146a, 146,” Comunicazioni. Istituto Papirologico "G. Vitelli". 4: 39–44.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95801">Boak, A.E.R. (1922)</ref> “The University of Michigan Collection of Papyri,” Aegyptus 4: 38-40. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95948">Boak, A.E.R. and Peterson, E. E. (1931)</ref> Karanis: Topographical and Architectural Report of Excavations during the Seasons 1924–1928. Ann Arbor.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/7049">Cavallo, G. (1967)</ref> Ricerche sulla maiuscola biblica. Firenze.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/50557">Cavallo, G. (1975)</ref> “Grammata Alexandrina,” JÖBG 24: 23–54.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/20342">Cavallo, G. and Maehler, H. (2008)</ref> Hellenistic Bookhands. Berlin/New York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/58405">Cavallo G. and Maehler, H. (1987)</ref> Greek Bookhands of the Early Byzantine Period: A.D. 300–800. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96068">Depauw, M. and Gheldof, T. (2014)</ref> “Trismegistos. An interdisciplinary Platform for Ancient World Texts and Related Information,” in Ł. Bolikowski, V. Casarosa, P. Goodale, N. Houssos, P. Manghi, J. Schirrwagen (eds), Theory and Practice of Digital Libraries - TPDL 2013 Selected Workshops. Cham: 40–52.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95828">Goodspeed, E. J. (1898)</ref> “The Washîm Papyrus of <seg style="font-style: italic;">Iliad </seg>Θ 1-68,” AJA 2: 347–356.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96768">Goodspeed, E.J. (1906)</ref> “A Group of Greek Papyrus Texts,” CP 1: 167–175.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/61475">Gronewald, M. (1991)</ref> “Verkannte Papyri mit Homer und Demosthenes,” ZPE 87: 9–10.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96084">Hickey, T.M. and Keenan, J.G. (2021)</ref> Edgar J. Goodspeed, America’s First Papyrologist. Berkeley.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86131">Landvatter, T. (2016)</ref> “Archaeological and Papyrological Inquiries at Karanis: Problems and Potentialities,” in T. Derda, A. Łajtar, J. Urbanik (eds.), Proceedings of the 27th International Congress of Papyrology: Warsaw, July 29–Aug. 3 2013. Warsaw: 3.1493–1518.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/85713">Landvatter, T. (2014)</ref> “Karanis Findspots and Stratigraphy,” in T. G. Wilfong and A. W. S. Ferrara (eds.), Karanis Revealed: Discovering the Past and Present of a Michigan Excavation in Egypt. Ann Arbor: 39–43.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97276">Motta, L., T.D. Johnson, S. Burton, P.J. Reimer, P. Erdkamp, and F. Heinrich (2024)</ref> “Re-dating Roman Karanis, Egypt: radiocarbon evidence for prolonged occupation until the seventh century AD.” Antiquity 98: 954–972.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95257">Orsini, P. (2016)</ref> “La maiuscola ogivale inclinata. Contributo preliminare,” Scripta 9: 89–116. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97267">Orsini, P. (2019)</ref> Studies on Greek and Coptic Majuscule Scripts and Books. Berlin.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96419">Perrone, S. (2022)</ref> “Omero a Karanis.” Segno e Testo 20: 37–66.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95947">Peterson, E.E. (1973)</ref> The Architecture and Topography of Karanis (1928–1935). Ann Arbor.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95842">Priest, N. (1975)</ref> Homeric Papyri in the Michigan Collection. Diss: Ann Arbor.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97072">Quirke, S. (2010)</ref>. Hidden Hands: Egyptian Workforces in Petrie Excavation Archives, 1880-1924. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/67759">Pollard, N. (1998)</ref> “The Chronology and Economic Condition of Late Roman Karanis: An Archaeological Reassessment.” JARCE 35: 147–162.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97073">Reinach, T. (1905)</ref> “Un fragment nouveau d’Alcée.” REG 18: 295–299.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97074">de Ricci, S. (1902)</ref> “Bulletin papyrologique.” REG 15: 408–460.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/5264">Roberts, C.H. (1955)</ref> Greek Literary Hands 350 B.C.–A.D. 400. Oxford.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97266">Ryholt, K. (2019)</ref> “The ‘Fayum Library’,” in F. Naether (ed), New Approaches in Demotic Studies: Acts of the 13th International Conference of Demotic Studies. Berlin: 249–270.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96271">Sampson, C.M. (2022)</ref> “New Light on P.Mich. 15 686.” Pylon 2.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96751">Sampson, C.M. (2023)</ref> “Area G and the Digging of Kom Aushim.” Trends in Classics 15: 441–467.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97293">Sampson, C.M., Sawatzky, T.M., and Shields, C. (2025)</ref> “Three Homeric <seg style="font-style: italic;">Descripta</seg> from Karanis.” Pylon 7.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/11613">Schwendner, G.W. (1988)</ref> Literary and Non-Literary Papyri from the University of Michigan Collection. Diss: Ann Arbor. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97264">Sears, R.A. (2012)</ref> The Practical Muse: Reconstructing the Contexts of a Greek Musical Papyrus. Diss: Ann Arbor.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/51004">Shelmerdine, C.W. (1975)</ref> “Three Homeric Papyri From The Michigan Collection,” BASP 12: 19–22.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/74543">Stephan, R.P. and Verhoogt, A. (2005)</ref> “Text and Context in the Archive of Tiberianus (Karanis, Egypt; 2nd Century AD).” BASP 42: 189–201.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/61857">Strassi-Zaccaria, S. (1991)</ref> “Prosopografia e incarichi amministrativi a Karanis nel II sec. d.C. Proposte interpretative,” ZPE 85: 245–262.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/70531">Strassi, S. (2001)</ref> “Le carte di Ϲωκράτηϲ Ϲαραπίωνοϲ, πράκτωρ ἀργυρικῶν a Karanis nel II sec. d.C.,” in I. Andorlini, G. Bastianini, M. Manfredi, G. Menci (eds), Atti del XXII Congresso Internazionale di Papirologia, Firenze, 23–29 agosto 1998. Firenze: 1215–1228.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/11371">Turner, E.G. (1987)</ref> Greek Manuscripts of the Ancient World. Second edition revised and enlarged by P.J. Parsons. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/64415">van Minnen, P. (1994)</ref> “House-to-House Inquiries: An Interdisciplinary Approach to Roman Karanis,” ZPE 100: 227–251.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/67869">van Minnen, P. (1998)</ref> “Bookish or Boorish? Literature in Egyptian Villages in the Fayum in the Greco-Roman Period,” JJP 28: 99–184.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78358">van Minnen, P. (2010)</ref> “Archaeology and Papyrology: Digging and Filling Holes?”, in K. Lembke, M. Minas-Nerpel, S. Pfeiffer (eds.), Tradition and Transformation: Egypt under Roman Rule. Leiden: 437–474.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56169">Whitehorne, J.E.G. (1983)</ref> “Three Papyri in The Otago Museum, New Zealand,” Studia Papyrologica 22: 39–51.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
