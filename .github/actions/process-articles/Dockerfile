@@ -1,5 +1,5 @@
-FROM debian:buster-slim
-RUN apt-get update && apt-get -y install openjdk-11-jdk-headless \
+FROM ubuntu:latest
+RUN apt-get update && apt-get -y install openjdk-17-jdk-headless \
   apt-transport-https \
   libsaxonhe-java \
   ant \
