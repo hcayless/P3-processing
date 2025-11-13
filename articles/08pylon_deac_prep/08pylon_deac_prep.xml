@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copres, a Village tesserarius  of Pharbaithos, in the Arsinoite Nome</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2025-11-13T16:52:04Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Copres, a Village <seg style="font-style: italic;">tesserarius </seg> of Pharbaithos, in the Arsinoite Nome</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">#acknowledgement<lb/>I would like to thank Rodney Ast (Institute for Papyrology, Heidelberg University) for allowing me to publish this papyrus, Elke Fuchs (Institute for Papyrology, Heidelberg University) for providing photographs of it, and the editors and anonymous reviewers for their valuable comments and corrections on previous versions of the manuscript. All errors are my own. The dates are Common Era unless specified otherwise.</p>
+            <div type="introduction">
+               <p xml:id="p2">This paper deals with a papyrus from the Heidelberg Papyrussammlung under the inventory number G 263. Although very fragmentary, one can observe that it consists most probably of an account or tax register given the list of names. One of the most interesting aspects revolving around this document is the attestation of a compulsory village public service office called <seg style="font-style: italic;">tesserarius </seg>held by a certain Copres.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> For the village <seg style="font-style: italic;">teserarii </seg>see <ref target="https://papyri.info/biblio/39662">Boak 1951</ref>; <ref target="https://papyri.info/biblio/14864">Lewis 1997</ref>: 47 and <ref target="https://papyri.info/biblio/95961">Berkes 2017</ref>: 65 and 203.</p></note> The papyrus has been sold to the Heidelberg University by K. Reinhardt, the first Dragoman of the German Imperial General Consulate in Cairo, who purchased it in 1896 among various other antiquities.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> See in detail <ref target="https://papyri.info/biblio/45276">Seider 1964</ref>: passim. Most recently about the history of the acquisition also in <ref target="https://papyri.info/biblio/97065">Deac 2024</ref>, §1.</p></note> The provenance is unknown, but it was implied on the card accompanying the papyrus that the provenance might be the Arsinoite nome, based on what is believed to be the name of the village of Pharbaithos.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> https://doi.org/10.11588/diglit.67024 accessed on October 3rd 2024 (link embedded in edition header). ʽInhalt: Liste; Steuer; Liste mit Namen von Steuerzahlern u. ihren Zahlungen. Militär: tessararius. Personennamen: Kopres. Herkunft: Arsinoites(?)ʼ.</p></note> The verso is blank.</p>
+            </div>
+            <div type="epidoc" subtype="DDB">
+               <table type="papyrological_header">
+                  <row>
+                     <cell style="text-align: left;">
+                        <ref target="https://digi.ub.uni-heidelberg.de/diglit/p_g_263">P.Heid. G 263</ref>
+                     </cell>
+                     <cell style="text-align: center;">14 (h) x 6.5 (w)</cell>
+                     <cell style="text-align: right;">Arsinoite nome (?)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Acquired from K. Reinhardt</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: right;">4th century AD</cell>
+                  </row>
+               </table>
+               <head>The fragmentary light brown papyrus bears a text placed on two columns. Col. I, on the left, preserves the end of some lines, while the <seg style="font-style: italic;">intercolumnium</seg> is 1.5 cm. On col. II, one can trace 12 lines written in black ink. It can be implied that on col. II we are dealing with the beginning of the lines, but not the entire wording, as parts of some names and numbers of this column are missing on the right, the most conclusive in this regard being the last part of the name which begins in l. 8 but whose beginning was written on l. 7. The entire text is written along the fibers by one hand at least on col. II. The endings of the lines from col. I, located at the bottom side of the document, seem to have the strokes written a little thinner than the rest, perhaps by another hand. </head>
+               <head>Although the papyrus is fragmented, one can observe from col. II that the document lists mainly a series of names, which look like part of an account or list of a tax-register, or something related. At least the bottom half of col. II which starts roughly 2 cm beneath the text above, refers to individuals from the village of Pharbaithos. The upper half might refer to individuals from another settlement of the Arsinoite nome. </head>
+               <head> Given the presence of γράμματα next to λίτραι and perhaps ὀγκίαι in the lacuna in l. 6 of the second column, one can interpret the text as referring to either gold or silver measures. These were offered by or were requisitioned from individuals like Germanos, Pasis, Dioskoros, Horion and Philoxenos, residents of an unknown village; it's equaled weight is measured in pounds, ounces and grams of which we know the last measurement unit. The next section concerns the list of residents of Pharbaithos, individuals like Papeas, Sarapion, Copres, the village <seg style="font-style: italic;">tesserarius</seg>, Aunion or Venerius who also accounted for goods measured in the same manner, whose total had to be mentioned at the end of the list of names.</head>
+               <head>Most of the names written in the document are rather frequently attested. The ones that occur more often are the Greek ones such as Ἡρακλῆς (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=4560">TM Nam 4560</ref>) or Ἡρακλείδης (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=4550">TM Nam 4550</ref>)  or a version very similar, Αὐνίων –   <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=6688">TM Nam 6688</ref>, Διόσκορος – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=2828">TM Nam 2828</ref>, Ὡρίων – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=43787">TM Nam 43787</ref>, Φιλόξενος – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=3267">TM Nam 3267</ref>, Σαραπίων – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=5663">TM Nam 5663</ref>, Κοπρῆς – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=3702">TM Nam 3702</ref>, Κάστωρ - <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=3574">TM Nam 3574</ref> or Καστορίων – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=19065">TM Nam 19065</ref>.<note place="foot" xml:id="ftn4" n="4">
+                     <p style="text-align: left; text-align: justify;"> Most of these names are included in the analysis published in a recent paper by <ref target="https://papyri.info/biblio/97488">Clarysse and Thompson 2025</ref>, which focuses on the Greek names of Egypt, relying heavily on statistical data extracted from the well-known databases, mainly LGPN (<ref target="https://www.lgpn.ox.ac.uk/">Lexicon of Greek Personal Names</ref>) and TM Names (<ref target="https://www.trismegistos.org/ref/">Trismegistos People</ref>). </p>
+                  </note> Three are of Egyptian origin, namely Παως, derived from the Egyptian Pa-ḥr – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=743">TM Nam 743</ref>, Πᾶσις, derived from the Egyptian Pa-sy –  <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=760">TM Nam 760</ref>, and Ἀμαις – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=1926">TM Nam 1926</ref>. Finally, at least one of the names is Latin, i.e. Germanos – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=6853">TM Nam 6853</ref>, and perhaps also Ianuarius (?) – <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=9608">TM Nam 9608</ref> and Venerius.  The origin of the name Λάιος is unknown - <ref target="https://www.trismegistos.org/nam/detail.php?nam_id=22295">TM Nam 22295</ref>.</head>
+               <head>Pharbaithos (<ref target="https://www.trismegistos.org/place/1750">TM Geo 1750</ref>) refers to a village in the Arsinoite nome, in the Herakleides district, somewhere near another village called Persea (<ref target="https://www.trismegistos.org/place/1701">TM Geo 1701</ref>), both of which are still not identified on the ground. Interestingly, this is only the second occurrence of this village name in documentary papyri which can be securely dated in the 4th century, the previous one being a list of payments of money, perhaps also a tax register or an account mentioning a list of villages discovered at Karanis (<ref target="https://papyri.info/ddbdp/sb%3B22%3B15825">SB 22 15825</ref>).</head>
+               <head>As said above, one of the most interesting aspects revolves around Copres, the <seg style="font-style: italic;">tesserarius</seg> of the village of Pharbaithos<seg style="font-style: italic;">. </seg>He had been appointed in this village compulsory public service office called <seg style="font-style: italic;">tesserarius</seg>, of which we hardly know anything, except, perhaps, that it is attested only in the fourth century, hence the dating. Moreover, the semi-cursive, rather skilled, practiced and upright handwriting points to the same period. What has been identified so far, based on the available papyrological sources, is that this office lasted for six months, individuals like Copres being appointed either at the beginning of the year (on 1 Thot) or on the 1 Phamenoth, and N. Lewis notes that ʽa confusing variety of duties is attested in the documentsʼ, regarding the    <seg style="font-style: italic;">tesserarius </seg>(<ref target="https://papyri.info/biblio/14864">Lewis 1997</ref>: 47)<seg style="font-style: italic;">.</seg> Earlier, A. E. R. Boak notes that ʽ(…) he [i.e. the <seg style="font-style: italic;">tesserarius</seg>] was a civilian village official appointed primarily to supervise the collection of certain public imposts levied upon the villages, particularly perhaps the levies imposed to meet the needs of the military establishmentʽ (<ref target="https://papyri.info/biblio/39662">Boak 1951</ref>: 333). Apparently, as N. Lewis stated, literacy was not required for this office (<ref target="https://papyri.info/biblio/14864">Lewis 1997</ref>: 47), as the best known <seg style="font-style: italic;">tesserarius</seg>, Aurelius Isidorus from Karanis, who held this position around 313 – early 314 AD, was himself illiterate, as is revealed by a number of documents from his archive (<ref target="https://www.trismegistos.org/arch/detail.php?quick=34">TM archID 34</ref>). </head>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Col. I.</seg>
+               </head>
+               <p xml:id="p3" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">1.-9.</seg> Except for Φ̣ιλοξ- in l. 9, only groups or traces of letters are visible, in the last three lines slightly effaced, to the same degree as the phi from Φαρβεθων (Col 2, l.7). The Φ̣ιλοξ- sequence might refer to the name Φ̣ιλόξ[ενος  (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=3267">TM Nam 3267</ref>) or one of its variants, perhaps indicating the same person as in Col. 2, l. 5.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Col. II.</seg>
+               </head>
+               <p xml:id="p4" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">1.</seg> above omicron and sigma from Germanos one can distinguish two descending strokes which must be part of the first name in this line. For the second name of the line, which is heavily effaced, one can observe a vertical stroke and parts of the diagonal strokes (especially the descending one) which stands for kappa; traces of the next letter are visible as well, namely a part of the left diagonal stroke of a letter that might be interpreted as a lambda. Thus, the name should be a form for instance of Ἡρακλῆς (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=4560">TM Nam 4560</ref>)  or Ἡρακλείδης (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=4550">TM Nam 4550</ref>) but this aspect cannot be determined with certainty. A second interpretation which cannot be completely disregarded is that the line refers to Ἡρακ̣λ̣ε̣ί̣[δου μερίδος].</p>
+               <p xml:id="p5" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">2.</seg> Παός instead of Παῶς appears with omicron instead of omega only once more, in the nominative, in a fiscal diary from Dionysias, in the Arsinoite nome (<ref target="https://papyri.info/ddbdp/aegyptus%3B95%3B29">SB 26 16560</ref>.107). However, the name here should have been in genitive since it must have been a patronymic.  </p>
+               <p xml:id="p6" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">3.</seg> Ἀμαει represents the patronymic, of a name that is frequently attested in the Arsinoite nome, i.e. Ἀμαις (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=1926">TM Nam 1926</ref>). Further, the line is quite effaced, which makes reading the second name difficult. Before the name the preposition διὰ can be read without alpha as the abbreviation stroke is visible after iota; here one can observe a <seg style="font-style: italic;">diaeresis</seg> as, after the preposition, a personal name starting with iota follows, which can be read as Ἰανο̣υ̣[αρίου (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=9608">TM Nam 9608</ref>).</p>
+               <p xml:id="p7" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">6.</seg> the closest analogy is an unprovenanced document concerning silver tableware inventory dated to the 1st century, which on two occasions states after γίνονται the number of λίτραι, ὀγκίαι and γράμματα (<ref target="https://papyri.info/ddbdp/bgu%3B3%3B781">BGU 3 781</ref> col. I, l.9 and col. VI, l.5). The same succession of λίτραι, ὀγκίαι and γράμματα is to be found in an early 4th century assessment of gold and silver (<ref target="https://papyri.info/ddbdp/p.oxy%3B46%3B3307">P.Oxy. 46 3307</ref>. 26) in accounts of receipts and expenditure (<ref target="https://papyri.info/ddbdp/p.oxy%3B16%3B1918">P.Oxy. 16, 1918</ref>, esp. recto col. I, l. 15) from the Apion archive (<ref target="https://www.trismegistos.org/archive/15">TM Arch 15</ref>) and an account issued by the Antaiopolis office of finance (<ref target="https://papyri.info/ddbdp/p.cair.masp%3B1%3B67057">P.Cair. Masp. 1 67057</ref>. 19-22), part of the Dioskoros archive (<ref target="https://www.trismegistos.org/archive/72">TM Arch 72</ref>).</p>
+               <p xml:id="p8" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">7.</seg> Φαρβέθων has to be understood in genitive plural and occurs under this form when reference is made to the name of the village in a register of a tax collector from Philadelphia (<ref target="https://papyri.info/ddbdp/sb%3B20%3B14576">SB 20 14576</ref>. 516), while on two other instances in the same document the village name appears written as Φαρβαίθ(ων) (<ref target="https://papyri.info/ddbdp/sb%3B20%3B14576">SB 20 14576</ref>. 540, 549); for this very common interchange – αι/ε – see <ref target="https://papyri.info/biblio/8813">Gignac 1976</ref>: 192-193.</p>
+               <p xml:id="p9" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">8.</seg> before καὶ, the last part of a personal name in nominative appears, which would have started in the previous line. Here, perhaps as in the case of Ἀμαει discussed above, the final sigma has been also deliberately omitted. Such a name ending, of woman named […]απέας, in accusative, is to be found in a papyrus which cannot be classified with certainty, found at Ptolemais Euergetis, in the Arsinoite nome, dated March 15th 306 (<ref target="https://papyri.info/ddbdp/bgu%3B2%3B606">BGU 2 606</ref>. 2-3:  παρὰ Α[ὐρηλίου Σαραπίωνος μη(τρὸς)] | [  ̣  ̣]απέας). Alternatively, one should interpret it as a name which has parallels outside Egypt, at Panticapeum, in the Bosporan Kingdom, on an funerary monument dated to the 2nd – 3rd centuries which reads Παπέα(ς); the editor of CIRB, V. Struve, is unsure in whether the text refers to a male or female individual (CIRB 730,2 reads Παπέα; <ref target="https://papyri.info/biblio/18594">LGPN IV</ref>, 270, Παπέας. Less likely, a solution might be found on an  inscribed block with panel from Dinek Serai, at the border of Lycaonia and Isauria, which reads as Δορμαπεα or, perhaps, Δορμαπενα. MAMA VIII, 129. 2: [Αὐρ.] Λόνγιλλα ἡ καὶ | [Κ]ύ̣ριλλα Αὐρ. Δορμαπε    α | Θεοφιλιανῷ τῷ | καὶ Ἀρείονι ἰδίῳ ἀνδρὶ |     5μνήμης χάριν.; W. M. Calder proposes an alternative reading of the name Δορμαπενα given the fact that he notes that ʽbefore the final <seg style="font-style: italic;">A</seg> of line 2, which is carved below E, the copy inserts N.ʼ; L. Zgusta agrees with this possibility, highlighting that Δορμαπεα is a masculine name in dative, thus the nominative Δορμαπεας (<ref target="https://papyri.info/biblio/97486">Zgusta 1964</ref>: 151, § 300-2); see also <ref target="https://papyri.info/biblio/97489">Laminger-Pascher 1992</ref>: 189, no. 303 and <ref target="https://papyri.info/biblio/97490">LGPN V.C</ref>, 129 (Δορμαπεας).</p>
+               <p xml:id="p10" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">10.</seg> the large oblique stroke before Aunion looks like a checkmark and belongs to col. II.</p>
+               <p xml:id="p11" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">11.</seg> If the fourth letter is a nu, than one should read a personal name,  Οὐενέριος, attested for the first time in Egypt; outside Egypt this name is presumed from an epitaph discovered at Thessalonike, in Macedonia, dated to the middle 2nd century to the middle of the 3rd century (<ref target="https://papyri.info/biblio/97493">Adam-Belene and Sverkos 2001</ref>: 24-26, no. 5; AE 2001, 1773; BE 2002, 278; SEG 51, 895). The nominative would explain also the elongated horizontal stroke of the partially visible sigma that goes above the first three letters of the next word. Less likely, if the letter is to be interpreted as a tau, with its horizontal stroke now missing, then the reading should be οὐετερ[ανὸ]ς, instead of the more common οὐετρανὸς; this form – οὐετερανὸς – is encountered in the 4th century solely in a document concerning a sale of a house (<ref target="https://papyri.info/biblio/9144">P.Sakaon 59</ref>. 19) from the archive of Aurelius Sakaon (<ref target="https://www.trismegistos.org/arch/detail.php?quick=206">TM archID 206</ref>). The status of a veteran might refer to Aunion, son of Sarapion, read in the previous line. For a veteran to appear in this list is not surprising as a veteran community existed in the Arsinoite during the Principate (<ref target="https://papyri.info/biblio/13826">Alston 1995</ref>: esp. 39-51 with the critical remarks and further bibliographic references in <ref target="https://papyri.info/biblio/96053">Fischer-Bovet and Sänger 2019</ref>: 171; for an overview on the veterans from Egypt from the 1st to the 3rd century see latest <ref target="https://papyri.info/biblio/78981">Sänger 2010</ref> and also <ref target="https://papyri.info/biblio/81530">Haensch 2012</ref>: 76 with references). In the archive of Flavius Abinnaeus (<ref target="https://papyri.info/biblio/6212">P.Abinnaeus</ref>), at that time <seg style="font-style: italic;">prefectus </seg>of the <seg style="font-style: italic;">ala quinta Praelectorum</seg>, from at Dionysias, in the Fayum, one can observe many veterans acting as petitioners addressing these petitions to the commander Abinnaeus (<ref target="https://www.trismegistos.org/archive/1">TM archID 1</ref>) as outlined by <ref target="https://papyri.info/biblio/96053">Fischer-Bovet and Sänger 2019</ref>: esp. 174-175. The patronymic can be read as the name Λάιος (<ref target="https://www.trismegistos.org/nam/detail.php?nam_id=22295">TM Nam 22295</ref>).</p>
+               <p xml:id="p12" style="text-align: left; text-align: justify;"><seg style="font-weight: bold;">12.</seg> there are two options in reading the last visible letter. If one interprets it as an omicron then one reads the patronymic Ḳάστορο̣[ς of a person whose name was written in the preceding line. Another possibility would be, for example, that this letter is an abraded iota and thus the reading goes in nominative - Ḳαστορί̣[ων - or as a patronymic - Ḳαστορί̣[ωνος.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97493">Adam-Belene, P. and Sverkos, E. (2001)</ref> “Επιτάφιες στήλες από τη Θεσσαλονίκη,” in Η. Σβέρκος (εκδ.),   <seg style="font-style: italic;">Α΄ Πανελλήνιο Συνέδριο Επιγραφικής. Στη μνήμη Δημήτριου Κανατσούλη, Θεσσαλονίκη 22-23 Οκτωβρίου 1999</seg>. Θεσσαλονίκη: 13-34.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/13826">Alston, R. (1995)</ref>
+                     <seg style="font-style: italic;">Soldier and Society in Roman Egypt. A Social History</seg>. London &amp; New-York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95961">Berkes, L. (2017)</ref> Dorfverwaltung und Dorfgemeinschaft in Ägypten von Diokletian zu den Abbasiden. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/39662">Boak, A. E. R. (1951)</ref> “<seg style="font-style: italic;">Tesserarii </seg>and <seg style="font-style: italic;">Quadrarii </seg>as Village Officials in Egypt of the Fourth Century,” in Paul R. Coleman-Norton (eds.), <seg style="font-style: italic;">Studies in Roman Economic and Social History in Honor of Allan Chester Johnson</seg>, Princeton: 322–335.</bibl>
+                  <bibl>CIRB = V. Struve (ed.) (1965)  <seg style="font-style: italic;">Corpus inscriptionum regni Bosporani</seg>. Moscow.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97488">Clarysse, W. and Thompson, D. (2025)</ref> “New Rulers, New Names. Greek Names of Egypt,” in: A. Almásy-Martin, Y. Broux (eds.), <seg style="font-style: italic;">Oxford Studies in Ancient Documents</seg>. Oxford: 48-120.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97065">Deac, D. (2024)</ref> “Macedonias and Other Toponyms from the Panopolite Nome,” <seg style="font-style: italic;">Pylon </seg>6.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96053">Fischer‐Bovet, C. and Sänger, P. (2019)</ref> “Security and Border Policy: Army and Police,” in K. Vandorpe (ed.), <seg style="font-style: italic;">A Companion to Greco-Roman and Late Antique Egypt</seg>. Hoboken: 163–178.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/8813">Gignac, F. T. (1976)</ref>
+                     <seg style="font-style: italic;">A Grammar of the Greek Papyri of the Roman and Byzantine Periods</seg>. Milano.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/81530">Haensch, R. (2012)</ref> “The Roman Army in Egypt,” in: C. Riggs (ed.), <seg style="font-style: italic;">The Oxford Handbook of Roman Egypt</seg>. Oxford: 68–82.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97489">Laminger-Pascher, G. (1992)</ref>
+                     <seg style="font-style: italic;">Die Kaiserzeitlichen Inschriften Lykaoniens</seg>, <seg style="font-style: italic;">Faszikel I: Der Süden</seg>, Tituli Asiae Minoris – Ergänzungsbände 15. Wien.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14864">Lewis, N. (1997)</ref>
+                     <seg style="font-style: italic;">The Compulsory Public Services of Roman Egypt. </seg>Papyrologica Florentina XXVIII. 2nd Edition. Florence.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97490">LGPN V.C</ref> = Balzat, J.-S., Catling, R. W. V., Chiricat, É. and Corsten, T. (eds.) (2018)  <seg style="font-style: italic;">A Lexicon of Greek Personal Names. Volume V.C: Inland Asia Minor</seg>. Oxford.</bibl>
+                  <bibl>MAMA VIII = Calder, W. M., and Cormack J. M. R., (eds.) (1962), <seg style="font-style: italic;">Monumenta Asiae Minoris Antiqua vol. 8.  Monuments from Lycaonia, the Pisido-Phrygian Borderland, Aphrodisias</seg>, Manchester.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78981">Sänger, P. (2010)</ref> “Römische Veteranen in Ägypten (1.–3. Jh. n. Chr.): Ihre Siedlungsräume und sozio-ökonomische Situation,” in P. Herz, P. Schmid, O. Stoll (eds.), <seg style="font-style: italic;">Zwischen Region und Reich. Das Gebiet der oberen Donau im Imperium Romanum</seg>. Berlin: 121–133.</bibl>
+                  <bibl>SEG = Supplementum Epigraphicum Graecum.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/45276">Seider, R. (1964)</ref> “Aus der Arbeit der Universitätsinstitute. Die Universitäts-Papyrussammlung,” <seg style="font-style: italic;">Heidelberger Jahrbücher</seg> 8: 142–203.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97486">Zgusta, L. (1964)</ref>
+                     <seg style="font-style: italic;">Kleinasiatische Personennamen</seg>. Prague.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Copres, a Village tesserarius  of Pharbaithos, in the Arsinoite Nome</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM">1000280</idno>
+               <idno type="HGV">1000280</idno>
+               <idno type="ddb-filename">pylon.8.4</idno>
+               <idno type="ddb-hybrid">pylon;8;4</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo">P.Heid.inv. G 263</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Papyrus</material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+            <textClass>
+               <keywords scheme="hgv">
+                  <term n="1">Liste</term>
+                  <term n="2">Namen</term>
+                  <term n="3">tesserarius</term>
+               </keywords>
+            </textClass>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Copres, a Village tesserarius  of Pharbaithos, in the Arsinoite Nome</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">pylon.8.4</idno>
+               <idno type="ddb-hybrid">pylon;8;4</idno>
+               <idno type="HGV">1000280</idno>
+               <idno type="TM">1000280</idno>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en">Copres, a Village tesserarius  of Pharbaithos, in the Arsinoite Nome</head>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="I" subtype="column" type="textpart"><ab>
+<lb n="1"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> ιβ <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+<lb n="4"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+<lb n="5"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>θ</unclear> 
+<lb n="8"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+<lb n="9"/><gap reason="illegible" extent="unknown" unit="character"><desc>vestiges</desc></gap>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>Φ</unclear>ιλοξ
+<lb n="11" break="no"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+<div n="II" subtype="column" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+<lb n="1"/><supplied reason="lost">-<gap reason="illegible" quantity="6" unit="character" precision="low"/>-</supplied><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/> <app type="alternative"><lem>Ἡρα<unclear>κλ</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></lem><rdg>Ἡρα<unclear>κλεί</unclear><supplied reason="lost">δου μερίδος</supplied></rdg></app>
+<lb n="2"/>Γερμανὸς <choice><reg>Παῶτος</reg><orig>Παὸς</orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>Πᾶσις Ἀμαει <expan>δι<ex>ὰ</ex></expan> Ἰ<unclear>α</unclear>ν<unclear>ου</unclear><supplied reason="lost">αρίου</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/>Διόσκορος καὶ Ὡ<unclear>ρ</unclear>ίων <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/>Φιλόξενος Διοσκόρου 1<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><expan>γίν<ex>ονται</ex></expan> <expan>λ<supplied reason="lost">ί<ex>τραι</ex></supplied></expan> <supplied reason="lost">X, <expan>ὀγ<ex>κίαι</ex></expan> X,</supplied> <expan>γρ<ex>άμματα</ex></expan> <num value="11">ια</num> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="7"/><choice><reg>Φαρβαίθων</reg><orig>Φαρβέθων</orig></choice> <gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost" cert="low">Π</supplied> 
+<lb n="8" break="no"/>απέα<ex>ς</ex></expan> καὶ Σαραπίων <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="9"/>Κοπρῆς <choice><reg>τεσσεράριος</reg><orig>τεσαλάριος</orig></choice> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="10"/>Αὐνίων Σαραπίωνος <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/>Οὐε<unclear>ν</unclear>έρ<supplied reason="lost">ιο</supplied><unclear>ς</unclear> Λαί<unclear>ου</unclear> <gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="12"/><unclear>K</unclear>αστορ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main">Copres, a Village tesserarius  of Pharbaithos, in the Arsinoite Nome</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename">1000280</idno>
+               <idno type="TM">1000280</idno>
+               <idno type="HGV">1000280</idno>
+               <idno type="ddb-hybrid">1000280</idno>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve"><p>
+[…] son of Herakl[…] sive Herakleides division […] Germanos, son of Paos […] Pasis, son of Amaius, through Ianuar[ius?… ], Dioskoros and Horion […] Philoxenos, son of Disokoros […]. […] total: [x] pounds, [x ounces], 11 grams […] (The village of) Pharbaithos […] […P?]apea(s) and Sarapion […] Copres, tesserarius […] Aunion, son of Sarapion […] Venerius, son of Laios […] (son of) Kastor/Kastorion […].
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
