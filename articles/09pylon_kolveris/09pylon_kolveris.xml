@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>O. Leid. 681: Α letter attesting the Latin loanword expungere</title>
+            <author>
+               <name>
+                  <forename>Nikolaos</forename>
+                  <surname>Kolveris</surname>
+               </name>
+               <affiliation>University of Athens</affiliation>
+               <email>nkolveri@phil.uoa.gr</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-05-07T09:36:26Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <ref target="https://papyri.info/ddbdp/o.leid%3B%3B681">O. Leid. 681</ref>: Α letter attesting the Latin loanword expungere</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">This ostracon, which is partly transcribed as a descriptum in O.Leid., contains a letter fragment.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> See <ref target="https://papyri.info/biblio/9394">Bagnall, Sijpesteijn and Worp 1980</ref>: 184. The edition of the ostracon is based on the digital photo, which is available at <ref target="https://papyri.info/ddbdp/o.leid%3B%3B681/images">https://papyri.info/ddbdp/o.leid;;681/images</ref>.</p></note> The sherd appears to be broken on all sides. The convex side has a reddish-brown color and preserves six incomplete lines in a fairly legible script, with only a few letters being slightly faded, while the concave is blank. The script points to a date between the third and fourth century.</p>
+            <p xml:id="p2">On the basis of the preserved text, we can only make conjectures about the content of the ostracon, knowing only that the sender dispatched some items to the addressee (ll. 5–6). We may assume that there is also content of a military nature owing to the rare word ἐξπουνγεύεσθαι, which is the loanword used in military contexts for Latin expungere (“to strike off” the name of a soldier from the list of those on active duty, that is, “to discharge” a soldier).<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> On Latin loanwords in Greek see <ref target="https://papyri.info/biblio/97527?q=dickey+latin+loanwords">Dickey 2023</ref>; for an overview of the loanwords used for expungo and its derivatives see ibid. s.v. ἐξπούγγευσις, ἐξπουγγεύω, ἐξπούγκερος, ἐξπούγκτωρ.</p></note> This task was the responsibility of the expunctor, an official of the Roman army charged with the discharge of soldiers. It can also carry the general meaning “to check off” or “to strike off,” i.e. items on a list.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> See L&amp;S s.v. expungo. See also the notes to  <ref target="https://papyri.info/ddbdp/o.claud%3B2%3B258">O.Claud. 2 258</ref>.4–5 (A.D. half II), <ref target="https://papyri.info/ddbdp/p.oxy%3B9%3B1204">P.Oxy. 9 1204</ref>.16 (A.D. 299), <ref target="https://papyri.info/ddbdp/p.kell%3B1%3B21">P.Kell. 1 21</ref>.9 (A.D. 321), and <ref target="https://papyri.info/ddbdp/rom.mil.rec%3B1%3B47">Rom.Mil.Rec. 47</ref> col. 1, 16 (A.D. 223–235).</p></note> Expungo in the sense of “to check off” can likewise be associated with the practice of checking off soldiers who were destined to receive an award.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> Cf. L&amp;S s.v. expungo B and the cited example from Tertullian (Tert. Cor. Mil. 1 expungebantur milites laureati).</p></note></p>
+            <p xml:id="p3">In our text, it is unclear whether the infinitive carries the specific sense of discharging a soldier or the more general meaning of “checking off” or “striking off” items on a list. In papyri and ostraca, however, the verb and its derivatives are attested in military contexts: <ref target="https://papyri.info/hgv/29678">O.Claud. 2 258</ref>.4–5 (A.D. half II): ἐξ|πουγεύσαμεν των (l. τὸ) δονάτιβον); <ref target="https://papyri.info/hgv/21590">P.Oxy. 9 1204</ref>.6–7 (A.D. 299): πρὸς ἐκσφούνγευσιν τῶν ἐκεῖσε διακειμένων στρατιωτῶν, l. 19: ἐκσφουνγεύειν τοὺς στρατιώτας; <ref target="https://papyri.info/hgv/28141">BGU 2 435</ref>.14 (A.D. ΙΙ–ΙΙΙ): ἐξπούγκερος; <ref target="https://papyri.info/hgv/20286">P.Kell. 1 21</ref>.8–9 (A.D. 321): τοὺς π̣αρεπιδημοῦντας στρατιώ|[τας καὶ ὀφ]φικιαλίους ἐκσπούν̣κτορας (l. ἐξπούγκτορας); <ref target="https://papyri.info/hgv/33331">P.Kell. 1 77</ref>.13 (A.D. IV): ἐκσφουγ̣[κτορ-.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> Cf. also the Latin papyri <ref target="https://www.cambridge.org/core/books/abs/corpus-of-latin-texts-on-papyrus/military-documents/8A546F6C56C00AD909FF636BCC276A88">CLTP 3 222</ref>.1-4 (A.D. III): Summa Orontrasium LXX̣ II | absen[tes] VIII | summa aegrorum I[I] | reliqui expu[nge]n[t]ur `LXV[I]´ LX[I]I ; <ref target="https://papyri.info/hgv/44813">Rom.Mil.Rec. 47</ref> col. 1, 16 (A.D. 223–235): [ - ca. 8 -] Ṭ[iminiu]ṣ P̣ạ[u]liṇus dec(urio) adṃissa proṇ[u]ṇṭ[iavit - ca.23 -] iiii Kal(endas) April(es) expungẹnṭur. </p></note> Accordingly, we may reasonably assume that either the recipient, the sender, or someone known to them — perhaps the person referred to by (οὐ) κομψῶς ἔχει in l. 4 — was in military service.</p>
+            <div type="epidoc" subtype="DDB">
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p4"> ] παρὰ Σ̣α̣ρ̣ [  ̣ ̣]  ̣[: The word following παρά is most likely a personal name in the genitive. Since the script shows an upward inclination, the visible trace at the end of the first line must be the descender of χ, ρ, φ, or ι. Two or three letters are missing in the lacuna. Σ̣α̣ρ̣[απ]ί̣[ωνος (<ref target="http://www.trismegistos.org/name/5663">TM Nam 5663</ref>) fits well, but there are other possibilities.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p5"> ]ου κομψῶς ἔχει: Various proposals may be considered in attempting to restore the beginning of l. 4. There appears to be a trace of the upper end of a σ joined to an ο, perhaps the pronoun σου (i.e. σου κομψῶς ἔχει). The sender could thus be informing the recipient that one of his relatives is well, or unwell if the negative οὐ is to be read (οὐ κομψῶς ἔχει).</p>
+                  </note>
+                  <note>
+                     <p xml:id="p6"> ]  ̣ι μου ὅτι ἔπεμψά σοι [: In all likelihood, the letter preceding ι is either κ or α. Although the ending -αι (for the vocatives κύριαί μου or ἀδελφαί μου)<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> For the interchange of ε and αι see <ref target="https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975">Gignac 1976: 193</ref>.</p></note> may at first sight appear tempting, the combination κι is the stronger candidate. From a paleographical point of view, the ligature between the two letters does not appear straight, unlike other attestations of αι written by the hand of the scribe (cf. the αι of γυναικί, ἐξπουνγεύεσθαι and κ]αί). If -κι is correct, then a possible restoration for the beginning of l. 5 would be τῇ γυναι]κ̣ί μου, most likely in the sense of "tell my wife that I sent to you."</p>
+                  </note>
+                  <note>
+                     <p xml:id="p7"> ὅτι ἔπεμψά σοι | [ ca. ? κ]αὶ βησὶν φύνικος̣ φ̣ ̣[: Since the sense of the subordinate clause ὅτι ἔπεμψά σοι continues to the next line we can assume that probably one to two items are lost in the missing text between ll. 5 and 6. However, the sender might have also mentioned the name of the person carrying the items (e.g. with a διά/μετά + name prepositional adverbial phrase). βησσίον “cup” is rare in the papyri and is found again as βησίν in <ref target="https://papyri.info/hgv/27253">P.Ross. Georg. 2 41</ref>.42 (A.D. end II–III, βησίν [l. βησσίον] ἱάλου [l. ὑάλου]), as βησίον in <ref target="https://papyri.info/hgv/15025a">SPP 20 67 V</ref> col.1, 4 (A.D. 199, βησίον κασσιτερ(ινὸν) α), and as βισίν in <ref target="https://papyri.info/hgv/97188">SB 26 16831</ref>.9 (A.D. IV, βισίν [l. βισίον] μέλιτος) (cf. also ἁλατοβήσσιον in Coptic [Sahidic] <ref target="https://papyri.info/hgv/82377">CPR 12 14</ref>.4 [A.D. VII–VIII]). </p>
+                     <p xml:id="p8">For the interchange of υ and οι in φύνικος (l. φοίνικος) see <ref target="https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975/page/197/mode/2up">Gignac 1967: 197</ref>. After the letter φ at the end of the line, a trace of a downward straight stroke is visible, which may be the lower part of an ι. Usually, in the papyri, dates are accompanied by an adjective indicating whether they are dried (ξηρός), green (χλωροί), juicy (πατητοί) or nut-like (καρυωτοί) (cf. <ref target="https://www.taylorfrancis.com/chapters/edit/10.4324/9781351107334-18/egypt-willy-clarysse?context=ubx&amp;refId=6ef5595b-f0db-428b-a27e-8cf0aa031fd8">Clarysse 2018: 224</ref>). However, in attempting to restore the end of the line with any of these adjectives, the visible letter following φύνικος is somewhat smudged and appears to resemble a φ. One might try to read ξ for ξηρός — since π, χ, and κ do not match the letter’s shape at all — on the basis of comparison with the less clearly written ξ of ἐξπουνγεύεσθαι; but the smudged letter’s downstroke leans leftwards rather than rightwards, as in the φ of φύνικος.</p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/9394">Bagnall, R.S., Sijpesteijn, P.J., and Worp, K.A. (1980)</ref> Greek Ostraka. a Catalogue of the Greek Ostraka in the National Museum of Antiquities at Leiden, with a Chapter on the Greek Ostraka in the Papyrological Institute of the University of Leiden. Zutphen.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14684">Bingen, J. et. alii (1997)</ref> Mons Claudianus. Ostraca graeca et latina II (O. Claud. 191 à 416). Cairo.</bibl>
+                  <bibl>
+                     <ref target="https://www.taylorfrancis.com/chapters/edit/10.4324/9781351107334-18/egypt-willy-clarysse?context=ubx&amp;refId=6ef5595b-f0db-428b-a27e-8cf0aa031fd8">Clarysse, W. (2018)</ref> "Egypt," in P. Erdkamp and C. Holleran (eds.), The Routledge Handbook of Diet and Nutrition in the Roman World, London – New York.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97527">Dickey, E. (2023)</ref> Latin Loanwords in Ancient Greek. A Lexicon and Analysis. Cambridge.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/7640">Fink, R.O. (1971)</ref> Roman Military Records on Papyrus. Cleveland.</bibl>
+                  <bibl>
+                     <ref target="https://archive.org/details/gignac-a-grammar-of-the-greek-papyri-of-the-roman-and-byzantine-periods-vol.-1-phonology-1975/mode/2up">Gignac, F.T. (1976)</ref> A Grammar of the Greek Papyri of the Roman and Byzantine Periods. I. Phonology. Milano.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95239">Hunt, A.S. (1912)</ref> The Oxyrhynchus papyri. IX (Nos. 1166–1223), edited with translation and notes. London.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14224">Worp, K.A. (1995)</ref> Greek Papyri from Kellis I: (P. Kell. G.) Nos. 1–90. Exeter.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> παρὰ <unclear>Σαρ</unclear><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ῇ γυναικί μου <unclear>ε</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied><unclear>ξ</unclear>πουν<unclear>γ</unclear>εύεσθαι π<unclear>ε</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ου κομψῶς ἔχει κ<unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ι μου ὅτι ἔπεμψά σοι <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied>αὶ <choice><reg>βησίον</reg><orig>βησὶν</orig></choice> <choice><reg>φοίνικος</reg><orig>φύνικο<unclear>ς</unclear></orig></choice> <unclear>φ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="line"/> 
+</ab>	</div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+[…] to be discharged (?) […] he (or she) is (un)well. […] that I sent to you […] and a cup of dates […]
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
