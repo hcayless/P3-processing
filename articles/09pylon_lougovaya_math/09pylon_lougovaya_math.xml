@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wax-tablet schoolbook in the British Library</title>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Heidelberg University </affiliation>
+               <email>lougovaya@uni-heidelberg.de </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-05-18T15:57:36Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Wax-tablet schoolbook in the British Library</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <note type="acknowledgement">To be added???</note>
+            <div type="section">
+               <head>Introduction</head>
+               <p xml:id="p1" style="text-align: left; text-align: justify;">BL Add MS 33368 (TM <ref target="https://www.trismegistos.org/text/64582">64582</ref>) is a set of eight wooden tablets coated with wax on both sides except for two covers which have wax only on the inner side. It was acquired by the British Museum in 1888 and described by <ref target="https://papyri.info/biblio/95358">Kenyon (1909</ref>: 39) and <ref target="https://papyri.info/biblio/46094">Painter (1967</ref>: 106) but never published.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> For further information on the tablets and published references to them, cf. the page in the British Library <ref target="https://searcharchives.bl.uk/catalog/032-001628106">https://searcharchives.bl.uk/catalog/032-001628106</ref>.</p></note> Kenyon writes that the tablets have “remains of scribblings, some of which have a grammatical character, such as a list of the names of cases. … [A]nd on one of the pages is a drawing in which a lively imagination may discern a portrait of the schoolmaster.” Painter could not discern any more than that, nor could Cribiore (<ref target="https://papyri.info/biblio/14384">1996</ref>, no. 401), who must have consulted photographs but, unsurprisingly, found them illegible. Thanks to a collaborative project between the Center for the Tebtunis Papyri and the British Library I was able to work with high resolution images of the tablets and to determine that besides the list of cases recognized by Kenyon on one of them four further pages bear tables of addition. In what follows I offer an edition of the codex with photographs of all the tablets, including those with only occasional remains of letters and some drawings. For the page with an apparent depiction of a human figure Roderick Geerts of Leiden University provided a drawing that makes it a little easier to see the figure. </p>
+            </div>
+            <div type="section">
+               <head>Physical Description and Dating</head>
+               <p xml:id="p2" style="text-align: left; text-align: justify;">All eight tablets apparently derive from the same codex, which was likely reused multiple times. The leaves measure ca. 17.5 cm × 10.8 cm. with the margins surrounding the waxed field ranging from 0.75 to 0.9 cm. There are two pairs of holes on one of the long sides of the tablets, and the inscribed pages demonstrate that the codex was oriented vertically. The format and the small size of the codex find a parallel in the mid-fourth-century schoolbook of Aurelius Antonius (<ref target="https://papyri.info/dclp/61386">P. L. Bat. 25 15</ref>; TM <ref target="https://www.trismegistos.org/text/61386">61386</ref>), which measures 12.9 cm × 17.8 cm, also has two pairs of holes on one of the long sides, but is of a horizontal orientation. It contains five tablets, with all but one of the inscribed pages bearing a quotation from <seg style="font-style: italic;">Ad Demonicum</seg>. The exceptional page, IVA, is inscribed with a list of trisyllabic words beginning in nu and a multiplication table for 40. </p>
+               <p xml:id="p3" style="text-align: left; text-align: justify;">Another similar codex is the schoolbook of Ammonius (T. Varie https://papyri.info/dclp/61386–32; TM <ref target="https://www.trismegistos.org/text/64510">64510</ref>), which measures 17 × 13 cm. Each of its five leaves features a pair of double holes on a long side, but the 2.5 cm margins are wider than those in the BL and Leiden tablets, and the direction of writing varies with some tablets oriented horizontally (24–27) and others vertically (29–32). The codex contains a poem about the Nile, a division table, and several accounts; it is dated to the early 4th century (T. Varie, p. 102).</p>
+               <p xml:id="p4" style="text-align: left; text-align: justify;">For BL Add MS 33368 Kenyon proposed a date in 4th–5th century. The similarity of this codex to P. L. Bat. 25 15 and T. Varie 23–32 in both format and content—with literary or grammatical texts combined with some basic arithmetic—suggests the same chronological frame, that is, some time in the 4th century. This impression is reinforced by the similarity of lettering between BL Add MS 33368, the poem on the Nile in T. Varie 24–25, and the multiplication table in P. L. Bat. 25 15 page IVA. Absence of any features characteristic of a Christian environment might point to a date in the earlier part of the 4th century. Both the writing medium (wax tablets) and the nature of inscribed texts, which are likely to have been excerpted from larger arithmetical and grammatical synopses, on which see below, indicate that the codex was likely used for school exercises.</p>
+            </div>
+            <div type="section">
+               <head>Tables of Addition</head>
+               <p xml:id="p5" style="text-align: left; text-align: justify;">Pages 3r, 4v, 5v and 8r are inscribed with sections from an addition table, namely those for 20+ (3r), 50+ (4v), 40+, 60+ and 70+ (5v) and again 70+ (8r). The format is always <seg style="font-style: italic;">a </seg>× 10 + <seg style="font-style: italic;">b </seg>× 10 where 1 ≤ <seg style="font-style: italic;">a </seg>≤  <seg style="font-style: italic;">b </seg>≤ 9, followed by the sum of inverted summands, <seg style="font-style: italic;">b </seg>× 10 + <seg style="font-style: italic;">a </seg>× 10, except that the first sum is followed by a doubling of the first summand introduced by multiplicand 2 (β). Each pair of additions is separated from the next by a line, while on page 5 verso sections for 40+ and 60+, which are written in the same column, a separated by a decorative band.  </p>
+               <p xml:id="p6" style="text-align: left; text-align: justify;">Although addition tables are the least represented of arithmetical tables in Greek papyrological evidence, different types can be distinguished. Guiseppina <ref target="https://papyri.info/biblio/97645">Azzarello (2021)</ref> discerns two patterns: in one, numbers of the same series of units, tens, or thousands are added with the second summand equaling or bigger than the first, and, in the other, a number from a series is summed with all numbers of the same series. I am inclined to a slightly modified classification with the first kind split into two types. Tables of Type I, ‘complete addition tables’, comprise all unique sums from 1+1 to 9,000+9,0000; Type II, ‘school tables’, is based on Type I, differing from it only in supplementing each entry with an addition of reversed summands and demonstrating thereby the commutative property of the operation of addition, which users of Type I must have taken for granted. Tables of Type II seem to have been often excerpted, likely for learning purposes. Type III encompasses examples of lists of additions that were less systematic and more limited in scope, likely produced as exercises<seg style="font-style: italic;">.</seg> Addition tables in BL Add MS 33368 belong to Type II, school tables derived from more comprehensive and concise ones of Type I and probably used for practicing sections of a complete addition table. Parallels are listed below under section Type II.</p>
+            </div>
+            <div type="section">
+               <head>Type I: Complete Addition Tables</head>
+               <p xml:id="p7" style="text-align: left; text-align: justify;">Tables of this type contain 180 unique additions from 1+1 to 9,000+9,000, listing them in the form <seg style="font-style: italic;">a </seg>× 10<seg style="font-style: italic;">n</seg> + <seg style="font-style: italic;">b </seg>× 10<seg style="font-style: italic;">n</seg> where 1 ≤ <seg style="font-style: italic;">a </seg>≤ <seg style="font-style: italic;">b </seg>≤ 9<seg style="font-style: italic;">, </seg>0 ≤ <seg style="font-style: italic;">n </seg>≤ 3. A complete addition table has four series, each with 45 entries, for units, tens, hundreds, and thousands. Each series of 45 entries is comprised of nine sections for summands from one to nine, 10 to 90, 100 to 900 and 1000 to 9000, respectively. Since in each section the second summand (<seg style="font-style: italic;">b</seg>) equals or is bigger than the first (<seg style="font-style: italic;">a </seg>≤ <seg style="font-style: italic;">b</seg>), the number of entries in each section decreases from nine to one. The series for units can be visualized as follows:</p>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">1+1=2</cell>
+                     <cell style="text-align: left;">2+2=4</cell>
+                     <cell style="text-align: left;">3+3=6</cell>
+                     <cell style="text-align: left;">4+4=8</cell>
+                     <cell style="text-align: left;">5+5=10</cell>
+                     <cell style="text-align: left;">6+6=12</cell>
+                     <cell style="text-align: left;">7+7=14</cell>
+                     <cell style="text-align: left;">8+8=16</cell>
+                     <cell style="text-align: left;">9+9=18</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1+2=3</cell>
+                     <cell style="text-align: left;">2+3=5</cell>
+                     <cell style="text-align: left;">3+4=7</cell>
+                     <cell style="text-align: left;">4+5=9</cell>
+                     <cell style="text-align: left;">5+6=11</cell>
+                     <cell style="text-align: left;">6+7=13</cell>
+                     <cell style="text-align: left;">7+8=15</cell>
+                     <cell style="text-align: left;">8+9=17</cell>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1+3=4</cell>
+                     <cell style="text-align: left;">2+4=6</cell>
+                     <cell style="text-align: left;">. . .</cell>
+                     <cell style="text-align: left;">. . .</cell>
+                     <cell style="text-align: left;">. . .</cell>
+                     <cell style="text-align: left;">. . .</cell>
+                     <cell style="text-align: left;">7+9=16</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1+4=5</cell>
+                     <cell style="text-align: left;">2+5=7</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">6+9=16</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1+5=6</cell>
+                     <cell style="text-align: left;">2+6=8</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">5+9=14</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1+6=7</cell>
+                     <cell style="text-align: left;">2+7=9</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;">4+9=13</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1+7=8</cell>
+                     <cell style="text-align: left;">2+8=10</cell>
+                     <cell style="text-align: left;">3+9=12</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1+8=9</cell>
+                     <cell style="text-align: left;">2+9=11</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1+9=10</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+               </table>
+               <p xml:id="p8" style="text-align: left; text-align: justify;">The series for tens starts with 10+10=20 and ends with 90+90=180, and so on. A complete addition table of this format, in Armenian but certainly derived from Greek sources, is transmitted in Anania Shirakatsi’s <seg style="font-style: italic;">Book of Arithmetic </seg>which begins with a section on tables for four arithmetic operations—addition, subtraction, multiplication and division.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> Cf. <ref target="https://papyri.info/biblio/97642">Baghdasarian 2015</ref>: 62–65; <ref target="https://papyri.info/biblio/97647">Aslanyan 2024</ref>: 3; <ref target="https://papyri.info/biblio/97641">Hewsen 1968</ref>: 42.</p></note> The tables, which are followed by problems and mathematical riddles, seem to serve as the summary of and thus the basis for acquiring the techniques of arithmetic.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> In the introduction Anania writes, in Baghdasarian’s translation (<ref target="https://papyri.info/biblio/97642">2015</ref>: 62): “I’m going to explain to you the techniques of arithmetic which emerged as the voice of ancestors. Learn my tables. Although I summarized extensive texts to be not boring to you, but to some extent I have also made them easy and simple in order that you can learn them completely. Now I start from the most simple and low level and I have taken to account the scientific level of children and those who are not familiar to the subject. Primary instruction of arithmetic which is called addition.”</p></note> </p>
+               <p xml:id="p9" style="text-align: left; text-align: justify;">In the papyrological evidence, <ref target="https://papyri.info/dclp/63312">P.Rain.Unterricht 150</ref> and <ref target="https://papyri.info/dclp/63192">151</ref> are the best-preserved examples. <ref target="https://papyri.info/dclp/63192">P.Rain.Unterricht 151</ref> (1st c., Soknopiou Nesos; TM <ref target="https://www.trismegistos.org/text/63192">63192</ref>), which is inscribed on the verso of a long roll containing problems in solid geometry, MPER n.s. 1 1, contains an almost completely preserved table of Type I: it begins with 1+1 and ends with 9,000+9,000 followed by an extra entry for 10,000+10,000 (I call it ‘extra’ because no table for tens of thousands follows), but it is missing sections for 30+ and 40+, probably inadvertently left out by the copyist. <ref target="https://papyri.info/dclp/63312">P.Rain.Unterricht 150</ref> (3rd c.; TM <ref target="https://www.trismegistos.org/text/63312">63312</ref>) has the whole series for units and the sections for 10+ and 20+ from the series for tens. In this papyrus, each section is separated by a paragraphos.</p>
+            </div>
+            <div type="section">
+               <head>Type II: School Addition Tables</head>
+               <p xml:id="p10" style="text-align: left; text-align: justify;">In the tables of this format, the first entry of each section is followed by the doubling of the summand expressed either by adverb δίς (‘twice’) or numeral β (for ‘2 ×’). Thus, <seg style="font-style: italic;">a </seg>+ <seg style="font-style: italic;">a </seg>is followed by 2 × <seg style="font-style: italic;">a</seg>, while all subsequent entries include the additions of the inversed summands, i.e. <seg style="font-style: italic;">a </seg>+ <seg style="font-style: italic;">b </seg>then <seg style="font-style: italic;">b </seg>+ <seg style="font-style: italic;">a</seg>. A complete table of this format would need to have 360 entries grouped into four series with 90 entries each, and it would be unnecessarily redundant for a person aware of the commutative quality of addition.</p>
+               <p xml:id="p11" style="text-align: left; text-align: justify;">Papyrological attestations of addition tables of this type include <ref target="https://papyri.info/dclp/244048">P.Mich, inv. 4435a</ref> (late 2nd–early 4th c.; TM <ref target="https://www.trismegistos.org/text/244048">244048</ref>),<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> In the ed.pr. (<ref target="https://papyri.info/biblio/86457">Litinas and Bay 2012</ref>), it is misleadingly called “an addition and multiplication table.”</p></note> which preserves entries from the end of 5+ to the beginning of 50+ and introduces doubling of the first summand with δίς; <ref target="https://papyri.info/dclp/68824">P. Köln Gr. 9 371</ref> (2nd c.; TM <ref target="https://www.trismegistos.org/text/68824">68824</ref>), with partially preserved entries for 1+, 2+, 3+, 4+, 5+ and 7+, also with δίς for doubling; and T. Varie 37 and 38 (3rd–5th c.; TM <ref target="https://www.trismegistos.org/text/64365">64365</ref>), which belong to the same schoolbook, but seem to be written in different hands. T. Varie 37 has additions for 5+ with the doubling introduced by δίς, while T. Varie 38 is inscribed with the section for 200+, and the numeral β is used for the doubling. The tables in the wooden codex published here, BL Add MS 33368, also belongs to this format. </p>
+               <p xml:id="p12" style="text-align: left; text-align: justify;">The inclusion of additions of the inverted summands suggests that this format of tables was used for educational purposes at a fairly basic level. This impression is reinforced by the fact that in two instances, T.Varie 37–38 and BL Add MS 33368, the tables are written on wax tablets, a common medium for writing elementary school exercises. Furthermore, in both cases the entries are clearly a product of excerpting of or of practicing sections for only one or a few summands. Whether the table in <ref target="https://papyri.info/dclp/68824">P. Köln Gr. 9 371</ref>, which preserves the series for units, extended further or how extensive <ref target="https://papyri.info/dclp/244048">P.Mich, inv. 4435a</ref> originally was, is impossible to determine, but the writing in both papyri does not look proficient and both may well be inscribed by students.</p>
+            </div>
+            <div type="section">
+               <head>Type III: Addition Exercises</head>
+               <p xml:id="p13" style="text-align: left; text-align: justify;">Addition tables of Type III comprise several lists of additions in which a given number—in all surviving instances smaller than 10—is summed up with numbers from one to nine. The sums are often accompanied by an inversion. Examples include P.Berol. inv. 14000 (4th–5th c.; SB 3 6215 = TM <ref target="https://www.trismegistos.org/text/64557">64557</ref>), a wax tablet with additions from 8+1 to 8+9, with 8+8 accompanied by 2 × 8 and 8+9 by an inversion 9+8; SB 18 13578 (4th–5th c.; TM <ref target="https://www.trismegistos.org/text/32999">32999</ref>), a wax tablet with additions from 8+1 to 8+9 and from 9+1 to 9+9, with all entries featuring an inversion and thusly formed pairs separated by lines; <ref target="https://papyri.info/dclp/66384">MPER n.s. 18 306a</ref> (5th–6th c.; TM <ref target="https://www.trismegistos.org/text/66384">66384</ref>), a small piece of papyrus with parts of sections for 6+ and 7+, also with inversions and separation of pairs; and <ref target="https://papyri.info/dclp/63419">O.Claud. 2 416</ref> (2nd c.; TM <ref target="https://www.trismegistos.org/text/63419">63419</ref>), an ostracon preserving sums from 1+1 to 1+9 and traces of the first two entries for 2+, with each addition marked off by a paragraphos. These lists of additions are not systematic and are exercises rather than tables properly speaking. </p>
+            </div>
+            <div type="section">
+               <head>Names of grammatical cases and numbers</head>
+               <p xml:id="p14" style="text-align: left; text-align: justify;">The list of cases and numbers inscribed on page 6v finds a closest parallel in <ref target="https://papyri.info/dclp/64496">P.Ant. 2 68</ref> (4th c.; TM <ref target="https://www.trismegistos.org/text/64496">64496</ref>). Recto col. 1 of this papyrus enumerates three genders (ll. 33–36), three numbers (ll. 37–40) and five cases (ll. 41–46). But while <ref target="https://papyri.info/dclp/64496">P.Ant. 2 68</ref> follows the usual sequence by placing the numbers before the cases, cf. Dion. Thrax, <seg style="font-style: italic;">Ars gram</seg>. 1.1.24, 62 and 64 (Uhlig) under the properties of noun, article, and pronoun, respectively, the text published here lists first the cases and then the numbers. This is a somewhat odd arrangement because the cases are already grouped by numbers in the first part of the text, and it suggests that the tablet is a product of exercise, not of systematic copying.</p>
+               <p xml:id="p15" style="text-align: left; text-align: justify;">	More common in papyrological evidence are exercises in which an actual word or a clause are declined. A codex of wax tablets published in <ref target="https://papyri.info/biblio/95476">Ziebart 1913</ref>, no. <ref target="https://papyri.info/dclp/63794">49</ref> (2nd–3rd c.; TM <ref target="https://www.trismegistos.org/text/63794">63794</ref>), contains declensions of three clauses: ὁ χρηστὸς πατήρ, ἡ ἀγαθὴ παραίνεσις, and τὸ φιλάνθρωπον ἦθος;  <ref target="https://papyri.info/dclp/64865">PSI inv. 2052</ref> (4th c., Antinoopolis; TM <ref target="https://www.trismegistos.org/text/64865">64865</ref>) has declensions of ὁ παῖς and ὁ καλός; <ref target="https://papyri.info/dclp/64828">PSI inv. 479</ref> (4th c., Antinoopolis; TM <ref target="https://www.trismegistos.org/text/64828">64828</ref>) contains the adjective σοφός  declined in three genders and three numbers, and the proper nouns ὁ Πρίαμος and ἡ Ἑκάβη in three numbers.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> PSI inv. 2052 and 479 are edited in <ref target="https://papyri.info/biblio/37265">Zalateo et al. 1940</ref> as nos. 1 and 3 correspondingly, where both papyri are dated to 5th–6th c. For the earlier date followed here, cf. <ref target="https://papyri.info/biblio/97644">Del Corso 2016</ref>: 182–184.</p></note> </p>
+            </div>
+            <div type="section">
+               <head>V. Text</head>
+            </div>
+            <div type="section">
+               <head>Page 1 verso. Figure 1.</head>
+               <p xml:id="p16" style="text-align: left; ">The cover side of the codex with no field for wax.</p>
+            </div>
+            <div type="section">
+               <head>Page 1 recto. Figure 2.</head>
+               <p xml:id="p17" style="text-align: left; ">No discernible writing.</p>
+            </div>
+            <div type="section">
+               <head>Page 2 recto. Figure 3.</head>
+               <p xml:id="p18" style="text-align: left; ">Some disparate lines, both straight and curved. Some impressions of letters might be accidental. </p>
+            </div>
+            <div type="section">
+               <head>Page 2 verso. Figures 4–5</head>
+               <p xml:id="p19" style="text-align: left; ">With tablet positioned so the holes are on the right-hand side, one can recognize in the upper half of the tablet a drawing of a head on an exaggeratedly thick neck and possibly arms raised up at elbows at a right angle. This must be what Kenyon referred to as “drawing in which a lively imagination may discern a portrait of the schoolmaster.” Whether there is another meaningful drawing to the left of it at about the middle of the tablet—of another head on a neck?—is difficult to say. The scratches in the lower right corner of the page do not seem purposeful. </p>
+            </div>
+            <div type="section">
+               <head>Page 3 recto. Figure 6.</head>
+               <p xml:id="p20" style="text-align: left; ">Addition table for 20+</p>
+            </div>
+            <div type="section">
+               <head>Page 3 verso. Figure 7.</head>
+               <p xml:id="p21" style="text-align: left; ">With the holes on the right-hand side, there might be some writing under the upper edge of the tablet, but no letter is determinable beyond doubt. About a third of the surface is covered by a piece of textile mesh apparently stuck to the wax.</p>
+            </div>
+            <div type="section">
+               <head>Page 4 verso. Figure 8.</head>
+               <p xml:id="p22" style="text-align: left; ">Addition table for 50+</p>
+            </div>
+            <div type="section">
+               <head>Page 4 recto. Figure 9.</head>
+               <p xml:id="p23" style="text-align: left; ">There are numerous similarly looking small strokes in the wax surface, which do not appear to form letters.</p>
+            </div>
+            <div type="section">
+               <head>Page 5 verso. Figure 10.</head>
+               <p xml:id="p24" style="text-align: left; ">Addition tables for 40+, 60+ and 70+</p>
+            </div>
+            <div type="section">
+               <head>Page 5 recto. Figure 11.</head>
+               <p xml:id="p25" style="text-align: left; ">With the holes on the right, a few letters in the top left corner are discernible. In the middle of the tablet, there are two crudely drawn decorative bands.</p>
+               <p xml:id="p26" style="text-align: left; ">σαβ̣α̣   ̣  ̣  ̣ </p>
+            </div>
+            <div type="section">
+               <head>Page 6 recto. Figure 12.</head>
+               <p xml:id="p27" style="text-align: left; ">	Many strokes are visible in the wax, some of them may have once formed letters, now unidentifiable. In the lower third (with the holes on the right), there are two circular joining (?) shapes. </p>
+            </div>
+            <div type="section">
+               <head>Page 6 verso. Figure 13.</head>
+               <p xml:id="p28" style="text-align: left; ">List of grammatical cases and numbers</p>
+            </div>
+            <div type="section">
+               <head>Page 7 recto. Figure 14.</head>
+               <p xml:id="p29" style="text-align: left; ">A few disparate letters and some slanting strokes that may or may not have once belonged to letters are visible.</p>
+            </div>
+            <div type="section">
+               <head>Page 7 verso. Figure 15.</head>
+               <p xml:id="p30" style="text-align: left; ">No writing is discernible</p>
+            </div>
+            <div type="section">
+               <head>Page 8 recto. Figure 16.</head>
+               <p xml:id="p31" style="text-align: left; ">Addition table for 70+</p>
+            </div>
+            <div type="section">
+               <head>Page 8 verso. Figure 17.</head>
+               <p xml:id="p32" style="text-align: left; ">Unwaxed cover side.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97647">Aslanyan, V. (2024)</ref> “The mathematical work of Anania Shirakatsi,” arXiv</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97645">Azzarello, G. (2021)</ref> “Arithmetical Tables,” Oxford Classical Dictionary<seg style="font-style: italic;">.</seg> 26 Apr. 2021.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97642">Baghdasarian, E (2015)</ref> History of Mathematics in Armenia, Toronto.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/14384">Cribiore, R. (1996)</ref> Writing, Teachers, and Students in Graeco-Roman Egypt, Atlanta, Georgia</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97644">Del Corso, L. (2016)</ref> “Osservazioni sulla datazione di alcuni frammenti di codici da Antinoupolis,” in: M. Capasso - M. De Nonno (edd.), Studi paleografici e papirologici in ricordo di Paolo Radiciotti, Galatina, pp. 167–192. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97641">Hewsen, R. (1968)</ref> “Science in Seventh-Century Armenia: Ananias of Sirak,” Isis 59 (1968), pp. 32–45.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95358">Kenyon, F. (1909)</ref>  “Two Greek school tablets,” JHS 29: 29–40.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86457">Litinas, N. and Bay, S. (2012)</ref> “An Addition and Multiplication Table,” BASP 49: 15–19. </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/46094">Painter, K. (1967)</ref> “A Roman Writing Tablet from London,” BMQ 31: 101–110.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96839">Plaumann, G. (1913)</ref> “Antike Schultafeln aus Ägypten,” Amtliche Berichte aus den königlichen Kunstsammlungen 34/11: 210 –223.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/37265">Zalateo at al. (1940)</ref> “Papiri Fiorentini inediti,” Aegyptus 20: 3–20.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95476">Ziebarth, E. (1913)</ref> Aus der antiken Schule. Sammlung griechischer Texte auf Papyrus, Holztafeln, Ostraka, Bonn.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
