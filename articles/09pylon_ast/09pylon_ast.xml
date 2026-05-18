@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notes on Papyri, Ostraca and Inked Tortoise Shell from Qasr Ibrim, Didymoi, Berenike and Quseir</title>
+            <author>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
+               <affiliation>Institut für Papyrologie</affiliation>
+               <email>
+                  <ref target="mailto:ast@uni-heidelberg.de">ast@uni-heidelberg.de</ref>
+               </email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-05-18T08:58:22Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">Notes on Papyri, Ostraca and Inked Tortoise Shell from Qasr Ibrim, Didymoi, Berenike and Quseir</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Latin Letter from Qasr Ibrim </seg>
+               </head>
+               <p xml:id="p1" style="text-align: left; ">A Latin letter on papyrus dated to the late 20s BCE from Qasr Ibrim published in 2021 has garnered little attention.<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; "> <ref target="https://papyri.info/biblio/97682">Derda, Łajtar, and Płóciennik 2021</ref>: 93–99.</p></note> At the time of preparing these notes, it could be found in neither papyri.info nor Trismegistos. Moreover, it was not published in the Corpus of Latin Texts on Papyrus, having come to the attention of the corpus editors too late. Its fragmentary state makes it difficult to follow, but it quite clearly comes from a private letter. </p>
+               <p xml:id="p2" style="text-align: left; ">The edition contains a questionable passage at the end of the main column of writing that deserves closer attention. Lines 8–9 have fac ṣaepiṛẹ, f̣ịḷị, scr[iba]s, “order to fence, my son. Keep writing (to me).” The purported reference to “fencing” (saepire) comes entirely out of the blue and makes the editors question the very nature of their document. They point out that “it is difficult to reconcile the private character of the letter with the sentence fac saepire (‘order to fence’), containing, as it seems, a recommendation or order regarding how to deal with an external threat, such as, for example, an attack of the Meroitic troops.” This statement and the fact no other interpretations are considered suggest that they take the expression fac saepire for granted. </p>
+               <p xml:id="p3" style="text-align: left; ">Yet, these lines admit another interpretation. The first and last words of the quoted passage contain the phrase <seg style="font-style: italic;">fac…scribas</seg>, which is little more than English “please write,” an expression entirely at home in Latin epistolography.<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; "> It is encountered in Latin literature in Cic. ad Fam. VIII 1.3 (perscribas) and Fronto Ad M. Caes. iv. 4 (Naber, p. 66). Cf. <ref target="https://papyri.info/biblio/97683">Salonius 1927</ref>: 15.</p></note> It finds its equivalent in Greek letters, for example, in <ref target="https://papyri.info/hgv/18653">BGU 4 1203</ref> (29 BCE), καλῶς ποιήσεις γράψαι, or in the related expression frequently encountered in Ptolemaic letters, καλῶς ποιήσεις γράψας.<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; "> There are nearly twenty third-century BCE examples recorded in papyri.info—<ref target="https://papyri.info/search?STRING=(%22%CE%BA%CE%B1%CE%BB%CF%89%CF%82%20%CF%80%CE%BF%CE%B9%CE%B7%CF%83%CE%B5%CE%B9%CF%83%22%20THEN%20%CE%B3%CF%81%CE%B1%CF%88%CE%B1%CF%82)~1chars&amp;no_caps=on&amp;no_marks=on&amp;target=text&amp;DATE_MODE=LOOSE&amp;DOCS_PER_PAGE=15">https://papyri.info/search?STRING=("καλως ποιησεισ" THEN γραψας)~1chars&amp;no_caps=on&amp;no_marks=on&amp;target=text&amp;DATE_MODE=LOOSE&amp;DOCS_PER_PAGE=15</ref>.</p></note> </p>
+               <p xml:id="p4" style="text-align: left; ">The commonness of the everyday phrase <seg style="font-style: italic;">fac…scribas</seg> immediately invites suspicion of <seg style="font-style: italic;">fac saepire,</seg> even before one looks at what was written on the papyrus (Fig. 1). FIGURE 1</p>
+               <p xml:id="p5" style="text-align: left; ">Indeed, a closer look at the image reveals the reading of <seg style="font-style: italic;">saepire</seg> to be problematic. The editors rightly say that r is not typical of the letterform as it appears elsewhere in the papyrus. In fact, the character understood as r does not resemble any letter in the document. If anything, it looks like a Greek <seg style="font-style: italic;">epsilon</seg>. However, an <seg style="font-style: italic;">epsilon</seg>-looking e is not likely correct, not only because it is out of place in a Latin document but also because it would leave us with either <seg style="font-style: italic;">saepieị</seg> or <seg style="font-style: italic;">saepieṣ</seg>, neither of which gives good sense. The sequence <seg style="font-style: italic;">saep-</seg> suggests a form of the adverb <seg style="font-style: italic;">saepe</seg>. If we presume <seg style="font-style: italic;">saepius </seg>was intended, we get closer to a sensible reading, but the paleography needs explaining. The best explanation seems to be that the writer traced u twice. The first attempt was abandoned at the baseline, while the second resulted in a raised ligature shared by u and s.<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; "> Alternatively, one could suppose that he started to write e, for saepe, before changing to us.</p></note> This type of ligature is encountered in other Latin papyri and is perfectly natural here. FIGURE 2</p>
+               <p xml:id="p6" style="text-align: left; ">But the final-s is also not self-evident. At first glance, it appears that the bottom of the letter rested on the baseline and did not descend below it, as it normally does in this document, one exception being the second s in <seg style="font-style: italic;">esse</seg> (l. 6). However, a hole at the baseline level seems to be responsible for this impression. If we follow the line below the hole, we can see that the stroke descends before it is erased by abrasion only to reappear below a second, smaller hole. These traces are entirely consistent with the bottom of other s’s and yet incompatible with the purported e of saepire. Thus, we are left with the expression fac saepiụṣ, fili, scr[iba]s, “see to it that you write more often, son,” which is very much at home in a private letter.<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; "> Cf., e.g., πυκνότερόν μυ (l. μοι) γράψον in <ref target="https://papyri.info/hgv/88690">O.Krok. 1 93</ref>.3-4, with comm. ad loc.</p></note> FIGURE 2</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Εdition of </seg>
+                  <ref target="https://papyri.info/hgv/144597">O.Did. 30</ref>
+                  <seg style="font-weight: bold;"> descr.</seg>
+               </head>
+               <table>
+                  <row>
+                     <cell style="text-align: left;">O.Did. 30 descr.</cell>
+                     <cell style="text-align: left;">9 × 18 cm</cell>
+                     <cell style="text-align: left;">discarded c. 220 – c. 240</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">D414+D416 – CSA 445+447</cell>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+               </table>
+               <p xml:id="p7" style="text-align: left; ">The text of <ref target="https://papyri.info/hgv/144597">O.Did. 30</ref> was published as a descriptum with a few pieces of information and expressions noted in the introduction, namely, what was thought to be the recipient’s name (Maximus), the date in line 19 (Pauni 29) and the following terms:</p>
+               <p xml:id="p8" style="text-align: left; ">	l. 8: ]μαρτυρη[; l. 10: --- τὸ ἔργον περι ̣ ̣ ̣[ ; l. 11 :]  ̣ ̣ρι ̣μου πραιτεριτ ̣[  ; l. 13: --- καὶ 	οὐκ ἔχομεν πῶς ; l. 15 : --- διευεργετημένος ---. C’est la seconde attestation du verbe 	διευεργετέω, qui n’était autrement connu jusqu’ici que par une scholia d’Eschyle.</p>
+               <p xml:id="p9" style="text-align: left; ">More points of interest can be identified in the text, so that, in my view, it warrants a full edition.<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; "> I thank Adam Bülow-Jacobsen for sharing color and infrared photos of the ostracon with me. An infrared photo of the piece is available via <ref target="https://papyri.info/hgv/144597">O.Did. 30</ref>. The edition presented here benefited from comments by H. Cuvigny.</p></note> </p>
+               <p xml:id="p10" style="text-align: left; ">The ostracon preserves part of what seems to be an official letter from a man named either Cocceius or Cocceius Maximus to another person, who is perhaps called ‘Maximus’, if this was not part of Cocceius’ name. It is broken on three sides (left, right and bottom). How long the original lines were is impossible to say. There is little connected sense between them, which suggests that the ostracon was considerably wider than it now is. </p>
+               <p xml:id="p11" style="text-align: left; ">The text is undated, but the archeological context points to the first decades of the third century. The last lines, beginning with line 17, concern the dispatch of something (perhaps ἐπιστολαί, but see comm. ad loc.) by the curator at Kompasi, followed in lines 20ff. by what could be the beginning of a new letter addressed to the curator of Didymoi. Kompasi was located ca. 60 km southeast of Didymoi on the Coptos–Berenike road. The reference to the curators of those forts shows that communication along the road was still routine in the first decades of the third century.<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; "> The early decades of the third century saw considerable activity in this part of the Eastern Desert; see Brun 2018: §19.</p></note> A further testament to this is <ref target="https://papyri.info/hgv/144596">O.Did. 29</ref>, from 236 CE, a circular letter addressed by a member of the military command named Aurelius Sarapammon to the curators of all the praesidia between Phoinikon and Berenike (τοῖς ἀπὸ Φοινικῶνος μέχρι Βερενίκης). It contains a communication of the prefect Maevius Honoratianus regarding Maximinus Thrax’s proclamation of his son Maximus as Caesar. </p>
+               <p xml:id="p12" style="text-align: left; ">The exact nature of the document preserved in <ref target="https://papyri.info/hgv/144597">O.Did. 30</ref> is unclear. The writer begins it by saying that he received something from an interpreter (ἑρμηνεύς). It is natural to think that what he received was a translation of the communication he describes. What language it originally was in, we are not told. The professional title ἑρμηνεύς is relatively uncommon in documents, a surprising fact given that language mediation would have been a common occurrence in Greco-Roman Egypt. The term and its cognates were used to denote the translation of the Latin language in legal contexts.<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; "> Mairs 2020: 56, 59–64. </p></note> A good example of this from the Eastern Desert is afforded by P.Bagnall 8 from Mons Claudianus, in which the verb μεθερμηνεύω describes a Greek translation of a prefectural decision written originally in Latin (<ref target="https://papyri.info/hgv/219289">P.Bagnall 8</ref>.2; 186/187). If <ref target="https://papyri.info/hgv/144597">O.Did. 30</ref> also concerns a Greek translation of a Latin communication, then it too might relate to a letter of the prefect of Egypt. </p>
+               <p xml:id="p13" style="text-align: left; ">Alternatively, the term ἑρμηνεύς could refer to the interpreter of a more exotic language, such as Blemmye, Palmyrene Aramaic, even Indian. Third-century ostraca from the fort of Xeron Pelagos on the Coptos–Berenike road published by H. Cuvigny in O.Blemmyes attest interactions between the Blemmye population and Greek speakers. The texts contain a rare example of the Blemmye language in the form of a repeated expression deciphered as ωευ̣ρ̣ευεξ but thus far unexplained. Such documents show that language mediation was happening among the Blemmye and Greek speakers at the forts on this road in this period.</p>
+               <p xml:id="p14" style="text-align: left; "><ref target="https://papyri.info/hgv/144597">O.Did. 30</ref> is not the only text from the area that refers to an interpreter. The port of Berenike preserves the relatively high number of five attestations of the term ἑρμηνεύς. Two relate to Blemmye/Beja interpreters; two others, perhaps to Meroitic and Arabian interpreters.<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; "> A Blemmye interpreter is found in a building inscription set up on behalf of the Blemmye king Isemne; see <ref target="https://papyri.info/biblio/95924">Ast and Rądkowska 2020</ref>. Pages 154–156 of that article offer initial observations on the topic of interpreters in Berenike. A more detailed analysis, including editions of all the inscriptions preserving references to the profession, is forthcoming.</p></note> Only one of the five might concern a Latin or Egyptian speaker.<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; "> <ref target="https://papyri.info/hgv/105713">O.Berenike 2 121</ref>. I reexamined this inscription in 2024 and had strong doubts about the reading of the interpreter’s name as Παπῖρις in the editio princeps. It rather appears to begin in Paur-.</p></note> For this reason and because <ref target="https://papyri.info/hgv/144597">O.Did. 30</ref> was composed and transmitted within the larger sphere of Berenike (i.e, within the “desert of Berenike”), we cannot rule out the possibility that it has to do with a member of the Blemmye population or with a visitor from farther afield. Foreigners were surely not an uncommon sight in the Eastern Desert, as evidenced, for example, by several bilingual inscriptions from the port, such as the Greek-Sanskrit dedication of an Indian visitor to the central Isis temple which is dated in September 248.<note place="foot" xml:id="ftn11" n="11"><p style="text-align: left; "> Ast, Bhandare, and Strauch in <ref target="https://papyri.info/biblio/97679">Sidebotham, Ast, Bergmann et al. 2025</ref>: 269–276. Additional bilingual inscriptions from the port, both published and unpublished, survive in Greek-Palmyrene Aramaic (<ref target="https://doi.org/10.1163/1874-6772_seg_a49_2117">SEG 49 2117</ref>; <ref target="https://www.trismegistos.org/text/143263">TM 143263</ref>), Greek-Tamil (2nd/3rd cent.; forthcoming), and Greek-Ge’ez (ca. 336; forthcoming). </p></note></p>
+               <p xml:id="p15" style="text-align: left; ">Line 16 of the ostracon seems to preserve part of a farewell greeting that marks the end of a letter. The language of this letter is of a consistently high register, as observed in lines 5–15. Someone is apparently referred to as ὁ μέγ̣ας in line 5. Line 9 preserves the honorific title τροφεύς applied to a person who has shown euergetism (εὐερ[γ-), perhaps to a city (π̣όλει at the beginning of line 10?). The tone of flattery continues in line 12 with the statement “your fortune knows,” οἶδέ σου ἡ τύχη. The term ἡ τύχη is often associated with high officials.<note place="foot" xml:id="ftn12" n="12"><p style="text-align: left; "> In addition to the prefect, these include the ἐπιστράτηγος, δικαιοδότης, διοικητής and the prefect of the desert. Cf. Preisigke WB, s.v. 4. The τύχη of Sulpicius Serenus, prefect of the desert, is appealed to in an ostracon from Dios (SB 30 17541; 117-138). </p></note> Yet, it need not always concern them; in Eastern Desert texts, the τύχη of centurions, soldiers and architects are appealed to in the context of polite requests.<note place="foot" xml:id="ftn13" n="13"><p style="text-align: left; "> This is based on information from unpublished texts (O.Dios inv. 941, O.KaLa. inv. 397, O.KaLa. inv. 697) shared with me by Cuvigny.</p></note> </p>
+               <p xml:id="p16" style="text-align: left; ">Praise of foresight (σου τὴν π̣ρ̣ο̣νοη-; l. 14) is followed by yet another reference to euergetism, διευε̣ρ̣γ̣ε̣τημένος (l. 15). The rarity of this term is noted in the passage taken from the introduction to the edition cited above. </p>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed1" type="edition"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p17"><ref>2</ref> For example, ἐκομισάμην τὴν ἐπιστολὴν/τὸ ἀντίγραφον τῆς ἐπιστολῆς παρὰ ΝΝ τοῦ ἑρμηνέως, vel sim.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p18"><ref>3</ref> τῶ̣[ν is also possible.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p19"><ref>4</ref> The expression ἀμέριμνος ἴσθει occurs also in <ref target="https://papyri.info/hgv/144948">O.Did. 387</ref>.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p20"><ref>5</ref> Ἴσειν (l. Ἴσιν) is possible, as are -α]ΐσειν or -ω]ΐσειν.<lb/>    ὁ μετὰ καί is a further possible reading, although it does not make sense of the stroke between alpha and kappa and is therefore less desirable. The vertical stroke that dissects the kappa in καί does not seem to belong to the descender of rho in γάρ in the line above; it is not immediately clear where it comes form.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p21"><ref>7</ref> ἐπ’] ἀγαθῷ, if not the personal name Ἐπαγάθῳ; instead of [  ̣ ̣]ρ̣ειν̣, perhaps [χ]ρεία̣.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p22"><ref>9</ref> κ̣υρίῳ is possible, although a word ending in -ωριω (πραιτωρίῳ, χωρίῳ, καταχωριῶ) cannot be excluded. </p>
+                        <p xml:id="p23">    τροφεύς is an honorific title meaning ‘steward’ or ‘guardian’. It occurs alongside other ‘familial’ terms in the context of honors conferred by civic bodies on benefactors; see <ref target="https://papyri.info/biblio/97676">Harland 2007</ref>: 66-68; <ref target="https://papyri.info/biblio/97677">Robert 1949</ref>, who associates it with patrons honored for providing grain. After the title one might read ἔτι, ὅτι or σοί.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p24"><ref>10</ref> πο̣ι̣ή̣σ̣α̣ς̣ naturally suggests itself, but there is too much uncertainty surrounding individual letters to permit printing it.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p25"><ref>11</ref> κ]ύ̣ρ̣ι̣έ̣? </p>
+                        <p xml:id="p26">     πραιτέριτος means ‘former’, ‘delayed’ or ‘in arrears’ and is said to be distinct from πραετέριτος ‘passed over’; see the respective entries in <ref target="https://papyri.info/biblio/97527">Dickey 2023</ref>. The Latin loanword might reflect a Latin origin of the document.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p27"><ref>12</ref> The chi in τύχη is obscured by abrasion. This tracing illustrates how the letter appears to have been drawn. FIGURE </p>
+                     </note>
+                     <note>
+                        <p xml:id="p28"><ref>14</ref> A cognate of προνοέω seems quite likely here, but it is difficult to pinpoint what exactly the word is. προνοησ̣ί̣α̣ν is tempting, but the letters ια are extremely difficult to find in the extant traces of ink. προνοησ̣α̣ν (l. προνοησ̣&lt;ί&gt;αν) seems to suit the traces and spacing better.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p29"><ref>16</ref> ε̣ὔ̣χ̣ο̣μ̣α̣[ι is more likely than διευτύχει, but the traces are too inconclusive to justify printing the word. The indented placement further supports the hypothesis that a farewell greeting was written here.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p30"><ref>17</ref> It is tempting to read ἐπιστολῶν, but the space between pi and omicron seems too tight for three letters. Moreover, the genitive case is incongruent with πεμφ̣θε ίσας, unless we take it as a misspelling of πεμφθεισῶν. There are simply too many hypotheticals at stake here.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p31"><ref>20</ref> κουρατ̣( ): a faint, raised vertical is consistent with tau in superscript indicating an abbreviation.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p32"><ref>21</ref> ὅτι σοι?</p>
+                     </note>
+                     <note>
+                        <p xml:id="p33"><ref>22</ref> The letters in this line are more or less secure, but the syntax is frustratingly elusive.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Re-edition of </seg>
+                  <ref target="https://papyri.info/hgv/70893">O.Berenike 1 116</ref>
+                  <seg style="font-weight: bold;"> (Inv. 19118)</seg>
+               </head>
+               <p xml:id="p34" style="text-align: left; "><ref target="https://papyri.info/hgv/70893">O.Berenike 1 116</ref> is most unusual. It comprises three inked tortoise shell fragments found in Berenike in 1998 in the early Roman dump located on the northern side of the city.<note place="foot" xml:id="ftn14" n="14"><p style="text-align: left; "> Images of the fragments are available at papyri.info: <ref target="https://papyri.info/hgv/70893">O.Berenike 1 116</ref>.</p></note> They were published as three separate fragments from an account dealing with wine. What the first editors did not realize is that the three fragments join, producing the following text:</p>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed2" type="edition"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p35"><ref>1</ref> What directly follows τούτων in the first line is difficult to construe. δαπαν(  ) seems to entail too many letters for the space, and there is no sign of an abbreviation. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p36"><ref>5</ref> There is writing at the beginning of the line above tau; the first iota in ἰταλικά is lost in the lacuna.</p>
+                        <p xml:id="p37">Of special interest in this text is the personal name Χαῦσος in lines 3 and 4 where the first edition had καὶ σοῦ. The initial letters of the word in both lines are much more conducive to chi than kappa. Moreover, the next letter in both instances must be upsilon, which curls to the right rather than drifting below the line to the left, as epsilon would. The name Χαῦσος is previously unattested outside Berenike, although it may be related to Χαῦς, a variant of the Egyptian name Χαοῦς;<note place="foot" xml:id="ftn15" n="15"><p style="text-align: left; "> TM NamVar 35484 and <ref target="https://www.trismegistos.org/name/36055">ΤΜ Νam 36055</ref>, respectively.</p></note> there is also evidence for the name Χούσης in the papyri.<note place="foot" xml:id="ftn16" n="16"><p style="text-align: left; "> <ref target="https://www.trismegistos.org/name/23718">TM Nam 23718</ref>.</p></note> </p>
+                        <p xml:id="p38">This is not the only document from Berenike in which a Χαῦσος appears: it occurs in three unpublished texts, two inscriptions and a papyrus. The two inscriptions are worth highlighting here, as they involve a Chausos son of Haryothes as well. They are paired, nearly verbatim texts inscribed on doorjambs in the western wall of the pronaos of the Isis temple. They commemorate the gilding of the temple propylon in year 1 of Titus (79 CE) by Chausos son of Haryothes grandson of Haryothes, perhaps the same Chausos son of Haryothes as in the tortoise shell text.<note place="foot" xml:id="ftn17" n="17"><p style="text-align: left; "> The Civil War veteran and explorer E.S. Purdy took a squeeze of these inscriptions in 1873, but the text on that squeeze was never published and according to M.G. Daressy was no longer legible in 1922; see <ref target="https://papyri.info/biblio/97678">Daressy 1922</ref>: 173; cf. <ref target="https://papyri.info/biblio/97680">Hense 2018</ref>: §12. Information on excavations of the temple is available in a series of excavation reports: Sidebotham et al. 2019–2024; cf. too <ref target="https://papyri.info/biblio/96762">Ast 2021</ref>.</p></note> Another (or the same?) Chausos is mentioned in a papyrus roll found in 2024 and dating to the late first or early second century.<note place="foot" xml:id="ftn18" n="18"><p style="text-align: left; "> The inscriptions and papyrus are subjects of forthcoming publications.</p></note> </p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">Re-edition of P. Quseir 3 = </seg>
+                  <ref target="https://papyri.info/hgv/26174">SB 20 14250</ref>
+               </head>
+               <p xml:id="p39" style="text-align: left; ">From the plate that accompanies the editio princeps of this letter it is clear that parts of the document’s recto were not transcribed. While legible, this plate is inferior to the photograph available in the International Photographic Archive of Papyri (IPAP), which was taken by Adam Bülow-Jacobsen. I am grateful to Adam for sending me a slightly sharper copy of the IPAP photograph, and one of the verso. No verso text was published, probably because the editor never got a photo of that side of the papyrus. The reproductions permit me to make emendations that warrant a new edition of the letter. </p>
+               <p xml:id="p40" style="text-align: left; ">New readings reveal that the letter was sent by a man named Posidonios (spelled Ποσιδώνις) to Epimachos his “brother” and that Posidonios performed obeisance before the goddess Isis. The address on the back shows that the letter was sent to Myos Hormos. This would have been a significant piece of information at the time of first publication in 1986, as the ancient name of Quseir was not yet definitively confirmed. In fact, communis opinio at the time was that Quseir corresponded to ancient Leukos Limen. This view has long since been corrected as a result of the publication of texts referring to the port by its name.</p>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed3" type="edition"/>
+                  <div copyOf="#trans1" type="translation"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p41"><ref>1</ref> faint traces at top of papyrus that do not appear to belong to main text; may be impression left by pressed ink from another line	2 ]  ̣  ̣ωνις: ed. pr., l. Ποσιδώνιος	3 ] πλ̣ε̣ῖ̣σ̣τ̣α χαίρειν· [vacat ?]: ed. pr.	4 [τὸ προσκύνη]μ̣ά: ed. pr. | παρὰ τῷ [θεῷ]: ed. pr.	5 ]  ̣  ̣ασθης: ed. pr. | σὺ [  ̣  ̣  ̣  ̣  ̣  ̣]: ed. pr.	6  εἰ] ἔχεις τι: ed. pr. | l. πέμψαι	7  ]  ̣  ̣αν  ̣  ̣: ed. pr. | θεα[  ̣  ̣  ̣]: ed. pr.	8 ]  ̣  ̣  ̣  ̣μη  ̣  ̣  ̣  ̣αντες: ed. pr.	9  ]  ̣  ̣τ̣ι̣: ed. pr., ἐλθό]ντι? | δαπάν[ης]: ed. pr.	10 [  ̣  ̣  ̣  ̣  ̣  ̣  ̣] κ̣αταβῆναι: ed. pr.	11  γραφον  ̣  ̣  ̣  ̣  ̣ ̣ ̣: ed. pr., l. γράψον, perhaps followed at end of line by sloppy rendering of ἔρρωσο or ἕτερα (the latter suggested by N. Gonis per epist.)	12–13  verso not transcribed in the ed. pr. | ἀ]ποΔ pap.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">P. Quseir 19 = </seg>
+                  <ref target="https://papyri.info/hgv/26202">SB 20 14275 no. 19</ref>
+               </head>
+               <p xml:id="p42" style="text-align: left; ">The reading of line 2, supra es, in this Latin papyrus makes little sense, even given the limited context. One expects supra est, and indeed that is what the papyrus has. Both the left side of the horizontal and the bottom of the vertical of ‘t’ are visible on the plate. There seems also to be a middot separating the two words; thus, read supra · est.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">P. Quseir 21 = </seg>
+                  <ref target="https://papyri.info/hgv/26204">SB 20 14275 no. 21</ref>
+               </head>
+               <p xml:id="p43" style="text-align: left; ">The printed text of line 3 of this fragment has ]π̣οσορμ  ̣[. The shadowy ink interpreted as pi at the beginning of the line is surely upsilon, i.e. Μ]υὸς Ὅρμ[ο-. It is impossible to determine what grammatical case the word was in because of the loss of text around. </p>
+               <p xml:id="p44" style="text-align: left; ">In line 2, the traces suggest ὁ]μολογ̣ ̣ ̣; the bottom of gamma features a serif. Remnants of the last two letters are consistent with ει.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">P. Quseir 28 = </seg>
+                  <ref target="https://papyri.info/hgv/26183">SB 20 14263</ref>
+               </head>
+               <p xml:id="p45" style="text-align: left; ">The person addressed in this private letter is surely Ἐ̣παφροδ̣ε̣ί̣τωι; the ed. pr. prints  ̣πα ̣ρο ̣  ̣ ̣ωι.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <ref target="https://papyri.info/hgv/45002">O.Petr. Mus. 128</ref>
+                  <seg style="font-weight: bold;"> = O.Petr. 261</seg>
+               </head>
+               <p xml:id="p46" style="text-align: left; ">This receipt for delivery of wine comes from the Nicanor archive and was issued by Antiochus son of Satornilus, agent of a trader or financier named Lucius Julius Firmus. The name of the container in which the wine was transported to Myos Hormos, given in line 5, has not been satisfactorily explained. The most recent edition, <ref target="https://papyri.info/hgv/45002">O.Petr. Mus. 128</ref>, prints βοκοαυλει̣α, which the editors understand as βαυκάλια, spelled sometimes καυκάλια (see comm. ad loc.); the ed. pr., O.Petr. 261, has only κοκο ̣  ̣ ̣  ̣ ̣  ̣ ̣. However, the correct reading is undoubtedly κοιλοπ̣ώ̣μ̣ατα. The iota - lambda ligature is the same as that in Σατορνίλου  in line 1 and the last two letters are clearly -τα. The three letters before that are written very quickly, but totally in keeping with -ωμα-. κοιλοπώματα appear in other ostraca from the Nicanor archive, including <ref target="https://papyri.info/hgv/45017">O.Petr. Mus. 138</ref>.5 (see line notes); 147.5; 157.4; 167.6–7, although the word was not recognized by J.G. Tait in the first edition of the texts. Occurrences of it in Berenike ostraca (<ref target="https://papyri.info/hgv/70816">O.Berenike 1 39</ref>.5; <ref target="https://papyri.info/hgv/70848">71</ref>.5; <ref target="https://papyri.info/hgv/70855">78</ref>.3; <ref target="https://papyri.info/hgv/70861">84</ref>.2; <ref target="https://papyri.info/hgv/89178">2 152</ref>.3) permitted G. Messeri to read them correctly in her re-editions of the Petrie pieces. Attestations of the term are limited to the Eastern Desert. The nature of the jars is still a matter of speculation; see O.Berenike 1, p. 23; <ref target="https://papyri.info/biblio/76413">Denecker and Vandorpe 2007</ref>: 122–123; 125 n.21.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95924">Ast, R., and Rądkowska, J. (2020)</ref> “Dedication of the Blemmyan Interpreter Mochosak on Behalf of King Isemne,” Zeitschrift für Papyrologie und Epigraphik 215: 147–158.<lb/>
+                  </bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96762">Ast, R., (2021)</ref> “Marcus Laelius Cosmus. Italian Merchants and Roman Trade at Berenike under the Julio-Claudian Emperors" in L. Rahmstorf , G. Barjamovic , and N. Ialongo (eds.) Merchants, Measures and Money. Understanding Technologies in Early Trade in a Comparative Perspective, Kiel-Hamburg: 141–157.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97682">Derda. T., Łajtar, A. and Płóciennik, T. (2021)</ref> “Latinitas at the Southernmost Peripheries of the Roman World. A Curious Latin Letter from Qasr Ibrim” in R. Ciołek and R. Chowaniec (eds) Aleksanderia. Studies on Items, Ideas and History. Dedicated to Professor Aleksander Bursche on the Occasion of his 65th Birthday. Wiesbaden: 93–99. 97681</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97678">Daressy, M.G. (1922)</ref> “Bérénice et el Abraq,” Annales du Service des Antiquités de l’Égypte 22: 169–184.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/76413">Denecker, E. and Vandorpe, K. (2007)</ref> “Sealed amphora stoppers and tradesmen in Greco-Roman Egypt: archaeological, papyrological and inscriptional evidence,” BABESCH - Annual Papers on Mediterranean Archaeology 82: 115–128.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97527">Dickey, E. (2023)</ref> Latin Loanwords in Ancient Greek. Cambridge.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97676">Harland, P.A. (2007)</ref> “Familial Dimensions of Group Identity (II): 1 ‘Mothers’ and ‘Fathers’ in Associations and Synagogues of the Greek World,” Journal for the Study of Judaism 38: 57–79.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97680">Hense, M. (2018)</ref> “The Great Temple of Berenike” in J.-P. Brun, T. Faucher, B. Redon, and S. Sidebotham (eds.) <seg style="font-style: italic;">The Eastern Desert of Egypt During the Greco-Roman Period: Archaeological Reports </seg>[online]. Paris.</bibl>
+                  <bibl>P.Quseir = <ref target="https://papyri.info/biblio/57606">Bagnall, R.S. (1986)</ref> “Papyri and Ostraka from Quseir al-Qadim,” BASP 23: 1–60.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97677">Robert, L. (1949)</ref> “Sur une monnaie de Synnada ΤΡΟΦΕΥΣ,” Hellenica 7: 74–81.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97683">Salonius, A.H. (1927)</ref> Zur Sprache der griechischen Papyrusbriefe. Helsinki.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95967">Sidebotham et al. (2019)</ref>: Sidebotham, S.E., Zych, I., Hense, M., Ast, R., Kaper, O.E., Bergmann, M., Osypińska, M. and Carannante, A., “Results of the Winter 2018 Excavation Season at Berenike (Red Sea Coast), Egypt. The Belzoni Bicentennial Report,” Thetis 24: 7–19.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95968">Sidebotham et al. (2020)</ref>: Sidebotham, S.E., Zych, I., Hense, M., Ast, R., Kaper, O.E.,</bibl>
+                  <bibl>Hense, M., Bergmann, M., Osypińska, M., Newton, C., Carannante, A., and Tomber, R.S., “Berenike 2019: Report on the Excavations,” Thetis 25: 11–22.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95969">Sidebotham et al. (2021)</ref>: Sidebotham, S.E., Zych, I., Ast, R., Kaper, O.E., Bergmann, M., Carannante, A., Osypińska, M., Harrell, J.A., Kucharczyk, R., Tomber, R.S. and Soriga, E., “Results of the Winter 2020 Excavation Season at Berenike (Red Sea coast, Egypt),” Thetis 26: 13–23.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96767">Sidebotham et al. (2022)</ref>: Sidebotham, S.E., Zych, I., Ast, R., Kaper, O.E., Bergmann, M., Bhandare, S., Maurer, A., Hartmann, R., Popławski, S., Oleksiak, J.M., Bartos, N., Geerts, R.C. A., Kucharczyk, R. and Castro, M., with contributions by M. Stoye, “Results of the Winter 2022 Excavation Season at Berenike (Red Sea Coast), Egypt,” Thetis 27: 13–28.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97674">Sidebotham et al. (2023)</ref>: Sidebotham, S.E., Rodney Ast, Kaper, O.E., Bajtler, M., Bartos, N., Geerts, R.C.A., “Results of the Winter 2023 Excavation Season at Berenike (Red Sea Coast),” Thetis 28: 7–16.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97675">Sidebotham et al. (2024)</ref>: Sidebotham, S.E., Zych, I., Ast, R., Kaper, O.E., Bergmann, M., Woźniak, M.A., Rądkowska, J.K., Bajtler, M., Popławski, S., Rice, S., Geerts, R.C.A, Bartos, N., Kucharczyk, R., Osypiński, P., Osypińska, M., Viji, K., Zych, I. and Hussein, M.S., “Results of the Winter 2024 Excavation Season at Berenike (Red Sea Coast), Egypt,” Thetis 29: 15–26.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97679">Sidebotham et al. (2025)</ref>: Sidebotham, S.E., Ast, R., Bergmann, M., Bhandare, S., Rądkowska, J.K., Strauch, I., Popławski, S. and Castro, M. (2025) “Indians in Roman Berenike,” <seg style="font-style: italic;">JdI</seg> 140: 232–293.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Κοκκήιος Μαξιμ<supplied reason="lost">- </supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ι <expan>χα<ex>ίρειν</ex></expan>. ἐκομισάμ<supplied reason="lost">ην</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ἑρμηνέως περὶ τ<unclear>ο</unclear><supplied reason="lost">ῦ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀμέρι</supplied><unclear>μ</unclear>νος <choice><reg>ἴσθι</reg><orig>ἴσθει</orig></choice>. τῆς γὰρ <unclear>τ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ϊσειν ὁ μέ<unclear>γ</unclear>α<unclear>ς</unclear> καὶ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><unclear>ων</unclear><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/>α<unclear>ς</unclear> πε<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>αγαθ<unclear>ω</unclear> <unclear>σ</unclear>ου <gap reason="lost" quantity="2" unit="character"/><unclear>ρ</unclear>ει<unclear>ν</unclear> κα<unclear>ὶ</unclear> τα<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ων</unclear><gap reason="illegible" quantity="2" unit="character"/>υ<gap reason="illegible" quantity="1" unit="character"/> <supplied reason="lost">4-5</supplied><gap reason="illegible" quantity="1" unit="character"/>μαρτυρη<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>υ</unclear>ρι<unclear>ω</unclear> ὡς τρο<unclear>φ</unclear>ε<unclear>ὺ</unclear>ς <gap reason="illegible" quantity="2" unit="character"/>ι εὐε<unclear>ρ</unclear><supplied reason="lost">γ- </supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><unclear>π</unclear>ολει τὸ ἔργον <unclear>π</unclear><gap reason="illegible" quantity="3" unit="character"/><unclear>σασ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ρι</unclear> <gap reason="illegible" quantity="1" unit="character"/> μου πραιτεριτ<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>πολλά. οἶδέ <unclear>σ</unclear>ου <unclear>ἡ</unclear> τύ<unclear>χ</unclear>η πῶς <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> τόπου <unclear>καὶ</unclear> οὐ<unclear>κ</unclear> ἔχομεν πῶς <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>τη σου τ<unclear>ὴ</unclear>ν <unclear>προ</unclear>νοη<gap reason="illegible" quantity="2" unit="character"/><unclear>ν</unclear>ε<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ου διευ<unclear>εργε</unclear>τημένος ἐ<unclear>πὶ</unclear> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="16"/><unclear>ἐ</unclear><gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ῶν ἐπ<gap reason="illegible" quantity="2" unit="character"/><unclear>ο</unclear>λ<unclear>ω</unclear>ν πεμ<unclear>φ</unclear>θείσ<unclear>ας</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ιλου κουράτ<unclear>ορος</unclear> Κομπασει <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Παῦ</supplied><unclear>νι</unclear> <num value="29"><hi rend="supraline">κθ</hi></num>
+<lb n="20"/><abbr><gap reason="lost" extent="unknown" unit="character"/></abbr> <expan>κουρά<unclear>τ</unclear><ex>ορος</ex></expan> <expan>Διδύμ<ex>ων</ex></expan> π<unclear>αν</unclear><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="21"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ι σοι τῷ καὶ <gap reason="lost" quantity="5" unit="character" precision="low"/> υ<gap reason="illegible" quantity="1" unit="character"/>ια<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="22"/><gap reason="lost" extent="unknown" unit="character"/>ψ<unclear>ο</unclear>ν τὸ πραι<unclear>σ</unclear>ί<unclear>δ</unclear>ιον <unclear>Ἀ</unclear>χι<unclear>λ</unclear><supplied reason="lost">λ- </supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="23"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ομαι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="24"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed2" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/>τούτω<unclear>ν</unclear> <gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>α<gap reason="illegible" quantity="1" unit="character"/> καὶ ἀνηλομα<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/><expan>οἴν<unclear>ο</unclear><ex>υ</ex></expan> λαδι<unclear>κ</unclear><supplied reason="lost">η</supplied>νὰ <expan>κερά<ex>μια</ex></expan> <num value="19"><hi rend="supraline">ιθ</hi></num> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>καὶ <unclear>Χαύ</unclear>σου <expan>οἴνο<ex>υ</ex></expan> λαδικη<supplied reason="lost">νὰ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/><unclear>Χ</unclear>αύσου Ἁρυώ<supplied reason="lost">θ</supplied>ου <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/><add place="above"><gap reason="illegible" quantity="2" unit="character"/></add> <supplied reason="lost">ἰ</supplied>ταλ<unclear>ι</unclear>κ<unclear>ὰ</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed3" xml:lang="grc" type="edition" xml:space="preserve">
+<div n="r" subtype="column" type="textpart"><ab>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <handShift new="m2"/><gap reason="illegible" quantity="4" unit="character"/>
+<lb n="2"/><choice><reg>Ποσιδώνιος</reg><orig>Ποσ<supplied reason="lost">ι</supplied>δώνις</orig></choice>  Ἐπιμάχῳ νεωτ<supplied reason="lost">έρῳ</supplied>
+<lb n="3"/>τ<supplied reason="lost">ῷ</supplied> ἀδελφ<supplied reason="lost">ῷ</supplied> πλεῖ<unclear>σ</unclear>τα χαίρειν·
+<lb n="4"/><unclear>τὸ</unclear> <unclear>π</unclear>ροσκύν<unclear>ημ</unclear>ά σου ποιῶ παρ<unclear>ὰ</unclear> τ<unclear>ῇ</unclear> <supplied reason="lost">κυ</supplied>
+<lb n="5" break="no"/><supplied reason="lost">ρίᾳ</supplied> Εἴσιδι· <unclear>ἂ</unclear><supplied reason="lost">ν δυ</supplied>νασθῇς καὶ σὺ
+<lb n="6"/><gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="5" unit="character"/>τι πέμψε εἰς δαπά<supplied reason="lost">νην</supplied>
+<lb n="7"/><gap reason="lost" quantity="4" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/> πάντῃ πάντως εἰ μὴ <unclear>θ</unclear>ελ<gap reason="lost" quantity="3" unit="character"/>
+<lb n="8"/><gap reason="lost" quantity="3" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/><unclear>σαν</unclear> πα<unclear>ρὰ</unclear> ἡμῶν <unclear>π</unclear>άντες ἀποσ<unclear>τ</unclear><gap reason="lost" quantity="2" unit="character"/>
+<lb n="9"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="7" unit="character" precision="low"/>ν<unclear>τι</unclear> ἕνεκε<unclear>ν</unclear> τῆς δαπ<unclear>άνη</unclear><supplied reason="lost">ς</supplied>
+<lb n="10"/><unclear>ἕω</unclear>ς <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> <unclear>κ</unclear><supplied reason="lost">α</supplied><unclear>τ</unclear>αβῆναι οἱ παρ’ ἡ
+<lb n="11" break="no"/>μῶν· <choice><reg>γράψον</reg><orig><unclear>γρ</unclear>άφον</orig></choice> <unclear>μ</unclear><supplied reason="lost">ο</supplied><unclear>ι</unclear> <gap reason="illegible" quantity="4" unit="character"/>
+</ab></div> 
+<div n="v" subtype="column" type="textpart"><ab>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <expan><supplied reason="lost">ἀ</supplied>πόδ<ex>ος</ex></expan> εἰς Μύσορ<unclear>μ</unclear><supplied reason="lost">ον</supplied> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="13"/>νεωτέ<unclear>ρωι</unclear>
+</ab></div></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="en" type="translation" xml:space="preserve">
+<p>
+“Posidonios to Epimachos the younger, his brother. Many greetings. I show obeisance on your behalf before the goddess Isis. Should you too have been able…send for the expense…by all means if unwilling…from us all of them…for the expense…those of us to go down. Write to me…. (Verso) Send to Myos Hormos.”
+</p>
+</div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
