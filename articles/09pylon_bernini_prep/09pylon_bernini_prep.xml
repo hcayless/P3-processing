@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Note a due ostraca da Gheriat el-Garbia</title>
+            <author>
+               <name>
+                  <forename>Andrea</forename>
+                  <surname>Bernini</surname>
+               </name>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>andrea.bernini@zaw.uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-06-26T10:25:47Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Note a due ostraca da Gheriat el-Garbia</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: justify;">Questa pubblicazione ha avuto origine all’interno del Sonderforschungsbereich 933 (Heidelberg) “Materiale Textkulturen. Materialität und Präsenz des Geschriebenen in non-typographischen Gesellschaften” (sottoprogetto A09 – “Schreiben auf Ostraka im inneren und äußeren Mittelmeerraum” – direttrice del sottoprogetto: Julia Lougovaya). Il Sonderforschungsbereich 933 è finanziato dalla Deutsche Forschungsgemeinschaft (DFG) sotto il numero di progetto 178035969 – SFB933. Le etimologie dei nomi semitici sono state discusse con Dorothea Reule e Michael Waltisberg, che ringrazio per i commenti e i suggerimenti; le osservazioni etimologiche relative ai nomi amazigh mi sono state comunicate da Carles Murcia Sanchez e da uno dei revisori anonimi: a entrambi vanno i miei ringraziamenti.</p>
+            <p xml:id="p2" style="text-align: justify;">Il forte romano di Gheriat el-Garbia era uno dei tre capisaldi del limes Tripolitanus, insieme a Bu Njem e Ghadames. Fondato negli anni 198-201<note place="foot" xml:id="ftn1" n="1"><p style="text-align: left; text-align: justify;"> Le date menzionate nell’articolo sono d.C.; le misure degli ostraca sono riportate b × h.</p></note>, è stato occupato in tre periodi distinti: dal 199/201 al 275/280 ca., quando è stato presidiato da una vexillatio della legio III Augusta (fino al 238) e da una vexillatio della cohors I Syriorum (a partire dal 239); dal 390/400 ca. al 430/455 ca., quando un’unità (probabilmente di limitanei) era lì allocata; dal 450/460 ca. al 540/550 ca., quando è stato abitato dalla popolazione autoctona<note place="foot" xml:id="ftn2" n="2"><p style="text-align: left; text-align: justify;"> Cfr. <ref target="https://papyri.info/biblio/97719">Mackensen 2011-2012</ref>: 86-94 e 96-101, <ref target="https://papyri.info/biblio/97726">Mackensen et al. 2021-2024</ref>: 251-255.</p></note>. Durante gli scavi archeologici effettuati all’interno del forte negli anni 2009 e 2010 sono stati ritrovati nove ostraca<note place="foot" xml:id="ftn3" n="3"><p style="text-align: left; text-align: justify;"> Sul luogo di ritrovamento dei singoli reperti si vedano le osservazioni di Michael Mackensen in <ref target="https://papyri.info/biblio/89594">Ziegler e Mackensen 2014</ref>: 313-318, e di <ref target="http://biblio/97728">Ziegler 2024</ref>: 387. I risultati delle campagne di scavo sono raccolti in <ref target="https://papyri.info/biblio/97726">Mackensen et al. 2021-2024</ref>. </p></note>, che presentano varie difficoltà di lettura e interpretazione. Di seguito si propongono alcune riflessioni su due di questi reperti, i nn. 2 e 4 dell’editio princeps<note place="foot" xml:id="ftn4" n="4"><p style="text-align: left; text-align: justify;"> Le editiones principes dei due ostraca sono opera di Sabine Ziegler in <ref target="https://papyri.info/biblio/89594">Ziegler e Mackensen 2014</ref>: 326-327 e 330; la stessa li ha rieditati in <ref target="http://biblio/97728">Ziegler 2024</ref>: 394-395 e 397-398, senza apportare cambiamenti alla trascrizione. L’ostracon n. 2 (TM <ref target="https://www.trismegistos.org/text/1001285">1001285</ref>) è analizzato anche in <ref target="https://papyri.info/biblio/97724">De Simone 2018</ref>.</p></note>. Tali ostraca, ritrovati nei pressi della porta praetoria, sono databili su base archeologica alla prima metà (n. 2 dell’ed.pr.) e al primo terzo (n. 4 dell’ed.pr.)<note place="foot" xml:id="ftn5" n="5"><p style="text-align: left; text-align: justify;"> Cfr. <ref target="http://biblio/97728">Ziegler 2024</ref>: 387; le datazioni sono differenti rispetto a quelle proposte in <ref target="https://papyri.info/biblio/89594">Ziegler e Mackensen 2014</ref>: 315-318.</p></note> del V sec.</p>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">1. Indicazione di pedatura, </seg>
+                  <ref target="https://papyri.info/biblio/89594">Ziegler e Mackensen 2014</ref>
+                  <seg style="font-weight: bold;">, n. 2 (TM </seg>
+                  <ref target="https://www.trismegistos.org/text/1001285">1001285</ref>
+                  <seg style="font-weight: bold;">)</seg>
+               </head>
+               <table>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: center;">editio princeps (Ziegler):</cell>
+                     <cell style="text-align: center;">
+                        <ref target="https://papyri.info/biblio/97724">De Simone 2018</ref>: 360:</cell>
+                     <cell style="text-align: center;">trascrizione proposta:</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1</cell>
+                     <cell style="text-align: center;">pedatur</cell>
+                     <cell style="text-align: center;">.]pedatur(a)</cell>
+                     <cell style="text-align: center;">pedatur[a	- - -]</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">2</cell>
+                     <cell style="text-align: center;">lisfonthi</cell>
+                     <cell style="text-align: center;">.]lis fonthi[?</cell>
+                     <cell style="text-align: center;">VI Sọfonṭh  ̣[	- - -]</cell>
+                  </row>
+               </table>
+               <p xml:id="p3" style="text-align: justify;">Il reperto (4,5 × 6 cm) conserva gli stretti margini superiore e sinistro, mentre quello inferiore misura ca. 3,2 cm e il lato destro è mutilo, come indicato dalla lettera finale del r. 2, incompleta. Il testo è costituito da due righi lacunosi. È stato ritenuto bilingue latino-sudpunico in <ref target="https://papyri.info/biblio/89594">Ziegler e Mackensen 2014</ref>: 326-327; l’influenza del punico è messa in discussione in <ref target="https://papyri.info/biblio/97724">De Simone 2018</ref>: 361.</p>
+               <p xml:id="p4" style="text-align: justify;">Al r. 1 il termine pedatura è stato identificato da <ref target="https://papyri.info/biblio/97724">De Simone 2018</ref>: 360-361. Il significato di base è ‘measure by the foot and a measured area of space by feet’, da cui derivano cinque significati specifici, uno dei quali, ‘measured part of some area designed for building some fortification of a military camp or a town’, è il più adatto al presente testo<note place="foot" xml:id="ftn6" n="6"><p style="text-align: left; text-align: justify;"> Cfr. <ref target="https://papyri.info/biblio/97725">Minkova 1992</ref>: 111; gli altri significati sono: ‘measured area for some buildings and reconstructions in a farmyard’, ‘vineyard with special viticulture appliances’, ‘measured area for a sepulchral monument’, ‘tax for travelling across some area’ (ibid.). Sulle attestazioni papirologiche, letterarie ed epigrafiche di πεδατοῦρα si veda <ref target="https://papyri.info/biblio/97527">Dickey 2023</ref>: 348 s.v.</p></note>. Un concetto analogo è anche nella definizione ‘de area, quae in castris metandis cuidam numero militum tribuitur’ fornita da ThLL 10 964 s.v. 1. <ref target="https://publikationen.badw.de/de/thesaurus/lemmata?filter_modus=neutral#66102">pedatura I B 1</ref>. Tra le occorrenze nelle fonti letterarie si possono menzionare nam singulae centuriae, diuidentibus campidoctoribus et principiis, accipiunt pedaturas (‘infatti le singole centurie, a seguito della suddivisione effettuata dagli istruttori e dai comandanti, ricevono gli appezzamenti di terreno’) di Veg. Mil. 3, 8, 11, e haec pedatura ad plenas legionis ⟨centurias⟩ est computata (‘questa area è stata calcolata per le centurie della legione al completo’) di Ps.-Hyg. Mun. 1, 1.</p>
+               <p xml:id="p5" style="text-align: justify;">Al r. 2 è stata trascritta la sequenza lisfonthi nelle due edizioni precedenti: Ziegler la interpreta come una forma composta dalla proposizione li e dal perfetto di spn, ossia ‘mi sono occupato / preoccupato di’, sebbene ammetta che la combinazione della preposizione e del verbo sia inusuale<note place="foot" xml:id="ftn7" n="7"><p style="text-align: left; text-align: justify;"> Cfr. <ref target="https://papyri.info/biblio/89594">Ziegler e Mackensen 2014</ref>: 326-327 e <ref target="http://biblio/97728">Ziegler 2024</ref>: 394-395.</p></note>; <ref target="https://papyri.info/biblio/97724">De Simone 2018</ref>, 361, pensando che il rigo sia lacunoso sulla sinistra, propone dubbiosamente di integrare bipeda]lis, decempeda]lis oppure in a]lis f⟨r⟩ont{h}i[bus]. In questa sede si avanza un’altra proposta. Sulla base della riproduzione fornita in <ref target="http://biblio/97728">Ziegler 2024</ref>: 394 sembrano vedersi delle deboli tracce circolari d’inchiostro tra s e f, che suggeriscono una o dal modulo ridotto e conducono alla trascrizione Sọfonṭh  ̣[. La sequenza iniziale presenta alcune difficoltà interpretative, in quanto dal punto di vista strettamente paleografico può essere:</p>
+               <p xml:id="p6" style="text-align: justify;">il simbolo usuale per <seg style="font-style: italic;">centuria</seg>, compatibile con l’interpretazione di <seg style="font-style: italic;">pedatura </seg>quale termine di ambito militare avanzata da <ref target="https://papyri.info/biblio/97724">De Simone 2018</ref>: 360-361. Tuttavia il simbolo non sembra avere paralleli in questo periodo<note place="foot" xml:id="ftn8" n="8"><p style="text-align: left; text-align: justify;"> A Gheriat el-Garbia una testimonianza del simbolo comparirebbe nel reperto ligneo edito in <ref target="https://papyri.info/biblio/97727">Scholz 2024</ref>, tuttavia il testo nel suo complesso rimane di incerta interpretazione, e potrebbe anche appartenere al periodo 199/201-275/280 ca. (cfr. ibid., 341).</p></note>, inoltre è solitamente seguito da un nome latino, come in <seg style="font-style: italic;">ped(atura) | (centuriae) Iul(i) Silua|ni</seg> di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD008090">CIL 13 6548</ref>, 1-3 (metà II-metà III);</p>
+               <p xml:id="p7" style="text-align: justify;"><seg style="font-style: italic;">li</seg> in legatura, ossia la particella semitica <seg style="font-style: italic;">l-</seg>, che significa ‘a’, ‘per’<note place="foot" xml:id="ftn9" n="9"><p style="text-align: left; text-align: justify;"> Si vedano <ref target="https://papyri.info/biblio/97732">Friedrich e Röllig 1999</ref>: 180, e <ref target="https://papyri.info/biblio/97730">Kerr 2010</ref>: 149-150 per le attestazioni epigrafiche.</p></note>. La sequenza richiama nomi punici quali <seg style="font-style: italic;">Suphunibal </seg>di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD021091">AE 1951 84</ref>, 2 (35-36; cfr. <ref target="https://papyri.info/biblio/97716">Vattioni 1979</ref>, 115) e <seg style="font-style: italic;">Sophoniba</seg> di <ref target="https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-lat2:30.12.10/">Liv. 30, 12, 11</ref>, contenenti la radice <seg style="font-style: italic;">ṣpn</seg>, ‘nascondere’, sulla quale si veda anzitutto <ref target="https://papyri.info/biblio/97731">Gesenius 2009</ref>: 1133, oltre a <ref target="https://papyri.info/biblio/97717">Vattioni 1980</ref>: 27, <ref target="https://papyri.info/biblio/97729">Jongeling 1994</ref>: 138, <ref target="https://papyri.info/biblio/97732">Friedrich e Röllig 1999</ref>: 40. In tal caso il rigo andrebbe interpretato come ‘a / per Sofon-’. La presenza di un sostantivo latino al r. 1 e di un costrutto semitico al r. 2 desta però qualche perplessità;</p>
+               <p xml:id="p8" style="text-align: justify;">un numero costituito dalle cifre <seg style="font-style: italic;">V</seg> e <seg style="font-style: italic;">I</seg> in legatura, come in C.Lat.Text.Pap. 5 184, 10, 13, 14 e 17-20 (401 <seg style="font-style: italic;">vel postea</seg>); è l’interpretazione promossa a testo. In questo caso il r. 1 andrebbe integrato <seg style="font-style: italic;">pedatur[a - - - p(edum)</seg>, seguito da un numero che continua al rigo successivo: si veda <seg style="font-style: italic;">pedat(ura) Treueror|um p(edum) LXXXXVI</seg> di CIL 13 7613, 1-2 (ca. metà II). Sarebbe un testo redatto per finalità militari.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">2. Lista di antroponimi, </seg>
+                  <ref target="https://papyri.info/biblio/89594">Ziegler e Mackensen 2014</ref>
+                  <seg style="font-weight: bold;">, n. 4 (TM 1001287)</seg>
+               </head>
+               <p xml:id="p9" style="text-align: justify;">L’ostracon (6 × 8,5 cm) contiene una lista di dieci nomi personali, uno per rigo. Per otto di questi nomi vengono proposte le seguenti nuove letture con le relative osservazioni:</p>
+               <p xml:id="p10" style="text-align: justify;">1	Rusoiḷim (ed.pr.: rasoilim). La seconda lettera è u piuttosto che a, dal momento che non è in legatura con la s successiva; dopo la o, la sequenza il è ricurva. Il nome è composto dalle parole semitiche rš, ‘testa’, e ʾlm, ‘dèi’, ed è traducibile con ‘capo degli dèi’. I due termini ricorrono in altri antroponimi attestati in Africa Proconsularis: rš è in Rusilla di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD032580">CIL 8 22770</ref>, 4-5 (I-III?), sul quale si vedano <ref target="https://papyri.info/biblio/97716">Vattioni 1979</ref>: 103 e <ref target="http://www.apple.com/uk">Jongeling 1994</ref>: 121; ʾlm si ritrova in nomi quali Abdilim di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD016801">AE 1963 124</ref>, 18-19 (s.d.) e Mythunilim di <ref target="http://inslib.kcl.ac.uk/irt2009/IRT873.html">IRT 873</ref>, 3 e 5 (III-V), cfr. <ref target="https://papyri.info/biblio/97716">Vattioni 1979</ref>: 45 e 96, <ref target="https://papyri.info/biblio/97729">Jongeling 1994</ref>: 2 e 102, <ref target="https://papyri.info/biblio/97730">Kerr 2010</ref>: 197.</p>
+               <p xml:id="p11" style="text-align: justify;">2	Mastoilim (ed.pr.: m[  ̣]stoilim). Dopo la lettera iniziale vi è un’imperfezione sulla superficie scrittoria, evitata in fase di scrittura. La lettera dopo questo spazio è a piuttosto che u, essendo in legatura con la s successiva. Il nome richiama due antroponimi attestati in iscrizioni dell’Africa Proconsularis: Masthalul di <ref target="https://inslib.kcl.ac.uk/irt2009/IRT886.html">IRT 886b</ref> (prima metà del IV) e Mastalai di <ref target="https://edcs.hist.uzh.ch/en/document?edcs-id=EDCS-24501357">CIL 8 23700</ref>, 2 (s.d.). Potrebbe essere composto dall’amazigh *măstan (‘difensore’, ‘protettore’, ‘sostenitore’) e da un nome proprio punico, come avviene in Mastanabal<note place="foot" xml:id="ftn10" n="10"><p style="text-align: left; text-align: justify;"> Cfr. Sal. Iug. 5, 6; 5, 7; 65, 1; Liv. 50, 22-23.</p></note> da *măstan (ăn) Ba<seg style="font-style: italic;">Ꜥ</seg>l, ‘sostenitore di Baal’, oppure potrebbe contenere l’amazigh *măst (‘padrone’, ‘signore’). In questo caso dovrebbe essere seguito da un nome proprio (‘signore di …’), mentre è meno probabile l’etimologia *măst yŭllil, ‘il signore aiuta / segue’.</p>
+               <p xml:id="p12" style="text-align: justify;">3	Geremis (ed.pr.: suḍ/c̣mis). La coda di g è staccata dal resto della lettera e si estende oltre il rigo di base. L’etimologia del nome è incerta. Potrebbe provenire dall’amazigh *grms, da cui in Tuareg si ha gărmăs, ‘dal naso schiacciato’: l’antroponimo corrisponderebbe alla terza persona maschile singolare del tema perfettivo, g<seg style="font-style: italic;">ə</seg>rm<seg style="font-style: italic;">ə</seg>s, ‘egli ha il naso schiacciato’. È meno probabile una provenienza semitica: in tal caso i possibili paralleli sarebbero Ger, Geria, Gerius e Gerris, elencati in <ref target="https://papyri.info/biblio/97716">Vattioni 1979</ref>: 75 e <ref target="https://papyri.info/biblio/97717">1982</ref>: 60, oltre a Gerastartus, ‘ospite è Astarte’ o ‘ospite di Astarte’, che compare in Ios. c. Ap. 1, 157, 4, cfr. <ref target="https://papyri.info/biblio/97717">Vattioni 1980</ref>: 54. Questi antroponimi andrebbero ricondotti a una radice semitica gr / gwr, ‘ospite’, secondo <ref target="https://papyri.info/biblio/97716">Vattioni 1979</ref>: 75 e <ref target="https://papyri.info/biblio/97717">1982</ref>: 60; tale interpretazione, in relazione a Gerris, è messa in dubbio da <ref target="https://papyri.info/biblio/97729">Jongeling 1994</ref>: 50.</p>
+               <p xml:id="p13" style="text-align: justify;">4	Iurthan (ed.pr.: rụạhụm). La prima lettera è una i lievemente ondulata. Il nome richiama altri antroponimi attestati in epigrafi dell’Africa Proconsularis e della Numidia, ossia Iurat di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD023113">AE 1935 34</ref>, 2 (s.d.), Iuratha di <ref target="https://edcs.hist.uzh.ch/en/document?edcs-id=EDCS-04000646">ILAlg 1 1759</ref>, 1-2 (s.d.), Iurathai di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD019384">AE 1959 172</ref>, 6 (88), Iurathani di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD059210">CIL 8 22687</ref>, 7 (fine III-IV), Iurathe di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD002766">CIL 8 22758</ref>, 4 (II-III). Nei Gesta della conferenza di Cartagine del 411 compare Iurata (Carth. a. 411 p. 122, 104 e p. 168, 86 W.; cfr. <ref target="https://papyri.info/biblio/97717">Vattioni 1980</ref>: 16). L’etimologia di Iurthan può essere individuata nell’antico amazigh occidentale *y-ura-tăn, ‘egli li ha sconfitti’ (cfr. anche <ref target="https://papyri.info/biblio/97723">Vattioni 1991</ref>: 62-63 e nn. 15-20), mentre è più difficile che l’antroponimo sia correlato con gli amazigh *i-wra-tăn e *y-ŭhra-tăn (da *y-ŭβra-tăn), che significano ‘egli li ama’.</p>
+               <p xml:id="p14" style="text-align: justify;">7	Fuṃudu (ed.pr.: fuṃụṇḍạ). La terza lettera assomiglia a una m stretta; l’inchiostro fra u e d è una sbavatura. La sequenza iniziale potrebbe essere collegata con il teonimo Pūmī, menzionato in <ref target="https://papyri.info/biblio/97732">Friedrich e Röllig 1999</ref>: 57 n. 1.</p>
+               <p xml:id="p15" style="text-align: justify;">8	Safar (ed.pr.: safur). Il nome ricorre in un’epigrafe della Mauretania Caesarensis, <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD049266">CIL 8 9835</ref>, 3 (508), e dalla medesima regione provengono i paralleli Safari e Safaren di <ref target="https://edcs.hist.uzh.ch/en/document?edcs-id=EDCS-25601590">CIL 9 9800</ref> (s.d.; cfr. <ref target="https://papyri.info/biblio/97716">Vattioni 1979</ref>: 105). In letteratura è attestato Sapharus in Sil. 7, 604, cfr. <ref target="https://papyri.info/biblio/97717">Vattioni 1980</ref>, 37. Il termine deriva dalla radice semitica špr, ‘rendere bello’, ‘essere bello’, cfr. <ref target="https://papyri.info/biblio/97731">Gesenius 2010</ref>: 1405-1406.</p>
+               <p xml:id="p16" style="text-align: justify;">9	Batḥḍịṛ oppure Batḥịḷị (ed.pr.: bu[  ̣ ̣ ̣]). Le lettere dopo t sono incerte: si notano un tratto verticale e una traccia bassa, compatibili con h; vi è poi un’asta che potrebbe appartenere a d (che sembra paleograficamente preferibile) oppure a i; il nome termina con un’asta e un tratto basso. Le letture possibili sono Batḥḍịṛ oppure Batḥịḷị. Nel primo caso si tratterebbe di un nome contenente la sequenza -dir, per la quale si potrebbe pensare a una derivazione da ʾdr, ‘potente’ (cfr. <ref target="https://papyri.info/biblio/97729">Jongeling 1994</ref>: viii); la sequenza ricorre alla fine di altri antroponimi attestati in Nordafrica, quali Iidir di <ref target="https://edcs.hist.uzh.ch/en/document?edcs-id=EDCS-26800770">AE 2016 78</ref>, 2 (IV?), Iadir di <ref target="https://edcs.hist.uzh.ch/en/document?edcs-id=EDCS-25601103">CIL 8 9923</ref>, 2-3 (554), Tacneidir di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD021544">AE 1951 284</ref>, 2 (metà I-III?) e Thadir di <ref target="https://edcs.hist.uzh.ch/en/document?edcs-id=EDCS-04000563">ILAlg 1 1616</ref>, 2 (metà I-III?). Tuttavia questa spiegazione non è convincente dal punto di vista etimologico. Nel secondo caso sarebbe una forma dell’antroponimo Bathyllus, sul quale si veda <ref target="https://papyri.info/biblio/97729">Jongeling 1994</ref>: 22, che preferisce l’etimologia greca a quella semitica proposta in <ref target="https://papyri.info/biblio/97716">Vattioni 1979</ref>: 59-60.</p>
+               <p xml:id="p17" style="text-align: justify;">10	Ọṣdọar (ed.pr.: osd[  ̣]n). La seconda lettera può essere f o s; le tracce dopo d sono compatibili con o. Oltre alla figura biblica di Esdra, il nome richiama Esdo|[peles di <ref target="https://edh.ub.uni-heidelberg.de/edh/inschrift/HD054084">AE 1992 1940</ref>, 1-2 (s.d.; Mauretania Tingitana), mentre la sequenza finale -oar ha un possibile parallelo in arcomanoar di <ref target="https://edcs.hist.uzh.ch/en/document?edcs-id=EDCS-08201985">ILTun 344</ref>, 3 (s.d.; Africa Proconsularis). Il nome deriva dalla radice semitica <seg style="font-style: italic;">Ꜥ</seg>zr, ‘aiutare’, cfr. <ref target="https://papyri.info/biblio/97729">Jongeling 1994</ref>: ix</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97724">De Simone, R. (2018)</ref> “Sugli ostraka da Gheriat el-Gharbia (Libia) e di una supposta «südpunische Variante»,” Sicilia Antiqua 15: 359-361.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97527">Dickey, E. (2023)</ref> Latin Loanwords in Ancient Greek. A Lexicon and Analysis. Cambridge.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97732">Friedrich, J. e Röllig, W. (1999)</ref> Phönizisch-Punische Grammatik. 3. Auflage, neu bearbeitet von Maria Giulia Amadasi Guzzo unter Mitarbeit von Werner R. Mayer. Rome.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97731">Gesenius, W. (2009-2010)</ref> Hebräisches und Aramäisches Handwörterbuch über das Alte Testament. 18. Auflage, voll. V-VI. Berlin – Heidelberg.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97729">Jongeling, K. (1994)</ref> North-African Names from Latin Sources. Leiden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97730">Kerr, R.M. (2010)</ref> Latino-Punic Epigraphy. Tübingen.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97719">Mackensen, M. (2011-2012)</ref> Survey and Excavation of the German Archaeological Mission at the Roman Fort of Myd(- - -) / Gheriat el-Garbia and Its Vicinity, 2009/10, LibAnt, N.S. 6: 83-102.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97726">Mackensen, M. et al. (2021-2024)</ref> Das severische Vexillationskastell Myd(- - -) / Gheriat el-Garbia am limes Tripolitanus (Libyen), voll. I-II. Wiesbaden.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97725">Minkova, M. (1992)</ref> “Some more Information in Connection with the Meaning of the Word «pedatura»,” Index 20: 111-123.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97727">Scholz, M. (2024)</ref> “Ein Rindenstück mit lateinischer Tintenaufschrift von der porta decumana,” in Mackensen et al. 2024: 341-342.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97716">Vattioni, F. (1979)</ref> “Per una ricerca sull’antroponimia fenicio-punica,” StudMagr 11: 43-123.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97717">Vattioni, F. (1980)</ref> “Per una ricerca sull’antroponimia fenicio-punica,” StudMagr 12: 1-82.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97718">Vattioni, F. (1982)</ref> “Per una ricerca sull’antroponimia fenicio-punica,” StudMagr 14: 1-65.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97723">Vattioni, F. (1991)</ref> “Numido-punica: divagazioni sul nome di Giugurta,” AION(Or) 51: 61-64.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/97728">Ziegler, S. (2024)</ref> “Ostraka aus spätantiken Fundkomplexen der Periode II im Bereich der porta praetoria”, in Mackensen et al. 2024: 387-399.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/89594">Ziegler, S. e Mackensen, M. (2014)</ref> “Spätantike Ostraka aus Gheriat el-Garbia (al-Qaryāt al-Garbīyah) in der Provinz Tripolitana (Libyen). Belege für eine regionale Variante des Punischen,” MDAI(R) 120: 313-339.</bibl>
+                  <bibl>Bernini, Andrea</bibl>
+                  <bibl>ORCID: https://orcid.org/0000-0002-3041-3530</bibl>
+                  <bibl>Universität Heidelberg</bibl>
+                  <bibl>andrea.bernini@zaw.uni-heidelberg.de</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
