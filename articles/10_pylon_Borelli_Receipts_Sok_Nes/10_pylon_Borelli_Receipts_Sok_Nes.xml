@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notes on Some Receipts from Soknopaiou Nesos∗ This article was written in the course of project “500 Years of Writing and Literacy in the Fayum (2nd Century BCE to 3rd Century CE): Greek Writing Practices in Soknopaiou Nesos” (Deutsche Forschungsgemeinschaft – Project number 536675991). I am grateful to W. Graham Claytor and Nikolaos Gonis for their comments and suggestions. ∗</title>
+            <author>
+               <name>
+                  <forename>Bianca</forename>
+                  <surname>Borelli</surname>
+               </name>
+               <affiliation>Julius-Maximilians-Universität Würzburg (JMU)</affiliation>
+               <email>bianca.borrelli@uni-wuerzburg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026-11-17</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-11-17T20:24:40Z</date>
+               <name>Bianca Borrelli</name>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">Notes on Some Receipts from Soknopaiou Nesos<note place="foot" xml:id="ftn1" n="1">
+                     <p>∗ This article was written in the course of project “500 Years of Writing and Literacy in the Fayum (2nd Century BCE to 3rd Century CE): Greek Writing Practices in Soknopaiou Nesos” (Deutsche Forschungsgemeinschaft – Project number 536675991). I am grateful to W. Graham Claytor and Nikolaos Gonis for their comments and suggestions. </p>
+                  </note>∗</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">In what follows, I present a series of textual corrections and palaeographical and prosopographical notes on some tax and rent receipts from Soknopaiou Nesos dating from the mid-first to the early third century, alongside a re-edition (<seg style="font-weight: bold;">5</seg>).<note place="foot" xml:id="ftn2" n="2"><p> All dates are CE. Unless otherwise noted, the provenance of the papyri is Soknopaiou Nesos.</p></note> In addition to a handful of novel prosopographical observations on the taxpayers (<seg style="font-weight: bold;">2, 6</seg>) and the identification of a previously unknown tax collector (<seg style="font-weight: bold;">3</seg>), the dossiers of already known tax collectors are expanded (<seg style="font-weight: bold;">1, 4–7, 10</seg>), while the nature of the payments recorded is clarified in a few instances (<seg style="font-weight: bold;">1, 7–9</seg>).</p>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">1)</seg>
+                  <ref target="https://papyri.info/current/11836">
+                     <seg style="font-weight: bold;">P.Louvre 1 24</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (52/3) and</seg>
+                  <ref target="https://papyri.info/current/110044">
+                     <seg style="font-weight: bold;">P.Berl.Cohen 1</seg>
+                  </ref>
+                  <seg style="font-weight: bold;">(41)</seg>
+               </head>
+               <p xml:id="p2"><ref target="https://papyri.info/current/11836">P.Louvre 1 24</ref> is a receipt from 52/3, the decipherment of which has been severely hindered by a highly cursive and challenging handwriting, as well as by material damage across its surface. In particular, the identities of the tax collectors and taxpayer, as well as the nature of the tax, have remained uncertain. The relevant information is contained in ll. 3–5, which were read as follows: δι[α]γ[έ]γ(ραφεν)   ̣  ̣τη | καὶ̣ μ̣ε̣τ̣[ό]χ(οις) Παπάις Πετεχόν(τος) αρ  ̣ι  ̣|σ̣  ̣  ̣ι̣( )   ̣  ̣  ̣  ̣  ̣.</p>
+               <p xml:id="p3">A closer examination of the passage on the plate (Taf. 23) allows most of these textual difficulties to be resolved.<note place="foot" xml:id="ftn3" n="3"><p> A low-resolution image is also available <ref target="https://collections.louvre.fr/en/ark:/53355/cl010041725">online</ref>, but it is of little help.</p></note> Starting with the name of the tax collector, the editor proposed reading it as either Π̣α̣τη( ) or Π̣ω̣τη( ), noting that “allerdings irritiert die Schleife am Beginn der Querhaste” (l. 3 n.). In fact, what was taken as the left part of a pi is the abbreviation for δι(ά), whose overstroke ligatures into a sigma. The name Σωτη(ρίχου) can be read. At the beginning of l. 4, there is no mention of “associates”; rather, a colleague with the same name appears: καὶ Σωτη̣(ρίχου). After that, a chi, already recognized by the editor, is topped by a horizontal stroke indicating an abbreviation. This is to be resolved as χ(ειριστῶν), the expected title for tax collectors during this period.<note place="foot" xml:id="ftn4" n="4"><p> On the <seg style="font-style: italic;">cheiristai</seg>, see Hagedorn, BGU 20, pp. 93–97.</p></note></p>
+               <p xml:id="p4">The taxpayer presents greater difficulties. As the editor observed, “scheint unklar, wo sein (Vaters)name endet und etwas Neues beginnt.” The beginning of l. 5 is undoubtedly occupied by the name of the tax: the cross above the line seen by the editor is a raised tau, and the whole sequence should be read as συ̣ν̣τ(αξίμου) Σοκ(νοπαίου) Ν̣ή(σου). Since no additional information is expected between the taxpayer’s identifying details and the tax name, I have considered reading Ἀρείο̣υ̣ after Πετεχόν(τος) in l. 4. However, the shape of the supposed upsilon is not entirely convincing, and one can understand why the editor saw a nu after the iota (l. 4 n.); moreover, papponyms are uncommon in this period. A professional designation would in principle also be possible; see e.g. <ref target="https://papyri.info/current/13504">P.Tebt. 2 349</ref>.3 (Tebtynis, 28).</p>
+               <p xml:id="p5">One of the two Soterichoi of <ref target="https://papyri.info/current/11836">P.Louvre 1 24</ref> may be the same as the <seg style="font-style: italic;">cheiristes</seg> of <ref target="https://papyri.info/current/11261">P.Gen. 2 90</ref>.2 (with PN correction by D. Hagedorn), dated to 36, but both tax collectors recur in <ref target="https://papyri.info/current/110044">P.Berl.Cohen 1</ref>. This papyrus, also published in <ref target="https://papyri.info/biblio/75809">Cohen 2007</ref>, contains a replacement for a lost <seg style="font-style: italic;">syntaximon</seg> receipt, dated after November 17, 41 (κ  ̣ should be read instead of κ in l. 3) and written in a hand very similar to, if not identical with, that of <ref target="https://papyri.info/current/11836">P.Louvre 1 24</ref>. In ll. 3–4, the editor read διαγέγ(ραπται) διὰ Διωδώδ(ου) (<seg style="font-style: italic;">l.</seg> Διοδότου) | [  ̣  ̣]μ[ ±3 ]  ̣ς Παπάϊτο(ς) Ἀμ̣ά̣σ̣ι(ος) and noted that “the beginning of line 4 is occupied by the taxpayer’s name, or actually what was left of it, reserving no space for any title for Diodotus.” Apart from the obvious resolution διαγέγ(ραφε), what follows can now be read and restored as δι(ὰ) Σωτη(ρίχου) καὶ Σωτ̣η̣(ρίχου) | [χ(ειριστῶν)]. </p>
+               <p xml:id="p6">The few extant traces of the taxpayer’s name may be transcribed as Ε  ̣[  ̣]  ̣  ̣ς (Ἕκ̣[υ]σ̣ι̣ς?), while what follows the patronymic remains uncertain in this case as well. Ἀμ̣ά̣σ̣ι(ος) does not seem to be possible. The raised letter appears to be eta (cf. Σωτη(ρίχου), l. 3), but I have not been able to provide a satisfactory reading of the name. </p>
+               <p xml:id="p7">The omission of (δραχμάς) in the sequence ἀργ(υρίου) (δραχμὰς) δεκαδύο in l. 8, correctly printed in <ref target="https://papyri.info/biblio/75809">Cohen 2007</ref>: 113, was already noted by <ref target="https://papyri.info/biblio/77321">Mitthof 2008</ref>: 268. To this adjustment, I add two further minor corrections:</p>
+               <p xml:id="p8">ll. 4–5: συντ(άξιμον) κ̣[ώμ(ης)] | [Σοκν]οπ(αίου) Νή̣σο[υ] τοῦ αὐτοῦ (ἔτους) → συντ(αξίμου) | [Σ]οκ̣(νοπαίου) Νή̣σο(υ) τοῦ αὐτο(ῦ) (ἔτους). At the beginning of l. 5, [Σ]οκ̣(νοπαίου) is preferable to [Σοκν]οπ(αίου) on account of the width of the lacuna and the shape of the raised letter, which does not match a pi;</p>
+               <p xml:id="p9">ll. 7–8: τὸ̣ α̣ὐτὸ σύμ|[βολον → αὐτὸ τὸ σύμ|[βολον.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">2) </seg>
+                  <ref target="https://papyri.info/current/14672">
+                     <seg style="font-weight: bold;">SB 16 12796</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (101):</seg>
+               </head>
+               <p xml:id="p10">The text of this receipt, originally published by <ref target="https://papyri.info/biblio/56750">Poethke and Sijpesteijn 1984</ref>: 48–49, has been significantly improved by D. Hagedorn and F. Reiter.<note place="foot" xml:id="ftn5" n="5"><p> Corrections to ll. 2–4 by Hagedorn (and Reiter <seg style="font-style: italic;">per litt.</seg>), BGU 20, p. 105 n. 24. </p></note> One further refinement concerns the reading of the taxpayer’s name. In l. 3, where Hagedorn and Reiter read Παπεῖτος (<seg style="font-style: italic;">l.</seg> Παπεῖς)   ̣  ̣  ̣  ̣( ) τοῦ Παπεῖτος | μη(τρὸς) Θασῆτος, I see Πάπεις Π̣[ά]πειτ(ος) το(ῦ) Πάπειτος.</p>
+               <p xml:id="p11">A certain Stotoetis son of Papeis, grandson of Papeis, mother Thases, appears in <ref target="https://papyri.info/current/14577">SB 16 12300</ref>.4 (111) as performing the five-day work on the Epagathian canal and in <ref target="https://papyri.info/current/14571">SB 16 12294</ref>.3–4 (112) as a taxpayer. The first editors and Hagedorn and Reiter hypothesized that this Stotoetis was a family member of the taxpayer in <ref target="https://papyri.info/current/14672">SB 16 12796</ref>. It can now be confirmed that they were brothers. </p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">3)</seg>
+                  <ref target="https://papyri.info/current/12965">
+                     <seg style="font-weight: bold;">P.Ryl. 2 191</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (115–117)</seg>
+               </head>
+               <p xml:id="p12">This receipt for <seg style="font-style: italic;">syntaximon</seg> and <seg style="font-style: italic;">merismoi</seg> is one of the earliest in Soknopaiou Nesos to be issued by <seg style="font-style: italic;">praktores argyrikon</seg>. In ll. 2–3, after the indication of the accounting period, the editor read διέγρα(ψε)   ̣  ̣  ̣]  ̣ταμο̣υ̣η̣λ( ) καὶ μετ̣ό̣χ(οις) | πράκ(τορσιν) ἀργ(υρικῶν) Σ̣[οκ(νοπαίου) Νήσ(ου), but   ̣ταμο̣υ̣η̣λ( ) does not match any name. The online image clearly shows that the correct reading is διέγρα(ψε)] δι(ὰ) Ἀκουσιλ(άου) καὶ μετόχ(ων) | πρακ(τόρων) ἀργ(υρικῶν). A blank space would have preceded διέγρα(ψε) in the lacuna.</p>
+               <p xml:id="p13">One would expect the village indication to follow the name of the tax rather than the title of the tax collectors in this period: cf. e.g. <ref target="https://papyri.info/current/14571">SB 16 12294</ref>.4 or <ref target="https://papyri.info/current/10904">P.Fay. 54</ref>.6 (Euhemeria, 118). Moreover, if it is restored in the lacuna in l. 3, there is very little space left for the taxpayer’s identifying details. In the ed. pr., these were read as Στο]τοῆτ(ις) Σατα̣β̣[ο](ῦτος) [μη(τρὸς) Ταμ]ύσθ(ας), but the absence of the papponym would be unusual in this period. Additionally, the transcription does not account for the ink trace visible after Στο]τοητ( ): this may belong to a cursive tau ligatured to an omicron, which is now lost in the lacuna. As for l. 4, the ed. pr. reads ἐννεακαιδεκάτου (ἔτους) (δραχμὰς) ὀκτώ, but there seems to be something more on the papyrus. I interpret the end of the ordinal number as written with <seg style="font-style: italic;">Verschleifung</seg> and ligatured to an L-shaped symbol, of which only the lower part survives. This is followed, as I see it, by a sigma, two further traces and a sinusoid. On this basis, I would read the passage as follows: Σ[ ± 7 Στ]ο̣τοήτ(εως) τ̣[ο(ῦ)] Σατα̣β̣[οῦ]τ̣(ος) [μη(τρὸς) Ταμ]ύσθ(ας) συντ(αξίμου) | ἐννεακαιδεκάτου (ἔτους) Σο̣κ̣(νοπαίου Νήσου) (δραχμὰς?) ὀ̣κτώ.<note place="foot" xml:id="ftn6" n="6"><p> For the extreme abbreviation Σοκ(νοπαίου Νήσου), cf. e.g. <ref target="https://papyri.info/current/9334">BGU 3 762</ref>.1 (163).</p></note> </p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">4) </seg>
+                  <ref target="https://papyri.info/current/10288">
+                     <seg style="font-weight: bold;">P.Brookl. 14</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (148–149)</seg>
+               </head>
+               <p xml:id="p14">This papyrus contains two receipts for the camel tax, dated to 148 and 149, written by two different scribes. While only the right-hand part of the second receipt survives, the first one has been entirely reconstructed thanks to the join with a Berlin fragment, originally published as <ref target="https://berlpap.smb.museum/00215/">BGU 15 2542</ref> (see P.Brookl., Pl. X for the join). In l. 5 of this text, the editor tentatively read [δι’] Ἑ̣ρμί̣ω̣ν̣[ος καὶ μετόχ(ων) πρακ(τόρων)], which was retained in <ref target="https://papyri.info/current/10288">P.Brookl. 14</ref> with no changes except that rho and mu were also dotted, and the second part of the line was placed outside the brackets. However, the name Hermion is not otherwise attested in Soknopaiou Nesos, while a Charmion appears as a tax collector in office between 149 and 150 in <ref target="https://papyri.info/current/45408">SB 24 16185</ref> (149–151). In fact, this name should be read in <ref target="https://papyri.info/current/10288">P.Brookl. 14</ref> as well. In the lacuna at the beginning of the line, there is room for nothing more than chi, whose ascending diagonal is partly visible. The dative formula Χ̣αρμίων̣ι̣ κ̣α̣ὶ̣ μ̣ετόχ(οις) πράκ(τορσι) can therefore be read. </p>
+               <p xml:id="p15">A minor improvement can be made in the second receipt, in l. 14. The plate allows the reading μ]έτοχοι πρακτώρ(ων) (<seg style="font-style: italic;">l.</seg> μετόχων πρακτόρων) instead of μ]ετ̣όχ(ων) πρακτώρ(ων). The same error, with the nominative instead of the genitive and the spelling πρακτωρ- instead of πρακτορ-, is also found in the first receipt in <ref target="https://papyri.info/current/45408">SB 24 16185</ref>.3–4 and in the first receipt in <ref target="https://papyri.info/hgv/702617">P.Lond. inv. 1588a</ref>.4 (151–152; ed. <ref target="https://papyri.info/biblio/86999">Gonis 2016</ref>: 414–417), both written by the same hand as <ref target="https://papyri.info/current/10288">P.Brookl. 14</ref>.<note place="foot" xml:id="ftn7" n="7"><p> On the identity of the first hand in P.Lond. inv. 1588a, the first hand in <ref target="https://papyri.info/current/45408">SB 24 16185</ref> and the fourth hand in <ref target="https://papyri.info/current/14585">SB 16 12327</ref> (147–149), see <ref target="https://papyri.info/biblio/86999">Gonis 2016</ref>: 414. </p></note> <ref target="https://papyri.info/current/8977">BGU 1 214</ref> (152) can also be assigned to the same scribe, which justifies the transcription καὶ μέτοχοι [π]ρακ[τ]ώ̣ρ(ων) (<seg style="font-style: italic;">l.</seg> μετόχων πρακτόρων) instead of the ed. pr.’s καὶ μέτοχοι [π]ράκ[τ]ορ[ες] in l. 6.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">5) </seg>
+                  <ref target="https://papyri.info/current/12609">
+                     <seg style="font-weight: bold;">P.Palau Rib. 51</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (157)</seg>
+               </head>
+               <p xml:id="p16">The text of this receipt, originally published by Daris 1976 with a number of unresolved issues, was reprinted as SB 14 11427 with a corrected date and subsequently as <ref target="https://papyri.info/current/12609">P.Palau Rib. 51</ref> with minor changes. The <ref target="https://dvctvs.upf.edu/catalogue/p-palaurib-inv-159/">online image</ref> enabled me to suggest a minor correction to l. 4 (<ref target="https://papyri.info/biblio/103221">Borrelli 2026</ref>: 220 n. 19, 242). However, the decipherment of passages that the first editor was unable to read and a number of further refinements to the transcription now warrant a re-edition of the document. This makes it possible to identify both the tax collector and the taxpayer.</p>
+               <p xml:id="p17">The tax collector, Herieus (l. 4), also issues the receipts preserved by <ref target="https://papyri.info/current/11699">P.Lond. 2 319</ref> (157) and <ref target="https://papyri.info/current/8975">BGU 1 212</ref> (158). The latter is written by the same scribe as <ref target="https://papyri.info/current/12609">P.Palau Rib. 51</ref>, who likely also wrote <ref target="https://papyri.info/current/11699">P.Lond. 2 319</ref>, <ref target="https://papyri.info/current/10578">P.Coll.Youtie 1 40</ref> (159, on which see below §6), <ref target="https://papyri.info/current/11705">P.Lond. 2 323</ref> (160), <ref target="https://papyri.info/current/9292">BGU 2 654</ref> (161) and <ref target="https://papyri.info/current/8981">1 219</ref>.1–8 (161). Regarding the taxpayer (l. 5), it is most likely the same weaver, Herieus son of Harpagathes, who pays the <seg style="font-style: italic;">cheironaxion</seg> in <ref target="https://papyri.info/current/140713">P.Brux. inv. E 7908</ref>.4–5 (144; ed. <ref target="https://papyri.info/biblio/78415">Bingen 2010</ref>: 246–248) and in <ref target="https://papyri.info/current/21090">P.Heid. 3 238</ref>.4 (162), and who is entrusted with a girl for work or apprenticeship in <ref target="https://papyri.info/current/9383">BGU 3 855</ref>.4–5 (147).<note place="foot" xml:id="ftn8" n="8"><p> An identification of the taxpayer of <ref target="https://papyri.info/current/21090">P.Heid. 3 238</ref> with that of <ref target="https://papyri.info/current/140713">P.Brux. inv. E 7908</ref>.4–5 was suggested by <ref target="https://papyri.info/biblio/78415">Bingen 2010</ref>: 247. Incidentally, I note that there is no scribal error in <ref target="https://papyri.info/current/140713">P.Brux. inv. E 7908</ref>.4, where the editor read Ἁξπα̣γάθο(υ) (<seg style="font-style: italic;">l.</seg> Ἁρπαγάθου). As can be seen from the plate (Fig. 3), the expected Ἁρπα̣γάθο(υ) occurs: the loop of the rho is simply open on the left. The same is true for l. 2, where Καίσαρος should be read instead of Καίσαξος (<seg style="font-style: italic;">l.</seg> Καίσαρος). On <ref target="https://papyri.info/current/9383">BGU 3 855</ref>, see <ref target="https://papyri.info/biblio/96863">Claytor 2024</ref>: §§ 15–17.</p></note></p>
+               <div type="epidoc" subtype="DDB">
+                  <div copyOf="#ed1" type="edition"/>
+                  <div type="commentary">
+                     <note>
+                        <p xml:id="p18"><ref>4.</ref> διέγρ(αψε) δι’ Ἑριέω̣[ς: διαγ(έγραπται) δι’ Ἑρμ̣  ̣[  ̣  ̣  ̣ ed. (δι’ Ερω[  ̣  ̣  ̣ SB 14 11427). The second epsilon of Ἑριέω̣[ς is so reduced as to be barely recognizable, which is not surprising in view of how Ἀντωνίνου is written in l. 3.</p>
+                        <p xml:id="p19">πρακ(τόρων) <ref target="https://papyri.info/biblio/103221">Borrelli 2026</ref>: π(ρακτόρων) κ(ώμης) ed. The first three letters are reduced to a single curved stroke. For a similar abbreviation with an additional stroke, cf. <ref target="https://papyri.info/current/8975">BGU 1 212</ref>.5 and <ref target="https://papyri.info/current/8981">219</ref>.5: in both, I propose reading πρακ(τόρων) instead of πρ(α)κ(τόρων).</p>
+                     </note>
+                     <note>
+                        <p xml:id="p20"><ref>5.</ref> Ἁρπ[αγάθου]: Ἁρπ[  ̣  ̣  ̣  ̣  ̣  ̣  ̣  ̣] ed. For this supplement, see above. </p>
+                     </note>
+                     <note>
+                        <p xml:id="p21"><ref>6.</ref> φιλ[ανθρ]ώ̣(που) κωμογρ(αμματέως): φιλ[άνθρωπο]ν κωμογρ(αμματεῖ) ed., but the lacuna is too short and the name of the tax is expected in the genitive. For the raised omega, cf. λοιπῶ(ν), l. 5. On the resolution of the abbreviation κωμογρ( ) in the genitive, see P.Jördens 22.i.1 n.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p22"><ref>7.</ref> ἔ[τους] Σοκνοπ(αίου) Νήσ[ου]: ἔ[τους   ̣  ̣  ̣  ̣] Σοκνο(παίου)   ̣  ̣  ̣[ ed. Νήσ[ο(υ)], as in <ref target="https://papyri.info/current/8975">BGU 1 212</ref>.7, is also possible.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p23"><ref>8.</ref> This line was left unread by the editor. In the lacuna I restore the abbreviated form ἑξ[ήκον(τα) for reasons of space, based on comparison with <ref target="https://papyri.info/current/8975">BGU 1 212</ref>.8. I have considered whether what follows ξ̣δ might be the surcharges. These are normally calculated at the rate of 1/16, which would amount to 4 drachmas (cf. [  ̣]δ[, l. 9). However, I cannot match what I see with προσδιαγραφόμενα in any way.</p>
+                     </note>
+                     <note>
+                        <p xml:id="p24"><ref>9</ref> [  ̣]δ[:   ̣δ ed.</p>
+                     </note>
+                  </div>
+               </div>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">6) </seg>
+                  <ref target="https://papyri.info/current/10578">
+                     <seg style="font-weight: bold;">P.Coll.Youtie 1 40</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (159</seg>
+                  <note place="foot" xml:id="ftn9" n="9">
+                     <p> On the date, see <ref target="https://beehive.zaw.uni-heidelberg.de/info/25503">BL 8.84</ref>. Regarding the emperor’s titulature, note that Σεβαστοῦ (l. 3) is not abbreviated but written with <seg style="font-style: italic;">Verschleifung</seg>.</p>
+                  </note>
+                  <seg style="font-weight: bold;">)</seg>
+               </head>
+               <p xml:id="p25">This receipt for camel tax is issued by a tax collector whose name in l. 3 has been almost entirely lost. Only the first two letters survive, printed as Σω̣[, though Σα̣[ was also considered (l. 3 n.). Comparison with <ref target="https://papyri.info/current/11705">P.Lond. 2 323</ref> (160), <ref target="https://papyri.info/current/9292">BGU 2 654</ref> (161) and <ref target="https://papyri.info/current/8981">1 219</ref>.1–8 (161), all written by the same scribe as the papyrus in question, shows that the latter reading should be preferred. Σα̣[ταβοῦτος] fits the length of the lacuna; however, the designation of this man as πρεσβ(υτέρου) (l. 4) rules out identifying him with the homonymous tax collector attested in the other receipts.</p>
+               <p xml:id="p26">Regarding the taxpayer, the editor rightly observed that “only one person seems to be mentioned in lines 4–5” (ll. 3–6 n.). The few extant traces at the beginning of l. 5 are compatible with reading the patronymic Ὥ̣ρ[ο]υ̣; for the tall upsilon, of which only the upper loop is visible in the interlinear space, cf. Νήσου in l. 6 and especially Ὥρου in <ref target="https://papyri.info/current/11705">P.Lond. 2 323</ref>.6. [τελέ]σ̣ματ(ος) immediately follows, with no intervening text. </p>
+               <p xml:id="p27">Four receipts for camel tax from the late 150s and early 160s record payments by an Hekysis son of Horos (<ref target="https://papyri.info/current/11705">P.Lond</ref><ref target="https://papyri.info/current/11705">. 2 323</ref>.6; <ref target="https://papyri.info/current/9292">BGU 2 654</ref>.5) and by a Pakysis son of Horos (<ref target="https://papyri.info/current/11699">P.Lond</ref><ref target="https://papyri.info/current/11699">. 2 319</ref>.6; <ref target="https://papyri.info/current/15077">SPP 22 155</ref>.5–6, from 162).<note place="foot" xml:id="ftn10" n="10"><p> On Hekysis, who is also known from several camel declarations, see <ref target="https://papyri.info/biblio/95706">Hagedorn 2018</ref>: 173–174. Pakysis is most likely the same as the Pekysis son of Horos who appears as the purchaser of a female camel in <ref target="https://papyri.info/current/8875">BGU 1 100</ref>.2 (January 3, 159). This points to Soknopaiou Nesos as the provenance of that papyrus.</p></note> They may be brothers, and either could be the taxpayer named in <ref target="https://papyri.info/current/10578">P.Coll.Youtie 1 40</ref>.4–5: the lacuna at the end of l. 4 accommodates approximately 7 letters.</p>
+               <p xml:id="p28">A minor refinement may also be proposed for the line division between ll. 5 and 6. At the end of l. 5, the editor printed δευτέρου κ (ἔτους) and calculated a lacuna of about 13 letters before Σοκ]ν̣οπ(αίου) Νήσου in the following line, which, however, appears excessively long. <ref target="https://beehive.zaw.uni-heidelberg.de/info/25504">BL 8.84</ref> records the correction δευτέρου καὶ | [εἰκοστοῦ (ἔτους). καί is correct, but [εἰκοστοῦ] should be supplied in the same line; in the next line, ἔτους, written out, fills the lacuna. </p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">7)</seg>
+                  <ref target="https://papyri.info/current/15063">
+                     <seg style="font-weight: bold;">SPP 22 139</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (168),</seg>
+                  <ref target="https://papyri.info/current/12777">
+                     <seg style="font-weight: bold;">P.Prag. 1 57</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (166) and </seg>
+                  <ref target="https://papyri.info/hgv/12778">
+                     <seg style="font-weight: bold;">58</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (167)</seg>
+               </head>
+               <p xml:id="p29">Between 166 and 168, a group of receipts for the dyke tax attests the activity of the <seg style="font-style: italic;">praktor argyrikon</seg> Dioskoros: <ref target="https://papyri.info/current/9138">BGU 1 99</ref> (August 2, 166); <ref target="https://papyri.info/current/14218">SB 6 9426</ref> (August 23, 166); <ref target="https://papyri.info/current/10142a">P.Bas. 2 23</ref> (November 9, 166); <ref target="https://papyri.info/current/9565">BGU 11 2028</ref> (July 17, 168); <ref target="https://papyri.info/current/11717">P.Lond. 2 337</ref> (August 18, 168). In <ref target="https://papyri.info/hgv/12778">P.Prag. 1 58</ref>.4 (February 10, 168), his name is almost entirely restored. </p>
+               <p xml:id="p30">With the exception of the last document, all of these papyri may be attributed to the same scribe, who also wrote <ref target="https://papyri.info/current/15063">SPP 22 139</ref> (October 5, 168).<note place="foot" xml:id="ftn11" n="11"><p> The hypothesis that <ref target="https://papyri.info/current/9138">BGU 1 99</ref> and <ref target="https://papyri.info/current/9565">BGU 11 2028</ref> were written by the same hand was previously suggested in <ref target="https://papyri.info/current/9565">BGU 11 2028</ref>.7 n., based on the shared spelling μετωχ( ). In the introduction to the edition of <ref target="https://papyri.info/current/10142a">P.Bas. 2 23</ref>, W.G. Claytor draws attention to the similarity in format to <ref target="https://papyri.info/current/9138">BGU 1 99</ref>, but he argues against identifying the hands. It is true that some abbreviations differ (e.g. διά and μετ(όχων) in <ref target="https://papyri.info/current/10142a">P.Bas. 2 23</ref> vs. δι(ά) vs. μετώχ(ων) in <ref target="https://papyri.info/current/9138">BGU 1 99</ref>), but other features may point to a single scribe, such as the rendering of καί and Σοκνοπ(αίου) Νήσου, or the distinctive shape of upsilon with a connecting stroke extending to the following letter.</p></note> Lines 5–7 of this papyrus were printed in the ed. pr. as διέγρ(αψε) | [    ]ο̣ρου καὶ μετόχ(οις) | [πράκτ(ορσι) ἀρ]γ(υρικῶν) κτλ. <ref target="https://papyri.info/biblio/55334">Sijpesteijn 1982</ref>: 186 n. 28 (= <ref target="https://beehive.zaw.uni-heidelberg.de/info/31782">BL 8.487</ref>) proposed the correction ] Ὥρου καὶ μετώχ(οις) (<seg style="font-style: italic;">l.</seg> μετόχοις) in l. 6, but what he read as an omega is in fact an omicron ligatured with the preceding letter. The text may therefore be restored as [δι(ὰ) Διοσ]κ̣όρου καὶ μετώχ(ων) (<seg style="font-style: italic;">l.</seg> μετόχων) | [πρακ(τόρων) ἀρ]γ(υρικῶν).</p>
+               <p xml:id="p31">This document adds to the dossier of the <seg style="font-style: italic;">praktor</seg> Dioskoros and must likewise be a receipt for the dyke tax. In l. 11, where the editor transcribed ]το( ), the papyrus actually has ]ϛ, which corresponds exactly to the amount recorded in the other receipts (6 drachmas and 4 obols). On the basis of these parallels, the following text can be read instead of the ed. pr.’s μη]τ(ρὸς) Ταφι|[ώμιος    ] ἑβδόμου ἔτ[ους    ] | [    ]το( ) καὶ τὰ προ[σδ(ιαγραφόμενα): </p>
+               <p xml:id="p32">	[τοῦ ±3]  ̣  ̣  ̣[±2] μ̣ητ(ρὸς) Ταφιώ̣(μιος) </p>
+               <p xml:id="p33">10	[χωμάτ(ων)] τ̣οῦ ἑβδόμου ἔτ[ους] </p>
+               <p xml:id="p34">	[δρ(αχμὰς) ἓξ (τετρώβολον), (γίνονται) (δραχμαὶ)] ϛ (τετρώβολον) καὶ τὰ προσ[δ(ιαγραφόμενα)] </p>
+               <p xml:id="p35">	[συμβολ(ικά)].</p>
+               <p xml:id="p36">As for <ref target="https://papyri.info/hgv/12778">P.Prag. 1 58</ref>.4, the tax collector’s name is almost completely abraded, but the editor noted that “l’integrazione (i.e. διὰ [Διοσκό]ρ̣ο̣υ), grazie alla data della ricevuta, è sicura” (l. 4 n.). However, inspection of the online image reveals a difficulty with the final letter. The descending stroke curves to the left, not to the right as in the other instances, and it is too long to belong to an upsilon. A raised eta is preferable from a palaeographical perspective, and a supplement [Στοτ]ο̣ή̣(τιος) is supported by comparison with <ref target="https://papyri.info/current/12777">P.Prag. 1 57</ref>.4. This receipt, written by the same scribe as <ref target="https://papyri.info/hgv/12778">P.Prag. 1 58</ref> and issued by the <seg style="font-style: italic;">praktor</seg> Stotoetis (whose name is written in full rather than abbreviated<note place="foot" xml:id="ftn12" n="12"><p> Read Στοτόη̣τις (<seg style="font-style: italic;">l.</seg> Στοτοήτεως) instead of Στοτοήτ(εως); the same ligature ιϲ is found in Ἄνχωφις̣ (Ἀνχῶφ(ις) ed. pr.) in l. 6. </p></note>), was dated by the editor to November 13, 166: ἔτ̣ους ἑβδό[μο]υ̣ was printed in l. 1, but the lacuna between omicron and upsilon is too short for μο. Furthermore, what was read as εβ looks more like ογ̣: for a similar omicron, closed at the top by a small thickening, cf. <seg style="text-decoration: underline;">Ο</seg>ὐήρου in l. 2. The identification of gamma is complicated by the horizontal stroke on the baseline, which may be the result of a scribal correction (beta is not possible in any case). On this basis, I suggest reading the regnal year as ἔτ̣ους ὀγ̣δό[ο]υ̣, which would redate the document to November 14, 167, only a few months before <ref target="https://papyri.info/hgv/12778">P.Prag. 1 58</ref>.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">8) </seg>
+                  <ref target="https://papyri.info/current/9019">
+                     <seg style="font-weight: bold;">BGU 1 270</seg>
+                  </ref>
+                  <seg style="font-weight: bold;">(192)</seg>
+               </head>
+               <p xml:id="p37">This fully preserved receipt is very difficult to decipher owing to its extensive use of abbreviation and <seg style="font-style: italic;">Verschleifung</seg>. Consequently, its content has largely been misinterpreted. After U. Wilcken’s revision (= <ref target="https://beehive.zaw.uni-heidelberg.de/info/21688">BL 1.35</ref>), ll. 4–9 run as follows:</p>
+               <p xml:id="p38">	διέγρ(αψεν) Σ  ̣  ̣( ) καὶ μετόχ(οις) πρά(κτορσιν) Σαταβοῦς </p>
+               <p xml:id="p39">5	Πακύσεως καὶ Στοτοῆτις </p>
+               <p xml:id="p40">	᾽Οννώφρεως ἡγο(ύμενοι) κώμ(ης) </p>
+               <p xml:id="p41">	Σοκ(νοπαίου) Νή(σου) τὸ τέλ(ος) ὑπ(ὲρ) λα (ἔτους) ἀργ(υρίου) (δραχμὰς) </p>
+               <p xml:id="p42">	τετρακοσίας (γίνονται) (δραχμαὶ) υ</p>
+               <p xml:id="p43">	(<seg style="font-style: italic;">m.</seg>2) πλήρης.</p>
+               <p xml:id="p44">In view of the plural ἡγο(ύμενοι), the correct resolution of διεγρ( ) in l. 4 is διέγρ(αψαν), not διέγρ(αψεν). Moreover, πλήρης is part of the main text and was written by the main scribe, as in similar cases: cf. e.g. <ref target="https://papyri.info/current/9493">BGU 7 1587</ref>.6 (Philadelphia, 258). </p>
+               <p xml:id="p45">Regarding the tax collector, an improvement was recently made by <ref target="https://papyri.info/biblio/103222">Iannace 2026</ref>: 195, who identified the name Σεύ(θῃ) in l. 4. This reading may appear suspect at first sight because of both the shape of the abbreviation mark — in which one might seek to read a letter — and the lack of secure attestation of the name Seuthes in Soknopaiou Nesos.<note place="foot" xml:id="ftn13" n="13"><p> The reading of the same name in P.Aberd. inv. 13f.2 (ed. <ref target="https://papyri.info/biblio/103222">Iannace 2026</ref>: 192–195) is far from certain.</p></note> However, if l. 7 is interpreted correctly (see below), the use of this semicircular form for an abbreviation mark would be idiosyncratic to the scribe. Moreover, what follows Σεύ(θῃ) on the papyrus justifies the presence of an unusual name for Soknopaiou Nesos. This is a series of indistinct wave-like strokes, after which a clear chi is visible. What Wilcken, guided by the context, interpreted as a pi is in fact an epsilon ligatured to an iota of the type seen in καί, l. 5. The raised letter following rho is an omega, not an alpha; thus, χειρω should be read. In Soknopaiou Nesos, the trade tax was not collected by the πράκτορες ἀργυρικῶν, but by the μισθωταί / ἐγλήμπτορες or the ἐπιτηρηταὶ κοπῆς τριχὸς καὶ χειρωναξίου. These tax collectors often bore names that were atypical for the village.<note place="foot" xml:id="ftn14" n="14"><p> See <ref target="https://papyri.info/biblio/18268">Reiter 2004</ref>: 116–118, who argues that these officials could operate at district level. See p. 117 n. 31 for a list of occurrences of the farmers of this tax in Soknopaiou Nesos.</p></note> In l. 4 of the present papyrus, an initial epsilon is discernible, while the sequence γλημ may be recognized in the reduced letters that follow. I therefore suggest reading ἐγλήμπτορι χειρω(ναξίου), taking ἐγλήμπτορι to be written with <seg style="font-style: italic;">Verschleifung</seg>, since abbreviations are consistently marked throughout the document. For the shortened title ἐγλήμπτωρ χειρωναξίου, cf. <ref target="https://papyri.info/current/140713">P.Brux. inv. E 7908</ref>.3 (<ref target="https://papyri.info/biblio/78415">Bingen 2010</ref>: 246–248).</p>
+               <p xml:id="p46">The purpose of the payment is found in l. 7, where I read τελέ(σματος) instead of Wilcken’s τὸ τέλ(ος). The abbreviation mark has the same curved shape as in l. 4, though here it extends to the baseline and is ligatured with the following letter. Deciphering what comes between τελέ(σματος) and λα (ἔτους) is not straightforward. While one can see why Wilcken read ὑπ(έρ), the preposition appears superfluous before the tax year. Assuming that the curved stroke marks an abbreviation rather than standing for the letter pi, I propose reading either τ(οῦ) or το(ῦ) (the thick dot attached to the end of tau could be an omicron; cf. Αἰλίου in l. 2); for the v-shaped tau, cf. τελέ(σματος) in the same line. Although the profession is not explicitly mentioned, it is likely that we are dealing with the trade tax on weavers, also referred to simply as a τέλεσμα in <ref target="https://papyri.info/current/11362">P.Grenf. 2 60</ref>.6 (194). For an example of a payment made with a two-year delay, see e.g. <ref target="https://papyri.info/current/140713">P.Brux. inv. E 7908</ref>.6–7 (<ref target="https://papyri.info/biblio/78415">Bingen 2010</ref>: 246–248). The high amount recorded here, namely 400 drachmas, may be explained if the <seg style="font-style: italic;">hegoumenoi</seg> were acting as representatives of the village’s entire community of weavers: cf. <ref target="https://papyri.info/current/10101">P.Amh. 2 119</ref> (200), discussed by <ref target="https://papyri.info/biblio/18268">Reiter 2004</ref>: 117–118.</p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">9) </seg>
+                  <ref target="https://papyri.info/current/9612">
+                     <seg style="font-weight: bold;">BGU 11 2102</seg>
+                  </ref>
+                  <seg style="font-weight: bold;">(194) and </seg>
+                  <ref target="https://papyri.info/current/15047">
+                     <seg style="font-weight: bold;">SPP 22 120</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (194–195)</seg>
+               </head>
+               <p xml:id="p47"><ref target="https://papyri.info/current/9612">BGU 11 2102</ref> is a receipt for φόρος προβάτων paid by the village elders of Soknopaiou Nesos to Theoninos alias Ptol( ) and his associates, lessees of ousiac properties.<note place="foot" xml:id="ftn15" n="15"><p> On the <seg style="font-style: italic;">ousia</seg> of Theoninos, see TM Geo 2377 and below, §§.</p></note> The editor printed ll. 2–3 as εἰς τ(ὸν) Θεωνε̣ίνου τοῦ καὶ Πτο̣λ̣( ) | κ̣α̣ὶ̣ τῶ[ν σ]ὺ̣ν̣ α̣ὐ̣τῷ μ̣[ι]σθ(ωτῶν) οὐσι[α]κ(ῶν) κτ[ημ(άτων?)]   ̣  ̣α̅ τ̣ρ  ̣[ ]  ̣  ̣ and noted that “am Ende der Zeile müßte λόγον gestanden haben, was aber dort kaum gelesen werden kann; vielleicht ]  ̣  ̣αλ” (l. 3 n.). The online image confirms that τό̣(ν), considered by the editor (l. 2 n.) but ultimately abandoned, should indeed be read instead of τ(όν), and that the expected λόγον is in fact written on the papyrus. Moreover, the title of Theoninos can be completed by comparison with <ref target="https://papyri.info/current/11270">SB 20 14396</ref>.4–7 (195), where the same lessee appears alongside a colleague. The end of l. 3 may therefore be read as κτ[η]μ̣(άτων) κ̣α̣ὶ̣ ἄλ(λων) λόγ̣ο̣(ν).</p>
+               <p xml:id="p48">The payment is made through a certain Sotas, whose identification with his namesake in the later <ref target="https://papyri.info/current/10283">P.Bour. 29</ref> (see below, §§) was considered unlikely by the editor (l. 4 n.). I suggest identifying him with the Sotas son of Ptolemaios who is listed among the village elders in <ref target="https://papyri.info/hgv/13008">P.Ryl. 2 89</ref>.4–5 (191/2) and, along with the other village elders, pays rent in <ref target="https://papyri.info/current/15047">SPP 22 120</ref>.3 (194–195). The text of this receipt has undergone two minor corrections,<note place="foot" xml:id="ftn16" n="16"><p> <ref target="https://beehive.zaw.uni-heidelberg.de/info/31738">BL 8.485</ref> and <ref target="https://papyri.info/biblio/103221">Borrelli 2026</ref>: 242 on ll. 1 and 2 respectively. </p></note> but the main issue, namely the purpose of the payment, has not yet been addressed. The editor read φόρου οὐσ(ιακοῦ) [ὑπὲρ] τοῦ αὐτοῦ ἔτους in l. 4. Quite apart from the oddity of the “ousiac rent,” which is not attested elsewhere,<note place="foot" xml:id="ftn17" n="17"><p> The phrase οὐσια(κοῦ) φό(ρου) παραδ(είσων) in <ref target="https://papyri.info/current/21840">P.Oxy. 12 1436</ref>.42 (Teis, 156) seems to be more specific.</p></note> there are traces on the papyrus after ουϲ̅ that do not fit ὑπέρ. Immediately before τοῦ, a raised letter of which two parallel vertical strokes remain is visible: beta looks plausible (cf. πρεσβ(ύτεροι), l. 3). The preceding traces are consistent with the transcription π̣ρ̣ο̣β̣( ). I therefore suggest reading φόρου οὐσ(ιακῶν) π̣ρ̣ο̣β̣(άτων). The difficulty of an otherwise unattested formula remains. However, it is perhaps not unreasonable to assume that this is an alternative designation of the common φόρος προβάτων, which was mostly associated with imperial estates.<note place="foot" xml:id="ftn18" n="18"><p> Note that a group of second-century receipts from Bakchias records payments ὑπὲρ οὐσιακῶν προβάτων. According to <ref target="https://papyri.info/biblio/18268">Reiter 2004</ref>: 159 n. 74, these correspond to the rent for the sheep of an <seg style="font-style: italic;">ousia</seg>. In any case, the qualification as οὐσιακά may serve to distinguish these sheep from those described as δημόσια: see in particular <ref target="https://papyri.info/current/13325">P.Stras. 5 427</ref>.3 of 126. </p></note> </p>
+            </div>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">10) </seg>
+                  <ref target="https://papyri.info/current/9698">
+                     <seg style="font-weight: bold;">BGU 13 2298</seg>
+                  </ref>
+                  <seg style="font-weight: bold;"> (208) and </seg>
+                  <ref target="https://papyri.info/current/10283">
+                     <seg style="font-weight: bold;">P.Bour. 29</seg>
+                  </ref>
+                  <seg style="font-weight: bold;">(211)</seg>
+               </head>
+               <p xml:id="p49">As pointed out in <ref target="https://papyri.info/current/9698">BGU 13 2298</ref> introd., these two receipts are written by the same hand. Both record payments of the φόρος προβάτων by the village elders of Soknopaiou Nesos for the estate formerly owned by Theoninos. Major corrections to the text of <ref target="https://papyri.info/current/10283">P.Bour. 29</ref>.7–8 were proposed by H. Maehler in <ref target="https://papyri.info/current/9612">BGU 11 2102</ref> introd. (= <ref target="https://beehive.zaw.uni-heidelberg.de/info/25081">BL 6.24 </ref>), allowing its content to be fully understood. Subsequently, the edition of <ref target="https://papyri.info/current/9698">BGU 13 2298</ref> led to a further improvement in l. 10 (= <ref target="https://beehive.zaw.uni-heidelberg.de/info/25082">BL 8.68</ref>). One problem remained unresolved, however, namely the abbreviated word that opens the body of the receipt. In <ref target="https://papyri.info/current/10283">P.Bour. 29</ref>, it was printed as παρ(ά), and the following πρεσβ( ) was expanded into the genitive. In <ref target="https://papyri.info/current/9698">BGU 13 2298</ref>.5 and 10, W. Brashear read παρ(έσχον) πρεσβ(ύτεροι), noting that the same verb, “corresponding to διέγραψε, -αν in parallel receipts,” would have appeared in <ref target="https://papyri.info/current/10283">P.Bour. 29</ref> as well (l. 5 n.).<note place="foot" xml:id="ftn19" n="19"><p> The correction is recorded in <ref target="https://beehive.zaw.uni-heidelberg.de/info/25080">BL 7.31</ref>.</p></note> The online images reveal that both papyri have διέ(γραψαν): in all three instances where the same abbreviation appears, the delta merges into an extremely short iota (cf. δι(ά) in <ref target="https://papyri.info/current/10283">P.Bour. 29</ref>.7, with <ref target="https://beehive.zaw.uni-heidelberg.de/info/25081">BL 6.24</ref>), which ligatures into an epsilon connected to a sinusoid. </p>
+               <p xml:id="p50">A few further corrections to <ref target="https://papyri.info/current/9698">BGU 13 2298</ref> seem to be in order. In this receipt, the payment is split over two consecutive months. As noted by the editor (l. 13 n.), the total amount of 443 drachmas and 3 obols corresponds to the sum elsewhere attested for the φόρος προβάτων. However, the editor was only able to read the name of this rent in relation to the second installment (φό(ρου) | προβ(άτων) ιϛ (ἔτους), ll. 11–12), while the purpose of the first payment remained mostly unread: in l. 7, φόρου α  ̣  ̣[  ̣  ̣  ̣]  ̣ was printed, which was tentatively restored by <ref target="https://papyri.info/biblio/8779">Thomas 1978</ref>: 333 as φόρου ἀποτάκτου (cf. <ref target="https://beehive.zaw.uni-heidelberg.de/info/24114">BL 7.27</ref>). Alpha may look acceptable at first sight, but, as far as I know, there are no parallels for such a reference to the rent on sheep. Upon closer inspection of the online image, the expected προβάτων can be read: what was taken as the belly of alpha is compatible with the right part of a pi (looped at the end as in l. 12), of which a high trace to the left would also survive. The loop of a small rho would be visible afterwards. A few further traces, inconclusive on their own, and an abraded area are followed by a long horizontal stroke, which fits well with the L-shaped symbol for ἔτους seen in <ref target="https://papyri.info/current/10283">P.Bour. 29</ref>.8. On this basis, I suggest reading φόρου π̣ρ̣ο̣β̣(άτων) [ιϛ] (ἔτους?). </p>
+               <p xml:id="p51">As the text stands in the ed. pr., the two installments appear to have been paid through two different intermediaries (δι̣(ὰ) [Σώ]τ̣α Ἑρ̣ι̣έ̣ω̣ς̣ κο(ινωνοῦ), l. 6; διὰ Πεειοῦτ̣[ος] κ̣ο̣(ινωνοῦ), l. 11). The first intermediary would have been the same one who appears three years later in <ref target="https://papyri.info/current/10283">P.Bour. 29</ref>.7. However, the extant traces in l. 6 do not support the reading [Σώ]τ̣α Ἑρ̣ι̣έ̣ω̣ς̣, but rather seem consistent with [Π]ε̣ειεῦ̣τ̣ο̣ς, implying that the same intermediary made the payment on both occasions. (In l. 11, I read Πεειεῦτ̣[ος] instead of the ed. pr.’s Πεειοῦτ̣[ος].) The name Peeieus is not otherwise attested in this form, but, as already noted in <ref target="https://papyri.info/current/9698">BGU 13 2298</ref>.11 n., this person may be Paieus son of Stotoetis, known from several Soknopaiou Nesos papyri. To the occurrences listed in <ref target="https://papyri.info/current/901307">P.Messeri 30</ref>.3 n., showing various spellings of the name, add now <ref target="https://papyri.info/current/110046">P.Berl.Cohen 3 </ref>.4 (re-edited in <ref target="https://papyri.info/biblio/103221">Borrelli 2026</ref>: 231–233), from which we learn that he was an <seg style="font-style: italic;">epiteretes</seg> in 195/6.<note place="foot" xml:id="ftn20" n="20"><p> For another instance of a <seg style="font-style: italic;">presbyteros</seg> who was previously appointed as an <seg style="font-style: italic;">epiteretes</seg>, see e.g. <ref target="https://papyri.info/current/27660">SB 18 13143</ref>.5–9 (Philoteris, II).</p></note></p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/78415">Bingen, J. (2010)</ref> “Trois documents provenant de Soknopaiou Nèsos,” CdÉ 85: 240–248.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/103221">Borrelli, B. (2026)</ref> “I papiri di Harpalos: dossier, archivio e carriera di un <seg style="font-style: italic;">praktor argyrikon</seg> di Soknopaiou Nesos,” Aegyptus 106: 209–244.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96863">Claytor, W.G. (2024)</ref> “Notes on Papyri from Roman Egypt II,” Pylon 5.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/75809">Cohen, S. (2007)</ref> “Replacement for a Lost Syntaximon Receipt,” Pap.Congr. 23: 109–115.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/51295">Daris, S. (1976)</ref> “Due papiri documentari della Facoltà Teologica di Barcellona,” StudPap 15: 125–129.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/86999">Gonis, N. (2016)</ref> “Three Receipts from Soknopaiou Nesos,” ZPE 200: 411–419.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/95706">Hagedorn, D. (2018)</ref> “Bemerkungen zu den arsinoitischen Kameldeklarationen,” AnPap 30: 137–202.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/103222">Iannace, V. (2026)</ref> “The Documents of Pakysis son of Pakysis son of Herieus: A Two-Generation Archive from Second-Century Soknopaiou Nesos,” Aegyptus 106: 173–207.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/77321">Mitthof, F. (2008)</ref> “Urkundenreferat 2007 (1. Teil),” APF 54: 266–298.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/56750">Poethke, G. and Sijpesteijn, P.J. (1984)</ref> “Abrechnungen und Quittungen der Berliner Papyrus-Sammlung aus dem Faijum,” APF 30: 43–52.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/18268">Reiter, F. (2004)</ref>
+                     <seg style="font-style: italic;">Die Nomarchen des Arsinoites. Ein Beitrag zum Steuerwesen im römischen Ägypten</seg>, Paderborn – München – Wien – Zürich.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/55334">Sijpesteijn, P.J. (1982)</ref> “Further Remarks on Some Imperial Titles in the Papyri,” ZPE 45: 177–196.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/8779">Thomas, J.D. (1978)</ref> “Review of W.M. Brashear, Greek Papyri from Roman Egypt (Ägyptische Urkunden aus den Staatlichen Museen Berlin, Griechische Urkunden, XIII.), Berlin 1976,” CR N.S. 28: 332–333.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve"><ab>
+    <lb n="1"/>ἔτους <num value="20">εἰκοστοῦ</num> Αὐτοκράτορος
+    <lb n="2"/>Καίσαρος Τίτ<supplied reason="lost">ου Αἰλίου</supplied> Ἁδριανοῦ
+    <lb n="3"/>Ἀντωνίνου Σε<supplied reason="lost">βαστοῦ Εὐ</supplied>σεβοῦς <expan>Παχ<ex>ων</ex></expan> <num value="25">κε̅</num>.
+    <lb n="4"/><expan>διέγρ<ex>αψε</ex></expan> δι’ Ἑριέ<unclear>ω</unclear><supplied reason="lost">ς καὶ</supplied> <expan>μετόχ<ex>ων</ex></expan> <expan>πρακ<ex>τόρων</ex></expan>
+    <lb n="5"/>Ἑριεὺς Ἁρπ<supplied reason="lost">αγάθου</supplied> καὶ τῶν <expan>λοιπῶ<ex>ν</ex></expan>
+    <lb n="6"/>γερδίων <expan>φιλ<supplied reason="lost">ανθρ</supplied><unclear>ώ</unclear><ex>που</ex></expan> <expan>κωμογρ<ex>αμματέως</ex></expan>
+    <lb n="7"/><num value="20">εἰκοστοῦ</num> ἔ<supplied reason="lost">τους</supplied> <expan>Σοκνοπ<ex>αίου</ex></expan> Νήσ<supplied reason="lost">ου</supplied>
+    <lb n="8"/><expan><ex>δραχμὰς</ex></expan> ἑξ<supplied reason="lost"><expan>ήκον<ex>τα</ex></expan> τέσσαρας, <expan><ex>γίνονται</ex></expan></supplied> <expan><ex cert="low">δραχμαὶ</ex></expan> <num value="64"><unclear>ξ</unclear>δ</num> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character" precision="low"/>
+    <lb n="9"/><gap reason="lost" quantity="1" unit="character"/>δ<gap reason="lost" extent="unknown" unit="character"/>
+    <lb n="9"/><gap reason="lost" extent="unknown" unit="line"/></ab></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
