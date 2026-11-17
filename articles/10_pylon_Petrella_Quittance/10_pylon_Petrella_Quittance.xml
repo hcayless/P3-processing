@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Une quittance de paiement de la collection de Strasbourg</title>
+            <author>
+               <name>
+                  <forename/>
+                  <surname/>
+               </name>
+               <affiliation>Université libre de Bruxelles (ULB) / Université de Liège</affiliation>
+               <email>arianna.petrella@ulb.be</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2026-11-17</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-11-17T20:21:32Z</date>
+               <name>PETRELLA Arianna</name>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">
+               <seg style="font-weight: bold;">Une quittance de paiement de la collection de Strasbourg</seg>
+            </titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1">#acknowledgements</p>
+            <p xml:id="p2" style="text-align: justify;">Je remercie vivement Bianca Borrelli pour sa relecture attentive et pour ses précieuses remarques, qui ont contribué à améliorer ce texte. Toute erreur ou omission reste de ma responsabilité.</p>
+            <div type="epidoc" subtype="DDB">
+               <div type="introduction">
+                  <p xml:id="p3">Le papyrus, constitué de deux fragments contigus, a été acquis par le <seg style="font-style: italic;">Deutsches Papyruskartell</seg> et, à ce titre, il figure dans le registre de 1912 de la <seg style="font-style: italic;">Kaiserliche Universitäts- und Landesbibliothek</seg> de Strasbourg<note place="foot" xml:id="ftn1" n="1"><p style="text-align: justify;"> Pour le cadre historico-institutionnel du <seg style="font-style: italic;">Deutsches Papyruskartell</seg> et du <seg style="font-style: italic;">Preußisches Papyrusunternehmen</seg>, fondé sur la documentation conservée à Strasbourg, cf. <ref target="https://papyri.info/biblio/66044">Primavesi 1996</ref> : 173-187.</p></note>. Comme pour la majorité des papyrus de cette collection, achetés sur le marché des antiquités, le lieu et les circonstances de la découverte archéologique ne sont pas connus<note place="foot" xml:id="ftn2" n="2"><p style="text-align: justify;"> Je remercie Paul Heilporn de m’avoir aimablement communiqué l’image et le premier inventaire manuscrit (1911-1916) des papyrus grecs de la collection de Strasbourg, ainsi que de m’avoir autorisée à publier ce fragment.</p></note>.</p>
+                  <p xml:id="p4" style="text-align: justify;">Le document conserve une quittance de paiement rédigée en 162 après J.-C., qui enregistre deux versements, respectivement de huit et de quatre drachmes. Ces paiements se rapportent à l’année précédente et semblent correspondre à deux versements d’une même taxe. La lacune du texte ne permet toutefois ni d’identifier cette taxe avec précision, ni de déterminer les personnes impliquées et leurs éventuelles qualifications ; pour la restitution possible de la formule, voir le commentaire à la l. 2.</p>
+                  <p xml:id="p5" style="text-align: justify;">Le document est écrit au <seg style="font-style: italic;">recto</seg>, <seg style="font-style: italic;">transversa charta</seg>. Le fragment est en bon état ; les marges gauche, supérieure et inférieure sont conservées, tandis que la marge droite, qui devait contenir une partie de la formule de la quittance, est perdue. Sa largeur conservée est d’environ 19 cm. Comme la hauteur des rouleaux de papyrus à l’époque gréco-romaine se situe généralement entre 20 et 30 cm, la perte en largeur peut être estimée à environ 10 cm. La feuille a probablement été obtenue par la découpe et le réemploi d’un document antérieur. De bons parallèles pour ce format sont <ref target="https://papyri.info/current/15194">BGU 15 2530</ref> (162 apr. J.-C.) et <ref target="https://papyri.info/current/15056">SPP 22 130</ref> (162-169 apr. J.-C.)<note place="foot" xml:id="ftn3" n="3"><p style="text-align: justify;"> Pour cette quittance et, plus généralement, pour les reçus de <seg style="font-style: italic;">laographia</seg> et les déclarations censitaires de Memphis, cf. <ref target="https://papyri.info/biblio/96208">Claytor 2022</ref> : 121-133.</p></note>, tous deux provenant de Memphis et contemporains de P. Stras. inv. 2671. Ces rapprochements permettent peut-être d’envisager une provenance memphite pour le papyrus de Strasbourg ; cf. également le commentaire à la l. 2 sur le trait ajouté à l’η. L’écriture est cursive, caractérisée par un <seg style="font-style: italic;">ductus</seg> rapide, des ligatures fréquentes et un recours important aux abréviations. Le <seg style="font-style: italic;">verso</seg> est vierge, à l’exception d’une fine trace d’encre le long de la marge supérieure. Dans la partie supérieure droite, à proximité de la marge, on distingue des traces qui semblent correspondre aux signes abrégés pour ἔτους et γίνονται ; il n’est pas exclu qu’un autre document, probablement de nature similaire, ait été initialement présent sur la même feuille.</p>
+                  <p xml:id="p6">#papyrologicalHeader</p>
+                  <table>
+                     <row>
+                        <cell style="text-align: justify;">P. Stras. inv. 2671</cell>
+                        <cell style="text-align: center;">19 × 4,5 cm</cell>
+                        <cell style="text-align: right;">26 novembre 162 apr. J.-C.</cell>
+                     </row>
+                     <row>
+                        <cell style="text-align: justify;"/>
+                        <cell style="text-align: justify;"/>
+                        <cell style="text-align: right;">Provenance inconnue (Memphis ?)</cell>
+                     </row>
+                  </table>
+               </div>
+               <div copyOf="#ed1" type="edition"/>
+               <div copyOf="#trans1" type="translation"/>
+               <div type="commentary">
+                  <note>
+                     <p xml:id="p7"><ref>1.</ref> καί : le trait vertical présente des traces de correction. Il pourrait s’agir d’un glissement du calame dans l’exécution du dernier trait du <seg style="font-style: italic;">kappa</seg>, ou d’une exécution incomplète du <seg style="font-style: italic;">iota</seg>, interrompue prématurément puis reprise.</p>
+                  </note>
+                  <note>
+                     <p xml:id="p8"><ref>2.</ref> δια[γέγρ(αφεν) : la séquence initiale δια[ permet de reconnaître le verbe διαγράφω, régulièrement employé dans les quittances pour l’enregistrement d’un paiement ; la restitution d’un parfait est compatible avec les lettres conservées. Le choix entre parfait et aoriste peut être lié aux usages formulaires des différents milieux administratifs ; sur cette alternance, cf. <ref target="https://papyri.info/biblio/41427">Préaux 1955</ref> : 378, 381. Pour la seconde moitié du IIe s. apr. J.-C., l’aoriste est dans l’ensemble plus fréquent ; le parfait reste toutefois bien attesté et ses occurrences se concentrent surtout dans l’Arsinoïte et la région memphite, sans que cette distribution soit exclusive. Après le verbe pouvaient figurer l’indication du collecteur, introduite par διά + génitif ou exprimée au datif, puis le nom du contribuable, bien que l’ordre inverse soit également attesté, plus rarement (cf. <ref target="https://papyri.info/current/14364">SB 12 10921</ref>, 4-5 ; <ref target="https://papyri.info/current/41739">SB 22 15331</ref>, 4). Des indications supplémentaires pouvaient accompagner l’un ou l’autre. Le motif du versement pouvait ensuite être introduit par ὑπέρ (cf. <ref target="https://papyri.info/current/18314">O.Bankes 13</ref>, 2 ; <ref target="https://papyri.info/current/70392">O.Amst. 45</ref>, 3) ou exprimé directement au génitif (cf. <ref target="https://papyri.info/current/18314">O.Bankes 13</ref>, 8 ; <ref target="https://papyri.info/current/11797">P.Lond. 3 844</ref>, 3). Compte tenu de l’état lacunaire du support et de la variabilité de la formule, la partie perdue ne peut être restituée avec précision.</p>
+                     <p xml:id="p9">η : un long trait horizontal est ajouté à la base de la seconde haste verticale de l’<seg style="font-style: italic;">eta</seg>, peut-être afin d’empêcher des additions ultérieures. Pour une fonction comparable attribuée à des prolongements graphiques de forme différente dans des quittances de Ptolemais Euergetis, cf. <ref target="https://papyri.info/biblio/96207">Micucci 2022</ref> : 113-117. Ce type de tracé est par ailleurs attesté dans la plupart des quittances de Memphis, par exemple dans <ref target="https://papyri.info/apis/michigan.apis.1907">SB 16 12645</ref> et <ref target="https://papyri.info/current/11843">P.Louvre 1 30</ref>, et pourrait constituer un indice supplémentaire en faveur d’une provenance memphite de P. Stras. inv. 2671.</p>
+                     <p xml:id="p10">σύνπ(αντι) : cf. <ref target="https://papyri.info/current/21106">P.Heid. 4 321</ref>, 7.</p>
+                     <p xml:id="p11">ὁ α(ὐτός) : cf. <ref target="https://papyri.info/current/21214">P.Köln 3 138</ref>, 4 et 9. L’expression ὁ α(ὐτός) renvoie au contribuable déjà mentionné à la fin de la ligne précédente, aujourd’hui en lacune. La séquence ὁ α(ὐτὸς) διαγέγρ(αφεν) ne semble pas avoir de parallèle exact au parfait. À l’aoriste, on trouve ὁ α(ὐτός) διέγραψεν dans <ref target="https://papyri.info/current/76762">O.Wilck. 194</ref>, 10 et <ref target="https://papyri.info/hgv/76801">O.Wilck. 234</ref>, 7, ainsi que ὁ α(ὐτός) διέγραψε dans <ref target="https://papyri.info/current/9038">BGU 1 293</ref>, 12-13.</p>
+                     <p xml:id="p12">διαγέγρ(αφεν) : malgré la difficulté de la lecture, cette restitution paraît la plus plausible. Après le <seg style="font-style: italic;">iota</seg>, plus de deux lettres sont certainement conservées, bien qu’elles soient tellement cursives qu’elles ne soient plus distinguables individuellement. Le <seg style="font-style: italic;">rho</seg> paraît avoir une forme comparable à celui de Ἁδριανοῦ et se lie au trait indiquant l’abréviation. Lorsqu’un même mot se répète dans le texte, il est toujours abrégé de la même manière ; on peut donc supposer que le verbe de la l. 1, conservé seulement sous la forme δια[, était abrégé comme à la l. 2 : δια[γέγρ(αφεν) ou δια[γεγρ(άφηκεν).</p>
+                  </note>
+               </div>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96208">Claytor, W. G. (2022)</ref> “The Memphis Poll Tax Receipts and Census Declarations,” <seg style="font-style: italic;">BASP</seg> 59: 121–133.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/96207">Micucci, F. (2022)</ref> “Seven Second-Century Tax Receipts from the Arsinoite Nome in the British Library,” <seg style="font-style: italic;">BASP</seg> 59: 101–119.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/41427">Préaux, Cl. (1955)</ref> “L’emploi des temps de διαγράφω dans les reçus de banque thébains du Ier siècle après J.-C.,” <seg style="font-style: italic;">CdÉ</seg> 30: 375–382.</bibl>
+                  <bibl>
+                     <ref target="https://papyri.info/biblio/66044">Primavesi, O. (1996)</ref> “Zur Geschichte des Deutschen Papyruskartells,” <seg style="font-style: italic;">ZPE</seg> 114: 173–187.</bibl>
+               </listBibl>
+            </div>
+         </div>
+      </body>
+   </text>
+   <TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Papyri.info</authority>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <repository/>
+                     <idno type="invNo"/>
+                  </msIdentifier>
+                  <history/>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="bibliography" subtype="principalEdition"/>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="ddb-hybrid"/>
+               <idno type="HGV"/>
+               <idno type="TM"/>
+               <availability>
+                  <p>© Duke Databank of Documentary Papyri. This work is licensed under a
+                <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative 
+                  Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="grc">Greek</language>
+               <language ident="la">Latin</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <head xml:lang="en"/>
+            <div xml:id="ed1" xml:lang="grc" type="edition" xml:space="preserve">
+<ab>
+<lb n="1"/>ἔτους <num value="3">τρίτου</num> Ἀντωνίνου καὶ Οὐήρου τῶν κυρίων Σεβαστῶν Ἁθυρ <num value="30"><hi rend="supraline">λ</hi></num>. <expan>δια<supplied reason="lost">γέγρ<ex>αφεν</ex></supplied></expan> <gap reason="lost" extent="unknown" unit="character"/>    
+<lb n="2"/><num value="2">β</num> <expan><ex>ἔτους</ex></expan> <expan>σύνπ<ex>αντι</ex></expan> <expan><ex>δραχµὰς</ex></expan> <num value="8">ὀκτώ</num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχµαὶ</ex></expan> <num value="8">η</num>. καὶ Ἁδριανοῦ <num value="30"><hi rend="supraline">λ</hi></num> ὁ 
+<lb n="3"/><expan>α<ex>ὐτὸς</ex></expan> <expan>διαγέγρ<ex>αφεν</ex></expan> <expan>σύνπ<ex>αντι</ex></expan> <expan><ex>δραχµὰς</ex></expan> <num value="4"><choice><reg>τέσσαρας</reg><orig>τέσσαρες</orig></choice></num>, <expan><ex>γίνονται</ex></expan> <expan><ex>δραχµαὶ</ex></expan> <num value="4">δ</num>.
+</ab></div>
+         </body>
+      </text>
+   </TEI>
+   <TEI xml:lang="en">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="main"/>
+            </titleStmt>
+            <publicationStmt>
+               <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+               <idno type="filename"/>
+               <idno type="TM"/>
+               <idno type="HGV"/>
+               <availability>
+                  <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+                a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <p>The contents of this document are generated from SOSOL.</p>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="fr">Französisch</language>
+               <language ident="en">Englisch</language>
+               <language ident="de">Deutsch</language>
+               <language ident="it">Italienisch</language>
+               <language ident="es">Spanisch</language>
+               <language ident="la">Latein</language>
+               <language ident="el">Griechisch</language>
+               <language ident="ar">Arabisch</language>
+            </langUsage>
+         </profileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div xml:id="trans1" xml:lang="fr" type="translation" xml:space="preserve"><p>
+Dans la troisième année d’Antonin et de Verus, les seigneurs Augustes, le 30 Hathyr. […] a payé […] de la deuxième année, au total 8 drachmes ; et le 30 du mois d’Hadrianos, le même […] au total 4 drachmes.
+</p></div>
+         </body>
+      </text>
+   </TEI>
+</TEI>
