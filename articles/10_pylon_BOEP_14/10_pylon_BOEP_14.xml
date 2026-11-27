@@ -1,0 +1,3188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bulletin of Online Emendations to Papyri (BOEP) 14 (October 5, 2026)</title>
+            <author>
+               <name>
+                  <forename>Rodney</forename>
+                  <surname>Ast</surname>
+               </name>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>ast@uni-heidelberg.de</email>
+            </author>
+            <author>
+               <name>
+                  <forename>Lajos</forename>
+                  <surname>Berkes</surname>
+               </name>
+               <affiliation>Humboldt-Universität zu Berlin</affiliation>
+               <email>berkes.lajos@gmail.com</email>
+            </author>
+            <author>
+               <name>
+                  <forename>James M.S.</forename>
+                  <surname>Cowey</surname>
+               </name>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>james.cowey@urz.uni-heidelberg.de</email>
+            </author>
+            <author>
+               <name>
+                  <forename>Holger</forename>
+                  <surname>Essler</surname>
+               </name>
+               <affiliation>Università Ca'Foscari</affiliation>
+               <email>holger.essler@uni-wuerzburg.de</email>
+            </author>
+            <author>
+               <name>
+                  <forename>Julia</forename>
+                  <surname>Lougovaya</surname>
+               </name>
+               <affiliation>Universität Heidelberg</affiliation>
+               <email>lougovaya@uni-heidelberg.de</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>unknown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab>Converted from a Word document for Pylon.</ab>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <date>2026-11-27T14:34:03Z</date>
+               <name/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart type="MainTitle">Bulletin of Online Emendations to Papyri (BOEP) 14 (October 5, 2026)</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="article">
+            <p xml:id="p1" style="text-align: left; ">This installment of the Bulletin reports all emendation proposals to Greek, Latin and Coptic documentary and literary texts that were accepted to either the Duke Databank of Documentary Papyri (DDbDP) via the <ref target="http://www.papyri.info/editor/">Papyrological Editor (PE)</ref> between August 29, 2025 and October 5, 2026. Numbers in the left column are intended to be used to refer to the individual proposals.</p>
+            <p xml:id="p2" style="text-align: left; ">The new readings have been vetted by members of the PEʼs editorial board, with the occasional input of outside reviewers. They have not appeared previously in print and are presented together here for ease of reference and review. The arguments and evidence that were adduced to support them can be found in the “Editorial History” section at the bottom of the page following each text in papyri.info.</p>
+            <p xml:id="p3" style="text-align: left; ">Note on conventions: when a contributing author states explicitly that the proposed emendation has been checked against a published or publicly accessible photo or digital image we indicate this with the phrase ‛(from photo)ʼ. Information about the photo or a link to the image (or both) can be found at papyri.info in the header of the text in question. If an author has consulted a photo that is not in the public domain, we indicate this with ‛(from a photo)ʼ. If a reading has been verified against the original we write ‛(from original)ʼ.</p>
+            <p xml:id="p4" style="text-align: left; ">Papyrological citations are in accordance with J.D. Sosin et al. (eds), <ref target="http://papyri.info/docs/checklist">Checklist of Editions of Greek, Latin, Demotic and Coptic Papyri, Ostraca and Tablets</ref>. PDFs of BOEP 1-9 are available at <ref target="https://archiv.ub.uni-heidelberg.de/propylaeumdok/view/collections/c-19.type.html">PropylaeumDOK</ref>. As always, we are indebted to Carmen Lanz for her technical assistance in producing BOEP.</p>
+            <div type="section">
+               <head>
+                  <seg style="font-weight: bold;">DDbDP</seg>
+               </head>
+               <table>
+                  <row>
+                     <cell style="text-align: right;">2074</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/703266">
+                           <seg style="text-decoration: underline;">BASP 53 72_8</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6-7</cell>
+                     <cell style="text-align: left;">[ἔτους] | ιη τοῦ Αὐτοκ̣[ράτορος -ca.?- ] → [ -ca.?- ⁩] | ιη τοῦ αὐτο ̣ [-ca.?- ⁩], N. Gonis</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2075</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9123">
+                           <seg style="text-decoration: underline;">BGU 1 81</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">Βχμ → Βχμγ, M.G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2076</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/28255">
+                           <seg style="text-decoration: underline;">BGU 1 338</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">→ ἐκ στο(λιστηρίου) β, M.G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2077</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9066b">
+                           <seg style="text-decoration: underline;">BGU 1 342</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] → Om., N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2078</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9066b">
+                           <seg style="text-decoration: underline;">BGU 1 342</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">[κδ (ἔτους) δραχ(μὰς) δέκα ἓξ] (ἡμιωβέλιον) (γίνονται) (δραχμαὶ) ι[ϛ] (ἡμιωβέλιον) → κ̣[δ] (ἔτους(?)) [δραχ(μὰς) δέκα ἓξ] (ὀβολὸν) (ἡμιωβέλιον) (γίνονται) (δραχμαὶ) ι[ϛ] (ὀβολὸς(?)) (ἡμιωβέλιον), N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2079</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9148">
+                           <seg style="text-decoration: underline;">BGU 2 394</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">[ ̣ ]ζ̣ → ο̣ζ̣, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2080</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9148">
+                           <seg style="text-decoration: underline;">BGU 2 394</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">20-21</cell>
+                     <cell style="text-align: left;">Ε̣ἰ̣ρ̣η|ν̣αῖος → Εἰρη|ν̣αῖς, B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2081</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9148">
+                           <seg style="text-decoration: underline;">BGU 2 394</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">21</cell>
+                     <cell style="text-align: left;">ν[ ̣] → ν ̣ or νε̣, or νϛ̣, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2082</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9148">
+                           <seg style="text-decoration: underline;">BGU 2 394</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">21-22</cell>
+                     <cell style="text-align: left;">[ ̣ ̣ ]νι ̣ ̣ ̣ [ ̣ ̣ ̣]α̣ | (hand 2) Πα|νεφρέμμις → ο̣(ὐλὴ) ῥινὶ μέσῃ̣. (hand 2) Π̣α|νεφρέμμις, B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2083</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9229">
+                           <seg style="text-decoration: underline;">BGU 2 544</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">25</cell>
+                     <cell style="text-align: left;">μανέανα → μάνγανα l. μάγγανα, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2084</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9229">
+                           <seg style="text-decoration: underline;">BGU 2 544</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">25-26</cell>
+                     <cell style="text-align: left;">ἀ|[λί]β̣αντα BL 1.51 : α ̣ ̣αν ̣ → ἅ|π̣αντα, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2085</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9253">
+                           <seg style="text-decoration: underline;">BGU 2 597</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.26</cell>
+                     <cell style="text-align: left;">Ἰ̣ρανούφι → Ἰ̣ρανούφι l. Ἱερανούφι, C. Balamoshev</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2086</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10-11</cell>
+                     <cell style="text-align: left;">εἴκοσι, π[αρα]|λ̣α̣μ̣β̣ά̣ν̣ο̣ν̣τ̣ό̣ς̣ μου → εἴκοσι πέ̣ν̣[τε] | λαμβάνοντός μο̣υ̣, C. Balamoshev (from image and parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2087</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">τὰς δημοσίας → τὰ ἐγ δημοσίου̣ l. ἐκ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2088</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">11-12</cell>
+                     <cell style="text-align: left;">ἀ|γέλας μενασἱ̣ε̣ρ̣ ̣ ̣[ ̣] ̣α ̣ ̣ ̣ BL 1.59 : ἀγελασμένας (l. ἠ|γελασμένας) ἱ̣ε̣ρ̣ ̣ ̣[ ̣] ̣α ̣ ̣ ̣ → ἐπ̣ι̣σ̣|τελλ̣όμενα̣ σπ̣έρμ̣α̣τα κα̣ὶ̣, C. Balamoshev and B. Borelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2089</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">18</cell>
+                     <cell style="text-align: left;">ἀ̣σ̣φαλῶ̣ς̣, → ἐφʼ ἅλῳ corr. ex εφαλη (or ι), C. Balamoshev and B. Borelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2090</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">18</cell>
+                     <cell style="text-align: left;">π̣α̣ρ̣α̣σ̣τ̣ήσω → τοῦ̣ κλήρ̣ο̣[υ], C. Balamoshev (from image and parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2091</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">19</cell>
+                     <cell style="text-align: left;">̣ ̣ ̣ ̣ → ναύλ̣ο̣υ̣ or ναύλ̣ω[ν], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2092</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">20</cell>
+                     <cell style="text-align: left;">οίκω̣ν → ὄν̣ων, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2093</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">26</cell>
+                     <cell style="text-align: left;">̣ ̣ ̣ ̣ → ὀφ̣[ρ]ύ̣ι, C. Balamoshev (from image and parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2094</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9296">
+                           <seg style="text-decoration: underline;">BGU 2 661</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">27</cell>
+                     <cell style="text-align: left;">δεξιῷ → δεξιῷ l. δεξιᾷ, C. Balamoshev (from parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2095</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/28093">
+                           <seg style="text-decoration: underline;">BGU 3 822</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.11-12</cell>
+                     <cell style="text-align: left;">ὀφεί|λ[ι] (l. ὀφεί|λ[ει]) → ὀφεί|λι l. ὀφεί|λει, F. Reiter (BerlPap)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2096</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/28093">
+                           <seg style="text-decoration: underline;">BGU 3 822</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.17</cell>
+                     <cell style="text-align: left;">ἵνα → ἵνα (ϊνα papyrus), F. Reiter (BerlPap)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2097</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/30945">
+                           <seg style="text-decoration: underline;">BGU 7 1612</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">Κοπρήτ̣ο̣υ → Κοπρῆ τ̣οῦ, C. Balamoshev (from image and parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2098</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9462">
+                           <seg style="text-decoration: underline;">BGU 9 1892</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">i.2</cell>
+                     <cell style="text-align: left;">Ἀλικίμ(ου) → Ἀλκίμ(ου), N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2099</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9470">
+                           <seg style="text-decoration: underline;">BGU 9 1899</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1.1</cell>
+                     <cell style="text-align: left;">̣ο ̣( ) → [(ὧν) τρυγ]ω(μένου), N. Gonis (from photo, after BL 3.28)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2100</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9470">
+                           <seg style="text-decoration: underline;">BGU 9 1899</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1.5</cell>
+                     <cell style="text-align: left;">Διόσκορος → Διόσκ(ορος), N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2101</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9470">
+                           <seg style="text-decoration: underline;">BGU 9 1899</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5.92</cell>
+                     <cell style="text-align: left;">Ἡρακ( ) → Ἡρακ(λήου), N. Gonis (cf. TM Per 353229)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2102</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/30047">
+                           <seg style="text-decoration: underline;">BGU 15 2494</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.14</cell>
+                     <cell style="text-align: left;">Ὀ̣τρηνί̣ωνα̣ → Στρηνίωνα, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2103</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/316234">
+                           <seg style="text-decoration: underline;">BGU 20 2871</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4</cell>
+                     <cell style="text-align: left;">ἀναπλ̣εῦ̣σ̣α̣ι̣ → ἀναπλέωι l. ἀναπλέω, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2104</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/316234">
+                           <seg style="text-decoration: underline;">BGU 20 2871</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">ἀναπ̣λῇ̣ς → ἀναπ̣λε̣ύ̣σῃ̣ς̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2105</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23519">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 71</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">λαμπροτάτῳ → λαμπρο̣(τάτῳ), G. Papaioannou (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2106</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23519">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 71</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">Αὐρ(η)λίου → Αὐρ(ηλίου), G. Papaioannou (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2107</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23519">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 71</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">λαμπρότητος → λαμπρό̣(τητος), G. Papaioannou (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2108</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23519">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 71</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">Φλα(υίου) → Φλ(αυίου), G. Papaioannou (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2109</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23519">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 71</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">19</cell>
+                     <cell style="text-align: left;">[Φ]λα(υίου) → Φ̣λ(αυίου), G. Papaioannou (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2110</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9001">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 116</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">ἅμα → ἀλλὰ, D. Hagedorn</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2111</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/8908">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 265</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.23</cell>
+                     <cell style="text-align: left;">ἐκ → δι(ὰ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2112</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22339">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 277</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">13</cell>
+                     <cell style="text-align: left;">ἡμίσειαν → ἡμίσιαν l. ἡμίσειαν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2113</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22339">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 277</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">21</cell>
+                     <cell style="text-align: left;">̣ ̣ ̣β̣ ̣ ̣φ̣ ̣ους → ̣ ̣ κολ̣[ο]βοφυοῦς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2114</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22339">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 277</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">24</cell>
+                     <cell style="text-align: left;">τ̣ούτων ̣ ̣ ̣ο̣ μου → σου τ ̣ ̣ ̣ ̣ομου or σου τ ̣ ̣ ̣ ̣ ὁμοῦ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2115</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9056">
+                           <seg style="text-decoration: underline;">Chrest.Mitt. 316</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.2dupl.22</cell>
+                     <cell style="text-align: left;">προκείμενον → προκίμενον l. προκείμενον, G. Schwender (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2116</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chrest.wilck;;203">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 203</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r1.2</cell>
+                     <cell style="text-align: left;">[Ἁρπ]οκρατίωνι → [Ἁρ]ποκρατίωνι, M. Gerhardt, S. Müller (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2117</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chrest.wilck;;203">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 203</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r1.6</cell>
+                     <cell style="text-align: left;">[εἰμ]ι → ε̣[ἰμ]ι, M. Gerhardt, S. Müller (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2118</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chrest.wilck;;203">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 203</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r1.11</cell>
+                     <cell style="text-align: left;">κ[αὶ τὰ τοῦ Ἥρ]ωνος → [καὶ τὰ τοῦ Ἥρ]ωνος, M. Gerhardt, S. Müller (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2119</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chrest.wilck;;203">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 203</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r1.12</cell>
+                     <cell style="text-align: left;">δ[ί]δυμαγεν[εῖς] → δίδυμαγεν[εῖς], M. Gerhardt, S. Müller (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2120</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chrest.wilck;;203">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 203</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r1.13</cell>
+                     <cell style="text-align: left;">μ[η]τρὸς → μητρὸς, M. Gerhardt, S. Müller (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2121</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chrest.wilck;;203">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 203</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r1.14</cell>
+                     <cell style="text-align: left;">[τε]τελ(ευτηκότος) → τ[ε]τελ(ευτηκότος), M. Gerhardt, S. Müller (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2122</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chrest.wilck;;203">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 203</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r1.18</cell>
+                     <cell style="text-align: left;">[ὀ]νηλάτ[η]ν → [ὀ]νηλάτην, M. Gerhardt (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2123</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/chrest.wilck;;203">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 203</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r2.5</cell>
+                     <cell style="text-align: left;">ἀ[ν]αγρα(φομένου) → ἀναγρα(φομένου), M. Gerhardt (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2124</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9055">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 219</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2.3</cell>
+                     <cell style="text-align: left;">τοῦ → τοῦ κ(αὶ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2125</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9055">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 219</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2.6</cell>
+                     <cell style="text-align: left;">Ταα̣μ̣τίου → Ταωτίου, B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2126</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/20095">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 423</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.15-16</cell>
+                     <cell style="text-align: left;">ὡς | π[ρόκειται.] → ὡς π(ρόκειται), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2127</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22363">
+                           <seg style="text-decoration: underline;">Chrest.Wilck. 467</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">19</cell>
+                     <cell style="text-align: left;">̣ ̣ ̣ης Π̣α̣ήσιος → Π̣ε̣υῆς̣ Παήσιος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2128</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/9855">
+                           <seg style="text-decoration: underline;">CPR 1 246</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5-6</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] | [ ̣ ̣ ̣ ̣ ̣ ̣ ̣] ἐκ κώμης BL 1.124 (ἐν κώμῃ ) Ἀφροδίτ[ης] → [ -1-2- διὰ γρα|φεί]ο̣υ κώμης Ἀφροδίτη[ς Βερνίκης], W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2129</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/140871">
+                           <seg style="text-decoration: underline;">CPR 31 12</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4</cell>
+                     <cell style="text-align: left;">ⲛ̣[ ̣] ̣[ ̣]ⲉ̣ → ⲧ̣[ⲏ]ⲣ̣ⲥ̣, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2130</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/140871">
+                           <seg style="text-decoration: underline;">CPR 31 12</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4</cell>
+                     <cell style="text-align: left;">ϩⲛ → ϩⲁ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2131</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/140871">
+                           <seg style="text-decoration: underline;">CPR 31 12</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4</cell>
+                     <cell style="text-align: left;">ⲙⲏⲧⲛⲟⲩⲧⲉ → ⲙⲛⲧⲛⲟⲩⲧⲉ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2132</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/140871">
+                           <seg style="text-decoration: underline;">CPR 31 12</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8</cell>
+                     <cell style="text-align: left;">̣[ ̣ ̣] ⲛ̣ⲓ̣ⲙ̣ .ⲛⲧⲉ → ϭ̣[ⲟ]ⲣ̣ϭ̣ⲏ̣ⲥ̣ ⲛ̣ⲓ̣ⲙ̣ ⲛⲧⲉ, F. Krueger (photograph and phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2133</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/140871">
+                           <seg style="text-decoration: underline;">CPR 31 12</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8-9</cell>
+                     <cell style="text-align: left;">ⲛ̣ⲁⲛⲇⲓ ̣[ⲇⲁⲓ]|ⲙⲟⲛⲟⲥ (l. δαίμων) → ⲡ̣ⲁⲛⲇⲓ[ⲕⲉⲓ]|ⲙⲉⲛⲟⲥ i.e. Greek ἀντικείμενος, F. Krueger (photograph and phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2134</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/140871">
+                           <seg style="text-decoration: underline;">CPR 31 12</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.18</cell>
+                     <cell style="text-align: left;">[ ̣ ̣ ̣ ⲙ]ⲏⲏϣⲉ → [ⲛⲟⲩⲙ]ⲏⲏϣⲉ, F. Krueger (phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2135</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/140872">
+                           <seg style="text-decoration: underline;">CPR 31 13</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">(ϫ)ⲟ(ⲉⲓ)ⲥ → ϭ(ⲱⲓ)ⲥ, F. Krueger (misunderstood abbreviation)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2136</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/140873">
+                           <seg style="text-decoration: underline;">CPR 31 14</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">(ϫ)ⲟ(ⲉⲓ)ⲥ → ϭ(ⲱⲓ)ⲥ, F. Krueger (misunderstood abbreviation)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2137</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22997">
+                           <seg style="text-decoration: underline;">CPR 35 24</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">25</cell>
+                     <cell style="text-align: left;">ἀβροχ̣ία̣ → ἄβροχ̣ο̣ς̣, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2138</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/ddbdp;2020;2">
+                           <seg style="text-decoration: underline;">DDbDP 2020 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">→ Γε[ρ]μανικοῦ / Φ[α]μενὼθ, Heidelberg University Leseübung SS26 (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2139</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/ddbdp;2020;2">
+                           <seg style="text-decoration: underline;">DDbDP 2020 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] ̣οι → [ἃς] κ̣α̣ὶ̣ ἀπο[δ]ώσω σοι, Heidelberg University Leseübung SS26 (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2140</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/ddbdp;2020;2">
+                           <seg style="text-decoration: underline;">DDbDP 2020 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">→ τῇ̣ θ̣[ ̣] ̣ or τη̣θ̣[ ̣] ̣, Heidelberg University Leseübung SS26 (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2141</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/ddbdp/ddbdp;2020;2">
+                           <seg style="text-decoration: underline;">DDbDP 2020 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">→ Traces 1 line, Heidelberg University Leseübung SS26 (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2142</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/957847">
+                           <seg style="text-decoration: underline;">JGUAA 6 32_3</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">α → ̣α or ((parens-punctuation-opening)) ̣α, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2143</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/957847">
+                           <seg style="text-decoration: underline;">JGUAA 6 32_3</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">→ Παθιοῦς ((parens-punctuation-closing)), N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2144</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/957848">
+                           <seg style="text-decoration: underline;">JGUAA 6 35_4</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">Πεκμῆτος → Πεκῶτος, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2145</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82964">
+                           <seg style="text-decoration: underline;">O.Abraham 41</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.18-19</cell>
+                     <cell style="text-align: left;">ⲁⲩ|[ⲱ] ⲟⲛ → ⲁⲩ|ⲱ̣ ⲟⲛ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2146</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82943">
+                           <seg style="text-decoration: underline;">O.Abraham 90</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">15</cell>
+                     <cell style="text-align: left;">monogr. → ⲅⲉⲱⲣⲅⲉ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2147</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83375">
+                           <seg style="text-decoration: underline;">O.Abraham 108</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">[ϩⲁⲑⲏ] → ϩ̣[ⲁ]ⲑ̣[ⲏ], L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2148</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83375">
+                           <seg style="text-decoration: underline;">O.Abraham 108</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.3</cell>
+                     <cell style="text-align: left;">ⲡⲡ[ⲣⲉⲥⲃ(ⲩⲧⲉⲣⲟⲥ)(?)] → ⲡⲡ[ⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ] i.e. Greek πρεσβύτερος, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2149</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82968">
+                           <seg style="text-decoration: underline;">O.Crum 77</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">ⲁⲛⲟⲕ → ⲁⲛⲟ\ⲕ/, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2150</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82968">
+                           <seg style="text-decoration: underline;">O.Crum 77</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">ⲓⲁⲕⲱⲃ [ -ca.?- ] → ⲓⲁⲕⲱⲃ ̣[ -ca.?- ], L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2151</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82968">
+                           <seg style="text-decoration: underline;">O.Crum 77</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.12</cell>
+                     <cell style="text-align: left;">ⲥ̣[ -ca.?- ] → ⲥ̣ ̣[ -ca.?- ], L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2152</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82973">
+                           <seg style="text-decoration: underline;">O.Crum 82</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10-11</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]ⲛⲁⲡⲟⲕⲗⲏ|[ -ca.?- ] → [ -ca.?- ⲟ] ⲛⲁⲡⲟⲕⲗⲏ|[ⲣⲟⲥ] i.e. Greek ἀπόκληρος, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2153</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82982">
+                           <seg style="text-decoration: underline;">O.Crum 91</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]ϩⲙ → [ -ca.?- ] ̣ϩⲙ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2154</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82982">
+                           <seg style="text-decoration: underline;">O.Crum 91</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]ⲥⲟⲟⲩⲛ → [ -ca.?- ]ⲕ̣ⲥⲟⲟⲩⲛ, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2155</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82982">
+                           <seg style="text-decoration: underline;">O.Crum 91</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">15-16</cell>
+                     <cell style="text-align: left;">→ [ -ca.?- ] ̣ ̣[ -ca.?- ], L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2156</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82983">
+                           <seg style="text-decoration: underline;">O.Crum 92</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">ⲡⲡⲣ̣ → &lt;ⲡⲉ&gt;ⲡⲣ̣(ⲉⲥⲃⲩⲧⲉⲣⲟⲥ) i.e. Greek πρεσβύτερος, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2157</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82983">
+                           <seg style="text-decoration: underline;">O.Crum 92</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3-4</cell>
+                     <cell style="text-align: left;">[ⲛⲇⲓⲁ]|ⲕ(ⲟⲛⲟⲥ) (l. διάκονος) → ⲛ̣[ⲇⲓⲁ]|ⲕ(ⲟⲛⲟⲥ) i.e. Greek διάκονος, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2158</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82984">
+                           <seg style="text-decoration: underline;">O.Crum 93</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.19</cell>
+                     <cell style="text-align: left;">ⲧⲁⲡⲟⲕⲣⲓⲥ[ -ca.?- ] → ⲧⲁⲡⲟⲕⲣⲓⲥ[ⲓⲥ] i.e. Greek ἀπόκρισις, F. Krueger (loanword identified)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2159</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82984">
+                           <seg style="text-decoration: underline;">O.Crum 93</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.25-26</cell>
+                     <cell style="text-align: left;">ⲡⲉⲛ | ⲡⲣⲟⲥ → ⲡⲉⲛ[ⲗⲁⲙ]|ⲡⲣⲟⲥ i.e. Greek λαμπρός, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2160</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82990">
+                           <seg style="text-decoration: underline;">O.Crum 99</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">ϩⲟⲩⲛ → &lt;ⲉ&gt;ϩⲟⲩⲛ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2161</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82990">
+                           <seg style="text-decoration: underline;">O.Crum 99</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">ⲉⲧⲥⲙⲁⲁⲧ → ⲉⲧⲥⲙ&lt;ⲁⲙ&gt;ⲁⲁⲧ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2162</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82990">
+                           <seg style="text-decoration: underline;">O.Crum 99</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6-7</cell>
+                     <cell style="text-align: left;">ⲡ ̣[ -ca.?- ]|ⲗⲁⲭ → ⲡⲓ̣ⲉ̣|ⲗⲁⲭ(ⲓⲥⲧⲟⲥ) i.e. Greek ἐλάχιστος, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2163</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82991">
+                           <seg style="text-decoration: underline;">O.Crum 100</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.11</cell>
+                     <cell style="text-align: left;">ϩⲉⲛ ̣[ -ca.?- ] → ϩⲉⲛ ̣ ̣[ -ca.?- ], L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2164</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82991">
+                           <seg style="text-decoration: underline;">O.Crum 100</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.12</cell>
+                     <cell style="text-align: left;">ⲁⲣⲓ ⲡ[ -ca.?- ] → ⲁⲣⲓ ⲡ[ⲛⲁ -ca.?- ], F. Krueger (common phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2165</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82991">
+                           <seg style="text-decoration: underline;">O.Crum 100</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.13-14</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] | ϩⲛ ⲡϫⲟⲉⲓⲥ → [ⲟⲩϫⲁⲓ] | ϩⲛ ⲡϫⲟⲉⲓⲥ, F. Krueger (common phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2166</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82992">
+                           <seg style="text-decoration: underline;">O.Crum 101</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6-7</cell>
+                     <cell style="text-align: left;">ⲛϩⲱ ̣ ̣ ̣ⲟ | ⲡⲉⲕⲛⲏⲩ︥ → ⲛϩⲱ ̣ ⲉϣⲟ | ⲡⲉ ⲕⲛⲏⲩ, F. Krueger (common phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2167</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82992">
+                           <seg style="text-decoration: underline;">O.Crum 101</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7-8</cell>
+                     <cell style="text-align: left;">ⲙⲡⲁ[ⲧⲉⲛ]ⲏ̣ⲥ|ⲧⲓⲁ → ⲙⲡⲁ[ⲧⲉ&lt;ⲧⲉ&gt;ⲛ]ⲏ̣ⲥ|ⲧⲓⲁ i.e. Greek νηστεία, F. Krueger (emendation)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2168</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82992">
+                           <seg style="text-decoration: underline;">O.Crum 101</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.9</cell>
+                     <cell style="text-align: left;">ϭⲛⲧⲁⲛⲉ[ -ca.?- ] → ϭⲛⲧⲁⲛⲉ ̣ ̣[ -ca.?- ], L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2169</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82993">
+                           <seg style="text-decoration: underline;">O.Crum 102</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]ⲧⲉ ⲛⲥⲟⲛ → [ⲙⲁⲓⲛⲟⲩ]ⲧⲉ ⲛⲥⲟⲛ, F. Krueger (common phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2170</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82993">
+                           <seg style="text-decoration: underline;">O.Crum 102</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">[] → [ -ca.?- ] (hand 2) ϫⲏ ̣ ̣ⲉⲁ[ -ca.?- ], L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2171</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/82997">
+                           <seg style="text-decoration: underline;">O.Crum 106</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">ⲡⲁⲉⲓⲱⲧ → ⲡⲁⲓⲱⲧ, J. Cowey (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2172</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83008">
+                           <seg style="text-decoration: underline;">O.Crum 117</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.5</cell>
+                     <cell style="text-align: left;">ⲉⲧⲉⲕⲙⲛⲧⲧⲥⲟⲛ → ⲉⲧⲉⲕⲙⲛⲧ{ⲧ}ⲥⲟⲛ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2173</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83008">
+                           <seg style="text-decoration: underline;">O.Crum 117</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">ⲕⲁ[ⲧⲁ] (l. κατά) [ⲛⲉⲛⲣⲁⲛ] → ⲕⲁ[ⲧⲁ ⲛⲉⲩⲣⲁⲛ] i.e. Greek κατά, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2174</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83008">
+                           <seg style="text-decoration: underline;">O.Crum 117</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7-8</cell>
+                     <cell style="text-align: left;">ϯⲧⲁ[ⲙⲟ -ca.?- ] | ⲧⲥⲟⲛ → ϯⲧⲁ[ⲙⲟ ⲛⲧⲉⲕⲙⲛ]|ⲧⲥⲟⲛ, F. Krueger (common phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2175</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83008">
+                           <seg style="text-decoration: underline;">O.Crum 117</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.10-11</cell>
+                     <cell style="text-align: left;">ϫ[ -ca.?- ]ⲙⲁϩⲧⲉ → ϫ[ -ca.?- ⲁ]ⲙⲁϩⲧⲉ, T. Laver</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2176</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83010">
+                           <seg style="text-decoration: underline;">O.Crum 119</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.2</cell>
+                     <cell style="text-align: left;">→ ϫⲉ, J. Cowey (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2177</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83010">
+                           <seg style="text-decoration: underline;">O.Crum 119</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.3</cell>
+                     <cell style="text-align: left;">ϫⲉ → Om., J. Cowey (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2178</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83010">
+                           <seg style="text-decoration: underline;">O.Crum 119</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.3</cell>
+                     <cell style="text-align: left;">ⲁⲛ̣ⲃⲱⲕ → ⲁⲃⲱⲕ l. ⲁⲛⲃⲱⲕ , i.e. ⲁⲓⲃⲱⲕ, J.Cowey (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2179</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83010">
+                           <seg style="text-decoration: underline;">O.Crum 119</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.11</cell>
+                     <cell style="text-align: left;">ⲛ̣ ̣ ̣ⲅⲓⲁ → ⲛ̣ ̣ ̣ⲅⲓ(?)ⲁ, J. Cowey (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2180</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83010">
+                           <seg style="text-decoration: underline;">O.Crum 119</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.12</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] → [ⲟⲩ]ϫ̣ⲁ̣[ⲓ], T. Laver</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2181</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83025">
+                           <seg style="text-decoration: underline;">O.Crum 134</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3-4</cell>
+                     <cell style="text-align: left;">ⲙ | [ -ca.?- ] → ⲙ|[ⲡⲧⲟⲡⲟⲥ ⲉⲧⲟⲩⲁⲁⲃ], F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2182</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83025">
+                           <seg style="text-decoration: underline;">O.Crum 134</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]ⲩⲁⲁⲃ → [ⲉϩⲟⲩⲛ ⲉⲡⲧⲟⲡⲟⲥ ⲉⲧⲟ]ⲩⲁⲁⲃ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2183</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83025">
+                           <seg style="text-decoration: underline;">O.Crum 134</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">ⲥⲉⲉⲛⲉ → ⲥⲉⲛⲉ, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2184</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83025">
+                           <seg style="text-decoration: underline;">O.Crum 134</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">11-12</cell>
+                     <cell style="text-align: left;">ϯⲡⲟ[ -ca.?- ] | [ -ca.?- ] ̣ⲁⲩⲏ ⲛ → ⲡⲟ|[ⲗⲓⲥ -ca.?- ] ̣ⲁⲩⲏ ⲛ i.e. Greek πόλις, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2185</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83041">
+                           <seg style="text-decoration: underline;">O.Crum 150</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">ⲛⲧⲉⲕⲁⲗⲁϣⲓϣⲧⲉ → ⲛⲧⲉ&lt;ⲧ&gt;ⲕⲁⲗⲁϣⲓϣⲧⲉ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2186</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83123">
+                           <seg style="text-decoration: underline;">O.Crum 232</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5-6</cell>
+                     <cell style="text-align: left;">ⲕ[ -ca.?- ]|ⲛⲟⲟⲩ → ⲕ[ⲛⲁⲧⲛ]|ⲛⲟⲟⲩ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2187</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83123">
+                           <seg style="text-decoration: underline;">O.Crum 232</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">ϩⲟⲗ[ -ca.?- ] → ϩⲟⲗ[ⲟⲕ(ⲟⲧⲧⲓⲛⲟⲥ)] i.e. Greek ὁλοκόττινος, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2188</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83131">
+                           <seg style="text-decoration: underline;">O.Crum 240</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">ⲛⲛⲟϭ → ⲡⲛⲟϭ, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2189</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83131">
+                           <seg style="text-decoration: underline;">O.Crum 240</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">ⲥⲛⲧⲟⲟⲧϥ → ⲥⲛⲧⲟⲧϥ, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2190</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83140">
+                           <seg style="text-decoration: underline;">O.Crum 249</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6-7</cell>
+                     <cell style="text-align: left;">ⲙ[ -ca.?- ] | [ -ca.?- ]ϭ̣ⲱ̣ϣ ̣ → ⲙ[ⲡⲣ]|ϭ̣ⲱ̣{ϣ ̣}, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2191</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83140">
+                           <seg style="text-decoration: underline;">O.Crum 249</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">ⲛϣⲟⲩϫⲟⲟⲩ[ -ca.?- ] → ⲛϣⲟⲩ ϫⲟⲟⲩ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2192</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83140">
+                           <seg style="text-decoration: underline;">O.Crum 249</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]ⲕⲉⲣⲉϭⲙⲁ → [ⲡ]ⲕⲉⲣⲉϭⲙⲁ i.e. Greek κήρυγμα, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2193</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83159">
+                           <seg style="text-decoration: underline;">O.Crum 268</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.5-6</cell>
+                     <cell style="text-align: left;">ⲛⲧⲉⲕⲙ | [ -ca.?- ] → ⲛⲧⲉⲕⲙ-[ⲛⲧ -ca.?- ], F. Krueger (common phraseology)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2194</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83159">
+                           <seg style="text-decoration: underline;">O.Crum 268</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6-7</cell>
+                     <cell style="text-align: left;">ⲛⲧⲉⲕⲁⲅ̣[ⲁ]|[ -ca.?- ]ⲉⲡⲓⲥⲟⲛ → ⲛⲧⲉⲕⲁⲅ̣[ⲁ-ⲡⲏ ⲉⲧⲃ]ⲉ ⲡⲓⲥⲟⲛ i.e. Greek ἀγάπη, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2195</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83159">
+                           <seg style="text-decoration: underline;">O.Crum 268</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.12-13</cell>
+                     <cell style="text-align: left;">ⲛ̣ | [ -ca.?- ]ⲁⲩ → ⲛ̣-[ⲗⲁ]ⲁⲩ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2196</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83182">
+                           <seg style="text-decoration: underline;">O.Crum 291</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4-5</cell>
+                     <cell style="text-align: left;">ⲉⲧⲃⲉ | ⲡⲇⲓⲁⲕⲱⲛ → ⲉⲧ-5ⲃⲉ ⲡⲇⲓⲁ{ⲁ}ⲕⲱⲛ i.e. Greek διάκων, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2197</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83182">
+                           <seg style="text-decoration: underline;">O.Crum 291</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">ⲡϣⲁϫⲉ → ⲡ{ϫ}ϣⲁϫⲉ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2198</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83182">
+                           <seg style="text-decoration: underline;">O.Crum 291</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.14</cell>
+                     <cell style="text-align: left;">ⲣⲙⲡⲣⲡⲗⲁⲛⲉ → {ⲣ}ⲙⲡⲣⲡⲗⲁⲛⲉ i.e. Greek πλανᾶν, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2199</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83182">
+                           <seg style="text-decoration: underline;">O.Crum 291</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.15</cell>
+                     <cell style="text-align: left;">ⲙ[ -ca.?- ] → ⲙ⟦- ca.10 -⟧, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2200</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83182">
+                           <seg style="text-decoration: underline;">O.Crum 291</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.16</cell>
+                     <cell style="text-align: left;">ⲥⲉ ⲁ ̣ ̣ ̣ ̣ → ⲥⲉⲁ⟦- ca.4 -⟧, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2201</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83212">
+                           <seg style="text-decoration: underline;">O.Crum 321</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">ϣⲟⲣⲡ → ϣⲟ\ⲣ/ⲡ, D. Werning (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2202</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83212">
+                           <seg style="text-decoration: underline;">O.Crum 321</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1-2</cell>
+                     <cell style="text-align: left;">ⲉⲧ̣ⲕⲕⲙⲛⲧⲥⲟⲛ → ⲉⲧ̣ⲉ̣ⲕⲙⲛⲧ-ⲥⲟⲛ, D. Werning (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2203</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83212">
+                           <seg style="text-decoration: underline;">O.Crum 321</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">ⲕⲁⲙⲁ̣ϩⲓⲱ̣ⲃ → ⲕⲁⲙⲁ̣ϩⲓⲱ̣ⲃ, D. Werning (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2204</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83218">
+                           <seg style="text-decoration: underline;">O.Crum 327</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">ⲥⲟⲩⲙⲛⲧϫⲁⲃⲉ → ⲥⲟⲩ ⲙⲧϫⲁⲃⲉ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2205</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/24218">
+                           <seg style="text-decoration: underline;">O.Eleph.Wagner 38</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">[κ] → Om., N. Gonis</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2206</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/29846">
+                           <seg style="text-decoration: underline;">O.Eleph.Wagner 116</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">Θι[ν- -ca.?- ] → Θιν̣[ -ca.?- ], M. Gerhardt and M. Resel (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2207</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/74626">
+                           <seg style="text-decoration: underline;">O.Kellis 102</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">π̣αντ( ) → Παντ(ωνύμου), R.S. Bagnall (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2208</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/341786">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 1 16</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">ⲉ̣ϥ̣ⲛ̣ⲁ̣ⲥ̣ⲙ̣ⲟ̣ⲩ̣ → ⲉ̣ϥ̣ⲁ̣ⲥ̣ⲙ̣ⲟ̣ⲩ̣, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2209</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/341788">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 1 18</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.3</cell>
+                     <cell style="text-align: left;">ⲉⲧⲟⲩⲟⲩⲁⲁⲃ → ⲉⲧⲟⲩⲁⲃ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2210</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/950534">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 32</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">ϯⲛⲁⲧ[ -ca.?- ] → ϯⲛⲁⲧ[ -ca.?- ⲛ], F. Krueger</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2211</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/950539">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 37</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">ⲙⲁⲣⲧⲩⲣⲉ ̣ (l. μάρτυρος) → ⲙⲁⲣⲧⲩⲣⲉⲓ̣ i.e. Greek μαρτυρεῖν, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2212</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/950691">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 189</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4-5</cell>
+                     <cell style="text-align: left;">ⲡⲁⲣ|[ⲁⲙ -ca.?- ] → ⲡⲁⲣ|[ -ca.?- ], F. Krueger (correction of mistake)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2213</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/950691">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 189</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">ⲧⲁⲙⲛ̣ⲧ̣ⲉ̣[ -2-3- ] -4-5- → ⲧⲁⲙⲛ̣ⲧ̣ⲉ̣[ⲗⲁⲭ(ⲓⲥⲧⲟⲥ)] -4-5- or ⲧⲁⲙⲛ̣ⲧ̣ⲉ̣[ⲗⲁ]ⲭ̣(ⲓⲥⲧⲟⲥ) (l. ἐλάχιστος) -3-4-, T. Laver</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2214</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/950744">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 242</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.5</cell>
+                     <cell style="text-align: left;">ⲙ ̣ → ⲙ ̣, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2215</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/950744">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 242</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">ⲡϣ̣ ⲇⲉ ̣ → ⲡϣ̣ⲇ̣ ((word-sep-apostrophe)) ⲉ ̣, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2216</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/950821">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 319</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">[ⲟⲩϫⲁⲓ ϩⲙ ⲡ]ϫⲟⲉⲓⲥ → [ⲟⲩϫⲁⲓ ϩⲙ] ⲡ̣ϫⲟⲉⲓⲥ, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2217</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/83566">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 add3</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">13-14</cell>
+                     <cell style="text-align: left;">ⲧⲁ|ⲁⲥⲥⲉ → ⲧⲁ|{ⲁ}ⲥⲥⲉ i.e. Greek τάσσειν, F. Krueger (emendation)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2218</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/84768">
+                           <seg style="text-decoration: underline;">O.Lips.Copt. 2 add36</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.12</cell>
+                     <cell style="text-align: left;">ⲡϫⲁ ̣ ̣ ̣ Till, O.Vind.Copt. 311 → [ -ca.?- ⲟⲩϫⲁⲓ ϩ]ⲙ̣ ⲡϫⲟ̣[ⲉⲓⲥ] (?), L. Vanderheyden (from photo) and Krueger, O.Lips. Copt. II Add. 36</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2219</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86684">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 151</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">ⲡⲉⲧ → ⲡⲉⲧⲛ̣, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2220</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86715">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 182</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">ⲁⲣⲓ ⲅⲁⲡⲏ → ⲁⲣⲓ &lt;ⲧ&gt;&lt;ⲁ&gt;ⲅⲁⲡⲏ i.e. Greek ἀγάπη, F. Krueger (orthography)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2221</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86749">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 216</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6-7</cell>
+                     <cell style="text-align: left;">ⲧⲁⲧⲉⲧⲛ|ⲙⲛⲧϫⲟⲉⲓⲥ → &lt;ⲛ&gt;ⲧⲁⲧⲉⲧⲛ|ⲙⲛⲧϫⲟⲉⲓⲥ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2222</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86750">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 217</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">7-8</cell>
+                     <cell style="text-align: left;">ⲉⲓ | ⲉⲓ → ⲉⲓ | {ⲉⲓ}, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2223</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86758">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 225</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">[1 line missing] → [† ⲧⲁⲁⲥ ⲙⲡ (?)], T. Laver, cf. Crum transl., O.Mon.Epiph. II, p. 213</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2224</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86791">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 258</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">ⲕ̣ⲁⲗ̣ⲉ (or ⲕⲁ ⲇⲉ (l. δέ)) → [ⲡⲁⲣⲁ]ⲕ̣ⲁⲗ̣ⲉ i.e. Greek παρακαλεῖν, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2225</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86795">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 262</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">ⲉⲓϣⲁⲛⲉ ⲛϩⲏⲧ → ⲉⲓϣⲁⲛ&lt;ⲉⲓ&gt; ⲉⲛϩⲏⲧ, F. Krueger (emendation)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2226</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86818">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 285</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">14</cell>
+                     <cell style="text-align: left;">[ -ca.?- ] → [ϩⲙ ⲡϫⲟⲉⲓⲥ], T. Laver (following Crum translation)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2227</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86847">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 314</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4-5</cell>
+                     <cell style="text-align: left;">ϫⲉ|ⲟⲩⲁⲛ ⲕⲁⲁⲩ → ϫⲉ|ⲟⲩ ⲁⲛⲕⲁⲁⲩ, T. Laver</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2228</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86865">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 332</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.2</cell>
+                     <cell style="text-align: left;">ⲕⲛⲁϫ → ⲕⲛⲁϫⲓ, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2229</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/86882">
+                           <seg style="text-decoration: underline;">O.Mon.Epiph. 349</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.17-18</cell>
+                     <cell style="text-align: left;">ⲛⲱ̣|ⲫⲓⲣⲟⲥ (or ⲫⲩⲣⲟⲥ) ed. pr. → ⲛ|ⲯ̣ⲩ̣ⲣⲟⲥ, L.Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2230</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/87598">
+                           <seg style="text-decoration: underline;">O.Sarga 100</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">ⲡⲇ[ -ca.?- ] (l. διάκονος ) → ⲡⲁ̣[ -ca.?- ], L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2231</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/87617">
+                           <seg style="text-decoration: underline;">O.Sarga 119</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1-2</cell>
+                     <cell style="text-align: left;">ⲡⲟⲙ[ -ca.?- ] → ⲡⲟⲓⲕⲟ̣-[ⲛⲟⲙⲟⲥ] i.e. Greek οἰκονόμος, F. Krueger (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2232</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/76462">
+                           <seg style="text-decoration: underline;">O.Theb. 92</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">κβ → κα, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2233</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/21706">
+                           <seg style="text-decoration: underline;">P.Amh. 2 141</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">κατέκτ̣ι[να]ν (l. κατέκτει[να]ν) → κατέκοψ̣α̣ν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2234</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/18969">
+                           <seg style="text-decoration: underline;">P.Athen.Xyla 4</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.2</cell>
+                     <cell style="text-align: left;">ἰνδ(ικτίον)ος → ἰνδ(ικτίονος) †, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2235</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/18969">
+                           <seg style="text-decoration: underline;">P.Athen.Xyla 4</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.16</cell>
+                     <cell style="text-align: left;">→ ξ -ca.?-, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2236</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/10223">
+                           <seg style="text-decoration: underline;">P.Berl.Leihg. 2 35</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1.18</cell>
+                     <cell style="text-align: left;">τὸ (ἔτος) → τὸ γ (ἔτος), N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2237</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17288">
+                           <seg style="text-decoration: underline;">P.Berl.Zill. 9</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">ποιήσῃς → ποιήσις l. ποιήσεις, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2238</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17288">
+                           <seg style="text-decoration: underline;">P.Berl.Zill. 9</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.15</cell>
+                     <cell style="text-align: left;">ἔρρωσο → ἔρροσο l. ἔρρωσο, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2239</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/10314">
+                           <seg style="text-decoration: underline;">P.Cair.Isid. 104</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">22</cell>
+                     <cell style="text-align: left;">ἐν[κρ]α̣τῖν (l. ἐν[κρ]ατεῖν) → ἐπι̣[κ]ρ̣ατῖν l. ἐπι̣[κ]ρ̣ατεῖν, C. Balamoshev (from image and parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2240</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/10314">
+                           <seg style="text-decoration: underline;">P.Cair.Isid. 104</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">27-28</cell>
+                     <cell style="text-align: left;">[μετὰ τ]ῆ̣ς̣ ἀ̣π̣[ο]|λοίσεώς (l. ἀπ[ο]|λύσεώς) → [τοῦ] ἐ̣π̣ι̣β̣άλ|λοντώς l. ἐπιβάλ|λοντός, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2241</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/919">
+                           <seg style="text-decoration: underline;">P.Cair.Zen. 2 59275</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">Σεσῶτι → Σεῶτι, J.D. Sosin (CSAD digital image)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2242</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/919">
+                           <seg style="text-decoration: underline;">P.Cair.Zen. 2 59275</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.3</cell>
+                     <cell style="text-align: left;">τὴν → τὴν corr. ex ταν, J.D. Sosin (CSAD digital image)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2243</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/919">
+                           <seg style="text-decoration: underline;">P.Cair.Zen. 2 59275</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.9</cell>
+                     <cell style="text-align: left;">[δὲ σκ]ληρὰ → [ταρι(?)]χ̣ηρὰ, J.D. Sosin (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2244</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/919">
+                           <seg style="text-decoration: underline;">P.Cair.Zen. 2 59275</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.22</cell>
+                     <cell style="text-align: left;">Σεσῶτι → Σεῶτι, J.D. Sosin (CSAD digital image)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2245</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/919">
+                           <seg style="text-decoration: underline;">P.Cair.Zen. 2 59275</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3-4</cell>
+                     <cell style="text-align: left;">κατα|φθαρῇ → κατα|θφαρῇ l. κατα|φθαρῇ, J. D. Sosin (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2246</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.10</cell>
+                     <cell style="text-align: left;">ⲙⲱⲩ(ⲩ̈)ⲥⲏⲥ → ⲙⲱⲩⲥⲏⲥ, L. Vanderheyden (protograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2247</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.15</cell>
+                     <cell style="text-align: left;">ⲧⲉϥ\ϭⲟⲙ (ϭⲟⲙ corr. ex ) → ⲧⲉϥ\ϭⲟⲙ/, L. Vanderheyden (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2248</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.17</cell>
+                     <cell style="text-align: left;">ⲡⲉⲧⲉⲟⲩⲛⲧⲏϥ ⲧⲏⲣϥ P.CLT 2 → ⲡⲉⲧⲉⲟⲩⲛⲧⲏϥ{ϥ} ⲧⲏⲣϥ, S.Hodak (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2249</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.18</cell>
+                     <cell style="text-align: left;">ⲙⲛⲛⲥⲁ → ⲙⲛⲛⲥⲁ, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2250</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.20</cell>
+                     <cell style="text-align: left;">ⲙⲛⲛⲥⲱⲥ → ⲙⲛⲛⲥⲱⲥ, L. Vanderheyden (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2251</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.21</cell>
+                     <cell style="text-align: left;">ⲛϥⲧⲙⲥⲟⲟⲩⲧⲛ → ⲛϥⲧⲙⲥⲟⲟⲩⲧⲛ, L. Vanderheyden (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2252</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.30</cell>
+                     <cell style="text-align: left;">ⲙⲙⲛⲧⲣⲉ → ⲙⲙⲛⲧⲧⲣⲉ, L. Vanderheyden (protograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2253</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.31</cell>
+                     <cell style="text-align: left;">→ (hand 3) ⳨ ⲉ̣ⲅ̣ⲅ̣ⲣ̣ⲁ̣ⲫ̣ⲟ̣ⲛ̣, L. Vanderheyden (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2254</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.31</cell>
+                     <cell style="text-align: left;">̣ ̣ ̣ ̣ ̣ ̣ → (seal), D. Kishko (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2255</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/85756">
+                           <seg style="text-decoration: underline;">P.CLT 2</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.31</cell>
+                     <cell style="text-align: left;">→ ⳨, L. Vanderheyden (Photograph)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2256</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/10537">
+                           <seg style="text-decoration: underline;">P.Col. 7 182</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.32</cell>
+                     <cell style="text-align: left;">ἀ̣γ̣ρ̣α̣μ̣μάτο̣υ̣ → γρ̣ά̣μ̣ματα &lt;μὴ εἰδυίας&gt;, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2257</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/31398">
+                           <seg style="text-decoration: underline;">P.Erl. 49</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1.22</cell>
+                     <cell style="text-align: left;">Ἀ̣π̣ο̣λ̣ινά̣ρ̣ι̣ος̣ Ἀ̣ρίμμα → Ἀ̣π̣ο̣λ̣ινά̣ρ̣ι̣[ο]ς̣ Σ̣α̣ρίμμα, N. Gonis (from photo) and BL 13.90</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2258</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/20952">
+                           <seg style="text-decoration: underline;">P.Erl. 73</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">ὁμουσίου (l. ὁμοουσίου) → ὁμοουσίου, J.D. Sosin (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2259</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/35374">
+                           <seg style="text-decoration: underline;">P.Erl. 111</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1.2</cell>
+                     <cell style="text-align: left;">ἐλέ(ου) (l. ἐλαί(ου)) → ἐλ(αίου), N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2260</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/35374">
+                           <seg style="text-decoration: underline;">P.Erl. 111</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2.12</cell>
+                     <cell style="text-align: left;">ἐλέ(ου) (l. ἐλαί(ου)) → ἐλ(αίου), N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2261</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23554">
+                           <seg style="text-decoration: underline;">P.Flor. 1 34</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">Πατελκίου → Παπλώου, C. Balamoshev (from image</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2262</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23554">
+                           <seg style="text-decoration: underline;">P.Flor. 1 34</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">ὑποστήσομαι → ὑποστήσομαι corr. ex ὑποστήσομεν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2263</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/28713">
+                           <seg style="text-decoration: underline;">P.Harr. 3 260</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">-σα· Ἀπίων → Σαρ̣απίων, W. Clarysse (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2264</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/21098">
+                           <seg style="text-decoration: underline;">P.Heid. 4 306</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">Μανάγης̣ → Μανασῆς̣ l. Μανασσῆς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2265</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/21098">
+                           <seg style="text-decoration: underline;">P.Heid. 4 306</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.19</cell>
+                     <cell style="text-align: left;">[Μανάγη]ς̣ → [Μανασῆ]ς̣ l. [Μανασσῆ]ς, C. Balamoshev</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2266</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/50772">
+                           <seg style="text-decoration: underline;">P.Hoogendijk 14</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">διαγεγρ(άφηκεν) → διαγέγρα(φε), N. Gonis</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2267</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/50772">
+                           <seg style="text-decoration: underline;">P.Hoogendijk 14</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">βαλ(ανικοῦ) → βαλ(ανευτικοῦ), N. Gonis</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2268</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/35303">
+                           <seg style="text-decoration: underline;">P.Iand. 3 40</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">Ἐνοίκτυ̣ρος → ἐνοικολόγος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2269</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/832712">
+                           <seg style="text-decoration: underline;">P.Kellis 7 65</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.12</cell>
+                     <cell style="text-align: left;">[ ̣ ̣ ̣ ̣ ̣]ⲃⲁⲗ → [ⲙⲡⲥⲁ ⲛ]ⲃⲁⲗ, F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2270</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/832712">
+                           <seg style="text-decoration: underline;">P.Kellis 7 65</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.14</cell>
+                     <cell style="text-align: left;">[ ̣ ̣ ̣ ̣ ̣] → [ⲧⲏⲣⲟⲩ], F. Krueger (DDGLC)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2271</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/3193">
+                           <seg style="text-decoration: underline;">P.Koeln 6 263</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8</cell>
+                     <cell style="text-align: left;">γίνεται → γίνηται, D. Kaltsas (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2272</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/21238">
+                           <seg style="text-decoration: underline;">P.Laur. 1 9</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">Παησοῦτ̣ι → Π̣α̣βοῦτ̣ι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2273</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/21238">
+                           <seg style="text-decoration: underline;">P.Laur. 1 9</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">ὁμοίως ̣ ̣ Με̣σ̣ο̣ρὴ BL 7.75 : ὁμοίως ε̣ἰ̣ς̣ Με̣σ̣ο̣ρὴ → ὁμοίω̣ς̣ Με̣σ̣ο̣ρὴ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2274</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/11607">
+                           <seg style="text-decoration: underline;">P.Laur. 3 66</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">13</cell>
+                     <cell style="text-align: left;">τ̣ῶ̣ν̣ χρησ[τηρί]ω̣ν̣ → τὰ̣ χρησ[τήρ]ι̣α, F. Reiter (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2275</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22413">
+                           <seg style="text-decoration: underline;">P.Lips. 1 87</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">ἑκατὸν (l. ἑκατοστοενενηκοστόδυον) BL 8.172 : ἑκατὸν → ἑκατὸν l. ἑκατοστὸν καὶ ἐνενηκοστὸν καὶ δεύτερον, C. Balamoshev</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2276</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22416">
+                           <seg style="text-decoration: underline;">P.Lips. 1 88</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">̣ ̣[ ̣ ̣ ̣] ̣ ̣ ̣πιτε ̣ ̣ ̣[ -ca.?- ] → [ὑ]π̣ο̣δ̣[έ]κ̣τ̣η̣ς ἐπὶ τ[ό]πω̣ν̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2277</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22416">
+                           <seg style="text-decoration: underline;">P.Lips. 1 88</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8</cell>
+                     <cell style="text-align: left;">Σαπρίκου → Σαπρικίου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2278</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/11673">
+                           <seg style="text-decoration: underline;">P.Lond. 2 289</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">11</cell>
+                     <cell style="text-align: left;">τ̣οῦ &lt;τῆς&gt; κώμης → τ̣οῦ κώμης, W.G. Claytor (parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2279</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/11673">
+                           <seg style="text-decoration: underline;">P.Lond. 2 289</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">23</cell>
+                     <cell style="text-align: left;">ὑπογρ(αφὴ) → ὑπογρ(αφεὺς), W.G. Claytor (parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2280</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/11673">
+                           <seg style="text-decoration: underline;">P.Lond. 2 289</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">23</cell>
+                     <cell style="text-align: left;">[τῆς] → τ̣ῆ̣(ς), B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2281</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/28784">
+                           <seg style="text-decoration: underline;">P.Mert. 2 82</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.16</cell>
+                     <cell style="text-align: left;">ῥ[αί]σω BL 5.67 : ῥ[ώ]σω → ῥα̣ΐ̣σω, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2282</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/28784">
+                           <seg style="text-decoration: underline;">P.Mert. 2 82</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.16-17</cell>
+                     <cell style="text-align: left;">ἄσπα|[σαι] → ἀσπά|ζ̣ο̣[υ], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2283</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/21364">
+                           <seg style="text-decoration: underline;">P.Mich. 11 612</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.1</cell>
+                     <cell style="text-align: left;">τοῦ → υἱοῦ, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2284</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/12285">
+                           <seg style="text-decoration: underline;">P.Mich. 11 617</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">ἦ̣ν̣ τ̣ὰ̣ → ἔ̣σ̣χε̣ν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2285</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/12285">
+                           <seg style="text-decoration: underline;">P.Mich. 11 617</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">μηδὲ ἓν {καὶ μηδὲ̣ ἓν} → μηδὲ̣ ἓ̣ν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2286</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/12545">
+                           <seg style="text-decoration: underline;">P.NYU 1 4</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">15</cell>
+                     <cell style="text-align: left;">Πευκῆις → Πεκῦσις, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2287</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/20767">
+                           <seg style="text-decoration: underline;">P.Oxy. 1 108</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.r.14</cell>
+                     <cell style="text-align: left;">γλωσσοπωγώνιον → γλωσσοπωγώνιν l. γλωσσοπωγώνιον, S. Aliberto (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2288</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/20633">
+                           <seg style="text-decoration: underline;">P.Oxy. 3 499</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">ἐμίσθωσεν → ἐμίσθωσεν l. ἐμίσθωσαν, M.G. Elmaghrabi</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2289</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/20360">
+                           <seg style="text-decoration: underline;">P.Oxy. 6 897</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6-7</cell>
+                     <cell style="text-align: left;">Ἰ(ϊ)σείου | Ζαπ̣ί̣τ̣ου → Ἴστρ̣ου | ζ πάγου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2290</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/35600">
+                           <seg style="text-decoration: underline;">P.Oxy. 16 1871</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.3</cell>
+                     <cell style="text-align: left;">ἐνβαλευομεν (l. ἐμβάλωμεν) → κ̣οβαλεύομεν l. κοβαλεύωμεν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2291</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/35600">
+                           <seg style="text-decoration: underline;">P.Oxy. 16 1871</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">→ †, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2292</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22060">
+                           <seg style="text-decoration: underline;">P.Oxy. 16 1959</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.18-22</cell>
+                     <cell style="text-align: left;">παρε[ίλη]φ̣[α]. κυρία ? characters untranscribed | 2 lines untranscribed | ? characters untranscribed Αὐρήλιος Σαραπίων Τιμοθέου | 1 line untranscribed → παρε[ί]λ̣η̣φ̣[α]. κυρία ἡ μίσθωσεις (l. μίσθωσις) ἁ̣πλῆ γραφεῖσα καὶ ἐπερω|τηθεὶς ὡ̣μ̣ο̣λ̣ό̣γ̣ησ̣α. (hand 2) Αὐρήλιος Ἰωάννης υ̣ἱὸς Βάνους ὁ προκ(είμενος) πεποί|η̣[μ]αι τ̣ὴ̣[ν] μί̣σ̣θ̣ω̣σιν̣ καὶ ἀποδώσω τὸ ἐνοίκιον καὶ συμφωνεῖ μοι πάντα | ὡ[ς] π̣ρ̣ό̣κ̣ειται κ̣[α]ὶ̣ ἐ̣πε̣ρ̣(ωτηθεὶς) ὡμολ(όγησα) καὶ ἀπέλυσα. Αὐρήλιος Σαραπίων Τιμοθέου | ἀξιωθεὶς ἔγραψ̣α̣ ὑ̣πὲρ αὐτοῦ γράμματα μὴ εἰδότος., N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2293</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22060">
+                           <seg style="text-decoration: underline;">P.Oxy. 16 1959</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.24</cell>
+                     <cell style="text-align: left;">Traces → Βά̣ν[ο]υ̣ς ἀ̣π̣ὸ Σεν̣ο̣κ(ώμεως) εἰ̣ς τὸν λαμ̣π̣ρ(ότατον) Ἀπφ[ο]ῦ̣ν, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2294</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22162">
+                           <seg style="text-decoration: underline;">P.Oxy. 18 2183</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">πο̣ι̣ήσ̣εσθε → πο̣ι̣ήσ̣ησθε, D. Kaltsas (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2295</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/37944">
+                           <seg style="text-decoration: underline;">P.Oxy. 19 2244</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r2.2</cell>
+                     <cell style="text-align: left;">Ἰ̣οῦς υἱῷ̣ Ι[ ̣ ̣ ̣ ̣] → Ṃουσαίῳ̣ υἱ[ῷ ̣ ̣ ̣ ̣], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2296</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/37944">
+                           <seg style="text-decoration: underline;">P.Oxy. 19 2244</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r2.12</cell>
+                     <cell style="text-align: left;">Κο̣ινῆς → Καινῆς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2297</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/37944">
+                           <seg style="text-decoration: underline;">P.Oxy. 19 2244</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r5.70</cell>
+                     <cell style="text-align: left;">Μύρμικος → Μύρμικος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2298</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/30451">
+                           <seg style="text-decoration: underline;">P.Oxy. 24 2425</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3.9</cell>
+                     <cell style="text-align: left;">κομιά̣τ̣ο̣ι̣ς̣ → κονιαταῖς̣, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2299</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/30391">
+                           <seg style="text-decoration: underline;">P.Oxy. 36 2796</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">Διδύ\μου (μου corr. ex ) → Διδύμ(ου), N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2300</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/16442">
+                           <seg style="text-decoration: underline;">P.Oxy. 42 3043</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">διασημοτάτου → διασημωτάτου l. διασημοτάτου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2301</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/16442">
+                           <seg style="text-decoration: underline;">P.Oxy. 42 3043</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">Ἀμμώνιο̣ς̣ (l. Ἀμμωνίου) → Ἀμμώνις l. Ἀμμωνίου, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2302</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/15765">
+                           <seg style="text-decoration: underline;">P.Oxy. 46 3303</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3-4</cell>
+                     <cell style="text-align: left;">με̣ ̣ ̣ ̣ ̣ ̣ ̣ ̣ ̣ α̣ἰ̣[σ]|θάνομε̣ (l. αἰσθάνομαι) → με̣τ̣έ̣χ̣[ε]ιν̣ [πυ]ν̣|θάνομε̣ l. [πυ]ν|θάνομαι, C. Balamoshev (from image and parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2303</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/15352">
+                           <seg style="text-decoration: underline;">P.Oxy. 51 3619</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2.8</cell>
+                     <cell style="text-align: left;">̣ ̣ ̣α ̣συνε ̣ ̣ ̣ ̣ ̣[ -ca.?- ] → ̣ ̣ας̣ συνεδοκ ̣[ -ca.?- ], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2304</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/15352">
+                           <seg style="text-decoration: underline;">P.Oxy. 51 3619</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">Fr2.23</cell>
+                     <cell style="text-align: left;">̣ζ̣ ̣ ̣ ̣ ̣ ̣ ̣αι → ̣β̣ ̣ ̣ ̣ ̣ ̣αι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2305</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/15352">
+                           <seg style="text-decoration: underline;">P.Oxy. 51 3619</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">Fr2.29</cell>
+                     <cell style="text-align: left;">π̣ράσαντες → ἀ̣[γο]ράσαντες, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2306</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22560">
+                           <seg style="text-decoration: underline;">P.Oxy. 60 4078</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">Α ̣ ̣ ̣ ̣ν̣ο̣ν → Ἀπολ̣λ̣ῶν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2307</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22560">
+                           <seg style="text-decoration: underline;">P.Oxy. 60 4078</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">16</cell>
+                     <cell style="text-align: left;">ἐ[π]ιδέ̣δωκα → ἐ[π]ιδέ̣δωκε, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2308</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22563">
+                           <seg style="text-decoration: underline;">P.Oxy. 60 4082</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">17</cell>
+                     <cell style="text-align: left;">̣ν̣επεπ̣οντινε̣ν → ̣ν̣ ἐπεπόντινεν l. πέπονθεν (or ἐπεπόνθει), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2309</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/112445">
+                           <seg style="text-decoration: underline;">P.Oxy. 71 4830</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.5-6</cell>
+                     <cell style="text-align: left;">λαμ|προτάτης → λαμπρο|τάτης, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2310</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/112445">
+                           <seg style="text-decoration: underline;">P.Oxy. 71 4830</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.7</cell>
+                     <cell style="text-align: left;">Θεωνο ̣ ̣ (or Θεωνοῦ̣ς̣ (l. Θεωνοῦτος)) → Θε\ο/νόη̣ς̣ corr. ex Θεωνόη̣ς̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2311</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/112445">
+                           <seg style="text-decoration: underline;">P.Oxy. 71 4830</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.14</cell>
+                     <cell style="text-align: left;">Θεονο ̣ (l. Θεωνο ̣) → Θεονόη̣ς̣, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2312</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/111092">
+                           <seg style="text-decoration: underline;">P.Pintaudi 20</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">vi.63</cell>
+                     <cell style="text-align: left;">ηὑρήμην ἀεὶ τὸ σεισμῶν̣[ -ca.?- ] → Ἥρη τ̣’ ἠδὲ Ποσειδάων̣ κ̣[αὶ Παλλὰς Ἀθήνη], R. Vecchiato (P.Pintaudi, Tavola XXI)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2313</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/37490">
+                           <seg style="text-decoration: underline;">P.Prag. 2 181</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">καριδί(ων) N. Gonis, APF 70 (2024) 145 : καρ(πῶν) → καρίδ(ος), N. Gonis (suggested by F. Morelli)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2314</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/12844">
+                           <seg style="text-decoration: underline;">P.Princ. 3 124</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">μεταβλειθείσης → μεταβληθείσης, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2315</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/12844">
+                           <seg style="text-decoration: underline;">P.Princ. 3 124</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">κατʼ → καθʼ, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2316</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/12844">
+                           <seg style="text-decoration: underline;">P.Princ. 3 124</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">19</cell>
+                     <cell style="text-align: left;">[ Ἰσ]χυρίωνος → [Ἰσ]χ̣υ̣ρ̣ίωνο(ς), W.G. Claytor (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2317</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17263">
+                           <seg style="text-decoration: underline;">P.Princ. 3 133</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">[Π]τολμίω(ν) → [Ε]ὐ̣τολμίῳ l. [Ε]ὐτόλμιος, N. Gonis (from photo; cf. BL 3.153)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2318</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17263">
+                           <seg style="text-decoration: underline;">P.Princ. 3 133</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">ἐξηγητὴς → ἐξηγητὴς corr. ex εξηγητη, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2319</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17263">
+                           <seg style="text-decoration: underline;">P.Princ. 3 133</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">[λ]αμπρο(τάτης) → [λ]α̣μ(προτάτης), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2320</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17263">
+                           <seg style="text-decoration: underline;">P.Princ. 3 133</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">χρημά(των) → χρημ(άτων), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2321</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17263">
+                           <seg style="text-decoration: underline;">P.Princ. 3 133</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">9</cell>
+                     <cell style="text-align: left;">[ ̣ ̣ ̣ ̣ ̣ το]ῦ μ[ην]ὸς → [ ̣ ̣ ̣ ̣ ̣ ̣ ̣] ̣ μ̣η̣ν̣ὸς, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2322</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17263">
+                           <seg style="text-decoration: underline;">P.Princ. 3 133</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">16</cell>
+                     <cell style="text-align: left;">[καὶ (ἔτους) ια] → καὶ (ἔτους) ια, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2323</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/32752">
+                           <seg style="text-decoration: underline;">P.Princ. 3 135</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.1</cell>
+                     <cell style="text-align: left;">̣ ̣ρουβος → Δ̣ωρόθ̣εος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2324</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/32752">
+                           <seg style="text-decoration: underline;">P.Princ. 3 135</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.20</cell>
+                     <cell style="text-align: left;">Ἄπιος → Ἄλ̣ιος, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2325</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/32752">
+                           <seg style="text-decoration: underline;">P.Princ. 3 135</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.20</cell>
+                     <cell style="text-align: left;">Κυν̣ά̣ρου N. Gonis, ZPE 232 (2024) 229 : Κηπάρου → κηπο[υ]ρ̣ός, C. Balamoshev</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2326</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17276">
+                           <seg style="text-decoration: underline;">P.Princ. 3 183</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.11</cell>
+                     <cell style="text-align: left;">[ -ca.?- ]λ̣ο̣τ̣ο̣ν̣τ̣ο̣ν̣ → [ -ca.?- ] κ̣ἂν νῦν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2327</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17276">
+                           <seg style="text-decoration: underline;">P.Princ. 3 183</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.17</cell>
+                     <cell style="text-align: left;">χρόνῳ → χρόνου l. χρόνῳ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2328</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/27756">
+                           <seg style="text-decoration: underline;">P.Stras. 1 77</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">συναπ̣[ ̣ ̣ ̣] → συναγ̣ο̣(ραστικὸν(?)) [ ̣ ̣ ̣], N. Litinas</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2329</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/13167">
+                           <seg style="text-decoration: underline;">P.Stras. 3 131</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">18-19</cell>
+                     <cell style="text-align: left;">ἐκ τοιούτ[ ̣ ̣] ̣ | [ -ca.?- ]κ ̣ ̣ ̣ ̣ ̣[ -ca.?- ] BL 5.131 : ἐκ τ ̣ου̣ ̣[ ̣ ̣] ̣ | [ -ca.?- ]κ ̣ ̣ ̣ ̣ ̣[ -ca.?- ] → ἐκ τε̣ τοῦ ὁ̣[μο]λ̣[ογοῦ|ντος Λεοντίου καὶ ἐκ τῶν ὑπαρχόντων αὐτῷ πάντω]ν̣ καθά̣π̣ε̣ρ̣ [ἐ]κ̣ [δίκης] ̣ ̣[ -ca.?- ], A. Stornaiuolo (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2330</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/78771">
+                           <seg style="text-decoration: underline;">P.Tebt. 1 37</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.1</cell>
+                     <cell style="text-align: left;">Ἀπόλλων → Ἀπολλῶς, R. Vecchiato (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2331</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/31360">
+                           <seg style="text-decoration: underline;">P.Tebt. 2 416</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.24</cell>
+                     <cell style="text-align: left;">[π]α̣ρὰ → π̣(αρὰ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2332</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17166">
+                           <seg style="text-decoration: underline;">P.Vind.Sijp. 3</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4</cell>
+                     <cell style="text-align: left;">ἀ̣ρχ̣ε̣φ̣[όδο]υ ἑξ(ῆς) BL 8.199 : Ἁ̣ρ̣σ̣ι̣ε̣φ̣ → ̣ ̣ ̣ ̣ ἑξ(ῆς), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2333</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17166">
+                           <seg style="text-decoration: underline;">P.Vind.Sijp. 3</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.6</cell>
+                     <cell style="text-align: left;">λ̣ιβός → λιβό&lt;ς&gt;, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2334</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/19297">
+                           <seg style="text-decoration: underline;">PSI 5 451</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1.13-14</cell>
+                     <cell style="text-align: left;">[] ̣ κλήρου ε ̣ ̣ | [ -ca.?- ] → [ ̣ ̣ ̣ἐξ ὁλ]ο̣κλήρου ἐν̣[τά|ξας (?) -ca.?- ], C. Balamoshev (from image and parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2335</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/2148">
+                           <seg style="text-decoration: underline;">PSI 5 526</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.4</cell>
+                     <cell style="text-align: left;">τόσον → πόσον, J.D. Sosin (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2336</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17650">
+                           <seg style="text-decoration: underline;">PSI 7 740</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">γεινάμμενα BL 8.401 : γεινά⟦μ⟧μανα (l. γεινάμενα) → γεγναμμένα l. γεγενημένα, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2337</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17650">
+                           <seg style="text-decoration: underline;">PSI 7 740</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">13</cell>
+                     <cell style="text-align: left;">Σαραπί[ω]ν ̣ ̣ ̣ ̣ ̣ → Σαραπί[ω]νος ̣ ̣ ̣ l. Σαραπί[ω]ν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2338</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17650">
+                           <seg style="text-decoration: underline;">PSI 7 740</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">14</cell>
+                     <cell style="text-align: left;">Η̣ ̣ ̣ ̣ ̣[ -ca.?- εὐδοκῶ] → Αὐρή̣λ̣ιο̣[ς -ca.?- εὐδοκῶ], C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2339</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17654">
+                           <seg style="text-decoration: underline;">PSI 7 771</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">γεναμένην → γενομένην, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2340</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/35100">
+                           <seg style="text-decoration: underline;">PSI 7 843</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">15</cell>
+                     <cell style="text-align: left;">ὑ̣πολύ̣σωμεν → ἀπολύσωμεν, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2341</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/13857">
+                           <seg style="text-decoration: underline;">PSI 10 1145</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">→ [ -ca.?- ] ̣[ ̣ ̣], M. G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2342</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/13857">
+                           <seg style="text-decoration: underline;">PSI 10 1145</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">21</cell>
+                     <cell style="text-align: left;">Ὀννώφρι → Ὠννώφρι l. Ὀννώφρι, M. G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2343</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/13857">
+                           <seg style="text-decoration: underline;">PSI 10 1145</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">26</cell>
+                     <cell style="text-align: left;">[πρόκ]ιτε. → [πρό]κ̣ιτε l. [πρό]κ̣ειται, M. G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2344</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/13857">
+                           <seg style="text-decoration: underline;">PSI 10 1145</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">26</cell>
+                     <cell style="text-align: left;">→ Πανήσις {Πανησις}, M. G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2345</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17419">
+                           <seg style="text-decoration: underline;">PSI 12 1262</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3.13-14</cell>
+                     <cell style="text-align: left;">συναγο̣&lt;ρα&gt;|σίας (πυροῦ) → συναγο(ραστικὸν(?)) | δ̣ιὰ σι(τολoγίας), Nikos Litinas (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2346</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/13873">
+                           <seg style="text-decoration: underline;">PSI 13 1323</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">ἐ̣πά̣ρ̣[χου(?) δ]ικαίου → ἐ̣π’ ἄ̣κ̣ρ̣[ο]ν̣ δ̣ικαίου, N. Gonis (from photo); cf. U. Yiftach, Tyche 35 (2020) 214 and C. Balamoshev, ZPE 236 (2025) 227-228</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2347</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/30475">
+                           <seg style="text-decoration: underline;">PSI 14 1443</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">ἀντεβλήψην (l. ἀντεβλήθη ) → ἀντεβλήθ̣ην l. ἀντεβλήθη, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2348</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/1000279">
+                           <seg style="text-decoration: underline;">Pylon 7 7</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">̣ο̣[ -ca.?- ] → τ̣ο̣[ῦ Ὀξυρυγχίτου νομοῦ -ca.?- ], E. Avdoulou (from photo and parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2349</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23084">
+                           <seg style="text-decoration: underline;">SB 1 3924</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">ἀναγκαῖον → ἀνανκαῖον l. ἀναγκαῖον, M. G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2350</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/23084">
+                           <seg style="text-decoration: underline;">SB 1 3924</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">44</cell>
+                     <cell style="text-align: left;">ἀναγκᾶτέ → ἀνανκᾶτέ l. ἀναγκᾶτέ, M. G. Elmaghrabi (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2351</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/18054">
+                           <seg style="text-decoration: underline;">SB 4 7445</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">14-15</cell>
+                     <cell style="text-align: left;">μυ|ρ⟦α⟧(ιάδας) BL 7.194 : μυ|ρ[ί]ας → μυ|ρας l. μυ|ριάδας, N. Gonis (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2352</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/27328">
+                           <seg style="text-decoration: underline;">SB 5 7572</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">v.22</cell>
+                     <cell style="text-align: left;">ἀπ̣όδος → ἀπόδες l. ἀπόδος, C. Molinaro (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2353</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/17855">
+                           <seg style="text-decoration: underline;">SB 6 9129</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10-11</cell>
+                     <cell style="text-align: left;">[γε]|νημάτ̣[ων] → [γε]|νήματος̣, N. Gonis (from image, after BL 10.196)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2354</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22928">
+                           <seg style="text-decoration: underline;">SB 8 9905</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">Σ̣ερήφεως → Ἑ̣ρήσεως, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2355</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/22928">
+                           <seg style="text-decoration: underline;">SB 8 9905</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">10</cell>
+                     <cell style="text-align: left;">α ̣ίῳ → ἀξιῶ, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2356</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14300">
+                           <seg style="text-decoration: underline;">SB 8 9924d</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">Ἀπ( ) → ἀπ(άτωρ), W. Graham Claytor (parallels)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2357</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14335">
+                           <seg style="text-decoration: underline;">SB 10 10760</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">καὶ Ετρω ̣ ̣ ̣ → κ(αὶ) Π̣ετρών̣ιο(ς), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2358</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14335">
+                           <seg style="text-decoration: underline;">SB 10 10760</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">Δα̣ισ( ) → Θαισ( ), B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2359</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14335">
+                           <seg style="text-decoration: underline;">SB 10 10760</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">λαογρ(αφίας) → (ὑπὲρ(?)) λαογ(ραφίας), B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2360</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14335">
+                           <seg style="text-decoration: underline;">SB 10 10760</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">[(δραχμὰς) εἴ]κοσι → (δραχμὰς) εἴκ̣[ο]σ̣ι̣, B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2361</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/34848">
+                           <seg style="text-decoration: underline;">SB 12 10939</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">ἀ̣π̣ὸ̣ [χωρ]ί̣[ο]υ̣ → ἀ̣π̣[ὸ κώ]μ̣η̣ς, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2362</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/16365">
+                           <seg style="text-decoration: underline;">SB 12 10967</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2.26</cell>
+                     <cell style="text-align: left;">τηρεῖται τόδε· → τηρεῖται· τὸ δὲ, C. Balamoshev</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2363</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14438">
+                           <seg style="text-decoration: underline;">SB 14 11374</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">Ἀρσινοίτου Θε(μίστου) → Ἀρσι(νοΐτου) Θεμ(ίστου), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2364</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14438">
+                           <seg style="text-decoration: underline;">SB 14 11374</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">17</cell>
+                     <cell style="text-align: left;">κατ̣[αβα]ρεῖσθαι → βαρεῖσθαι, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2365</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/15527">
+                           <seg style="text-decoration: underline;">SB 14 12050</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.27</cell>
+                     <cell style="text-align: left;">μίσθω[σιν] → μίσθω[σιν πάντων], Laudenbach (from parallels and photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2366</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/30265">
+                           <seg style="text-decoration: underline;">SB 16 12291</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r.8</cell>
+                     <cell style="text-align: left;">σ → ϛ, A. Stornaiuolo (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2367</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/16263">
+                           <seg style="text-decoration: underline;">SB 16 12544</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">κερωματικ(οῦ) → κη̣ρωματικ(οῦ), C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2368</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/32981">
+                           <seg style="text-decoration: underline;">SB 18 13307</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">13</cell>
+                     <cell style="text-align: left;">̣η̣ρήσεως → τ̣ηρήσεως, C. Balamoshev (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2369</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14752">
+                           <seg style="text-decoration: underline;">SB 18 13637</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: left;">Θωὺ̣τ κ̣ → Θωθ με(τὰ λόγον) β̣, F. Reiter (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2370</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14752">
+                           <seg style="text-decoration: underline;">SB 18 13637</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">3</cell>
+                     <cell style="text-align: left;">Αὐ̣σ̣ε̣ίο(υ) το(ῦ) Αὐ̣σ̣ε̣ί̣ο(υ) → Αὐνείο(υς) το(ῦ) Αὐνε̣ί̣ο(υς), B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2371</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14752">
+                           <seg style="text-decoration: underline;">SB 18 13637</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">Θωὺ̣τ κ̣ → Θωθ με(τὰ λόγον) β̣, F. Reiter (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2372</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14752">
+                           <seg style="text-decoration: underline;">SB 18 13637</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">8</cell>
+                     <cell style="text-align: left;">Φ ̣ ̣ ̣σις → Φω̣μ̣ε̣ά̣εις, F. Reiter (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2373</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14752">
+                           <seg style="text-decoration: underline;">SB 18 13637</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">12</cell>
+                     <cell style="text-align: left;">Θωὺ̣τ κ̣ → Θωθ με(τὰ λόγον) β̣, F. Reiter (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2374</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/14752">
+                           <seg style="text-decoration: underline;">SB 18 13637</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">14</cell>
+                     <cell style="text-align: left;">Παπνεῦτ(ος) → Παπνεβτ(ύνεως), N. Litinas (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2375</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/18378">
+                           <seg style="text-decoration: underline;">SB 18 13948</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">r1.6</cell>
+                     <cell style="text-align: left;">→ ἀκακουργητον ἀρτάβας χιλ̣ί̣α̣ς̣, A. Verhoogt (from original)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2376</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/7881">
+                           <seg style="text-decoration: underline;">SB 20 14179</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">4</cell>
+                     <cell style="text-align: left;">π̣α̣ρειλημμένων → ἀ̣νειλημμένων, R. Vecchiato (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2377</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/38246">
+                           <seg style="text-decoration: underline;">SB 22 15489</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">21</cell>
+                     <cell style="text-align: left;">κανών[ος] (l. κανόν[ος]) → κανωνι̣[κῶν] l. κανονι[κῶν], N. Gonis (see JJP 23, 1993, 140, and image)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2378</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/133317">
+                           <seg style="text-decoration: underline;">SB 30 17431</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">1</cell>
+                     <cell style="text-align: left;">[μετὰ τὴν ὑπατείαν] → [μετὰ τὴν ὑπατείαν] or [ὑπατείας], N. Gonis</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2379</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/15031">
+                           <seg style="text-decoration: underline;">Stud.Pal. 22 102v</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: left;">̣τοτος → Θ̣ασῆτος, B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2380</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/15086">
+                           <seg style="text-decoration: underline;">Stud.Pal. 22 171</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">7</cell>
+                     <cell style="text-align: left;">σ(υμβολικοῦ) (τριώβολον) → \σ(υμβολικοῦ) (τριώβολον)/, B. Borrelli (from photo)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: right;">2381</cell>
+                     <cell style="text-align: left;">
+                        <ref target="http://papyri.info/current/703033">
+                           <seg style="text-decoration: underline;">ZPE 204 183</seg>
+                        </ref>
+                     </cell>
+                     <cell style="text-align: right;">6</cell>
+                     <cell style="text-align: left;">ποησάμ̣[ενος] → ποησάμ̣[ενον], D. Kaltsas</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                     <cell style="text-align: left;"/>
+                  </row>
+               </table>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
